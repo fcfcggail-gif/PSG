@@ -124,9 +124,8 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🚩 CF | 🔒 VMESS | @mowjproxy [1]",
-                "🇫🇷 FR | 🔒 VMESS | @mowjproxy [2]",
-                "🇮🇷 IR | 🔓 VMESS | @mowjproxy [3]",
+                "🇮🇷 IR | 🔓 VMESS | @mowjproxy [2]",
+                "🇫🇷 FR | 🔒 VMESS | @mowjproxy [4]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🇭🇰 HK | 🔓 VMESS | @netfreedom0 [20]",
@@ -169,6 +168,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🇸🇪 SE | 🔓 VMESS | @v2rayprotocol [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayturbo [7]",
+                "🇩🇪 DE | 🔓 VMESS | @vmesc [19]",
                 "🇳🇱 NL | 🔓 VMESS | @vpn_ioss [13]",
                 "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [19]",
                 "🇨🇦 CA | 🔒 VMESS | @vpnfail_v2ray [20]",
@@ -230,9 +230,8 @@
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [2]",
                 "🚩 CF | 🔒 VMESS | @mi_pn_official [3]",
                 "❔ XX | 🔓 VMESS | @migping [1]",
-                "🚩 CF | 🔒 VMESS | @mowjproxy [1]",
-                "🇫🇷 FR | 🔒 VMESS | @mowjproxy [2]",
-                "🇮🇷 IR | 🔓 VMESS | @mowjproxy [3]",
+                "🇮🇷 IR | 🔓 VMESS | @mowjproxy [2]",
+                "🇫🇷 FR | 🔒 VMESS | @mowjproxy [4]",
                 "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🇭🇰 HK | 🔓 VMESS | @netfreedom0 [20]",
@@ -275,6 +274,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🇸🇪 SE | 🔓 VMESS | @v2rayprotocol [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayturbo [7]",
+                "🇩🇪 DE | 🔓 VMESS | @vmesc [19]",
                 "🇳🇱 NL | 🔓 VMESS | @vpn_ioss [13]",
                 "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [19]",
                 "🇨🇦 CA | 🔒 VMESS | @vpnfail_v2ray [20]",
@@ -1063,32 +1063,16 @@
             "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔒 VMESS | @mowjproxy [1]",
+            "tag": "🇮🇷 IR | 🔓 VMESS | @mowjproxy [2]",
             "type": "vmess",
-            "server": "104.17.148.22",
-            "server_port": 2083,
-            "uuid": "8ae65664-84e8-40e1-9708-9236f0808dfd",
+            "server": "s1.cloudflare4ward.com",
+            "server_port": 2087,
+            "uuid": "3eb5ac18-7942-4ce4-93c9-a33bf0efc2ab",
             "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "api3.waltonweb.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/panel?ed=2560",
-                "headers": {
-                    "Host": "api3.waltonweb.ir"
-                }
-            }
+            "alter_id": 0
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VMESS | @mowjproxy [2]",
+            "tag": "🇫🇷 FR | 🔒 VMESS | @mowjproxy [4]",
             "type": "vmess",
             "server": "91.134.8.100",
             "server_port": 443,
@@ -1111,15 +1095,6 @@
                     "Host": "kampong.org"
                 }
             }
-        },
-        {
-            "tag": "🇮🇷 IR | 🔓 VMESS | @mowjproxy [3]",
-            "type": "vmess",
-            "server": "s1.cloudflare4ward.com",
-            "server_port": 2087,
-            "uuid": "3eb5ac18-7942-4ce4-93c9-a33bf0efc2ab",
-            "security": "auto",
-            "alter_id": 0
         },
         {
             "tag": "🇩🇪 DE | 🔓 VMESS | @msv2flyng [12]",
@@ -1784,6 +1759,15 @@
             "server": "128.140.112.151",
             "server_port": 3030,
             "uuid": "410be941-c55a-4cec-9596-761076ea6c60",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VMESS | @vmesc [19]",
+            "type": "vmess",
+            "server": "155.254.35.160",
+            "server_port": 29912,
+            "uuid": "572b097f-e5b6-4050-8f70-2ad6979c093b",
             "security": "auto",
             "alter_id": 0
         },
