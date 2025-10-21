@@ -98,7 +98,7 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "❔ XX | 🔓 VMESS | @config_proxy [45]",
+                "🇺🇸 US | 🔒 VMESS | @config_proxy [46]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇳🇱 NL | 🔓 VMESS | @custom_14 [6]",
@@ -125,7 +125,7 @@
                 "❔ XX | 🔓 VMESS | @khoneproxy [14]",
                 "🇬🇧 GB | 🔓 VMESS | @khoneproxy [15]",
                 "🇮🇷 IR | 🔓 VMESS | @komail315 [4]",
-                "🇬🇧 GB | 🔒 VMESS | @kurdistan_vpn_perfectt [10]",
+                "🇩🇪 DE | 🔒 VMESS | @kurdistan_vpn_perfectt [10]",
                 "🇩🇪 DE | 🔓 VMESS | @magickey_shop [2]",
                 "❔ XX | 🔓 VMESS | @mahsaproxy [2]",
                 "❔ XX | 🔓 VMESS | @mahsaproxy [3]",
@@ -159,7 +159,7 @@
                 "🚩 CF | 🔒 VMESS | @serverv2ray00 [19]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇩🇪 DE | 🔓 VMESS | @v222ray [10]",
-                "🇨🇦 CA | 🔒 VMESS | @v2aryng_vpn [13]",
+                "🇩🇪 DE | 🔒 VMESS | @v2aryng_vpn [13]",
                 "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
@@ -204,7 +204,7 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "❔ XX | 🔓 VMESS | @config_proxy [45]",
+                "🇺🇸 US | 🔒 VMESS | @config_proxy [46]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇳🇱 NL | 🔓 VMESS | @custom_14 [6]",
@@ -231,7 +231,7 @@
                 "❔ XX | 🔓 VMESS | @khoneproxy [14]",
                 "🇬🇧 GB | 🔓 VMESS | @khoneproxy [15]",
                 "🇮🇷 IR | 🔓 VMESS | @komail315 [4]",
-                "🇬🇧 GB | 🔒 VMESS | @kurdistan_vpn_perfectt [10]",
+                "🇩🇪 DE | 🔒 VMESS | @kurdistan_vpn_perfectt [10]",
                 "🇩🇪 DE | 🔓 VMESS | @magickey_shop [2]",
                 "❔ XX | 🔓 VMESS | @mahsaproxy [2]",
                 "❔ XX | 🔓 VMESS | @mahsaproxy [3]",
@@ -265,7 +265,7 @@
                 "🚩 CF | 🔒 VMESS | @serverv2ray00 [19]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇩🇪 DE | 🔓 VMESS | @v222ray [10]",
-                "🇨🇦 CA | 🔒 VMESS | @v2aryng_vpn [13]",
+                "🇩🇪 DE | 🔒 VMESS | @v2aryng_vpn [13]",
                 "🚩 CF | 🔒 VMESS | @v2ray4win [6]",
                 "❔ XX | 🔒 VMESS | @v2ray4win [7]",
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
@@ -480,13 +480,29 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VMESS | @config_proxy [45]",
+            "tag": "🇺🇸 US | 🔒 VMESS | @config_proxy [46]",
             "type": "vmess",
-            "server": "127.0.0.1",
-            "server_port": 1080,
-            "uuid": "acbaabc-baac-aacb-cadb-cabcbacbabca",
+            "server": "lammaland.org",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 0
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "lammaland.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws?ed=2048@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN--@HiByeVPNN",
+                "headers": {
+                    "Host": "lammaland.org"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -877,7 +893,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VMESS | @kurdistan_vpn_perfectt [10]",
+            "tag": "🇩🇪 DE | 🔒 VMESS | @kurdistan_vpn_perfectt [10]",
             "type": "vmess",
             "server": "putihb.org",
             "server_port": 443,
@@ -1428,7 +1444,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔒 VMESS | @v2aryng_vpn [13]",
+            "tag": "🇩🇪 DE | 🔒 VMESS | @v2aryng_vpn [13]",
             "type": "vmess",
             "server": "serkat.org",
             "server_port": 443,
