@@ -96,7 +96,6 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [2]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [47]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -111,7 +110,7 @@
                 "❔ XX | 🔓 VLESS | @vmesskhodam [11]",
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [48]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [46]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [13]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
@@ -139,6 +138,7 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [11]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [15]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [17]",
+                "🇺🇸 US | 🔓 VLESS | @nofiltering2 [19]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [2]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [3]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [5]",
@@ -186,7 +186,6 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [2]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [47]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -201,7 +200,7 @@
                 "❔ XX | 🔓 VLESS | @vmesskhodam [11]",
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [13]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [48]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [46]",
                 "🇫🇮 FI | 🔒 VLESS | @evay_vpn [13]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
@@ -229,6 +228,7 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [11]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [15]",
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [17]",
+                "🇺🇸 US | 🔓 VLESS | @nofiltering2 [19]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [2]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [3]",
                 "🇩🇪 DE | 🔒 VLESS | @parsashonam [5]",
@@ -380,15 +380,6 @@
             "server": "www.speedtest.net",
             "server_port": 2082,
             "uuid": "59019308-2af1-475f-e12e-9d11e6040e3d",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [47]",
-            "type": "vless",
-            "server": "srcvpn.fast.hosting-ip.com",
-            "server_port": 80,
-            "uuid": "16c240d5-52d0-4863-bd24-b816df3a1fa0",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -560,13 +551,22 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [48]",
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [46]",
             "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "16c240d5-52d0-4863-bd24-b816df3a1fa0",
+            "server": "91.99.83.179",
+            "server_port": 443,
+            "uuid": "ee845a26-9d15-4cac-b3a0-fc0c0c8135af",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.99.83.179",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇫🇮 FI | 🔒 VLESS | @evay_vpn [13]",
@@ -1008,6 +1008,15 @@
             "server": "151.101.3.8",
             "server_port": 80,
             "uuid": "e501ed5e-6ca5-4039-be37-4d3aa6709d83",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @nofiltering2 [19]",
+            "type": "vless",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "16c240d5-52d0-4863-bd24-b816df3a1fa0",
             "flow": "",
             "packet_encoding": "xudp"
         },
