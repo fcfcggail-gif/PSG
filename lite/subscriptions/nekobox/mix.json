@@ -101,9 +101,9 @@
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🇸🇪 SE | 🔓 VMESS | @config_proxy [37]",
-                "🚩 CF | 🔒 VMESS | @config_proxy [38]",
-                "🇮🇷 IR | 🔓 VMESS | @config_proxy [39]",
+                "🇫🇷 FR | 🔓 VLESS | @config_proxy [37]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [39]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
@@ -212,8 +212,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇺🇸 US | 🔒 SS | @hope_net [18]",
-                "🇹🇼 TW | 🔓 VMESS | @hope_net [20]",
+                "🇭🇺 HU | 🔒 SS | @hope_net [18]",
+                "🇩🇪 DE | 🔒 VMESS | @hope_net [19]",
+                "🇩🇪 DE | 🔒 TROJAN | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -641,9 +642,9 @@
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🇸🇪 SE | 🔓 VMESS | @config_proxy [37]",
-                "🚩 CF | 🔒 VMESS | @config_proxy [38]",
-                "🇮🇷 IR | 🔓 VMESS | @config_proxy [39]",
+                "🇫🇷 FR | 🔓 VLESS | @config_proxy [37]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [39]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
@@ -752,8 +753,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇺🇸 US | 🔒 SS | @hope_net [18]",
-                "🇹🇼 TW | 🔓 VMESS | @hope_net [20]",
+                "🇭🇺 HU | 🔒 SS | @hope_net [18]",
+                "🇩🇪 DE | 🔒 VMESS | @hope_net [19]",
+                "🇩🇪 DE | 🔒 TROJAN | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -1599,63 +1601,61 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔓 VMESS | @config_proxy [37]",
-            "type": "vmess",
-            "server": "185.146.173.129",
+            "tag": "🇫🇷 FR | 🔓 VLESS | @config_proxy [37]",
+            "type": "vless",
+            "server": "dl5-fr4-cdn.fastfilecdn.org",
+            "server_port": 2052,
+            "uuid": "8ef1b0db-5954-447c-85e5-4f62b107ed61",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "dl5-fr4-cdn.fastfilecdn.org"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [38]",
+            "type": "vless",
+            "server": "162.19.175.55",
+            "server_port": 9954,
+            "uuid": "c5374593-04b2-c71b-536d-1402e60d4207",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [39]",
+            "type": "vless",
+            "server": "104.21.62.144",
             "server_port": 443,
-            "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f",
-            "security": "auto",
-            "alter_id": 0,
+            "uuid": "040ec06e-60c8-4818-a46e-eb17cf310606",
+            "flow": "",
+            "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "nt-haze-7dad.rogap16875.workers.dev",
+                "server_name": "sauron.melkore.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/afrhms16v.bestxray.buzz/linkws",
-                "headers": {
-                    "Host": "nt-haze-7dad.rogap16875.workers.dev"
-                }
             }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VMESS | @config_proxy [38]",
-            "type": "vmess",
-            "server": "info.andishehnegariran.ir",
-            "server_port": 8443,
-            "uuid": "4024c484-957a-434b-a861-3285569d0bea",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "info.andishehnegariran.ir",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/🆔@M3HDIO1",
-                "headers": {
-                    "Host": "info.andishehnegariran.ir"
-                }
-            }
-        },
-        {
-            "tag": "🇮🇷 IR | 🔓 VMESS | @config_proxy [39]",
-            "type": "vmess",
-            "server": "l.numberone.sbs",
-            "server_port": 34650,
-            "uuid": "8a097ae2-eefb-4993-b54b-2f53f633eb52",
-            "security": "auto",
-            "alter_id": 0
         },
         {
             "tag": "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
@@ -3397,24 +3397,24 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 SS | @hope_net [18]",
+            "tag": "🇭🇺 HU | 🔒 SS | @hope_net [18]",
             "type": "shadowsocks",
-            "server": "38.114.114.69",
-            "server_port": 4444,
-            "method": "aes-256-gcm",
-            "password": "pKEW8JPByTVTLtM"
+            "server": "91.219.237.102",
+            "server_port": 990,
+            "method": "chacha20-ietf-poly1305",
+            "password": "f8f7aCzcPKbsF8p3"
         },
         {
-            "tag": "🇹🇼 TW | 🔓 VMESS | @hope_net [20]",
+            "tag": "🇩🇪 DE | 🔒 VMESS | @hope_net [19]",
             "type": "vmess",
-            "server": "103.177.33.19",
-            "server_port": 30013,
-            "uuid": "418048af-a293-4b99-9b0c-98ca3580dd24",
+            "server": "serkat.org",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
-            "alter_id": 64,
+            "alter_id": 1,
             "tls": {
                 "enabled": true,
-                "server_name": "www.35709620.xyz",
+                "server_name": "serkat.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -3423,9 +3423,25 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/path/351212081517",
+                "path": "/linkvws",
                 "headers": {
-                    "Host": "www.35709620.xyz"
+                    "Host": "serkat.org"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "3.72.132.185",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },

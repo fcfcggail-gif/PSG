@@ -109,7 +109,8 @@
                 "❔ XX | 🔓 VLESS | @vmesskhodam [11]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [2]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [30]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [31]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [39]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -198,7 +199,8 @@
                 "❔ XX | 🔓 VLESS | @vmesskhodam [11]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [2]",
-                "🇩🇪 DE | 🔒 VLESS | @config_proxy [30]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [31]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [39]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [6]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -526,25 +528,29 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [30]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [31]",
             "type": "vless",
-            "server": "91.99.179.233",
+            "server": "151.101.3.8",
+            "server_port": 80,
+            "uuid": "caa50ea0-496d-49c7-9d42-a5ac248a2baa",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [39]",
+            "type": "vless",
+            "server": "104.21.62.144",
             "server_port": 443,
-            "uuid": "Parsashonam-318",
-            "flow": "xtls-rprx-vision",
+            "uuid": "040ec06e-60c8-4818-a46e-eb17cf310606",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "google.com",
+                "server_name": "sauron.melkore.ir",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "LOi-3brURXBaOe83KFpaKZ5A4exl3J9qjeZIIWa8GCQ",
-                    "short_id": "0a8b4a1ad485"
                 }
             }
         },
