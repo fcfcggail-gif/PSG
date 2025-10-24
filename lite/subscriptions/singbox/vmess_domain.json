@@ -98,7 +98,8 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🇺🇸 US | 🔓 VMESS | @config_proxy [51]",
+                "🇬🇧 GB | 🔒 VMESS | @config_proxy [48]",
+                "🇺🇸 US | 🔓 VMESS | @config_proxy [49]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇳🇱 NL | 🔓 VMESS | @custom_14 [6]",
@@ -116,8 +117,7 @@
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
                 "🚩 CF | 🔓 VMESS | @hope_net [18]",
-                "🚩 CF | 🔓 VMESS | @hope_net [19]",
-                "🚩 CF | 🔓 VMESS | @hope_net [20]",
+                "🇺🇸 US | 🔓 VMESS | @hope_net [20]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -199,7 +199,8 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🇺🇸 US | 🔓 VMESS | @config_proxy [51]",
+                "🇬🇧 GB | 🔒 VMESS | @config_proxy [48]",
+                "🇺🇸 US | 🔓 VMESS | @config_proxy [49]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [10]",
                 "🇳🇱 NL | 🔓 VMESS | @custom_14 [6]",
@@ -217,8 +218,7 @@
                 "🇫🇷 FR | 🔓 VMESS | @garnet_free [10]",
                 "🇮🇷 IR | 🔓 VMESS | @goldenvpn_v2rayy [2]",
                 "🚩 CF | 🔓 VMESS | @hope_net [18]",
-                "🚩 CF | 🔓 VMESS | @hope_net [19]",
-                "🚩 CF | 🔓 VMESS | @hope_net [20]",
+                "🇺🇸 US | 🔓 VMESS | @hope_net [20]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [12]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [14]",
                 "🚩 CF | 🔒 VMESS | @iranvpnet [1]",
@@ -470,11 +470,36 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @config_proxy [51]",
+            "tag": "🇬🇧 GB | 🔒 VMESS | @config_proxy [48]",
+            "type": "vmess",
+            "server": "jamekk.org",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "jamekk.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "jamekk.org"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @config_proxy [49]",
             "type": "vmess",
             "server": "jpcft01.xqc.best",
             "server_port": 443,
-            "uuid": "dbdb6b65-5515-47e5-bb31-3adadb4c8371",
+            "uuid": "17fd275a-9850-4ca9-97b8-ef53abc66e5e",
             "security": "auto",
             "alter_id": 0,
             "tls": {
@@ -758,38 +783,6 @@
         {
             "tag": "🚩 CF | 🔓 VMESS | @hope_net [18]",
             "type": "vmess",
-            "server": "104.19.45.11",
-            "server_port": 2082,
-            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "104.19.45.11"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VMESS | @hope_net [19]",
-            "type": "vmess",
-            "server": "104.17.106.151",
-            "server_port": 2082,
-            "uuid": "5f3f09ad-89cb-4e94-a7ad-aa8239913555",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/github.com/Alvin9999",
-                "headers": {
-                    "Host": "104.17.106.151"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VMESS | @hope_net [20]",
-            "type": "vmess",
             "server": "172.64.166.2",
             "server_port": 2095,
             "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
@@ -800,6 +793,31 @@
                 "path": "/github.com/Alvin9999",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @hope_net [20]",
+            "type": "vmess",
+            "server": "hkcft01.xqc.best",
+            "server_port": 443,
+            "uuid": "70387357-82fa-4a2f-a9ad-3edb1e0071da",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "hkcft01.xqc.best",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "hkcft01.xqc.best"
                 }
             }
         },
