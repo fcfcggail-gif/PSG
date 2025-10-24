@@ -103,6 +103,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇫🇷 FR | 🔓 VLESS | @config_proxy [42]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -125,6 +126,7 @@
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [25]",
                 "🚩 CF | 🔒 VLESS | @flyv2ray [9]",
+                "🇮🇱 IL | 🔒 VLESS | @free4allvpn [20]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
                 "❔ XX | 🔒 VLESS | @freev2raym [11]",
@@ -312,6 +314,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇫🇷 FR | 🔓 VLESS | @config_proxy [42]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -334,6 +337,7 @@
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [25]",
                 "🚩 CF | 🔒 VLESS | @flyv2ray [9]",
+                "🇮🇱 IL | 🔒 VLESS | @free4allvpn [20]",
                 "🚩 CF | 🔓 VLESS | @freev2flyng [16]",
                 "🇺🇸 US | 🔓 VLESS | @freev2raym [10]",
                 "❔ XX | 🔒 VLESS | @freev2raym [11]",
@@ -779,6 +783,15 @@
             }
         },
         {
+            "tag": "🇫🇷 FR | 🔓 VLESS | @config_proxy [42]",
+            "type": "vless",
+            "server": "m37a.vip784.com",
+            "server_port": 33801,
+            "uuid": "8e4ec018-b237-48ef-a09b-c8c2b2cee74b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
             "type": "vless",
             "server": "s1.aparat-movies-download.ir",
@@ -1158,6 +1171,29 @@
                 "path": "/",
                 "headers": {
                     "Host": "smart.trevanda.info"
+                }
+            }
+        },
+        {
+            "tag": "🇮🇱 IL | 🔒 VLESS | @free4allvpn [20]",
+            "type": "vless",
+            "server": "ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz",
+            "server_port": 443,
+            "uuid": "0e8a6896-ad90-4a3b-89a3-77d64aa409e2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "i2pd.website",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE",
+                    "short_id": "55e6af1a35e64a98"
                 }
             }
         },
