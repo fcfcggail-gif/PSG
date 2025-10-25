@@ -91,6 +91,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "❔ XX | 🔓 VLESS | @config_proxy [51]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -160,6 +161,7 @@
                 "🚩 CF | 🔓 VLESS | @lockey_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [14]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [1]",
                 "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [2]",
@@ -299,6 +301,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "❔ XX | 🔓 VLESS | @config_proxy [51]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -368,6 +371,7 @@
                 "🚩 CF | 🔓 VLESS | @lockey_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [14]",
+                "🇺🇸 US | 🔓 VLESS | @lranonline_new [1]",
                 "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [2]",
@@ -766,6 +770,22 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @config_proxy [51]",
+            "type": "vless",
+            "server": "jealous-competition.seotoolsforyou.co.uk",
+            "server_port": 80,
+            "uuid": "7094df26-af60-41c4-afac-857060d1bab0",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/?v2ray_configs_poolstelegram",
+                "headers": {
+                    "Host": "jealous-competition.seotoolsforyou.co.uk"
+                }
             }
         },
         {
@@ -1960,6 +1980,15 @@
                     "Host": "nginx.tehranspeedtestdncheckerinternetchecker.ir"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @lranonline_new [1]",
+            "type": "vless",
+            "server": "srcvpn.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "179eee10-fbe5-45fd-ab8e-4d2c7e992a37",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
