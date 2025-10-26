@@ -92,7 +92,6 @@
                 "🚩 CF | 🔓 VMESS | @buffalo_vpn [4]",
                 "❔ XX | 🔓 VMESS | @buffalo_vpn [5]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🚩 CF | 🔓 VMESS | @config_proxy [130]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [5]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -280,6 +279,8 @@
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
                 "🇺🇸 US | 🔓 VMESS | @v2ray_youtube [1]",
                 "🇵🇱 PL | 🔒 VMESS | @v2ray_youtube [3]",
+                "❔ XX | 🔒 VMESS | @v2raych [11]",
+                "🇬🇧 GB | 🔓 VMESS | @v2raych [19]",
                 "🇸🇬 SG | 🔓 VMESS | @v2raying [2]",
                 "🇫🇮 FI | 🔓 VMESS | @v2rayng3 [2]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng3 [6]",
@@ -357,7 +358,6 @@
                 "🚩 CF | 🔓 VMESS | @buffalo_vpn [4]",
                 "❔ XX | 🔓 VMESS | @buffalo_vpn [5]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🚩 CF | 🔓 VMESS | @config_proxy [130]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [5]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -545,6 +545,8 @@
                 "❔ XX | 🔓 VMESS | @v2ray_n [20]",
                 "🇺🇸 US | 🔓 VMESS | @v2ray_youtube [1]",
                 "🇵🇱 PL | 🔒 VMESS | @v2ray_youtube [3]",
+                "❔ XX | 🔒 VMESS | @v2raych [11]",
+                "🇬🇧 GB | 🔓 VMESS | @v2raych [19]",
                 "🇸🇬 SG | 🔓 VMESS | @v2raying [2]",
                 "🇫🇮 FI | 🔓 VMESS | @v2rayng3 [2]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng3 [6]",
@@ -879,22 +881,6 @@
                 "path": "/ad80f8ec-4861-11f0-a948-6a75f667b472?ed=2048",
                 "headers": {
                     "Host": "ad80f8ec-4861-11f0-a948-6a75f667b472.ShomaParvazRoYadetonNist-BypassIsHere.lat"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VMESS | @config_proxy [130]",
-            "type": "vmess",
-            "server": "104.19.47.65",
-            "server_port": 2095,
-            "uuid": "18d96190-c10f-448f-a82a-2d36df5c3cde",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/github.com/Alvin9999",
-                "headers": {
-                    "Host": "104.19.47.65"
                 }
             }
         },
@@ -4054,6 +4040,40 @@
                     "Host": "yichueng.org"
                 }
             }
+        },
+        {
+            "tag": "❔ XX | 🔒 VMESS | @v2raych [11]",
+            "type": "vmess",
+            "server": "pandor.boats",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "aveiror.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "aveiror.com"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔓 VMESS | @v2raych [19]",
+            "type": "vmess",
+            "server": "54.36.163.216",
+            "server_port": 550,
+            "uuid": "ffae7ffe-c13a-4ef1-aab4-e3e001dccf27",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "🇸🇬 SG | 🔓 VMESS | @v2raying [2]",

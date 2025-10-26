@@ -103,8 +103,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "❔ XX | 🔒 VLESS | @config_proxy [97]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [98]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [67]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [68]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -312,8 +312,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "❔ XX | 🔒 VLESS | @config_proxy [97]",
-                "🚩 CF | 🔓 VLESS | @config_proxy [98]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [67]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [68]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [2]",
@@ -779,44 +779,39 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @config_proxy [97]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [67]",
             "type": "vless",
-            "server": "usamd.ptuu.gq",
-            "server_port": 443,
-            "uuid": "7d3b945d-0f23-4719-9fae-50033251e2fd",
+            "server": "ns.cloudflare.com",
+            "server_port": 8080,
+            "uuid": "e3a78bb2-df38-4ca6-a07f-696a6b62b1a8",
             "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [68]",
+            "type": "vless",
+            "server": "dailyconfigs.vigilante.ir",
+            "server_port": 8443,
+            "uuid": "c0be5c79-fc34-439f-adf6-f472eb14c669",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "qi79crholtc6qgd6y9n6.khodavakili.top",
+                "server_name": "tgju.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": "chrome"
+                    "fingerprint": "random"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLDGbat7e8wZatqsGmC1G86KhN6I0ymHFrRnx5goOzc",
+                    "short_id": "8bd035338b9a"
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "/kos_madar_publisher",
-                "headers": {
-                    "Host": "qi79crholtc6qgd6y9n6.khodavakili.top"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [98]",
-            "type": "vless",
-            "server": "tgju.org",
-            "server_port": 80,
-            "uuid": "c6438552-6882-44b9-f186-ec2ffef8d01a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/olem/ws?ed=1024",
-                "headers": {
-                    "Host": "tgju.org"
-                }
+                "type": "grpc",
+                "service_name": "@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-@DailyConfigs-"
             }
         },
         {
