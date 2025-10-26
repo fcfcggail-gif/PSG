@@ -97,6 +97,7 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [96]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -141,8 +142,6 @@
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
                 "🇺🇸 US | 🔓 VLESS | @hope_net [18]",
-                "❔ XX | 🔒 VLESS | @hope_net [19]",
-                "🇺🇸 US | 🔓 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -278,6 +277,7 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [96]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
                 "🚩 CF | 🔓 VLESS | @customizev2ray [26]",
@@ -322,8 +322,6 @@
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
                 "🇺🇸 US | 🔓 VLESS | @hope_net [18]",
-                "❔ XX | 🔒 VLESS | @hope_net [19]",
-                "🇺🇸 US | 🔓 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -610,6 +608,31 @@
                 "path": "/veNbt06rF0tTFtp6/MTcyLjY0LjEzNC41OA==?ed=2560",
                 "headers": {
                     "Host": "SpEedteST.NET"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [96]",
+            "type": "vless",
+            "server": "172.67.176.243",
+            "server_port": 443,
+            "uuid": "6d91bc33-2d86-4839-9205-02024ff483c7",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "wtestfrtt.requesttest.cloudns.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "wtestfrtt.requesttest.cloudns.org"
                 }
             }
         },
@@ -1391,40 +1414,6 @@
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @hope_net [18]",
-            "type": "vless",
-            "server": "151.101.128.155",
-            "server_port": 80,
-            "uuid": "43dde92c-7751-450c-a1c7-0dac0ba9fb03",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/Channel,SPDNET,SPDNET?ed=443",
-                "headers": {
-                    "Host": "151.101.128.155"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @hope_net [19]",
-            "type": "vless",
-            "server": "127.0.0.1",
-            "server_port": 8080,
-            "uuid": "cabacab-acba-acab-dbca-bacacbbaabcc",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "127.0.0.1",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @hope_net [20]",
             "type": "vless",
             "server": "151.101.2.228",
             "server_port": 80,
