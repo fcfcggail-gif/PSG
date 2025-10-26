@@ -328,11 +328,12 @@
                 "🇩🇪 DE | 🔓 VMESS | @vpnv2raytop [1]",
                 "❔ XX | 🔓 VMESS | @xrayzxn [6]",
                 "🇮🇷 IR | 🔓 VMESS | @xsv2ray [2]",
-                "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [1]",
-                "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [5]",
-                "🇨🇳 CN | 🔓 VMESS | @zerobaipiao [6]",
+                "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [4]",
+                "🇨🇳 CN | 🔓 VMESS | @zerobaipiao [5]",
+                "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [6]",
                 "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [7]",
-                "🇨🇳 CN | 🔒 VMESS | @zerobaipiao [8]"
+                "🇨🇳 CN | 🔒 VMESS | @zerobaipiao [8]",
+                "🚩 CF | 🔓 VMESS | @zerobaipiao [9]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -591,11 +592,12 @@
                 "🇩🇪 DE | 🔓 VMESS | @vpnv2raytop [1]",
                 "❔ XX | 🔓 VMESS | @xrayzxn [6]",
                 "🇮🇷 IR | 🔓 VMESS | @xsv2ray [2]",
-                "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [1]",
-                "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [5]",
-                "🇨🇳 CN | 🔓 VMESS | @zerobaipiao [6]",
+                "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [4]",
+                "🇨🇳 CN | 🔓 VMESS | @zerobaipiao [5]",
+                "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [6]",
                 "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [7]",
-                "🇨🇳 CN | 🔒 VMESS | @zerobaipiao [8]"
+                "🇨🇳 CN | 🔒 VMESS | @zerobaipiao [8]",
+                "🚩 CF | 🔓 VMESS | @zerobaipiao [9]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -4872,7 +4874,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [1]",
+            "tag": "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [4]",
             "type": "vmess",
             "server": "v10.heduian.link",
             "server_port": 30807,
@@ -4888,23 +4890,7 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [5]",
-            "type": "vmess",
-            "server": "v10.heduian.link",
-            "server_port": 30807,
-            "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
-            "security": "auto",
-            "alter_id": 2,
-            "transport": {
-                "type": "ws",
-                "path": "/oooo",
-                "headers": {
-                    "Host": "v10.heduian.link"
-                }
-            }
-        },
-        {
-            "tag": "🇨🇳 CN | 🔓 VMESS | @zerobaipiao [6]",
+            "tag": "🇨🇳 CN | 🔓 VMESS | @zerobaipiao [5]",
             "type": "vmess",
             "server": "v9.heduian.link",
             "server_port": 30809,
@@ -4920,13 +4906,29 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [7]",
+            "tag": "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [6]",
             "type": "vmess",
             "server": "47.242.90.210",
             "server_port": 31212,
             "uuid": "3a4271fb-2718-4489-da78-80a8e7701aa5",
             "security": "auto",
             "alter_id": 0
+        },
+        {
+            "tag": "🇭🇰 HK | 🔓 VMESS | @zerobaipiao [7]",
+            "type": "vmess",
+            "server": "v10.heduian.link",
+            "server_port": 30807,
+            "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+            "security": "auto",
+            "alter_id": 2,
+            "transport": {
+                "type": "ws",
+                "path": "/oooo",
+                "headers": {
+                    "Host": "v10.heduian.link"
+                }
+            }
         },
         {
             "tag": "🇨🇳 CN | 🔒 VMESS | @zerobaipiao [8]",
@@ -4941,6 +4943,31 @@
                 "path": "/oooo",
                 "headers": {
                     "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VMESS | @zerobaipiao [9]",
+            "type": "vmess",
+            "server": "172.67.204.19",
+            "server_port": 443,
+            "uuid": "5f726fe3-d82e-4da5-a711-8af0cbb2b682",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "172.67.204.19",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/azumase.ren",
+                "headers": {
+                    "Host": "172.67.204.19"
                 }
             }
         }
