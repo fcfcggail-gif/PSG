@@ -98,8 +98,7 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [34]",
-                "🇫🇮 FI | 🔓 VLESS | @config_proxy [35]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [42]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -274,8 +273,7 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇷🇺 RU | 🔒 VLESS | @config_proxy [34]",
-                "🇫🇮 FI | 🔓 VLESS | @config_proxy [35]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [42]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -613,39 +611,28 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [34]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [42]",
             "type": "vless",
-            "server": "212.41.11.152",
+            "server": "104.17.147.22",
             "server_port": 443,
-            "uuid": "1a6fe500-59da-4598-8576-256f06765ffb",
-            "flow": "xtls-rprx-vision",
+            "uuid": "8c77668c-7b44-4595-b683-522fdcd3481b",
+            "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "ru.sfasti.ru",
+                "server_name": "q.qdio006.workers.dev",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
-                    "short_id": "16895459a2c7768d"
                 }
-            }
-        },
-        {
-            "tag": "🇫🇮 FI | 🔓 VLESS | @config_proxy [35]",
-            "type": "vless",
-            "server": "141.227.170.178",
-            "server_port": 21232,
-            "uuid": "5e0eddef-95cd-4109-9807-0f32062939f3",
-            "flow": "",
-            "packet_encoding": "xudp",
+            },
             "transport": {
-                "type": "grpc",
-                "service_name": "ZEDMODEON-ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
+                "type": "ws",
+                "path": "/?ed=2560",
+                "headers": {
+                    "Host": "q.qdio006.workers.dev"
+                }
             }
         },
         {
