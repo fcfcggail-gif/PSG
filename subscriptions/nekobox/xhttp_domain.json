@@ -84,7 +84,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [2]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [6]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [35]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [40]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -95,9 +95,9 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [11]",
                 "🇺🇸 US | 🔓 VLESS | @prrofile_purple [145]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [16]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [19]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [20]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [7]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [8]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [20]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [2]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [7]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [11]",
@@ -116,7 +116,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [2]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [6]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [35]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [40]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -127,9 +127,9 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [11]",
                 "🇺🇸 US | 🔓 VLESS | @prrofile_purple [145]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [16]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [19]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [20]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [7]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [8]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [20]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [2]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [7]",
                 "❔ XX | 🔓 VLESS | @vmesskhodam [11]",
@@ -260,13 +260,22 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [35]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [40]",
             "type": "vless",
-            "server": "pscresearch.faculty.ucdavis.edu",
-            "server_port": 80,
-            "uuid": "723135cd-1686-493e-b796-171ed380f809",
+            "server": "ip.hostingcloud.reallyclody.ir",
+            "server_port": 2096,
+            "uuid": "fc4b7d09-5270-437a-9067-faaeb20e8946",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "rp-g.Qwpvakvsoj438.iR.",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
@@ -373,16 +382,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [16]",
-            "type": "vless",
-            "server": "fx.ircloudmarket.com",
-            "server_port": 80,
-            "uuid": "b9dc54b4-d474-4087-96d0-81de47f4578d",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [19]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [7]",
             "type": "vless",
             "server": "speedtestcustom.com",
             "server_port": 80,
@@ -391,13 +391,31 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [20]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [8]",
             "type": "vless",
             "server": "mci.dl101movis.ir",
             "server_port": 80,
             "uuid": "b9dc54b4-d474-4087-96d0-81de47f4578d",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [20]",
+            "type": "vless",
+            "server": "statue.lnmarketplace.net",
+            "server_port": 443,
+            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "statue.lnmarketplace.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @vmesskhodam [2]",
