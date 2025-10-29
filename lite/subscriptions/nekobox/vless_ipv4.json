@@ -85,8 +85,8 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [49]",
-                "🇨🇭 CH | 🔓 VLESS | @config_proxy [50]",
+                "🇨🇼 CW | 🔒 VLESS | @config_proxy [38]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [40]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -127,9 +127,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇰🇷 KR | 🔒 VLESS | @hope_net [18]",
-                "🇭🇰 HK | 🔒 VLESS | @hope_net [19]",
-                "🇭🇰 HK | 🔒 VLESS | @hope_net [20]",
+                "🇭🇰 HK | 🔒 VLESS | @hope_net [18]",
+                "🚩 CF | 🔒 VLESS | @hope_net [19]",
+                "🚩 CF | 🔒 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -256,8 +256,8 @@
                 "🚩 CF | 🔓 VLESS | @bored_vpn [11]",
                 "🚩 CF | 🔒 VLESS | @buffalo_vpn [7]",
                 "🇺🇸 US | 🔒 VLESS | @buffalo_vpn [8]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [49]",
-                "🇨🇭 CH | 🔓 VLESS | @config_proxy [50]",
+                "🇨🇼 CW | 🔒 VLESS | @config_proxy [38]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [40]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇺🇸 US | 🔓 VLESS | @connectshu [13]",
@@ -298,9 +298,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇰🇷 KR | 🔒 VLESS | @hope_net [18]",
-                "🇭🇰 HK | 🔒 VLESS | @hope_net [19]",
-                "🇭🇰 HK | 🔒 VLESS | @hope_net [20]",
+                "🇭🇰 HK | 🔒 VLESS | @hope_net [18]",
+                "🚩 CF | 🔒 VLESS | @hope_net [19]",
+                "🚩 CF | 🔒 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -593,31 +593,43 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [49]",
+            "tag": "🇨🇼 CW | 🔒 VLESS | @config_proxy [38]",
             "type": "vless",
-            "server": "88.198.160.200",
-            "server_port": 10138,
-            "uuid": "7d3a037a-2ddc-44a1-96f3-8359c2a4af66",
+            "server": "5.10.245.253",
+            "server_port": 2096,
+            "uuid": "f61a4285-7264-4d07-9408-7b9ba1922c26",
             "flow": "",
             "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "gaosir.unfeeling.sbs",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
-                "type": "grpc",
-                "service_name": "t.me/entryNET"
+                "type": "ws",
+                "path": "/Telegram🇨🇳 @WangCai2 /?ed=2560",
+                "headers": {
+                    "Host": "gaosir.unfeeling.sbs"
+                }
             }
         },
         {
-            "tag": "🇨🇭 CH | 🔓 VLESS | @config_proxy [50]",
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [40]",
             "type": "vless",
-            "server": "83.228.225.98",
-            "server_port": 24465,
-            "uuid": "14ba01de-0de4-48b4-9327-d6a2f7797764",
+            "server": "172.67.101.86",
+            "server_port": 80,
+            "uuid": "b8be6118-0dd7-4402-ae1a-69b2816f3a7f",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
                 "type": "ws",
-                "path": "/",
+                "path": "/BaRAyeIran?ed=2560",
                 "headers": {
-                    "Host": "83.228.225.98"
+                    "Host": "172.67.101.86"
                 }
             }
         },
@@ -1336,57 +1348,7 @@
             }
         },
         {
-            "tag": "🇰🇷 KR | 🔒 VLESS | @hope_net [18]",
-            "type": "vless",
-            "server": "217.142.128.169",
-            "server_port": 443,
-            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "lv.ylks01.eu.org",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/freecodes",
-                "headers": {
-                    "Host": "lv.ylks01.eu.org"
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰 HK | 🔒 VLESS | @hope_net [19]",
-            "type": "vless",
-            "server": "154.3.37.101",
-            "server_port": 44421,
-            "uuid": "f2b3219c-215f-4b7e-96d8-25b751d79988",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "edgetunnel.xiaomayi.nyc.mn",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/Telegram🇨🇳 @WangCai2 /?ed=2048",
-                "headers": {
-                    "Host": "edgetunnel.xiaomayi.nyc.mn"
-                }
-            }
-        },
-        {
-            "tag": "🇭🇰 HK | 🔒 VLESS | @hope_net [20]",
+            "tag": "🇭🇰 HK | 🔒 VLESS | @hope_net [18]",
             "type": "vless",
             "server": "154.3.37.101",
             "server_port": 44445,
@@ -1407,6 +1369,56 @@
                 "path": "/Telegram🇨🇳 @WangCai2 /?ed=2048",
                 "headers": {
                     "Host": "edgetunnel.xiaomayi.nyc.mn"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @hope_net [19]",
+            "type": "vless",
+            "server": "173.245.59.178",
+            "server_port": 443,
+            "uuid": "48198295-b7ba-4b5c-8d85-085d55a6c869",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "av.ylks.xyz",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048",
+                "headers": {
+                    "Host": "av.ylks.xyz"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @hope_net [20]",
+            "type": "vless",
+            "server": "198.41.220.45",
+            "server_port": 443,
+            "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "lv.kpcloud.eu.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048",
+                "headers": {
+                    "Host": "lv.kpcloud.eu.org"
                 }
             }
         },
