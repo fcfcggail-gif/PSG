@@ -102,8 +102,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [61]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [62]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -173,6 +171,7 @@
                 "🚩 CF | 🔓 VLESS | @lockey_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [14]",
+                "🚩 CF | 🔓 VLESS | @lranonline_new [4]",
                 "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [2]",
@@ -315,8 +314,6 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🚩 CF | 🔒 VLESS | @config_proxy [61]",
-                "🇺🇸 US | 🔒 VLESS | @config_proxy [62]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔓 VLESS | @configforvpn01 [8]",
                 "🚩 CF | 🔒 VLESS | @configv2rayforfree [3]",
@@ -386,6 +383,7 @@
                 "🚩 CF | 🔓 VLESS | @lockey_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [14]",
+                "🚩 CF | 🔓 VLESS | @lranonline_new [4]",
                 "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [2]",
@@ -775,54 +773,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [61]",
-            "type": "vless",
-            "server": "www.wto.org",
-            "server_port": 443,
-            "uuid": "96beea9b-5503-4b9c-84f7-bc5a16b69bb9",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "bob-benz-usc-spokesman.trycloudflare.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/96beea9b-5503-4b9c-84f7-bc5a16b69bb9-vless",
-                "headers": {
-                    "Host": "bob-benz-usc-spokesman.trycloudflare.com"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [62]",
-            "type": "vless",
-            "server": "usa.savanet.pro",
-            "server_port": 443,
-            "uuid": "87eff1bd-d55f-4df2-a5ad-863368a16cb7",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "yandex.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "s1YS6OaMKypumOxq7u22Pf_FaSjEbRvgLrJf1iTOKWY",
-                    "short_id": "bce24697c04e"
-                }
             }
         },
         {
@@ -2026,6 +1976,22 @@
                 "path": "/@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN--@LOCKEY_VPN",
                 "headers": {
                     "Host": "nginx.tehranspeedtestdncheckerinternetchecker.ir"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @lranonline_new [4]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 80,
+            "uuid": "0e2ad060-bf4e-4570-ae87-a19e8dae2e7b",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy----@Shh_Proxy",
+                "headers": {
+                    "Host": "www.speedtest.net"
                 }
             }
         },
