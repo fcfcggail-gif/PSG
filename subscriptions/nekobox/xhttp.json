@@ -106,6 +106,7 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [10]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [12]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [13]",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [56]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
@@ -157,7 +158,6 @@
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [23]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [16]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -206,6 +206,7 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [10]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [12]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [13]",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [56]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
@@ -257,7 +258,6 @@
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [23]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [16]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -633,6 +633,29 @@
             "uuid": "47343fd4-0a14-439c-ff20-d95d83f5bd84",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇸🇪 SE | 🔒 VLESS | @config_proxy [56]",
+            "type": "vless",
+            "server": "62.60.231.215",
+            "server_port": 8880,
+            "uuid": "053d6d7a-941e-4939-aa64-7257c2fa8361",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "gTzHMDNdl149mB6DKGPnbiVFID8x_7X5THJIXlpNWFc",
+                    "short_id": "50d72d59cbec63"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [5]",
@@ -1503,15 +1526,6 @@
                     "short_id": "5426024033df45"
                 }
             }
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [16]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "70a3d7a0-de9e-4f5e-b09e-bb458ec9eb82",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
