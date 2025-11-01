@@ -119,6 +119,7 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [10]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [12]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [13]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [65]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
@@ -170,7 +171,6 @@
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [23]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [15]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -178,7 +178,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [10]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raytg [56]",
-                "🇫🇷 FR | 🔒 VLESS | @vmesc [4]",
+                "🇫🇷 FR | 🔒 VLESS | @vmesc [3]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [1]",
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [4]",
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [5]"
@@ -219,6 +219,7 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [10]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [12]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [13]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [65]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [5]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [1]",
@@ -270,7 +271,6 @@
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [23]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
-                "🇺🇸 US | 🔓 VLESS | @v2raych [15]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -278,7 +278,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayngseven [10]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raytg [56]",
-                "🇫🇷 FR | 🔒 VLESS | @vmesc [4]",
+                "🇫🇷 FR | 🔒 VLESS | @vmesc [3]",
                 "🇩🇪 DE | 🔓 VLESS | @vmesskhodam [1]",
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [4]",
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [5]"
@@ -650,6 +650,24 @@
             "uuid": "47343fd4-0a14-439c-ff20-d95d83f5bd84",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [65]",
+            "type": "vless",
+            "server": "104.21.48.1",
+            "server_port": 443,
+            "uuid": "9d847ad3-1896-48f9-b89c-13fe345e2bff",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cho.chonon.sbs",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [5]",
@@ -1522,15 +1540,6 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [15]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "e6831ec2-9000-4a9a-8991-9c504bfe23af",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
             "type": "vless",
             "server": "217.71.204.148",
@@ -1692,7 +1701,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 VLESS | @vmesc [4]",
+            "tag": "🇫🇷 FR | 🔒 VLESS | @vmesc [3]",
             "type": "vless",
             "server": "151.80.254.250",
             "server_port": 16361,
