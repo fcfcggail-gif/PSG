@@ -129,7 +129,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇺🇸 US | 🔒 VLESS | @hope_net [19]",
+                "🇩🇪 DE | 🔒 VLESS | @hope_net [19]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -300,7 +300,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇺🇸 US | 🔒 VLESS | @hope_net [19]",
+                "🇩🇪 DE | 🔒 VLESS | @hope_net [19]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -1387,27 +1387,25 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @hope_net [19]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @hope_net [19]",
             "type": "vless",
-            "server": "3.215.47.121",
-            "server_port": 22222,
-            "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-            "flow": "",
+            "server": "188.245.89.161",
+            "server_port": 2053,
+            "uuid": "957bdfa8-023c-4938-9e89-792cd15a17a3",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "telegram-channel-vlessconfig.sohala.uk",
+                "server_name": "jetbrains.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/telegram-channel-vlessconfig-ws",
-                "headers": {
-                    "Host": "telegram-channel-vlessconfig.sohala.uk"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mrqFrYx2XMOQceOIo1mv2dhyNE1sSu3mPS8HSDQ572g",
+                    "short_id": ""
                 }
             }
         },
