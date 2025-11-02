@@ -159,7 +159,8 @@
                 "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [6]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayturbo [7]",
-                "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [18]",
+                "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [19]",
+                "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [20]",
                 "❔ XX | 🔒 VMESS | @vpngate_config [17]",
                 "🇺🇸 US | 🔓 VMESS | @vpngate_config [19]",
                 "🇩🇪 DE | 🔓 VMESS | @vpnv2raytop [1]",
@@ -253,7 +254,8 @@
                 "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [6]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayngconfiig [11]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayturbo [7]",
-                "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [18]",
+                "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [19]",
+                "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [20]",
                 "❔ XX | 🔒 VMESS | @vpngate_config [17]",
                 "🇺🇸 US | 🔓 VMESS | @vpngate_config [19]",
                 "🇩🇪 DE | 🔓 VMESS | @vpnv2raytop [1]",
@@ -1589,16 +1591,41 @@
             "alter_id": 0
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [18]",
+            "tag": "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [19]",
             "type": "vmess",
-            "server": "8.217.159.96",
-            "server_port": 47872,
-            "uuid": "23ea0b75-206b-4e3b-b624-e093d5808bf8",
+            "server": "141.95.126.134",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "jamekk.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "jamekk.org"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔓 VMESS | @vpnfail_v2ray [20]",
+            "type": "vmess",
+            "server": "47.243.39.173",
+            "server_port": 20522,
+            "uuid": "8993ea91-d437-4899-a6d9-1dcc0aa17820",
             "security": "auto",
             "alter_id": 0,
             "transport": {
                 "type": "ws",
-                "path": "/arki?ed=2048",
+                "path": "/telegram_@sswia",
                 "headers": {
                     "Host": ""
                 }
