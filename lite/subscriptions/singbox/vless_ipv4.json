@@ -142,8 +142,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇺🇸 US | 🔒 VLESS | @hope_net [18]",
-                "🇺🇸 US | 🔒 VLESS | @hope_net [19]",
+                "🚩 CF | 🔒 VLESS | @hope_net [19]",
+                "🇺🇸 US | 🔒 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -318,8 +318,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔓 VLESS | @hiddify_f [1]",
                 "🇺🇸 US | 🔓 VLESS | @hiddify_f [2]",
-                "🇺🇸 US | 🔒 VLESS | @hope_net [18]",
-                "🇺🇸 US | 🔒 VLESS | @hope_net [19]",
+                "🚩 CF | 🔒 VLESS | @hope_net [19]",
+                "🇺🇸 US | 🔒 VLESS | @hope_net [20]",
                 "🇮🇷 IR | 🔓 VLESS | @hormozvpn [1]",
                 "🚩 CF | 🔓 VLESS | @imhdiyvp [10]",
                 "🇩🇪 DE | 🔓 VLESS | @imhdiyvp [11]",
@@ -1428,16 +1428,16 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @hope_net [18]",
+            "tag": "🚩 CF | 🔒 VLESS | @hope_net [19]",
             "type": "vless",
-            "server": "151.101.2.228",
+            "server": "104.17.148.22",
             "server_port": 443,
-            "uuid": "669b707e-41f4-415a-b69d-6a5f637fc100",
+            "uuid": "88afdc30-f2c4-4416-ac22-4a157ab4656e",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "hajlab.ucdavis.edu",
+                "server_name": "xd28ajjn.felafel.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1445,24 +1445,21 @@
                 }
             },
             "transport": {
-                "type": "ws",
-                "path": "/?ed=2048",
-                "headers": {
-                    "Host": "hajlab.ucdavis.edu"
-                }
+                "type": "grpc",
+                "service_name": "@ConfigTell"
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 VLESS | @hope_net [19]",
+            "tag": "🇺🇸 US | 🔒 VLESS | @hope_net [20]",
             "type": "vless",
-            "server": "69.84.182.71",
+            "server": "198.62.62.128",
             "server_port": 443,
             "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
             "flow": "",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "ln.ylks01.eu.org",
+                "server_name": "lo.ylks.us.kg",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1471,9 +1468,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/blue",
+                "path": "/?ed",
                 "headers": {
-                    "Host": "ln.ylks01.eu.org"
+                    "Host": "lo.ylks.us.kg"
                 }
             }
         },
