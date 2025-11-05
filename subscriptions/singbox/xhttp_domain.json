@@ -96,7 +96,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [4]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [6]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [52]",
+                "❔ XX | 🔒 VLESS | @config_proxy [42]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -106,10 +106,11 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [6]",
                 "🚩 CF | 🔓 VLESS | @prrofile_purple [141]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
-                "❔ XX | 🔓 VLESS | @vmesskhodam [2]",
-                "❔ XX | 🔓 VLESS | @vmesskhodam [7]",
-                "❔ XX | 🔓 VLESS | @vmesskhodam [11]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [13]",
+                "🚩 CF | 🔒 VLESS | @v2raych [18]",
+                "❔ XX | 🔓 VLESS | @vmesskhodam [1]",
+                "❔ XX | 🔓 VLESS | @vmesskhodam [6]",
+                "❔ XX | 🔓 VLESS | @vmesskhodam [10]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [12]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "proxy",
@@ -125,7 +126,7 @@
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [4]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [6]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [52]",
+                "❔ XX | 🔒 VLESS | @config_proxy [42]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -135,10 +136,11 @@
                 "🇺🇸 US | 🔓 VLESS | @nofiltering2 [6]",
                 "🚩 CF | 🔓 VLESS | @prrofile_purple [141]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
-                "❔ XX | 🔓 VLESS | @vmesskhodam [2]",
-                "❔ XX | 🔓 VLESS | @vmesskhodam [7]",
-                "❔ XX | 🔓 VLESS | @vmesskhodam [11]",
-                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [13]",
+                "🚩 CF | 🔒 VLESS | @v2raych [18]",
+                "❔ XX | 🔓 VLESS | @vmesskhodam [1]",
+                "❔ XX | 🔓 VLESS | @vmesskhodam [6]",
+                "❔ XX | 🔓 VLESS | @vmesskhodam [10]",
+                "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [12]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]"
             ],
             "tag": "auto",
@@ -262,13 +264,27 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [52]",
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [42]",
             "type": "vless",
-            "server": "speedtest.net",
-            "server_port": 80,
-            "uuid": "49abbd48-f69f-446c-9cc4-7bb3ba940b6f",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "uk.ukrageshark.shop",
+            "server_port": 47408,
+            "uuid": "6967fc98-00bc-4180-b92d-b21d46058a22",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "docker.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xCsWzWCD3XYVGHjcF8yDLd-WyTlqvIiqZZ58Rari9lk",
+                    "short_id": "0e823321de"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
@@ -366,7 +382,25 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @vmesskhodam [2]",
+            "tag": "🚩 CF | 🔒 VLESS | @v2raych [18]",
+            "type": "vless",
+            "server": "usa-raiv2mmr-Telegram.koyeb.app",
+            "server_port": 443,
+            "uuid": "5c9b6087-f955-4506-9c1d-67a5aae44bc9",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "usa-raiv2mmr-Telegram.koyeb.app",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @vmesskhodam [1]",
             "type": "vless",
             "server": "sss46544.tas-bazi.com",
             "server_port": 443,
@@ -384,7 +418,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @vmesskhodam [7]",
+            "tag": "❔ XX | 🔓 VLESS | @vmesskhodam [6]",
             "type": "vless",
             "server": "sss51210.tas-bazi.com",
             "server_port": 443,
@@ -402,7 +436,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @vmesskhodam [11]",
+            "tag": "❔ XX | 🔓 VLESS | @vmesskhodam [10]",
             "type": "vless",
             "server": "sss57281.tas-bazi.com",
             "server_port": 443,
@@ -420,7 +454,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [13]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [12]",
             "type": "vless",
             "server": "sv2.utsteam2.top",
             "server_port": 40002,
