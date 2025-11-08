@@ -158,6 +158,8 @@
                 "🚩 CF | 🔓 VLESS | @lockey_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [14]",
+                "🇩🇪 DE | 🔒 VLESS | @lranonline_new [8]",
+                "🇦🇪 AE | 🔒 VLESS | @lranonline_new [9]",
                 "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [2]",
@@ -235,7 +237,6 @@
                 "🇵🇱 PL | 🔓 VLESS | @turboo_server [11]",
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [12]",
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [13]",
-                "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [11]",
                 "🚩 CF | 🔓 VLESS | @v2logy [9]",
                 "🚩 CF | 🔓 VLESS | @v2logy [10]",
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
@@ -367,6 +368,8 @@
                 "🚩 CF | 🔓 VLESS | @lockey_vpn [12]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [13]",
                 "🚩 CF | 🔒 VLESS | @lockey_vpn [14]",
+                "🇩🇪 DE | 🔒 VLESS | @lranonline_new [8]",
+                "🇦🇪 AE | 🔒 VLESS | @lranonline_new [9]",
                 "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [1]",
                 "❔ XX | 🔓 VLESS | @magicvpn_shop [2]",
@@ -444,7 +447,6 @@
                 "🇵🇱 PL | 🔓 VLESS | @turboo_server [11]",
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [12]",
                 "🇩🇪 DE | 🔓 VLESS | @turboo_server [13]",
-                "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [11]",
                 "🚩 CF | 🔓 VLESS | @v2logy [9]",
                 "🚩 CF | 🔓 VLESS | @v2logy [10]",
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
@@ -1932,6 +1934,52 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @lranonline_new [8]",
+            "type": "vless",
+            "server": "de.nitroo-tech.ru",
+            "server_port": 443,
+            "uuid": "cd79807f-bcef-46b8-93b6-229676a0c1a0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "y_AlGiUJiCRWCT8FyrfUm-Cmpm0bl0cSUMRP3VZ9X0I",
+                    "short_id": "89dbda1a1c9369"
+                }
+            }
+        },
+        {
+            "tag": "🇦🇪 AE | 🔒 VLESS | @lranonline_new [9]",
+            "type": "vless",
+            "server": "dubai.fonixapp.org",
+            "server_port": 53654,
+            "uuid": "cef4ee17-07fd-492f-921e-ddaa6294ba51",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lzLim-E_IwmH9H5RvncDdOG4hUe7yy6_bxh2wusbryk",
+                    "short_id": "f7"
+                }
+            }
+        },
+        {
             "tag": "🇩🇪 DE | 🔓 VLESS | @luckyvpn [1]",
             "type": "vless",
             "server": "paris.get.raskolnikov.ir",
@@ -3232,29 +3280,6 @@
                 "path": "/",
                 "headers": {
                     "Host": "sub.turboo-server.com.co"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [11]",
-            "type": "vless",
-            "server": "de.nitroo-tech.ru",
-            "server_port": 443,
-            "uuid": "cd79807f-bcef-46b8-93b6-229676a0c1a0",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "google.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "y_AlGiUJiCRWCT8FyrfUm-Cmpm0bl0cSUMRP3VZ9X0I",
-                    "short_id": "89dbda1a1c9369"
                 }
             }
         },
