@@ -93,9 +93,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
-                "🇮🇷 IR | 🔓 VLESS | @ai_duet [4]",
                 "🇮🇷 IR | 🔓 VLESS | @ai_duet [5]",
                 "🇮🇷 IR | 🔓 VLESS | @ai_duet [6]",
+                "🇮🇷 IR | 🔓 VLESS | @ai_duet [7]",
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🚩 CF | 🔓 VLESS | @artemis_vpn_free [1]",
                 "🚩 CF | 🔓 VLESS | @artemis_vpn_free [2]",
@@ -205,6 +205,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @novinology [16]",
                 "🇺🇸 US | 🔓 VLESS | @orange_vpns [18]",
+                "🇮🇱 IL | 🔒 VLESS | @outline_ir [19]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "🚩 CF | 🔒 VLESS | @proxy48 [13]",
                 "❔ XX | 🔓 VLESS | @proxy48 [15]",
@@ -301,9 +302,9 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🚩 CF | 🔒 VLESS | @Fr33C0nfig [12]",
-                "🇮🇷 IR | 🔓 VLESS | @ai_duet [4]",
                 "🇮🇷 IR | 🔓 VLESS | @ai_duet [5]",
                 "🇮🇷 IR | 🔓 VLESS | @ai_duet [6]",
+                "🇮🇷 IR | 🔓 VLESS | @ai_duet [7]",
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🚩 CF | 🔓 VLESS | @artemis_vpn_free [1]",
                 "🚩 CF | 🔓 VLESS | @artemis_vpn_free [2]",
@@ -413,6 +414,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🚩 CF | 🔓 VLESS | @novinology [16]",
                 "🇺🇸 US | 🔓 VLESS | @orange_vpns [18]",
+                "🇮🇱 IL | 🔒 VLESS | @outline_ir [19]",
                 "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
                 "🚩 CF | 🔒 VLESS | @proxy48 [13]",
                 "❔ XX | 🔓 VLESS | @proxy48 [15]",
@@ -602,22 +604,6 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔓 VLESS | @ai_duet [4]",
-            "type": "vless",
-            "server": "ir2.fastnode0.com",
-            "server_port": 2087,
-            "uuid": "d115adcd-1b1f-4cf4-b6a4-b9696434967a",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "ir2.fastnode0.com"
-                }
-            }
-        },
-        {
             "tag": "🇮🇷 IR | 🔓 VLESS | @ai_duet [5]",
             "type": "vless",
             "server": "ir2.fastnode0.com",
@@ -641,6 +627,22 @@
             "uuid": "c6c903da46f490c2f473dec6412b1b84",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇮🇷 IR | 🔓 VLESS | @ai_duet [7]",
+            "type": "vless",
+            "server": "ir1.fastnode0.com",
+            "server_port": 2087,
+            "uuid": "bd578810-d9f2-4ea3-b9a3-4983c40eed77",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "ir1.fastnode0.com"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @armod_iran [1]",
@@ -2498,6 +2500,29 @@
             "uuid": "5a1497bc-f028-4a4a-a713-a0ee1e49d34a",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇮🇱 IL | 🔒 VLESS | @outline_ir [19]",
+            "type": "vless",
+            "server": "ilta-wzxrxkdhbjpnprhkkpplsjwawhssvollvxzdhqshiqckwdgrdm.orbnet.xyz",
+            "server_port": 443,
+            "uuid": "0e8a6896-ad90-4a3b-89a3-77d64aa409e2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "i2pd.website",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YVDo7U4O-AT2fa5H9E7hyYHKgfZd1vB6UdbAf2ggWQE",
+                    "short_id": "55e6af1a35e64a98"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔒 VLESS | @persian_proxy6 [4]",
