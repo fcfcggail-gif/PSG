@@ -84,6 +84,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [59]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -94,7 +96,6 @@
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [16]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [21]",
-                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [2]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [3]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [4]",
@@ -135,6 +136,8 @@
                 "🇨🇭 CH | 🔒 VLESS | @v2ray_sub [21]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇪🇸 ES | 🔒 VLESS | @v2raych [19]",
+                "🇬🇧 GB | 🔒 VLESS | @v2raych [20]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [2]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [6]",
@@ -181,6 +184,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "🇩🇪 DE | 🔒 VLESS | @avaalvpn [1]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [59]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -191,7 +196,6 @@
                 "❔ XX | 🔒 VLESS | @ehsawn8 [10]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [16]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [21]",
-                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [2]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [3]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [4]",
@@ -232,6 +236,8 @@
                 "🇨🇭 CH | 🔒 VLESS | @v2ray_sub [21]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇪🇸 ES | 🔒 VLESS | @v2raych [19]",
+                "🇬🇧 GB | 🔒 VLESS | @v2raych [20]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [2]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayfast_7 [6]",
@@ -451,6 +457,52 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [59]",
+            "type": "vless",
+            "server": "master.azaddm.ir",
+            "server_port": 7030,
+            "uuid": "1884c341-7fe5-4791-ba27-5b9cc37f501e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.zula.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "9x8pWtP9-IziwcCbi5ecBlWQasNRvcvUze1wmEtWkww",
+                    "short_id": "5297dc1dbb9e1a4b"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [60]",
+            "type": "vless",
+            "server": "vip1.proxystore11.news",
+            "server_port": 15110,
+            "uuid": "91b14630-d9fa-442c-8a2a-b16967e910fe",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "yahoo.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "y7msPZW4eWBT4CJ5v_blgiXUd06HuKvTs3rhlpw9fnk",
+                    "short_id": "0570"
+                }
             }
         },
         {
@@ -700,29 +752,6 @@
                     "enabled": true,
                     "public_key": "n5F7RiT4wzYN_JM-Lxwff24YVZy3HHFsVoXtJmRT2BY",
                     "short_id": "80dc32ed"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @free1_vpn [2]",
-            "type": "vless",
-            "server": "deu406.unboundaccess.org",
-            "server_port": 443,
-            "uuid": "46615c49-e794-470d-9e65-2deaca461378",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.screwfix.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
-                    "short_id": ""
                 }
             }
         },
@@ -1710,6 +1739,52 @@
                     "enabled": true,
                     "public_key": "2dIWbgD8nbCd1YBs-IiQ6vgA7mse9PA9DWqaIMFsTmc",
                     "short_id": "cb333964"
+                }
+            }
+        },
+        {
+            "tag": "🇪🇸 ES | 🔒 VLESS | @v2raych [19]",
+            "type": "vless",
+            "server": "bountyhunter.fonixapp.org",
+            "server_port": 34270,
+            "uuid": "820bc646-6b81-471a-8c6b-f7a6f750c62d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "foleRktxkiFhRpzlI9JQtPnnUn6uC_69MQOZIedPIRo",
+                    "short_id": "b0f3c87d8b"
+                }
+            }
+        },
+        {
+            "tag": "🇬🇧 GB | 🔒 VLESS | @v2raych [20]",
+            "type": "vless",
+            "server": "london.fonixapp.org",
+            "server_port": 11133,
+            "uuid": "160a7b5d-fd67-4e83-8d8e-73dcfb6d91c2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cloudtalk.io",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "y3umRzGnap4t5V4C_rlt870Rku-TG4F8ttsq-_5gKTY",
+                    "short_id": "d3e9"
                 }
             }
         },
