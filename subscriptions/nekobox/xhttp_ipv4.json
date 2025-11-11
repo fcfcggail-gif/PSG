@@ -85,6 +85,7 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [3]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [4]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [6]",
+                "🇨🇭 CH | 🔒 VLESS | @config_proxy [40]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🚩 CF | 🔒 VLESS | @flyv2ray [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
@@ -162,6 +163,7 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [3]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [4]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [6]",
+                "🇨🇭 CH | 🔒 VLESS | @config_proxy [40]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🚩 CF | 🔒 VLESS | @flyv2ray [15]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [5]",
@@ -357,6 +359,29 @@
             "uuid": "87fd36b8-9f9d-47f8-a543-145454009fd4",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇨🇭 CH | 🔒 VLESS | @config_proxy [40]",
+            "type": "vless",
+            "server": "37.156.45.224",
+            "server_port": 2074,
+            "uuid": "86e71b0a-ba93-469c-9a0b-7adfe25010d6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "spotplayer.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YAci-5f_XOHMAQ-X6YfIgzVFSzGruTfo8dsrGglkIFM",
+                    "short_id": "a6e020a5e18c"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
