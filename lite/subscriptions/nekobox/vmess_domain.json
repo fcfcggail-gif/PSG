@@ -165,7 +165,9 @@
                 "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [6]",
                 "🇸🇪 SE | 🔓 VMESS | @v2rayprotocol [6]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayturbo [7]",
+                "🇹🇷 TR | 🔓 VMESS | @vmesc [11]",
                 "🇫🇷 FR | 🔓 VMESS | @vpn_ioss [18]",
+                "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [18]",
                 "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [19]",
                 "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [20]",
                 "❔ XX | 🔒 VMESS | @vpngate_config [17]",
@@ -267,7 +269,9 @@
                 "🇩🇪 DE | 🔒 VMESS | @v2rayngchannelll [6]",
                 "🇸🇪 SE | 🔓 VMESS | @v2rayprotocol [6]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayturbo [7]",
+                "🇹🇷 TR | 🔓 VMESS | @vmesc [11]",
                 "🇫🇷 FR | 🔓 VMESS | @vpn_ioss [18]",
+                "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [18]",
                 "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [19]",
                 "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [20]",
                 "❔ XX | 🔒 VMESS | @vpngate_config [17]",
@@ -1735,6 +1739,15 @@
             "alter_id": 0
         },
         {
+            "tag": "🇹🇷 TR | 🔓 VMESS | @vmesc [11]",
+            "type": "vmess",
+            "server": "45.89.52.207",
+            "server_port": 39651,
+            "uuid": "ac4c12c5-45f2-4398-a718-9983941ede2b",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
             "tag": "🇫🇷 FR | 🔓 VMESS | @vpn_ioss [18]",
             "type": "vmess",
             "server": "2001:bc8:32d7:302::10",
@@ -1751,7 +1764,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [19]",
+            "tag": "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [18]",
             "type": "vmess",
             "server": "2001:41d0:70e:c100::",
             "server_port": 443,
@@ -1776,7 +1789,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [20]",
+            "tag": "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [19]",
             "type": "vmess",
             "server": "141.95.126.134",
             "server_port": 443,
@@ -1797,6 +1810,31 @@
                 "path": "/linkvws",
                 "headers": {
                     "Host": "jamekk.org"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VMESS | @vpnfail_v2ray [20]",
+            "type": "vmess",
+            "server": "57.129.59.202",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "fapeng.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "fapeng.org"
                 }
             }
         },
