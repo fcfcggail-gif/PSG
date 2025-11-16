@@ -92,8 +92,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @foxnt [10]",
                 "🚩 CF | 🔒 VLESS | @gervpn [1]",
                 "🚩 CF | 🔓 VLESS | @ghalagyann [19]",
+                "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
-                "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔒 VLESS | @iran_access [13]",
                 "🇫🇮 FI | 🔓 VLESS | @iranbfilter [6]",
                 "🇩🇪 DE | 🔒 VLESS | @kafing_2 [9]",
@@ -132,7 +132,6 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🚩 CF | 🔒 VLESS | @vmesc [16]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [17]",
                 "🚩 CF | 🔒 VLESS | @vmesc [18]"
             ],
             "tag": "proxy",
@@ -156,8 +155,8 @@
                 "🇩🇪 DE | 🔓 VLESS | @foxnt [10]",
                 "🚩 CF | 🔒 VLESS | @gervpn [1]",
                 "🚩 CF | 🔓 VLESS | @ghalagyann [19]",
+                "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
-                "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
                 "🚩 CF | 🔒 VLESS | @iran_access [13]",
                 "🇫🇮 FI | 🔓 VLESS | @iranbfilter [6]",
                 "🇩🇪 DE | 🔒 VLESS | @kafing_2 [9]",
@@ -196,7 +195,6 @@
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
                 "🚩 CF | 🔒 VLESS | @vmesc [16]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [17]",
                 "🚩 CF | 🔒 VLESS | @vmesc [18]"
             ],
             "tag": "auto",
@@ -472,7 +470,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [10]",
             "type": "vless",
             "server": "185.113.10.132",
             "server_port": 8650,
@@ -495,7 +493,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [12]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [11]",
             "type": "vless",
             "server": "185.113.10.132",
             "server_port": 8650,
@@ -1118,54 +1116,6 @@
         {
             "tag": "🚩 CF | 🔒 VLESS | @vmesc [16]",
             "type": "vless",
-            "server": "162.159.152.53",
-            "server_port": 443,
-            "uuid": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "vless.hubp.de",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "vless.hubp.de"
-                }
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [17]",
-            "type": "vless",
-            "server": "138.201.147.124",
-            "server_port": 1331,
-            "uuid": "ccaac3f0-b36e-4e2a-857f-365dddd42fcc",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "stackoverflow.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "l_LBBQyt6du7ZgBadETGtx8zLgUd36-4mZVCSI9qqwA",
-                    "short_id": "077dc29a23d311f2"
-                }
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @vmesc [18]",
-            "type": "vless",
             "server": "104.18.82.55",
             "server_port": 443,
             "uuid": "29187857-4a1f-4d1e-88eb-0016771e0dbb",
@@ -1185,6 +1135,31 @@
                 "path": "/",
                 "headers": {
                     "Host": "vless.hubp.de"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @vmesc [18]",
+            "type": "vless",
+            "server": "104.18.27.90",
+            "server_port": 2053,
+            "uuid": "79a01b8d-48a7-424a-97d6-d4fa0f1bb2f2",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "port.api-music-fa.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/J5aLQOY1R9ONWYCM",
+                "headers": {
+                    "Host": "port.api-music-fa.com"
                 }
             }
         }
