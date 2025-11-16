@@ -142,7 +142,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @v2rayngseven [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
-                "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]"
+                "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
+                "🚩 CF | 🔒 VLESS | @vmesc [16]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -203,7 +204,8 @@
                 "🇹🇷 TR | 🔒 VLESS | @v2rayngseven [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
-                "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]"
+                "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
+                "🚩 CF | 🔒 VLESS | @vmesc [16]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1112,6 +1114,31 @@
                     "enabled": true,
                     "public_key": "03oIukhEmNzMAGZWqcNLAHHjcVX0jLqRSa3ocMuskQY",
                     "short_id": "88417bc4"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @vmesc [16]",
+            "type": "vless",
+            "server": "198.41.223.140",
+            "server_port": 443,
+            "uuid": "f64bdc57-0f54-4705-bf75-cfd646d98c06",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "snippets.nneko.netlib.re",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/?ed=2048",
+                "headers": {
+                    "Host": "snippets.nneko.netlib.re"
                 }
             }
         }
