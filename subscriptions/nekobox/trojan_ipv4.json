@@ -84,7 +84,8 @@
                 "🇳🇱 NL | 🔒 TROJAN | @free4allvpn [7]",
                 "🇬🇧 GB | 🔒 TROJAN | @free4allvpn [8]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🇬🇧 GB | 🔒 TROJAN | @hope_net [11]",
+                "🇬🇧 GB | 🔒 TROJAN | @hope_net [9]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇭🇰 HK | 🔒 TROJAN | @msv2flyng [3]",
@@ -144,7 +145,8 @@
                 "🇳🇱 NL | 🔒 TROJAN | @free4allvpn [7]",
                 "🇬🇧 GB | 🔒 TROJAN | @free4allvpn [8]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
-                "🇬🇧 GB | 🔒 TROJAN | @hope_net [11]",
+                "🇬🇧 GB | 🔒 TROJAN | @hope_net [9]",
+                "🚩 CF | 🔒 TROJAN | @hope_net [20]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [2]",
                 "🇷🇺 RU | 🔒 TROJAN | @maradona_vpn [3]",
                 "🇭🇰 HK | 🔒 TROJAN | @msv2flyng [3]",
@@ -335,7 +337,7 @@
             "password": "ziIjOlyGbM"
         },
         {
-            "tag": "🇬🇧 GB | 🔒 TROJAN | @hope_net [11]",
+            "tag": "🇬🇧 GB | 🔒 TROJAN | @hope_net [9]",
             "type": "trojan",
             "server": "18.168.64.48",
             "server_port": 22222,
@@ -347,6 +349,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 TROJAN | @hope_net [20]",
+            "type": "trojan",
+            "server": "198.41.220.20",
+            "server_port": 443,
+            "password": "e8105dfd24414268b6c7652c63731097",
+            "tls": {
+                "enabled": true,
+                "server_name": "avianrecruit.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/6b777a91",
+                "headers": {
+                    "Host": "avianrecruit.com"
                 }
             }
         },
