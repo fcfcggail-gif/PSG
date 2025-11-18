@@ -244,8 +244,9 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇫🇮 FI | 🔒 SS | @v2ray_free_conf [19]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [20]",
+                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇦🇺 AU | 🔒 VMESS | @v2ray_free_conf [20]",
+                "🇳🇱 NL | 🔒 SS | @v2ray_free_conf [21]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -443,8 +444,9 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇫🇮 FI | 🔒 SS | @v2ray_free_conf [19]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [20]",
+                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇦🇺 AU | 🔒 VMESS | @v2ray_free_conf [20]",
+                "🇳🇱 NL | 🔒 SS | @v2ray_free_conf [21]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -2879,24 +2881,32 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 SS | @v2ray_free_conf [19]",
-            "type": "shadowsocks",
-            "server": "65.21.243.22",
-            "server_port": 31348,
-            "method": "chacha20-ietf-poly1305",
-            "password": "mZGUFWMAlfWqI4vP58zw9DAHxR8TZLndKkvRgHHFa9eqWdnx"
+            "tag": "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "8.218.26.234",
+            "server_port": 15233,
+            "uuid": "8a638047-8de4-4034-9b24-d8bf9fb18fa4",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/arki?ed=2048",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray_free_conf [20]",
+            "tag": "🇦🇺 AU | 🔒 VMESS | @v2ray_free_conf [20]",
             "type": "vmess",
-            "server": "57.129.59.202",
+            "server": "lu.0rd.net",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "uuid": "92c95430-b452-11ed-b236-205c6d5f5d78",
             "security": "auto",
             "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "fapeng.org",
+                "server_name": "",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -2905,11 +2915,19 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/linkvws",
+                "path": "/eajdsp9z",
                 "headers": {
-                    "Host": "fapeng.org"
+                    "Host": ""
                 }
             }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 SS | @v2ray_free_conf [21]",
+            "type": "shadowsocks",
+            "server": "193.29.139.144",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "oZIoA69Q8yhcQV8ka3Pa3A"
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
