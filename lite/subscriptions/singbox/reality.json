@@ -103,7 +103,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [16]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [15]",
+                "🇳🇱 NL | 🔒 VLESS | @vmesc [16]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [17]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -113,9 +115,8 @@
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "🇳🇱 NL | 🔒 VLESS | @v2ray1_ng [3]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇮🇹 IT | 🔒 VLESS | @vmesc [14]",
                 "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [16]",
-                "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]"
+                "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -137,7 +138,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [16]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [15]",
+                "🇳🇱 NL | 🔒 VLESS | @vmesc [16]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [17]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [7]",
@@ -147,9 +150,8 @@
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
                 "🇳🇱 NL | 🔒 VLESS | @v2ray1_ng [3]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
-                "🇮🇹 IT | 🔒 VLESS | @vmesc [14]",
                 "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [16]",
-                "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]"
+                "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -489,7 +491,53 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [16]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [15]",
+            "type": "vless",
+            "server": "193.46.81.151",
+            "server_port": 50853,
+            "uuid": "d988a5dc-35a4-44e6-8a78-a56659eee68c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "miro.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "XT7qcjwBZkCQPQVgzP_afaX76GUbHIysmOhJ1gWsLjs",
+                    "short_id": "69"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vmesc [16]",
+            "type": "vless",
+            "server": "143.20.79.11",
+            "server_port": 443,
+            "uuid": "60eb00f0-8029-4746-9879-3161f2811723",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tunnel.vk-apps.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MAs2iGqDMBmRgr30oJsSooKFXbFB5kGA6PpjelWsZxw",
+                    "short_id": "491db313"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [17]",
             "type": "vless",
             "server": "193.46.81.151",
             "server_port": 50853,
@@ -735,29 +783,6 @@
             }
         },
         {
-            "tag": "🇮🇹 IT | 🔒 VLESS | @vmesc [14]",
-            "type": "vless",
-            "server": "it.quattro-tech.ru",
-            "server_port": 443,
-            "uuid": "ab3aece1-4719-4093-826e-d320f64f6a25",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "it.quattro-tech.ru",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": null
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc",
-                    "short_id": "43dcff53849b81e6"
-                }
-            }
-        },
-        {
             "tag": "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [16]",
             "type": "vless",
             "server": "greenwolf.fonixapp.org",
@@ -781,7 +806,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
             "type": "vless",
             "server": "icloud.wlftest.xyz",
             "server_port": 443,

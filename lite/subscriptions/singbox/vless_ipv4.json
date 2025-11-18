@@ -144,8 +144,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🚩 CF | 🔒 VLESS | @vmesc [15]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [16]"
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [15]",
+                "🇳🇱 NL | 🔒 VLESS | @vmesc [16]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [17]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -208,8 +209,9 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2rayvpn2 [3]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🚩 CF | 🔒 VLESS | @vmesc [15]",
-                "🇩🇪 DE | 🔒 VLESS | @vmesc [16]"
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [15]",
+                "🇳🇱 NL | 🔒 VLESS | @vmesc [16]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [17]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1156,32 +1158,53 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔒 VLESS | @vmesc [15]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [15]",
             "type": "vless",
-            "server": "104.26.6.89",
-            "server_port": 443,
-            "uuid": "5ec3a039-ea63-4bf9-a848-a65c9bfa66f5",
-            "flow": "",
+            "server": "193.46.81.151",
+            "server_port": 50853,
+            "uuid": "d988a5dc-35a4-44e6-8a78-a56659eee68c",
+            "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "gb-8981.shenzogmbh.com",
+                "server_name": "miro.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/api/v1",
-                "headers": {
-                    "Host": "gb-8981.shenzogmbh.com"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "XT7qcjwBZkCQPQVgzP_afaX76GUbHIysmOhJ1gWsLjs",
+                    "short_id": "69"
                 }
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [16]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @vmesc [16]",
+            "type": "vless",
+            "server": "143.20.79.11",
+            "server_port": 443,
+            "uuid": "60eb00f0-8029-4746-9879-3161f2811723",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tunnel.vk-apps.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "MAs2iGqDMBmRgr30oJsSooKFXbFB5kGA6PpjelWsZxw",
+                    "short_id": "491db313"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [17]",
             "type": "vless",
             "server": "193.46.81.151",
             "server_port": 50853,
