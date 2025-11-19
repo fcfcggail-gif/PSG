@@ -237,14 +237,13 @@
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ra_ng_iran [15]",
                 "🇮🇷 IR | 🔓 VLESS | @v2ra_ng_iran [17]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [4]",
-                "🇳🇱 NL | 🔒 VLESS | @v2ray1_ng [6]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [7]",
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]",
-                "🇷🇴 RO | 🔒 SS | @v2ray_free_conf [20]",
+                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [18]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -434,14 +433,13 @@
                 "🚩 CF | 🔒 VLESS | @v2logy [11]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ra_ng_iran [15]",
                 "🇮🇷 IR | 🔓 VLESS | @v2ra_ng_iran [17]",
-                "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [4]",
-                "🇳🇱 NL | 🔒 VLESS | @v2ray1_ng [6]",
+                "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [7]",
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
-                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]",
-                "🇷🇴 RO | 🔒 SS | @v2ray_free_conf [20]",
+                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [18]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -2764,16 +2762,16 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [4]",
-            "type": "vmess",
-            "server": "57.129.28.212",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2ray1_ng [7]",
+            "type": "vless",
+            "server": "37.221.125.227",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-            "security": "auto",
-            "alter_id": 0,
+            "uuid": "ca72617f-337c-4b0e-84f0-d3c29f82d2b7",
+            "flow": "",
+            "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "fapeng.org",
+                "server_name": "37.221.125.227",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -2782,32 +2780,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/linkvws",
+                "path": "/",
                 "headers": {
-                    "Host": "fapeng.org"
-                }
-            }
-        },
-        {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @v2ray1_ng [6]",
-            "type": "vless",
-            "server": "usa82.freednet.org",
-            "server_port": 443,
-            "uuid": "4e5a0939-483c-4571-a1b1-fccbfe053923",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "www.utexas.edu",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "BhTJ3phnq-Z-10aFKSsj1lzhA8mULR4L6leE4-0WTAs",
-                    "short_id": ""
+                    "Host": "37.221.125.227"
                 }
             }
         },
@@ -2853,11 +2828,19 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [18]",
+            "type": "shadowsocks",
+            "server": "45.87.175.178",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "cvII85TrW6n0OGyfpHVS1u"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
-            "server": "176.9.178.52",
-            "server_port": 2052,
-            "uuid": "94452e78-daad-490f-f14e-5a143e752bf8",
+            "server": "91.99.185.216",
+            "server_port": 20086,
+            "uuid": "7bd6a1ea-a220-4f1c-afed-6cfb8ab96ad9",
             "security": "auto",
             "alter_id": 0,
             "transport": {
@@ -2869,20 +2852,12 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [19]",
+            "tag": "🇺🇸 US | 🔒 SS | @v2ray_free_conf [20]",
             "type": "shadowsocks",
-            "server": "45.87.175.167",
+            "server": "45.87.175.180",
             "server_port": 8080,
             "method": "chacha20-ietf-poly1305",
             "password": "QCXDxuDlTTMD7jtgHUjIoj"
-        },
-        {
-            "tag": "🇷🇴 RO | 🔒 SS | @v2ray_free_conf [20]",
-            "type": "shadowsocks",
-            "server": "185.126.237.38",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "f8f7aCzcPKbsF8p3"
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
