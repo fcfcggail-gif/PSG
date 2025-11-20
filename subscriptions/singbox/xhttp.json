@@ -122,7 +122,7 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [5]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [7]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [14]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [69]",
+                "🇨🇦 CA | 🔒 VLESS | @config_proxy [59]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇳🇱 NL | 🔒 VLESS | @evay_vpn [22]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [1]",
@@ -223,7 +223,7 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [5]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [7]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [14]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [69]",
+                "🇨🇦 CA | 🔒 VLESS | @config_proxy [59]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇳🇱 NL | 🔒 VLESS | @evay_vpn [22]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [1]",
@@ -726,13 +726,22 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [69]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @config_proxy [59]",
             "type": "vless",
-            "server": "151.101.67.8",
-            "server_port": 80,
-            "uuid": "TELEGRAM-CONFiGLiNE-52",
+            "server": "23.227.60.28",
+            "server_port": 443,
+            "uuid": "725f2702-6e3f-4bec-a2c4-7610d4ed413d",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "lord.darkhorse77.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
