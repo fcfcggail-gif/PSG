@@ -95,7 +95,6 @@
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [52]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -123,6 +122,7 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [5]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [7]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [14]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [50]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇳🇱 NL | 🔒 VLESS | @evay_vpn [22]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [1]",
@@ -196,7 +196,6 @@
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [52]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [7]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -224,6 +223,7 @@
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [5]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [7]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [14]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [50]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
                 "🇳🇱 NL | 🔒 VLESS | @evay_vpn [22]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [1]",
@@ -393,15 +393,6 @@
             "server": "am288.amin-1.ir",
             "server_port": 2082,
             "uuid": "01277c01-9d3f-4460-fe04-8107f81d1e22",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [52]",
-            "type": "vless",
-            "server": "wedrdeersed.hulkirani.shop",
-            "server_port": 80,
-            "uuid": "1aaf5230-bc90-4d76-b4f3-4d7a9fe4b190",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -733,6 +724,29 @@
             "uuid": "ef0a652d-5928-4310-8a70-ab9342ac959e",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [50]",
+            "type": "vless",
+            "server": "89.34.230.146",
+            "server_port": 443,
+            "uuid": "be51c621-559c-4920-9e42-06a8151802f5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "lHqO3yLI6TSwRaEUKThIqPbwnjzErj81I6nx0rSj2jo",
+                    "short_id": "0eb302fb4c48r♡ya"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [4]",
