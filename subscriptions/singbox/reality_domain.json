@@ -95,6 +95,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+                "❔ XX | 🔒 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -152,12 +154,12 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [7]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇮🇷 IR | 🔒 VLESS | @v2raych [2]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [17]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇫🇮 FI | 🔒 VLESS | @v2rayngconfiig [14]",
                 "🇭🇰 HK | 🔒 VLESS | @v2rayopen [3]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayopen [4]",
-                "🇨🇭 CH | 🔒 VLESS | @v2rayopen [13]",
+                "🇳🇱 NL | 🔒 VLESS | @v2rayopen [13]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [1]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [5]",
                 "❔ XX | 🔒 VLESS | @v2rayy_vpn13 [9]",
@@ -194,6 +196,8 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+                "❔ XX | 🔒 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -251,12 +255,12 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [7]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "🇮🇷 IR | 🔒 VLESS | @v2raych [2]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [17]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇫🇮 FI | 🔒 VLESS | @v2rayngconfiig [14]",
                 "🇭🇰 HK | 🔒 VLESS | @v2rayopen [3]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayopen [4]",
-                "🇨🇭 CH | 🔒 VLESS | @v2rayopen [13]",
+                "🇳🇱 NL | 🔒 VLESS | @v2rayopen [13]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [1]",
                 "❔ XX | 🔒 VLESS | @v2rayturbo [5]",
                 "❔ XX | 🔒 VLESS | @v2rayy_vpn13 [9]",
@@ -440,6 +444,56 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [50]",
+            "type": "vless",
+            "server": "kanale-dailyconfigs.vigilante.ir",
+            "server_port": 443,
+            "uuid": "ead3ae79-d7fd-44a6-9c7c-ec5b60d7fb5c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "7J9OcUYI23c2VWwyLWqfuNvAPr5BEVle3p2uqP-RFwk",
+                    "short_id": ""
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [52]",
+            "type": "vless",
+            "server": "soft98.cz1.ir",
+            "server_port": 1901,
+            "uuid": "2f1f42c7-a88b-b495-5aef-c3d50e0b13ae",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "Soft98.cz1.ir",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "6VOumeEWGCyZ7fYdm0rqkIN9J4zeabL7hjd1gdjl4EQ",
+                    "short_id": "c62e19d120b63ae8"
+                }
             }
         },
         {
@@ -1841,16 +1895,16 @@
             }
         },
         {
-            "tag": "🇮🇷 IR | 🔒 VLESS | @v2raych [2]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [17]",
             "type": "vless",
-            "server": "opv.138484.site",
-            "server_port": 7033,
-            "uuid": "b3135464-6cf4-4d45-b5a5-743841ade728",
+            "server": "kanale-dailyconfigs.vigilante.ir",
+            "server_port": 443,
+            "uuid": "ead3ae79-d7fd-44a6-9c7c-ec5b60d7fb5c",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "telewebion.com",
+                "server_name": "tgju.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -1858,13 +1912,13 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "iLik9C9our-5dRYuvFtrYOzd1NedgTsqUKew2ogLdgE",
-                    "short_id": "16b6cda7ab793526"
+                    "public_key": "7J9OcUYI23c2VWwyLWqfuNvAPr5BEVle3p2uqP-RFwk",
+                    "short_id": ""
                 }
             },
             "transport": {
                 "type": "grpc",
-                "service_name": "7034vless"
+                "service_name": "/DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs-DailyConfigs?ed=2048"
             }
         },
         {
@@ -1960,7 +2014,7 @@
             }
         },
         {
-            "tag": "🇨🇭 CH | 🔒 VLESS | @v2rayopen [13]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @v2rayopen [13]",
             "type": "vless",
             "server": "ch.srv1.stargrian.com",
             "server_port": 3445,
