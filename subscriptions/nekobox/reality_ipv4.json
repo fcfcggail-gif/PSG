@@ -82,7 +82,8 @@
                 "KingRezaPahlavi",
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
-                "🇯🇵 JP | 🔒 VLESS | @config_proxy [63]",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [44]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [49]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -168,6 +169,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
+                "🇯🇵 JP | 🔒 VLESS | @v2raych [10]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -218,7 +220,8 @@
                 "KingRezaPahlavi",
                 "🇹🇷 TR | 🔒 VLESS | @Fr33C0nfig [6]",
                 "🇩🇪 DE | 🔒 VLESS | @NamiraConfigs [60]",
-                "🇯🇵 JP | 🔒 VLESS | @config_proxy [63]",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [44]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [49]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [1]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [3]",
@@ -304,6 +307,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2logy [5]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
+                "🇯🇵 JP | 🔒 VLESS | @v2raych [10]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [1]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [2]",
                 "🇮🇷 IR | 🔒 VLESS | @v2rayexpress [3]",
@@ -478,25 +482,48 @@
             }
         },
         {
-            "tag": "🇯🇵 JP | 🔒 VLESS | @config_proxy [63]",
+            "tag": "🇸🇪 SE | 🔒 VLESS | @config_proxy [44]",
             "type": "vless",
-            "server": "47.79.32.82",
-            "server_port": 42037,
-            "uuid": "1eff6d61-2f9f-4689-82a9-4232a8f48949",
+            "server": "70.34.214.175",
+            "server_port": 13369,
+            "uuid": "70ec317d-d66d-4f9d-955a-fcd58678ce4c",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "itunes.apple.com",
+                "server_name": "cloudflare.com",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
-                    "fingerprint": null
+                    "fingerprint": "chrome"
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "3XDxoCztHymlFMXbG1BtoHyWRHpZ9Uvzwa5z9JrQC1E",
-                    "short_id": "e978d721cd"
+                    "public_key": "U1VfZuybGyl0BnG82ZJKUnXsZQdUxDkZVm67RZB8C34",
+                    "short_id": "d868e6"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [49]",
+            "type": "vless",
+            "server": "52.3.221.198",
+            "server_port": 443,
+            "uuid": "44dd0039-0787-4c47-832e-991a41fbae5e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "api.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1aNZhUdQ3CrgrwGV0mdTszB7lKnz072dEzL9FwWMEkA",
+                    "short_id": "db56098b39"
                 }
             }
         },
@@ -2527,6 +2554,29 @@
                     "enabled": true,
                     "public_key": "XvE4spgyHFlKdak6PAN23URn4I-vfIBtuylpc1U5pWM",
                     "short_id": "5426024033df45"
+                }
+            }
+        },
+        {
+            "tag": "🇯🇵 JP | 🔒 VLESS | @v2raych [10]",
+            "type": "vless",
+            "server": "47.79.32.82",
+            "server_port": 42037,
+            "uuid": "1eff6d61-2f9f-4689-82a9-4232a8f48949",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "3XDxoCztHymlFMXbG1BtoHyWRHpZ9Uvzwa5z9JrQC1E",
+                    "short_id": "e978d721cd"
                 }
             }
         },

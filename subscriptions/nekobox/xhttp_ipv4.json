@@ -82,6 +82,8 @@
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [2]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [9]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [45]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [49]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇫🇷 FR | 🔒 VLESS | @free1_vpn [4]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [1]",
@@ -158,6 +160,8 @@
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [2]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [9]",
+                "🚩 CF | 🔓 VLESS | @config_proxy [45]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [49]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇫🇷 FR | 🔒 VLESS | @free1_vpn [4]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [1]",
@@ -328,6 +332,38 @@
             "uuid": "ef0a652d-5928-4310-8a70-ab9342ac959e",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [45]",
+            "type": "vless",
+            "server": "172.66.45.63",
+            "server_port": 80,
+            "uuid": "32be834f-c85e-4561-8a93-eeede465baeb",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [49]",
+            "type": "vless",
+            "server": "52.3.221.198",
+            "server_port": 443,
+            "uuid": "44dd0039-0787-4c47-832e-991a41fbae5e",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "api.cloudflare.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "1aNZhUdQ3CrgrwGV0mdTszB7lKnz072dEzL9FwWMEkA",
+                    "short_id": "db56098b39"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
