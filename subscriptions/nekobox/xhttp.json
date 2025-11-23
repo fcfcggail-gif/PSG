@@ -83,7 +83,7 @@
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [7]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [49]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [56]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [3]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -112,7 +112,6 @@
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [1]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [8]",
-                "🇨🇦 CA | 🔓 VLESS | @config_proxy [47]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇫🇷 FR | 🔒 VLESS | @free1_vpn [4]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [1]",
@@ -191,7 +190,7 @@
                 "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [8]",
                 "🇺🇸 US | 🔓 VLESS | @arv2ray [3]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [7]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [49]",
+                "🚩 CF | 🔒 VLESS | @config_proxy [56]",
                 "❔ XX | 🔓 VLESS | @ehsawn8 [3]",
                 "🇺🇸 US | 🔓 VLESS | @ehsawn8 [5]",
                 "🇺🇸 US | 🔓 VLESS | @eliteproxyv2 [8]",
@@ -220,7 +219,6 @@
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [1]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [8]",
-                "🇨🇦 CA | 🔓 VLESS | @config_proxy [47]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇫🇷 FR | 🔒 VLESS | @free1_vpn [4]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [1]",
@@ -403,13 +401,22 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [49]",
+            "tag": "🚩 CF | 🔒 VLESS | @config_proxy [56]",
             "type": "vless",
-            "server": "speedtestcustom.com",
-            "server_port": 80,
-            "uuid": "240b8e0e-56b3-4b7a-a9e5-7ad323b3e52e",
+            "server": "wangcai17.cloudflare.182682.xyz",
+            "server_port": 443,
+            "uuid": "9d847ad3-1896-48f9-b89c-13fe345e2bff",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "cho.chonon.sbs",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [3]",
@@ -790,24 +797,6 @@
             "uuid": "ef0a652d-5928-4310-8a70-ab9342ac959e",
             "flow": "",
             "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇨🇦 CA | 🔓 VLESS | @config_proxy [47]",
-            "type": "vless",
-            "server": "172.105.26.226",
-            "server_port": 443,
-            "uuid": "606ca99f-93ec-4fcb-b45d-86d0d3fb149d",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "172.105.26.226",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
