@@ -82,7 +82,8 @@
                 "KingRezaPahlavi",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [15]",
-                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]"
+                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
+                "🇭🇰 HK | 🔒 TROJAN | @v2ray1_ng [6]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -95,7 +96,8 @@
                 "KingRezaPahlavi",
                 "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
                 "🇩🇪 DE | 🔒 TROJAN | @privatevpns [15]",
-                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]"
+                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
+                "🇭🇰 HK | 🔒 TROJAN | @v2ray1_ng [6]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -230,6 +232,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🇭🇰 HK | 🔒 TROJAN | @v2ray1_ng [6]",
+            "type": "trojan",
+            "server": "36.50.90.241",
+            "server_port": 35951,
+            "password": "c6b96097-fe2d-487d-b9ef-60c994b90db2",
+            "tls": {
+                "enabled": true,
+                "server_name": "joss.gpj1.web.id",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Free-VPN-CF-Geo-Project/36.50.90.241=35951",
+                "headers": {
+                    "Host": "joss.gpj1.web.id"
                 }
             }
         }
