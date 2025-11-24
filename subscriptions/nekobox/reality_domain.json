@@ -83,7 +83,10 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇸🇪 SE | 🔒 VLESS | @config_proxy [67]",
+                "❔ XX | 🔒 VLESS | @config_proxy [43]",
+                "❔ XX | 🔒 VLESS | @config_proxy [44]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [46]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [55]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -148,8 +151,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [5]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "❔ XX | 🔒 VLESS | @v2raych [7]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [13]",
+                "❔ XX | 🔒 VLESS | @v2raych [5]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [11]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇫🇮 FI | 🔒 VLESS | @v2rayngconfiig [14]",
                 "🇨🇭 CH | 🔒 VLESS | @v2rayopen [2]",
@@ -195,7 +198,10 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇸🇪 SE | 🔒 VLESS | @config_proxy [67]",
+                "❔ XX | 🔒 VLESS | @config_proxy [43]",
+                "❔ XX | 🔒 VLESS | @config_proxy [44]",
+                "🇺🇸 US | 🔒 VLESS | @config_proxy [46]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [55]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -260,8 +266,8 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [5]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
-                "❔ XX | 🔒 VLESS | @v2raych [7]",
-                "🇩🇪 DE | 🔒 VLESS | @v2raych [13]",
+                "❔ XX | 🔒 VLESS | @v2raych [5]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [11]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇫🇮 FI | 🔒 VLESS | @v2rayngconfiig [14]",
                 "🇨🇭 CH | 🔒 VLESS | @v2rayopen [2]",
@@ -461,16 +467,39 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔒 VLESS | @config_proxy [67]",
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [43]",
             "type": "vless",
-            "server": "legendary.zooboming.com",
+            "server": "public.misvn.ir",
             "server_port": 443,
-            "uuid": "---v2rayNGcloud----",
+            "uuid": "SVNTEAM-2",
             "flow": "xtls-rprx-vision",
             "packet_encoding": "xudp",
             "tls": {
                 "enabled": true,
-                "server_name": "docker.com",
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "O0DFIyOlsDyOPthL8Z27Fna1vuoWB5CYTFXrcUf_jlc",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [44]",
+            "type": "vless",
+            "server": "public.misvn.ir",
+            "server_port": 443,
+            "uuid": "SVNTEAM-3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -478,13 +507,55 @@
                 },
                 "reality": {
                     "enabled": true,
-                    "public_key": "vo3IPWJCrDQ3fnrQ8zzh40xRM2vy-9w30UuiHLjZbn4",
+                    "public_key": "O0DFIyOlsDyOPthL8Z27Fna1vuoWB5CYTFXrcUf_jlc",
                     "short_id": ""
                 }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "-@v2rayNGcloud--@v2rayNGcloud--@v2rayNGcloud--@v2rayNGcloud--@v2rayNGcloud--"
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔒 VLESS | @config_proxy [46]",
+            "type": "vless",
+            "server": "us.ircloudmarket.com",
+            "server_port": 888,
+            "uuid": "f2435124-874b-4b09-99a7-3786616425e0",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "jetbrains.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "xhUiZLkRCdO3b06Sfl4CMAkzwufpHbZcTYhLAA036R8",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "Evay-vpn.octacityroleplay.ir",
+            "server_port": 1122,
+            "uuid": "e5badc02-f58f-46dd-8955-0fad475c82bb",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.slideshare.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4iCkO1B",
+                    "short_id": ""
+                }
             }
         },
         {
@@ -2043,7 +2114,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @v2raych [7]",
+            "tag": "❔ XX | 🔒 VLESS | @v2raych [5]",
             "type": "vless",
             "server": "s1.devstore",
             "server_port": 4450,
@@ -2066,7 +2137,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [13]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [11]",
             "type": "vless",
             "server": "Evay-vpn.octacityroleplay.ir",
             "server_port": 1122,
