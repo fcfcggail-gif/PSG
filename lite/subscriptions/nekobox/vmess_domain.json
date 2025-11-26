@@ -106,7 +106,8 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -147,7 +148,8 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -586,16 +588,32 @@
             "alter_id": 0
         },
         {
-            "tag": "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
+            "tag": "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
-            "server": "m5u9c2.keeoomboom.de",
+            "server": "8.217.92.110",
+            "server_port": 20522,
+            "uuid": "31e1f90f-0218-4097-91f9-a42df9b3334a",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/telegram_@sswia",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "cf-lt.sharecentre.online",
             "server_port": 443,
-            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
             "security": "auto",
             "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "m5u9c2.keeoomboom.de",
+                "server_name": "us-st-2.sharecentre.online",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -604,9 +622,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/video/26ifcat.m3u8",
+                "path": "/shirker",
                 "headers": {
-                    "Host": "m5u9c2.keeoomboom.de"
+                    "Host": "us-st-2.sharecentre.online"
                 }
             }
         },
