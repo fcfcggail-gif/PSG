@@ -111,6 +111,7 @@
                 "🇸🇬 SG | 🔓 VMESS | @mt_proxy [6]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
+                "🇩🇪 DE | 🔓 VMESS | @orange_vpns [19]",
                 "❔ XX | 🔓 VMESS | @pydriclub [4]",
                 "🚩 CF | 🔒 VMESS | @qeshmserver [11]",
                 "🚩 CF | 🔒 VMESS | @qeshmserver [12]",
@@ -118,8 +119,8 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
-                "❔ XX | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -153,6 +154,7 @@
                 "🇸🇬 SG | 🔓 VMESS | @mt_proxy [6]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
                 "🚩 CF | 🔓 VMESS | @nn_vpn [2]",
+                "🇩🇪 DE | 🔓 VMESS | @orange_vpns [19]",
                 "❔ XX | 🔓 VMESS | @pydriclub [4]",
                 "🚩 CF | 🔒 VMESS | @qeshmserver [11]",
                 "🚩 CF | 🔒 VMESS | @qeshmserver [12]",
@@ -160,8 +162,8 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
-                "❔ XX | 🔒 VMESS | @v2ray_free_conf [19]",
+                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [20]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -512,6 +514,22 @@
             }
         },
         {
+            "tag": "🇩🇪 DE | 🔓 VMESS | @orange_vpns [19]",
+            "type": "vmess",
+            "server": "cpanel.navar2.ir",
+            "server_port": 100,
+            "uuid": "57c7a91a-6f72-4435-ac4c-746d6554c5ad",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔓 VMESS | @pydriclub [4]",
             "type": "vmess",
             "server": "mtnn.pydarshop.ir",
@@ -596,32 +614,16 @@
             "alter_id": 0
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "8.217.92.110",
-            "server_port": 20522,
-            "uuid": "31e1f90f-0218-4097-91f9-a42df9b3334a",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/telegram_@sswia",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VMESS | @v2ray_free_conf [19]",
-            "type": "vmess",
-            "server": "cf-lt.sharecentre.online",
-            "server_port": 443,
-            "uuid": "20e92881-5fb4-4b05-bc77-57929476dc69",
+            "server": "74.117.196.232",
+            "server_port": 37934,
+            "uuid": "e3cb685e-7840-45cb-9d64-b2028d9b635e",
             "security": "auto",
             "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "us-st-2.sharecentre.online",
+                "server_name": "imafake.locker",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -630,11 +632,20 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/shirker",
+                "path": "/speedtest",
                 "headers": {
-                    "Host": "us-st-2.sharecentre.online"
+                    "Host": "imafake.locker"
                 }
             }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [20]",
+            "type": "vmess",
+            "server": "85.195.101.122",
+            "server_port": 40878,
+            "uuid": "f3d4167e-b15e-4e46-82e9-9286ef93fda7",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
