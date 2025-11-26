@@ -83,6 +83,9 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [64]",
+                "🇪🇸 ES | 🔒 VLESS | @config_proxy [65]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [66]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -145,9 +148,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [4]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇦🇲 AM | 🔒 VLESS | @v2raych [7]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇫🇮 FI | 🔒 VLESS | @v2rayngconfiig [14]",
-                "🇨🇭 CH | 🔒 VLESS | @v2rayopen [2]",
+                "🇳🇱 NL | 🔒 VLESS | @v2rayopen [2]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [6]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [7]",
@@ -187,6 +191,9 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [64]",
+                "🇪🇸 ES | 🔒 VLESS | @config_proxy [65]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [66]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -249,9 +256,10 @@
                 "🇩🇪 DE | 🔒 VLESS | @v2aryng_vpn [4]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇦🇲 AM | 🔒 VLESS | @v2raych [7]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇫🇮 FI | 🔒 VLESS | @v2rayngconfiig [14]",
-                "🇨🇭 CH | 🔒 VLESS | @v2rayopen [2]",
+                "🇳🇱 NL | 🔒 VLESS | @v2rayopen [2]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [4]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [6]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [7]",
@@ -442,6 +450,75 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [64]",
+            "type": "vless",
+            "server": "world-of.ru",
+            "server_port": 45006,
+            "uuid": "ff544f79-9c52-43c6-aaeb-e68989ebe8fd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "odeg3o6NSJbdTwtXqd6QZvbkiX5COv1Q41a7ciVELio",
+                    "short_id": "0f704e"
+                }
+            }
+        },
+        {
+            "tag": "🇪🇸 ES | 🔒 VLESS | @config_proxy [65]",
+            "type": "vless",
+            "server": "tunnyl.ru",
+            "server_port": 8443,
+            "uuid": "61341b8a-35bf-44b6-8c57-6cdfc0d5bd99",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "B7oEk3bsUoMrpkpIcTsCQnZour3qfbgUuhOk9aWWbFk",
+                    "short_id": "b88841a3"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [66]",
+            "type": "vless",
+            "server": "hield.ru",
+            "server_port": 4425,
+            "uuid": "0485b2bb-7d20-43a5-8915-d9d75d8ccf59",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "I8C10gt92B_XeMMSsCIaePHYu2O1IE5hz0x2VKS7tzo",
+                    "short_id": "e8"
+                }
             }
         },
         {
@@ -1954,6 +2031,29 @@
             }
         },
         {
+            "tag": "🇦🇲 AM | 🔒 VLESS | @v2raych [7]",
+            "type": "vless",
+            "server": "am.sepserver.de",
+            "server_port": 8029,
+            "uuid": "ef2e086e-bce5-4c2f-b5b3-9e27911e995a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "QHg_sq-uc2VPgb4qOTORPT2WFwnsEBmAdmFfywhBhVs",
+                    "short_id": "0ae86db71378173b"
+                }
+            }
+        },
+        {
             "tag": "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
             "type": "vless",
             "server": "nl01-vlr01.tcp-reset-club.net",
@@ -2000,7 +2100,7 @@
             }
         },
         {
-            "tag": "🇨🇭 CH | 🔒 VLESS | @v2rayopen [2]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @v2rayopen [2]",
             "type": "vless",
             "server": "ch.srv1.stargrian.com",
             "server_port": 3445,

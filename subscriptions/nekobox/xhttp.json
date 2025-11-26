@@ -107,7 +107,7 @@
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [14]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [51]",
+                "🇧🇪 BE | 🔒 VLESS | @config_proxy [55]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [1]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
@@ -217,7 +217,7 @@
                 "🇺🇸 US | 🔓 VLESS | @vpnplusee_free [15]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [14]",
-                "🇩🇪 DE | 🔓 VLESS | @config_proxy [51]",
+                "🇧🇪 BE | 🔒 VLESS | @config_proxy [55]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [1]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
@@ -739,13 +739,22 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [51]",
+            "tag": "🇧🇪 BE | 🔒 VLESS | @config_proxy [55]",
             "type": "vless",
-            "server": "91.99.85.185",
-            "server_port": 8443,
-            "uuid": "e66beedb-dd44-47f0-baf8-7ba947d919d0",
+            "server": "207.211.214.145",
+            "server_port": 443,
+            "uuid": "3d1214b7-96a0-4974-a0d6-660bc29261d1",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
