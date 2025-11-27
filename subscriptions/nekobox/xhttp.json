@@ -103,12 +103,14 @@
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [23]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [30]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [8]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [14]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [11]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [50]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [1]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
@@ -212,12 +214,14 @@
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [23]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [30]",
                 "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [17]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [8]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [14]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [11]",
                 "🇩🇪 DE | 🔒 VLESS | @vpnplusee_free [17]",
                 "🇮🇹 IT | 🔓 VLESS | @xsv2ray [5]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [13]",
+                "🇩🇪 DE | 🔓 VLESS | @config_proxy [50]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇺🇸 US | 🔒 VLESS | @game_file2020 [1]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
@@ -701,6 +705,15 @@
             "packet_encoding": "xudp"
         },
         {
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [8]",
+            "type": "vless",
+            "server": "test.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "e0a978a7-f156-4b95-b4db-86d0efeeaa94",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
             "tag": "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [13]",
             "type": "vless",
             "server": "test.fast.hosting-ip.com",
@@ -781,6 +794,24 @@
             "uuid": "5deb851a-3771-4adc-e4e8-e33b5e4ae81f",
             "flow": "",
             "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @config_proxy [50]",
+            "type": "vless",
+            "server": "91.98.80.76",
+            "server_port": 443,
+            "uuid": "692294a6-38c7-40fa-b88a-7efd8ebe134f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "91.98.80.76",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",

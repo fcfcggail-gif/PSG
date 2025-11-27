@@ -107,7 +107,8 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -149,7 +150,8 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -604,18 +606,36 @@
             "alter_id": 0
         },
         {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "8.218.113.19",
-            "server_port": 6192,
-            "uuid": "406d5be6-101c-46f7-9e10-be222a9f5a1b",
+            "server": "45.84.196.56",
+            "server_port": 444,
+            "uuid": "61802033-f439-4023-af61-56e350cdc594",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "xyst5w.teeoomboom.de",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
             "security": "auto",
             "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "xyst5w.teeoomboom.de",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
             "transport": {
                 "type": "ws",
-                "path": "/arki?ed=2048",
+                "path": "/",
                 "headers": {
-                    "Host": ""
+                    "Host": "xyst5w.teeoomboom.de"
                 }
             }
         },
