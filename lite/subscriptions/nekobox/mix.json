@@ -227,11 +227,13 @@
                 "🇮🇷 IR | 🔓 VLESS | @v2ra_ng_iran [17]",
                 "🇹🇷 TR | 🔒 SS | @v2ray1_ng [3]",
                 "🇺🇸 US | 🔒 VLESS | @v2ray1_ng [4]",
+                "🇫🇮 FI | 🔒 TROJAN | @v2ray1_ng [5]",
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [16]",
-                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [18]",
+                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [15]",
+                "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [16]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [17]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -423,11 +425,13 @@
                 "🇮🇷 IR | 🔓 VLESS | @v2ra_ng_iran [17]",
                 "🇹🇷 TR | 🔒 SS | @v2ray1_ng [3]",
                 "🇺🇸 US | 🔒 VLESS | @v2ray1_ng [4]",
+                "🇫🇮 FI | 🔒 TROJAN | @v2ray1_ng [5]",
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [16]",
-                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [18]",
+                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [15]",
+                "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [16]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [17]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [17]",
@@ -1034,7 +1038,7 @@
             "type": "vless",
             "server": "172.66.156.81",
             "server_port": 80,
-            "uuid": "a92687c6-b991-418a-8e2e-3b455bfc1959",
+            "uuid": "a01136da-5f70-4322-9947-437070163449",
             "flow": "",
             "packet_encoding": "xudp",
             "transport": {
@@ -2743,6 +2747,29 @@
             }
         },
         {
+            "tag": "🇫🇮 FI | 🔒 TROJAN | @v2ray1_ng [5]",
+            "type": "trojan",
+            "server": "46.20.106.162",
+            "server_port": 443,
+            "password": "f1b5925b-eb26-4a2c-90fa-0d48157dd4b9",
+            "tls": {
+                "enabled": true,
+                "server_name": "joss.gpj.web.id",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/Free-VPN-CF-Geo-Project/46.20.106.162=443",
+                "headers": {
+                    "Host": "joss.gpj.web.id"
+                }
+            }
+        },
+        {
             "tag": "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
             "type": "vless",
             "server": "45.88.183.158",
@@ -2784,23 +2811,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [16]",
-            "type": "vmess",
-            "server": "5.231.56.98",
-            "server_port": 3721,
-            "uuid": "5f2f0765-f331-4d1e-8560-d2fb533dd6fe",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [15]",
             "type": "vmess",
             "server": "154.17.230.67",
             "server_port": 33995,
@@ -2821,6 +2832,33 @@
                 "path": "/aa",
                 "headers": {
                     "Host": "us.nbee.pp.ua"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [16]",
+            "type": "vmess",
+            "server": "dude.nicame.space",
+            "server_port": 11559,
+            "uuid": "c17043bf-cf96-70c8-5950-75f1dca409c2",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [17]",
+            "type": "vmess",
+            "server": "91.107.185.224",
+            "server_port": 443,
+            "uuid": "e7ff3971-5040-4c88-8853-914e2cf4c2cb",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },

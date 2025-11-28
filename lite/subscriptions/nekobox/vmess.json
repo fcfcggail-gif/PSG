@@ -107,8 +107,9 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [16]",
-                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [18]",
+                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [15]",
+                "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [16]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [17]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -150,8 +151,9 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [16]",
-                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [18]",
+                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [15]",
+                "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [16]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [17]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -606,23 +608,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [16]",
-            "type": "vmess",
-            "server": "5.231.56.98",
-            "server_port": 3721,
-            "uuid": "5f2f0765-f331-4d1e-8560-d2fb533dd6fe",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [15]",
             "type": "vmess",
             "server": "154.17.230.67",
             "server_port": 33995,
@@ -643,6 +629,33 @@
                 "path": "/aa",
                 "headers": {
                     "Host": "us.nbee.pp.ua"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔓 VMESS | @v2ray_free_conf [16]",
+            "type": "vmess",
+            "server": "dude.nicame.space",
+            "server_port": 11559,
+            "uuid": "c17043bf-cf96-70c8-5950-75f1dca409c2",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [17]",
+            "type": "vmess",
+            "server": "91.107.185.224",
+            "server_port": 443,
+            "uuid": "e7ff3971-5040-4c88-8853-914e2cf4c2cb",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
