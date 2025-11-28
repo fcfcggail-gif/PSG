@@ -128,8 +128,9 @@
                 "🇹🇷 TR | 🔒 VLESS | @v2rayngseven [2]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇬🇧 GB | 🔒 VLESS | @vmesc [18]",
-                "🇭🇰 HK | 🔒 VLESS | @vmesc [19]"
+                "🇬🇧 GB | 🔒 VLESS | @vmesc [17]",
+                "🇭🇰 HK | 🔒 VLESS | @vmesc [18]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [19]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -188,8 +189,9 @@
                 "🇹🇷 TR | 🔒 VLESS | @v2rayngseven [2]",
                 "🇷🇺 RU | 🔒 VLESS | @vipnetmeli [2]",
                 "🇩🇪 DE | 🔒 VLESS | @vipnetmeli [3]",
-                "🇬🇧 GB | 🔒 VLESS | @vmesc [18]",
-                "🇭🇰 HK | 🔒 VLESS | @vmesc [19]"
+                "🇬🇧 GB | 🔒 VLESS | @vmesc [17]",
+                "🇭🇰 HK | 🔒 VLESS | @vmesc [18]",
+                "🇩🇪 DE | 🔒 VLESS | @vmesc [19]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -1051,7 +1053,7 @@
             }
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VLESS | @vmesc [18]",
+            "tag": "🇬🇧 GB | 🔒 VLESS | @vmesc [17]",
             "type": "vless",
             "server": "25.25.25.253",
             "server_port": 2096,
@@ -1076,7 +1078,7 @@
             }
         },
         {
-            "tag": "🇭🇰 HK | 🔒 VLESS | @vmesc [19]",
+            "tag": "🇭🇰 HK | 🔒 VLESS | @vmesc [18]",
             "type": "vless",
             "server": "27.50.48.8",
             "server_port": 443,
@@ -1097,6 +1099,29 @@
                 "path": "/snippets/ip",
                 "headers": {
                     "Host": "vless.hubp.de"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vmesc [19]",
+            "type": "vless",
+            "server": "162.19.175.55",
+            "server_port": 9954,
+            "uuid": "c2ec47f4-873f-573f-7d8d-d79d7ad452e6",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "store.steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "YWfCdTnr4FAOMYTY2dLrMtQUokyxOGpPhYEEszPj20E",
+                    "short_id": ""
                 }
             }
         }
