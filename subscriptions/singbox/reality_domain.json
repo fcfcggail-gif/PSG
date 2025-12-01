@@ -95,6 +95,10 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [54]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [55]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [57]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [59]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -116,7 +120,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [17]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [18]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [19]",
-                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [4]",
+                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [3]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [4]",
@@ -163,6 +167,8 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_youtube [5]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [16]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [17]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇫🇮 FI | 🔒 VLESS | @v2rayngconfiig [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [13]",
@@ -199,6 +205,10 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇸🇪 SE | 🔒 VLESS | @config_proxy [54]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [55]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [57]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [59]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -220,7 +230,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [17]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [18]",
                 "🇩🇪 DE | 🔒 VLESS | @evay_vpn [19]",
-                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [4]",
+                "🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]",
                 "🇦🇪 AE | 🔒 VLESS | @iran_access [14]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [3]",
                 "❔ XX | 🔒 VLESS | @iranbaxvpn [4]",
@@ -267,6 +277,8 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_youtube [5]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [16]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [17]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
                 "🇫🇮 FI | 🔒 VLESS | @v2rayngconfiig [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayopen [13]",
@@ -450,6 +462,98 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇸🇪 SE | 🔒 VLESS | @config_proxy [54]",
+            "type": "vless",
+            "server": "abaddon.fonixapp.org",
+            "server_port": 24401,
+            "uuid": "b5363ae9-9ed8-47d7-bd95-b2c83acc1f8f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "steampowered.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "6Tayhy99MQpr2AvgmdiqHAzd7Z0F9F6Qj-eZN2FRsjU",
+                    "short_id": "6d3e7476fd"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [55]",
+            "type": "vless",
+            "server": "nl01-ss01.tcp-reset-club.net",
+            "server_port": 8443,
+            "uuid": "879bba99-edb8-4a82-a00b-f671283f0ef2",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stats.vk-portal.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "d3b13f31"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [57]",
+            "type": "vless",
+            "server": "lifestealer.fonixapp.org",
+            "server_port": 36134,
+            "uuid": "2efbb638-c1ae-46bd-b418-b1f9c265e2d1",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "stackoverflow.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "6-45Hxz3UsSI3vDzHSGGuDqqEzqwFxEQyl_0sZoMejs",
+                    "short_id": "86e86c"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [59]",
+            "type": "vless",
+            "server": "rayphoriahub.iranfastshop.ir",
+            "server_port": 7401,
+            "uuid": "71ca8e1a-782f-4ca0-98b7-56c243263d89",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "preview.redd.it",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mNJNJwzm8sozJ7cXa62Fu3cHYUb0efZs4ue-ZHCIN2o",
+                    "short_id": "8de0d97b17"
+                }
             }
         },
         {
@@ -956,7 +1060,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @free1_vpn [4]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @free1_vpn [5]",
             "type": "vless",
             "server": "shadowshaman.fonixapp.org",
             "server_port": 39321,
@@ -2096,6 +2200,52 @@
                     "enabled": true,
                     "public_key": "2dIWbgD8nbCd1YBs-IiQ6vgA7mse9PA9DWqaIMFsTmc",
                     "short_id": "cb333964"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [16]",
+            "type": "vless",
+            "server": "clinkz.fonixapp.org",
+            "server_port": 24781,
+            "uuid": "3dd436be-a129-4336-ac3a-3ac82b09b519",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "deepl.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "_tS59sZPNLteaD8lXkqEOWmqYJkEMqP1zltupMsfm34",
+                    "short_id": "42042690"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [17]",
+            "type": "vless",
+            "server": "silverzebra.fonixapp.org",
+            "server_port": 53367,
+            "uuid": "31d8b56f-524d-47a1-a0c7-5642018b30c7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "marmiton.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "oenAlMhG602prGwOqnAt5yZ55yuDEfZwGZXn-WaxizM",
+                    "short_id": "e1814a"
                 }
             }
         },

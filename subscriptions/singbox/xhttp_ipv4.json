@@ -94,7 +94,8 @@
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [3]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [13]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [52]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [68]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -138,8 +139,7 @@
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇺🇸 US | 🔓 VLESS | @server_nekobox [12]",
-                "🇺🇸 US | 🔓 VLESS | @v2aryng_vpn [1]",
-                "🇺🇸 US | 🔓 VLESS | @v2aryng_vpn [13]",
+                "🇺🇸 US | 🔓 VLESS | @v2aryng_vpn [12]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [25]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [27]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
@@ -175,7 +175,8 @@
                 "KingRezaPahlavi",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [3]",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [13]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [52]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
+                "🇺🇸 US | 🔓 VLESS | @config_proxy [68]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -219,8 +220,7 @@
                 "🇺🇸 US | 🔒 VLESS | @proxygrizzly [1]",
                 "🇺🇸 US | 🔓 VLESS | @qeshmserver [13]",
                 "🇺🇸 US | 🔓 VLESS | @server_nekobox [12]",
-                "🇺🇸 US | 🔓 VLESS | @v2aryng_vpn [1]",
-                "🇺🇸 US | 🔓 VLESS | @v2aryng_vpn [13]",
+                "🇺🇸 US | 🔓 VLESS | @v2aryng_vpn [12]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [25]",
                 "🚩 CF | 🔓 VLESS | @v2ray_sub [27]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [14]",
@@ -348,11 +348,34 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [52]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [58]",
+            "type": "vless",
+            "server": "45.76.86.15",
+            "server_port": 443,
+            "uuid": "e90f7fe0-1566-422d-a36a-1c59c0fa1272",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "tHlo88-LL3c7V3eU49SBhwSVxVU1qMyZX7l9wxWZN1s",
+                    "short_id": "ec"
+                }
+            }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [68]",
             "type": "vless",
             "server": "151.101.3.8",
             "server_port": 80,
-            "uuid": "f447d2e7-b486-49fc-967d-5b505bba27ac",
+            "uuid": "963edad9-33ad-4cab-c7f3-7efcd2a10405",
             "flow": "",
             "packet_encoding": "xudp"
         },
@@ -1085,16 +1108,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2aryng_vpn [1]",
-            "type": "vless",
-            "server": "151.101.3.8",
-            "server_port": 80,
-            "uuid": "405a3fc8-4226-4fc2-814a-81d5d7e8f515",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2aryng_vpn [13]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2aryng_vpn [12]",
             "type": "vless",
             "server": "151.101.0.0",
             "server_port": 80,
