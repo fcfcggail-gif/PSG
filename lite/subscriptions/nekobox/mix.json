@@ -231,8 +231,8 @@
                 "❔ XX | 🔓 VLESS | @v2ray_collector [16]",
                 "❔ XX | 🔓 VMESS | @v2ray_collector [17]",
                 "❔ XX | 🔒 VLESS | @v2ray_collector [18]",
-                "❔ XX | 🔒 SS | @v2ray_free_conf [18]",
-                "❔ XX | 🔓 VMESS | @v2ray_free_conf [20]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [18]",
+                "❔ XX | 🔓 VMESS | @v2ray_free_conf [19]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [17]",
@@ -429,8 +429,8 @@
                 "❔ XX | 🔓 VLESS | @v2ray_collector [16]",
                 "❔ XX | 🔓 VMESS | @v2ray_collector [17]",
                 "❔ XX | 🔒 VLESS | @v2ray_collector [18]",
-                "❔ XX | 🔒 SS | @v2ray_free_conf [18]",
-                "❔ XX | 🔓 VMESS | @v2ray_free_conf [20]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [18]",
+                "❔ XX | 🔓 VMESS | @v2ray_free_conf [19]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [17]",
@@ -2825,21 +2825,45 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 SS | @v2ray_free_conf [18]",
-            "type": "shadowsocks",
-            "server": "156.38.168.58",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+            "tag": "❔ XX | 🔒 VMESS | @v2ray_free_conf [18]",
+            "type": "vmess",
+            "server": "45.85.118.48",
+            "server_port": 2096,
+            "uuid": "37e7fca4-8510-40ab-8d22-138a2a3658af",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "webshecanir2.symodi.ml",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/JSsiadsEscSA",
+                "headers": {
+                    "Host": "webshecanir2.symodi.ml"
+                }
+            }
         },
         {
-            "tag": "❔ XX | 🔓 VMESS | @v2ray_free_conf [20]",
+            "tag": "❔ XX | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
-            "server": "freev2ray.v2ray4.xyz",
-            "server_port": 44710,
-            "uuid": "ed2d80c1-5e7e-4a13-8328-8dfe6dad5cfb",
+            "server": "161.248.30.3",
+            "server_port": 20086,
+            "uuid": "1006a928-2021-4a3b-beb5-d5853c6281c5",
             "security": "auto",
-            "alter_id": 0
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
