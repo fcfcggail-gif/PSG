@@ -238,7 +238,7 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇲🇩 MD | 🔒 SS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
@@ -269,7 +269,7 @@
                 "🇺🇸 US | 🔒 SS | @vmessiranproxy [18]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [12]",
                 "❔ XX | 🔒 SS | @vpn_ioss [13]",
-                "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
+                "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
                 "❔ XX | 🔓 VMESS | @xrayzxn [6]",
@@ -430,7 +430,7 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇲🇩 MD | 🔒 SS | @v2ray_free_conf [19]",
+                "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
@@ -461,7 +461,7 @@
                 "🇺🇸 US | 🔒 SS | @vmessiranproxy [18]",
                 "🚩 CF | 🔓 VLESS | @vpn_ioss [12]",
                 "❔ XX | 🔒 SS | @vpn_ioss [13]",
-                "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
+                "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
                 "🇨🇦 CA | 🔓 VLESS | @womanlifefreedomvpn [17]",
                 "❔ XX | 🔒 TROJAN | @xrayzxn [5]",
                 "❔ XX | 🔓 VMESS | @xrayzxn [6]",
@@ -2762,12 +2762,29 @@
             }
         },
         {
-            "tag": "🇲🇩 MD | 🔒 SS | @v2ray_free_conf [19]",
-            "type": "shadowsocks",
-            "server": "176.123.1.175",
-            "server_port": 990,
-            "method": "chacha20-ietf-poly1305",
-            "password": "ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44="
+            "tag": "🚩 CF | 🔒 VMESS | @v2ray_free_conf [19]",
+            "type": "vmess",
+            "server": "dqhh36.teeoomboom.de",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "dqhh36.teeoomboom.de",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/video/crf8v.m3u8",
+                "headers": {
+                    "Host": "dqhh36.teeoomboom.de"
+                }
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
@@ -3260,7 +3277,7 @@
             "password": "dongtaiwang.com"
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @womanlifefreedomvpn [15]",
+            "tag": "🇨🇦 CA | 🔒 VLESS | @womanlifefreedomvpn [15]",
             "type": "vless",
             "server": "icloud.wlftest.xyz",
             "server_port": 443,
