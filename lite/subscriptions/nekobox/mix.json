@@ -229,7 +229,7 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇹🇷 TR | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇨🇿 CZ | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
@@ -424,7 +424,7 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇹🇷 TR | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇨🇿 CZ | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
@@ -2810,13 +2810,17 @@
             }
         },
         {
-            "tag": "🇹🇷 TR | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "🇨🇿 CZ | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
-            "server": "46.31.77.4",
-            "server_port": 49367,
-            "uuid": "f04ab089-0760-493e-b1cf-c5c4208cdd92",
+            "server": "94.131.97.127",
+            "server_port": 8880,
+            "uuid": "dd1154b1-d5fa-5e52-a108-75e568c4ad06",
             "security": "auto",
-            "alter_id": 0
+            "alter_id": 0,
+            "transport": {
+                "type": "grpc",
+                "service_name": "vmess-grpc"
+            }
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
