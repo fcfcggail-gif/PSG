@@ -229,11 +229,11 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "❔ XX | 🔒 VMESS | @v2ray_free_conf [19]",
-                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [20]",
+                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [16]",
+                "🇨🇦 CA | 🔒 SS | @v2ray_free_conf [17]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
-                "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
+                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇬🇧 GB | 🔒 SS | @v2raybe [7]",
@@ -425,11 +425,11 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "❔ XX | 🔒 VMESS | @v2ray_free_conf [19]",
-                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [20]",
+                "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [16]",
+                "🇨🇦 CA | 🔒 SS | @v2ray_free_conf [17]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
-                "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
+                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇬🇧 GB | 🔒 SS | @v2raybe [7]",
@@ -2812,32 +2812,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VMESS | @v2ray_free_conf [19]",
-            "type": "vmess",
-            "server": "mtn.anahid.beauty",
-            "server_port": 443,
-            "uuid": "39503702-2a69-44bf-cae3-59070b6c3726",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "s1.mehrmah.shop",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "s1.mehrmah.shop"
-                }
-            }
-        },
-        {
-            "tag": "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [20]",
+            "tag": "🇺🇸 US | 🔒 VMESS | @v2ray_free_conf [16]",
             "type": "vmess",
             "server": "192.74.224.163",
             "server_port": 37002,
@@ -2860,6 +2835,14 @@
                     "Host": "www.68584158.xyz"
                 }
             }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔒 SS | @v2ray_free_conf [17]",
+            "type": "shadowsocks",
+            "server": "144.217.164.29",
+            "server_port": 12000,
+            "method": "aes-256-gcm",
+            "password": "8JCsPssfgS8tiRwiMlhARg=="
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
@@ -2887,7 +2870,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
             "type": "vless",
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
