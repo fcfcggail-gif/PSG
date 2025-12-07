@@ -95,6 +95,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -148,9 +149,9 @@
                 "❔ XX | 🔒 VLESS | @proxycrone [3]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🇱🇻 LV | 🔒 VLESS | @prrofile_purple [135]",
-                "❔ XX | 🔒 VLESS | @prrofile_purple [140]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [146]",
+                "🇱🇻 LV | 🔒 VLESS | @prrofile_purple [128]",
+                "❔ XX | 🔒 VLESS | @prrofile_purple [133]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [139]",
                 "❔ XX | 🔒 VLESS | @public504 [2]",
                 "🇨🇦 CA | 🔒 VLESS | @public504 [3]",
                 "❔ XX | 🔒 VLESS | @public504 [5]",
@@ -202,6 +203,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇷🇺 RU | 🔒 VLESS | @config_proxy [52]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -255,9 +257,9 @@
                 "❔ XX | 🔒 VLESS | @proxycrone [3]",
                 "❔ XX | 🔒 VLESS | @proxysudo [2]",
                 "❔ XX | 🔒 VLESS | @proxysudo [3]",
-                "🇱🇻 LV | 🔒 VLESS | @prrofile_purple [135]",
-                "❔ XX | 🔒 VLESS | @prrofile_purple [140]",
-                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [146]",
+                "🇱🇻 LV | 🔒 VLESS | @prrofile_purple [128]",
+                "❔ XX | 🔒 VLESS | @prrofile_purple [133]",
+                "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [139]",
                 "❔ XX | 🔒 VLESS | @public504 [2]",
                 "🇨🇦 CA | 🔒 VLESS | @public504 [3]",
                 "❔ XX | 🔒 VLESS | @public504 [5]",
@@ -456,6 +458,29 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔒 VLESS | @config_proxy [52]",
+            "type": "vless",
+            "server": "ru01-vlr01.tcp-reset-club.net",
+            "server_port": 443,
+            "uuid": "eb64d6b8-b3ed-48a2-9662-af2c65352215",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "hls-svod.itunes.apple.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "mLmBhbVFfNuo2eUgBh6r9-5Koz9mUCn3aSzlR6IejUg",
+                    "short_id": "e499f276e7bd6420"
+                }
             }
         },
         {
@@ -1753,7 +1778,7 @@
             }
         },
         {
-            "tag": "🇱🇻 LV | 🔒 VLESS | @prrofile_purple [135]",
+            "tag": "🇱🇻 LV | 🔒 VLESS | @prrofile_purple [128]",
             "type": "vless",
             "server": "gos9.portal-guard.com",
             "server_port": 8443,
@@ -1776,7 +1801,7 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VLESS | @prrofile_purple [140]",
+            "tag": "❔ XX | 🔒 VLESS | @prrofile_purple [133]",
             "type": "vless",
             "server": "0wtadbshb4f3.zozodogg.com",
             "server_port": 2053,
@@ -1803,7 +1828,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [146]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @prrofile_purple [139]",
             "type": "vless",
             "server": "progr.soreanapanel.com",
             "server_port": 443,
