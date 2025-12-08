@@ -118,8 +118,8 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [17]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -161,8 +161,8 @@
                 "❔ XX | 🔓 VMESS | @savagenet [2]",
                 "🇮🇷 IR | 🔓 VMESS | @toucan_vpn [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [17]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [19]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -598,22 +598,45 @@
             "alter_id": 0
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @v2ray_free_conf [17]",
+            "tag": "🇭🇰 HK | 🔓 VMESS | @v2ray_free_conf [18]",
             "type": "vmess",
-            "server": "144.202.59.26",
-            "server_port": 57061,
-            "uuid": "e90a1709-fd94-44d3-f809-8849837cc2d3",
+            "server": "8.210.134.183",
+            "server_port": 3721,
+            "uuid": "e72f5c6b-220f-40b3-a115-2d81473458cf",
             "security": "auto",
-            "alter_id": 0
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": ""
+                }
+            }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇫🇷 FR | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
-            "server": "91.99.2.86",
-            "server_port": 8880,
-            "uuid": "9a99466d-58ee-4f97-8a8b-cb0bd3d786a1",
+            "server": "185.248.33.173",
+            "server_port": 16495,
+            "uuid": "4f3cfda3-a255-40eb-8801-71f9fffb19d6",
             "security": "auto",
-            "alter_id": 0
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "imafake.locker",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/speedtest",
+                "headers": {
+                    "Host": "imafake.locker"
+                }
+            }
         },
         {
             "tag": "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
