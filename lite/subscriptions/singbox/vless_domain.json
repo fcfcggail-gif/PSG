@@ -137,8 +137,8 @@
                 "❔ XX | 🔒 VLESS | @netazadchannel [4]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇨🇭 CH | 🔒 VLESS | @orange_vpns [14]",
-                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [16]",
+                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [15]",
+                "🚩 CF | 🔒 VLESS | @orange_vpns [16]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
                 "🇮🇷 IR | 🔓 VLESS | @proxycrone [4]",
                 "🚩 CF | 🔓 VLESS | @proxycrone [5]",
@@ -159,7 +159,7 @@
                 "🇷🇴 RO | 🔒 VLESS | @v2ray1_ng [5]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
-                "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
+                "🇮🇪 IE | 🔓 VLESS | @v2ray_vmes [16]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [61]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [62]",
@@ -235,8 +235,8 @@
                 "❔ XX | 🔒 VLESS | @netazadchannel [4]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇨🇭 CH | 🔒 VLESS | @orange_vpns [14]",
-                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [16]",
+                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [15]",
+                "🚩 CF | 🔒 VLESS | @orange_vpns [16]",
                 "🇮🇷 IR | 🔓 VLESS | @proxy_kuto [1]",
                 "🇮🇷 IR | 🔓 VLESS | @proxycrone [4]",
                 "🚩 CF | 🔓 VLESS | @proxycrone [5]",
@@ -257,7 +257,7 @@
                 "🇷🇴 RO | 🔒 VLESS | @v2ray1_ng [5]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
-                "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
+                "🇮🇪 IE | 🔓 VLESS | @v2ray_vmes [16]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [61]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [62]",
@@ -1163,34 +1163,7 @@
             }
         },
         {
-            "tag": "🇨🇭 CH | 🔒 VLESS | @orange_vpns [14]",
-            "type": "vless",
-            "server": "star-logic-epsilon-nova-zone.dlcnamatike7.com",
-            "server_port": 7071,
-            "uuid": "1b796671-eb73-4e18-b624-5b8c138b8c39",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "media.steampowered.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "4-1-sRlmXLbSDEMgWAaKmzGZEyclAGRoqvQke8cutmg",
-                    "short_id": "821047"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "@V2rayHapp"
-            }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @orange_vpns [16]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @orange_vpns [15]",
             "type": "vless",
             "server": "facelessvoid.fonixapp.org",
             "server_port": 443,
@@ -1209,6 +1182,31 @@
                     "enabled": true,
                     "public_key": "WXPq4NT1gqVRO7IUJGU3tv0NDe8gxEVN2WGa1dwjiCk",
                     "short_id": "1b89"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔒 VLESS | @orange_vpns [16]",
+            "type": "vless",
+            "server": "betty.ns.cloudflare.com",
+            "server_port": 443,
+            "uuid": "94daa8ad-75ed-4dbf-a6de-d05036d98df5",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "vangoghh.info",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/tixvuws",
+                "headers": {
+                    "Host": "vangoghh.info"
                 }
             }
         },
@@ -1509,7 +1507,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
+            "tag": "🇮🇪 IE | 🔓 VLESS | @v2ray_vmes [16]",
             "type": "vless",
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
