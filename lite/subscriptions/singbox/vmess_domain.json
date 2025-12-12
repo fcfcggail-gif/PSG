@@ -120,7 +120,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2ray1_ng [1]",
                 "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [17]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -164,7 +164,7 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2ray1_ng [1]",
                 "🇩🇪 DE | 🔒 VMESS | @v2ray1_ng [2]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [17]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [2]",
                 "🚩 CF | 🔒 VMESS | @v2rayng_v2_ray [3]",
                 "🇩🇪 DE | 🔓 VMESS | @v2rayng_v2_ray [4]",
@@ -634,18 +634,20 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [17]",
             "type": "vmess",
-            "server": "cpanel.navar2.ir",
-            "server_port": 100,
-            "uuid": "57c7a91a-6f72-4435-ac4c-746d6554c5ad",
+            "server": "78.47.131.39",
+            "server_port": 443,
+            "uuid": "6f514878-9513-4393-a68f-1225de4960a7",
             "security": "auto",
             "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": ""
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },

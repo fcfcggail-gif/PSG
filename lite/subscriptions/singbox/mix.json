@@ -96,7 +96,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇳🇱 NL | 🔓 VLESS | @bored_vpn [15]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [16]",
-                "🇩🇪 DE | 🔓 VLESS | @bored_vpn [17]",
+                "🇸🇪 SE | 🔓 VLESS | @bored_vpn [17]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -242,11 +242,10 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇫🇮 FI | 🔒 SS | @v2ray_free_conf [16]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [17]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
-                "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
+                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇬🇧 GB | 🔒 SS | @v2raybe [7]",
@@ -295,7 +294,7 @@
                 "🚩 CF | 🔒 VLESS | @arv2ray [17]",
                 "🇳🇱 NL | 🔓 VLESS | @bored_vpn [15]",
                 "🚩 CF | 🔓 VLESS | @bored_vpn [16]",
-                "🇩🇪 DE | 🔓 VLESS | @bored_vpn [17]",
+                "🇸🇪 SE | 🔓 VLESS | @bored_vpn [17]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
                 "🇫🇷 FR | 🔒 VLESS | @configasli [7]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
@@ -441,11 +440,10 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🇫🇮 FI | 🔒 SS | @v2ray_free_conf [16]",
-                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
+                "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [17]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
-                "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
+                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇬🇧 GB | 🔒 SS | @v2raybe [7]",
@@ -604,7 +602,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VLESS | @bored_vpn [17]",
+            "tag": "🇸🇪 SE | 🔓 VLESS | @bored_vpn [17]",
             "type": "vless",
             "server": "fs.ir-sub.fun",
             "server_port": 80,
@@ -2865,26 +2863,20 @@
             }
         },
         {
-            "tag": "🇫🇮 FI | 🔒 SS | @v2ray_free_conf [16]",
-            "type": "shadowsocks",
-            "server": "exchange.gameaurela.click",
-            "server_port": 52952,
-            "method": "chacha20-ietf-poly1305",
-            "password": "LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj"
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇩🇪 DE | 🔓 VMESS | @v2ray_free_conf [17]",
             "type": "vmess",
-            "server": "cpanel.navar2.ir",
-            "server_port": 100,
-            "uuid": "57c7a91a-6f72-4435-ac4c-746d6554c5ad",
+            "server": "78.47.131.39",
+            "server_port": 443,
+            "uuid": "6f514878-9513-4393-a68f-1225de4960a7",
             "security": "auto",
             "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": ""
+            "tls": {
+                "enabled": true,
+                "server_name": "",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
@@ -2914,7 +2906,7 @@
             }
         },
         {
-            "tag": "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
             "type": "vless",
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
