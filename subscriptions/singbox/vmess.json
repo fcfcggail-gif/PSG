@@ -104,7 +104,8 @@
                 "🚩 CF | 🔓 VMESS | @buffalo_vpn [4]",
                 "❔ XX | 🔓 VMESS | @buffalo_vpn [5]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🇷🇺 RU | 🔒 VMESS | @config_proxy [60]",
+                "🇮🇷 IR | 🔓 VMESS | @config_proxy [48]",
+                "🚩 CF | 🔓 VMESS | @config_proxy [53]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [5]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -258,11 +259,10 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
                 "🇺🇸 US | 🔓 VMESS | @v2ray_collector [11]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇬🇧 GB | 🔒 VMESS | @v2ray_free_conf [5]",
-                "❔ XX | 🔒 VMESS | @v2ray_free_conf [8]",
-                "❔ XX | 🔒 VMESS | @v2ray_free_conf [14]",
-                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [16]",
-                "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [18]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [9]",
+                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [11]",
+                "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [13]",
+                "🇮🇷 IR | 🔓 VMESS | @v2ray_free_conf [18]",
                 "🇫🇮 FI | 🔓 VMESS | @v2ray_n [8]",
                 "🇺🇸 US | 🔓 VMESS | @v2ray_n [9]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [10]",
@@ -332,7 +332,8 @@
                 "🚩 CF | 🔓 VMESS | @buffalo_vpn [4]",
                 "❔ XX | 🔓 VMESS | @buffalo_vpn [5]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🇷🇺 RU | 🔒 VMESS | @config_proxy [60]",
+                "🇮🇷 IR | 🔓 VMESS | @config_proxy [48]",
+                "🚩 CF | 🔓 VMESS | @config_proxy [53]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [5]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -486,11 +487,10 @@
                 "🇩🇪 DE | 🔓 VMESS | @v2ray4win [8]",
                 "🇺🇸 US | 🔓 VMESS | @v2ray_collector [11]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
-                "🇬🇧 GB | 🔒 VMESS | @v2ray_free_conf [5]",
-                "❔ XX | 🔒 VMESS | @v2ray_free_conf [8]",
-                "❔ XX | 🔒 VMESS | @v2ray_free_conf [14]",
-                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [16]",
-                "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [18]",
+                "❔ XX | 🔒 VMESS | @v2ray_free_conf [9]",
+                "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [11]",
+                "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [13]",
+                "🇮🇷 IR | 🔓 VMESS | @v2ray_free_conf [18]",
                 "🇫🇮 FI | 🔓 VMESS | @v2ray_n [8]",
                 "🇺🇸 US | 🔓 VMESS | @v2ray_n [9]",
                 "❔ XX | 🔓 VMESS | @v2ray_n [10]",
@@ -817,16 +817,25 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔒 VMESS | @config_proxy [60]",
+            "tag": "🇮🇷 IR | 🔓 VMESS | @config_proxy [48]",
             "type": "vmess",
-            "server": "95.81.114.252",
-            "server_port": 44749,
-            "uuid": "e1cc26b3-df0b-477b-afb0-53659a25e978",
+            "server": "s5.cloudflare4wards.com",
+            "server_port": 2091,
+            "uuid": "29376e01-68ee-4349-8eb7-65be7274c29d",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🚩 CF | 🔓 VMESS | @config_proxy [53]",
+            "type": "vmess",
+            "server": "188.114.99.205",
+            "server_port": 443,
+            "uuid": "edbb1059-1633-4271-b66e-ed4fba47a1bf",
             "security": "auto",
             "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "imafake.locker",
+                "server_name": "linde06.indiavideo.sbs",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
@@ -835,9 +844,9 @@
             },
             "transport": {
                 "type": "ws",
-                "path": "/speedtest",
+                "path": "/linkws",
                 "headers": {
-                    "Host": "imafake.locker"
+                    "Host": "linde06.indiavideo.sbs"
                 }
             }
         },
@@ -3433,48 +3442,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇬🇧 GB | 🔒 VMESS | @v2ray_free_conf [5]",
-            "type": "vmess",
-            "server": "45.85.118.88",
-            "server_port": 443,
-            "uuid": "ee30d3ff-da14-4ea8-bcd2-02e8ee3667de",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "hstr1675520106270.aidapp.life",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/aidapp.lifevws",
-                "headers": {
-                    "Host": "hstr1675520106270.aidapp.life"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VMESS | @v2ray_free_conf [8]",
-            "type": "vmess",
-            "server": "baxwarfrey.76898102.xyz",
-            "server_port": 2052,
-            "uuid": "eaefcb64-2776-3706-b963-a19a2433755e",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/bxtkmiao",
-                "headers": {
-                    "Host": "baxwarfrey.76898102.xyz"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔒 VMESS | @v2ray_free_conf [14]",
+            "tag": "❔ XX | 🔒 VMESS | @v2ray_free_conf [9]",
             "type": "vmess",
             "server": "frarmbc.76898102.xyz",
             "server_port": 2052,
@@ -3490,7 +3458,7 @@
             }
         },
         {
-            "tag": "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [16]",
+            "tag": "🇷🇺 RU | 🔓 VMESS | @v2ray_free_conf [11]",
             "type": "vmess",
             "server": "95.81.114.252",
             "server_port": 44749,
@@ -3515,11 +3483,20 @@
             }
         },
         {
-            "tag": "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [18]",
+            "tag": "🇸🇬 SG | 🔓 VMESS | @v2ray_free_conf [13]",
             "type": "vmess",
             "server": "82.197.69.131",
             "server_port": 39674,
             "uuid": "5a89386a-827b-4f54-8778-2f1b5122c6ef",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇮🇷 IR | 🔓 VMESS | @v2ray_free_conf [18]",
+            "type": "vmess",
+            "server": "channel.proxyvpnvip.pvvip.top",
+            "server_port": 8443,
+            "uuid": "@ProxyVPNVip-ChannelTelegram",
             "security": "auto",
             "alter_id": 0
         },
