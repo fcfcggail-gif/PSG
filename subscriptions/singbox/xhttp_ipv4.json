@@ -92,6 +92,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🚩 CF | 🔓 VLESS | @config_proxy [60]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -145,14 +146,15 @@
                 "🇳🇱 NL | 🔓 VLESS | @server_nekobox [12]",
                 "🇳🇱 NL | 🔓 VLESS | @v2aryng_vpn [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [13]",
+                "🇫🇮 FI | 🔓 VLESS | @v2raych [7]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [12]",
-                "🇳🇱 NL | 🔓 VLESS | @v2rayopen [3]",
-                "🇳🇱 NL | 🔓 VLESS | @v2rayopen [9]",
+                "🇳🇱 NL | 🔓 VLESS | @v2rayopen [2]",
+                "🇳🇱 NL | 🔓 VLESS | @v2rayopen [8]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raytg [55]",
                 "🚩 CF | 🔓 VLESS | @vmesskhodam [2]"
             ],
@@ -165,6 +167,7 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "🚩 CF | 🔓 VLESS | @config_proxy [60]",
                 "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [2]",
                 "🇩🇪 DE | 🔒 VLESS | @grizzlyvpn [3]",
@@ -218,14 +221,15 @@
                 "🇳🇱 NL | 🔓 VLESS | @server_nekobox [12]",
                 "🇳🇱 NL | 🔓 VLESS | @v2aryng_vpn [13]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [13]",
+                "🇫🇮 FI | 🔓 VLESS | @v2raych [7]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
                 "🇩🇪 DE | 🔒 VLESS | @v2rayexpress [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raymelliii [4]",
                 "🇺🇸 US | 🔓 VLESS | @v2rayngconfiig [12]",
-                "🇳🇱 NL | 🔓 VLESS | @v2rayopen [3]",
-                "🇳🇱 NL | 🔓 VLESS | @v2rayopen [9]",
+                "🇳🇱 NL | 🔓 VLESS | @v2rayopen [2]",
+                "🇳🇱 NL | 🔓 VLESS | @v2rayopen [8]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raytg [55]",
                 "🚩 CF | 🔓 VLESS | @vmesskhodam [2]"
             ],
@@ -312,6 +316,15 @@
                     "Host": "127.0.0.1"
                 }
             }
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @config_proxy [60]",
+            "type": "vless",
+            "server": "172.66.40.99",
+            "server_port": 80,
+            "uuid": "016f2af6-530f-44e9-a8e3-45ffb07772a5",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [3]",
@@ -1160,6 +1173,24 @@
             }
         },
         {
+            "tag": "🇫🇮 FI | 🔓 VLESS | @v2raych [7]",
+            "type": "vless",
+            "server": "65.109.209.95",
+            "server_port": 443,
+            "uuid": "15f64399-ebb4-4b82-9b9f-33b09638bc7f",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "65.109.209.95",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
             "tag": "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
             "type": "vless",
             "server": "217.71.204.148",
@@ -1284,7 +1315,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @v2rayopen [3]",
+            "tag": "🇳🇱 NL | 🔓 VLESS | @v2rayopen [2]",
             "type": "vless",
             "server": "151.101.205.194",
             "server_port": 80,
@@ -1293,7 +1324,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @v2rayopen [9]",
+            "tag": "🇳🇱 NL | 🔓 VLESS | @v2rayopen [8]",
             "type": "vless",
             "server": "151.101.205.194",
             "server_port": 80,
