@@ -229,7 +229,7 @@
                 "❔ XX | 🔓 VLESS | @v2ray_collector [16]",
                 "❔ XX | 🔓 VMESS | @v2ray_collector [17]",
                 "❔ XX | 🔒 VLESS | @v2ray_collector [18]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
+                "❔ XX | 🔒 SS | @v2ray_free_conf [20]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
@@ -241,9 +241,9 @@
                 "❔ XX | 🔓 VMESS | @v2rayng_v2_ray [4]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [61]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [62]",
-                "🚩 CF | 🔓 VLESS | @v2rayvpn2 [5]",
                 "🚩 CF | 🔒 VLESS | @v2rayvpn2 [6]",
                 "❔ XX | 🔒 VLESS | @v2rayvpn2 [7]",
+                "❔ XX | 🔒 VLESS | @v2rayvpn2 [8]",
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [12]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
@@ -426,7 +426,7 @@
                 "❔ XX | 🔓 VLESS | @v2ray_collector [16]",
                 "❔ XX | 🔓 VMESS | @v2ray_collector [17]",
                 "❔ XX | 🔒 VLESS | @v2ray_collector [18]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
+                "❔ XX | 🔒 SS | @v2ray_free_conf [20]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [16]",
@@ -438,9 +438,9 @@
                 "❔ XX | 🔓 VMESS | @v2rayng_v2_ray [4]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [61]",
                 "🚩 CF | 🔓 VLESS | @v2raytg [62]",
-                "🚩 CF | 🔓 VLESS | @v2rayvpn2 [5]",
                 "🚩 CF | 🔒 VLESS | @v2rayvpn2 [6]",
                 "❔ XX | 🔒 VLESS | @v2rayvpn2 [7]",
+                "❔ XX | 🔒 VLESS | @v2rayvpn2 [8]",
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [11]",
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [12]",
                 "❔ XX | 🔒 VLESS | @v2rayza [19]",
@@ -2837,29 +2837,12 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [18]",
-            "type": "vmess",
-            "server": "t1.620720.xyz",
-            "server_port": 8443,
-            "uuid": "516d8a7a-3f0b-41d3-bad0-246116381516",
-            "security": "auto",
-            "alter_id": 0,
-            "tls": {
-                "enabled": true,
-                "server_name": "t1.620720.xyz",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/",
-                "headers": {
-                    "Host": "t1.620720.xyz"
-                }
-            }
+            "tag": "❔ XX | 🔒 SS | @v2ray_free_conf [20]",
+            "type": "shadowsocks",
+            "server": "ltnl13.saint.ydns.eu",
+            "server_port": 8080,
+            "method": "chacha20-ietf-poly1305",
+            "password": "cvII85TrW6n0OGyfpHVS1u"
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @v2ray_vmes [14]",
@@ -3029,15 +3012,6 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VLESS | @v2rayvpn2 [5]",
-            "type": "vless",
-            "server": "DEADSEECtelegram.slimshopboyss.ir",
-            "server_port": 8080,
-            "uuid": "b675d1f0-2968-4f3d-fd14-7d466841b0d1",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
             "tag": "🚩 CF | 🔒 VLESS | @v2rayvpn2 [6]",
             "type": "vless",
             "server": "serena.ns.cloudflare.com",
@@ -3082,6 +3056,24 @@
                     "enabled": true,
                     "public_key": "J_jQq9-SWQZjiMhuPaFV7V2MaJ4pkKgVRaz7x6tmvy8",
                     "short_id": "16895459a2c7768d"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @v2rayvpn2 [8]",
+            "type": "vless",
+            "server": "nla.tunnelguard.ru",
+            "server_port": 443,
+            "uuid": "e74dc1a5-7d48-400b-93c6-efb860b706fa",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "nla.tunnelguard.ru",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
             }
         },
