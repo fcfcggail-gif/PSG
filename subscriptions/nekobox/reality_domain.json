@@ -83,7 +83,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇨🇭 CH | 🔒 VLESS | @config_proxy [49]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -126,7 +125,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇩🇪 DE | 🔒 VLESS | @orange_vpns [5]",
-                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [11]",
+                "🇫🇮 FI | 🔒 VLESS | @orange_vpns [11]",
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [12]",
                 "🇦🇪 AE | 🔒 VLESS | @orange_vpns [13]",
                 "🇦🇲 AM | 🔒 VLESS | @orange_vpns [14]",
@@ -153,6 +152,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_youtube [4]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇫🇷 FR | 🔒 VLESS | @v2raych [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raying [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raying [7]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
@@ -194,7 +194,6 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
-                "🇨🇭 CH | 🔒 VLESS | @config_proxy [49]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -237,7 +236,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
                 "🇩🇪 DE | 🔒 VLESS | @orange_vpns [5]",
-                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [11]",
+                "🇫🇮 FI | 🔒 VLESS | @orange_vpns [11]",
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [12]",
                 "🇦🇪 AE | 🔒 VLESS | @orange_vpns [13]",
                 "🇦🇲 AM | 🔒 VLESS | @orange_vpns [14]",
@@ -264,6 +263,7 @@
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_youtube [4]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [2]",
                 "❔ XX | 🔒 VLESS | @v2rayang201 [4]",
+                "🇫🇷 FR | 🔒 VLESS | @v2raych [14]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raying [5]",
                 "🇩🇪 DE | 🔒 VLESS | @v2raying [7]",
                 "🇳🇱 NL | 🔒 VLESS | @v2raymelliii [3]",
@@ -456,29 +456,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
-            }
-        },
-        {
-            "tag": "🇨🇭 CH | 🔒 VLESS | @config_proxy [49]",
-            "type": "vless",
-            "server": "ch.srv.oplcdn.link",
-            "server_port": 8443,
-            "uuid": "3116cc23-0c39-4bb6-8154-d3f332e9017e",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "ign.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "qq"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
-                    "short_id": "6ba85179e30d4fc2"
-                }
             }
         },
         {
@@ -1523,7 +1500,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @orange_vpns [11]",
+            "tag": "🇫🇮 FI | 🔒 VLESS | @orange_vpns [11]",
             "type": "vless",
             "server": "test-pc.intfreed.ru",
             "server_port": 443,
@@ -2156,6 +2133,29 @@
                     "enabled": true,
                     "public_key": "2dIWbgD8nbCd1YBs-IiQ6vgA7mse9PA9DWqaIMFsTmc",
                     "short_id": "cb333964"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇷 FR | 🔒 VLESS | @v2raych [14]",
+            "type": "vless",
+            "server": "fra.germany-14.com",
+            "server_port": 2087,
+            "uuid": "2b7ff221-0ea2-4474-ab4e-686e6a11dc65",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "tgju.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "p8D0V1jYr98lK4kU8FlBYfQ1kMO6zgIx5qI_p5dr_Bc",
+                    "short_id": "6ba85179e30d4fc2"
                 }
             }
         },
