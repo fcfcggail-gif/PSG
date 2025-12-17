@@ -240,10 +240,11 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
+                "❔ XX | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇫🇮 FI | 🔒 SS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
-                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
+                "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇬🇧 GB | 🔒 SS | @v2raybe [7]",
@@ -435,10 +436,11 @@
                 "🇮🇳 IN | 🔓 VLESS | @v2ray_collector [16]",
                 "🇷🇺 RU | 🔓 VMESS | @v2ray_collector [17]",
                 "🇷🇺 RU | 🔒 VLESS | @v2ray_collector [18]",
-                "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
+                "❔ XX | 🔓 VMESS | @v2ray_free_conf [19]",
+                "🇫🇮 FI | 🔒 SS | @v2ray_free_conf [20]",
                 "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
                 "❔ XX | 🔓 VLESS | @v2ray_vmes [15]",
-                "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
+                "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
                 "❔ XX | 🔒 VLESS | @v2raybe [5]",
                 "🇩🇪 DE | 🔓 VLESS | @v2raybe [6]",
                 "🇬🇧 GB | 🔒 SS | @v2raybe [7]",
@@ -2812,29 +2814,30 @@
             }
         },
         {
-            "tag": "🚩 CF | 🔓 VMESS | @v2ray_free_conf [19]",
+            "tag": "❔ XX | 🔓 VMESS | @v2ray_free_conf [19]",
             "type": "vmess",
-            "server": "yg1.ygkkk.dpdns.org",
+            "server": "v2ray.v2rayngorg.live",
             "server_port": 443,
-            "uuid": "7a88d322-eb4a-4a59-8c62-8c60d76abf4b",
+            "uuid": "7bfccd9e-d799-481e-8806-d91ee446b7cc",
             "security": "auto",
             "alter_id": 0,
             "tls": {
                 "enabled": true,
-                "server_name": "yg1.ygkkk.dpdns.org",
+                "server_name": "",
                 "insecure": true,
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
                 }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/7a88d322-eb4a-4a59-8c62-8c60d76abf4b-vm?ed=2048",
-                "headers": {
-                    "Host": "yg1.ygkkk.dpdns.org"
-                }
             }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 SS | @v2ray_free_conf [20]",
+            "type": "shadowsocks",
+            "server": "141.98.4.67",
+            "server_port": 52952,
+            "method": "chacha20-ietf-poly1305",
+            "password": "LMSNh21TrXjR2ok25Q2nE8ENT2zoBmPvka3RCCUAHZELCnWoekVjvaf89qwcRkdbxEfep2bc2aUtmnxqvF1ayQRez1JHjULj"
         },
         {
             "tag": "🇩🇪 DE | 🔓 VLESS | @v2ray_vmes [14]",
@@ -2862,7 +2865,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @v2ray_vmes [16]",
+            "tag": "🇸🇪 SE | 🔓 VLESS | @v2ray_vmes [16]",
             "type": "vless",
             "server": "viop.fast.hosting-ip.com",
             "server_port": 80,
