@@ -148,7 +148,8 @@
                 "🇳🇱 NL | 🔓 VLESS | @v2aryng_vpn [5]",
                 "🇳🇱 NL | 🔓 VLESS | @v2aryng_vpn [15]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [13]",
-                "🇳🇱 NL | 🔓 VLESS | @v2raych [6]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [14]",
+                "🇩🇪 DE | 🔓 VLESS | @v2raych [18]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -223,7 +224,8 @@
                 "🇳🇱 NL | 🔓 VLESS | @v2aryng_vpn [5]",
                 "🇳🇱 NL | 🔓 VLESS | @v2aryng_vpn [15]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [13]",
-                "🇳🇱 NL | 🔓 VLESS | @v2raych [6]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [14]",
+                "🇩🇪 DE | 🔓 VLESS | @v2raych [18]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -1177,13 +1179,45 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔓 VLESS | @v2raych [6]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [14]",
             "type": "vless",
-            "server": "151.101.205.194",
-            "server_port": 80,
-            "uuid": "872127f0-e085-4548-a29e-543dc625bbc8",
+            "server": "91.107.170.165",
+            "server_port": 443,
+            "uuid": "c7269205-fa36-448c-bb95-34f932f1c7bf",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.wikipedia.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "as04WkYoj-P4vEjJFXB3LeA_Rkt7Ud4pV2oTZ3bZwQg",
+                    "short_id": "1c213fd68e13"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VLESS | @v2raych [18]",
+            "type": "vless",
+            "server": "141.95.108.75",
+            "server_port": 443,
+            "uuid": "80eb8016-c73b-4cef-85d4-24ae13ccafb3",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "141.95.108.75",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
         },
         {
             "tag": "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
