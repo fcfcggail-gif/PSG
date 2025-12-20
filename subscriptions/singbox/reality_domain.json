@@ -95,6 +95,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [46]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -135,7 +136,7 @@
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [8]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [5]",
+                "🇳🇱 NL | 🔒 VLESS | @orange_vpns [5]",
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [6]",
                 "🇦🇪 AE | 🔒 VLESS | @orange_vpns [7]",
                 "🇦🇲 AM | 🔒 VLESS | @orange_vpns [8]",
@@ -179,7 +180,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [1]",
                 "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [4]",
-                "🇳🇱 NL | 🔒 VLESS | @vpn_ioss [10]",
+                "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [10]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [4]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [5]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [6]",
@@ -201,6 +202,7 @@
                 "🇳🇱 NL | 🔒 VLESS | @Fr33C0nfig [7]",
                 "🇩🇪 DE | 🔒 VLESS | @Fr33C0nfig [10]",
                 "❔ XX | 🔒 VLESS | @buffalo_vpn [6]",
+                "🇩🇪 DE | 🔒 VLESS | @config_proxy [46]",
                 "🇩🇪 DE | 🔒 VLESS | @configasli [8]",
                 "❔ XX | 🔒 VLESS | @connectshu [1]",
                 "❔ XX | 🔒 VLESS | @connectshu [2]",
@@ -241,7 +243,7 @@
                 "🇫🇷 FR | 🔒 VLESS | @netmellianti [8]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [3]",
                 "🇳🇱 NL | 🔒 VLESS | @nn_vpn [4]",
-                "🇩🇪 DE | 🔒 VLESS | @orange_vpns [5]",
+                "🇳🇱 NL | 🔒 VLESS | @orange_vpns [5]",
                 "🇨🇭 CH | 🔒 VLESS | @orange_vpns [6]",
                 "🇦🇪 AE | 🔒 VLESS | @orange_vpns [7]",
                 "🇦🇲 AM | 🔒 VLESS | @orange_vpns [8]",
@@ -285,7 +287,7 @@
                 "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [1]",
                 "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [3]",
                 "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [4]",
-                "🇳🇱 NL | 🔒 VLESS | @vpn_ioss [10]",
+                "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [10]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [4]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [5]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [6]",
@@ -454,6 +456,33 @@
             "transport": {
                 "type": "grpc",
                 "service_name": ",Telegram:@CloudSnapBot"
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @config_proxy [46]",
+            "type": "vless",
+            "server": "a.confignor.site",
+            "server_port": 35493,
+            "uuid": "62319dd8-43b3-4849-9289-cc4f17667f46",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn77.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "qeWt8jJZTwf6vmiTvDfaalPaSZDkX7a3XkKrBxf2YVA",
+                    "short_id": "9c24"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "چنل سازنده اصلی کانفیگ @ConfigFree"
             }
         },
         {
@@ -1452,7 +1481,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 VLESS | @orange_vpns [5]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @orange_vpns [5]",
             "type": "vless",
             "server": "test-pc.intfreed.ru",
             "server_port": 443,
@@ -2488,7 +2517,7 @@
             }
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @vpn_ioss [10]",
+            "tag": "🇩🇪 DE | 🔒 VLESS | @vpn_ioss [10]",
             "type": "vless",
             "server": "deu711.deulucker.org",
             "server_port": 444,
