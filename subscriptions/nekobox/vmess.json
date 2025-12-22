@@ -92,9 +92,10 @@
                 "🚩 CF | 🔓 VMESS | @buffalo_vpn [4]",
                 "❔ XX | 🔓 VMESS | @buffalo_vpn [5]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🇩🇪 DE | 🔓 VMESS | @config_proxy [43]",
-                "🇺🇸 US | 🔓 VMESS | @config_proxy [46]",
-                "❔ XX | 🔓 VMESS | @config_proxy [52]",
+                "❔ XX | 🔓 VMESS | @config_proxy [31]",
+                "🇧🇷 BR | 🔓 VMESS | @config_proxy [32]",
+                "🇩🇪 DE | 🔓 VMESS | @config_proxy [38]",
+                "🇺🇸 US | 🔓 VMESS | @config_proxy [40]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [5]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -327,9 +328,10 @@
                 "🚩 CF | 🔓 VMESS | @buffalo_vpn [4]",
                 "❔ XX | 🔓 VMESS | @buffalo_vpn [5]",
                 "❔ XX | 🔒 VMESS | @bypass_filter [1]",
-                "🇩🇪 DE | 🔓 VMESS | @config_proxy [43]",
-                "🇺🇸 US | 🔓 VMESS | @config_proxy [46]",
-                "❔ XX | 🔓 VMESS | @config_proxy [52]",
+                "❔ XX | 🔓 VMESS | @config_proxy [31]",
+                "🇧🇷 BR | 🔓 VMESS | @config_proxy [32]",
+                "🇩🇪 DE | 🔓 VMESS | @config_proxy [38]",
+                "🇺🇸 US | 🔓 VMESS | @config_proxy [40]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [5]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -823,29 +825,45 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔓 VMESS | @config_proxy [43]",
-            "type": "vmess",
-            "server": "a.confignor.site",
-            "server_port": 7443,
-            "uuid": "4d36735f-7711-46f6-92e0-dbdeb964f0cf",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇺🇸 US | 🔓 VMESS | @config_proxy [46]",
-            "type": "vmess",
-            "server": "172.233.229.91",
-            "server_port": 14102,
-            "uuid": "27ba87fc-583f-4763-9060-83cf0b9264db",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "❔ XX | 🔓 VMESS | @config_proxy [52]",
+            "tag": "❔ XX | 🔓 VMESS | @config_proxy [31]",
             "type": "vmess",
             "server": "127.0.0.1",
             "server_port": 1080,
             "uuid": "bcaacab-cbaa-acab-bdca-cbcaaabbcacb",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇧🇷 BR | 🔓 VMESS | @config_proxy [32]",
+            "type": "vmess",
+            "server": "pq-brazil1.09vpn.com",
+            "server_port": 80,
+            "uuid": "24b6bbfb-9b27-4f17-bd32-67523bf487d9",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/vmess/",
+                "headers": {
+                    "Host": "pq-brazil1.09vpn.com"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔓 VMESS | @config_proxy [38]",
+            "type": "vmess",
+            "server": "43.165.7.71",
+            "server_port": 19751,
+            "uuid": "6cfa6103-5d06-40cb-f452-b563db578288",
+            "security": "auto",
+            "alter_id": 0
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VMESS | @config_proxy [40]",
+            "type": "vmess",
+            "server": "216.167.107.61",
+            "server_port": 44805,
+            "uuid": "f7d62526-9e06-455e-82bd-241d368002e8",
             "security": "auto",
             "alter_id": 0
         },

@@ -92,7 +92,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 TROJAN | @config_proxy [38]",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [6]",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [7]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
@@ -122,6 +121,7 @@
                 "🚩 CF | 🔒 TROJAN | @selinc [2]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🚩 CF | 🔓 TROJAN | @v2raych [13]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [48]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [51]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [60]",
@@ -152,7 +152,6 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇩🇪 DE | 🔓 TROJAN | @config_proxy [38]",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [6]",
                 "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [7]",
                 "🇩🇪 DE | 🔓 TROJAN | @freev2raym [8]",
@@ -182,6 +181,7 @@
                 "🚩 CF | 🔒 TROJAN | @selinc [2]",
                 "🇺🇸 US | 🔒 TROJAN | @v2ray_collector [12]",
                 "🇫🇮 FI | 🔒 TROJAN | @v2ray_n [14]",
+                "🚩 CF | 🔓 TROJAN | @v2raych [13]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [48]",
                 "🇵🇱 PL | 🔒 TROJAN | @v2rayngconfig [51]",
                 "🇩🇪 DE | 🔒 TROJAN | @v2rayngconfig [60]",
@@ -286,13 +286,6 @@
                     "Host": "127.0.0.1"
                 }
             }
-        },
-        {
-            "tag": "🇩🇪 DE | 🔓 TROJAN | @config_proxy [38]",
-            "type": "trojan",
-            "server": "45.76.94.79",
-            "server_port": 13448,
-            "password": "9BbIGN.nF=gztO-iq7ETmxdJ"
         },
         {
             "tag": "🇯🇵 JP | 🔒 TROJAN | @free4allvpn [6]",
@@ -764,6 +757,29 @@
                 "utls": {
                     "enabled": true,
                     "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "🚩 CF | 🔓 TROJAN | @v2raych [13]",
+            "type": "trojan",
+            "server": "104.17.167.134",
+            "server_port": 443,
+            "password": "5a2c16f9",
+            "tls": {
+                "enabled": true,
+                "server_name": "snippets.kkii.eu.org",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "snippets.kkii.eu.org"
                 }
             }
         },
