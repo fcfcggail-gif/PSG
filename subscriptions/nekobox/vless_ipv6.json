@@ -80,6 +80,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "❔ XX | 🔒 VLESS | @config_proxy [50]",
+                "❔ XX | 🔒 VLESS | @config_proxy [53]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔓 VLESS | @father_vpn [2]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
@@ -92,7 +94,7 @@
                 "❔ XX | 🔓 VLESS | @internet_nor [3]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
                 "❔ XX | 🔓 VLESS | @proxycrone [2]",
-                "❔ XX | 🔓 VLESS | @prrofile_purple [145]"
+                "❔ XX | 🔓 VLESS | @prrofile_purple [153]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -103,6 +105,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
+                "❔ XX | 🔒 VLESS | @config_proxy [50]",
+                "❔ XX | 🔒 VLESS | @config_proxy [53]",
                 "❔ XX | 🔒 VLESS | @deli_servers [2]",
                 "❔ XX | 🔓 VLESS | @father_vpn [2]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
@@ -115,7 +119,7 @@
                 "❔ XX | 🔓 VLESS | @internet_nor [3]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
                 "❔ XX | 🔓 VLESS | @proxycrone [2]",
-                "❔ XX | 🔓 VLESS | @prrofile_purple [145]"
+                "❔ XX | 🔓 VLESS | @prrofile_purple [153]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -202,6 +206,52 @@
                 "path": "/",
                 "headers": {
                     "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [50]",
+            "type": "vless",
+            "server": "[2a01:ecc0:480:3b::2]",
+            "server_port": 443,
+            "uuid": "70ad6ccb-45a3-4e98-818f-9631de43b7cc",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "uk35.clearorbitllc.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "uldLfBRQldUMH2GfFZlzv9ygt-g1T5k3880Ov5AgTR0",
+                    "short_id": "4610"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @config_proxy [53]",
+            "type": "vless",
+            "server": "[2a01:ecc0:4c0:cb::2]",
+            "server_port": 443,
+            "uuid": "460e4a75-1b9c-47b5-bfc3-52191530bffd",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "germany67.clearorbitllc.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "hpvDv1CqHc_smuVyFqZdjPJxAbkkx92PVbnHYaZbXT4",
+                    "short_id": "1a53728e66"
                 }
             }
         },
@@ -405,7 +455,7 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @prrofile_purple [145]",
+            "tag": "❔ XX | 🔓 VLESS | @prrofile_purple [153]",
             "type": "vless",
             "server": "[2001:41d0:701:1000::72a]",
             "server_port": 13355,
