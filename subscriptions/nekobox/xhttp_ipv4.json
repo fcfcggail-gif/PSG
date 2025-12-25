@@ -81,7 +81,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [11]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [58]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [47]",
+                "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [1]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [20]",
                 "🇲🇩 MD | 🔒 VLESS | @flyv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @free4allvpn [18]",
@@ -136,6 +137,7 @@
                 "🇺🇸 US | 🔓 VLESS | @v2aryng_vpn [6]",
                 "🇺🇸 US | 🔓 VLESS | @v2aryng_vpn [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [13]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [14]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -156,7 +158,8 @@
                 "جاویدشاه",
                 "KingRezaPahlavi",
                 "🇺🇸 US | 🔓 VLESS | @bored_vpn [11]",
-                "🇺🇸 US | 🔓 VLESS | @config_proxy [58]",
+                "🇳🇱 NL | 🔒 VLESS | @config_proxy [47]",
+                "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [1]",
                 "🇺🇸 US | 🔓 VLESS | @evay_vpn [20]",
                 "🇲🇩 MD | 🔒 VLESS | @flyv2ray [5]",
                 "🇺🇸 US | 🔓 VLESS | @free4allvpn [18]",
@@ -211,6 +214,7 @@
                 "🇺🇸 US | 🔓 VLESS | @v2aryng_vpn [6]",
                 "🇺🇸 US | 🔓 VLESS | @v2aryng_vpn [12]",
                 "🇩🇪 DE | 🔒 VLESS | @v2ray_vmes [13]",
+                "🇺🇸 US | 🔓 VLESS | @v2raych [14]",
                 "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [10]",
                 "🇳🇱 NL | 🔒 VLESS | @v2rayexpress [11]",
@@ -319,13 +323,50 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇺🇸 US | 🔓 VLESS | @config_proxy [58]",
+            "tag": "🇳🇱 NL | 🔒 VLESS | @config_proxy [47]",
             "type": "vless",
-            "server": "151.101.25.242",
-            "server_port": 80,
-            "uuid": "02d87d00-c769-48d8-91cb-bd05e2f62790",
-            "flow": "",
-            "packet_encoding": "xudp"
+            "server": "89.110.125.141",
+            "server_port": 443,
+            "uuid": "305e4e81838b431cb24d15595fdfc0f9",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "fastnodegate.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "q0-DSqVo-1rWR_5ASDSLcURxkMqRvC9ITLwyaiYoTVQ",
+                    "short_id": "76"
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @configv2rayforfree [1]",
+            "type": "vless",
+            "server": "91.98.164.168",
+            "server_port": 45107,
+            "uuid": "c306bf29-80f1-4c4f-83b2-4a97fd28aba5",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "google.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "2DpFIQiJPwU4LZW69_MuOeDqTb8amojGsdM15Xahd0k",
+                    "short_id": "d4fa"
+                }
+            }
         },
         {
             "tag": "🇺🇸 US | 🔓 VLESS | @evay_vpn [20]",
@@ -1176,6 +1217,15 @@
                     "short_id": "5426024033df45"
                 }
             }
+        },
+        {
+            "tag": "🇺🇸 US | 🔓 VLESS | @v2raych [14]",
+            "type": "vless",
+            "server": "151.101.25.242",
+            "server_port": 80,
+            "uuid": "2a509678-3795-4b13-b425-70741c3f5ca3",
+            "flow": "",
+            "packet_encoding": "xudp"
         },
         {
             "tag": "🇪🇸 ES | 🔒 VLESS | @v2rayexpress [8]",
