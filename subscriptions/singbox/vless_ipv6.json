@@ -92,18 +92,13 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 VLESS | @deli_servers [2]",
-                "❔ XX | 🔓 VLESS | @father_vpn [2]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [5]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [7]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [10]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [11]",
-                "❔ XX | 🔓 VLESS | @internet_nor [1]",
-                "❔ XX | 🔓 VLESS | @internet_nor [2]",
-                "❔ XX | 🔓 VLESS | @internet_nor [3]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
-                "❔ XX | 🔓 VLESS | @proxycrone [2]"
+                "❔ XX | 🔓 VLESS | @v2raych [5]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -114,18 +109,13 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "❔ XX | 🔒 VLESS | @deli_servers [2]",
-                "❔ XX | 🔓 VLESS | @father_vpn [2]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [5]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [7]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [10]",
                 "❔ XX | 🔓 VLESS | @freevv2rayng [11]",
-                "❔ XX | 🔓 VLESS | @internet_nor [1]",
-                "❔ XX | 🔓 VLESS | @internet_nor [2]",
-                "❔ XX | 🔓 VLESS | @internet_nor [3]",
                 "❔ XX | 🔒 VLESS | @kesslervpn [2]",
-                "❔ XX | 🔓 VLESS | @proxycrone [2]"
+                "❔ XX | 🔓 VLESS | @v2raych [5]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -210,42 +200,6 @@
                     "Host": "127.0.0.1"
                 }
             }
-        },
-        {
-            "tag": "❔ XX | 🔒 VLESS | @deli_servers [2]",
-            "type": "vless",
-            "server": "[2a01:4f8:c012:81c0::1]",
-            "server_port": 1,
-            "uuid": "d3927fcb-1dd4-4a84-af91-75196dcc0ee9",
-            "flow": "xtls-rprx-vision",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "4dsply.com",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "firefox"
-                },
-                "reality": {
-                    "enabled": true,
-                    "public_key": "L6AkyAVesPEg-yz5o4-2yeTCBYACZW5OWnPBVaS-OnQ",
-                    "short_id": "bbcb1cf7"
-                }
-            },
-            "transport": {
-                "type": "grpc",
-                "service_name": "/tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers tel:deli_servers"
-            }
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @father_vpn [2]",
-            "type": "vless",
-            "server": "[2a01:4f8:1c1a:dc2b::1]",
-            "server_port": 8888,
-            "uuid": "Parsashonam-296",
-            "flow": "",
-            "packet_encoding": "xudp"
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @freevv2rayng [2]",
@@ -336,49 +290,6 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @internet_nor [1]",
-            "type": "vless",
-            "server": "[2a01:4f9:c010:1ac8::1]",
-            "server_port": 8443,
-            "uuid": "12471e51-fcd4-421c-a71f-2ef755c34fec",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "transport": {
-                "type": "ws",
-                "path": "/@InterNet_Nor",
-                "headers": {
-                    "Host": "[2a01:4f9:c010:1ac8::1]"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @internet_nor [2]",
-            "type": "vless",
-            "server": "[2a01:4f9:c010:1ac8::1]",
-            "server_port": 13269,
-            "uuid": "a1591bed-6c12-41cf-93c8-9bcb787ffd16",
-            "flow": "",
-            "packet_encoding": "xudp"
-        },
-        {
-            "tag": "❔ XX | 🔓 VLESS | @internet_nor [3]",
-            "type": "vless",
-            "server": "[2a01:4f8:c010:13e4::1]",
-            "server_port": 443,
-            "uuid": "f9196fa1-ba9f-4f31-98a5-3565476caafe",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "[2a01:4f8:c010:13e4::1]",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            }
-        },
-        {
             "tag": "❔ XX | 🔒 VLESS | @kesslervpn [2]",
             "type": "vless",
             "server": "[2a03:b0c0:3:d0::10ad:7001]",
@@ -402,13 +313,17 @@
             }
         },
         {
-            "tag": "❔ XX | 🔓 VLESS | @proxycrone [2]",
+            "tag": "❔ XX | 🔓 VLESS | @v2raych [5]",
             "type": "vless",
-            "server": "[2a01:4f8:1c1a:dc2b::1]",
-            "server_port": 8888,
-            "uuid": "Parsashonam-311",
+            "server": "[2001:41d0:701:1000::72a]",
+            "server_port": 13356,
+            "uuid": "6752aae1-960a-40ff-87be-6b24f0e1ae32",
             "flow": "",
-            "packet_encoding": "xudp"
+            "packet_encoding": "xudp",
+            "transport": {
+                "type": "grpc",
+                "service_name": "ZEDMODEON-ZEDMODEON-bia-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON-ZEDMODEON"
+            }
         }
     ],
     "route": {
