@@ -86,6 +86,7 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [56]",
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
+                "🇨🇦 CA | 🔓 VMESS | @config_proxy [58]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [5]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -94,10 +95,8 @@
                 "❔ XX | 🔒 VMESS | @dailyv2ray [29]",
                 "🇩🇪 DE | 🔓 VMESS | @dailyv2ray [30]",
                 "❔ XX | 🔓 VMESS | @dailyv2ray [31]",
-                "🇨🇦 CA | 🔒 VMESS | @free1_vpn [2]",
-                "🇺🇸 US | 🔓 VMESS | @hope_net [6]",
-                "🇭🇰 HK | 🔓 VMESS | @hope_net [7]",
-                "❔ XX | 🔓 VMESS | @hope_net [10]",
+                "🇨🇦 CA | 🔒 VMESS | @free1_vpn [1]",
+                "❔ XX | 🔓 VMESS | @hope_net [8]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [1]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [2]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [3]",
@@ -162,6 +161,7 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [56]",
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
+                "🇨🇦 CA | 🔓 VMESS | @config_proxy [58]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [5]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -170,10 +170,8 @@
                 "❔ XX | 🔒 VMESS | @dailyv2ray [29]",
                 "🇩🇪 DE | 🔓 VMESS | @dailyv2ray [30]",
                 "❔ XX | 🔓 VMESS | @dailyv2ray [31]",
-                "🇨🇦 CA | 🔒 VMESS | @free1_vpn [2]",
-                "🇺🇸 US | 🔓 VMESS | @hope_net [6]",
-                "🇭🇰 HK | 🔓 VMESS | @hope_net [7]",
-                "❔ XX | 🔓 VMESS | @hope_net [10]",
+                "🇨🇦 CA | 🔒 VMESS | @free1_vpn [1]",
+                "❔ XX | 🔓 VMESS | @hope_net [8]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [1]",
                 "🇫🇷 FR | 🔓 VMESS | @ir_netproxy [2]",
                 "🇺🇸 US | 🔓 VMESS | @ir_netproxy [3]",
@@ -419,6 +417,31 @@
             }
         },
         {
+            "tag": "🇨🇦 CA | 🔓 VMESS | @config_proxy [58]",
+            "type": "vmess",
+            "server": "134.195.198.147",
+            "server_port": 443,
+            "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+            "security": "auto",
+            "alter_id": 0,
+            "tls": {
+                "enabled": true,
+                "server_name": "134.195.198.147",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/linkvws",
+                "headers": {
+                    "Host": "134.195.198.147"
+                }
+            }
+        },
+        {
             "tag": "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
             "type": "vmess",
             "server": "best.configforvpn.fun",
@@ -560,7 +583,7 @@
             }
         },
         {
-            "tag": "🇨🇦 CA | 🔒 VMESS | @free1_vpn [2]",
+            "tag": "🇨🇦 CA | 🔒 VMESS | @free1_vpn [1]",
             "type": "vmess",
             "server": "148.113.176.192",
             "server_port": 443,
@@ -585,32 +608,7 @@
             }
         },
         {
-            "tag": "🇺🇸 US | 🔓 VMESS | @hope_net [6]",
-            "type": "vmess",
-            "server": "107.173.83.214",
-            "server_port": 37541,
-            "uuid": "ef59a586-0532-4763-f353-948eb413f00d",
-            "security": "auto",
-            "alter_id": 0
-        },
-        {
-            "tag": "🇭🇰 HK | 🔓 VMESS | @hope_net [7]",
-            "type": "vmess",
-            "server": "tw1-midpoint.kejibear.net",
-            "server_port": 10006,
-            "uuid": "7bcd50fc-414b-3e8a-a1a2-d81bd7fc4586",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/video",
-                "headers": {
-                    "Host": "tw1-midpoint.kejibear.net"
-                }
-            }
-        },
-        {
-            "tag": "❔ XX | 🔓 VMESS | @hope_net [10]",
+            "tag": "❔ XX | 🔓 VMESS | @hope_net [8]",
             "type": "vmess",
             "server": "hanoi05.vifast.net",
             "server_port": 80,
