@@ -80,8 +80,8 @@
                 "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [69]",
                 "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [70]",
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
-                "🇳🇱 NL | 🔒 VLESS | @arv2ray [10]",
-                "🚩 CF | 🔒 VLESS | @arv2ray [11]",
+                "🚩 CF | 🔒 VLESS | @arv2ray [10]",
+                "🇳🇱 NL | 🔒 VLESS | @arv2ray [11]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [3]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
@@ -114,9 +114,9 @@
                 "🇸🇬 SG | 🔓 VMESS | @mt_proxy [6]",
                 "🚩 CF | 🔓 VLESS | @mt_proxy [7]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
-                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [12]",
-                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]",
-                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
+                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
+                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [17]",
+                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [18]",
                 "🇹🇷 TR | 🔓 VLESS | @pusyvpn [8]",
                 "❔ XX | 🔓 VLESS | @pusyvpn [9]",
                 "🇮🇷 IR | 🔓 VLESS | @pusyvpn [10]",
@@ -164,8 +164,8 @@
                 "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [69]",
                 "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [70]",
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
-                "🇳🇱 NL | 🔒 VLESS | @arv2ray [10]",
-                "🚩 CF | 🔒 VLESS | @arv2ray [11]",
+                "🚩 CF | 🔒 VLESS | @arv2ray [10]",
+                "🇳🇱 NL | 🔒 VLESS | @arv2ray [11]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [2]",
                 "❔ XX | 🔓 VLESS | @dargiiriis [3]",
                 "🇺🇸 US | 🔓 VLESS | @dargiiriis [4]",
@@ -198,9 +198,9 @@
                 "🇸🇬 SG | 🔓 VMESS | @mt_proxy [6]",
                 "🚩 CF | 🔓 VLESS | @mt_proxy [7]",
                 "❔ XX | 🔓 VMESS | @net_azad_1 [11]",
-                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [12]",
-                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]",
-                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
+                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
+                "🇩🇪 DE | 🔒 TROJAN | @privatevpns [17]",
+                "🇫🇷 FR | 🔒 TROJAN | @privatevpns [18]",
                 "🇹🇷 TR | 🔓 VLESS | @pusyvpn [8]",
                 "❔ XX | 🔓 VLESS | @pusyvpn [9]",
                 "🇮🇷 IR | 🔓 VLESS | @pusyvpn [10]",
@@ -287,7 +287,32 @@
             "packet_encoding": "xudp"
         },
         {
-            "tag": "🇳🇱 NL | 🔒 VLESS | @arv2ray [10]",
+            "tag": "🚩 CF | 🔒 VLESS | @arv2ray [10]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 443,
+            "uuid": "telegram-id-Arfilter",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "u.arfilter2.blog",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048",
+                "headers": {
+                    "Host": "u.arfilter2.blog"
+                }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @arv2ray [11]",
             "type": "vless",
             "server": "31.222.238.127",
             "server_port": 8043,
@@ -311,31 +336,6 @@
             "transport": {
                 "type": "grpc",
                 "service_name": "telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray"
-            }
-        },
-        {
-            "tag": "🚩 CF | 🔒 VLESS | @arv2ray [11]",
-            "type": "vless",
-            "server": "www.speedtest.net",
-            "server_port": 443,
-            "uuid": "telegram-id-Arfilter",
-            "flow": "",
-            "packet_encoding": "xudp",
-            "tls": {
-                "enabled": true,
-                "server_name": "u.arfilter2.blog",
-                "insecure": true,
-                "utls": {
-                    "enabled": true,
-                    "fingerprint": "chrome"
-                }
-            },
-            "transport": {
-                "type": "ws",
-                "path": "/telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray,telegram-ArV2ray?ed=2048",
-                "headers": {
-                    "Host": "u.arfilter2.blog"
-                }
             }
         },
         {
@@ -829,7 +829,7 @@
             "alter_id": 0
         },
         {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @privatevpns [12]",
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @privatevpns [16]",
             "type": "trojan",
             "server": "18.158.123.141",
             "server_port": 22222,
@@ -845,7 +845,7 @@
             }
         },
         {
-            "tag": "🇩🇪 DE | 🔒 TROJAN | @privatevpns [13]",
+            "tag": "🇩🇪 DE | 🔒 TROJAN | @privatevpns [17]",
             "type": "trojan",
             "server": "3.127.180.68",
             "server_port": 22222,
@@ -861,7 +861,7 @@
             }
         },
         {
-            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [14]",
+            "tag": "🇫🇷 FR | 🔒 TROJAN | @privatevpns [18]",
             "type": "trojan",
             "server": "51.44.54.110",
             "server_port": 22222,
