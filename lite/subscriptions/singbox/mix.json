@@ -89,6 +89,8 @@
             "outbounds": [
                 "auto",
                 "direct",
+                "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [69]",
+                "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [70]",
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🇳🇱 NL | 🔒 VLESS | @arv2ray [10]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [11]",
@@ -163,9 +165,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [12]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [5]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [6]",
-                "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
-                "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [49]",
-                "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [50]"
+                "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]"
             ],
             "tag": "proxy",
             "type": "selector"
@@ -173,6 +173,8 @@
         {
             "interval": "10m",
             "outbounds": [
+                "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [69]",
+                "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [70]",
                 "❔ XX | 🔓 VLESS | @armod_iran [1]",
                 "🇳🇱 NL | 🔒 VLESS | @arv2ray [10]",
                 "🚩 CF | 🔒 VLESS | @arv2ray [11]",
@@ -247,9 +249,7 @@
                 "🚩 CF | 🔒 VLESS | @v2rayy_vpn13 [12]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [5]",
                 "🚩 CF | 🔓 VLESS | @v_2rayngvpn [6]",
-                "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]",
-                "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [49]",
-                "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [50]"
+                "🚩 CF | 🔓 VLESS | @v_2rayngvpn [7]"
             ],
             "tag": "auto",
             "tolerance": 50,
@@ -259,6 +259,31 @@
         {
             "tag": "direct",
             "type": "direct"
+        },
+        {
+            "tag": "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [69]",
+            "type": "vmess",
+            "server": "51.79.102.253",
+            "server_port": 80,
+            "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
+            "security": "auto",
+            "alter_id": 0,
+            "transport": {
+                "type": "ws",
+                "path": "/IOebhLMhl1CTbFHbL95myfRX2",
+                "headers": {
+                    "Host": ""
+                }
+            }
+        },
+        {
+            "tag": "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [70]",
+            "type": "vmess",
+            "server": "45.67.230.79",
+            "server_port": 11052,
+            "uuid": "314185f7-931d-4656-922d-0857e7afd224",
+            "security": "auto",
+            "alter_id": 0
         },
         {
             "tag": "❔ XX | 🔓 VLESS | @armod_iran [1]",
@@ -1378,31 +1403,6 @@
                     "Host": "www.parsvds.ir"
                 }
             }
-        },
-        {
-            "tag": "🇨🇦 CA | 🔓 VMESS | @NamiraConfigs [49]",
-            "type": "vmess",
-            "server": "51.79.102.253",
-            "server_port": 80,
-            "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
-            "security": "auto",
-            "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/IOebhLMhl1CTbFHbL95myfRX2",
-                "headers": {
-                    "Host": ""
-                }
-            }
-        },
-        {
-            "tag": "🇷🇺 RU | 🔓 VMESS | @NamiraConfigs [50]",
-            "type": "vmess",
-            "server": "45.67.230.79",
-            "server_port": 11052,
-            "uuid": "314185f7-931d-4656-922d-0857e7afd224",
-            "security": "auto",
-            "alter_id": 0
         }
     ],
     "route": {
