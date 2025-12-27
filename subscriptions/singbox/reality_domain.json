@@ -92,7 +92,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇪🇪 EE | 🔒 VLESS | @config_proxy [105]",
+                "🇪🇪 EE | 🔒 VLESS | @config_proxy [101]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [110]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [7]",
                 "❔ XX | 🔒 VLESS | @ehsawn8 [8]",
                 "🇳🇱 NL | 🔒 VLESS | @free1_vpn [3]",
@@ -104,6 +105,8 @@
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "❔ XX | 🔒 VLESS | @satellitenewspersian [13]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [14]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [19]",
                 "❔ XX | 🔒 VLESS | @v2rayy_vpn13 [9]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [3]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [4]",
@@ -120,7 +123,8 @@
                 "همکاری_ملی",
                 "جاویدشاه",
                 "KingRezaPahlavi",
-                "🇪🇪 EE | 🔒 VLESS | @config_proxy [105]",
+                "🇪🇪 EE | 🔒 VLESS | @config_proxy [101]",
+                "🇫🇮 FI | 🔒 VLESS | @config_proxy [110]",
                 "🇩🇪 DE | 🔒 VLESS | @ehsawn8 [7]",
                 "❔ XX | 🔒 VLESS | @ehsawn8 [8]",
                 "🇳🇱 NL | 🔒 VLESS | @free1_vpn [3]",
@@ -132,6 +136,8 @@
                 "❔ XX | 🔒 VLESS | @public504 [12]",
                 "❔ XX | 🔒 VLESS | @satellitenewspersian [13]",
                 "❔ XX | 🔒 VLESS | @savagenet [1]",
+                "🇳🇱 NL | 🔒 VLESS | @v2raych [14]",
+                "🇩🇪 DE | 🔒 VLESS | @v2raych [19]",
                 "❔ XX | 🔒 VLESS | @v2rayy_vpn13 [9]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [3]",
                 "🇺🇸 US | 🔒 VLESS | @vpnowl [4]",
@@ -224,9 +230,32 @@
             }
         },
         {
-            "tag": "🇪🇪 EE | 🔒 VLESS | @config_proxy [105]",
+            "tag": "🇪🇪 EE | 🔒 VLESS | @config_proxy [101]",
             "type": "vless",
             "server": "ee.srv.oplcdn.link",
+            "server_port": 8443,
+            "uuid": "be66c8de-41f5-465b-a417-37d56547d0c3",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "ign.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc",
+                    "short_id": "6ba85179e30d4fc2"
+                }
+            }
+        },
+        {
+            "tag": "🇫🇮 FI | 🔒 VLESS | @config_proxy [110]",
+            "type": "vless",
+            "server": "fi4.srv.oplcdn.link",
             "server_port": 8443,
             "uuid": "be66c8de-41f5-465b-a417-37d56547d0c3",
             "flow": "xtls-rprx-vision",
@@ -501,6 +530,56 @@
                     "public_key": "rBXjuQ9eGNAUtELw1KFOMH7Aq0Q2t3RqcbdPcddYyTk",
                     "short_id": "69"
                 }
+            }
+        },
+        {
+            "tag": "🇳🇱 NL | 🔒 VLESS | @v2raych [14]",
+            "type": "vless",
+            "server": "nl1.jugploer.icu",
+            "server_port": 443,
+            "uuid": "23d94ce7-81fe-4a37-935d-0fa980485c51",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "nl1.jugploer.icu",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": null
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "do5W1A_cUiSkYzmQK1xCcky0LZEU6UQh9eSnz-LyJ0o",
+                    "short_id": ""
+                }
+            }
+        },
+        {
+            "tag": "🇩🇪 DE | 🔒 VLESS | @v2raych [19]",
+            "type": "vless",
+            "server": "a.confignor.site",
+            "server_port": 35493,
+            "uuid": "4c75f1b0-1143-477d-b6f8-849f26f1c88a",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.cdn77.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "qq"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "qeWt8jJZTwf6vmiTvDfaalPaSZDkX7a3XkKrBxf2YVA",
+                    "short_id": "9c24"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "t.me/entryNET"
             }
         },
         {
