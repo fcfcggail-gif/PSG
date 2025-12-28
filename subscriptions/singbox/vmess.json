@@ -98,7 +98,7 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [56]",
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
-                "❔ XX | 🔒 VMESS | @config_proxy [56]",
+                "🚩 CF | 🔒 VMESS | @config_proxy [69]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [5]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -171,7 +171,7 @@
                 "❔ XX | 🔓 VMESS | @armodchannel [56]",
                 "❔ XX | 🔓 VMESS | @armodchannel [62]",
                 "❔ XX | 🔓 VMESS | @armodchannel [63]",
-                "❔ XX | 🔒 VMESS | @config_proxy [56]",
+                "🚩 CF | 🔒 VMESS | @config_proxy [69]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [2]",
                 "❔ XX | 🔓 VMESS | @configforvpn01 [5]",
                 "❔ XX | 🔒 VMESS | @configforvpn01 [9]",
@@ -421,19 +421,25 @@
             }
         },
         {
-            "tag": "❔ XX | 🔒 VMESS | @config_proxy [56]",
+            "tag": "🚩 CF | 🔒 VMESS | @config_proxy [69]",
             "type": "vmess",
-            "server": "dearma.76898102.xyz",
-            "server_port": 2052,
-            "uuid": "5f9c7bda-33f9-3dd0-bcf5-aca324418e31",
+            "server": "zula.ir",
+            "server_port": 2096,
+            "uuid": "2a944c55-1a1f-41f4-9851-ab27f05b259f",
             "security": "auto",
             "alter_id": 0,
-            "transport": {
-                "type": "ws",
-                "path": "/abuciwyg",
-                "headers": {
-                    "Host": "dearma.76898102.xyz"
+            "tls": {
+                "enabled": true,
+                "server_name": "fragment.mzolfaghari.homes",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
                 }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "Freevpnhomes"
             }
         },
         {
