@@ -1,0 +1,457 @@
+{
+    "dns": {
+        "independent_cache": true,
+        "rules": [
+            {
+                "domain": [
+                    "dns.google"
+                ],
+                "server": "dns-direct"
+            },
+            {
+                "outbound": [
+                    "any"
+                ],
+                "server": "dns-direct"
+            }
+        ],
+        "servers": [
+            {
+                "address": "tcp://1.1.1.1",
+                "address_resolver": "local-dns",
+                "detour": "proxy",
+                "tag": "proxy-dns"
+            },
+            {
+                "address": "local",
+                "detour": "direct",
+                "tag": "local-dns"
+            },
+            {
+                "address": "tcp://8.8.8.8",
+                "detour": "direct",
+                "tag": "direct-dns"
+            }
+        ]
+    },
+    "experimental": {
+        "cache_file": {
+            "enabled": true,
+            "path": "../cache/clash.db",
+            "store_fakeip": true
+        },
+        "clash_api": {
+            "external_controller": "127.0.0.1:9090",
+            "external_ui": "../files/yacd"
+        }
+    },
+    "inbounds": [
+        {
+            "domain_strategy": "",
+            "endpoint_independent_nat": true,
+            "inet4_address": [
+                "172.19.0.1/28"
+            ],
+            "mtu": 9000,
+            "sniff": true,
+            "sniff_override_destination": false,
+            "stack": "mixed",
+            "tag": "tun-in",
+            "type": "tun"
+        },
+        {
+            "domain_strategy": "",
+            "listen": "127.0.0.1",
+            "listen_port": 2080,
+            "sniff": true,
+            "sniff_override_destination": false,
+            "tag": "mixed-in",
+            "type": "mixed"
+        }
+    ],
+    "log": {
+        "level": "info"
+    },
+    "outbounds": [
+        {
+            "outbounds": [
+                "auto",
+                "direct",
+                "همکاری_ملی",
+                "جاویدشاه",
+                "KingRezaPahlavi",
+                "❔ XX | 🔒 TROJAN | @free4allvpn [17]",
+                "❔ XX | 🔒 TROJAN | @free4allvpn [18]",
+                "❔ XX | 🔒 TROJAN | @hope_net [19]",
+                "❔ XX | 🔒 TROJAN | @privatevpns [14]",
+                "❔ XX | 🔒 TROJAN | @privatevpns [15]",
+                "❔ XX | 🔒 TROJAN | @privatevpns [16]",
+                "❔ XX | 🔒 TROJAN | @proxyfn [19]",
+                "❔ XX | 🔒 TROJAN | @v2rayngconfig [60]",
+                "❔ XX | 🔒 TROJAN | @v2rayngconfig [61]",
+                "❔ XX | 🔒 TROJAN | @v2rayngconfig [62]",
+                "❔ XX | 🔒 TROJAN | @v2rayvpnchannel [14]",
+                "❔ XX | 🔒 TROJAN | @v2rayvpnchannel [15]",
+                "❔ XX | 🔒 TROJAN | @v2rayvpnchannel [16]"
+            ],
+            "tag": "proxy",
+            "type": "selector"
+        },
+        {
+            "interval": "10m",
+            "outbounds": [
+                "همکاری_ملی",
+                "جاویدشاه",
+                "KingRezaPahlavi",
+                "❔ XX | 🔒 TROJAN | @free4allvpn [17]",
+                "❔ XX | 🔒 TROJAN | @free4allvpn [18]",
+                "❔ XX | 🔒 TROJAN | @hope_net [19]",
+                "❔ XX | 🔒 TROJAN | @privatevpns [14]",
+                "❔ XX | 🔒 TROJAN | @privatevpns [15]",
+                "❔ XX | 🔒 TROJAN | @privatevpns [16]",
+                "❔ XX | 🔒 TROJAN | @proxyfn [19]",
+                "❔ XX | 🔒 TROJAN | @v2rayngconfig [60]",
+                "❔ XX | 🔒 TROJAN | @v2rayngconfig [61]",
+                "❔ XX | 🔒 TROJAN | @v2rayngconfig [62]",
+                "❔ XX | 🔒 TROJAN | @v2rayvpnchannel [14]",
+                "❔ XX | 🔒 TROJAN | @v2rayvpnchannel [15]",
+                "❔ XX | 🔒 TROJAN | @v2rayvpnchannel [16]"
+            ],
+            "tag": "auto",
+            "tolerance": 50,
+            "type": "urltest",
+            "url": "http://www.gstatic.com/generate_204"
+        },
+        {
+            "tag": "direct",
+            "type": "direct"
+        },
+        {
+            "tag": "bypass",
+            "type": "direct"
+        },
+        {
+            "tag": "همکاری_ملی",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "جاویدشاه",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "KingRezaPahlavi",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 TROJAN | @free4allvpn [17]",
+            "type": "trojan",
+            "server": "160.16.107.37",
+            "server_port": 3169,
+            "password": "44e660b0ee21cf3ac66aee2c08af85d2",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.nintendogames.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 TROJAN | @free4allvpn [18]",
+            "type": "trojan",
+            "server": "23.247.137.64",
+            "server_port": 443,
+            "password": "3c4e10af98c30972",
+            "tls": {
+                "enabled": true,
+                "server_name": "n2.gladns.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "grpc",
+                "service_name": "db"
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 TROJAN | @hope_net [19]",
+            "type": "trojan",
+            "server": "141.11.107.31",
+            "server_port": 2083,
+            "password": "INp_lyFwbiv7RRBD_xXF3Q",
+            "tls": {
+                "enabled": true,
+                "server_name": "c9a5f8634d8e8dd0.gstatic.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "c9a5f8634d8e8dd0.gstatic.com"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 TROJAN | @privatevpns [14]",
+            "type": "trojan",
+            "server": "63.181.90.241",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 TROJAN | @privatevpns [15]",
+            "type": "trojan",
+            "server": "18.193.238.117",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 TROJAN | @privatevpns [16]",
+            "type": "trojan",
+            "server": "51.44.3.151",
+            "server_port": 22222,
+            "password": "telegram-id-privatevpns",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 TROJAN | @proxyfn [19]",
+            "type": "trojan",
+            "server": "51.91.11.29",
+            "server_port": 80,
+            "password": "598c19f3-a48e-47cd-8451-1ba04ea094d0",
+            "tls": {
+                "enabled": true,
+                "server_name": "speedtest.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 TROJAN | @v2rayngconfig [60]",
+            "type": "trojan",
+            "server": "146.19.215.81",
+            "server_port": 443,
+            "password": "769c2da7-add3-42e8-a03c-07be9fcf483c",
+            "tls": {
+                "enabled": true,
+                "server_name": "zaelot.cc",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 TROJAN | @v2rayngconfig [61]",
+            "type": "trojan",
+            "server": "15.222.9.61",
+            "server_port": 22222,
+            "password": "telegram-id-directvpn",
+            "tls": {
+                "enabled": true,
+                "server_name": "trj.rollingnext.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 TROJAN | @v2rayngconfig [62]",
+            "type": "trojan",
+            "server": "104.149.155.13",
+            "server_port": 443,
+            "password": "79c935c0-27dc-4383-b307-dcac1b8e5509",
+            "tls": {
+                "enabled": true,
+                "server_name": "vzwzasc.cn",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 TROJAN | @v2rayvpnchannel [14]",
+            "type": "trojan",
+            "server": "63.181.90.241",
+            "server_port": 22223,
+            "password": "telegram-id-v2rayvpnchannel",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 TROJAN | @v2rayvpnchannel [15]",
+            "type": "trojan",
+            "server": "18.193.238.117",
+            "server_port": 22223,
+            "password": "telegram-id-v2rayvpnchannel",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 TROJAN | @v2rayvpnchannel [16]",
+            "type": "trojan",
+            "server": "51.44.3.151",
+            "server_port": 22223,
+            "password": "telegram-id-v2rayvpnchannel",
+            "tls": {
+                "enabled": true,
+                "server_name": "trojan.burgerip.co.uk",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        }
+    ],
+    "route": {
+        "auto_detect_interface": true,
+        "rule_set": [],
+        "rules": [
+            {
+                "action": "hijack-dns",
+                "port": [
+                    53
+                ]
+            },
+            {
+                "action": "hijack-dns",
+                "protocol": [
+                    "dns"
+                ]
+            },
+            {
+                "action": "reject",
+                "ip_cidr": [
+                    "224.0.0.0/3",
+                    "ff00::/8"
+                ],
+                "source_ip_cidr": [
+                    "224.0.0.0/3",
+                    "ff00::/8"
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,827 @@
+//profile-title: base64:UFNHIHwgWEhUVFBfRE9NQUlO
+//profile-update-interval: 1
+//subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
+//support-url: https://t.me/yebekhe
+//profile-web-page-url: ithub.com/itsyebekhe/PSG
+{
+    "dns": {
+        "final": "local-dns",
+        "rules": [
+            {
+                "action": "route",
+                "clash_mode": "Global",
+                "server": "proxy-dns",
+                "source_ip_cidr": [
+                    "172.19.0.0/30",
+                    "fdfe:dcba:9876::1/126"
+                ]
+            },
+            {
+                "action": "route",
+                "server": "proxy-dns",
+                "source_ip_cidr": [
+                    "172.19.0.0/30",
+                    "fdfe:dcba:9876::1/126"
+                ]
+            },
+            {
+                "action": "route",
+                "clash_mode": "Direct",
+                "server": "direct-dns"
+            },
+            {
+                "action": "route",
+                "rule_set": [
+                    "geosite-ir"
+                ],
+                "server": "direct-dns"
+            }
+        ],
+        "servers": [
+            {
+                "address": "tcp://1.1.1.1",
+                "address_resolver": "local-dns",
+                "detour": "proxy",
+                "tag": "proxy-dns"
+            },
+            {
+                "address": "local",
+                "detour": "direct",
+                "tag": "local-dns"
+            },
+            {
+                "address": "tcp://8.8.8.8",
+                "detour": "direct",
+                "tag": "direct-dns"
+            }
+        ],
+        "strategy": "prefer_ipv4"
+    },
+    "inbounds": [
+        {
+            "address": [
+                "172.19.0.1/30",
+                "fdfe:dcba:9876::1/126"
+            ],
+            "auto_route": true,
+            "endpoint_independent_nat": false,
+            "mtu": 9000,
+            "platform": {
+                "http_proxy": {
+                    "enabled": true,
+                    "server": "127.0.0.1",
+                    "server_port": 2080
+                }
+            },
+            "stack": "system",
+            "strict_route": false,
+            "type": "tun"
+        },
+        {
+            "listen": "127.0.0.1",
+            "listen_port": 2080,
+            "type": "mixed",
+            "users": []
+        }
+    ],
+    "outbounds": [
+        {
+            "outbounds": [
+                "auto",
+                "direct",
+                "همکاری_ملی",
+                "جاویدشاه",
+                "KingRezaPahlavi",
+                "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [7]",
+                "❔ XX | 🔓 VLESS | @config_proxy [54]",
+                "❔ XX | 🔓 VLESS | @ehsawn8 [1]",
+                "❔ XX | 🔓 VLESS | @ehsawn8 [3]",
+                "❔ XX | 🔓 VLESS | @eliteproxyv2 [8]",
+                "❔ XX | 🔒 VLESS | @evay_vpn [6]",
+                "❔ XX | 🔒 VLESS | @evay_vpn [7]",
+                "❔ XX | 🔒 VLESS | @evay_vpn [8]",
+                "❔ XX | 🔒 VLESS | @evay_vpn [9]",
+                "❔ XX | 🔒 VLESS | @evay_vpn [10]",
+                "❔ XX | 🔒 VLESS | @evay_vpn [11]",
+                "❔ XX | 🔒 VLESS | @evay_vpn [12]",
+                "❔ XX | 🔒 VLESS | @evay_vpn [13]",
+                "❔ XX | 🔒 VLESS | @evay_vpn [14]",
+                "❔ XX | 🔒 VLESS | @evay_vpn [15]",
+                "❔ XX | 🔒 VLESS | @grizzlyvpn [8]",
+                "❔ XX | 🔓 VLESS | @megavpn_link [1]",
+                "❔ XX | 🔓 VLESS | @nofiltering2 [6]",
+                "❔ XX | 🔓 VLESS | @outline_ir [10]",
+                "❔ XX | 🔓 VLESS | @outline_ir [11]",
+                "❔ XX | 🔓 VLESS | @parsashonam [12]",
+                "❔ XX | 🔒 VLESS | @selinc [2]",
+                "❔ XX | 🔒 VLESS | @selinc [3]",
+                "❔ XX | 🔓 VLESS | @v2aryng_vpn [1]",
+                "🚩 CF | 🔓 VLESS | @v2aryng_vpn [2]",
+                "🚩 CF | 🔓 VLESS | @v2aryng_vpn [6]",
+                "❔ XX | 🔓 VLESS | @v2aryng_vpn [10]",
+                "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [16]",
+                "❔ XX | 🔓 VLESS | @v2raych [7]",
+                "❔ XX | 🔓 VLESS | @v2rayngconfiig [12]",
+                "🚩 CF | 🔓 VLESS | @v2rayvpn2 [2]",
+                "❔ XX | 🔒 VLESS | @vpnowl [14]",
+                "❔ XX | 🔓 VLESS | @vpnplusee_free [3]",
+                "❔ XX | 🔓 VLESS | @xsv2ray [5]"
+            ],
+            "tag": "proxy",
+            "type": "selector"
+        },
+        {
+            "interval": "10m",
+            "outbounds": [
+                "همکاری_ملی",
+                "جاویدشاه",
+                "KingRezaPahlavi",
+                "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [7]",
+                "❔ XX | 🔓 VLESS | @config_proxy [54]",
+                "❔ XX | 🔓 VLESS | @ehsawn8 [1]",
+                "❔ XX | 🔓 VLESS | @ehsawn8 [3]",
+                "❔ XX | 🔓 VLESS | @eliteproxyv2 [8]",
+                "❔ XX | 🔒 VLESS | @evay_vpn [6]",
+                "❔ XX | 🔒 VLESS | @evay_vpn [7]",
+                "❔ XX | 🔒 VLESS | @evay_vpn [8]",
+                "❔ XX | 🔒 VLESS | @evay_vpn [9]",
+                "❔ XX | 🔒 VLESS | @evay_vpn [10]",
+                "❔ XX | 🔒 VLESS | @evay_vpn [11]",
+                "❔ XX | 🔒 VLESS | @evay_vpn [12]",
+                "❔ XX | 🔒 VLESS | @evay_vpn [13]",
+                "❔ XX | 🔒 VLESS | @evay_vpn [14]",
+                "❔ XX | 🔒 VLESS | @evay_vpn [15]",
+                "❔ XX | 🔒 VLESS | @grizzlyvpn [8]",
+                "❔ XX | 🔓 VLESS | @megavpn_link [1]",
+                "❔ XX | 🔓 VLESS | @nofiltering2 [6]",
+                "❔ XX | 🔓 VLESS | @outline_ir [10]",
+                "❔ XX | 🔓 VLESS | @outline_ir [11]",
+                "❔ XX | 🔓 VLESS | @parsashonam [12]",
+                "❔ XX | 🔒 VLESS | @selinc [2]",
+                "❔ XX | 🔒 VLESS | @selinc [3]",
+                "❔ XX | 🔓 VLESS | @v2aryng_vpn [1]",
+                "🚩 CF | 🔓 VLESS | @v2aryng_vpn [2]",
+                "🚩 CF | 🔓 VLESS | @v2aryng_vpn [6]",
+                "❔ XX | 🔓 VLESS | @v2aryng_vpn [10]",
+                "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [16]",
+                "❔ XX | 🔓 VLESS | @v2raych [7]",
+                "❔ XX | 🔓 VLESS | @v2rayngconfiig [12]",
+                "🚩 CF | 🔓 VLESS | @v2rayvpn2 [2]",
+                "❔ XX | 🔒 VLESS | @vpnowl [14]",
+                "❔ XX | 🔓 VLESS | @vpnplusee_free [3]",
+                "❔ XX | 🔓 VLESS | @xsv2ray [5]"
+            ],
+            "tag": "auto",
+            "tolerance": 50,
+            "type": "urltest",
+            "url": "http://www.gstatic.com/generate_204"
+        },
+        {
+            "tag": "direct",
+            "type": "direct"
+        },
+        {
+            "tag": "همکاری_ملی",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "جاویدشاه",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "KingRezaPahlavi",
+            "type": "vless",
+            "server": "127.0.0.1",
+            "server_port": 443,
+            "uuid": "00000000-0000-0000-0000-000000000000",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "127.0.0.1",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            },
+            "transport": {
+                "type": "ws",
+                "path": "/",
+                "headers": {
+                    "Host": "127.0.0.1"
+                }
+            }
+        },
+        {
+            "tag": "🇨🇦 CA | 🔓 VLESS | @Fr33C0nfig [7]",
+            "type": "vless",
+            "server": "viop.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "7fa08b3d-86d8-4b14-92b3-4c56a83f027d",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @config_proxy [54]",
+            "type": "vless",
+            "server": "DEADSEECtelegram.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "9aefde58-c7fb-4faf-b929-7c7d52d9804c",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [1]",
+            "type": "vless",
+            "server": "holkanas.atroart.ir",
+            "server_port": 9091,
+            "uuid": "13a44840-ac14-4748-b498-d97597042563",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @ehsawn8 [3]",
+            "type": "vless",
+            "server": "vpconnect.ahadbala.ir",
+            "server_port": 80,
+            "uuid": "4c2078b8-768c-4b85-8ef2-138b68143158",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @eliteproxyv2 [8]",
+            "type": "vless",
+            "server": "germany.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @evay_vpn [6]",
+            "type": "vless",
+            "server": "Evay-vpn.octacityroleplay.ir",
+            "server_port": 1122,
+            "uuid": "7c435977-b45f-45c7-9857-ccc81515800f",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.slideshare.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI",
+                    "short_id": "4c7b0ea36fc7f0c4"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @evay_vpn [7]",
+            "type": "vless",
+            "server": "Evay-vpn.octacityroleplay.ir",
+            "server_port": 1122,
+            "uuid": "a38f5e9f-dcc7-4c65-942e-e4db36672e37",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI",
+                    "short_id": "4c7b0ea36fc7f0c4"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @evay_vpn [8]",
+            "type": "vless",
+            "server": "Evay-vpn.octacityroleplay.ir",
+            "server_port": 1122,
+            "uuid": "c6d231a8-e960-4468-b65e-c176855ce054",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI",
+                    "short_id": "4c7b0ea36fc7f0c4"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @evay_vpn [9]",
+            "type": "vless",
+            "server": "Evay-vpn.octacityroleplay.ir",
+            "server_port": 1122,
+            "uuid": "cb8d3fba-674e-47ef-9b56-ed7cedc99d9c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI",
+                    "short_id": "4c7b0ea36fc7f0c4"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @evay_vpn [10]",
+            "type": "vless",
+            "server": "Evay-vpn.octacityroleplay.ir",
+            "server_port": 1122,
+            "uuid": "6dca563c-c87f-48eb-89b1-bef039725971",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI",
+                    "short_id": "4c7b0ea36fc7f0c4"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @evay_vpn [11]",
+            "type": "vless",
+            "server": "Evay-vpn.octacityroleplay.ir",
+            "server_port": 1122,
+            "uuid": "30fa4d24-25ae-48bf-85d2-2108df6b439d",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI",
+                    "short_id": "4c7b0ea36fc7f0c4"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @evay_vpn [12]",
+            "type": "vless",
+            "server": "Evay-vpn.octacityroleplay.ir",
+            "server_port": 1122,
+            "uuid": "334aabfd-b70c-4007-aa71-2200fe48592c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI",
+                    "short_id": "4c7b0ea36fc7f0c4"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @evay_vpn [13]",
+            "type": "vless",
+            "server": "Evay-vpn.octacityroleplay.ir",
+            "server_port": 1122,
+            "uuid": "cf804de9-d65f-4b49-9990-ea611fdcbc10",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI",
+                    "short_id": "4c7b0ea36fc7f0c4"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @evay_vpn [14]",
+            "type": "vless",
+            "server": "Evay-vpn.octacityroleplay.ir",
+            "server_port": 1122,
+            "uuid": "c294a5f8-2aa8-41cf-a596-420df7bd7e99",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI",
+                    "short_id": "4c7b0ea36fc7f0c4"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @evay_vpn [15]",
+            "type": "vless",
+            "server": "Evay-vpn.octacityroleplay.ir",
+            "server_port": 1122,
+            "uuid": "97138d81-028f-4014-ae1a-036f7bd4c3b7",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "www.zhaket.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "firefox"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "4iCkO1B_tdvJY7x_v9izvkoNDfdGIFiL2LQX2Nqv5RI",
+                    "short_id": "4c7b0ea36fc7f0c4"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @grizzlyvpn [8]",
+            "type": "vless",
+            "server": "grizzly.grizzlygitt.ir",
+            "server_port": 36701,
+            "uuid": "e68b89df-2704-4175-a571-fe6a076ba96c",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "themeforest.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "3OR4XDJdDacDG0Ns90BLA9BatdAc4KTZNznxEjtFUic",
+                    "short_id": "80703d0f"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @megavpn_link [1]",
+            "type": "vless",
+            "server": "fast.peace.lemoex.blog",
+            "server_port": 80,
+            "uuid": "489ed7c4-103d-46a9-9a3e-370e0af56976",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @nofiltering2 [6]",
+            "type": "vless",
+            "server": "ip.fastlynew.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "TELEGRAM-CONFiGLiNE-88",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @outline_ir [10]",
+            "type": "vless",
+            "server": "ip.fastlynew.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "TELEGRAM-CONFiGLiNE-116",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @outline_ir [11]",
+            "type": "vless",
+            "server": "ip.fastlynew.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "TELEGRAM-CONFiGLiNE-115",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @parsashonam [12]",
+            "type": "vless",
+            "server": "SpeedTest.Net",
+            "server_port": 80,
+            "uuid": "Parsashonam-332",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @selinc [2]",
+            "type": "vless",
+            "server": "statue.lnmarketplace.net",
+            "server_port": 443,
+            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "statue.lnmarketplace.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @selinc [3]",
+            "type": "vless",
+            "server": "statue.lnmarketplace.net",
+            "server_port": 443,
+            "uuid": "7c63f43f-f526-49bb-b5c8-2be26e11ef00",
+            "flow": "",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "statue.lnmarketplace.net",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @v2aryng_vpn [1]",
+            "type": "vless",
+            "server": "ip.fastlynew.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "TELEGRAM-CONFiGLiNE-103",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @v2aryng_vpn [2]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "a050016b-d586-4a34-91fa-0ae9ea0e9e4a",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @v2aryng_vpn [6]",
+            "type": "vless",
+            "server": "www.speedtest.net",
+            "server_port": 8080,
+            "uuid": "af9c5281-dad1-4632-cffb-fbaf2f0f9bfe",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @v2aryng_vpn [10]",
+            "type": "vless",
+            "server": "ip.fastlynew.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "TELEGRAM-CONFiGLiNE-113",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🇨🇦 CA | 🔓 VLESS | @v2ray_vmes [16]",
+            "type": "vless",
+            "server": "viop.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "11f0eeb6-c9e9-49c7-8eda-7ee1a4904e9b",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @v2raych [7]",
+            "type": "vless",
+            "server": "SpeedTest.Net",
+            "server_port": 80,
+            "uuid": "Parsashonam-332",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @v2rayngconfiig [12]",
+            "type": "vless",
+            "server": "test.fast.hosting-ip.com",
+            "server_port": 80,
+            "uuid": "TELEGRAM-CONFiGLiNE-29",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "🚩 CF | 🔓 VLESS | @v2rayvpn2 [2]",
+            "type": "vless",
+            "server": "DEADSEECtelegram.slimshopboyss.ir",
+            "server_port": 8080,
+            "uuid": "433e3e31-b555-4b80-cfdf-1889b1c506bd",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔒 VLESS | @vpnowl [14]",
+            "type": "vless",
+            "server": "firebaseinstallations.googleapis-com.android.v1.edge-cache.deepcloudview.com",
+            "server_port": 443,
+            "uuid": "5cbb5600-c1f1-4f82-8c31-814766dd46de",
+            "flow": "xtls-rprx-vision",
+            "packet_encoding": "xudp",
+            "tls": {
+                "enabled": true,
+                "server_name": "firebase.googleapis.com",
+                "insecure": true,
+                "utls": {
+                    "enabled": true,
+                    "fingerprint": "chrome"
+                },
+                "reality": {
+                    "enabled": true,
+                    "public_key": "zMeFpcu-ppUKh_am7bNYWtLehvtvhjocEPP8efg1Jg4",
+                    "short_id": "9f3c7a21b6"
+                }
+            }
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @vpnplusee_free [3]",
+            "type": "vless",
+            "server": "fstser.glovesstore1.ir",
+            "server_port": 80,
+            "uuid": "6955f08d-aa56-427d-aad1-c0bc2c9b1ede",
+            "flow": "",
+            "packet_encoding": "xudp"
+        },
+        {
+            "tag": "❔ XX | 🔓 VLESS | @xsv2ray [5]",
+            "type": "vless",
+            "server": "fast-01.saitsazs.ir",
+            "server_port": 80,
+            "uuid": "34a4cfb4-8b42-42ba-b087-6a338c2b3b4a",
+            "flow": "",
+            "packet_encoding": "xudp"
+        }
+    ],
+    "route": {
+        "auto_detect_interface": true,
+        "final": "proxy",
+        "rule_set": [
+            {
+                "download_detour": "direct",
+                "format": "binary",
+                "tag": "geosite-ads",
+                "type": "remote",
+                "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geosite/category-ads-all.srs"
+            },
+            {
+                "download_detour": "direct",
+                "format": "binary",
+                "tag": "geosite-private",
+                "type": "remote",
+                "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geosite/private.srs"
+            },
+            {
+                "download_detour": "direct",
+                "format": "binary",
+                "tag": "geosite-ir",
+                "type": "remote",
+                "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geosite/category-ir.srs"
+            },
+            {
+                "download_detour": "direct",
+                "format": "binary",
+                "tag": "geoip-private",
+                "type": "remote",
+                "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geoip/private.srs"
+            },
+            {
+                "download_detour": "direct",
+                "format": "binary",
+                "tag": "geoip-ir",
+                "type": "remote",
+                "url": "https://raw.githubusercontent.com/itsyebekhe/meta-rules-dat-sing/main/geo/geoip/ir.srs"
+            }
+        ],
+        "rules": [
+            {
+                "action": "sniff"
+            },
+            {
+                "action": "route",
+                "clash_mode": "Direct",
+                "outbound": "direct"
+            },
+            {
+                "action": "route",
+                "clash_mode": "Global",
+                "outbound": "proxy"
+            },
+            {
+                "action": "hijack-dns",
+                "protocol": "dns"
+            },
+            {
+                "action": "route",
+                "outbound": "direct",
+                "rule_set": [
+                    "geoip-private",
+                    "geosite-private",
+                    "geosite-ir",
+                    "geoip-ir"
+                ]
+            },
+            {
+                "action": "reject",
+                "rule_set": [
+                    "geosite-ads"
+                ]
+            }
+        ]
+    }
+}

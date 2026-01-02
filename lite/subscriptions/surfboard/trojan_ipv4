@@ -1,0 +1,33 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/surfboard/trojan_ipv4 interval=3600 strict=false
+
+[General]
+loglevel = notify
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+ipv6 = true
+dns-server = system, 223.5.5.5
+enhanced-mode-by-rule = true
+
+[Proxy]
+DIRECT = direct
+❔ XX | 🔒 TROJAN | @free4allvpn [17] = trojan, 160.16.107.37, 3169, password = 44e660b0ee21cf3ac66aee2c08af85d2, skip-cert-verify = false
+❔ XX | 🔒 TROJAN | @free4allvpn [18] = trojan, 23.247.137.64, 443, password = 3c4e10af98c30972, skip-cert-verify = false
+❔ XX | 🔒 TROJAN | @hope_net [19] = trojan, 141.11.107.31, 2083, password = INp_lyFwbiv7RRBD_xXF3Q, skip-cert-verify = false
+❔ XX | 🔒 TROJAN | @privatevpns [14] = trojan, 63.181.90.241, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
+❔ XX | 🔒 TROJAN | @privatevpns [15] = trojan, 18.193.238.117, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
+❔ XX | 🔒 TROJAN | @privatevpns [16] = trojan, 51.44.3.151, 22222, password = telegram-id-privatevpns, skip-cert-verify = false
+❔ XX | 🔒 TROJAN | @proxyfn [19] = trojan, 51.91.11.29, 80, password = 598c19f3-a48e-47cd-8451-1ba04ea094d0, skip-cert-verify = false
+❔ XX | 🔒 TROJAN | @v2rayngconfig [60] = trojan, 146.19.215.81, 443, password = 769c2da7-add3-42e8-a03c-07be9fcf483c, skip-cert-verify = false
+❔ XX | 🔒 TROJAN | @v2rayngconfig [61] = trojan, 15.222.9.61, 22222, password = telegram-id-directvpn, skip-cert-verify = false
+❔ XX | 🔒 TROJAN | @v2rayngconfig [62] = trojan, 104.149.155.13, 443, password = 79c935c0-27dc-4383-b307-dcac1b8e5509, skip-cert-verify = false
+❔ XX | 🔒 TROJAN | @v2rayvpnchannel [14] = trojan, 63.181.90.241, 22223, password = telegram-id-v2rayvpnchannel, skip-cert-verify = false
+❔ XX | 🔒 TROJAN | @v2rayvpnchannel [15] = trojan, 18.193.238.117, 22223, password = telegram-id-v2rayvpnchannel, skip-cert-verify = false
+❔ XX | 🔒 TROJAN | @v2rayvpnchannel [16] = trojan, 51.44.3.151, 22223, password = telegram-id-v2rayvpnchannel, skip-cert-verify = false
+
+[Proxy Group]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, ❔ XX | 🔒 TROJAN | @free4allvpn [17], ❔ XX | 🔒 TROJAN | @free4allvpn [18], ❔ XX | 🔒 TROJAN | @hope_net [19], ❔ XX | 🔒 TROJAN | @privatevpns [14], ❔ XX | 🔒 TROJAN | @privatevpns [15], ❔ XX | 🔒 TROJAN | @privatevpns [16], ❔ XX | 🔒 TROJAN | @proxyfn [19], ❔ XX | 🔒 TROJAN | @v2rayngconfig [60], ❔ XX | 🔒 TROJAN | @v2rayngconfig [61], ❔ XX | 🔒 TROJAN | @v2rayngconfig [62], ❔ XX | 🔒 TROJAN | @v2rayvpnchannel [14], ❔ XX | 🔒 TROJAN | @v2rayvpnchannel [15], ❔ XX | 🔒 TROJAN | @v2rayvpnchannel [16]
+PSG-AUTO = url-test, ❔ XX | 🔒 TROJAN | @free4allvpn [17], ❔ XX | 🔒 TROJAN | @free4allvpn [18], ❔ XX | 🔒 TROJAN | @hope_net [19], ❔ XX | 🔒 TROJAN | @privatevpns [14], ❔ XX | 🔒 TROJAN | @privatevpns [15], ❔ XX | 🔒 TROJAN | @privatevpns [16], ❔ XX | 🔒 TROJAN | @proxyfn [19], ❔ XX | 🔒 TROJAN | @v2rayngconfig [60], ❔ XX | 🔒 TROJAN | @v2rayngconfig [61], ❔ XX | 🔒 TROJAN | @v2rayngconfig [62], ❔ XX | 🔒 TROJAN | @v2rayvpnchannel [14], ❔ XX | 🔒 TROJAN | @v2rayvpnchannel [15], ❔ XX | 🔒 TROJAN | @v2rayvpnchannel [16]
+PSG-FALLBACK = fallback, ❔ XX | 🔒 TROJAN | @free4allvpn [17], ❔ XX | 🔒 TROJAN | @free4allvpn [18], ❔ XX | 🔒 TROJAN | @hope_net [19], ❔ XX | 🔒 TROJAN | @privatevpns [14], ❔ XX | 🔒 TROJAN | @privatevpns [15], ❔ XX | 🔒 TROJAN | @privatevpns [16], ❔ XX | 🔒 TROJAN | @proxyfn [19], ❔ XX | 🔒 TROJAN | @v2rayngconfig [60], ❔ XX | 🔒 TROJAN | @v2rayngconfig [61], ❔ XX | 🔒 TROJAN | @v2rayngconfig [62], ❔ XX | 🔒 TROJAN | @v2rayvpnchannel [14], ❔ XX | 🔒 TROJAN | @v2rayvpnchannel [15], ❔ XX | 🔒 TROJAN | @v2rayvpnchannel [16]
+
+[Rule]
+GEOIP,IR,DIRECT
+FINAL,PSG-MANUAL
