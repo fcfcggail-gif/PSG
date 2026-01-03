@@ -1,34 +1,51 @@
-# 🛡️ Proxy Subscription Generator (PSG)
+# 🛡️ سامانه هوشمند تولید اشتراک پروکسی (PSG)
 
-**PSG** is a lightweight PHP-based tool designed to generate proxy subscription links for various VPN clients like Clash, Surfboard, Singbox, and more. It simplifies the process of aggregating and formatting proxy configurations from multiple sources into user-friendly subscription formats.
-
-## 🌐 Main Interface
-
-Access the subscription links through the main UI:  
-🔗 [https://itsyebekhe.github.io/PSG/](https://itsyebekhe.github.io/PSG/)
-
-## 📦 Features
-
-- 🔗 Generate proxy subscriptions for Clash, Surfboard, Singbox, etc.
-- 🧩 Supports multiple protocols: VLESS, VMess, Trojan, Shadowsocks, Reality, Hysteria2
-- 🗂️ Organized templates and channel data
-- 🧪 Includes tools for duplication removal and sorting
-- 🛠️ Built with PHP and HTML
-
-## 📊 Stars History
-
-![Star History Chart](https://api.star-history.com/svg?repos=itsyebekhe/PSG&type=Date)
-
-## 🧑‍💻 Contributors
-
-- [Ye Be Khe](https://github.com/itsyebekhe) — creator and primary maintainer  
-- [seramo](https://github.com/seramo) — contributed proxy-related tools and ideas  
-- [actions-user](https://github.com/actions-user) — GitHub Actions automation
-
-## 📄 License
-
-This project is licensed under the [MIT License](LICENSE).
+**سرویس PSG** ابزاری قدرتمند و خودکار است که برای تولید لینک‌های اشتراک پروکسی جهت استفاده در کلاینت‌هایی مانند **Clash**، **Surfboard**، **Sing-box** و غیره طراحی شده است. این ابزار فرآیند جمع‌آوری، مرتب‌سازی و تبدیل کانفیگ‌های پراکنده را به اشتراک‌های تمیز و آماده مصرف، ساده می‌کند.
 
 ---
 
-Feel free to fork, star ⭐, or contribute to improve the project!
+## 🌐 دسترسی به پنل
+
+برای دریافت لینک‌های اشتراک، از رابط کاربری اصلی و مدرن استفاده کنید:  
+🔗 **[https://itsyebekhe.github.io/PSG/](https://itsyebekhe.github.io/PSG/)**
+
+---
+
+## 📦 ویژگی‌های کلیدی
+
+- 🔗 **تولید اشتراک خودکار:** ساخت لینک برای کلاینت‌های محبوب (Clash, Hiddify, V2Ray, Surfboard).
+- 🌍 **دسته‌بندی هوشمند:** تفکیک کانفیگ‌ها بر اساس **کشور** و **پروتکل**.
+- 🧩 **پشتیبانی کامل:** سازگار با VLESS، VMess، Trojan، Shadowsocks، Reality و Hysteria2.
+- ⚡ **نسخه لایت:** ارائه اشتراک‌های کم‌حجم برای سرعت بالاتر.
+- 🐍 **بازنویسی شده:** هسته اصلی اکنون با **Python** نوشته شده است تا سرعتی بالاتر و پایداری بیشتری داشته باشد.
+
+---
+
+## 📊 تاریخچه محبوبیت (Stars)
+
+<a href="https://star-history.com/#itsyebekhe/PSG&Date">
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="https://api.star-history.com/svg?repos=itsyebekhe/PSG&type=Date&theme=dark" />
+    <source media="(prefers-color-scheme: light)" srcset="https://api.star-history.com/svg?repos=itsyebekhe/PSG&type=Date" />
+    <img alt="Star History Chart" src="https://api.star-history.com/svg?repos=itsyebekhe/PSG&type=Date" />
+  </picture>
+</a>
+
+---
+
+## 🧑‍💻 مشارکت‌کنندگان
+
+این پروژه با عشق ❤️ و تلاش توسعه‌دهندگان زیر ساخته شده است:
+
+- **[Ye Be Khe](https://github.com/itsyebekhe)** — خالق و نگهداره اصلی پروژه
+- **[actions-user](https://github.com/actions-user)** — ربات خودکارسازی گیت‌هاب اکشن
+
+---
+
+## 📄 مجوز (License)
+
+این پروژه تحت مجوز **[MIT License](LICENSE)** منتشر شده است. استفاده و تغییر در آن آزاد است.
+
+---
+
+⭐ **اگر از این پروژه راضی هستید، لطفاً با دادن ستاره (Star) از ما حمایت کنید!**
