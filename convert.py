@@ -12,29 +12,29 @@ GITHUB_BASE_URL = 'https://raw.githubusercontent.com/itsyebekhe/PSG/main'
 ALLOWED_SS_METHODS = ["chacha20-ietf-poly1305", "aes-256-gcm", "2022-blake3-aes-256-gcm"]
 
 # Define the Datasets to Process
-# 1. Main Version
-# 2. Lite Version
 DATASETS = [
     {
         "name": "MAIN",
         "input_dir": os.path.join(BASE_DIR, 'subscriptions', 'xray', 'base64'),
         "output_root": os.path.join(BASE_DIR, 'subscriptions'),
-        "url_path": "subscriptions/surfboard" # For Surfboard config URL
+        "url_path": "subscriptions/surfboard" 
     },
     {
         "name": "LITE",
         "input_dir": os.path.join(BASE_DIR, 'lite', 'subscriptions', 'xray', 'base64'),
         "output_root": os.path.join(BASE_DIR, 'lite', 'subscriptions'),
         "url_path": "lite/subscriptions/surfboard"
+    },
+    {
+        "name": "LOCATIONS",
+        "input_dir": os.path.join(BASE_DIR, 'subscriptions', 'locations', 'base64'),
+        "output_root": os.path.join(BASE_DIR, 'subscriptions', 'locations'),
+        "url_path": "subscriptions/locations/surfboard"
     }
 ]
 
-# Output Mappings for Clash/Surfboard
-OUTPUT_MAPPING_CLASH = {
-    'clash': ['mix', 'vmess', 'vmess_ipv4', 'vmess_ipv6', 'vmess_domain', 'trojan', 'trojan_ipv4', 'trojan_ipv6', 'trojan_domain', 'ss', 'ss_ipv4', 'ss_ipv6', 'ss_domain'],
-    'meta': ['mix', 'vmess', 'vmess_ipv4', 'vmess_ipv6', 'vmess_domain', 'vless', 'vless_ipv4', 'vless_ipv6', 'vless_domain', 'reality', 'reality_ipv4', 'reality_ipv6', 'reality_domain', 'trojan', 'trojan_ipv4', 'trojan_ipv6', 'trojan_domain', 'ss', 'ss_ipv4', 'ss_ipv6', 'ss_domain'],
-    'surfboard': ['mix', 'vmess', 'vmess_ipv4', 'vmess_ipv6', 'vmess_domain', 'trojan', 'trojan_ipv4', 'trojan_ipv6', 'trojan_domain', 'ss', 'ss_ipv4', 'ss_ipv6', 'ss_domain'],
-}
+# Output Types (Removed specific filename filtering to allow dynamic location names)
+OUTPUT_TYPES = ['clash', 'meta', 'surfboard']
 
 # Singbox/Nekobox Configuration
 SINGBOX_CONFIGS = {
@@ -369,9 +369,8 @@ def process_dataset(name, input_dir, output_root, url_path, singbox_templates):
     print(f"--- Processing {name} Version ---")
     
     # Create Output Directories
-    os.makedirs(os.path.join(output_root, 'clash'), exist_ok=True)
-    os.makedirs(os.path.join(output_root, 'meta'), exist_ok=True)
-    os.makedirs(os.path.join(output_root, 'surfboard'), exist_ok=True)
+    for out_type in OUTPUT_TYPES:
+        os.makedirs(os.path.join(output_root, out_type), exist_ok=True)
     
     input_files = glob.glob(os.path.join(input_dir, '*'))
     if not input_files:
@@ -380,8 +379,8 @@ def process_dataset(name, input_dir, output_root, url_path, singbox_templates):
 
     for filepath in input_files:
         filename = os.path.basename(filepath)
-        # print(f"  > Converting {filename}...")
-
+        # We now accept ALL files in the input directory (including US, CF, mix, etc.)
+        
         with open(filepath, 'r', encoding='utf-8') as f:
             b64_content = f.read().strip()
         
@@ -396,56 +395,55 @@ def process_dataset(name, input_dir, output_root, url_path, singbox_templates):
                 parsed_proxies.append(parsed)
 
         # 1. Generate Clash / Meta / Surfboard
-        for out_type, allowed in OUTPUT_MAPPING_CLASH.items():
-            if filename in allowed:
-                is_meta = (out_type == 'meta')
+        for out_type in OUTPUT_TYPES:
+            is_meta = (out_type == 'meta')
+            
+            if out_type == 'surfboard':
+                proxies_ini = []
+                proxy_names = []
+                for p in parsed_proxies:
+                    res = to_surfboard_proxy(p)
+                    if res: 
+                        proxies_ini.append(res)
+                        proxy_names.append(p['name'].replace(',', ' '))
                 
-                if out_type == 'surfboard':
-                    proxies_ini = []
-                    proxy_names = []
-                    for p in parsed_proxies:
-                        res = to_surfboard_proxy(p)
-                        if res: 
-                            proxies_ini.append(res)
-                            proxy_names.append(p['name'].replace(',', ' '))
-                    
-                    if proxies_ini:
-                        tpl_path = os.path.join(TEMPLATES_DIR, 'surfboard.ini')
-                        if os.path.exists(tpl_path):
-                            with open(tpl_path, 'r', encoding='utf-8') as f: content = f.read()
-                            
-                            # Construct correct URL for Main vs Lite
-                            config_url = f"{GITHUB_BASE_URL}/{url_path}/{filename}"
-                            
-                            content = content.replace('##CONFIG_URL##', config_url)
-                            content = content.replace('##PROXIES##', '\n'.join(proxies_ini))
-                            content = content.replace('##PROXY_NAMES##', ', '.join(proxy_names))
-                            
-                            with open(os.path.join(output_root, 'surfboard', filename), 'w', encoding='utf-8') as f:
-                                f.write(content)
+                if proxies_ini:
+                    tpl_path = os.path.join(TEMPLATES_DIR, 'surfboard.ini')
+                    if os.path.exists(tpl_path):
+                        with open(tpl_path, 'r', encoding='utf-8') as f: content = f.read()
+                        
+                        # Construct correct URL for config updates
+                        config_url = f"{GITHUB_BASE_URL}/{url_path}/{filename}"
+                        
+                        content = content.replace('##CONFIG_URL##', config_url)
+                        content = content.replace('##PROXIES##', '\n'.join(proxies_ini))
+                        content = content.replace('##PROXY_NAMES##', ', '.join(proxy_names))
+                        
+                        with open(os.path.join(output_root, 'surfboard', filename), 'w', encoding='utf-8') as f:
+                            f.write(content)
+            
+            else: # Clash / Meta
+                proxies_yaml = []
+                proxy_names_yaml = []
                 
-                else: # Clash / Meta
-                    proxies_yaml = []
-                    proxy_names_yaml = []
-                    
-                    for p in parsed_proxies:
-                        res = to_clash_proxy(p, is_meta)
-                        if res:
-                            json_str = json.dumps(res, ensure_ascii=False)
-                            proxies_yaml.append(f"  - {json_str}")
-                            safe_name = p['name'].replace("'", "''")
-                            proxy_names_yaml.append(f"      - '{safe_name}'")
-                    
-                    if proxies_yaml:
-                        tpl_path = os.path.join(TEMPLATES_DIR, 'clash.yaml')
-                        if os.path.exists(tpl_path):
-                            with open(tpl_path, 'r', encoding='utf-8') as f: content = f.read()
-                            
-                            content = content.replace('##PROXIES##', '\n'.join(proxies_yaml))
-                            content = content.replace('##PROXY_NAMES##', '\n'.join(proxy_names_yaml))
-                            
-                            with open(os.path.join(output_root, out_type, filename), 'w', encoding='utf-8') as f:
-                                f.write(content)
+                for p in parsed_proxies:
+                    res = to_clash_proxy(p, is_meta)
+                    if res:
+                        json_str = json.dumps(res, ensure_ascii=False)
+                        proxies_yaml.append(f"  - {json_str}")
+                        safe_name = p['name'].replace("'", "''")
+                        proxy_names_yaml.append(f"      - '{safe_name}'")
+                
+                if proxies_yaml:
+                    tpl_path = os.path.join(TEMPLATES_DIR, 'clash.yaml')
+                    if os.path.exists(tpl_path):
+                        with open(tpl_path, 'r', encoding='utf-8') as f: content = f.read()
+                        
+                        content = content.replace('##PROXIES##', '\n'.join(proxies_yaml))
+                        content = content.replace('##PROXY_NAMES##', '\n'.join(proxy_names_yaml))
+                        
+                        with open(os.path.join(output_root, out_type, filename), 'w', encoding='utf-8') as f:
+                            f.write(content)
 
         # 2. Generate Sing-box / Nekobox
         for task, conf in SINGBOX_CONFIGS.items():
@@ -498,7 +496,7 @@ def main():
         else:
             print(f"Warning: Template {conf['template_file']} not found.")
 
-    # Iterate over datasets (MAIN and LITE)
+    # Iterate over datasets (MAIN, LITE, and LOCATIONS)
     for dataset in DATASETS:
         process_dataset(
             dataset['name'],
