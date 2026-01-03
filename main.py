@@ -28,7 +28,6 @@ SUBS_DIR = os.path.join(BASE_DIR, 'subscriptions', 'xray')
 LITE_DIR = os.path.join(BASE_DIR, 'lite', 'subscriptions', 'xray')
 CHANNELS_SUBS_DIR = os.path.join(BASE_DIR, 'subscriptions', 'channels')
 LOCATIONS_SUBS_DIR = os.path.join(BASE_DIR, 'subscriptions', 'locations')
-
 GEOIP_DB_PATH = os.path.join(BASE_DIR, 'Country.mmdb')
 
 # Limits
@@ -57,7 +56,6 @@ CLOUDFLARE_CIDR_STRINGS = [
     "2606:4700::/32","2803:f800::/32","2405:b500::/32","2405:8100::/32",
     "2a06:98c0::/29","2c0f:f248::/32"
 ]
-# Pre-compile networks for performance
 CLOUDFLARE_NETWORKS = [ipaddress.ip_network(cidr) for cidr in CLOUDFLARE_CIDR_STRINGS]
 
 # --- Helper Functions ---
@@ -366,9 +364,14 @@ async def main():
     os.makedirs(HTML_CACHE_DIR, exist_ok=True)
     os.makedirs(LOGOS_DIR, exist_ok=True)
     os.makedirs(FINAL_ASSETS_DIR, exist_ok=True)
+
+    # --- FIX: Ensure ALL output directories exist ---
+    os.makedirs(os.path.join(SUBS_DIR, 'normal'), exist_ok=True)
+    os.makedirs(os.path.join(SUBS_DIR, 'base64'), exist_ok=True)
     os.makedirs(os.path.join(LITE_DIR, 'normal'), exist_ok=True)
     os.makedirs(os.path.join(LITE_DIR, 'base64'), exist_ok=True)
     os.makedirs(CHANNELS_SUBS_DIR, exist_ok=True)
+    # ------------------------------------------------
 
     if not os.path.exists(INPUT_FILE):
         print(f"Error: {INPUT_FILE} not found.")
@@ -464,20 +467,18 @@ async def main():
     # --- PROGRESS BAR VARIABLES ---
     total_configs = len(unique_map)
     processed_count = 0
-    bar_width = 30 # Length of the visual bar
+    bar_width = 30 
 
     print(f"   Tagging {total_configs} configs with GeoIP and Cloudflare check...")
     
     for _, (orig, parsed, chan) in unique_map.items():
-        # --- Progress Bar Update ---
         processed_count += 1
-        if processed_count % 10 == 0 or processed_count == total_configs: # Update every 10 for speed
+        if processed_count % 10 == 0 or processed_count == total_configs: 
             percent = int((processed_count / total_configs) * 100)
             filled = int(bar_width * processed_count // total_configs)
             bar = '=' * filled + '-' * (bar_width - filled)
             sys.stdout.write(f"\r   [{bar}] {percent}% ({processed_count}/{total_configs})")
             sys.stdout.flush()
-        # ---------------------------
 
         clean_chan = chan.strip().lstrip('@')
         host = parsed.get('host', parsed.get('add', ''))
@@ -525,7 +526,7 @@ async def main():
             'country': code, 'flag': flag, 'type': eff_type, 'config': final_str, 'is_cf': is_cf
         })
     
-    print() # New line after progress bar finishes
+    print() 
     if geo_reader: geo_reader.close()
 
     print("\n6. Writing output files...")
@@ -558,11 +559,15 @@ async def main():
         normal_dir = os.path.join(output_base_dir, 'normal')
         base64_dir = os.path.join(output_base_dir, 'base64')
         
+        # Ensure directories exist inside the function too, to be safe
+        os.makedirs(normal_dir, exist_ok=True)
+        os.makedirs(base64_dir, exist_ok=True)
+        
         mix_content = hiddify_header("PSG | MIX") + '\n'.join(config_list)
         try:
             with open(os.path.join(normal_dir, 'mix'), 'w', encoding='utf-8') as f: f.write(mix_content)
             with open(os.path.join(base64_dir, 'mix'), 'w', encoding='utf-8') as f: f.write(base64.b64encode(mix_content.encode()).decode())
-        except: pass
+        except Exception as e: print(f"Error writing mix file: {e}")
 
         for proto, addrs in groups.items():
             all_p = []
@@ -592,10 +597,11 @@ async def main():
 
     # --- Write Location Based Configs ---
     print("   Generating Location-based subscriptions (including Cloudflare)...")
-    LOC_NORMAL_DIR = os.path.join(LOCATIONS_SUBS_DIR, 'normal')
-    LOC_BASE64_DIR = os.path.join(LOCATIONS_SUBS_DIR, 'base64')
+    LOCATIONS_DIR = LOCATIONS_SUBS_DIR
+    LOC_NORMAL_DIR = os.path.join(LOCATIONS_DIR, 'normal')
+    LOC_BASE64_DIR = os.path.join(LOCATIONS_DIR, 'base64')
     
-    if os.path.exists(LOCATIONS_SUBS_DIR): shutil.rmtree(LOCATIONS_SUBS_DIR)
+    if os.path.exists(LOCATIONS_DIR): shutil.rmtree(LOCATIONS_DIR)
     os.makedirs(LOC_NORMAL_DIR, exist_ok=True)
     os.makedirs(LOC_BASE64_DIR, exist_ok=True)
     
