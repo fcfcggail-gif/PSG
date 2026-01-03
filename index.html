@@ -238,8 +238,8 @@
                                         <span class="font-bold text-slate-400 step-number text-lg">۲</span>
                                         <i data-lucide="smartphone" class="w-5 h-5 text-imperial-green-700 hidden step-icon"></i>
                                     </div>
-                                    <h3 class="font-bold text-lg mb-1 text-imperial-green-900 dark:text-white">کلاینت</h3>
-                                    <p class="text-xs text-slate-500 mb-4">انتخاب نرم‌افزار</p>
+                                    <h3 id="step2-title" class="font-bold text-lg mb-1 text-imperial-green-900 dark:text-white">کلاینت</h3>
+                                    <p id="step2-subtitle" class="text-xs text-slate-500 mb-4">انتخاب نرم‌افزار</p>
                                     <div class="relative mt-auto">
                                         <select id="ipType" class="w-full h-11 appearance-none bg-white dark:bg-imperial-green-950 border border-slate-200 dark:border-imperial-green-700 rounded-lg px-4 text-sm font-bold focus:ring-2 focus:ring-royal-gold-500 outline-none transition-all opacity-60 cursor-not-allowed" disabled>
                                             <option value="">قفل است</option>
@@ -257,8 +257,8 @@
                                         <span class="font-bold text-slate-400 step-number text-lg">۳</span>
                                         <i data-lucide="file-code" class="w-5 h-5 text-imperial-green-700 hidden step-icon"></i>
                                     </div>
-                                    <h3 class="font-bold text-lg mb-1 text-imperial-green-900 dark:text-white">تنظیمات</h3>
-                                    <p class="text-xs text-slate-500 mb-4">انتخاب فایل خاص</p>
+                                    <h3 id="step3-title" class="font-bold text-lg mb-1 text-imperial-green-900 dark:text-white">تنظیمات</h3>
+                                    <p id="step3-subtitle" class="text-xs text-slate-500 mb-4">انتخاب فایل خاص</p>
                                     
                                     <div class="space-y-3 mt-auto">
                                         <input type="search" id="searchBar" placeholder="جستجو..." class="w-full h-10 bg-white dark:bg-imperial-green-950 border border-slate-200 dark:border-imperial-green-700 rounded-lg px-4 text-sm outline-none focus:ring-1 focus:ring-royal-gold-500 transition-all disabled:opacity-50 text-right disabled:cursor-not-allowed" disabled>
@@ -386,7 +386,11 @@
         const clientInfoData = {
             "clash": { "windows": [{"name": "Clash Verge", "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases", "icon": "monitor"}], "android": [{"name": "Clash Android", "url": "https://github.com/Kr328/ClashForAndroid/releases", "icon": "smartphone"}], "ios": [{"name": "Stash", "url": "https://apps.apple.com/us/app/stash/id1596063349", "icon": "smartphone"}] },
             "singbox": { "windows": [{"name": "Hiddify Next", "url": "https://github.com/hiddify/hiddify-next/releases", "icon": "monitor"}], "android": [{"name": "Hiddify Android", "url": "https://play.google.com/store/apps/details?id=app.hiddify.com", "icon": "smartphone"}], "ios": [{"name": "Streisand", "url": "https://apps.apple.com/us/app/streisand/id6450534064", "icon": "smartphone"}] },
-            "xray": { "windows": [{"name": "v2rayN", "url": "https://github.com/2dust/v2rayN/releases", "icon": "monitor"}], "android": [{"name": "v2rayNG", "url": "https://github.com/2dust/v2rayNG/releases", "icon": "smartphone"}], "ios": [{"name": "OneClick", "url": "https://apps.apple.com/app/id1464440275", "icon": "smartphone"}] }
+            "xray": { "windows": [{"name": "v2rayN", "url": "https://github.com/2dust/v2rayN/releases", "icon": "monitor"}], "android": [{"name": "v2rayNG", "url": "https://github.com/2dust/v2rayNG/releases", "icon": "smartphone"}], "ios": [{"name": "OneClick", "url": "https://apps.apple.com/app/id1464440275", "icon": "smartphone"}] },
+            // Fallbacks for other location types
+            "nekobox": { "android": [{"name": "NekoBox", "url": "https://github.com/MatsuriDayo/NekoBoxForAndroid/releases", "icon": "smartphone"}] },
+            "surfboard": { "ios": [{"name": "Surfboard", "url": "https://apps.apple.com/us/app/surfboard/id1438682616", "icon": "smartphone"}] },
+            "meta": { "windows": [{"name": "Clash Verge Meta", "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases", "icon": "monitor"}], "android": [{"name": "Clash Meta Android", "url": "https://github.com/MetaCubeX/mihomo/releases", "icon": "smartphone"}] }
         };
 
         let structuredData = {};
@@ -397,7 +401,6 @@
             tabs: document.querySelectorAll('.tab-btn'),
             contents: document.querySelectorAll('.tab-content'),
             modal: document.getElementById('upcomingModal'),
-            // ... (same selectors as before) ...
             configType: document.getElementById('configType'),
             ipType: document.getElementById('ipType'),
             searchBar: document.getElementById('searchBar'),
@@ -412,7 +415,11 @@
                 s1: document.getElementById('step1'),
                 s2: document.getElementById('step2'),
                 s3: document.getElementById('step3'),
-            }
+            },
+            step2Title: document.getElementById('step2-title'),
+            step2Subtitle: document.getElementById('step2-subtitle'),
+            step3Title: document.getElementById('step3-title'),
+            step3Subtitle: document.getElementById('step3-subtitle')
         };
 
         // --- INIT ---
@@ -425,17 +432,15 @@
         // --- TABS LOGIC ---
         window.switchTab = (tabName) => {
             if(tabName === 'settings') {
-                openModal(); // Show "Upcoming" modal for settings
+                openModal(); 
                 return;
             }
 
-            // Update Buttons
             ui.tabs.forEach(btn => {
                 btn.classList.remove('active');
                 if(btn.id === `tab-${tabName}`) btn.classList.add('active');
             });
 
-            // Update Content
             ui.contents.forEach(content => {
                 content.classList.remove('active');
                 if(content.id === `content-${tabName}`) content.classList.add('active');
@@ -446,7 +451,7 @@
         window.openModal = () => { ui.modal.classList.remove('hidden'); };
         window.closeModal = () => { ui.modal.classList.add('hidden'); };
 
-        // --- REST OF THE LOGIC (Identical to previous version, just formatted for space) ---
+        // --- REST OF THE LOGIC ---
         async function fetchRepositoryData() {
             try {
                 let tree = [];
@@ -475,7 +480,7 @@
         }
 
         function processTree(tree) {
-            structuredData = { "Standard": {}, "Lite": {}, "Channels": {}, "Locations": {} }; // Added "Locations"
+            structuredData = { "Standard": {}, "Lite": {}, "Channels": {}, "Locations": {} }; 
             totalConfigsCount = 0;
             
             tree.forEach(item => {
@@ -484,12 +489,10 @@
                 let category = null;
                 let cleanPath = "";
 
-                // 1. Detect Category based on folder path
                 if (path.startsWith("subscriptions/channels/")) {
                     category = "Channels";
                     cleanPath = path.replace("subscriptions/channels/", "");
                 } else if (path.startsWith("subscriptions/locations/")) {
-                    // NEW: Logic for Locations folder
                     category = "Locations";
                     cleanPath = path.replace("subscriptions/locations/", "");
                 } else if (path.startsWith("lite/subscriptions/")) {
@@ -499,21 +502,23 @@
                     category = "Standard";
                     cleanPath = path.replace("subscriptions/", "");
                 } else {
-                    return; // Skip other files
+                    return;
                 }
 
                 const ext = cleanPath.split('.').pop();
                 if (["md", "php", "py", "html", "json", "txt"].includes(ext)) return;
 
-                // Handle path splitting
                 const parts = cleanPath.split("/");
                 
-                // --- SPECIAL HANDLING FOR LOCATIONS ---
+                // --- UPDATED LOCATIONS LOGIC ---
                 if (category === "Locations") {
-                    // Locations don't have sub-types like 'vmess'/'vless'.
-                    // They are just files like "US", "DE".
-                    // We'll group them under a generic type "Countries".
-                    addToStructure(category, "Countries", cleanPath, path);
+                    // Structure: subscriptions/locations/[client_type]/[country_code].txt
+                    // parts = ["client_type", "country_code.txt"]
+                    if (parts.length === 2) {
+                        const clientType = parts[0];
+                        const fileName = parts[1];
+                        addToStructure(category, clientType, fileName, path);
+                    }
                     return;
                 }
                 
@@ -541,6 +546,8 @@
         }
 
         function formatName(name) {
+            // If name is a country code (2-3 chars), keep it uppercase
+            if (name.length <= 3) return name.toUpperCase();
             return name.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
         }
 
@@ -555,13 +562,36 @@
             });
         }
 
+        // --- UPDATED DYNAMIC TITLE & LABEL LOGIC ---
         ui.configType.addEventListener('change', () => {
             const cat = ui.configType.value;
-            ui.ipType.innerHTML = '<option value="" disabled selected>انتخاب کلاینت...</option>';
+            ui.ipType.innerHTML = '<option value="" disabled selected>انتخاب کنید...</option>';
+            
+            // Dynamic Titles & Subtitles
+            if (cat === 'Channels') {
+                ui.step2Title.textContent = "فهرست کانال‌ها";
+                ui.step2Subtitle.textContent = "انتخاب کانال تلگرامی";
+                ui.step3Title.textContent = "تنظیمات";
+                ui.step3Subtitle.textContent = "انتخاب فایل خاص";
+            } else if (cat === 'Locations') {
+                ui.step2Title.textContent = "نوع کلاینت";
+                ui.step2Subtitle.textContent = "انتخاب پروتکل";
+                ui.step3Title.textContent = "لیست کشورها";
+                ui.step3Subtitle.textContent = "انتخاب لوکیشن";
+            } else {
+                ui.step2Title.textContent = "کلاینت";
+                ui.step2Subtitle.textContent = "انتخاب نرم‌افزار";
+                ui.step3Title.textContent = "تنظیمات";
+                ui.step3Subtitle.textContent = "انتخاب فایل خاص";
+            }
+
             if (cat && structuredData[cat]) {
+                // Populate Step 2 Dropdown
                 Object.keys(structuredData[cat]).sort().forEach(k => {
                     const opt = document.createElement('option');
-                    opt.value = k; opt.textContent = k.toUpperCase();
+                    // For Locations, k is the folder name (client type). For others, it's the client type.
+                    opt.value = k; 
+                    opt.textContent = k.toUpperCase();
                     ui.ipType.appendChild(opt);
                 });
                 activateStep(2); resetStep3();
@@ -588,7 +618,11 @@
                     opt.value = k; opt.textContent = formatName(k);
                     ui.otherElement.appendChild(opt);
                 });
-                activateStep(3); renderClients(type);
+                activateStep(3); 
+                // If it's Locations, we render specific clients based on the type selected in step 2
+                // If not Locations, we render clients based on the type selected in step 2 (standard logic)
+                // Note: renderClients uses a mapping. For 'base64' we might map to xray, etc.
+                renderClients(type); 
             } else { resetStep3(); }
         });
 
@@ -648,6 +682,13 @@
             ui.steps.s2.querySelector('.step-icon').classList.add('hidden');
             ui.steps.s2.querySelector('.lock-icon').classList.remove('hidden');
             ui.steps.s2.querySelector('.chevron-icon').classList.add('hidden');
+            
+            // Reset Titles
+            ui.step2Title.textContent = "کلاینت";
+            ui.step2Subtitle.textContent = "انتخاب نرم‌افزار";
+            ui.step3Title.textContent = "تنظیمات";
+            ui.step3Subtitle.textContent = "انتخاب فایل خاص";
+            
             resetStep3();
         }
 
@@ -664,10 +705,25 @@
 
         function renderClients(type) {
             let key = 'xray';
-            if(type.includes('clash') || type.includes('meta')) key = 'clash';
-            if(type.includes('singbox')) key = 'singbox';
+            
+            // Map location specific types to generic client keys
+            if (type.includes('base64')) key = 'xray';
+            else if (type.includes('clash')) key = 'clash';
+            else if (type.includes('meta')) key = 'meta';
+            else if (type.includes('singbox')) key = 'singbox';
+            else if (type.includes('surfboard')) key = 'surfboard';
+            else if (type.includes('nekobox')) key = 'nekobox';
+            // Fallback
+            else if (type === 'xray') key = 'xray';
+            else if (type === 'clash') key = 'clash';
+            else if (type === 'singbox') key = 'singbox';
+
             const data = clientInfoData[key] || clientInfoData['xray'];
             ui.result.clientList.innerHTML = '';
+            if (!data) {
+                 ui.result.clientList.innerHTML = '<div class="text-center text-xs text-slate-400">اطلاعاتی یافت نشد</div>';
+                 return;
+            }
             Object.keys(data).forEach(os => {
                 const div = document.createElement('div');
                 div.innerHTML = `
