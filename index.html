@@ -1,282 +1,686 @@
 <!DOCTYPE html>
-<html lang="en" class="scroll-smooth">
+<html lang="fa" dir="rtl" class="scroll-smooth">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PSG | Proxy Subscription Generator</title>
-    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <title>سازنده اشتراک پروکسی</title>
+    <meta name="description" content="Advanced proxy subscription generator - Pahlavi Edition.">
+    
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    
+    <!-- Libraries -->
     <script src="https://cdn.tailwindcss.com"></script>
-    <script src="https://cdn.jsdelivr.net/npm/davidshimjs-qrcodejs@0.0.2/qrcode.min.js"></script>
     <script src="https://unpkg.com/lucide@latest"></script>
+    <script src="https://cdn.jsdelivr.net/npm/davidshimjs-qrcodejs@0.0.2/qrcode.min.js"></script>
+
     <script>
       tailwind.config = {
         darkMode: 'class',
         theme: {
           extend: {
-            fontFamily: { sans: ['Outfit', 'sans-serif'], },
-            colors: { brand: { 50: '#f0f9ff', 100: '#e0f2fe', 500: '#0ea5e9', 600: '#0284c7', 900: '#0c4a6e' } }
+            fontFamily: { 
+                sans: ['Vazirmatn', 'sans-serif'],
+            },
+            colors: { 
+                'imperial-green': {
+                    50: '#f1f8f3', 100: '#dcf2e4', 200: '#b5e6c4', 300: '#7bd69b', 400: '#3cbf6f', 500: '#239e4f', 
+                    600: '#0f7a3a', 700: '#0a602e', 800: '#094c26', 900: '#083f20', 950: '#03210d',
+                },
+                'royal-gold': {
+                    50: '#fffbeb', 100: '#fef3c7', 200: '#fde68a', 300: '#fcd34d', 400: '#fbbf24', 500: '#d97706',
+                    600: '#b45309', 700: '#92400e', 800: '#78350f', 900: '#451a03',
+                }
+            },
+            animation: { 
+                'fade-in': 'fadeIn 0.5s ease-out forwards',
+                'slide-up': 'slideUp 0.4s ease-out forwards'
+            },
+            keyframes: { 
+                fadeIn: { '0%': { opacity: 0 }, '100%': { opacity: 1 } },
+                slideUp: { '0%': { opacity: 0, transform: 'translateY(20px)' }, '100%': { opacity: 1, transform: 'translateY(0)' } }
+            }
           }
         }
       }
     </script>
+    
     <style>
-        body { font-family: 'Outfit', sans-serif; }
-        .glass { background: rgba(255, 255, 255, 0.7); backdrop-filter: blur(12px); border: 1px solid rgba(255, 255, 255, 0.3); }
-        .dark .glass { background: rgba(15, 23, 42, 0.6); border: 1px solid rgba(255, 255, 255, 0.05); }
-        .step-active { border-color: #0ea5e9; opacity: 1; }
-        .step-inactive { opacity: 0.6; pointer-events: none; }
-        .step-icon-active { background-color: #0ea5e9; color: white; }
-        ::-webkit-scrollbar { width: 6px; height: 6px; }
+        body { font-family: 'Vazirmatn', sans-serif; background-color: #f8fafc; }
+        .dark body { background-color: #03210d; }
+        
+        /* Glassmorphism */
+        .royal-card {
+            background: rgba(255, 255, 255, 0.95); 
+            border: 1px solid rgba(217, 119, 6, 0.15);
+            box-shadow: 0 4px 20px -5px rgba(8, 63, 32, 0.05);
+            backdrop-filter: blur(20px);
+        }
+        .dark .royal-card {
+            background: rgba(3, 33, 13, 0.8); 
+            border: 1px solid rgba(60, 191, 111, 0.15);
+            box-shadow: 0 4px 30px -5px rgba(0, 0, 0, 0.4);
+        }
+
+        /* List Styling */
+        .config-list-container {
+            max-height: 260px;
+            overflow-y: auto;
+            border: 1px solid rgba(217, 119, 6, 0.1);
+            border-radius: 0.75rem;
+        }
+        .config-item {
+            cursor: pointer;
+            transition: all 0.2s;
+            border-bottom: 1px solid rgba(0,0,0,0.03);
+        }
+        .config-item:last-child { border-bottom: none; }
+        .config-item:hover { background-color: rgba(217, 119, 6, 0.03); }
+        .dark .config-item:hover { background-color: rgba(60, 191, 111, 0.08); }
+        .config-item.selected { background-color: rgba(35, 158, 79, 0.05); border-right: 3px solid #239e4f; }
+        .dark .config-item.selected { background-color: rgba(60, 191, 111, 0.15); border-right: 3px solid #3cbf6f; }
+
+        /* Tabs */
+        .tab-btn { position: relative; }
+        .tab-btn.active { color: #d97706; font-weight: 700; }
+        .tab-btn.active::after {
+            content: ''; position: absolute; bottom: -18px; left: 0; width: 100%; height: 3px; background: #d97706;
+            border-radius: 10px 10px 0 0;
+        }
+        .dark .tab-btn.active { color: #fbbf24; }
+        .dark .tab-btn.active::after { background: #fbbf24; }
+        
+        .tab-content { display: none; }
+        .tab-content.active { display: block; animation: fadeIn 0.4s ease-out; }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar { width: 6px; }
         ::-webkit-scrollbar-track { background: transparent; }
-        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 4px; }
-        .dark ::-webkit-scrollbar-thumb { background: #475569; }
+        ::-webkit-scrollbar-thumb { background: #cbd5e1; border-radius: 10px; }
+        .dark ::-webkit-scrollbar-thumb { background: #334155; }
+
+        select { font-size: 16px !important; }
+        .loader { border: 3px solid rgba(35, 158, 79, 0.1); border-left-color: #d97706; border-radius: 50%; width: 24px; height: 24px; animation: spin 1s linear infinite; }
+        @keyframes spin { 0% { transform: rotate(0deg); } 100% { transform: rotate(360deg); } }
     </style>
 </head>
-<body class="bg-slate-50 dark:bg-[#0B1120] text-slate-800 dark:text-slate-200 min-h-screen flex flex-col transition-colors duration-300">
-    
+<body class="text-slate-800 dark:text-slate-200 min-h-screen flex flex-col transition-colors duration-500 selection:bg-imperial-green-500 selection:text-white pb-20">
+
+    <!-- Ambient Background -->
     <div class="fixed inset-0 z-[-1] overflow-hidden pointer-events-none">
-        <div class="absolute top-[-10%] left-[-10%] w-[40%] h-[40%] bg-blue-500/10 rounded-full blur-3xl"></div>
-        <div class="absolute bottom-[-10%] right-[-10%] w-[40%] h-[40%] bg-purple-500/10 rounded-full blur-3xl"></div>
+        <div class="absolute top-[-10%] left-[-10%] w-[500px] h-[500px] bg-imperial-green-500/5 rounded-full blur-[120px]"></div>
+        <div class="absolute bottom-[-10%] right-[-10%] w-[500px] h-[500px] bg-royal-gold-500/5 rounded-full blur-[120px]"></div>
     </div>
 
-    <div class="container max-w-5xl mx-auto px-4 py-8 flex-grow">
-        <header class="flex flex-col md:flex-row justify-between items-center mb-12">
-            <div class="flex items-center gap-4 mb-4 md:mb-0">
-                <div class="w-12 h-12 bg-white dark:bg-slate-800 rounded-full flex items-center justify-center shadow-lg border border-slate-200 dark:border-slate-700">
-                    <i data-lucide="zap" class="w-6 h-6 text-brand-500"></i>
+    <div class="container max-w-5xl mx-auto px-4 py-6 flex-grow flex flex-col h-full">
+        
+        <!-- Header -->
+        <header class="flex justify-between items-center mb-8 animate-fade-in">
+            <div class="flex items-center gap-3">
+                <div class="w-10 h-10 bg-gradient-to-br from-imperial-green-800 to-imperial-green-600 rounded-lg flex items-center justify-center shadow-md border border-royal-gold-400/20">
+                    <svg class="w-6 h-6 text-royal-gold-400 fill-current" viewBox="0 0 24 24"><path d="M12 2L14.5 9H22L16 14L18.5 21L12 16.5L5.5 21L8 14L2 9H9.5L12 2Z" opacity="0.2"/><path d="M6 21V11L12 7L18 11V21H14V14H10V21H6Z" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/><path d="M8 7L12 4L16 7" stroke="currentColor" stroke-width="1.5"/></svg>
                 </div>
                 <div>
-                    <h1 class="text-2xl font-bold">PSG <span class="text-brand-500">Builder</span></h1>
-                    <p class="text-xs text-slate-500 dark:text-slate-400 font-medium tracking-wide">PROXY SUBSCRIPTION GENERATOR</p>
+                    <h1 class="text-xl font-black tracking-tight text-imperial-green-900 dark:text-royal-gold-100">سرویس <span class="text-gold-shimmer bg-clip-text text-transparent bg-gradient-to-l from-amber-600 to-yellow-500">پی‌اس‌جی</span></h1>
+                    <div class="flex items-center gap-2 mt-0.5">
+                        <span class="w-1.5 h-1.5 bg-green-500 rounded-full animate-pulse"></span>
+                        <span class="text-[10px] font-medium text-slate-500 dark:text-slate-400">نسخه آریامهر</span>
+                    </div>
                 </div>
             </div>
-            <button id="theme-toggle" class="p-2.5 rounded-xl bg-white dark:bg-slate-800 border border-slate-200 dark:border-slate-700 hover:border-brand-500 transition-all shadow-sm">
-                <i id="theme-icon" data-lucide="moon" class="w-5 h-5 text-slate-600 dark:text-slate-300"></i>
+            <button id="theme-toggle" class="p-2 rounded-lg bg-white dark:bg-imperial-green-950 border border-slate-200 dark:border-imperial-green-700 hover:border-royal-gold-500 transition-colors shadow-sm">
+                <i id="theme-icon" data-lucide="moon" class="w-5 h-5 text-imperial-green-800 dark:text-royal-gold-400"></i>
             </button>
         </header>
 
-        <nav class="mb-8">
-            <div class="glass rounded-2xl p-1.5 flex flex-wrap sm:flex-nowrap shadow-sm">
-                <button data-id="simple" class="nav-btn flex-1 py-2.5 px-4 rounded-xl text-sm font-semibold transition-all text-brand-600 bg-white dark:bg-slate-700 shadow-md">Simple</button>
+        <!-- Navigation Bar -->
+        <nav class="royal-card rounded-2xl p-2 mb-8 flex justify-between items-center overflow-x-auto">
+            <div class="flex gap-2 w-full md:w-auto justify-center md:justify-start">
+                <button onclick="switchTab('home')" id="tab-home" class="tab-btn flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-bold text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-imperial-green-900 transition-colors active">
+                    <i data-lucide="home" class="w-4 h-4"></i> خانه
+                </button>
+                <button onclick="switchTab('builder')" id="tab-builder" class="tab-btn flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-bold text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-imperial-green-900 transition-colors">
+                    <i data-lucide="hammer" class="w-4 h-4"></i> سازنده
+                </button>
+                <button onclick="switchTab('settings')" id="tab-settings" class="tab-btn flex items-center gap-2 px-4 py-2.5 rounded-xl text-sm font-bold text-slate-600 dark:text-slate-400 hover:bg-slate-100 dark:hover:bg-imperial-green-900 transition-colors">
+                    <i data-lucide="settings" class="w-4 h-4"></i> تنظیمات
+                </button>
             </div>
         </nav>
 
-        <main class="glass rounded-3xl p-6 md:p-8 shadow-xl">
-            <!-- SIMPLE MODE -->
-            <div id="simpleModeContainer" class="mode-container">
-                <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
-                    <!-- Step 1 -->
-                    <div id="step1" class="border-2 border-brand-500 rounded-2xl p-5 transition-all duration-300">
-                        <div class="w-10 h-10 rounded-full bg-brand-500 text-white flex items-center justify-center mb-4 font-bold">1</div>
-                        <h3 class="font-bold text-lg mb-2">Category</h3>
-                        <select id="configType" class="w-full bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg px-3 py-2.5 text-sm focus:ring-2 focus:ring-brand-500 outline-none"></select>
-                    </div>
-                    <!-- Step 2 -->
-                    <div id="step2" class="step-inactive border-2 border-slate-200 dark:border-slate-700 rounded-2xl p-5 transition-all duration-300">
-                        <div class="w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-500 flex items-center justify-center mb-4 font-bold step-icon">2</div>
-                        <h3 class="font-bold text-lg mb-2">Client</h3>
-                        <select id="ipType" class="w-full bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg px-3 py-2.5 text-sm focus:ring-2 focus:ring-brand-500 outline-none" disabled></select>
-                    </div>
-                    <!-- Step 3 -->
-                    <div id="step3" class="step-inactive border-2 border-slate-200 dark:border-slate-700 rounded-2xl p-5 transition-all duration-300">
-                        <div class="w-10 h-10 rounded-full bg-slate-100 dark:bg-slate-800 text-slate-500 flex items-center justify-center mb-4 font-bold step-icon">3</div>
-                        <h3 class="font-bold text-lg mb-2">Result</h3>
-                        <input type="search" id="searchBar" placeholder="Filter..." class="w-full bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg px-3 py-2.5 text-sm mb-2 outline-none" disabled>
-                        <select id="otherElement" class="w-full bg-slate-50 dark:bg-slate-900 border border-slate-200 dark:border-slate-700 rounded-lg px-3 py-2.5 text-sm outline-none" disabled></select>
-                    </div>
-                </div>
-
-                <div id="resultArea" class="hidden mt-8 pt-8 border-t border-slate-200 dark:border-slate-700">
-                    <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                        <div>
-                            <label class="block text-sm font-semibold mb-2 ml-1 text-slate-600 dark:text-slate-300">Subscription Link</label>
-                            <div class="flex items-center gap-0 mb-4">
-                                <input type="text" id="subscriptionUrl" readonly class="flex-grow bg-slate-100 dark:bg-slate-900 border border-slate-300 dark:border-slate-600 rounded-l-xl px-4 py-3 text-xs md:text-sm font-mono focus:outline-none">
-                                <button id="copyButton" class="bg-brand-500 hover:bg-brand-600 text-white px-4 py-3 rounded-r-xl transition-colors">
-                                    <i data-lucide="copy" class="w-5 h-5"></i>
-                                </button>
-                            </div>
-                            <div id="qrcode" class="p-3 bg-white rounded-xl shadow-sm border border-slate-200 w-fit"></div>
+        <!-- Content Area -->
+        <main class="flex-grow relative">
+            
+            <!-- TAB 1: HOME / HELP -->
+            <div id="content-home" class="tab-content active">
+                <div class="royal-card rounded-3xl p-8 mb-8 animate-slide-up">
+                    <div class="text-center mb-8">
+                        <div class="w-20 h-20 bg-imperial-green-50 dark:bg-imperial-green-900/30 rounded-full flex items-center justify-center mx-auto mb-4 border border-imperial-green-100 dark:border-imperial-green-800">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="#d97706" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/><path d="M2 12h20"/></svg>
                         </div>
-                        <div id="client-info-container" class="bg-slate-50 dark:bg-slate-900/50 rounded-xl p-6 border border-slate-200 dark:border-slate-700">
-                            <h4 class="font-bold text-slate-700 dark:text-slate-200 mb-4 flex items-center gap-2">
-                                <i data-lucide="download-cloud" class="w-5 h-5 text-brand-500"></i> Supported Clients
-                            </h4>
-                            <div id="client-info-list" class="space-y-3 text-sm"></div>
+                        <h2 class="text-2xl font-black text-imperial-green-900 dark:text-white mb-2">به سرویس پی‌اس‌جی خوش آمدید</h2>
+                        <p class="text-slate-600 dark:text-slate-400 max-w-lg mx-auto">این سامانه برای تولید اشتراک‌های امن و با کیفیت بالا طراحی شده است. برای شروع به تب «سازنده» بروید.</p>
+                    </div>
+                    
+                    <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mb-8">
+                        <div class="bg-slate-50 dark:bg-imperial-green-900/30 p-6 rounded-2xl border border-slate-100 dark:border-imperial-green-800">
+                            <h3 class="font-bold text-imperial-green-800 dark:text-royal-gold-200 mb-3 flex items-center gap-2"><i data-lucide="book-open" class="w-5 h-5"></i> راهنمای سریع</h3>
+                            <ul class="space-y-3 text-sm text-slate-600 dark:text-slate-300">
+                                <li><b>اشتراک:</b> لینک حاوی سرورها و تنظیمات اتصال است.</li>
+                                <li><b>کلاینت:</b> نرم‌افزاری که لینک را در آن می‌ریزید (مثل وی2ری).</li>
+                                <li><b>دسته‌ها:</b> استاندارد (همه)، لایت (سبک)، کانال (کانال تلگرامی خاص).</li>
+                                <li><b>تنظیمات:</b> ریالیتی (جدید)، میکس (ترکیبی)، دامنه.</li>
+                            </ul>
+                        </div>
+                        <div class="bg-slate-50 dark:bg-imperial-green-900/30 p-6 rounded-2xl border border-slate-100 dark:border-imperial-green-800">
+                            <h3 class="font-bold text-imperial-green-800 dark:text-royal-gold-200 mb-3 flex items-center gap-2"><i data-lucide="help-circle" class="w-5 h-5"></i> سوالات متداول</h3>
+                            <div class="space-y-4 text-sm">
+                                <div>
+                                    <p class="font-bold text-slate-800 dark:text-white mb-1">اگر اینترنت قطع شد چه کنم؟</p>
+                                    <p class="text-slate-600 dark:text-slate-400">بررسی کنید که لینک اشتراک منقضی نشده باشد. سپس کلاینت خود را ریستارت کنید.</p>
+                                </div>
+                                <div>
+                                    <p class="font-bold text-slate-800 dark:text-white mb-1">کدام کلاینت بهتر است؟</p>
+                                    <p class="text-slate-600 dark:text-slate-400">برای ویندوز Clash Verge و برای اندروید Hiddify یا v2rayNG پیشنهاد می‌شوند.</p>
+                                </div>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
+
+            <!-- TAB 2: BUILDER (Main Process) -->
+            <div id="content-builder" class="tab-content">
+                <div class="royal-card rounded-3xl p-1 md:p-2 shadow-xl relative overflow-hidden animate-slide-up">
+                    
+                    <!-- Loading Overlay -->
+                    <div id="loadingOverlay" class="absolute inset-0 z-30 bg-white/95 dark:bg-imperial-green-950/98 backdrop-blur-xl flex flex-col items-center justify-center transition-opacity duration-500">
+                        <div class="w-full max-w-sm px-6 text-center">
+                            <div class="w-16 h-16 bg-imperial-green-50 dark:bg-imperial-green-900/20 rounded-2xl flex items-center justify-center mx-auto mb-6 border border-imperial-green-100 dark:border-imperial-green-800 animate-pulse">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#d97706" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"/><path d="M2 12h20"/></svg>
+                            </div>
+                            <h3 class="text-lg font-bold mb-2 text-imperial-green-900 dark:text-royal-gold-500">در حال بارگذاری آرشیو</h3>
+                            <div class="text-xs text-slate-500 mb-6 font-mono" id="loadingText">سینک‌ کردن با سرور...</div>
+                            <div class="h-1.5 w-full bg-slate-100 dark:bg-imperial-green-900 rounded-full overflow-hidden">
+                                <div id="progressBar" class="h-full bg-gradient-to-l from-imperial-green-600 to-royal-gold-500 w-0 transition-all duration-300"></div>
+                            </div>
+                            <div id="errorLog" class="mt-4 p-3 bg-red-500/10 border border-red-500/20 text-red-500 text-xs rounded-lg hidden font-mono text-right"></div>
+                        </div>
+                    </div>
+
+                    <!-- Wizard Container -->
+                    <div id="wizardContainer" class="relative p-4 md:p-8">
+                        <div class="grid grid-cols-1 md:grid-cols-3 gap-8 relative">
+                            <!-- STEP 1 -->
+                            <div id="step1" class="step-card relative group pt-4 md:pt-0">
+                                <div class="royal-card p-6 rounded-2xl border border-slate-200 dark:border-imperial-green-800 transition-all relative z-10 bg-white/50 dark:bg-imperial-green-900/30 h-full flex flex-col">
+                                    <div class="step-badge w-10 h-10 rounded-full bg-white dark:bg-imperial-green-950 border border-slate-200 dark:border-imperial-green-700 flex items-center justify-center mb-4">
+                                        <span class="font-bold text-slate-400 step-number text-lg">۱</span>
+                                        <i data-lucide="folder" class="w-5 h-5 text-imperial-green-700 hidden step-icon"></i>
+                                    </div>
+                                    <h3 class="font-bold text-lg mb-1 text-imperial-green-900 dark:text-white">دسته‌بندی</h3>
+                                    <p class="text-xs text-slate-500 mb-4">انتخاب نوع اشتراک</p>
+                                    <div class="relative mt-auto">
+                                        <select id="configType" class="w-full h-11 bg-white dark:bg-imperial-green-950 border border-slate-200 dark:border-imperial-green-700 rounded-lg px-4 text-sm font-bold focus:ring-2 focus:ring-royal-gold-500 focus:border-royal-gold-500 outline-none transition-all cursor-pointer appearance-none">
+                                            <option value="" disabled selected>انتخاب کنید...</option>
+                                        </select>
+                                        <i data-lucide="chevron-down" class="absolute left-3.5 top-2.5 w-4 h-4 text-slate-400 pointer-events-none"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- STEP 2 -->
+                            <div id="step2" class="step-card relative group pt-4 md:pt-0 step-inactive">
+                                <div class="royal-card p-6 rounded-2xl border border-slate-200 dark:border-imperial-green-800 transition-all relative z-10 bg-white/50 dark:bg-imperial-green-900/30 h-full flex flex-col">
+                                    <div class="step-badge w-10 h-10 rounded-full bg-white dark:bg-imperial-green-950 border border-slate-200 dark:border-imperial-green-700 flex items-center justify-center mb-4">
+                                        <span class="font-bold text-slate-400 step-number text-lg">۲</span>
+                                        <i data-lucide="smartphone" class="w-5 h-5 text-imperial-green-700 hidden step-icon"></i>
+                                    </div>
+                                    <h3 class="font-bold text-lg mb-1 text-imperial-green-900 dark:text-white">کلاینت</h3>
+                                    <p class="text-xs text-slate-500 mb-4">انتخاب نرم‌افزار</p>
+                                    <div class="relative mt-auto">
+                                        <select id="ipType" class="w-full h-11 appearance-none bg-white dark:bg-imperial-green-950 border border-slate-200 dark:border-imperial-green-700 rounded-lg px-4 text-sm font-bold focus:ring-2 focus:ring-royal-gold-500 outline-none transition-all opacity-60 cursor-not-allowed" disabled>
+                                            <option value="">قفل است</option>
+                                        </select>
+                                        <i data-lucide="lock" class="absolute left-3.5 top-2.5 w-4 h-4 text-slate-400 pointer-events-none lock-icon"></i>
+                                        <i data-lucide="chevron-down" class="absolute left-3.5 top-2.5 w-4 h-4 text-slate-400 pointer-events-none chevron-icon hidden"></i>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <!-- STEP 3 -->
+                            <div id="step3" class="step-card relative group pt-4 md:pt-0 step-inactive">
+                                <div class="royal-card p-6 rounded-2xl border border-slate-200 dark:border-imperial-green-800 transition-all relative z-10 bg-white/50 dark:bg-imperial-green-900/30 h-full flex flex-col">
+                                    <div class="step-badge w-10 h-10 rounded-full bg-white dark:bg-imperial-green-950 border border-slate-200 dark:border-imperial-green-700 flex items-center justify-center mb-4">
+                                        <span class="font-bold text-slate-400 step-number text-lg">۳</span>
+                                        <i data-lucide="file-code" class="w-5 h-5 text-imperial-green-700 hidden step-icon"></i>
+                                    </div>
+                                    <h3 class="font-bold text-lg mb-1 text-imperial-green-900 dark:text-white">تنظیمات</h3>
+                                    <p class="text-xs text-slate-500 mb-4">انتخاب فایل خاص</p>
+                                    
+                                    <div class="space-y-3 mt-auto">
+                                        <input type="search" id="searchBar" placeholder="جستجو..." class="w-full h-10 bg-white dark:bg-imperial-green-950 border border-slate-200 dark:border-imperial-green-700 rounded-lg px-4 text-sm outline-none focus:ring-1 focus:ring-royal-gold-500 transition-all disabled:opacity-50 text-right disabled:cursor-not-allowed" disabled>
+                                        
+                                        <div id="configListContainer" class="relative hidden">
+                                            <div class="config-list-container bg-white dark:bg-imperial-green-950">
+                                                <div id="customConfigList" class="p-1">
+                                                    <div class="p-4 text-center text-slate-400 text-xs">ابتدا کلاینت را انتخاب کنید</div>
+                                                </div>
+                                            </div>
+                                        </div>
+
+                                        <div id="nativeSelectWrapper" class="relative">
+                                            <select id="otherElement" class="w-full h-11 appearance-none bg-white dark:bg-imperial-green-950 border border-slate-200 dark:border-imperial-green-700 rounded-lg px-4 text-sm font-bold focus:ring-2 focus:ring-royal-gold-500 outline-none transition-all disabled:opacity-50 text-right" disabled>
+                                                <option value="">قفل است</option>
+                                            </select>
+                                            <i data-lucide="chevron-down" class="absolute left-3.5 top-2.5 w-4 h-4 text-slate-400 pointer-events-none select-chevron"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Result Area (Expanded inside card) -->
+                        <div id="resultArea" class="hidden mt-8 animate-slide-up">
+                            <div class="grid grid-cols-1 md:grid-cols-12 gap-8">
+                                <div class="md:col-span-7">
+                                    <label class="block text-xs font-bold uppercase tracking-wider text-imperial-green-600 dark:text-royal-gold-500 mb-3 mr-1">لینک اشتراک تولید شده</label>
+                                    <div class="flex flex-col sm:flex-row gap-2 mb-6">
+                                        <div class="relative flex-grow">
+                                            <input type="text" id="subscriptionUrl" readonly class="w-full h-11 bg-slate-50 dark:bg-imperial-green-950 border border-slate-200 dark:border-imperial-green-700 rounded-lg px-4 py-2.5 text-xs md:text-sm font-mono text-slate-600 dark:text-slate-300 focus:outline-none cursor-text text-right">
+                                            <button onclick="navigator.clipboard.writeText(document.getElementById('subscriptionUrl').value); showToast('لینک کپی شد!')" class="absolute left-2 top-1.5 p-1.5 bg-slate-100 dark:bg-imperial-green-900 rounded-md text-slate-400 hover:text-imperial-green-600 hidden sm:block">
+                                                <i data-lucide="copy" class="w-4 h-4"></i>
+                                            </button>
+                                        </div>
+                                        <button onclick="navigator.clipboard.writeText(document.getElementById('subscriptionUrl').value); showToast('لینک کپی شد!')" class="sm:hidden flex-shrink-0 h-11 px-6 bg-gradient-to-l from-imperial-green-600 to-imperial-green-700 text-white rounded-lg shadow-md shadow-imperial-green-500/20 flex items-center justify-center font-bold active:scale-95 transition-transform text-sm">
+                                            کپی
+                                        </button>
+                                    </div>
+                                    <div class="flex flex-col sm:flex-row items-start gap-6">
+                                        <div class="w-full sm:w-auto p-3 bg-white dark:bg-imperial-green-950 rounded-xl shadow-sm border border-slate-200 dark:border-imperial-green-800 flex justify-center">
+                                            <div id="qrcode" class="w-[160px] h-[160px]"></div>
+                                        </div>
+                                        <div class="flex-1 pt-1 w-full text-right">
+                                            <h4 class="font-bold text-imperial-green-900 dark:text-white mb-2 text-sm">نحوه استفاده؟</h4>
+                                            <p class="text-xs text-slate-500 dark:text-slate-400 leading-relaxed mb-4">لینک اشتراک را کپی کرده و در نرم‌افزار کلاینت خود وارد کنید.</p>
+                                            <a href="#" id="openLinkBtn" target="_blank" class="inline-flex items-center gap-2 text-xs font-bold text-imperial-green-600 hover:text-imperial-green-700 bg-imperial-green-50 dark:bg-imperial-green-900/30 px-3 py-2 rounded-lg transition-colors">
+                                                باز کردن لینک <i data-lucide="external-link" class="w-3 h-3"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="md:col-span-5 bg-slate-50 dark:bg-imperial-green-900/50 rounded-2xl p-5 border border-slate-200 dark:border-imperial-green-800">
+                                    <h4 class="font-bold text-imperial-green-900 dark:text-white mb-4 flex items-center gap-2 text-sm">
+                                        <span class="bg-imperial-green-100 dark:bg-imperial-green-900/50 text-imperial-green-600 dark:text-imperial-green-400 p-1.5 rounded-lg"><i data-lucide="download-cloud" class="w-4 h-4"></i></span>
+                                        برنامه‌های پیشنهادی
+                                    </h4>
+                                    <div id="client-info-list" class="space-y-3 text-sm"></div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+            <!-- TAB 3: SETTINGS (Placeholder) -->
+            <div id="content-settings" class="tab-content">
+                <div class="royal-card rounded-3xl p-10 text-center animate-slide-up">
+                    <div class="w-20 h-20 bg-slate-50 dark:bg-imperial-green-900/30 rounded-full flex items-center justify-center mx-auto mb-4">
+                        <i data-lucide="cog" class="w-10 h-10 text-slate-300"></i>
+                    </div>
+                    <h3 class="text-2xl font-bold text-slate-800 dark:text-white mb-2">تنظیمات</h3>
+                    <p class="text-slate-600 dark:text-slate-400 mb-6">بخش تنظیمات در نسخه بعدی اضافه خواهد شد.</p>
+                    <button onclick="switchTab('home')" class="px-6 py-2 bg-imperial-green-600 hover:bg-imperial-green-700 text-white rounded-lg transition-colors">بازگشت به خانه</button>
+                </div>
+            </div>
+
         </main>
 
-        <footer class="mt-12 text-center text-slate-500 dark:text-slate-400 text-sm">
-            <p>Generated at: 2026-01-03 04:16:23 +0330</p>
+        <footer class="mt-auto py-8 text-center text-slate-500 dark:text-slate-500 text-xs">
+            <p class="mb-1 flex items-center justify-center gap-2">
+                <span>طراحی شده با الهام از فرهنگ پهلوی</span>
+                <i data-lucide="feather" class="w-3 h-3"></i>
+            </p>
+            <div class="flex items-center justify-center gap-1 opacity-60">
+                <span>قدرت گرفته از</span>
+                <a href="https://github.com/itsyebekhe/PSG" class="text-imperial-green-600 dark:text-royal-gold-500 hover:underline font-bold">PSG</a>
+            </div>
         </footer>
     </div>
 
-    <div id="messageBox" class="fixed bottom-6 right-6 z-50 transform translate-y-20 opacity-0 transition-all duration-300">
-        <div class="bg-slate-800 text-white px-6 py-3 rounded-xl shadow-2xl flex items-center gap-3">
-            <i data-lucide="info" class="w-5 h-5 text-brand-500"></i>
-            <span id="messageBoxText">Notification</span>
+    <!-- Upcoming Feature Modal -->
+    <div id="upcomingModal" class="fixed inset-0 z-[100] bg-slate-900/50 backdrop-blur-sm hidden flex items-center justify-center">
+        <div class="bg-white dark:bg-imperial-green-900 rounded-2xl shadow-2xl p-6 max-w-sm w-full mx-4 border border-slate-200 dark:border-imperial-green-700 animate-slide-up relative">
+            <button onclick="closeModal()" class="absolute left-4 top-4 text-slate-400 hover:text-slate-600 dark:hover:text-white transition-colors">
+                <i data-lucide="x" class="w-6 h-6"></i>
+            </button>
+            <div class="flex justify-center mb-4">
+                <div class="p-4 bg-royal-gold-100 dark:bg-royal-gold-900/20 rounded-full">
+                    <i data-lucide="hourglass" class="w-8 h-8 text-royal-gold-600 dark:text-royal-gold-400"></i>
+                </div>
+            </div>
+            <h3 class="text-xl font-bold text-center text-slate-800 dark:text-white mb-2">بزودی می‌آید!</h3>
+            <p class="text-sm text-center text-slate-600 dark:text-slate-400 leading-relaxed">
+                این بخش در نسخه‌های آینده در دسترس خواهد قرار می‌گیرد. لطفاً شکیبا باشید.
+            </p>
+            <button onclick="closeModal()" class="w-full mt-6 bg-slate-100 dark:bg-imperial-green-800 text-slate-800 dark:text-white font-bold py-2.5 rounded-xl hover:bg-slate-200 dark:hover:bg-imperial-green-700 transition-colors">
+                متوجه شدم
+            </button>
         </div>
     </div>
 
-    <script>
-        const structuredData = {"Standard": {"clash": {"mix": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/clash/mix", "vmess": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/clash/vmess", "vmess_domain": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/clash/vmess_domain"}, "meta": {"mix": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/meta/mix", "reality": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/meta/reality", "reality_ipv4": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/meta/reality_ipv4", "ss": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/meta/ss", "ss_domain": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/meta/ss_domain", "ss_ipv4": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/meta/ss_ipv4", "vless": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/meta/vless", "vless_domain": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/meta/vless_domain", "vless_ipv4": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/meta/vless_ipv4", "vmess": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/meta/vmess", "vmess_domain": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/meta/vmess_domain"}, "surfboard": {"mix": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/surfboard/mix", "vmess": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/surfboard/vmess", "vmess_domain": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/surfboard/vmess_domain"}, "xray": {"mix": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/xray/base64/mix", "reality": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/xray/base64/reality", "reality_ipv4": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/xray/base64/reality_ipv4", "ss": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/xray/base64/ss", "ss_domain": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/xray/base64/ss_domain", "ss_ipv4": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/xray/base64/ss_ipv4", "vless": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/xray/base64/vless", "vless_domain": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/xray/base64/vless_domain", "vless_ipv4": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/xray/base64/vless_ipv4", "vmess": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/xray/base64/vmess", "vmess_domain": "https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/xray/base64/vmess_domain"}}};
-        const clientInfoData = {"clash": {"windows": [{"name": "Clash Verge (Rev)", "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases"}, {"name": "Furious", "url": "https://github.com/alireza0/Furious/releases"}], "android": [{"name": "Clash for Android", "url": "https://github.com/Kr328/ClashForAndroid/releases"}, {"name": "Clash Meta", "url": "https://github.com/MetaCubeX/ClashMetaForAndroid/releases"}], "ios": [{"name": "Stash", "url": "https://apps.apple.com/us/app/stash/id1596063349"}], "linux": [{"name": "Clash Verge", "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases"}]}, "meta": {"windows": [{"name": "Clash Verge (Rev)", "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases"}], "android": [{"name": "Clash Meta", "url": "https://github.com/MetaCubeX/ClashMetaForAndroid/releases"}], "ios": [{"name": "Stash", "url": "https://apps.apple.com/us/app/stash/id1596063349"}]}, "singbox": {"windows": [{"name": "Hiddify Next", "url": "https://github.com/hiddify/hiddify-next/releases"}], "android": [{"name": "Hiddify Next", "url": "https://github.com/hiddify/hiddify-next/releases"}, {"name": "v2rayNG", "url": "https://github.com/2dust/v2rayNG/releases"}], "ios": [{"name": "Streisand", "url": "https://apps.apple.com/us/app/streisand/id6450534064"}, {"name": "V2Box", "url": "https://apps.apple.com/us/app/v2box-v2ray-client/id6446814690"}]}, "surfboard": {"android": [{"name": "Surfboard", "url": "https://play.google.com/store/apps/details?id=com.getsurfboard"}]}, "xray": {"windows": [{"name": "v2rayN", "url": "https://github.com/2dust/v2rayN/releases"}], "android": [{"name": "v2rayNG", "url": "https://github.com/2dust/v2rayNG/releases"}], "ios": [{"name": "Shadowrocket", "url": "https://apps.apple.com/us/app/shadowrocket/id932747118"}, {"name": "Streisand", "url": "https://apps.apple.com/us/app/streisand/id6450534064"}]}};
+    <!-- Toast -->
+    <div id="toastContainer" class="fixed bottom-6 left-1/2 transform -translate-x-1/2 sm:left-auto sm:translate-x-0 sm:right-6 z-50 flex flex-col gap-2 pointer-events-none w-full sm:w-auto px-4 sm:px-0"></div>
 
-        document.addEventListener('DOMContentLoaded', () => {
+    <script>
+        // --- CONSTANTS & DATA ---
+        const REPO_OWNER = "itsyebekhe";
+        const REPO_NAME = "PSG";
+        const REPO_BRANCH = "main";
+        const BASE_URL = `https://raw.githubusercontent.com/${REPO_OWNER}/${REPO_NAME}/${REPO_BRANCH}`;
+        const API_URL = `https://api.github.com/repos/${REPO_OWNER}/${REPO_NAME}/git/trees/${REPO_BRANCH}?recursive=1`;
+
+        const clientInfoData = {
+            "clash": { "windows": [{"name": "Clash Verge", "url": "https://github.com/clash-verge-rev/clash-verge-rev/releases", "icon": "monitor"}], "android": [{"name": "Clash Android", "url": "https://github.com/Kr328/ClashForAndroid/releases", "icon": "smartphone"}], "ios": [{"name": "Stash", "url": "https://apps.apple.com/us/app/stash/id1596063349", "icon": "smartphone"}] },
+            "singbox": { "windows": [{"name": "Hiddify Next", "url": "https://github.com/hiddify/hiddify-next/releases", "icon": "monitor"}], "android": [{"name": "Hiddify Android", "url": "https://play.google.com/store/apps/details?id=app.hiddify.com", "icon": "smartphone"}], "ios": [{"name": "Streisand", "url": "https://apps.apple.com/us/app/streisand/id6450534064", "icon": "smartphone"}] },
+            "xray": { "windows": [{"name": "v2rayN", "url": "https://github.com/2dust/v2rayN/releases", "icon": "monitor"}], "android": [{"name": "v2rayNG", "url": "https://github.com/2dust/v2rayNG/releases", "icon": "smartphone"}], "ios": [{"name": "OneClick", "url": "https://apps.apple.com/app/id1464440275", "icon": "smartphone"}] }
+        };
+
+        let structuredData = {};
+        let totalConfigsCount = 0;
+
+        // --- DOM ---
+        const ui = {
+            tabs: document.querySelectorAll('.tab-btn'),
+            contents: document.querySelectorAll('.tab-content'),
+            modal: document.getElementById('upcomingModal'),
+            // ... (same selectors as before) ...
+            configType: document.getElementById('configType'),
+            ipType: document.getElementById('ipType'),
+            searchBar: document.getElementById('searchBar'),
+            otherElement: document.getElementById('otherElement'),
+            subUrlInput: document.getElementById('subscriptionUrl'),
+            loaders: { overlay: document.getElementById('loadingOverlay'), text: document.getElementById('loadingText'), bar: document.getElementById('progressBar'), error: document.getElementById('errorLog') },
+            result: { area: document.getElementById('resultArea'), qrcode: document.getElementById('qrcode'), clientList: document.getElementById('client-info-list') },
+            listContainer: document.getElementById('configListContainer'),
+            customList: document.getElementById('customConfigList'),
+            nativeWrapper: document.getElementById('nativeSelectWrapper'),
+            steps: {
+                s1: document.getElementById('step1'),
+                s2: document.getElementById('step2'),
+                s3: document.getElementById('step3'),
+            }
+        };
+
+        // --- INIT ---
+        document.addEventListener('DOMContentLoaded', async () => {
             lucide.createIcons();
-            
-            // --- Theme ---
+            initTheme();
+            await fetchRepositoryData();
+        });
+
+        // --- TABS LOGIC ---
+        window.switchTab = (tabName) => {
+            if(tabName === 'settings') {
+                openModal(); // Show "Upcoming" modal for settings
+                return;
+            }
+
+            // Update Buttons
+            ui.tabs.forEach(btn => {
+                btn.classList.remove('active');
+                if(btn.id === `tab-${tabName}`) btn.classList.add('active');
+            });
+
+            // Update Content
+            ui.contents.forEach(content => {
+                content.classList.remove('active');
+                if(content.id === `content-${tabName}`) content.classList.add('active');
+            });
+        };
+
+        // --- MODAL LOGIC ---
+        window.openModal = () => { ui.modal.classList.remove('hidden'); };
+        window.closeModal = () => { ui.modal.classList.add('hidden'); };
+
+        // --- REST OF THE LOGIC (Identical to previous version, just formatted for space) ---
+        async function fetchRepositoryData() {
+            try {
+                let tree = [];
+                const cachedData = localStorage.getItem('psg_tree_cache');
+                const cachedTime = localStorage.getItem('psg_tree_time');
+                const now = new Date().getTime();
+
+                if (cachedData && cachedTime && (now - cachedTime < 3600000)) {
+                    tree = JSON.parse(cachedData);
+                } else {
+                    ui.loaders.text.textContent = "در حال بارگذاری...";
+                    const response = await fetch(API_URL);
+                    if (!response.ok) throw new Error("خطای بارگذاری");
+                    tree = (await response.json()).tree;
+                    localStorage.setItem('psg_tree_cache', JSON.stringify(tree));
+                    localStorage.setItem('psg_tree_time', now);
+                }
+                processTree(tree);
+                ui.loaders.overlay.classList.add('opacity-0', 'pointer-events-none');
+            } catch (error) {
+                ui.loaders.text.textContent = "خطا";
+                ui.loaders.error.classList.remove('hidden');
+                ui.loaders.error.textContent = error.message;
+                ui.loaders.bar.classList.replace('from-imperial-green-600', 'bg-red-500');
+            }
+        }
+
+        function processTree(tree) {
+            structuredData = { "Standard": {}, "Lite": {}, "Channels": {} };
+            totalConfigsCount = 0;
+            tree.forEach(item => {
+                if (item.type !== "blob") return;
+                const path = item.path;
+                let category = null;
+                let cleanPath = "";
+                if (path.startsWith("subscriptions/channels/")) { category = "Channels"; cleanPath = path.replace("subscriptions/channels/", ""); }
+                else if (path.startsWith("lite/subscriptions/")) { category = "Lite"; cleanPath = path.replace("lite/subscriptions/", ""); }
+                else if (path.startsWith("subscriptions/")) { category = "Standard"; cleanPath = path.replace("subscriptions/", ""); }
+                else return;
+                const ext = cleanPath.split('.').pop();
+                if (["md", "php", "py", "html", "json", "txt"].includes(ext)) return;
+                const parts = cleanPath.split("/");
+                if (parts.length < 2) return;
+                const typeKey = parts[0];
+                if (typeKey === "xray") {
+                    if (parts[1] === "normal") return;
+                    if (parts[1] === "base64" && parts.length >= 3) {
+                        addToStructure(category, typeKey, parts.slice(2).join("/"), path);
+                        return;
+                    }
+                }
+                addToStructure(category, typeKey, parts.slice(1).join("/"), path);
+            });
+            initSimpleMode();
+        }
+
+        function addToStructure(category, type, name, fullPath) {
+            if (!structuredData[category][type]) structuredData[category][type] = {};
+            structuredData[category][type][name.replace(/\.[^/.]+$/, "")] = `${BASE_URL}/${fullPath}`;
+            totalConfigsCount++;
+        }
+
+        function formatName(name) {
+            return name.replace(/_/g, ' ').replace(/\b\w/g, l => l.toUpperCase());
+        }
+
+        function initSimpleMode() {
+            ui.configType.innerHTML = '<option value="" disabled selected>انتخاب دسته‌بندی...</option>';
+            Object.keys(structuredData).sort().forEach(key => {
+                if (Object.keys(structuredData[key]).length > 0) {
+                    const opt = document.createElement('option');
+                    opt.value = key; opt.textContent = key;
+                    ui.configType.appendChild(opt);
+                }
+            });
+        }
+
+        ui.configType.addEventListener('change', () => {
+            const cat = ui.configType.value;
+            ui.ipType.innerHTML = '<option value="" disabled selected>انتخاب کلاینت...</option>';
+            if (cat && structuredData[cat]) {
+                Object.keys(structuredData[cat]).sort().forEach(k => {
+                    const opt = document.createElement('option');
+                    opt.value = k; opt.textContent = k.toUpperCase();
+                    ui.ipType.appendChild(opt);
+                });
+                activateStep(2); resetStep3();
+            } else { resetStep2(); }
+        });
+
+        ui.ipType.addEventListener('change', () => {
+            const cat = ui.configType.value;
+            const type = ui.ipType.value;
+            if (cat && type && structuredData[cat][type]) {
+                ui.customList.innerHTML = '';
+                const keys = Object.keys(structuredData[cat][type]).sort();
+                keys.forEach(k => {
+                    const div = document.createElement('div');
+                    const formattedName = formatName(k);
+                    div.className = 'config-item p-3 text-sm font-medium text-slate-700 dark:text-slate-300 flex items-center gap-3';
+                    div.innerHTML = `<i data-lucide="circle" class="w-1.5 h-1.5 text-imperial-green-500"></i> ${formattedName}`;
+                    div.onclick = () => selectConfig(k, div);
+                    ui.customList.appendChild(div);
+                });
+                ui.otherElement.innerHTML = '';
+                keys.forEach(k => {
+                    const opt = document.createElement('option');
+                    opt.value = k; opt.textContent = formatName(k);
+                    ui.otherElement.appendChild(opt);
+                });
+                activateStep(3); renderClients(type);
+            } else { resetStep3(); }
+        });
+
+        ui.searchBar.addEventListener('input', (e) => {
+            const val = e.target.value.toLowerCase();
+            const items = ui.customList.querySelectorAll('.config-item');
+            items.forEach(item => item.style.display = item.textContent.toLowerCase().includes(val) ? 'flex' : 'none');
+            Array.from(ui.otherElement.options).forEach(opt => opt.style.display = opt.value ? (opt.textContent.toLowerCase().includes(val) ? 'block' : 'none') : 'none');
+        });
+
+        function selectConfig(value, element) {
+            ui.customList.querySelectorAll('.config-item').forEach(el => el.classList.remove('selected'));
+            if(element) element.classList.add('selected');
+            ui.otherElement.value = value;
+            const url = structuredData[ui.configType.value][ui.ipType.value][value];
+            if(url) {
+                ui.subUrlInput.value = url;
+                document.getElementById('openLinkBtn').href = url;
+                ui.result.area.classList.remove('hidden');
+                ui.result.qrcode.innerHTML = '';
+                const isDark = document.documentElement.classList.contains('dark');
+                const darkColor = isDark ? '#3cbf6f' : '#083f20'; 
+                const lightColor = isDark ? '#083f20' : '#ffffff';
+                new QRCode(ui.result.qrcode, { text: url, width: 160, height: 160, colorDark: darkColor, colorLight: lightColor });
+            }
+        }
+        
+        ui.otherElement.addEventListener('change', () => selectConfig(ui.otherElement.value, null));
+
+        function activateStep(stepNum) {
+            const stepEl = stepNum === 2 ? ui.steps.s2 : ui.steps.s3;
+            const selectEl = stepNum === 2 ? ui.ipType : ui.searchBar;
+            stepEl.classList.remove('step-inactive');
+            stepEl.classList.add('step-unlocked');
+            if(stepNum === 2) {
+                ui.ipType.disabled = false; ui.ipType.classList.remove('opacity-60');
+                ui.steps.s2.querySelector('.step-number').classList.add('hidden');
+                ui.steps.s2.querySelector('.step-icon').classList.remove('hidden');
+                ui.steps.s2.querySelector('.step-badge').classList.add('step-icon-active');
+                ui.steps.s2.querySelector('.lock-icon').classList.add('hidden');
+                ui.steps.s2.querySelector('.chevron-icon').classList.remove('hidden');
+            }
+            if(stepNum === 3) {
+                ui.searchBar.disabled = false;
+                ui.steps.s3.querySelector('.step-number').classList.add('hidden');
+                ui.steps.s3.querySelector('.step-icon').classList.remove('hidden');
+                ui.steps.s3.querySelector('.step-badge').classList.add('step-icon-active');
+                ui.listContainer.classList.remove('hidden'); ui.nativeWrapper.classList.add('hidden');
+            }
+        }
+
+        function resetStep2() {
+            ui.ipType.disabled = true; ui.ipType.innerHTML = '';
+            ui.steps.s2.classList.add('step-inactive'); ui.steps.s2.classList.remove('step-unlocked');
+            ui.steps.s2.querySelector('.step-badge').classList.remove('step-icon-active');
+            ui.steps.s2.querySelector('.step-number').classList.remove('hidden');
+            ui.steps.s2.querySelector('.step-icon').classList.add('hidden');
+            ui.steps.s2.querySelector('.lock-icon').classList.remove('hidden');
+            ui.steps.s2.querySelector('.chevron-icon').classList.add('hidden');
+            resetStep3();
+        }
+
+        function resetStep3() {
+            ui.searchBar.disabled = true; ui.searchBar.value = '';
+            ui.customList.innerHTML = ''; ui.otherElement.innerHTML = '';
+            ui.steps.s3.classList.add('step-inactive'); ui.steps.s3.classList.remove('step-unlocked');
+            ui.steps.s3.querySelector('.step-badge').classList.remove('step-icon-active');
+            ui.steps.s3.querySelector('.step-number').classList.remove('hidden');
+            ui.steps.s3.querySelector('.step-icon').classList.add('hidden');
+            ui.result.area.classList.add('hidden');
+            ui.listContainer.classList.add('hidden'); ui.nativeWrapper.classList.remove('hidden');
+        }
+
+        function renderClients(type) {
+            let key = 'xray';
+            if(type.includes('clash') || type.includes('meta')) key = 'clash';
+            if(type.includes('singbox')) key = 'singbox';
+            const data = clientInfoData[key] || clientInfoData['xray'];
+            ui.result.clientList.innerHTML = '';
+            Object.keys(data).forEach(os => {
+                const div = document.createElement('div');
+                div.innerHTML = `
+                    <h5 class="capitalize font-bold text-slate-500 mb-2 text-[10px] tracking-wider flex items-center gap-1 justify-end">
+                        ${os} <i data-lucide="${os === 'windows' ? 'monitor' : 'smartphone'}" class="w-3 h-3"></i> 
+                    </h5>
+                    <div class="flex flex-wrap gap-2 justify-end">
+                        ${data[os].map(app => `
+                            <a href="${app.url}" target="_blank" class="flex items-center gap-2 px-3 py-1.5 bg-white dark:bg-imperial-green-800 border border-slate-200 dark:border-imperial-green-700 rounded-lg text-xs hover:border-royal-gold-500 transition-all text-slate-700 dark:text-slate-300">
+                                ${app.name} <i data-lucide="arrow-up-left" class="w-3 h-3 opacity-50"></i>
+                            </a>
+                        `).join('')}
+                    </div>
+                `;
+                ui.result.clientList.appendChild(div);
+            });
+            lucide.createIcons();
+        }
+
+        function showToast(msg) {
+            const container = document.getElementById('toastContainer');
+            const toast = document.createElement('div');
+            toast.className = "bg-slate-800 text-white dark:bg-white dark:text-slate-900 px-5 py-3 rounded-xl shadow-2xl flex items-center gap-3 transition-all duration-300 pointer-events-auto min-w-[280px] justify-center sm:justify-start";
+            toast.innerHTML = `<i data-lucide="check-circle-2" class="w-5 h-5 text-imperial-green-500 dark:text-imperial-green-600"></i><span class="text-sm font-bold">${msg}</span>`;
+            container.appendChild(toast);
+            lucide.createIcons();
+            requestAnimationFrame(() => { toast.classList.remove('opacity-0', 'translate-y-4'); });
+            setTimeout(() => { toast.classList.add('opacity-0', 'translate-y-4'); setTimeout(() => toast.remove(), 300); }, 3000);
+        }
+
+        function initTheme() {
             const html = document.documentElement;
             const themeBtn = document.getElementById('theme-toggle');
             const themeIcon = document.getElementById('theme-icon');
+            
             function setTheme(isDark) {
                 if(isDark) { html.classList.add('dark'); localStorage.setItem('theme', 'dark'); themeIcon.setAttribute('data-lucide', 'sun'); }
                 else { html.classList.remove('dark'); localStorage.setItem('theme', 'light'); themeIcon.setAttribute('data-lucide', 'moon'); }
                 lucide.createIcons();
             }
-            if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) setTheme(true); else setTheme(false);
+            if (localStorage.getItem('theme') === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) setTheme(true); 
+            else setTheme(false);
             themeBtn.addEventListener('click', () => setTheme(!html.classList.contains('dark')));
-
-            // --- Elements ---
-            const configType = document.getElementById('configType');
-            const ipType = document.getElementById('ipType');
-            const searchBar = document.getElementById('searchBar');
-            const otherElement = document.getElementById('otherElement');
-            const subUrlInput = document.getElementById('subscriptionUrl');
-            const step2 = document.getElementById('step2');
-            const step3 = document.getElementById('step3');
-            const resultArea = document.getElementById('resultArea');
-            const clientList = document.getElementById('client-info-list');
-
-            // --- Init Step 1 ---
-            configType.innerHTML = '<option value="">Select Category...</option>';
-            Object.keys(structuredData).forEach(key => {
-                const opt = document.createElement('option');
-                opt.value = key;
-                opt.textContent = key;
-                configType.appendChild(opt);
-            });
-
-            // --- Step 1 -> Step 2 ---
-            configType.addEventListener('change', () => {
-                const cat = configType.value;
-                ipType.innerHTML = '<option value="">Select Client...</option>';
-                
-                if (cat && structuredData[cat]) {
-                    Object.keys(structuredData[cat]).forEach(k => {
-                        const opt = document.createElement('option');
-                        opt.value = k;
-                        opt.textContent = k.toUpperCase();
-                        ipType.appendChild(opt);
-                    });
-                    // Activate Step 2
-                    step2.classList.remove('step-inactive');
-                    step2.classList.add('border-brand-500');
-                    step2.querySelector('.step-icon').classList.add('step-icon-active');
-                    step2.querySelector('.step-icon').classList.remove('bg-slate-100', 'text-slate-500');
-                    ipType.disabled = false;
-                    
-                    // Reset Step 3
-                    resetStep3();
-                } else {
-                    resetStep2();
-                }
-            });
-
-            // --- Step 2 -> Step 3 ---
-            ipType.addEventListener('change', () => {
-                const cat = configType.value;
-                const type = ipType.value;
-                otherElement.innerHTML = '<option value="">Select Config...</option>';
-                searchBar.value = '';
-
-                if (cat && type && structuredData[cat][type]) {
-                    const keys = Object.keys(structuredData[cat][type]).sort();
-                    keys.forEach(k => {
-                        const opt = document.createElement('option');
-                        opt.value = k;
-                        opt.textContent = k;
-                        otherElement.appendChild(opt);
-                    });
-                    // Activate Step 3
-                    step3.classList.remove('step-inactive');
-                    step3.classList.add('border-brand-500');
-                    step3.querySelector('.step-icon').classList.add('step-icon-active');
-                    step3.querySelector('.step-icon').classList.remove('bg-slate-100', 'text-slate-500');
-                    searchBar.disabled = false;
-                    otherElement.disabled = false;
-                    
-                    renderClients(type);
-                } else {
-                    resetStep3();
-                }
-            });
-
-            // --- Step 3 -> Result ---
-            otherElement.addEventListener('change', () => {
-                const cat = configType.value;
-                const type = ipType.value;
-                const key = otherElement.value;
-                if(key) {
-                    const url = structuredData[cat][type][key];
-                    subUrlInput.value = url;
-                    resultArea.classList.remove('hidden');
-                    document.getElementById('qrcode').innerHTML = '';
-                    new QRCode(document.getElementById('qrcode'), { text: url, width: 128, height: 128 });
-                } else {
-                    resultArea.classList.add('hidden');
-                }
-            });
-
-            // --- Helpers ---
-            searchBar.addEventListener('input', (e) => {
-                const val = e.target.value.toLowerCase();
-                Array.from(otherElement.options).forEach(opt => {
-                    if(opt.value) opt.style.display = opt.textContent.toLowerCase().includes(val) ? 'block' : 'none';
-                });
-            });
-
-            document.getElementById('copyButton').addEventListener('click', () => {
-                navigator.clipboard.writeText(subUrlInput.value);
-                const box = document.getElementById('messageBox');
-                document.getElementById('messageBoxText').textContent = "Copied!";
-                box.classList.remove('translate-y-20', 'opacity-0');
-                setTimeout(() => box.classList.add('translate-y-20', 'opacity-0'), 2000);
-            });
-
-            function resetStep2() {
-                ipType.disabled = true; ipType.innerHTML = '';
-                step2.classList.add('step-inactive'); step2.classList.remove('border-brand-500');
-                step2.querySelector('.step-icon').classList.remove('step-icon-active');
-                resetStep3();
-            }
-            function resetStep3() {
-                otherElement.disabled = true; otherElement.innerHTML = ''; searchBar.disabled = true;
-                step3.classList.add('step-inactive'); step3.classList.remove('border-brand-500');
-                step3.querySelector('.step-icon').classList.remove('step-icon-active');
-                resultArea.classList.add('hidden');
-            }
-
-            function renderClients(type) {
-                let key = 'xray';
-                if(type.includes('clash') || type.includes('meta')) key = 'clash';
-                if(type.includes('singbox')) key = 'singbox';
-                const data = clientInfoData[key] || clientInfoData['xray'];
-                clientList.innerHTML = '';
-                Object.keys(data).forEach(os => {
-                    const div = document.createElement('div');
-                    div.innerHTML = `<h5 class="capitalize font-semibold text-slate-500 mb-1 text-xs">${os}</h5>`;
-                    const links = document.createElement('div'); links.className = 'flex flex-wrap gap-2';
-                    data[os].forEach(app => {
-                        links.innerHTML += `<a href="${app.url}" target="_blank" class="px-2 py-1 bg-white dark:bg-slate-800 border dark:border-slate-700 rounded text-xs hover:border-brand-500 transition-colors">${app.name}</a>`;
-                    });
-                    div.appendChild(links); clientList.appendChild(div);
-                });
-            }
-        });
+        }
     </script>
 </body>
 </html>
