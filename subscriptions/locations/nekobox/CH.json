@@ -83,6 +83,7 @@
         "🇨🇭 CH | SS | @NamiraConfigs",
         "🇨🇭 CH | SS | @NamiraConfigs",
         "🇨🇭 CH | VLESS | @config_proxy",
+        "🇨🇭 CH | VLESS | @config_proxy",
         "🇨🇭 CH | SS | @freeconfigsplus",
         "🇨🇭 CH | VLESS | @minovpnch",
         "🇨🇭 CH | VLESS | @oonfig",
@@ -109,6 +110,7 @@
         "KingRezaPahlavi",
         "🇨🇭 CH | SS | @NamiraConfigs",
         "🇨🇭 CH | SS | @NamiraConfigs",
+        "🇨🇭 CH | VLESS | @config_proxy",
         "🇨🇭 CH | VLESS | @config_proxy",
         "🇨🇭 CH | SS | @freeconfigsplus",
         "🇨🇭 CH | VLESS | @minovpnch",
@@ -232,19 +234,20 @@
       "server": "ch-gt-01.com",
       "server_port": 8443,
       "uuid": "8836eecd-0455-4e2e-8e78-d5938b565029",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "83.228.226.116",
+      "server_port": 3470,
+      "uuid": "08c7f096-d057-4d53-82fd-c739d372887b",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
         }
       }
     },

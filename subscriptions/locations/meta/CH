@@ -26,7 +26,8 @@ proxies:
   - {"name": "همکاری_ملی", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
   - {"name": "جاویدشاه", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
   - {"name": "KingRezaPahlavi", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
-  - {"name": "🇨🇭 CH | VLESS | @config_proxy", "server": "ch-gt-01.com", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "8836eecd-0455-4e2e-8e78-d5938b565029", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇨🇭 CH | VLESS | @config_proxy", "server": "ch-gt-01.com", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "8836eecd-0455-4e2e-8e78-d5938b565029", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇨🇭 CH | VLESS | @config_proxy", "server": "83.228.226.116", "port": 3470, "type": "vless", "skip-cert-verify": true, "uuid": "08c7f096-d057-4d53-82fd-c739d372887b", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "/", "headers": {"Host": "83.228.226.116"}}}
   - {"name": "🇨🇭 CH | VLESS | @minovpnch", "server": "185.18.250.67", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "4d263c1a-fbb9-4946-a639-1de531120cde", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇨🇭 CH | VLESS | @oonfig", "server": "141.11.164.233", "port": 11366, "type": "vless", "skip-cert-verify": true, "uuid": "feae6dd7-8adc-423b-eda7-7eb4a5289b54", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇨🇭 CH | VLESS | @oonfig", "server": "141.11.164.233", "port": 11366, "type": "vless", "skip-cert-verify": true, "uuid": "dce1e7b5-60ab-4446-bb95-97e1234df5d6", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -53,6 +54,7 @@ proxy-groups:
       - 'همکاری_ملی'
       - 'جاویدشاه'
       - 'KingRezaPahlavi'
+      - '🇨🇭 CH | VLESS | @config_proxy'
       - '🇨🇭 CH | VLESS | @config_proxy'
       - '🇨🇭 CH | VLESS | @minovpnch'
       - '🇨🇭 CH | VLESS | @oonfig'
