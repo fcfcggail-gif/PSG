@@ -98,8 +98,6 @@
         "🇫🇮 FI | VLESS | @custom_14",
         "🇫🇮 FI | VLESS | @free1_vpn",
         "🇫🇮 FI | VLESS | @iranbfilter",
-        "🇫🇮 FI | VLESS | @kafing_2",
-        "🇫🇮 FI | VLESS | @nofilter_v2rayng",
         "🇫🇮 FI | VLESS | @prrofile_purple",
         "🇫🇮 FI | VLESS | @prrofile_purple",
         "🇫🇮 FI | VLESS | @prrofile_purple",
@@ -128,8 +126,6 @@
         "🇫🇮 FI | VLESS | @custom_14",
         "🇫🇮 FI | VLESS | @free1_vpn",
         "🇫🇮 FI | VLESS | @iranbfilter",
-        "🇫🇮 FI | VLESS | @kafing_2",
-        "🇫🇮 FI | VLESS | @nofilter_v2rayng",
         "🇫🇮 FI | VLESS | @prrofile_purple",
         "🇫🇮 FI | VLESS | @prrofile_purple",
         "🇫🇮 FI | VLESS | @prrofile_purple",
@@ -228,17 +224,31 @@
     {
       "tag": "🇫🇮 FI | VLESS | @config_proxy",
       "type": "vless",
-      "server": "fi-h2-01.com",
-      "server_port": 8104,
-      "uuid": "ef4637fb-b2a8-4eab-bfc4-b1ec957c6cfb",
-      "packet_encoding": "xudp"
+      "server": "fi72.skytunnel.pw",
+      "server_port": 8443,
+      "uuid": "51c89ac3-ea33-4832-9a59-2505d33f4c84",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇫🇮 FI | VLESS | @config_proxy",
       "type": "vless",
-      "server": "fi72.skytunnel.pw",
-      "server_port": 8443,
-      "uuid": "51c89ac3-ea33-4832-9a59-2505d33f4c84",
+      "server": "grok.zarlyt-ok3.ir",
+      "server_port": 9828,
+      "uuid": "529c787c-46ee-4360-87ad-b9fdfab69e1e",
       "packet_encoding": "xudp"
     },
     {
@@ -301,40 +311,6 @@
         "path": "/",
         "headers": {
           "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @kafing_2",
-      "type": "vless",
-      "server": "fn11.irsbv2.ir",
-      "server_port": 443,
-      "uuid": "47867494-9509-4c32-a90a-e9253b033279",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @nofilter_v2rayng",
-      "type": "vless",
-      "server": "fn11.irsbv2.ir",
-      "server_port": 443,
-      "uuid": "47867494-9509-4c32-a90a-e9253b033279",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },
