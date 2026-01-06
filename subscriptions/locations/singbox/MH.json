@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgU0E=
+//profile-title: base64:UFNHIHwgTUg=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -93,7 +93,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇸🇦 SA | VLESS | @v2ray_youtube"
+        "🇲🇭 MH | VLESS | @config_proxy",
+        "🇲🇭 MH | VLESS | @v2raych"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -104,7 +105,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇸🇦 SA | VLESS | @v2ray_youtube"
+        "🇲🇭 MH | VLESS | @config_proxy",
+        "🇲🇭 MH | VLESS | @v2raych"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -188,12 +190,38 @@
       }
     },
     {
-      "tag": "🇸🇦 SA | VLESS | @v2ray_youtube",
+      "tag": "🇲🇭 MH | VLESS | @config_proxy",
       "type": "vless",
-      "server": "185.253.118.198",
-      "server_port": 15468,
-      "uuid": "b5dc6bef-11af-44d6-af98-900acaac62e0",
-      "packet_encoding": "xudp"
+      "server": "185.207.196.236",
+      "server_port": 2096,
+      "uuid": "5a2c16f9-e365-4080-8d38-6924c3835586",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇲🇭 MH | VLESS | @v2raych",
+      "type": "vless",
+      "server": "185.207.196.236",
+      "server_port": 2096,
+      "uuid": "5a2c16f9-e365-4080-8d38-6924c3835586",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

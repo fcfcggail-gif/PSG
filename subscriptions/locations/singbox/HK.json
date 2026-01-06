@@ -96,7 +96,8 @@
         "🇭🇰 HK | TROJAN | @free4allvpn",
         "🇭🇰 HK | SS | @mftizi",
         "🇭🇰 HK | SS | @mftizi",
-        "🇭🇰 HK | SS | @netfreedom0"
+        "🇭🇰 HK | SS | @netfreedom0",
+        "🇭🇰 HK | VLESS | @vmesskhodam"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -110,7 +111,8 @@
         "🇭🇰 HK | TROJAN | @free4allvpn",
         "🇭🇰 HK | SS | @mftizi",
         "🇭🇰 HK | SS | @mftizi",
-        "🇭🇰 HK | SS | @netfreedom0"
+        "🇭🇰 HK | SS | @netfreedom0",
+        "🇭🇰 HK | VLESS | @vmesskhodam"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -232,6 +234,24 @@
       "server_port": 38388,
       "method": "YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW",
       "password": null
+    },
+    {
+      "tag": "🇭🇰 HK | VLESS | @vmesskhodam",
+      "type": "vless",
+      "server": "1-hk.ap.ku-ke.cc",
+      "server_port": 443,
+      "uuid": "ee9a3e22-f97b-4e9a-9a75-52151a5d0b2d",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

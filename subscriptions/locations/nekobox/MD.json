@@ -86,6 +86,7 @@
         "🇲🇩 MD | VLESS | @arv2ray",
         "🇲🇩 MD | VLESS | @arv2ray",
         "🇲🇩 MD | VLESS | @bored_vpn",
+        "🇲🇩 MD | VLESS | @config_proxy",
         "🇲🇩 MD | VLESS | @connectshu",
         "🇲🇩 MD | VLESS | @father_vpn",
         "🇲🇩 MD | VLESS | @freeconfigsplus",
@@ -105,9 +106,7 @@
         "🇲🇩 MD | VLESS | @prrofile_purple",
         "🇲🇩 MD | VLESS | @v2aryng_vpn",
         "🇲🇩 MD | VLESS | @v2aryng_vpn",
-        "🇲🇩 MD | VLESS | @v2rayprotocol",
-        "🇲🇩 MD | VLESS | @vpnowl",
-        "🇲🇩 MD | VLESS | @vpnplusee_free"
+        "🇲🇩 MD | VLESS | @vpnowl"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -124,6 +123,7 @@
         "🇲🇩 MD | VLESS | @arv2ray",
         "🇲🇩 MD | VLESS | @arv2ray",
         "🇲🇩 MD | VLESS | @bored_vpn",
+        "🇲🇩 MD | VLESS | @config_proxy",
         "🇲🇩 MD | VLESS | @connectshu",
         "🇲🇩 MD | VLESS | @father_vpn",
         "🇲🇩 MD | VLESS | @freeconfigsplus",
@@ -143,9 +143,7 @@
         "🇲🇩 MD | VLESS | @prrofile_purple",
         "🇲🇩 MD | VLESS | @v2aryng_vpn",
         "🇲🇩 MD | VLESS | @v2aryng_vpn",
-        "🇲🇩 MD | VLESS | @v2rayprotocol",
-        "🇲🇩 MD | VLESS | @vpnowl",
-        "🇲🇩 MD | VLESS | @vpnplusee_free"
+        "🇲🇩 MD | VLESS | @vpnowl"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -295,6 +293,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇲🇩 MD | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "94.131.118.117",
+      "server_port": 4443,
+      "uuid": "ff03e357-b531-4f30-9f47-ba9b57dd384f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -515,25 +535,9 @@
       }
     },
     {
-      "tag": "🇲🇩 MD | VLESS | @v2rayprotocol",
-      "type": "vless",
-      "server": "195.42.233.146",
-      "server_port": 8880,
-      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇲🇩 MD | VLESS | @vpnowl",
       "type": "vless",
       "server": "195.42.233.91",
-      "server_port": 8880,
-      "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇲🇩 MD | VLESS | @vpnplusee_free",
-      "type": "vless",
-      "server": "94.131.118.39",
       "server_port": 8880,
       "uuid": "df0680ca-e43c-498d-ed86-8e196eedd012",
       "packet_encoding": "xudp"
