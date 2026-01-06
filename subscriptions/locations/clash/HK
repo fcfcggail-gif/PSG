@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇭🇰 HK | VMESS | @config_proxy", "server": "372220e7-t4jj40-tnnrly-g43g.hkt.gotochinatown.net", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "6ddb6a68-d5f5-ca30-3943-cf0c9876d50c", "alterId": 2, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "372220e7-t4jj40-tnnrly-g43g.hkt.gotochinatown.net"}}}
   - {"name": "🇭🇰 HK | TROJAN | @free4allvpn", "server": "219.79.214.159", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "BxceQaOe"}
 
 proxy-groups:
@@ -38,7 +37,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇭🇰 HK | VMESS | @config_proxy'
       - '🇭🇰 HK | TROJAN | @free4allvpn'
 
   - name: 🌍 Global Media
