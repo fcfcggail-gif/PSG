@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇮🇷 IR | VMESS | @xsv2ray", "server": "tehran-sms.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "7f034e0b-0d3f-4961-92d6-1b4bdbf3cb17", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/connect/de/?ed=1024/?JOKERRVPN", "headers": {"Host": "tehran-sms.xyz"}}}
+  - {"name": "🇪🇸 ES | VLESS | @prrofile_purple", "server": "ns.piche.pw", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "7d591a13-9828-417c-aef9-63859280bb16", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇪🇸 ES | VLESS | @v2raytg", "server": "p1anel.lormarb.ir", "port": 53762, "type": "vless", "skip-cert-verify": true, "uuid": "aaeddbf5-a9df-4931-b231-08909eed7501", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇮🇷 IR | VMESS | @xsv2ray'
+      - '🇪🇸 ES | VLESS | @prrofile_purple'
+      - '🇪🇸 ES | VLESS | @v2raytg'
 
   - name: 🌍 Global Media
     type: select

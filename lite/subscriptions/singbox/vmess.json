@@ -102,7 +102,6 @@
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxy48",
         "🇫🇷 FR | VMESS | @selinc",
-        "🇭🇰 HK | VMESS | @config_proxy",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇺🇸 US | VMESS | @freev2rays",
         "🇧🇾 BY | VMESS | @ir_netproxy",
@@ -113,11 +112,9 @@
         "🇷🇺 RU | VMESS | @prooxyk",
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @v2ray4win",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf",
         "🇦🇺 AU | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
-        "🇺🇸 US | VMESS | @vpngate_config",
-        "🇮🇷 IR | VMESS | @xsv2ray"
+        "🇺🇸 US | VMESS | @vpngate_config"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -137,7 +134,6 @@
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxy48",
         "🇫🇷 FR | VMESS | @selinc",
-        "🇭🇰 HK | VMESS | @config_proxy",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇺🇸 US | VMESS | @freev2rays",
         "🇧🇾 BY | VMESS | @ir_netproxy",
@@ -148,11 +144,9 @@
         "🇷🇺 RU | VMESS | @prooxyk",
         "🇺🇸 US | VMESS | @serverv2ray00",
         "🇺🇸 US | VMESS | @v2ray4win",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf",
         "🇦🇺 AU | VMESS | @v2rayngconfig",
         "🇺🇸 US | VMESS | @v2rayngconfig",
-        "🇺🇸 US | VMESS | @vpngate_config",
-        "🇮🇷 IR | VMESS | @xsv2ray"
+        "🇺🇸 US | VMESS | @vpngate_config"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -380,22 +374,6 @@
       "uuid": "ede27a79-b039-490b-932c-495de4b68880",
       "security": "auto",
       "alter_id": 0
-    },
-    {
-      "tag": "🇭🇰 HK | VMESS | @config_proxy",
-      "type": "vmess",
-      "server": "hkt.gotochinatown.net",
-      "server_port": 80,
-      "uuid": "336501b6-51d2-11ee-a993-f23c9164ca5d",
-      "security": "auto",
-      "alter_id": 2,
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "hkt.gotochinatown.net"
-        }
-      }
     },
     {
       "tag": "🇭🇰 HK | VMESS | @freev2rays",
@@ -641,31 +619,6 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf",
-      "type": "vmess",
-      "server": "t1.620720.xyz",
-      "server_port": 8443,
-      "uuid": "516d8a7a-3f0b-41d3-bad0-246116381516",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "t1.620720.xyz",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "t1.620720.xyz"
-        }
-      }
-    },
-    {
       "tag": "🇦🇺 AU | VMESS | @v2rayngconfig",
       "type": "vmess",
       "server": "vde2.0bad.com",
@@ -737,31 +690,6 @@
         "path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
         "headers": {
           "Host": "cold-dawn-9246.fly.dev"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VMESS | @xsv2ray",
-      "type": "vmess",
-      "server": "tehran-sms.xyz",
-      "server_port": 443,
-      "uuid": "7f034e0b-0d3f-4961-92d6-1b4bdbf3cb17",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "pkgbuild.org",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/connect/de/?ed=1024/?JOKERRVPN",
-        "headers": {
-          "Host": ""
         }
       }
     }

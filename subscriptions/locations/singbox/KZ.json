@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇰🇿 KZ | VLESS | @config_proxy",
-        "🇰🇿 KZ | VLESS | @filterk0sh"
+        "🇰🇿 KZ | VLESS | @filterk0sh",
+        "🇰🇿 KZ | VLESS | @freeconfigsplus"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇰🇿 KZ | VLESS | @config_proxy",
-        "🇰🇿 KZ | VLESS | @filterk0sh"
+        "🇰🇿 KZ | VLESS | @filterk0sh",
+        "🇰🇿 KZ | VLESS | @freeconfigsplus"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,14 +110,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇰🇿 KZ | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "151.236.93.44",
-      "server_port": 3443,
-      "uuid": "dfd30304-9c58-4ff4-8ba0-b70af154fbc9",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇰🇿 KZ | VLESS | @filterk0sh",
@@ -138,6 +130,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @freeconfigsplus",
+      "type": "vless",
+      "server": "38.107.234.38",
+      "server_port": 443,
+      "uuid": "eb162ab1-a006-4931-b1b3-8fc88a22b10e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }

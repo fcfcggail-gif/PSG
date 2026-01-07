@@ -77,12 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | VMESS | @config_proxy",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇭🇰 HK | SS | @mftizi",
         "🇭🇰 HK | SS | @netfreedom0",
-        "🇭🇰 HK | SS | @v2ray_free_conf",
-        "🇭🇰 HK | VLESS | @vmesskhodam"
+        "🇭🇰 HK | VMESS | @v2ray_free_conf"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -90,12 +88,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | VMESS | @config_proxy",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇭🇰 HK | SS | @mftizi",
         "🇭🇰 HK | SS | @netfreedom0",
-        "🇭🇰 HK | SS | @v2ray_free_conf",
-        "🇭🇰 HK | VLESS | @vmesskhodam"
+        "🇭🇰 HK | VMESS | @v2ray_free_conf"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -109,22 +105,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇭🇰 HK | VMESS | @config_proxy",
-      "type": "vmess",
-      "server": "hkt.gotochinatown.net",
-      "server_port": 80,
-      "uuid": "336501b6-51d2-11ee-a993-f23c9164ca5d",
-      "security": "auto",
-      "alter_id": 2,
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "hkt.gotochinatown.net"
-        }
-      }
     },
     {
       "tag": "🇭🇰 HK | VMESS | @freev2rays",
@@ -168,28 +148,18 @@
       "password": null
     },
     {
-      "tag": "🇭🇰 HK | SS | @v2ray_free_conf",
-      "type": "shadowsocks",
-      "server": "203.23.128.33",
-      "server_port": 990,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz",
-      "password": null
-    },
-    {
-      "tag": "🇭🇰 HK | VLESS | @vmesskhodam",
-      "type": "vless",
-      "server": "1-hk.ap.ku-ke.cc",
-      "server_port": 443,
-      "uuid": "ee9a3e22-f97b-4e9a-9a75-52151a5d0b2d",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+      "tag": "🇭🇰 HK | VMESS | @v2ray_free_conf",
+      "type": "vmess",
+      "server": "91dce05b-t7xr40-tsddmg-1t0fu.hkt.gotochinatown.net",
+      "server_port": 80,
+      "uuid": "bd7e962c-cc4c-11f0-b0af-f23c91cfbbc9",
+      "security": "auto",
+      "alter_id": 2,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "91dce05b-t7xr40-tsddmg-1t0fu.hkt.gotochinatown.net"
         }
       }
     }
