@@ -80,7 +80,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇨🇦 CA | SS | @config_proxy",
         "🇨🇦 CA | VLESS | @custom_14",
         "🇨🇦 CA | VLESS | @freeconfigsplus",
         "🇨🇦 CA | VLESS | @jokerv2ray",
@@ -91,6 +90,7 @@
         "🇨🇦 CA | VLESS | @proxy_confiingir",
         "🇨🇦 CA | VLESS | @public504",
         "🇨🇦 CA | VLESS | @serverv2ray00",
+        "🇨🇦 CA | TROJAN | @v2raych",
         "🇨🇦 CA | TROJAN | @v2rayngconfig",
         "🇨🇦 CA | SS | @v2raytg",
         "🇨🇦 CA | VLESS | @v2rayza",
@@ -111,7 +111,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇨🇦 CA | SS | @config_proxy",
         "🇨🇦 CA | VLESS | @custom_14",
         "🇨🇦 CA | VLESS | @freeconfigsplus",
         "🇨🇦 CA | VLESS | @jokerv2ray",
@@ -122,6 +121,7 @@
         "🇨🇦 CA | VLESS | @proxy_confiingir",
         "🇨🇦 CA | VLESS | @public504",
         "🇨🇦 CA | VLESS | @serverv2ray00",
+        "🇨🇦 CA | TROJAN | @v2raych",
         "🇨🇦 CA | TROJAN | @v2rayngconfig",
         "🇨🇦 CA | SS | @v2raytg",
         "🇨🇦 CA | VLESS | @v2rayza",
@@ -217,14 +217,6 @@
           "Host": ""
         }
       }
-    },
-    {
-      "tag": "🇨🇦 CA | SS | @config_proxy",
-      "type": "shadowsocks",
-      "server": "79.127.233.170",
-      "server_port": 990,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz",
-      "password": null
     },
     {
       "tag": "🇨🇦 CA | VLESS | @custom_14",
@@ -352,6 +344,22 @@
       "server_port": 443,
       "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
       "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇦 CA | TROJAN | @v2raych",
+      "type": "trojan",
+      "server": "3.98.155.17",
+      "server_port": 22222,
+      "password": "telegram-id-directvpn",
       "tls": {
         "enabled": true,
         "server_name": "",
