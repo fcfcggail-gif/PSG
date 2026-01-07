@@ -38,9 +38,11 @@ URLS = {
 }
 
 CONSTANTS = {
-    'LITE_LIMIT': 10,
+    'LITE_LIMIT': 3,
     'TIMEOUT': 15,
-    'DNS_WORKERS': 50, # Limit concurrent DNS lookups
+    'DNS_WORKERS': 50,
+    'TCP_WORKERS': 100,  # New: Concurrent TCP check limit
+    'TCP_TIMEOUT': 3, 
     'FAKE_NAMES': ['#همکاری_ملی', '#جاویدشاه', '#KingRezaPahlavi'],
     'CLOUDFLARE_CIDRS': [
         "173.245.48.0/20", "103.21.244.0/22", "103.22.200.0/22", "103.31.4.0/22",
@@ -376,6 +378,7 @@ class SubscriptionProcessor:
         self.all_configs = []
         # Semaphore to prevent "Too many open files" during DNS resolution
         self.dns_semaphore = asyncio.Semaphore(CONSTANTS['DNS_WORKERS'])
+        self.tcp_semaphore = asyncio.Semaphore(CONSTANTS['TCP_WORKERS'])
 
     async def initialize(self):
         self.session = aiohttp.ClientSession()
@@ -435,6 +438,45 @@ class SubscriptionProcessor:
             self.geo_reader = geoip2.database.Reader(db_path)
         except Exception:
             logger.warning("Could not load GeoIP database.")
+
+    async def check_reachability(self, parsed: Dict) -> bool:
+        """
+        Tests if the config host:port is reachable via TCP.
+        Handles SNI fallback if host is missing.
+        """
+        # 1. Determine Target Host
+        host = parsed.get('host') or parsed.get('add', '')
+        port = int(parsed.get('port', 0))
+
+        # 2. "Do something for SNI/WS" 
+        # If the 'host' (address) is missing or looks like a placeholder, 
+        # but 'sni' is provided, try connecting to the SNI address.
+        sni = parsed.get('sni') or parsed.get('params', {}).get('sni') or parsed.get('params', {}).get('host')
+        
+        if (not host or host == '127.0.0.1') and sni:
+            host = sni
+
+        # If we still don't have a valid host or port, fail.
+        if not host or not port:
+            return False
+
+        # 3. Clean IPv6 brackets for socket connection
+        target_host = host.strip('[]')
+
+        async with self.tcp_semaphore:
+            try:
+                # Attempt TCP Handshake
+                future = asyncio.open_connection(target_host, port)
+                reader, writer = await asyncio.wait_for(future, timeout=CONSTANTS['TCP_TIMEOUT'])
+                
+                # If we get here, connection works
+                writer.close()
+                await writer.wait_closed()
+                return True
+            except (OSError, asyncio.TimeoutError):
+                return False
+            except Exception:
+                return False
 
     async def resolve_ip(self, host: str) -> Optional[str]:
         if not host: return None
@@ -570,15 +612,28 @@ class SubscriptionProcessor:
         channel_counts = defaultdict(int)
         
         total = len(unique_map)
-        logger.info(f"Processing {total} unique configs...")
+        logger.info(f"Processing {total} configs (Checking TCP + GeoIP)...")
 
+        # We will process tasks in batches to keep the progress bar accurate
+        # and prevent queuing 10,000 tasks instantly.
+        
         for i, (fp, (orig, parsed, chan)) in enumerate(unique_map.items()):
             if i % 100 == 0: sys.stdout.write(f"\rProcessing... {int(i/total*100)}%")
             
+            # --- NEW STEP: Check TCP Connectivity ---
+            is_reachable = await self.check_reachability(parsed)
+            if not is_reachable:
+                # Skip dead configs
+                continue
+            # ----------------------------------------
+
             clean_chan = chan.strip().lstrip('@')
             host = parsed.get('host') or parsed.get('add', '')
             
+            # Resolve DNS for GeoIP
             ip = await self.resolve_ip(host)
+            
+            # ... (Rest of the logic remains exactly the same) ...
             country_code = self.get_geo_code(ip)
             is_cf = ConfigUtils.is_cloudflare(ip)
             flag = self.get_flag(country_code)
