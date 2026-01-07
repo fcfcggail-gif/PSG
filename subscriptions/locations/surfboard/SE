@@ -10,13 +10,12 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇸🇪 SE | TROJAN | @hope_net = trojan, 16.171.157.77, 22222, password = telegram-id-directvpn, skip-cert-verify = true
-🇸🇪 SE | TROJAN | @v2raych = trojan, 16.171.157.77, 22222, password = telegram-id-directvpn, skip-cert-verify = true
-🇸🇪 SE | TROJAN | @v2raych = trojan, 13.60.0.173, 22222, password = telegram-id-privatevpns, skip-cert-verify = true
+🇸🇪 SE | VMESS | @ir_netproxy = vmess, 172.232.148.56, 8442, username = ece77c52-330e-4805-b8f5-704563f13ac8, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇸🇪 SE | TROJAN | @hope_net, 🇸🇪 SE | TROJAN | @v2raych, 🇸🇪 SE | TROJAN | @v2raych
-PSG-AUTO = url-test, 🇸🇪 SE | TROJAN | @hope_net, 🇸🇪 SE | TROJAN | @v2raych, 🇸🇪 SE | TROJAN | @v2raych
-PSG-FALLBACK = fallback, 🇸🇪 SE | TROJAN | @hope_net, 🇸🇪 SE | TROJAN | @v2raych, 🇸🇪 SE | TROJAN | @v2raych
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇸🇪 SE | TROJAN | @hope_net, 🇸🇪 SE | VMESS | @ir_netproxy
+PSG-AUTO = url-test, 🇸🇪 SE | TROJAN | @hope_net, 🇸🇪 SE | VMESS | @ir_netproxy
+PSG-FALLBACK = fallback, 🇸🇪 SE | TROJAN | @hope_net, 🇸🇪 SE | VMESS | @ir_netproxy
 
 [Rule]
 GEOIP,IR,DIRECT

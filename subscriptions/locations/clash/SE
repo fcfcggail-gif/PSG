@@ -24,8 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇸🇪 SE | TROJAN | @hope_net", "server": "16.171.157.77", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-directvpn"}
-  - {"name": "🇸🇪 SE | TROJAN | @v2raych", "server": "16.171.157.77", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-directvpn"}
-  - {"name": "🇸🇪 SE | TROJAN | @v2raych", "server": "13.60.0.173", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
+  - {"name": "🇸🇪 SE | VMESS | @ir_netproxy", "server": "172.232.148.56", "port": 8442, "type": "vmess", "skip-cert-verify": true, "uuid": "ece77c52-330e-4805-b8f5-704563f13ac8", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,8 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇸🇪 SE | TROJAN | @hope_net'
-      - '🇸🇪 SE | TROJAN | @v2raych'
-      - '🇸🇪 SE | TROJAN | @v2raych'
+      - '🇸🇪 SE | VMESS | @ir_netproxy'
 
   - name: 🌍 Global Media
     type: select

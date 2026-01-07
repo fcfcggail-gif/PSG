@@ -23,9 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇷🇺 RU | VMESS | @freeshadowsock", "server": "5.182.36.199", "port": 6616, "type": "vmess", "skip-cert-verify": true, "uuid": "003f1279-c55d-427c-8327-9f71f8b1cc0b", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "", "headers": {"Host": "5.182.36.199"}}}
   - {"name": "🇷🇺 RU | TROJAN | @maradona_vpn", "server": "185.59.218.220", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "Maradona_vpn"}
   - {"name": "🇷🇺 RU | TROJAN | @maradona_vpn", "server": "185.174.138.209", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "maradona_vpn"}
   - {"name": "🇷🇺 RU | VMESS | @prooxyk", "server": "77.v2ray1.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/A2DJOPFT", "headers": {"Host": "77.v2ray1.xyz"}}}
+  - {"name": "🇷🇺 RU | VMESS | @v2ray_collector", "server": "45.67.230.79", "port": 11052, "type": "vmess", "skip-cert-verify": true, "uuid": "314185f7-931d-4656-922d-0857e7afd224", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +41,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇷🇺 RU | VMESS | @freeshadowsock'
       - '🇷🇺 RU | TROJAN | @maradona_vpn'
       - '🇷🇺 RU | TROJAN | @maradona_vpn'
       - '🇷🇺 RU | VMESS | @prooxyk'
+      - '🇷🇺 RU | VMESS | @v2ray_collector'
 
   - name: 🌍 Global Media
     type: select

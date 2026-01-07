@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇫🇮 FI | TROJAN | @v2ray_n", "server": "135.181.253.237", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "cba32ac1-abbb-4371-ba50-19eb5c38748c"}
+  - {"name": "🇫🇮 FI | VMESS | @v2rayng3", "server": "77.42.77.66", "port": 40100, "type": "vmess", "skip-cert-verify": true, "uuid": "73feeed6-9a40-45b0-a26d-84770f5f05fd", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇫🇮 FI | TROJAN | @v2ray_n'
+      - '🇫🇮 FI | VMESS | @v2rayng3'
 
   - name: 🌍 Global Media
     type: select

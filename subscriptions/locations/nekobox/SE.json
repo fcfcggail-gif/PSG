@@ -77,10 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
-        "🇸🇪 SE | VLESS | @config_proxy",
         "🇸🇪 SE | VLESS | @dargiiriis",
         "🇸🇪 SE | VLESS | @deli_servers",
         "🇸🇪 SE | SS | @filtershekan_channel",
@@ -94,6 +90,7 @@
         "🇸🇪 SE | VLESS | @goldenshiinevpn",
         "🇸🇪 SE | VLESS | @hope_net",
         "🇸🇪 SE | TROJAN | @hope_net",
+        "🇸🇪 SE | VMESS | @ir_netproxy",
         "🇸🇪 SE | VLESS | @kurd_v2ray",
         "🇸🇪 SE | VLESS | @kurd_v2ray",
         "🇸🇪 SE | VLESS | @kurd_v2ray",
@@ -124,7 +121,7 @@
         "🇸🇪 SE | SS | @netfreedom0",
         "🇸🇪 SE | VLESS | @proxyfn",
         "🇸🇪 SE | VLESS | @proxyfn",
-        "🇸🇪 SE | SS | @prrofile_purple",
+        "🇸🇪 SE | VLESS | @prrofile_purple",
         "🇸🇪 SE | VLESS | @realvpnmaster",
         "🇸🇪 SE | VLESS | @realvpnmaster",
         "🇸🇪 SE | VLESS | @realvpnmaster",
@@ -138,9 +135,6 @@
         "🇸🇪 SE | VLESS | @v2logy",
         "🇸🇪 SE | VLESS | @v2logy",
         "🇸🇪 SE | VLESS | @v2logy",
-        "🇸🇪 SE | TROJAN | @v2raych",
-        "🇸🇪 SE | VLESS | @v2raych",
-        "🇸🇪 SE | TROJAN | @v2raych",
         "🇸🇪 SE | VLESS | @v2rayexpress",
         "🇸🇪 SE | VLESS | @v2raytg",
         "🇸🇪 SE | TUIC | @vipv2rey",
@@ -155,10 +149,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
-        "🇸🇪 SE | VLESS | @config_proxy",
         "🇸🇪 SE | VLESS | @dargiiriis",
         "🇸🇪 SE | VLESS | @deli_servers",
         "🇸🇪 SE | SS | @filtershekan_channel",
@@ -172,6 +162,7 @@
         "🇸🇪 SE | VLESS | @goldenshiinevpn",
         "🇸🇪 SE | VLESS | @hope_net",
         "🇸🇪 SE | TROJAN | @hope_net",
+        "🇸🇪 SE | VMESS | @ir_netproxy",
         "🇸🇪 SE | VLESS | @kurd_v2ray",
         "🇸🇪 SE | VLESS | @kurd_v2ray",
         "🇸🇪 SE | VLESS | @kurd_v2ray",
@@ -202,7 +193,7 @@
         "🇸🇪 SE | SS | @netfreedom0",
         "🇸🇪 SE | VLESS | @proxyfn",
         "🇸🇪 SE | VLESS | @proxyfn",
-        "🇸🇪 SE | SS | @prrofile_purple",
+        "🇸🇪 SE | VLESS | @prrofile_purple",
         "🇸🇪 SE | VLESS | @realvpnmaster",
         "🇸🇪 SE | VLESS | @realvpnmaster",
         "🇸🇪 SE | VLESS | @realvpnmaster",
@@ -216,9 +207,6 @@
         "🇸🇪 SE | VLESS | @v2logy",
         "🇸🇪 SE | VLESS | @v2logy",
         "🇸🇪 SE | VLESS | @v2logy",
-        "🇸🇪 SE | TROJAN | @v2raych",
-        "🇸🇪 SE | VLESS | @v2raych",
-        "🇸🇪 SE | TROJAN | @v2raych",
         "🇸🇪 SE | VLESS | @v2rayexpress",
         "🇸🇪 SE | VLESS | @v2raytg",
         "🇸🇪 SE | TUIC | @vipv2rey",
@@ -239,86 +227,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "همکاری_ملی",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "جاویدشاه",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "KingRezaPahlavi",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "16.16.174.8",
-      "server_port": 22222,
-      "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇸🇪 SE | VLESS | @dargiiriis",
@@ -512,6 +420,15 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇸🇪 SE | VMESS | @ir_netproxy",
+      "type": "vmess",
+      "server": "172.232.148.56",
+      "server_port": 8442,
+      "uuid": "ece77c52-330e-4805-b8f5-704563f13ac8",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇸🇪 SE | VLESS | @kurd_v2ray",
@@ -838,12 +755,12 @@
       }
     },
     {
-      "tag": "🇸🇪 SE | SS | @prrofile_purple",
-      "type": "shadowsocks",
-      "server": "78.40.116.178",
-      "server_port": 34094,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5bzZoOXFraHd6OFVKb1RaQ1J0b1Np",
-      "password": null
+      "tag": "🇸🇪 SE | VLESS | @prrofile_purple",
+      "type": "vless",
+      "server": "n-vip.hulkirani1.ir",
+      "server_port": 80,
+      "uuid": "b9c20ba9-da82-4082-a97a-977b4fbed67b",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇸🇪 SE | VLESS | @realvpnmaster",
@@ -962,46 +879,6 @@
       "server_port": 80,
       "uuid": "telegram-id-ArV2ray",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇪 SE | TROJAN | @v2raych",
-      "type": "trojan",
-      "server": "16.171.157.77",
-      "server_port": 22222,
-      "password": "telegram-id-directvpn",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @v2raych",
-      "type": "vless",
-      "server": "16.16.174.8",
-      "server_port": 22222,
-      "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇪 SE | TROJAN | @v2raych",
-      "type": "trojan",
-      "server": "13.60.0.173",
-      "server_port": 22222,
-      "password": "telegram-id-privatevpns",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇸🇪 SE | VLESS | @v2rayexpress",

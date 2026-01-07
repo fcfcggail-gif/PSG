@@ -90,11 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
         "🇦🇪 AE | VLESS | @Fr33C0nfig",
-        "🇦🇪 AE | SS | @config_proxy",
+        "🇦🇪 AE | SS | @NamiraConfigs",
+        "🇦🇪 AE | SS | @NamiraConfigs",
+        "🇦🇪 AE | VLESS | @config_proxy",
         "🇦🇪 AE | VLESS | @filterk0sh",
         "🇦🇪 AE | VLESS | @filterk0sh",
         "🇦🇪 AE | VLESS | @filterk0sh",
@@ -106,7 +105,6 @@
         "🇦🇪 AE | VLESS | @filterk0sh",
         "🇦🇪 AE | VLESS | @filterk0sh",
         "🇦🇪 AE | VLESS | @filterk0sh",
-        "🇦🇪 AE | VLESS | @free1_vpn",
         "🇦🇪 AE | VLESS | @iran_access",
         "🇦🇪 AE | SS | @manstervpn",
         "🇦🇪 AE | SS | @netfreedom0",
@@ -120,6 +118,7 @@
         "🇦🇪 AE | VLESS | @pusyvpn",
         "🇦🇪 AE | VLESS | @v2ray_vmes",
         "🇦🇪 AE | VLESS | @v2raying",
+        "🇦🇪 AE | VLESS | @v_2rayng0",
         "🇦🇪 AE | VLESS | @vpn_ioss",
         "🇦🇪 AE | VLESS | @vpnplusee_free"
       ],
@@ -129,11 +128,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
         "🇦🇪 AE | VLESS | @Fr33C0nfig",
-        "🇦🇪 AE | SS | @config_proxy",
+        "🇦🇪 AE | SS | @NamiraConfigs",
+        "🇦🇪 AE | SS | @NamiraConfigs",
+        "🇦🇪 AE | VLESS | @config_proxy",
         "🇦🇪 AE | VLESS | @filterk0sh",
         "🇦🇪 AE | VLESS | @filterk0sh",
         "🇦🇪 AE | VLESS | @filterk0sh",
@@ -145,7 +143,6 @@
         "🇦🇪 AE | VLESS | @filterk0sh",
         "🇦🇪 AE | VLESS | @filterk0sh",
         "🇦🇪 AE | VLESS | @filterk0sh",
-        "🇦🇪 AE | VLESS | @free1_vpn",
         "🇦🇪 AE | VLESS | @iran_access",
         "🇦🇪 AE | SS | @manstervpn",
         "🇦🇪 AE | SS | @netfreedom0",
@@ -159,6 +156,7 @@
         "🇦🇪 AE | VLESS | @pusyvpn",
         "🇦🇪 AE | VLESS | @v2ray_vmes",
         "🇦🇪 AE | VLESS | @v2raying",
+        "🇦🇪 AE | VLESS | @v_2rayng0",
         "🇦🇪 AE | VLESS | @vpn_ioss",
         "🇦🇪 AE | VLESS | @vpnplusee_free"
       ],
@@ -172,78 +170,6 @@
       "type": "direct"
     },
     {
-      "tag": "همکاری_ملی",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "جاویدشاه",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "KingRezaPahlavi",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
       "tag": "🇦🇪 AE | VLESS | @Fr33C0nfig",
       "type": "vless",
       "server": "ir894ag1733r.n33jdhj81a2s.e95v0h9lle7t.coffemoon.xyz",
@@ -252,12 +178,28 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇦🇪 AE | SS | @config_proxy",
+      "tag": "🇦🇪 AE | SS | @NamiraConfigs",
       "type": "shadowsocks",
-      "server": "151.242.251.137",
+      "server": "beesyar.org",
       "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvNW9zWmcyNjl2NXpIcFlqcjF4WTlz",
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh",
       "password": null
+    },
+    {
+      "tag": "🇦🇪 AE | SS | @NamiraConfigs",
+      "type": "shadowsocks",
+      "server": "beesyar.org",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1",
+      "password": null
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "cdn.aiteamplus.ir",
+      "server_port": 11800,
+      "uuid": "e728ebb5-fc0d-4feb-ad44-dfaea0d01dcd",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇦🇪 AE | VLESS | @filterk0sh",
@@ -345,14 +287,6 @@
       "server": "93.127.180.102",
       "server_port": 3030,
       "uuid": "6889a1d2-fb40-4fe6-ba30-8ff731799394",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @free1_vpn",
-      "type": "vless",
-      "server": "07mi3k5htug1.54q6mf94gspc.wtc2zvr8mc76.00763k.coffemoon.xyz",
-      "server_port": 1883,
-      "uuid": "cb555a11-14da-4861-88b2-0d0507262b7d",
       "packet_encoding": "xudp"
     },
     {
@@ -471,6 +405,14 @@
       "server": "v2shop-dubai1.bing-net.com",
       "server_port": 3038,
       "uuid": "84260313-d1db-4377-a71b-235b3b940649",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @v_2rayng0",
+      "type": "vless",
+      "server": "07mi3k5htug1.54q6mf94gspc.wtc2zvr8mc76.00763k.coffemoon.xyz",
+      "server_port": 1883,
+      "uuid": "cb555a11-14da-4861-88b2-0d0507262b7d",
       "packet_encoding": "xudp"
     },
     {

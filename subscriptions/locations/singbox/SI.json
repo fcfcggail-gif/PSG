@@ -90,11 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
         "🇸🇮 SI | VLESS | @filterk0sh",
-        "🇸🇮 SI | SS | @v2ray_free_conf",
         "🇸🇮 SI | SS | @NamiraConfigs"
       ],
       "tag": "proxy",
@@ -103,11 +99,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
         "🇸🇮 SI | VLESS | @filterk0sh",
-        "🇸🇮 SI | SS | @v2ray_free_conf",
         "🇸🇮 SI | SS | @NamiraConfigs"
       ],
       "tag": "auto",
@@ -118,78 +110,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "همکاری_ملی",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "جاویدشاه",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "KingRezaPahlavi",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
     },
     {
       "tag": "🇸🇮 SI | VLESS | @filterk0sh",
@@ -212,14 +132,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇸🇮 SI | SS | @v2ray_free_conf",
-      "type": "shadowsocks",
-      "server": "192.71.244.150",
-      "server_port": 989,
-      "method": "YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==",
-      "password": null
     },
     {
       "tag": "🇸🇮 SI | SS | @NamiraConfigs",

@@ -11,11 +11,12 @@ enhanced-mode-by-rule = true
 DIRECT = direct
 🇭🇰 HK | VMESS | @config_proxy = vmess, hkt.gotochinatown.net, 80, username = 336501b6-51d2-11ee-a993-f23c9164ca5d, ws = true, tls = false, ws-path = /, ws-headers = Host:"hkt.gotochinatown.net"
 🇭🇰 HK | TROJAN | @free4allvpn = trojan, 219.79.214.159, 443, password = BxceQaOe, skip-cert-verify = true
+🇭🇰 HK | VMESS | @freev2rays = vmess, hk2.lrzdx.uk, 443, username = db69d5bc-d36c-4903-f471-74b98c5cefe5, ws = true, tls = true, ws-path = /register, ws-headers = Host:"hk2.lrzdx.uk"
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇭🇰 HK | VMESS | @config_proxy, 🇭🇰 HK | TROJAN | @free4allvpn
-PSG-AUTO = url-test, 🇭🇰 HK | VMESS | @config_proxy, 🇭🇰 HK | TROJAN | @free4allvpn
-PSG-FALLBACK = fallback, 🇭🇰 HK | VMESS | @config_proxy, 🇭🇰 HK | TROJAN | @free4allvpn
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇭🇰 HK | VMESS | @config_proxy, 🇭🇰 HK | TROJAN | @free4allvpn, 🇭🇰 HK | VMESS | @freev2rays
+PSG-AUTO = url-test, 🇭🇰 HK | VMESS | @config_proxy, 🇭🇰 HK | TROJAN | @free4allvpn, 🇭🇰 HK | VMESS | @freev2rays
+PSG-FALLBACK = fallback, 🇭🇰 HK | VMESS | @config_proxy, 🇭🇰 HK | TROJAN | @free4allvpn, 🇭🇰 HK | VMESS | @freev2rays
 
 [Rule]
 GEOIP,IR,DIRECT

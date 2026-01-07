@@ -23,9 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "همکاری_ملی", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
-  - {"name": "جاویدشاه", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
-  - {"name": "KingRezaPahlavi", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
   - {"name": "🇧🇾 BY | VMESS | @ir_netproxy", "server": "89.116.38.184", "port": 3456, "type": "vmess", "skip-cert-verify": true, "uuid": "32e49539-f569-403d-b4b6-a8978c040d5d", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇧🇾 BY | VMESS | @ir_netproxy", "server": "5.161.156.196", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d20e38ef-1a4d-4009-a00d-2f0d44e3c65a", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇧🇾 BY | VMESS | @ir_netproxy", "server": "178.128.237.6", "port": 3389, "type": "vmess", "skip-cert-verify": true, "uuid": "9c050a86-d612-48f1-ec32-e573df08a1b7", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
@@ -50,9 +47,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - 'همکاری_ملی'
-      - 'جاویدشاه'
-      - 'KingRezaPahlavi'
       - '🇧🇾 BY | VMESS | @ir_netproxy'
       - '🇧🇾 BY | VMESS | @ir_netproxy'
       - '🇧🇾 BY | VMESS | @ir_netproxy'

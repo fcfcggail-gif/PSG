@@ -90,23 +90,16 @@
       "outbounds": [
         "auto",
         "direct",
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
         "🇨🇭 CH | SS | @NamiraConfigs",
         "🇨🇭 CH | SS | @NamiraConfigs",
-        "🇨🇭 CH | VLESS | @config_proxy",
         "🇨🇭 CH | SS | @freeconfigsplus",
         "🇨🇭 CH | VLESS | @minovpnch",
+        "🇨🇭 CH | VMESS | @oonfig",
         "🇨🇭 CH | VLESS | @oonfig",
         "🇨🇭 CH | VLESS | @oonfig",
         "🇨🇭 CH | SS | @orange_vpns",
         "🇨🇭 CH | SS | @orange_vpns",
-        "🇨🇭 CH | VLESS | @proxyfn",
-        "🇨🇭 CH | SS | @prrofile_purple",
-        "🇨🇭 CH | VLESS | @prrofile_purple",
-        "🇨🇭 CH | VLESS | @turboo_server",
-        "🇨🇭 CH | VLESS | @v2rayopen"
+        "🇨🇭 CH | VLESS | @proxyfn"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -114,23 +107,16 @@
     {
       "interval": "10m",
       "outbounds": [
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
         "🇨🇭 CH | SS | @NamiraConfigs",
         "🇨🇭 CH | SS | @NamiraConfigs",
-        "🇨🇭 CH | VLESS | @config_proxy",
         "🇨🇭 CH | SS | @freeconfigsplus",
         "🇨🇭 CH | VLESS | @minovpnch",
+        "🇨🇭 CH | VMESS | @oonfig",
         "🇨🇭 CH | VLESS | @oonfig",
         "🇨🇭 CH | VLESS | @oonfig",
         "🇨🇭 CH | SS | @orange_vpns",
         "🇨🇭 CH | SS | @orange_vpns",
-        "🇨🇭 CH | VLESS | @proxyfn",
-        "🇨🇭 CH | SS | @prrofile_purple",
-        "🇨🇭 CH | VLESS | @prrofile_purple",
-        "🇨🇭 CH | VLESS | @turboo_server",
-        "🇨🇭 CH | VLESS | @v2rayopen"
+        "🇨🇭 CH | VLESS | @proxyfn"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -140,78 +126,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "همکاری_ملی",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "جاویدشاه",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "KingRezaPahlavi",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
     },
     {
       "tag": "🇨🇭 CH | SS | @NamiraConfigs",
@@ -230,28 +144,6 @@
       "password": null
     },
     {
-      "tag": "🇨🇭 CH | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "sw1.krasivovpn.ru",
-      "server_port": 443,
-      "uuid": "854eea7a-c834-4f62-9e17-ae63d1086f36",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇨🇭 CH | SS | @freeconfigsplus",
       "type": "shadowsocks",
       "server": "45.95.232.236",
@@ -266,6 +158,15 @@
       "server_port": 8080,
       "uuid": "4d263c1a-fbb9-4946-a639-1de531120cde",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇨🇭 CH | VMESS | @oonfig",
+      "type": "vmess",
+      "server": "kh.shebrix.ir",
+      "server_port": 45145,
+      "uuid": "54543ce0-e87b-46d6-ad03-c1ba2b223558",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇨🇭 CH | VLESS | @oonfig",
@@ -315,38 +216,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇨🇭 CH | SS | @prrofile_purple",
-      "type": "shadowsocks",
-      "server": "45.95.232.236",
-      "server_port": 4248,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0ckhSbFZwTnNFT0xqNTVJT0FpRUx3",
-      "password": null
-    },
-    {
-      "tag": "🇨🇭 CH | VLESS | @prrofile_purple",
-      "type": "vless",
-      "server": "83.228.225.98",
-      "server_port": 24472,
-      "uuid": "14ba01de-0de4-48b4-9327-d6a2f7797764",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇨🇭 CH | VLESS | @turboo_server",
-      "type": "vless",
-      "server": "pro.turbooserver.com",
-      "server_port": 80,
-      "uuid": "8dcbc92f-5c77-42a8-8d35-064e14c55f6e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇨🇭 CH | VLESS | @v2rayopen",
-      "type": "vless",
-      "server": "84.234.30.84",
-      "server_port": 36226,
-      "uuid": "34b28d15-f76c-4b38-9450-543c49ed59f6",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

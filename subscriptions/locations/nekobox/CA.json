@@ -77,9 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
         "🇨🇦 CA | VLESS | @custom_14",
         "🇨🇦 CA | VLESS | @freeconfigsplus",
         "🇨🇦 CA | VLESS | @jokerv2ray",
@@ -99,7 +96,8 @@
         "🇨🇦 CA | VLESS | @vpnowl",
         "🇨🇦 CA | VLESS | @vpnowl",
         "🇨🇦 CA | VLESS | @vpnowl",
-        "🇨🇦 CA | SS | @NamiraConfigs"
+        "🇨🇦 CA | SS | @NamiraConfigs",
+        "🇨🇦 CA | VMESS | @NamiraConfigs"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -107,9 +105,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
         "🇨🇦 CA | VLESS | @custom_14",
         "🇨🇦 CA | VLESS | @freeconfigsplus",
         "🇨🇦 CA | VLESS | @jokerv2ray",
@@ -129,7 +124,8 @@
         "🇨🇦 CA | VLESS | @vpnowl",
         "🇨🇦 CA | VLESS | @vpnowl",
         "🇨🇦 CA | VLESS | @vpnowl",
-        "🇨🇦 CA | SS | @NamiraConfigs"
+        "🇨🇦 CA | SS | @NamiraConfigs",
+        "🇨🇦 CA | VMESS | @NamiraConfigs"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -143,78 +139,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "همکاری_ملی",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "جاویدشاه",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "KingRezaPahlavi",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
     },
     {
       "tag": "🇨🇦 CA | VLESS | @custom_14",
@@ -510,6 +434,22 @@
       "server_port": 80,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKSWhONnJCS2thRWJvTE5YVlN2NXJx",
       "password": null
+    },
+    {
+      "tag": "🇨🇦 CA | VMESS | @NamiraConfigs",
+      "type": "vmess",
+      "server": "51.79.102.253",
+      "server_port": 80,
+      "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/IOebhLMhl1CTbFHbL95myfRX2",
+        "headers": {
+          "Host": ""
+        }
+      }
     }
   ],
   "route": {

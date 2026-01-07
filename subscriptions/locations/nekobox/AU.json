@@ -77,11 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
-        "🇦🇺 AU | VLESS | @config_proxy",
         "🇦🇺 AU | VMESS | @dailyv2ray",
+        "🇦🇺 AU | VMESS | @khoneproxy",
+        "🇦🇺 AU | VLESS | @nofilter_v2rayng",
         "🇦🇺 AU | VMESS | @v2rayngconfig",
         "🇦🇺 AU | VMESS | @v2rayngconfig",
         "🇦🇺 AU | VMESS | @v2rayngconfig"
@@ -92,11 +90,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
-        "🇦🇺 AU | VLESS | @config_proxy",
         "🇦🇺 AU | VMESS | @dailyv2ray",
+        "🇦🇺 AU | VMESS | @khoneproxy",
+        "🇦🇺 AU | VLESS | @nofilter_v2rayng",
         "🇦🇺 AU | VMESS | @v2rayngconfig",
         "🇦🇺 AU | VMESS | @v2rayngconfig",
         "🇦🇺 AU | VMESS | @v2rayngconfig"
@@ -115,12 +111,29 @@
       "type": "direct"
     },
     {
-      "tag": "همکاری_ملی",
-      "type": "vless",
-      "server": "127.0.0.1",
+      "tag": "🇦🇺 AU | VMESS | @dailyv2ray",
+      "type": "vmess",
+      "server": "104.31.16.104",
+      "server_port": 80,
+      "uuid": "12c25b50-f6c7-11ed-b230-205c6d5f5d78",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/qmbdkyzn",
+        "headers": {
+          "Host": "us-4.0rd.net"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇺 AU | VMESS | @khoneproxy",
+      "type": "vmess",
+      "server": "us-2.0rd.net",
       "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
+      "uuid": "597888c0-a318-11ed-b536-205c6d5f5d78",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -132,62 +145,14 @@
       },
       "transport": {
         "type": "ws",
-        "path": "",
+        "path": "/tq98e0yk",
         "headers": {
           "Host": ""
         }
       }
     },
     {
-      "tag": "جاویدشاه",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "KingRezaPahlavi",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇦🇺 AU | VLESS | @config_proxy",
+      "tag": "🇦🇺 AU | VLESS | @nofilter_v2rayng",
       "type": "vless",
       "server": "45.15.185.69",
       "server_port": 8443,
@@ -205,22 +170,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇦🇺 AU | VMESS | @dailyv2ray",
-      "type": "vmess",
-      "server": "104.31.16.104",
-      "server_port": 80,
-      "uuid": "12c25b50-f6c7-11ed-b230-205c6d5f5d78",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/qmbdkyzn",
-        "headers": {
-          "Host": "us-4.0rd.net"
         }
       }
     },

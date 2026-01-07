@@ -23,9 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "همکاری_ملی", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
-  - {"name": "جاویدشاه", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
-  - {"name": "KingRezaPahlavi", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
   - {"name": "🇧🇷 BR | VLESS | @connectshu", "server": "199.232.13.32", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "269c963f-6021-4547-8303-cc764085603b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇧🇷 BR | VLESS | @connectshu", "server": "199.232.13.32", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "03517ec0-976e-4cac-b84b-146fc4c7b023", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇧🇷 BR | VMESS | @v2rayngconfig", "server": "144.22.171.182", "port": 17207, "type": "vmess", "skip-cert-verify": true, "uuid": "a0a098af-6a76-427f-df91-3c3dd6796e22", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "144.22.171.182"}}}
@@ -42,9 +39,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - 'همکاری_ملی'
-      - 'جاویدشاه'
-      - 'KingRezaPahlavi'
       - '🇧🇷 BR | VLESS | @connectshu'
       - '🇧🇷 BR | VLESS | @connectshu'
       - '🇧🇷 BR | VMESS | @v2rayngconfig'

@@ -77,10 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
         "🇸🇬 SG | VLESS | @kafing_2",
+        "🇸🇬 SG | VMESS | @mt_proxy",
         "🇸🇬 SG | VLESS | @nofilter_v2rayng",
         "🇸🇬 SG | VLESS | @qeshmserver",
         "🇸🇬 SG | VLESS | @qeshmserver",
@@ -95,10 +93,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
         "🇸🇬 SG | VLESS | @kafing_2",
+        "🇸🇬 SG | VMESS | @mt_proxy",
         "🇸🇬 SG | VLESS | @nofilter_v2rayng",
         "🇸🇬 SG | VLESS | @qeshmserver",
         "🇸🇬 SG | VLESS | @qeshmserver",
@@ -121,78 +117,6 @@
       "type": "direct"
     },
     {
-      "tag": "همکاری_ملی",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "جاویدشاه",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "KingRezaPahlavi",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
       "tag": "🇸🇬 SG | VLESS | @kafing_2",
       "type": "vless",
       "server": "fn11.irsbv2.ir",
@@ -208,6 +132,15 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇸🇬 SG | VMESS | @mt_proxy",
+      "type": "vmess",
+      "server": "62.146.235.193",
+      "server_port": 28011,
+      "uuid": "cfc5a87f-3c13-4e25-b556-176cdd6b5c6a",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇸🇬 SG | VLESS | @nofilter_v2rayng",

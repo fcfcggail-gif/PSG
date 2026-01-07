@@ -77,11 +77,11 @@
       "outbounds": [
         "auto",
         "direct",
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
+        "🇩🇰 DK | VLESS | @easy_free_vpn",
+        "🇩🇰 DK | VLESS | @nepo_v2ray",
         "🇩🇰 DK | VLESS | @parsashonam",
-        "🇩🇰 DK | VLESS | @parsashonam"
+        "🇩🇰 DK | VLESS | @parsashonam",
+        "🇩🇰 DK | VLESS | @vipv2rey"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,11 +89,11 @@
     {
       "interval": "10m",
       "outbounds": [
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
+        "🇩🇰 DK | VLESS | @easy_free_vpn",
+        "🇩🇰 DK | VLESS | @nepo_v2ray",
         "🇩🇰 DK | VLESS | @parsashonam",
-        "🇩🇰 DK | VLESS | @parsashonam"
+        "🇩🇰 DK | VLESS | @parsashonam",
+        "🇩🇰 DK | VLESS | @vipv2rey"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -109,76 +109,20 @@
       "type": "direct"
     },
     {
-      "tag": "همکاری_ملی",
+      "tag": "🇩🇰 DK | VLESS | @easy_free_vpn",
       "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
+      "server": "iranserver.com",
+      "server_port": 2095,
+      "uuid": "41bd1a4c-855e-4ebc-85ce-9c927840fa82",
+      "packet_encoding": "xudp"
     },
     {
-      "tag": "جاویدشاه",
+      "tag": "🇩🇰 DK | VLESS | @nepo_v2ray",
       "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "KingRezaPahlavi",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
+      "server": "iranserver.com",
+      "server_port": 2083,
+      "uuid": "946c6b42-9c09-4f6e-be4f-5d84b83b7803",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇩🇰 DK | VLESS | @parsashonam",
@@ -194,6 +138,14 @@
       "server": "199.232.40.40",
       "server_port": 80,
       "uuid": "Parsashonam-334",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇰 DK | VLESS | @vipv2rey",
+      "type": "vless",
+      "server": "iranserver.com",
+      "server_port": 2083,
+      "uuid": "07865379-86dd-4ca6-ad22-81255519c482",
       "packet_encoding": "xudp"
     }
   ],

@@ -77,17 +77,13 @@
       "outbounds": [
         "auto",
         "direct",
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
         "🇭🇰 HK | VMESS | @config_proxy",
-        "🇭🇰 HK | VLESS | @config_proxy",
         "🇭🇰 HK | TROJAN | @free4allvpn",
+        "🇭🇰 HK | VMESS | @freev2rays",
         "🇭🇰 HK | VLESS | @hope_net",
         "🇭🇰 HK | SS | @mftizi",
         "🇭🇰 HK | SS | @mftizi",
         "🇭🇰 HK | SS | @netfreedom0",
-        "🇭🇰 HK | VLESS | @server_nekobox",
         "🇭🇰 HK | SS | @v2ray_free_conf",
         "🇭🇰 HK | VLESS | @vmesskhodam"
       ],
@@ -97,17 +93,13 @@
     {
       "interval": "10m",
       "outbounds": [
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
         "🇭🇰 HK | VMESS | @config_proxy",
-        "🇭🇰 HK | VLESS | @config_proxy",
         "🇭🇰 HK | TROJAN | @free4allvpn",
+        "🇭🇰 HK | VMESS | @freev2rays",
         "🇭🇰 HK | VLESS | @hope_net",
         "🇭🇰 HK | SS | @mftizi",
         "🇭🇰 HK | SS | @mftizi",
         "🇭🇰 HK | SS | @netfreedom0",
-        "🇭🇰 HK | VLESS | @server_nekobox",
         "🇭🇰 HK | SS | @v2ray_free_conf",
         "🇭🇰 HK | VLESS | @vmesskhodam"
       ],
@@ -123,78 +115,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "همکاری_ملی",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "جاویدشاه",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "KingRezaPahlavi",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
     },
     {
       "tag": "🇭🇰 HK | VMESS | @config_proxy",
@@ -213,28 +133,6 @@
       }
     },
     {
-      "tag": "🇭🇰 HK | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "hk01-vlr01.tcp-reset-club.net",
-      "server_port": 443,
-      "uuid": "e9dbc178-3656-40f8-8833-5023f306ef1d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇭🇰 HK | TROJAN | @free4allvpn",
       "type": "trojan",
       "server": "219.79.214.159",
@@ -247,6 +145,31 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 HK | VMESS | @freev2rays",
+      "type": "vmess",
+      "server": "hk2.lrzdx.uk",
+      "server_port": 443,
+      "uuid": "db69d5bc-d36c-4903-f471-74b98c5cefe5",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "hk2.lrzdx.uk",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/register",
+        "headers": {
+          "Host": ""
         }
       }
     },
@@ -290,23 +213,6 @@
       "server_port": 38388,
       "method": "YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW",
       "password": null
-    },
-    {
-      "tag": "🇭🇰 HK | VLESS | @server_nekobox",
-      "type": "vless",
-      "server": "46.8.226.192",
-      "server_port": 443,
-      "uuid": "1e0f493a-6251-4436-b986-2a76da21d4d6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇭🇰 HK | SS | @v2ray_free_conf",

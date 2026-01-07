@@ -10,11 +10,12 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇫🇮 FI | TROJAN | @v2ray_n = trojan, 135.181.253.237, 443, password = cba32ac1-abbb-4371-ba50-19eb5c38748c, skip-cert-verify = true
+🇫🇮 FI | VMESS | @v2rayng3 = vmess, 77.42.77.66, 40100, username = 73feeed6-9a40-45b0-a26d-84770f5f05fd, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇫🇮 FI | TROJAN | @v2ray_n
-PSG-AUTO = url-test, 🇫🇮 FI | TROJAN | @v2ray_n
-PSG-FALLBACK = fallback, 🇫🇮 FI | TROJAN | @v2ray_n
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇫🇮 FI | TROJAN | @v2ray_n, 🇫🇮 FI | VMESS | @v2rayng3
+PSG-AUTO = url-test, 🇫🇮 FI | TROJAN | @v2ray_n, 🇫🇮 FI | VMESS | @v2rayng3
+PSG-FALLBACK = fallback, 🇫🇮 FI | TROJAN | @v2ray_n, 🇫🇮 FI | VMESS | @v2rayng3
 
 [Rule]
 GEOIP,IR,DIRECT
