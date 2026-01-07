@@ -81,7 +81,6 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VMESS | @Fr33C0nfig",
-        "🇺🇸 US | VMESS | @config_proxy",
         "🇫🇷 FR | VMESS | @config_proxy",
         "🇲🇺 MU | VMESS | @custom_14",
         "🇩🇪 DE | VMESS | @dailyv2ray",
@@ -151,6 +150,7 @@
         "🇺🇸 US | VMESS | @freev2rays",
         "🇽🇽 XX | VMESS | @freev2rays",
         "🇽🇽 XX | VMESS | @freev2rays",
+        "🇽🇽 XX | VMESS | @hope_net",
         "🇧🇾 BY | VMESS | @ir_netproxy",
         "🇧🇾 BY | VMESS | @ir_netproxy",
         "🇧🇾 BY | VMESS | @ir_netproxy",
@@ -248,7 +248,6 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VMESS | @Fr33C0nfig",
-        "🇺🇸 US | VMESS | @config_proxy",
         "🇫🇷 FR | VMESS | @config_proxy",
         "🇲🇺 MU | VMESS | @custom_14",
         "🇩🇪 DE | VMESS | @dailyv2ray",
@@ -318,6 +317,7 @@
         "🇺🇸 US | VMESS | @freev2rays",
         "🇽🇽 XX | VMESS | @freev2rays",
         "🇽🇽 XX | VMESS | @freev2rays",
+        "🇽🇽 XX | VMESS | @hope_net",
         "🇧🇾 BY | VMESS | @ir_netproxy",
         "🇧🇾 BY | VMESS | @ir_netproxy",
         "🇧🇾 BY | VMESS | @ir_netproxy",
@@ -496,15 +496,6 @@
       "server": "172.234.132.232",
       "server_port": 10001,
       "uuid": "a6b99c05-8e0a-4f7e-bf7b-e4b9febb9589",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @config_proxy",
-      "type": "vmess",
-      "server": "47.251.91.241",
-      "server_port": 42899,
-      "uuid": "0925b355-2bcd-4eae-9720-d2709e4f7e36",
       "security": "auto",
       "alter_id": 0
     },
@@ -1779,6 +1770,31 @@
         "path": "/",
         "headers": {
           "Host": "shs111.kejixiaoqi666.store"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @hope_net",
+      "type": "vmess",
+      "server": "zula.ir",
+      "server_port": 2096,
+      "uuid": "6647660f-9cfb-4ba3-8ca3-6214cfcdb8f0",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "kingo.hightechservice.ir",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "kingo.hightechservice.ir"
         }
       }
     },
