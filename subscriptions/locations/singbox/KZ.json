@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇰🇿 KZ | VLESS | @config_proxy",
-        "🇰🇿 KZ | VLESS | @filterk0sh"
+        "🇰🇿 KZ | VLESS | @filterk0sh",
+        "🇰🇿 KZ | VLESS | @hope_net"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇰🇿 KZ | VLESS | @config_proxy",
-        "🇰🇿 KZ | VLESS | @filterk0sh"
+        "🇰🇿 KZ | VLESS | @filterk0sh",
+        "🇰🇿 KZ | VLESS | @hope_net"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,14 +110,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇰🇿 KZ | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "31.43.179.84",
-      "server_port": 2083,
-      "uuid": "9af577f2-0a7a-4448-ae0b-6985c53ea634",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇰🇿 KZ | VLESS | @filterk0sh",
@@ -140,6 +132,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @hope_net",
+      "type": "vless",
+      "server": "31.43.179.84",
+      "server_port": 2083,
+      "uuid": "9af577f2-0a7a-4448-ae0b-6985c53ea634",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

@@ -90,13 +90,14 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @Fr33C0nfig",
+        "🇫🇮 FI | VLESS | @config_proxy",
+        "🇫🇮 FI | VLESS | @config_proxy",
+        "🇫🇮 FI | VLESS | @flyv2ray",
         "🇫🇮 FI | VLESS | @iranbfilter",
         "🇫🇮 FI | VLESS | @kafing_2",
         "🇫🇮 FI | VLESS | @kafing_2",
         "🇫🇮 FI | VLESS | @prrofile_purple",
-        "🇫🇮 FI | VLESS | @server_nekobox",
-        "🇫🇮 FI | VLESS | @v2raytg"
+        "🇫🇮 FI | VLESS | @v2raych"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -104,13 +105,14 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @Fr33C0nfig",
+        "🇫🇮 FI | VLESS | @config_proxy",
+        "🇫🇮 FI | VLESS | @config_proxy",
+        "🇫🇮 FI | VLESS | @flyv2ray",
         "🇫🇮 FI | VLESS | @iranbfilter",
         "🇫🇮 FI | VLESS | @kafing_2",
         "🇫🇮 FI | VLESS | @kafing_2",
         "🇫🇮 FI | VLESS | @prrofile_purple",
-        "🇫🇮 FI | VLESS | @server_nekobox",
-        "🇫🇮 FI | VLESS | @v2raytg"
+        "🇫🇮 FI | VLESS | @v2raych"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -122,12 +124,37 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @Fr33C0nfig",
+      "tag": "🇫🇮 FI | VLESS | @config_proxy",
       "type": "vless",
-      "server": "pysrvip.glovesstore1.ir",
-      "server_port": 3101,
-      "uuid": "8b31b301-5770-4b71-b1a9-8a9546e4fd12",
+      "server": "finland.aparat-movies-download.ir",
+      "server_port": 42538,
+      "uuid": "2556a8ce-bd8b-4a86-91e7-b95f5e81144e",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "finland.aparat-movies-download.ir",
+      "server_port": 42538,
+      "uuid": "2556a8ce-bd8b-4a86-91e7-b95f5e81144e",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @flyv2ray",
+      "type": "vless",
+      "server": "65.109.178.83",
+      "server_port": 443,
+      "uuid": "7b148add-4438-426e-a583-50f11e7bd0e4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇫🇮 FI | VLESS | @iranbfilter",
@@ -215,33 +242,11 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @server_nekobox",
+      "tag": "🇫🇮 FI | VLESS | @v2raych",
       "type": "vless",
-      "server": "65.109.184.27",
-      "server_port": 443,
-      "uuid": "de14ae87-5b0b-4012-a9d6-890f7813801a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2raytg",
-      "type": "vless",
-      "server": "pysrvip.glovesstore1.ir",
-      "server_port": 3101,
-      "uuid": "8b31b301-5770-4b71-b1a9-8a9546e4fd12",
+      "server": "finland.aparat-movies-download.ir",
+      "server_port": 42538,
+      "uuid": "2556a8ce-bd8b-4a86-91e7-b95f5e81144e",
       "packet_encoding": "xudp"
     }
   ],

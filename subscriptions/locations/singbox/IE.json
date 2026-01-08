@@ -90,8 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇮🇪 IE | VLESS | @config_proxy",
         "🇮🇪 IE | VLESS | @parsashonam",
-        "🇮🇪 IE | VLESS | @parsashonam"
+        "🇮🇪 IE | VLESS | @parsashonam",
+        "🇮🇪 IE | VLESS | @v2raych"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +101,10 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇮🇪 IE | VLESS | @config_proxy",
         "🇮🇪 IE | VLESS | @parsashonam",
-        "🇮🇪 IE | VLESS | @parsashonam"
+        "🇮🇪 IE | VLESS | @parsashonam",
+        "🇮🇪 IE | VLESS | @v2raych"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,6 +114,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇮🇪 IE | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "199.232.24.2",
+      "server_port": 80,
+      "uuid": "Parsashonam-337",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇪 IE | VLESS | @parsashonam",
@@ -125,6 +137,14 @@
       "server": "199.232.24.2",
       "server_port": 80,
       "uuid": "Parsashonam-336",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇪 IE | VLESS | @v2raych",
+      "type": "vless",
+      "server": "199.232.24.2",
+      "server_port": 80,
+      "uuid": "Parsashonam-337",
       "packet_encoding": "xudp"
     }
   ],

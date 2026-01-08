@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇩 ID | VLESS | @config_proxy",
-        "🇮🇩 ID | VLESS | @v2raych"
+        "🇰🇷 KR | SS | @config_proxy",
+        "🇰🇷 KR | VLESS | @hope_net"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇩 ID | VLESS | @config_proxy",
-        "🇮🇩 ID | VLESS | @v2raych"
+        "🇰🇷 KR | SS | @config_proxy",
+        "🇰🇷 KR | VLESS | @hope_net"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,28 +103,19 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇩 ID | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "8.215.10.202",
-      "server_port": 443,
-      "uuid": "a8067ecd-6fb7-42d2-9478-b96c5553d802",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "tag": "🇰🇷 KR | SS | @config_proxy",
+      "type": "shadowsocks",
+      "server": "121.170.203.147",
+      "server_port": 61417,
+      "method": "YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==",
+      "password": null
     },
     {
-      "tag": "🇮🇩 ID | VLESS | @v2raych",
+      "tag": "🇰🇷 KR | VLESS | @hope_net",
       "type": "vless",
-      "server": "8.215.10.202",
+      "server": "140.238.15.251",
       "server_port": 443,
-      "uuid": "a8067ecd-6fb7-42d2-9478-b96c5553d802",
+      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

@@ -77,10 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇯🇵 JP | SS | @config_proxy",
+        "🇯🇵 JP | VLESS | @config_proxy",
         "🇯🇵 JP | VLESS | @kafing_2",
-        "🇯🇵 JP | SS | @outlinereleasedkey",
-        "🇯🇵 JP | VLESS | @v2raytg"
+        "🇯🇵 JP | SS | @outlinereleasedkey"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,10 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇯🇵 JP | SS | @config_proxy",
+        "🇯🇵 JP | VLESS | @config_proxy",
         "🇯🇵 JP | VLESS | @kafing_2",
-        "🇯🇵 JP | SS | @outlinereleasedkey",
-        "🇯🇵 JP | VLESS | @v2raytg"
+        "🇯🇵 JP | SS | @outlinereleasedkey"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -107,12 +105,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇯🇵 JP | SS | @config_proxy",
-      "type": "shadowsocks",
-      "server": "172.105.199.111",
-      "server_port": 8080,
-      "method": "cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg==",
-      "password": null
+      "tag": "🇯🇵 JP | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "japan.geodema.network",
+      "server_port": 443,
+      "uuid": "a11ab9c5-4155-430b-9efc-7a7122531382",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇯🇵 JP | VLESS | @kafing_2",
@@ -143,28 +155,6 @@
       "server_port": 443,
       "method": "YWVzLTEyOC1nY206c2hhZG93c29ja3M=",
       "password": null
-    },
-    {
-      "tag": "🇯🇵 JP | VLESS | @v2raytg",
-      "type": "vless",
-      "server": "japan.geodema.network",
-      "server_port": 443,
-      "uuid": "a11ab9c5-4155-430b-9efc-7a7122531382",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     }
   ],
   "route": {

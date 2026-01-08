@@ -77,10 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇹🇷 TR | VLESS | @freeconfigsplus",
         "🇹🇷 TR | SS | @prrofile_purple",
-        "🇹🇷 TR | VLESS | @v2raych",
-        "🇹🇷 TR | TROJAN | @v2rayngconfig",
-        "🇹🇷 TR | VLESS | @vmesskhodam"
+        "🇹🇷 TR | TROJAN | @v2rayngconfig"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,10 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇹🇷 TR | VLESS | @freeconfigsplus",
         "🇹🇷 TR | SS | @prrofile_purple",
-        "🇹🇷 TR | VLESS | @v2raych",
-        "🇹🇷 TR | TROJAN | @v2rayngconfig",
-        "🇹🇷 TR | VLESS | @vmesskhodam"
+        "🇹🇷 TR | TROJAN | @v2rayngconfig"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -107,34 +105,20 @@
       "type": "direct"
     },
     {
+      "tag": "🇹🇷 TR | VLESS | @freeconfigsplus",
+      "type": "vless",
+      "server": "45.81.113.60",
+      "server_port": 4656,
+      "uuid": "1602a406-a38e-4211-bbdc-3f75c890303d",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇹🇷 TR | SS | @prrofile_purple",
       "type": "shadowsocks",
       "server": "83.217.9.17",
       "server_port": 25232,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiZ3ZMWlVmczhzaXZvQjlBN3drWWRt",
       "password": null
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @v2raych",
-      "type": "vless",
-      "server": "tr.thepon.xyz",
-      "server_port": 443,
-      "uuid": "46221cac-0d9f-4280-8d6b-12e7f3e58b0c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇹🇷 TR | TROJAN | @v2rayngconfig",
@@ -151,14 +135,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @vmesskhodam",
-      "type": "vless",
-      "server": "tr.nicren.com",
-      "server_port": 5678,
-      "uuid": "c4aac235-d112-4f6d-974c-70ae852093e1",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

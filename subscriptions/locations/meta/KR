@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇮🇩 ID | VLESS | @config_proxy", "server": "8.215.10.202", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a8067ecd-6fb7-42d2-9478-b96c5553d802", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇮🇩 ID | VLESS | @v2raych", "server": "8.215.10.202", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a8067ecd-6fb7-42d2-9478-b96c5553d802", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇰🇷 KR | VLESS | @hope_net", "server": "140.238.15.251", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇮🇩 ID | VLESS | @config_proxy'
-      - '🇮🇩 ID | VLESS | @v2raych'
+      - '🇰🇷 KR | VLESS | @hope_net'
 
   - name: 🌍 Global Media
     type: select
