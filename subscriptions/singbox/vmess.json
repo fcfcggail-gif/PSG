@@ -93,9 +93,11 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇺🇸 US | VMESS | @config_proxy",
         "🇦🇺 AU | VMESS | @dailyv2ray",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇺🇸 US | VMESS | @freev2rays",
+        "🇺🇸 US | VMESS | @hope_net",
         "🇧🇾 BY | VMESS | @ir_netproxy",
         "🇺🇸 US | VMESS | @ir_netproxy",
         "🇽🇽 XX | VMESS | @iranvpnet",
@@ -127,8 +129,7 @@
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxy48",
         "🇫🇷 FR | VMESS | @selinc",
-        "🇺🇸 US | VMESS | @v2ray_collector",
-        "🇨🇦 CA | VMESS | @NamiraConfigs"
+        "🇺🇸 US | VMESS | @v2ray_collector"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -139,9 +140,11 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇺🇸 US | VMESS | @config_proxy",
         "🇦🇺 AU | VMESS | @dailyv2ray",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇺🇸 US | VMESS | @freev2rays",
+        "🇺🇸 US | VMESS | @hope_net",
         "🇧🇾 BY | VMESS | @ir_netproxy",
         "🇺🇸 US | VMESS | @ir_netproxy",
         "🇽🇽 XX | VMESS | @iranvpnet",
@@ -173,8 +176,7 @@
         "🇽🇽 XX | VMESS | @proxie",
         "🇽🇽 XX | VMESS | @proxy48",
         "🇫🇷 FR | VMESS | @selinc",
-        "🇺🇸 US | VMESS | @v2ray_collector",
-        "🇨🇦 CA | VMESS | @NamiraConfigs"
+        "🇺🇸 US | VMESS | @v2ray_collector"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -258,6 +260,31 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VMESS | @config_proxy",
+      "type": "vmess",
+      "server": "172.67.219.194",
+      "server_port": 443,
+      "uuid": "b321fd5d-e6ec-4293-a644-164e3885f52e",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "adenc36v.xtooltech.cfd",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkws",
+        "headers": {
+          "Host": "adenc36v.xtooltech.cfd"
+        }
+      }
+    },
+    {
       "tag": "🇦🇺 AU | VMESS | @dailyv2ray",
       "type": "vmess",
       "server": "104.31.16.104",
@@ -320,6 +347,22 @@
         "path": "/d9863037",
         "headers": {
           "Host": "xcf037.facai2024.com"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @hope_net",
+      "type": "vmess",
+      "server": "www.speedtest.net",
+      "server_port": 80,
+      "uuid": "33ae86a0-473d-11ef-a6cd-1239d0255272",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/vmws",
+        "headers": {
+          "Host": "Us1.socifiles.com."
         }
       }
     },
@@ -1010,22 +1053,6 @@
         "path": "/vmessws",
         "headers": {
           "Host": "209.126.84.189"
-        }
-      }
-    },
-    {
-      "tag": "🇨🇦 CA | VMESS | @NamiraConfigs",
-      "type": "vmess",
-      "server": "51.79.102.253",
-      "server_port": 80,
-      "uuid": "58fe1542-5290-40ad-815a-77707a81afe5",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/IOebhLMhl1CTbFHbL95myfRX2",
-        "headers": {
-          "Host": ""
         }
       }
     }

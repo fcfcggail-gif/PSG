@@ -80,9 +80,11 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇺🇸 US | VMESS | @config_proxy",
         "🇦🇺 AU | VMESS | @dailyv2ray",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇺🇸 US | VMESS | @freev2rays",
+        "🇺🇸 US | VMESS | @hope_net",
         "🇧🇾 BY | VMESS | @ir_netproxy",
         "🇺🇸 US | VMESS | @ir_netproxy",
         "🇽🇽 XX | VMESS | @iranvpnet",
@@ -111,9 +113,11 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇺🇸 US | VMESS | @config_proxy",
         "🇦🇺 AU | VMESS | @dailyv2ray",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇺🇸 US | VMESS | @freev2rays",
+        "🇺🇸 US | VMESS | @hope_net",
         "🇧🇾 BY | VMESS | @ir_netproxy",
         "🇺🇸 US | VMESS | @ir_netproxy",
         "🇽🇽 XX | VMESS | @iranvpnet",
@@ -219,6 +223,31 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VMESS | @config_proxy",
+      "type": "vmess",
+      "server": "172.67.219.194",
+      "server_port": 443,
+      "uuid": "b321fd5d-e6ec-4293-a644-164e3885f52e",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "adenc36v.xtooltech.cfd",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkws",
+        "headers": {
+          "Host": "adenc36v.xtooltech.cfd"
+        }
+      }
+    },
+    {
       "tag": "🇦🇺 AU | VMESS | @dailyv2ray",
       "type": "vmess",
       "server": "104.31.16.104",
@@ -281,6 +310,22 @@
         "path": "/d9863037",
         "headers": {
           "Host": "xcf037.facai2024.com"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @hope_net",
+      "type": "vmess",
+      "server": "www.speedtest.net",
+      "server_port": 80,
+      "uuid": "33ae86a0-473d-11ef-a6cd-1239d0255272",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/vmws",
+        "headers": {
+          "Host": "Us1.socifiles.com."
         }
       }
     },
