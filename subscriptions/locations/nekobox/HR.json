@@ -77,8 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇰🇷 KR | VLESS | @config_proxy",
-        "🇰🇷 KR | VLESS | @config_proxy"
+        "🇭🇷 HR | SS | @v2ray_free_conf"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇰🇷 KR | VLESS | @config_proxy",
-        "🇰🇷 KR | VLESS | @config_proxy"
+        "🇭🇷 HR | SS | @v2ray_free_conf"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,29 +101,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇰🇷 KR | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "59.3.3.161",
-      "server_port": 443,
-      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇰🇷 KR | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "146.56.37.60",
-      "server_port": 20017,
-      "uuid": "d7dd3a35-b68b-4992-b319-a85b8a1fc8e5",
-      "packet_encoding": "xudp"
+      "tag": "🇭🇷 HR | SS | @v2ray_free_conf",
+      "type": "shadowsocks",
+      "server": "46.183.184.60",
+      "server_port": 989,
+      "method": "YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==",
+      "password": null
     }
   ],
   "route": {

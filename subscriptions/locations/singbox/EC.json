@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgS1I=
+//profile-title: base64:UFNHIHwgRUM=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇰🇷 KR | VLESS | @config_proxy",
-        "🇰🇷 KR | VLESS | @config_proxy"
+        "🇪🇨 EC | SS | @v2ray_free_conf"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇰🇷 KR | VLESS | @config_proxy",
-        "🇰🇷 KR | VLESS | @config_proxy"
+        "🇪🇨 EC | SS | @v2ray_free_conf"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,29 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇰🇷 KR | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "59.3.3.161",
-      "server_port": 443,
-      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇰🇷 KR | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "146.56.37.60",
-      "server_port": 20017,
-      "uuid": "d7dd3a35-b68b-4992-b319-a85b8a1fc8e5",
-      "packet_encoding": "xudp"
+      "tag": "🇪🇨 EC | SS | @v2ray_free_conf",
+      "type": "shadowsocks",
+      "server": "185.47.253.227",
+      "server_port": 990,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz",
+      "password": null
     }
   ],
   "route": {
