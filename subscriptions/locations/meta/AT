@@ -23,7 +23,12 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇦🇹 AT | VLESS | @config_proxy", "server": "152.53.49.144", "port": 22955, "type": "vless", "skip-cert-verify": true, "uuid": "63f92f3c-447c-4283-80b9-0af8e164cdad", "network": "t.me/entryNET", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇹 AT | VLESS | @configv2rayforfree", "server": "hajimamadvpnjoinsho.fast199.hosting-ip.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "832a3784-7ae1-4ff2-ab13-5fb4bf8abd28", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇹 AT | VLESS | @freeconfigsplus", "server": "trial.axo.foundation", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "8f9ef160-7a47-4bde-918a-7ef36d4f2579", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇦🇹 AT | VLESS | @orange_vpns", "server": "212.183.88.158", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇹 AT | VLESS | @v2raych", "server": "152.53.49.144", "port": 22955, "type": "vless", "skip-cert-verify": true, "uuid": "63f92f3c-447c-4283-80b9-0af8e164cdad", "network": "grpc", "tls": false, "udp": true, "client-fingerprint": "chrome", "grpc-opts": {"grpc-service-name": ""}}
+  - {"name": "🇦🇹 AT | VLESS | @v2raych", "server": "152.53.49.144", "port": 22955, "type": "vless", "skip-cert-verify": true, "uuid": "63f92f3c-447c-4283-80b9-0af8e164cdad", "network": "t.me/entryNET", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +42,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇦🇹 AT | VLESS | @config_proxy'
+      - '🇦🇹 AT | VLESS | @configv2rayforfree'
+      - '🇦🇹 AT | VLESS | @freeconfigsplus'
       - '🇦🇹 AT | VLESS | @orange_vpns'
+      - '🇦🇹 AT | VLESS | @v2raych'
+      - '🇦🇹 AT | VLESS | @v2raych'
 
   - name: 🌍 Global Media
     type: select

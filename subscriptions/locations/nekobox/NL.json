@@ -82,9 +82,6 @@
         "🇳🇱 NL | VLESS | @bored_vpn",
         "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @config_proxy",
-        "🇳🇱 NL | VLESS | @config_proxy",
-        "🇳🇱 NL | VLESS | @config_proxy",
-        "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇳🇱 NL | VLESS | @free4allvpn",
         "🇳🇱 NL | TROJAN | @manstervpn",
@@ -113,6 +110,7 @@
         "🇳🇱 NL | VLESS | @sobi_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
         "🇳🇱 NL | SS | @v2ray_free_conf",
+        "🇳🇱 NL | VLESS | @v2raych",
         "🇳🇱 NL | SS | @NamiraConfigs"
       ],
       "tag": "proxy",
@@ -126,9 +124,6 @@
         "🇳🇱 NL | VLESS | @bored_vpn",
         "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @config_proxy",
-        "🇳🇱 NL | VLESS | @config_proxy",
-        "🇳🇱 NL | VLESS | @config_proxy",
-        "🇳🇱 NL | VLESS | @config_proxy",
         "🇳🇱 NL | VLESS | @filterk0sh",
         "🇳🇱 NL | VLESS | @free4allvpn",
         "🇳🇱 NL | TROJAN | @manstervpn",
@@ -157,6 +152,7 @@
         "🇳🇱 NL | VLESS | @sobi_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
         "🇳🇱 NL | SS | @v2ray_free_conf",
+        "🇳🇱 NL | VLESS | @v2raych",
         "🇳🇱 NL | SS | @NamiraConfigs"
       ],
       "tag": "auto",
@@ -229,57 +225,24 @@
       "type": "vless",
       "server": "world-of.ru",
       "server_port": 443,
+      "uuid": "b4dbbfdc-4dc2-4cf5-91f9-a28a8fab10c5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "world-of.ru",
+      "server_port": 443,
       "uuid": "6c8f3cc7-e130-4d6b-ae09-738304bb4d9f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "51.158.206.19",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "gr.nodesecure.ru",
-      "server_port": 443,
-      "uuid": "e1df1966-4d5e-43ec-b2da-bb935a258351",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "51.158.206.97",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "144.31.111.130",
-      "server_port": 443,
-      "uuid": "a384c715-aeb5-45e8-859b-f687ca6c083f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -578,10 +541,27 @@
     {
       "tag": "🇳🇱 NL | SS | @v2ray_free_conf",
       "type": "shadowsocks",
-      "server": "92.112.126.90",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I",
+      "server": "193.29.139.251",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
       "password": null
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2raych",
+      "type": "vless",
+      "server": "144.124.242.141",
+      "server_port": 443,
+      "uuid": "e1df1966-4d5e-43ec-b2da-bb935a258351",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | SS | @NamiraConfigs",

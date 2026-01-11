@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇵🇱 PL | VLESS | @config_proxy", "server": "plcdn23.suio.me", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "21f8d9aa-8ec7-4340-aa0a-7ce19f244adc", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇵🇱 PL | VLESS | @kafing_2", "server": "poland.4uvpn1.us", "port": 52361, "type": "vless", "skip-cert-verify": true, "uuid": "9c0857dc-2900-4038-ac5e-c0bc189405d7", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -38,7 +37,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇵🇱 PL | VLESS | @config_proxy'
       - '🇵🇱 PL | VLESS | @kafing_2'
 
   - name: 🌍 Global Media
