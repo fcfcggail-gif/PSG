@@ -90,8 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇹🇷 TR | VLESS | @config_proxy",
         "🇹🇷 TR | SS | @outline_ir",
         "🇹🇷 TR | SS | @prrofile_purple",
+        "🇹🇷 TR | VLESS | @v2raych",
         "🇹🇷 TR | TROJAN | @v2rayngconfig"
       ],
       "tag": "proxy",
@@ -100,8 +102,10 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇹🇷 TR | VLESS | @config_proxy",
         "🇹🇷 TR | SS | @outline_ir",
         "🇹🇷 TR | SS | @prrofile_purple",
+        "🇹🇷 TR | VLESS | @v2raych",
         "🇹🇷 TR | TROJAN | @v2rayngconfig"
       ],
       "tag": "auto",
@@ -112,6 +116,28 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "45.12.143.84",
+      "server_port": 8443,
+      "uuid": "309fa273-6579-4cb2-9143-7cad50401eba",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇹🇷 TR | SS | @outline_ir",
@@ -128,6 +154,28 @@
       "server_port": 25232,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiZ3ZMWlVmczhzaXZvQjlBN3drWWRt",
       "password": null
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2raych",
+      "type": "vless",
+      "server": "45.12.143.84",
+      "server_port": 8443,
+      "uuid": "309fa273-6579-4cb2-9143-7cad50401eba",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇹🇷 TR | TROJAN | @v2rayngconfig",
