@@ -23,9 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇪🇸 ES | VLESS | @config_proxy", "server": "tunnyl.ru", "port": 54746, "type": "vless", "skip-cert-verify": true, "uuid": "6e9ea54d-801b-4542-bd7d-01e34d3b0e14", "network": "xhttp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇪🇸 ES | VLESS | @config_proxy", "server": "tunnyl.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "fe61dbab-f634-4b30-9abe-f16f1f015c92", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇪🇸 ES | VLESS | @config_proxy", "server": "199.232.33.127", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇪🇸 ES | VLESS | @config_proxy", "server": "tunnyl.ru", "port": 54746, "type": "vless", "skip-cert-verify": true, "uuid": "29cfc4db-b26d-44a8-a36e-fe20818e9021", "network": "xhttp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇪🇸 ES | VLESS | @config_proxy", "server": "tunnyl.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "220cff67-be47-4913-9465-9ebd09a16d0f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇪🇸 ES | VLESS | @freeconfigsplus", "server": "subscription.lormarb.ir", "port": 53762, "type": "vless", "skip-cert-verify": true, "uuid": "0b3dc0af-9ca6-4542-ac1a-513d0e3b8eaa", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "/", "headers": {"Host": "subscription.lormarb.ir"}}}
   - {"name": "🇪🇸 ES | VLESS | @v2raytg", "server": "p1anel.lormarb.ir", "port": 53762, "type": "vless", "skip-cert-verify": true, "uuid": "aaeddbf5-a9df-4931-b231-08909eed7501", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
@@ -41,7 +40,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇪🇸 ES | VLESS | @config_proxy'
       - '🇪🇸 ES | VLESS | @config_proxy'
       - '🇪🇸 ES | VLESS | @config_proxy'
       - '🇪🇸 ES | VLESS | @freeconfigsplus'

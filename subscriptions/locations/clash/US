@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇺🇸 US | VMESS | @config_proxy", "server": "az05.beyondy.cfd", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "3f638f34-8dba-4186-bc43-2716a7ddd4be", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/link", "headers": {"Host": "az05.beyondy.cfd"}}}
   - {"name": "🇺🇸 US | TROJAN | @free4allvpn", "server": "23.247.137.64", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "3c4e10af98c30972"}
   - {"name": "🇺🇸 US | VMESS | @freev2rays", "server": "xcf037.facai2024.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d9863037-0463-4615-e972-36ba9662d1e9", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/d9863037", "headers": {"Host": "xcf037.facai2024.com"}}}
   - {"name": "🇺🇸 US | VMESS | @ir_netproxy", "server": "172.67.207.114", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 1, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "linkvws", "headers": {"Host": "ophelia.mom"}}}
@@ -36,6 +35,7 @@ proxies:
   - {"name": "🇺🇸 US | VMESS | @v2ray4win", "server": "cf.sudoer.net", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "c11357eb-a34e-5acb-a309-f8af8082855c", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/api05", "headers": {"Host": "scherehtzflk01.schere.net"}}}
   - {"name": "🇺🇸 US | VMESS | @v2ray_collector", "server": "209.126.84.189", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "2c981164-9b93-4bca-94ff-b78d3f8498d7", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/vmessws", "headers": {"Host": "209.126.84.189"}}}
   - {"name": "🇺🇸 US | TROJAN | @v2ray_collector", "server": "198.23.229.250", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "2ee85121-31de-4581-a492-eb00f606e392"}
+  - {"name": "🇺🇸 US | VMESS | @v2ray_free_conf", "server": "172.234.132.232", "port": 10001, "type": "vmess", "skip-cert-verify": true, "uuid": "a6b99c05-8e0a-4f7e-bf7b-e4b9febb9589", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇺🇸 US | VMESS | @v2rayngconfig", "server": "new6.hucloud-dns.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "0a5dc877-0211-4352-f73a-8fbdae81d673", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "new6.hucloud-dns.xyz"}}}
   - {"name": "🇺🇸 US | VMESS | @vpngate_config", "server": "cold-dawn-9246.fly.dev", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm", "headers": {"Host": "cold-dawn-9246.fly.dev"}}}
 
@@ -51,7 +51,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇺🇸 US | VMESS | @config_proxy'
       - '🇺🇸 US | TROJAN | @free4allvpn'
       - '🇺🇸 US | VMESS | @freev2rays'
       - '🇺🇸 US | VMESS | @ir_netproxy'
@@ -64,6 +63,7 @@ proxy-groups:
       - '🇺🇸 US | VMESS | @v2ray4win'
       - '🇺🇸 US | VMESS | @v2ray_collector'
       - '🇺🇸 US | TROJAN | @v2ray_collector'
+      - '🇺🇸 US | VMESS | @v2ray_free_conf'
       - '🇺🇸 US | VMESS | @v2rayngconfig'
       - '🇺🇸 US | VMESS | @vpngate_config'
 
