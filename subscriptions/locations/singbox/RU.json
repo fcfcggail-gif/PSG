@@ -93,36 +93,6 @@
         "🇷🇺 RU | SS | @Fr33C0nfig",
         "🇷🇺 RU | SS | @Fr33C0nfig",
         "🇷🇺 RU | VLESS | @evay_vpn",
-        "🇷🇺 RU | VLESS | @flyv2ray",
-        "🇷🇺 RU | VLESS | @flyv2ray",
-        "🇷🇺 RU | VLESS | @freeconfigsplus",
-        "🇷🇺 RU | VLESS | @iranbfilter",
-        "🇷🇺 RU | VLESS | @kafing_2",
-        "🇷🇺 RU | VLESS | @nofilter_v2rayng",
-        "🇷🇺 RU | VLESS | @outline_ir",
-        "🇷🇺 RU | VMESS | @prooxyk",
-        "🇷🇺 RU | VLESS | @prrofile_purple",
-        "🇷🇺 RU | VLESS | @prrofile_purple",
-        "🇷🇺 RU | VLESS | @prrofile_purple",
-        "🇷🇺 RU | SS | @prrofile_purple",
-        "🇷🇺 RU | VLESS | @prrofile_purple",
-        "🇷🇺 RU | VLESS | @prrofile_purple",
-        "🇷🇺 RU | VLESS | @prrofile_purple",
-        "🇷🇺 RU | VLESS | @prrofile_purple",
-        "🇷🇺 RU | VLESS | @prrofile_purple",
-        "🇷🇺 RU | VLESS | @prrofile_purple",
-        "🇷🇺 RU | VLESS | @satellitenewspersian",
-        "🇷🇺 RU | VLESS | @v2raytg",
-        "🇷🇺 RU | VLESS | @vmesc"
-      ],
-      "tag": "proxy",
-      "type": "selector"
-    },
-    {
-      "interval": "10m",
-      "outbounds": [
-        "🇷🇺 RU | SS | @Fr33C0nfig",
-        "🇷🇺 RU | SS | @Fr33C0nfig",
         "🇷🇺 RU | VLESS | @evay_vpn",
         "🇷🇺 RU | VLESS | @flyv2ray",
         "🇷🇺 RU | VLESS | @flyv2ray",
@@ -143,6 +113,40 @@
         "🇷🇺 RU | VLESS | @prrofile_purple",
         "🇷🇺 RU | VLESS | @prrofile_purple",
         "🇷🇺 RU | VLESS | @satellitenewspersian",
+        "🇷🇺 RU | SS | @v2ray_free_conf",
+        "🇷🇺 RU | VLESS | @v2raytg",
+        "🇷🇺 RU | VLESS | @vmesc"
+      ],
+      "tag": "proxy",
+      "type": "selector"
+    },
+    {
+      "interval": "10m",
+      "outbounds": [
+        "🇷🇺 RU | SS | @Fr33C0nfig",
+        "🇷🇺 RU | SS | @Fr33C0nfig",
+        "🇷🇺 RU | VLESS | @evay_vpn",
+        "🇷🇺 RU | VLESS | @evay_vpn",
+        "🇷🇺 RU | VLESS | @flyv2ray",
+        "🇷🇺 RU | VLESS | @flyv2ray",
+        "🇷🇺 RU | VLESS | @freeconfigsplus",
+        "🇷🇺 RU | VLESS | @iranbfilter",
+        "🇷🇺 RU | VLESS | @kafing_2",
+        "🇷🇺 RU | VLESS | @nofilter_v2rayng",
+        "🇷🇺 RU | VLESS | @outline_ir",
+        "🇷🇺 RU | VMESS | @prooxyk",
+        "🇷🇺 RU | VLESS | @prrofile_purple",
+        "🇷🇺 RU | VLESS | @prrofile_purple",
+        "🇷🇺 RU | VLESS | @prrofile_purple",
+        "🇷🇺 RU | SS | @prrofile_purple",
+        "🇷🇺 RU | VLESS | @prrofile_purple",
+        "🇷🇺 RU | VLESS | @prrofile_purple",
+        "🇷🇺 RU | VLESS | @prrofile_purple",
+        "🇷🇺 RU | VLESS | @prrofile_purple",
+        "🇷🇺 RU | VLESS | @prrofile_purple",
+        "🇷🇺 RU | VLESS | @prrofile_purple",
+        "🇷🇺 RU | VLESS | @satellitenewspersian",
+        "🇷🇺 RU | SS | @v2ray_free_conf",
         "🇷🇺 RU | VLESS | @v2raytg",
         "🇷🇺 RU | VLESS | @vmesc"
       ],
@@ -170,6 +174,23 @@
       "server_port": 5112,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpWVmxBZmY3N0NuQVU0M0FvYzVqMTVZ",
       "password": null
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @evay_vpn",
+      "type": "vless",
+      "server": "84.201.130.151",
+      "server_port": 443,
+      "uuid": "fd4b0117-d752-46fd-9a94-21a21e360fdb",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇷🇺 RU | VLESS | @evay_vpn",
@@ -519,6 +540,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇷🇺 RU | SS | @v2ray_free_conf",
+      "type": "shadowsocks",
+      "server": "45.138.157.162",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxRkFKZEJFcXNJNzFqYVNNTDY3bkhvUEJDR2hYOTR1aw==",
+      "password": null
     },
     {
       "tag": "🇷🇺 RU | VLESS | @v2raytg",

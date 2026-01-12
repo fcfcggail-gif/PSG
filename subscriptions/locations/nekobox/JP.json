@@ -78,8 +78,11 @@
         "auto",
         "direct",
         "🇯🇵 JP | SS | @config_proxy",
+        "🇯🇵 JP | VLESS | @config_proxy",
         "🇯🇵 JP | VLESS | @free1_vpn",
-        "🇯🇵 JP | SS | @outlinereleasedkey"
+        "🇯🇵 JP | VLESS | @kafing_2",
+        "🇯🇵 JP | SS | @outlinereleasedkey",
+        "🇯🇵 JP | VLESS | @v2raych"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,8 +91,11 @@
       "interval": "10m",
       "outbounds": [
         "🇯🇵 JP | SS | @config_proxy",
+        "🇯🇵 JP | VLESS | @config_proxy",
         "🇯🇵 JP | VLESS | @free1_vpn",
-        "🇯🇵 JP | SS | @outlinereleasedkey"
+        "🇯🇵 JP | VLESS | @kafing_2",
+        "🇯🇵 JP | SS | @outlinereleasedkey",
+        "🇯🇵 JP | VLESS | @v2raych"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -111,6 +117,14 @@
       "server_port": 8080,
       "method": "cmM0LW1kNToxNGZGUHJiZXpFM0hEWnpzTU9yNg==",
       "password": null
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "66.235.104.110",
+      "server_port": 58545,
+      "uuid": "7620636b-e5cd-4949-94de-371aa405e9d1",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇯🇵 JP | VLESS | @free1_vpn",
@@ -135,12 +149,42 @@
       }
     },
     {
+      "tag": "🇯🇵 JP | VLESS | @kafing_2",
+      "type": "vless",
+      "server": "178.239.124.30",
+      "server_port": 56482,
+      "uuid": "2c487d9d-25a1-4b79-aed1-086b8c3082ca",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇯🇵 JP | SS | @outlinereleasedkey",
       "type": "shadowsocks",
       "server": "149.22.87.240",
       "server_port": 443,
       "method": "YWVzLTEyOC1nY206c2hhZG93c29ja3M=",
       "password": null
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @v2raych",
+      "type": "vless",
+      "server": "66.235.104.110",
+      "server_port": 58545,
+      "uuid": "7620636b-e5cd-4949-94de-371aa405e9d1",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
