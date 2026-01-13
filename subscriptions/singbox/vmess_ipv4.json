@@ -93,8 +93,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇩🇪 DE | VMESS | @config_proxy",
         "🇽🇽 XX | VMESS | @frev2rayng",
-        "🇩🇪 DE | VMESS | @khoneproxy",
         "🇩🇪 DE | VMESS | @khoneproxy",
         "🇩🇪 DE | VMESS | @magickey_shop",
         "🇽🇽 XX | VMESS | @proxie",
@@ -107,6 +107,7 @@
         "🇽🇽 XX | VMESS | @proxy48",
         "🇫🇷 FR | VMESS | @selinc",
         "🇺🇸 US | VMESS | @v2ray_collector",
+        "🇫🇷 FR | VMESS | @v2ray_free_conf",
         "🇨🇦 CA | VMESS | @NamiraConfigs"
       ],
       "tag": "proxy",
@@ -118,8 +119,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇩🇪 DE | VMESS | @config_proxy",
         "🇽🇽 XX | VMESS | @frev2rayng",
-        "🇩🇪 DE | VMESS | @khoneproxy",
         "🇩🇪 DE | VMESS | @khoneproxy",
         "🇩🇪 DE | VMESS | @magickey_shop",
         "🇽🇽 XX | VMESS | @proxie",
@@ -132,6 +133,7 @@
         "🇽🇽 XX | VMESS | @proxy48",
         "🇫🇷 FR | VMESS | @selinc",
         "🇺🇸 US | VMESS | @v2ray_collector",
+        "🇫🇷 FR | VMESS | @v2ray_free_conf",
         "🇨🇦 CA | VMESS | @NamiraConfigs"
       ],
       "tag": "auto",
@@ -216,6 +218,22 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | VMESS | @config_proxy",
+      "type": "vmess",
+      "server": "142.132.163.200",
+      "server_port": 80,
+      "uuid": "7f965e3e-b03f-455e-a96e-01b61f72537a",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/graphql",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VMESS | @frev2rayng",
       "type": "vmess",
       "server": "104.21.25.65",
@@ -235,22 +253,6 @@
       "transport": {
         "type": "grpc",
         "service_name": ""
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VMESS | @khoneproxy",
-      "type": "vmess",
-      "server": "142.132.163.200",
-      "server_port": 80,
-      "uuid": "7f965e3e-b03f-455e-a96e-01b61f72537a",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/graphql",
-        "headers": {
-          "Host": ""
-        }
       }
     },
     {
@@ -468,6 +470,31 @@
         "path": "/vmessws",
         "headers": {
           "Host": "209.126.84.189"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VMESS | @v2ray_free_conf",
+      "type": "vmess",
+      "server": "57.128.189.240",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {
+          "Host": ""
         }
       }
     },
