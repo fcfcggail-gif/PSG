@@ -85,10 +85,10 @@
         "🇯🇵 JP | VLESS | @free1_vpn",
         "🇩🇪 DE | VLESS | @grizzlyvpn",
         "🇩🇪 DE | VLESS | @grizzlyvpn",
+        "🇩🇪 DE | VLESS | @megavpn_link",
         "🇳🇱 NL | VLESS | @nn_vpn",
         "🇩🇪 DE | VLESS | @v2raymelliii",
         "🇫🇷 FR | VLESS | @v2rayopen",
-        "🇩🇪 DE | VLESS | @v_2rayng0",
         "🇩🇪 DE | VLESS | @vmesskhodam"
       ],
       "tag": "proxy",
@@ -105,10 +105,10 @@
         "🇯🇵 JP | VLESS | @free1_vpn",
         "🇩🇪 DE | VLESS | @grizzlyvpn",
         "🇩🇪 DE | VLESS | @grizzlyvpn",
+        "🇩🇪 DE | VLESS | @megavpn_link",
         "🇳🇱 NL | VLESS | @nn_vpn",
         "🇩🇪 DE | VLESS | @v2raymelliii",
         "🇫🇷 FR | VLESS | @v2rayopen",
-        "🇩🇪 DE | VLESS | @v_2rayng0",
         "🇩🇪 DE | VLESS | @vmesskhodam"
       ],
       "tag": "auto",
@@ -266,6 +266,28 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @megavpn_link",
+      "type": "vless",
+      "server": "all32-vip.f-sub.com",
+      "server_port": 2434,
+      "uuid": "84e919b0-2a5d-4fad-8614-df01dd210b8e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇳🇱 NL | VLESS | @nn_vpn",
       "type": "vless",
       "server": "sadaf.netherlands.mehrdadsadaf.com",
@@ -301,28 +323,6 @@
       "server": "maxb17.musicdoon.ir",
       "server_port": 8080,
       "uuid": "2c7a2b04-ad16-484b-b0e4-739cd06b650f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @v_2rayng0",
-      "type": "vless",
-      "server": "phdde1.reachheadphones.com",
-      "server_port": 443,
-      "uuid": "239ed41c-4af6-49ba-8156-ff2310ea5d78",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
