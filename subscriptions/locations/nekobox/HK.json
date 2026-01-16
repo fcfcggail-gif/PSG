@@ -77,11 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | VLESS | @config_proxy",
-        "🇭🇰 HK | VLESS | @config_proxy",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇭🇰 HK | SS | @netfreedom0",
-        "🇭🇰 HK | VLESS | @v2raych"
+        "🇭🇰 HK | SS | @v2ray_free_conf"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,11 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | VLESS | @config_proxy",
-        "🇭🇰 HK | VLESS | @config_proxy",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇭🇰 HK | SS | @netfreedom0",
-        "🇭🇰 HK | VLESS | @v2raych"
+        "🇭🇰 HK | SS | @v2ray_free_conf"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -107,31 +103,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇭🇰 HK | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "43.161.254.121",
-      "server_port": 443,
-      "uuid": "e258977b-e413-4718-a3af-02d75492c349",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇭🇰 HK | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "43.161.253.78",
-      "server_port": 9527,
-      "uuid": "d4a23188-85b0-4b46-b84b-f1d36d66c03e",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇭🇰 HK | VMESS | @freev2rays",
@@ -167,12 +138,12 @@
       "password": null
     },
     {
-      "tag": "🇭🇰 HK | VLESS | @v2raych",
-      "type": "vless",
-      "server": "43.161.253.78",
-      "server_port": 9527,
-      "uuid": "d4a23188-85b0-4b46-b84b-f1d36d66c03e",
-      "packet_encoding": "xudp"
+      "tag": "🇭🇰 HK | SS | @v2ray_free_conf",
+      "type": "shadowsocks",
+      "server": "203.23.128.33",
+      "server_port": 990,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz",
+      "password": null
     }
   ],
   "route": {
