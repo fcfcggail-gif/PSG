@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇪🇪 EE | VLESS | @hope_net",
         "🇪🇪 EE | VLESS | @vip_vpn_2022"
       ],
       "tag": "proxy",
@@ -98,6 +99,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇪🇪 EE | VLESS | @hope_net",
         "🇪🇪 EE | VLESS | @vip_vpn_2022"
       ],
       "tag": "auto",
@@ -108,6 +110,23 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @hope_net",
+      "type": "vless",
+      "server": "45.80.110.245",
+      "server_port": 8443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇪🇪 EE | VLESS | @vip_vpn_2022",

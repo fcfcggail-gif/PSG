@@ -77,9 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇳 IN | VLESS | @config_proxy",
+        "🇮🇳 IN | TROJAN | @config_proxy",
         "🇮🇳 IN | VLESS | @prrofile_purple",
-        "🇮🇳 IN | VLESS | @v2raych",
         "🇮🇳 IN | VLESS | @v2raytg"
       ],
       "tag": "proxy",
@@ -88,9 +87,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇳 IN | VLESS | @config_proxy",
+        "🇮🇳 IN | TROJAN | @config_proxy",
         "🇮🇳 IN | VLESS | @prrofile_purple",
-        "🇮🇳 IN | VLESS | @v2raych",
         "🇮🇳 IN | VLESS | @v2raytg"
       ],
       "tag": "auto",
@@ -107,12 +105,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇳 IN | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "india.novaads.shop",
-      "server_port": 42537,
-      "uuid": "42961e67-c3e0-4b84-8d71-1ff20bdcedae",
-      "packet_encoding": "xudp"
+      "tag": "🇮🇳 IN | TROJAN | @config_proxy",
+      "type": "trojan",
+      "server": "98.70.26.236",
+      "server_port": 443,
+      "password": "5a2c16f9",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇮🇳 IN | VLESS | @prrofile_purple",
@@ -135,14 +141,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇮🇳 IN | VLESS | @v2raych",
-      "type": "vless",
-      "server": "india.novaads.shop",
-      "server_port": 42537,
-      "uuid": "42961e67-c3e0-4b84-8d71-1ff20bdcedae",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇳 IN | VLESS | @v2raytg",

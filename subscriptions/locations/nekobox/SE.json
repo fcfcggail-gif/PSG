@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇸🇪 SE | VLESS | @config_proxy",
         "🇸🇪 SE | VLESS | @deli_servers",
         "🇸🇪 SE | VLESS | @free_vip3",
         "🇸🇪 SE | VLESS | @free_vip3",
@@ -85,7 +86,7 @@
         "🇸🇪 SE | VLESS | @free_vip3",
         "🇸🇪 SE | VLESS | @free_vip3",
         "🇸🇪 SE | VLESS | @free_vip3",
-        "🇸🇪 SE | VLESS | @kafing_2",
+        "🇸🇪 SE | VLESS | @hope_net",
         "🇸🇪 SE | VLESS | @kurd_v2ray",
         "🇸🇪 SE | VLESS | @kurd_v2ray",
         "🇸🇪 SE | VLESS | @kurd_v2ray",
@@ -115,8 +116,6 @@
         "🇸🇪 SE | VLESS | @minovpnch",
         "🇸🇪 SE | VLESS | @proxyfn",
         "🇸🇪 SE | VLESS | @prrofile_purple",
-        "🇸🇪 SE | VLESS | @prrofile_purple",
-        "🇸🇪 SE | VLESS | @prrofile_purple",
         "🇸🇪 SE | VLESS | @realvpnmaster",
         "🇸🇪 SE | VLESS | @realvpnmaster",
         "🇸🇪 SE | VLESS | @realvpnmaster",
@@ -130,7 +129,6 @@
         "🇸🇪 SE | VLESS | @v2logy",
         "🇸🇪 SE | VLESS | @v2logy",
         "🇸🇪 SE | VLESS | @v2logy",
-        "🇸🇪 SE | VLESS | @v2raytg",
         "🇸🇪 SE | VLESS | @v_2rayng0",
         "🇸🇪 SE | TUIC | @vipv2rey",
         "🇸🇪 SE | TUIC | @vipv2rey"
@@ -141,6 +139,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇸🇪 SE | VLESS | @config_proxy",
         "🇸🇪 SE | VLESS | @deli_servers",
         "🇸🇪 SE | VLESS | @free_vip3",
         "🇸🇪 SE | VLESS | @free_vip3",
@@ -149,7 +148,7 @@
         "🇸🇪 SE | VLESS | @free_vip3",
         "🇸🇪 SE | VLESS | @free_vip3",
         "🇸🇪 SE | VLESS | @free_vip3",
-        "🇸🇪 SE | VLESS | @kafing_2",
+        "🇸🇪 SE | VLESS | @hope_net",
         "🇸🇪 SE | VLESS | @kurd_v2ray",
         "🇸🇪 SE | VLESS | @kurd_v2ray",
         "🇸🇪 SE | VLESS | @kurd_v2ray",
@@ -179,8 +178,6 @@
         "🇸🇪 SE | VLESS | @minovpnch",
         "🇸🇪 SE | VLESS | @proxyfn",
         "🇸🇪 SE | VLESS | @prrofile_purple",
-        "🇸🇪 SE | VLESS | @prrofile_purple",
-        "🇸🇪 SE | VLESS | @prrofile_purple",
         "🇸🇪 SE | VLESS | @realvpnmaster",
         "🇸🇪 SE | VLESS | @realvpnmaster",
         "🇸🇪 SE | VLESS | @realvpnmaster",
@@ -194,7 +191,6 @@
         "🇸🇪 SE | VLESS | @v2logy",
         "🇸🇪 SE | VLESS | @v2logy",
         "🇸🇪 SE | VLESS | @v2logy",
-        "🇸🇪 SE | VLESS | @v2raytg",
         "🇸🇪 SE | VLESS | @v_2rayng0",
         "🇸🇪 SE | TUIC | @vipv2rey",
         "🇸🇪 SE | TUIC | @vipv2rey"
@@ -211,6 +207,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "78.40.116.146",
+      "server_port": 4241,
+      "uuid": "ef35bc72-e360-499d-8dd2-2aa5e5b60dd0",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇸🇪 SE | VLESS | @deli_servers",
@@ -326,12 +330,19 @@
       }
     },
     {
-      "tag": "🇸🇪 SE | VLESS | @kafing_2",
+      "tag": "🇸🇪 SE | VLESS | @hope_net",
       "type": "vless",
-      "server": "ip-range.coin.name.ng",
-      "server_port": 8443,
-      "uuid": "ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4",
-      "packet_encoding": "xudp"
+      "server": "185.146.173.58",
+      "server_port": 8080,
+      "uuid": "7810fc1e-44e6-4e3d-8494-908aa1a8427d",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
     },
     {
       "tag": "🇸🇪 SE | VLESS | @kurd_v2ray",
@@ -636,22 +647,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇸🇪 SE | VLESS | @prrofile_purple",
-      "type": "vless",
-      "server": "ip-range.coin.name.ng",
-      "server_port": 8443,
-      "uuid": "ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @prrofile_purple",
-      "type": "vless",
-      "server": "ip-range.coin.name.ng",
-      "server_port": 8443,
-      "uuid": "ccbe6b7c-9264-40c4-8bc1-ef8f6205d7a4",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇸🇪 SE | VLESS | @realvpnmaster",
       "type": "vless",
       "server": "185.146.173.185",
@@ -767,14 +762,6 @@
       "server": "185.146.173.237",
       "server_port": 80,
       "uuid": "telegram-id-ArV2ray",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @v2raytg",
-      "type": "vless",
-      "server": "sweden.aparat-movies-download.ir",
-      "server_port": 42505,
-      "uuid": "6756b904-5e14-40bc-86f7-ab05966a0bc7",
       "packet_encoding": "xudp"
     },
     {

@@ -23,7 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇲🇩 MD | VLESS | @config_proxy", "server": "86.104.74.158", "port": 4443, "type": "vless", "skip-cert-verify": true, "uuid": "3f688b2a-373a-4be1-846d-b159404b73b2", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇲🇩 MD | VLESS | @config_proxy", "server": "94.131.118.117", "port": 4443, "type": "vless", "skip-cert-verify": true, "uuid": "3f688b2a-373a-4be1-846d-b159404b73b2", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇲🇩 MD | VLESS | @config_proxy", "server": "94.131.101.112", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "93a20fae-54f4-4e25-93ef-995b3e52fc04", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇲🇩 MD | TROJAN | @orange_vpns", "server": "trunker.cc", "port": 8080, "type": "trojan", "skip-cert-verify": false, "password": "nYzYreUpD4dDjzjFcgf6Fe3oaw4QFN"}
+  - {"name": "🇲🇩 MD | VLESS | @v2raych", "server": "94.131.101.112", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "93a20fae-54f4-4e25-93ef-995b3e52fc04", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +41,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇲🇩 MD | VLESS | @config_proxy'
+      - '🇲🇩 MD | VLESS | @config_proxy'
+      - '🇲🇩 MD | VLESS | @config_proxy'
       - '🇲🇩 MD | TROJAN | @orange_vpns'
+      - '🇲🇩 MD | VLESS | @v2raych'
 
   - name: 🌍 Global Media
     type: select

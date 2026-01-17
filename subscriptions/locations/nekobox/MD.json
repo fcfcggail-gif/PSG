@@ -77,8 +77,11 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇲🇩 MD | VLESS | @config_proxy",
+        "🇲🇩 MD | VLESS | @config_proxy",
+        "🇲🇩 MD | VLESS | @config_proxy",
         "🇲🇩 MD | TROJAN | @orange_vpns",
-        "🇲🇩 MD | SS | @v2ray_free_conf",
+        "🇲🇩 MD | VLESS | @v2raych",
         "🇲🇩 MD | SS | @vmesc"
       ],
       "tag": "proxy",
@@ -87,8 +90,11 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇲🇩 MD | VLESS | @config_proxy",
+        "🇲🇩 MD | VLESS | @config_proxy",
+        "🇲🇩 MD | VLESS | @config_proxy",
         "🇲🇩 MD | TROJAN | @orange_vpns",
-        "🇲🇩 MD | SS | @v2ray_free_conf",
+        "🇲🇩 MD | VLESS | @v2raych",
         "🇲🇩 MD | SS | @vmesc"
       ],
       "tag": "auto",
@@ -105,6 +111,72 @@
       "type": "direct"
     },
     {
+      "tag": "🇲🇩 MD | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "86.104.74.158",
+      "server_port": 4443,
+      "uuid": "3f688b2a-373a-4be1-846d-b159404b73b2",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇲🇩 MD | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "94.131.118.117",
+      "server_port": 4443,
+      "uuid": "3f688b2a-373a-4be1-846d-b159404b73b2",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇲🇩 MD | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "94.131.101.112",
+      "server_port": 8443,
+      "uuid": "93a20fae-54f4-4e25-93ef-995b3e52fc04",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇲🇩 MD | TROJAN | @orange_vpns",
       "type": "trojan",
       "server": "trunker.cc",
@@ -112,12 +184,26 @@
       "password": "nYzYreUpD4dDjzjFcgf6Fe3oaw4QFN"
     },
     {
-      "tag": "🇲🇩 MD | SS | @v2ray_free_conf",
-      "type": "shadowsocks",
-      "server": "185.153.197.5",
-      "server_port": 989,
-      "method": "YWVzLTI1Ni1jZmI6ZjhmN2FDemNQS2JzRjhwMw==",
-      "password": null
+      "tag": "🇲🇩 MD | VLESS | @v2raych",
+      "type": "vless",
+      "server": "94.131.101.112",
+      "server_port": 8443,
+      "uuid": "93a20fae-54f4-4e25-93ef-995b3e52fc04",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇲🇩 MD | SS | @vmesc",

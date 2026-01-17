@@ -90,10 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | VLESS | @config_proxy",
         "🇭🇰 HK | VMESS | @freev2rays",
-        "🇭🇰 HK | SS | @netfreedom0",
-        "🇭🇰 HK | SS | @v2raych"
+        "🇭🇰 HK | SS | @netfreedom0"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,10 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | VLESS | @config_proxy",
         "🇭🇰 HK | VMESS | @freev2rays",
-        "🇭🇰 HK | SS | @netfreedom0",
-        "🇭🇰 HK | SS | @v2raych"
+        "🇭🇰 HK | SS | @netfreedom0"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,23 +110,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇭🇰 HK | VLESS | @config_proxy",
-      "type": "vless",
-      "server": "43.161.254.121",
-      "server_port": 443,
-      "uuid": "e258977b-e413-4718-a3af-02d75492c349",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇭🇰 HK | VMESS | @freev2rays",
@@ -163,14 +142,6 @@
       "server": "216.250.97.82",
       "server_port": 38388,
       "method": "YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW",
-      "password": null
-    },
-    {
-      "tag": "🇭🇰 HK | SS | @v2raych",
-      "type": "shadowsocks",
-      "server": "gd.bjnet2.com",
-      "server_port": 36602,
-      "method": "YWVzLTEyOC1nY206YmUxYzZlYWItM2Q3MC00Y2YwLWFlOWEtYjMxNzVjN2RmYjQ3",
       "password": null
     }
   ],
