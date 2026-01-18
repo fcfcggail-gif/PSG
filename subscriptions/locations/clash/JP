@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇮🇷 IR | VMESS | @config_proxy", "server": "185.141.215.109", "port": 17405, "type": "vmess", "skip-cert-verify": true, "uuid": "b4045433-c0a1-4f12-a6d8-657b44e2467c", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇯🇵 JP | TROJAN | @config_proxy", "server": "160.16.87.174", "port": 1933, "type": "trojan", "skip-cert-verify": false, "password": "4843e94d205f3893f588255a591abe94", "sni": "www.nintendogames.net"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇮🇷 IR | VMESS | @config_proxy'
+      - '🇯🇵 JP | TROJAN | @config_proxy'
 
   - name: 🌍 Global Media
     type: select
