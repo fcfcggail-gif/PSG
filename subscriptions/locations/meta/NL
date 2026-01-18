@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇳🇱 NL | VLESS | @config_proxy", "server": "cache.nlb.cdn.stemstep.cloud", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "c5bdca74-975a-4a03-863e-12b8d72a44f0", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇳🇱 NL | VLESS | @config_proxy", "server": "midorinote.online", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "55e9b476-53fb-4a91-9d0e-48098267d926", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇳🇱 NL | VLESS | @config_proxy", "server": "world-of.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0a22d368-d406-4cbf-a293-fe4aca476bd4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @filterk0sh", "server": "eng14.netliberated.org", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0bb6dff2-0029-4b81-8c81-4fc70fae1ed9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇱 NL | VLESS | @free4allvpn", "server": "103.90.75.252", "port": 3001, "type": "vless", "skip-cert-verify": true, "uuid": "61757901-3818-46c7-8482-683fa7f6ba10", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | TROJAN | @manstervpn", "server": "185.176.24.2", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "bpb-trojan"}
@@ -58,7 +57,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇳🇱 NL | VLESS | @config_proxy'
       - '🇳🇱 NL | VLESS | @config_proxy'
       - '🇳🇱 NL | VLESS | @filterk0sh'
       - '🇳🇱 NL | VLESS | @free4allvpn'

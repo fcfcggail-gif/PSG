@@ -91,7 +91,10 @@
         "auto",
         "direct",
         "🇦🇺 AU | VMESS | @dailyv2ray",
-        "🇦🇺 AU | VLESS | @nofilter_v2rayng"
+        "🇦🇺 AU | VLESS | @hope_net",
+        "🇦🇺 AU | VMESS | @khoneproxy",
+        "🇦🇺 AU | VLESS | @nofilter_v2rayng",
+        "🇦🇺 AU | VLESS | @v2raych"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +103,10 @@
       "interval": "10m",
       "outbounds": [
         "🇦🇺 AU | VMESS | @dailyv2ray",
-        "🇦🇺 AU | VLESS | @nofilter_v2rayng"
+        "🇦🇺 AU | VLESS | @hope_net",
+        "🇦🇺 AU | VMESS | @khoneproxy",
+        "🇦🇺 AU | VLESS | @nofilter_v2rayng",
+        "🇦🇺 AU | VLESS | @v2raych"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -128,6 +134,48 @@
       }
     },
     {
+      "tag": "🇦🇺 AU | VLESS | @hope_net",
+      "type": "vless",
+      "server": "103.169.142.141",
+      "server_port": 443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇺 AU | VMESS | @khoneproxy",
+      "type": "vmess",
+      "server": "us-2.0rd.net",
+      "server_port": 443,
+      "uuid": "597888c0-a318-11ed-b536-205c6d5f5d78",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/tq98e0yk",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
       "tag": "🇦🇺 AU | VLESS | @nofilter_v2rayng",
       "type": "vless",
       "server": "45.15.185.69",
@@ -146,6 +194,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇦🇺 AU | VLESS | @v2raych",
+      "type": "vless",
+      "server": "103.169.142.141",
+      "server_port": 443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }
