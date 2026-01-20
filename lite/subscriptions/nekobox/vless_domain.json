@@ -179,7 +179,6 @@
         "🇽🇽 XX | VLESS | @v2raybe",
         "🇽🇽 XX | VLESS | @v2raych",
         "🇽🇽 XX | VLESS | @v2raych",
-        "🇽🇽 XX | VLESS | @v2raych",
         "🇬🇧 GB | VLESS | @v2rayfast_7",
         "🇬🇧 GB | VLESS | @v2rayfast_7",
         "🇨🇾 CY | VLESS | @v2raymelliii",
@@ -200,6 +199,8 @@
         "🇽🇽 XX | VLESS | @vmesc",
         "🇽🇽 XX | VLESS | @vmesskhodam",
         "🇽🇽 XX | VLESS | @vmesskhodam",
+        "🇽🇽 XX | VLESS | @vmesskhodam",
+        "🇽🇽 XX | VLESS | @vpn_ioss",
         "🇽🇽 XX | VLESS | @vpnplusee_free",
         "🇬🇧 GB | VLESS | @vpnplusee_free",
         "🇽🇽 XX | VLESS | @wbrovers",
@@ -313,7 +314,6 @@
         "🇽🇽 XX | VLESS | @v2raybe",
         "🇽🇽 XX | VLESS | @v2raych",
         "🇽🇽 XX | VLESS | @v2raych",
-        "🇽🇽 XX | VLESS | @v2raych",
         "🇬🇧 GB | VLESS | @v2rayfast_7",
         "🇬🇧 GB | VLESS | @v2rayfast_7",
         "🇨🇾 CY | VLESS | @v2raymelliii",
@@ -334,6 +334,8 @@
         "🇽🇽 XX | VLESS | @vmesc",
         "🇽🇽 XX | VLESS | @vmesskhodam",
         "🇽🇽 XX | VLESS | @vmesskhodam",
+        "🇽🇽 XX | VLESS | @vmesskhodam",
+        "🇽🇽 XX | VLESS | @vpn_ioss",
         "🇽🇽 XX | VLESS | @vpnplusee_free",
         "🇬🇧 GB | VLESS | @vpnplusee_free",
         "🇽🇽 XX | VLESS | @wbrovers",
@@ -477,9 +479,18 @@
       "tag": "🇽🇽 XX | VLESS | @config_proxy",
       "type": "vless",
       "server": "chatgpt.com",
-      "server_port": 8443,
-      "uuid": "e8f4b63e-3509-4bce-b542-3bc85874f33d",
-      "packet_encoding": "xudp"
+      "server_port": 443,
+      "uuid": "ea3f180c-8141-4e03-b11c-4d542767a417",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @configasli",
@@ -1569,17 +1580,9 @@
     {
       "tag": "🇽🇽 XX | VLESS | @v2raych",
       "type": "vless",
-      "server": "chatgpt.com",
-      "server_port": 2053,
-      "uuid": "fec9b787-11ab-4fa7-aba8-cb3fd607cf03",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2raych",
-      "type": "vless",
-      "server": "freenet.tawana.online",
-      "server_port": 443,
-      "uuid": "8b9542dd-9ae7-4755-98ef-75eca309d1ca",
+      "server": "v1.dabache.top",
+      "server_port": 8443,
+      "uuid": "55d9ec38-1b8a-454b-981a-6acfe8f56d8c",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -1594,10 +1597,19 @@
     {
       "tag": "🇽🇽 XX | VLESS | @v2raych",
       "type": "vless",
-      "server": "chatgpt.com",
-      "server_port": 2053,
-      "uuid": "8a07740f-b932-4372-a3a2-ed91f184cd33",
-      "packet_encoding": "xudp"
+      "server": "vip1.kaixincloud.top",
+      "server_port": 443,
+      "uuid": "b5dbd0aa-22f6-4a00-9bcc-3606fa8fc56d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇬🇧 GB | VLESS | @v2rayfast_7",
@@ -1848,6 +1860,31 @@
       "server": "chatgpt.com",
       "server_port": 443,
       "uuid": "d07e5eee-2943-466b-8df0-6d6d6ed0865d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @vmesskhodam",
+      "type": "vless",
+      "server": "chatgpt.com",
+      "server_port": 2053,
+      "uuid": "fec9b787-11ab-4fa7-aba8-cb3fd607cf03",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @vpn_ioss",
+      "type": "vless",
+      "server": "purplelily.qzz.io",
+      "server_port": 443,
+      "uuid": "9ac02124-e3f2-4a80-8ac8-d06612ebaceb",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
