@@ -41,7 +41,7 @@ CONSTANTS = {
     'LITE_LIMIT': 3,
     'TIMEOUT': 15,
     'DNS_WORKERS': 50,
-    'TCP_WORKERS': 100,  # New: Concurrent TCP check limit
+    'TCP_WORKERS': 100,
     'TCP_TIMEOUT': 3, 
     'FAKE_NAMES': ['#همکاری_ملی', '#جاویدشاه', '#KingRezaPahlavi'],
     'CLOUDFLARE_CIDRS': [
@@ -51,7 +51,9 @@ CONSTANTS = {
         "104.24.0.0/14", "172.64.0.0/13", "131.0.72.0/22", "2400:cb00::/32",
         "2606:4700::/32", "2803:f800::/32", "2405:b500::/32", "2405:8100::/32",
         "2a06:98c0::/29", "2c0f:f248::/32"
-    ]
+    ],
+    # NEW: Domains to filter for the AI group
+    'AI_DOMAINS': ['openai.com', 'chatgpt.com', 'claude.com', 'claude.ai']
 }
 
 # Pre-compile Regex and Networks
@@ -77,7 +79,6 @@ class ConfigUtils:
 
     @staticmethod
     def detect_type(config: str) -> Optional[str]:
-        # FIX: Case insensitive check
         lower = config[:20].lower()
         if lower.startswith('vmess://'): return 'vmess'
         if lower.startswith('vless://'): return 'vless'
@@ -138,6 +139,13 @@ class ConfigUtils:
             "#support-url: https://t.me/yebekhe\n"
             "#profile-web-page-url: https://github.com/itsyebekhe/PSG\n\n"
         )
+    
+    @staticmethod
+    def safe_base64_decode(text: str) -> str:
+        try:
+            return ConfigUtils.decode_base64(text)
+        except:
+            return text
 
 
 class ConfigParser:
@@ -159,7 +167,6 @@ class ConfigParser:
     @staticmethod
     def _parse_vmess(config_str: str) -> Optional[Dict]:
         try:
-            # FIX: Handle "VMESS://" vs "vmess://" string slicing
             prefix_len = 8 # vmess://
             b64 = config_str[prefix_len:]
             json_str = ConfigUtils.decode_base64(b64)
@@ -190,7 +197,6 @@ class ConfigParser:
         user_info = parsed.netloc
         host_port = ""
         
-        # Handle ss://BASE64@host:port
         if '@' in user_info:
             user_pass_b64, host_port = user_info.rsplit('@', 1)
             try:
@@ -201,13 +207,11 @@ class ConfigParser:
                     method = "auto"
                     password = decoded
             except:
-                # Fallback: maybe it wasn't base64?
                 if ':' in user_pass_b64:
                     method, password = user_pass_b64.split(':', 1)
                 else:
                     return None
         else:
-            # Handle ss://BASE64_FULL_LINK
             decoded_full = ConfigUtils.decode_base64(user_info)
             if '@' in decoded_full:
                 method_pass, host_port = decoded_full.rsplit('@', 1)
@@ -218,7 +222,6 @@ class ConfigParser:
             else:
                 return None
 
-        # Parse Host and Port
         host = ""
         port = ""
         if ']:' in host_port:
@@ -321,7 +324,6 @@ class ConfigParser:
             components.extend(norm(parsed.get(k, '')) for k in keys)
         else:
             params = parsed.get('params', {})
-            # We must ignore the 'name' or 'fp' if we want real duplicates
             param_str = "&".join(f"{k}={v}" for k, v in sorted(params.items()) if k not in ['remarks', 'name'])
             components.extend([
                 norm(parsed.get('user', '')),
@@ -341,16 +343,12 @@ class SubscriptionProcessor:
         self.geo_reader = None
         self.channel_assets = {}
         self.all_configs = []
-        # Semaphore to prevent "Too many open files" during DNS resolution
         self.dns_semaphore = asyncio.Semaphore(CONSTANTS['DNS_WORKERS'])
         self.tcp_semaphore = asyncio.Semaphore(CONSTANTS['TCP_WORKERS'])
 
     async def initialize(self):
         self.session = aiohttp.ClientSession()
         
-        # --- FIX: CLEANUP OLD ARTIFACTS ---
-        # We must remove the old output directories because the structure might have changed
-        # (e.g., 'normal' changing from a file to a folder).
         dirs_to_clean = [
             PATHS['TEMP'], 
             PATHS['OUTPUT_SUBS'], 
@@ -365,13 +363,11 @@ class SubscriptionProcessor:
                 except Exception as e:
                     logger.warning(f"Could not remove {d}: {e}")
 
-        # Ensure directories exist
         for path in [PATHS['TEMP'], PATHS['FINAL_ASSETS'], PATHS['API'], 
                      os.path.join(PATHS['TEMP'], 'logos'), 
                      os.path.join(PATHS['TEMP'], 'html_cache')]:
             os.makedirs(path, exist_ok=True)
         
-        # Prepare GEOIP
         await self._setup_geoip()
 
     async def cleanup(self):
@@ -405,43 +401,28 @@ class SubscriptionProcessor:
             logger.warning("Could not load GeoIP database.")
 
     async def check_reachability(self, parsed: Dict) -> bool:
-        """
-        Tests if the config host:port is reachable via TCP.
-        Handles SNI fallback if host is missing.
-        Safely handles missing ports.
-        """
-        # 1. Safe Port Extraction
         raw_port = parsed.get('port')
-        if not raw_port:
-            return False
+        if not raw_port: return False
         
         try:
             port = int(raw_port)
         except ValueError:
             return False
 
-        # 2. Determine Target Host
         host = parsed.get('host') or parsed.get('add', '')
-        
-        # SNI Fallback logic
         sni = parsed.get('sni') or parsed.get('params', {}).get('sni') or parsed.get('params', {}).get('host')
         
         if (not host or host == '127.0.0.1') and sni:
             host = sni
 
-        if not host:
-            return False
+        if not host: return False
 
-        # 3. Clean IPv6 brackets
         target_host = host.strip('[]')
 
         async with self.tcp_semaphore:
             try:
-                # Attempt TCP Handshake
                 future = asyncio.open_connection(target_host, port)
                 reader, writer = await asyncio.wait_for(future, timeout=CONSTANTS['TCP_TIMEOUT'])
-                
-                # Connection Successful
                 writer.close()
                 await writer.wait_closed()
                 return True
@@ -580,32 +561,25 @@ class SubscriptionProcessor:
         final_list = []
         lite_list = []
         api_data = []
-        groups = {'channels': defaultdict(list), 'locations': defaultdict(list)}
+        # Added 'ai' group to store filtered AI configs
+        groups = {'channels': defaultdict(list), 'locations': defaultdict(list), 'ai': []}
         channel_counts = defaultdict(int)
         
         total = len(unique_map)
         logger.info(f"Processing {total} configs (Checking TCP + GeoIP)...")
-
-        # We will process tasks in batches to keep the progress bar accurate
-        # and prevent queuing 10,000 tasks instantly.
         
         for i, (fp, (orig, parsed, chan)) in enumerate(unique_map.items()):
             if i % 100 == 0: sys.stdout.write(f"\rProcessing... {int(i/total*100)}%")
             
-            # --- NEW STEP: Check TCP Connectivity ---
             is_reachable = await self.check_reachability(parsed)
             if not is_reachable:
-                # Skip dead configs
                 continue
-            # ----------------------------------------
 
             clean_chan = chan.strip().lstrip('@')
             host = parsed.get('host') or parsed.get('add', '')
             
-            # Resolve DNS for GeoIP
             ip = await self.resolve_ip(host)
             
-            # ... (Rest of the logic remains exactly the same) ...
             country_code = self.get_geo_code(ip)
             is_cf = ConfigUtils.is_cloudflare(ip)
             flag = self.get_flag(country_code)
@@ -624,6 +598,22 @@ class SubscriptionProcessor:
             if is_cf:
                 groups['locations']['CF'].append(final_str)
             
+            # --- NEW: Cloudflare + VLESS + AI Domain Logic ---
+            # Checks if IP is CF, Type is VLESS, and SNI/Host contains openai/chatgpt/claude
+            if is_cf and parsed['type'] == 'vless':
+                sni = parsed.get('sni') or parsed.get('params', {}).get('sni') or ''
+                check_host = parsed.get('host') or parsed.get('add') or ''
+                
+                is_ai_config = False
+                for domain in CONSTANTS['AI_DOMAINS']:
+                    if domain in sni or domain in check_host:
+                        is_ai_config = True
+                        break
+                
+                if is_ai_config:
+                    groups['ai'].append(final_str)
+            # --------------------------------------------------
+
             if channel_counts[clean_chan] < CONSTANTS['LITE_LIMIT']:
                 lite_list.append(final_str)
                 channel_counts[clean_chan] += 1
@@ -648,8 +638,8 @@ class SubscriptionProcessor:
         if os.path.exists(PATHS['FINAL_ASSETS']): shutil.rmtree(PATHS['FINAL_ASSETS'])
         shutil.copytree(PATHS['TEMP'], PATHS['FINAL_ASSETS'])
 
-        def write_subscription_package(configs: List[str], base_dir: str, title_prefix: str):
-            groups = defaultdict(lambda: defaultdict(list))
+        def write_subscription_package(configs: List[str], base_dir: str, title_prefix: str, ai_configs: List[str] = None):
+            proto_groups = defaultdict(lambda: defaultdict(list))
             fake_configs = [ConfigUtils.create_fake_config(n) for n in CONSTANTS['FAKE_NAMES']]
             
             for c in configs:
@@ -659,15 +649,19 @@ class SubscriptionProcessor:
                 if not parsed: continue
                 host = parsed.get('host') or parsed.get('add', '')
                 addr_type = ConfigUtils.get_address_type(host)
-                groups[ct][addr_type].append(c)
+                proto_groups[ct][addr_type].append(c)
                 if ct == 'vless' and ConfigUtils.is_reality(c):
-                    groups['reality'][addr_type].append(c)
+                    proto_groups['reality'][addr_type].append(c)
                 if ConfigUtils.is_xhttp(c):
-                    groups['xhttp'][addr_type].append(c)
+                    proto_groups['xhttp'][addr_type].append(c)
 
             self._write_files(base_dir, 'mix', configs, f"{title_prefix} | MIX", fake_configs)
 
-            for proto, addr_groups in groups.items():
+            # Write specific AI config file if provided
+            if ai_configs:
+                self._write_files(base_dir, 'openai', ai_configs, f"{title_prefix} | OpenAI/Claude", fake_configs)
+
+            for proto, addr_groups in proto_groups.items():
                 all_proto_configs = []
                 for at, confs in addr_groups.items():
                     if not confs: continue
@@ -680,8 +674,10 @@ class SubscriptionProcessor:
                     self._write_files(base_dir, proto, all_proto_configs, header_title, fake_configs)
 
         logger.info("Writing files...")
-        write_subscription_package(final_list, os.path.join(PATHS['OUTPUT_SUBS'], 'xray'), "PSG")
-        write_subscription_package(lite_list, os.path.join(PATHS['OUTPUT_LITE'], 'xray'), "PSG Lite")
+        # Pass the AI group to the writer
+        write_subscription_package(final_list, os.path.join(PATHS['OUTPUT_SUBS'], 'xray'), "PSG", groups['ai'])
+        # Lite version gets the same AI configs (or filtered if you prefer, currently sending all detected)
+        write_subscription_package(lite_list, os.path.join(PATHS['OUTPUT_LITE'], 'xray'), "PSG Lite", groups['ai'])
         
         for loc, confs in groups['locations'].items():
             safe_name = re.sub(r'[^a-zA-Z0-9]', '', loc) or "XX"
@@ -689,7 +685,6 @@ class SubscriptionProcessor:
             self._write_files(path, safe_name, confs, f"PSG | Location {loc}")
 
         for chan, confs in groups['channels'].items():
-            # --- FIX: Sanitize channel name to prevent filesystem errors ---
             safe_chan = re.sub(r'[^a-zA-Z0-9_.-]', '_', chan)
             path = os.path.join(PATHS['OUTPUT_SUBS'], 'channels', safe_chan)
             self._write_files(path, 'list', confs, f"PSG | @{chan}")
@@ -702,7 +697,6 @@ class SubscriptionProcessor:
 
     def _write_files(self, directory: str, filename: str, configs: List[str], title: str, prepends: List[str] = None):
         """Writes both Normal and Base64 versions of a file."""
-        # This will now succeed because initialize() deleted the old bad structure
         os.makedirs(os.path.join(directory, 'normal'), exist_ok=True)
         os.makedirs(os.path.join(directory, 'base64'), exist_ok=True)
         
@@ -723,7 +717,6 @@ class SubscriptionProcessor:
 async def main():
     processor = SubscriptionProcessor()
     try:
-        # 1. Initialize (This cleans up the old folders causing the error)
         await processor.initialize()
         
         logger.info("1. Fetching Sources")
@@ -739,11 +732,11 @@ async def main():
         processor.write_output(final, lite, groups, api_data)
         
     finally:
-        # Ensures session is closed even if scripts crash
         await processor.cleanup()
         logger.info("Cleanup done.")
 
 if __name__ == "__main__":
     if os.name == 'nt':
         asyncio.set_event_loop_policy(asyncio.WindowsSelectorEventLoopPolicy())
+
     asyncio.run(main())
