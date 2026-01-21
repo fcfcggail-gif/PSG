@@ -102,8 +102,6 @@
         "🇳🇱 NL | VLESS | @sobi_vpn",
         "🇳🇱 NL | VLESS | @v2aryng_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
-        "🇳🇱 NL | VLESS | @v2raych",
-        "🇳🇱 NL | VLESS | @v2raych",
         "🇳🇱 NL | SS | @NamiraConfigs"
       ],
       "tag": "proxy",
@@ -137,8 +135,6 @@
         "🇳🇱 NL | VLESS | @sobi_vpn",
         "🇳🇱 NL | VLESS | @v2aryng_vpn",
         "🇳🇱 NL | VLESS | @v2ray_collector",
-        "🇳🇱 NL | VLESS | @v2raych",
-        "🇳🇱 NL | VLESS | @v2raych",
         "🇳🇱 NL | SS | @NamiraConfigs"
       ],
       "tag": "auto",
@@ -157,10 +153,19 @@
     {
       "tag": "🇳🇱 NL | VLESS | @config_proxy",
       "type": "vless",
-      "server": "45.131.208.37",
-      "server_port": 8880,
-      "uuid": "82fdc77c-5def-4930-89a6-afb5cc609d4b",
-      "packet_encoding": "xudp"
+      "server": "world-of.ru",
+      "server_port": 443,
+      "uuid": "a3bfb107-ae1b-487e-9064-c067ac9dfaac",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @filterk0sh",
@@ -424,31 +429,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @v2raych",
-      "type": "vless",
-      "server": "45.131.208.37",
-      "server_port": 8880,
-      "uuid": "82fdc77c-5def-4930-89a6-afb5cc609d4b",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @v2raych",
-      "type": "vless",
-      "server": "194.5.97.158",
-      "server_port": 443,
-      "uuid": "e48bd3bf-b241-4d18-8b10-743154b05882",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },
