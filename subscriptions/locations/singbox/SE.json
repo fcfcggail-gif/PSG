@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇸🇪 SE | VLESS | @config_proxy",
         "🇸🇪 SE | VLESS | @deli_servers",
         "🇸🇪 SE | VLESS | @free_vip3",
         "🇸🇪 SE | VLESS | @free_vip3",
@@ -139,7 +140,6 @@
         "🇸🇪 SE | VLESS | @v2logy",
         "🇸🇪 SE | VLESS | @v2logy",
         "🇸🇪 SE | VLESS | @v2logy",
-        "🇸🇪 SE | VLESS | @v_2rayng0",
         "🇸🇪 SE | TUIC | @vipv2rey",
         "🇸🇪 SE | TUIC | @vipv2rey"
       ],
@@ -149,6 +149,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇸🇪 SE | VLESS | @config_proxy",
         "🇸🇪 SE | VLESS | @deli_servers",
         "🇸🇪 SE | VLESS | @free_vip3",
         "🇸🇪 SE | VLESS | @free_vip3",
@@ -198,7 +199,6 @@
         "🇸🇪 SE | VLESS | @v2logy",
         "🇸🇪 SE | VLESS | @v2logy",
         "🇸🇪 SE | VLESS | @v2logy",
-        "🇸🇪 SE | VLESS | @v_2rayng0",
         "🇸🇪 SE | TUIC | @vipv2rey",
         "🇸🇪 SE | TUIC | @vipv2rey"
       ],
@@ -210,6 +210,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "185.146.173.93",
+      "server_port": 2095,
+      "uuid": "DIGiV2RAY",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇸🇪 SE | VLESS | @deli_servers",
@@ -735,23 +743,6 @@
       "server_port": 80,
       "uuid": "telegram-id-ArV2ray",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @v_2rayng0",
-      "type": "vless",
-      "server": "192.71.82.2",
-      "server_port": 443,
-      "uuid": "a5c05c1e-aa68-443f-8598-09800244bd4b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇸🇪 SE | TUIC | @vipv2rey",

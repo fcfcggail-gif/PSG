@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇵🇰 PK | VLESS | @filtershekan_channel", "server": "103.175.79.10", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "49ed01ad-3bb4-204f-b0ff-a58f658fd618", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇦🇱 AL | VLESS | @config_proxy", "server": "op.mobileggatte.ir", "port": 4558, "type": "vless", "skip-cert-verify": true, "uuid": "dbbe163b-b446-45dd-97ca-6a0a0667a7c6", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇵🇰 PK | VLESS | @filtershekan_channel'
+      - '🇦🇱 AL | VLESS | @config_proxy'
 
   - name: 🌍 Global Media
     type: select

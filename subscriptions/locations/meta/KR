@@ -23,7 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇰🇷 KR | VLESS | @config_proxy", "server": "146.56.136.39", "port": 10099, "type": "vless", "skip-cert-verify": true, "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇰🇷 KR | VMESS | @config_proxy", "server": "dv4.789900.xyz", "port": 2096, "type": "vmess", "skip-cert-verify": true, "uuid": "0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05-vm", "headers": {"Host": "dv4.789900.xyz"}}}
+  - {"name": "🇰🇷 KR | VLESS | @v2raych", "server": "168.107.29.97", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇰🇷 KR | VLESS | @v2raych", "server": "152.70.239.74", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇰🇷 KR | VLESS | @v2raych", "server": "144.24.92.117", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +40,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇰🇷 KR | VLESS | @config_proxy'
+      - '🇰🇷 KR | VMESS | @config_proxy'
+      - '🇰🇷 KR | VLESS | @v2raych'
+      - '🇰🇷 KR | VLESS | @v2raych'
+      - '🇰🇷 KR | VLESS | @v2raych'
 
   - name: 🌍 Global Media
     type: select

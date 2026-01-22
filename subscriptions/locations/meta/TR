@@ -23,6 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇹🇷 TR | VLESS | @config_proxy", "server": "46.31.76.120", "port": 56879, "type": "vless", "skip-cert-verify": true, "uuid": "2f9ecfde-5600-4261-9939-107e8462c528", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇹🇷 TR | VLESS | @config_proxy", "server": "telewebion.com.visualfinearts.com.tr", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "9fbc1c4a-287a-4bfb-ae2d-5ec14b32605e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @prrofile_purple", "server": "telewebion.com.visualfinearts.com.tr", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "9fbc1c4a-287a-4bfb-ae2d-5ec14b32605e", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇹🇷 TR | TROJAN | @v2rayngconfig", "server": "194.146.26.40", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "2ea5fc44-bd38-4fb0-a9b9-88c83fc56622"}
 
 proxy-groups:
@@ -37,6 +40,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇹🇷 TR | VLESS | @config_proxy'
+      - '🇹🇷 TR | VLESS | @config_proxy'
+      - '🇹🇷 TR | VLESS | @prrofile_purple'
       - '🇹🇷 TR | TROJAN | @v2rayngconfig'
 
   - name: 🌍 Global Media

@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSUU=
+//profile-title: base64:UFNHIHwgQlk=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇪 IE | VLESS | @configv2rayforfree"
+        "🇧🇾 BY | VMESS | @ir_netproxy"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇪 IE | VLESS | @configv2rayforfree"
+        "🇧🇾 BY | VMESS | @ir_netproxy"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,22 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇪 IE | VLESS | @configv2rayforfree",
-      "type": "vless",
-      "server": "hajimamadvpnjoinsho.fast199.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "832a3784-7ae1-4ff2-ab13-5fb4bf8abd28",
-      "packet_encoding": "xudp"
+      "tag": "🇧🇾 BY | VMESS | @ir_netproxy",
+      "type": "vmess",
+      "server": "5.161.156.196",
+      "server_port": 443,
+      "uuid": "d20e38ef-1a4d-4009-a00d-2f0d44e3c65a",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "internet.life.com.by",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

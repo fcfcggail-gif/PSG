@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇭🇰 HK | VLESS | @config_proxy",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇭🇰 HK | SS | @netfreedom0"
       ],
@@ -99,6 +100,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇭🇰 HK | VLESS | @config_proxy",
         "🇭🇰 HK | VMESS | @freev2rays",
         "🇭🇰 HK | SS | @netfreedom0"
       ],
@@ -110,6 +112,23 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇭🇰 HK | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "n1761184282.74qxv.top",
+      "server_port": 443,
+      "uuid": "824dc1b1-e35b-4121-ad73-9acaf13d6410",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇭🇰 HK | VMESS | @freev2rays",

@@ -23,7 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇸🇮 SI | VLESS | @filterk0sh", "server": "92.60.78.221", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "6897c181-24b1-4880-8660-e6c5c7ee13c7", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇵🇱 PL | VLESS | @config_proxy", "server": "zen-core.megaconfig.com", "port": 1198, "type": "vless", "skip-cert-verify": true, "uuid": "9f51682b-487d-4912-9418-c659cbe8f4ed", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇵🇱 PL | VLESS | @config_proxy", "server": "zen-core.megaconfig.com", "port": 1198, "type": "vless", "skip-cert-verify": true, "uuid": "9f51682b-487d-4912-9418-c659cbe8f4ed", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇵🇱 PL | VLESS | @config_proxy", "server": "meta-hub.megaconfig.com", "port": 1198, "type": "vless", "skip-cert-verify": true, "uuid": "1c7ea794-1efc-4f4a-a56a-f3904d94cab9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇸🇮 SI | VLESS | @filterk0sh'
+      - '🇵🇱 PL | VLESS | @config_proxy'
+      - '🇵🇱 PL | VLESS | @config_proxy'
+      - '🇵🇱 PL | VLESS | @config_proxy'
 
   - name: 🌍 Global Media
     type: select

@@ -77,9 +77,14 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇦🇪 AE | VLESS | @config_proxy",
+        "🇦🇪 AE | VLESS | @config_proxy",
+        "🇦🇪 AE | VLESS | @config_proxy",
         "🇦🇪 AE | VLESS | @iran_access",
         "🇦🇪 AE | SS | @netfreedom0",
-        "🇦🇪 AE | SS | @outlinereleasedkey"
+        "🇦🇪 AE | SS | @outlinereleasedkey",
+        "🇦🇪 AE | VLESS | @prrofile_purple",
+        "🇦🇪 AE | VLESS | @vpnplusee_free"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +92,14 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇦🇪 AE | VLESS | @config_proxy",
+        "🇦🇪 AE | VLESS | @config_proxy",
+        "🇦🇪 AE | VLESS | @config_proxy",
         "🇦🇪 AE | VLESS | @iran_access",
         "🇦🇪 AE | SS | @netfreedom0",
-        "🇦🇪 AE | SS | @outlinereleasedkey"
+        "🇦🇪 AE | SS | @outlinereleasedkey",
+        "🇦🇪 AE | VLESS | @prrofile_purple",
+        "🇦🇪 AE | VLESS | @vpnplusee_free"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,6 +113,58 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "uae.torprospeed.ir",
+      "server_port": 587,
+      "uuid": "65a1e22c-d37e-4b92-b6ca-1d09dcd1d441",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "uae.torprospeed.ir",
+      "server_port": 587,
+      "uuid": "65a1e22c-d37e-4b92-b6ca-1d09dcd1d441",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "uae.torprospeed.ir",
+      "server_port": 587,
+      "uuid": "65a1e22c-d37e-4b92-b6ca-1d09dcd1d441",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇦🇪 AE | VLESS | @iran_access",
@@ -141,6 +203,36 @@
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q",
       "password": null
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @prrofile_purple",
+      "type": "vless",
+      "server": "ae.aparat-movies-download.ir",
+      "server_port": 42539,
+      "uuid": "5a76fdef-97a2-43cd-93b9-e9646a7d6a6c",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @vpnplusee_free",
+      "type": "vless",
+      "server": "86.106.26.239",
+      "server_port": 443,
+      "uuid": "0d93b787-b66b-4696-a036-a0f549764f69",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

@@ -77,7 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇰🇷 KR | VLESS | @config_proxy"
+        "🇰🇷 KR | VMESS | @config_proxy",
+        "🇰🇷 KR | VLESS | @v2raych",
+        "🇰🇷 KR | VLESS | @v2raych",
+        "🇰🇷 KR | VLESS | @v2raych"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +88,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇰🇷 KR | VLESS | @config_proxy"
+        "🇰🇷 KR | VMESS | @config_proxy",
+        "🇰🇷 KR | VLESS | @v2raych",
+        "🇰🇷 KR | VLESS | @v2raych",
+        "🇰🇷 KR | VLESS | @v2raych"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,11 +107,44 @@
       "type": "direct"
     },
     {
-      "tag": "🇰🇷 KR | VLESS | @config_proxy",
+      "tag": "🇰🇷 KR | VMESS | @config_proxy",
+      "type": "vmess",
+      "server": "dv4.789900.xyz",
+      "server_port": 2096,
+      "uuid": "0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "dv4.789900.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/0c8f3e29-4ec9-4ba6-a6ef-4487873f5d05-vm",
+        "headers": {
+          "Host": "dv4.789900.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇰🇷 KR | VLESS | @v2raych",
       "type": "vless",
-      "server": "146.56.136.39",
-      "server_port": 10099,
-      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "server": "168.107.29.97",
+      "server_port": 8443,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇰🇷 KR | VLESS | @v2raych",
+      "type": "vless",
+      "server": "152.70.239.74",
+      "server_port": 443,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -116,6 +155,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇰🇷 KR | VLESS | @v2raych",
+      "type": "vless",
+      "server": "144.24.92.117",
+      "server_port": 8443,
+      "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

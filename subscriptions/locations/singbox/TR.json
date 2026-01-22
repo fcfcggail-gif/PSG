@@ -90,7 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇹🇷 TR | VLESS | @config_proxy",
+        "🇹🇷 TR | VLESS | @config_proxy",
         "🇹🇷 TR | SS | @outline_ir",
+        "🇹🇷 TR | VLESS | @prrofile_purple",
         "🇹🇷 TR | TROJAN | @v2rayngconfig"
       ],
       "tag": "proxy",
@@ -99,7 +102,10 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇹🇷 TR | VLESS | @config_proxy",
+        "🇹🇷 TR | VLESS | @config_proxy",
         "🇹🇷 TR | SS | @outline_ir",
+        "🇹🇷 TR | VLESS | @prrofile_purple",
         "🇹🇷 TR | TROJAN | @v2rayngconfig"
       ],
       "tag": "auto",
@@ -112,12 +118,73 @@
       "type": "direct"
     },
     {
+      "tag": "🇹🇷 TR | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "46.31.76.120",
+      "server_port": 56879,
+      "uuid": "2f9ecfde-5600-4261-9939-107e8462c528",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @config_proxy",
+      "type": "vless",
+      "server": "telewebion.com.visualfinearts.com.tr",
+      "server_port": 443,
+      "uuid": "9fbc1c4a-287a-4bfb-ae2d-5ec14b32605e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇹🇷 TR | SS | @outline_ir",
       "type": "shadowsocks",
       "server": "154.205.148.202",
       "server_port": 11201,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3MTgwNzcxOGY1OTNkM2U2",
       "password": null
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @prrofile_purple",
+      "type": "vless",
+      "server": "telewebion.com.visualfinearts.com.tr",
+      "server_port": 443,
+      "uuid": "9fbc1c4a-287a-4bfb-ae2d-5ec14b32605e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇹🇷 TR | TROJAN | @v2rayngconfig",
