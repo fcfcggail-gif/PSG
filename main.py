@@ -41,9 +41,9 @@ CONSTANTS = {
     'LITE_LIMIT': 2,
     'NORMAL_LIMIT': 4,
     'TIMEOUT': 15,
-    'DNS_WORKERS': 100,      # Increased for faster bulk resolution
-    'TCP_WORKERS': 500,      # Increased significantly for parallel checking
-    'TCP_TIMEOUT': 2,        # Reduced slightly to fail faster
+    'DNS_WORKERS': 100,
+    'TCP_WORKERS': 500,
+    'TCP_TIMEOUT': 2,
     'FAKE_NAMES': ['#همکاری_ملی', '#جاویدشاه', '#KingRezaPahlavi'],
     'CLOUDFLARE_CIDRS': [
         "173.245.48.0/20", "103.21.244.0/22", "103.22.200.0/22", "103.31.4.0/22",
@@ -53,7 +53,11 @@ CONSTANTS = {
         "2606:4700::/32", "2803:f800::/32", "2405:b500::/32", "2405:8100::/32",
         "2a06:98c0::/29", "2c0f:f248::/32"
     ],
-    'AI_DOMAINS': ['openai.com', 'chatgpt.com', 'claude.com', 'claude.ai']
+    'AI_DOMAINS': ['openai.com', 'chatgpt.com', 'claude.com', 'claude.ai'],
+    # --- UPDATE THESE TO MATCH YOUR REPO ---
+    'GITHUB_USER': 'itsyebekhe',
+    'GITHUB_REPO': 'PSG',
+    'GITHUB_BRANCH': 'main'
 }
 
 # Pre-compile Regex and Networks
@@ -136,7 +140,7 @@ class ConfigUtils:
             "#profile-update-interval: 1\n"
             "#subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531\n"
             "#support-url: https://t.me/yebekhe\n"
-            "#profile-web-page-url: https://github.com/itsyebekhe/PSG\n\n"
+            f"#profile-web-page-url: https://github.com/{CONSTANTS['GITHUB_USER']}/{CONSTANTS['GITHUB_REPO']}\n\n"
         )
     
     @staticmethod
@@ -414,7 +418,6 @@ class SubscriptionProcessor:
         if not host: return None
         if host in self.dns_cache: return self.dns_cache[host]
         
-        # Check if already IP
         try:
             ipaddress.ip_address(host.strip('[]'))
             self.dns_cache[host] = host.strip('[]')
@@ -433,17 +436,10 @@ class SubscriptionProcessor:
                 return None
 
     async def check_reachability(self, ip: str, port: int) -> bool:
-        """
-        Modified to take resolved IP directly. 
-        This prevents re-resolving DNS and uses the IP determined earlier.
-        """
         if not ip or not port: return False
-        
         target_ip = ip.strip('[]')
-
         async with self.tcp_semaphore:
             try:
-                # Use open_connection with the resolved IP
                 future = asyncio.open_connection(target_ip, port)
                 reader, writer = await asyncio.wait_for(future, timeout=CONSTANTS['TCP_TIMEOUT'])
                 writer.close()
@@ -567,11 +563,6 @@ class SubscriptionProcessor:
         return unique_map
 
     async def _process_config_parallel(self, fp, orig, parsed, chan) -> Optional[Dict]:
-        """
-        Helper function to handle Resolution -> Check -> Result for a single config.
-        This allows us to schedule all configs at once.
-        """
-        # 1. Extract Info
         raw_port = parsed.get('port')
         if not raw_port: return None
         try:
@@ -586,19 +577,13 @@ class SubscriptionProcessor:
         
         if not host: return None
 
-        # 2. Resolve IP (Goal 1: Address to IP)
         ip = await self.resolve_ip(host)
         if not ip: return None
 
-        # 3. Check TCP using Resolved IP (Goal 2: Optimization)
-        # This saves a DNS lookup and works with the bulk resolved cache
         is_reachable = await self.check_reachability(ip, port)
-        
-        if not is_reachable:
-            return None
+        if not is_reachable: return None
 
-        # 4. Prepare Result Data
-        country_code = self.get_geo_code(ip) # Using resolved IP
+        country_code = self.get_geo_code(ip)
         is_cf = ConfigUtils.is_cloudflare(ip)
         flag = self.get_flag(country_code)
         
@@ -626,21 +611,17 @@ class SubscriptionProcessor:
         total = len(unique_map)
         logger.info(f"Processing {total} configs (Mass Parallel Check)...")
         
-        # --- Create Parallel Tasks ---
         tasks = []
         for fp, (orig, parsed, chan) in unique_map.items():
             tasks.append(self._process_config_parallel(fp, orig, parsed, chan))
             
-        # --- Execute All Tasks Concurrently ---
-        # This reduces time from 28min to ~1-2min depending on bandwidth
         results = await asyncio.gather(*tasks)
         
         logger.info("Checks complete. Formatting results...")
         
         for res in results:
-            if not res: continue # Skip unreachable
+            if not res: continue
 
-            # Unpack results
             parsed = res['parsed']
             chan = res['chan']
             country_code = res['country_code']
@@ -650,7 +631,6 @@ class SubscriptionProcessor:
             clean_chan = chan.strip().lstrip('@')
             ctype_disp = parsed.get('type', 'UNK').upper()
             
-            # --- Tagging ---
             combo_key = f"{country_code}_{ctype_disp}"
             channel_name_counter[clean_chan][combo_key] += 1
             count_idx = channel_name_counter[clean_chan][combo_key]
@@ -660,7 +640,6 @@ class SubscriptionProcessor:
             final_str = ConfigParser.reassemble(parsed, new_tag)
             if not final_str: continue
             
-            # --- Logic: Normal Limit ---
             if normal_channel_counts[clean_chan] < CONSTANTS['NORMAL_LIMIT']:
                 final_list.append(final_str)
                 groups['channels'][clean_chan].append(final_str)
@@ -668,7 +647,6 @@ class SubscriptionProcessor:
                 if is_cf:
                     groups['locations']['CF'].append(final_str)
                 
-                # Check for AI
                 if is_cf and parsed['type'] == 'vless':
                     sni = parsed.get('sni') or parsed.get('params', {}).get('sni') or ''
                     check_host = parsed.get('host') or parsed.get('add') or ''
@@ -682,7 +660,6 @@ class SubscriptionProcessor:
                 
                 normal_channel_counts[clean_chan] += 1
 
-            # --- Logic: Lite Limit ---
             if lite_channel_counts[clean_chan] < CONSTANTS['LITE_LIMIT']:
                 lite_list.append(final_str)
                 lite_channel_counts[clean_chan] += 1
@@ -778,6 +755,54 @@ class SubscriptionProcessor:
         except IOError as e:
             logger.error(f"Failed to write {filename} in {directory}: {e}")
 
+    async def send_telegram_notification(self, total_normal: int, total_lite: int):
+        token = os.getenv('TG_TOKEN')
+        chat_id = os.getenv('TG_CHAT_ID')
+
+        if not token or not chat_id:
+            logger.warning("Telegram Credentials not found. Skipping notification.")
+            return
+
+        base_url = f"https://raw.githubusercontent.com/{CONSTANTS['GITHUB_USER']}/{CONSTANTS['GITHUB_REPO']}/{CONSTANTS['GITHUB_BRANCH']}"
+        
+        # Prepare Message in Persian with Base64 links
+        message = (
+            f"<b>🚀 بروزرسانی PSG تکمیل شد</b>\n"
+            f"📅 <i>{datetime.now().strftime('%Y-%m-%d %H:%M:%S')}</i>\n\n"
+            f"📊 <b>آمار:</b>\n"
+            f"• کانفیگ‌های عادی: {total_normal}\n"
+            f"• کانفیگ‌های سبک: {total_lite}\n\n"
+            f"🔗 <b>لینک‌های اشتراک (Base64):</b>\n\n"
+            f"🌍 <b>اشتراک عادی (میکس):</b>\n"
+            f"<code>{base_url}/subscriptions/xray/base64/mix</code>\n\n"
+            f"🚀 <b>اشتراک سبک (میکس):</b>\n"
+            f"<code>{base_url}/lite/subscriptions/xray/base64/mix</code>\n\n"
+            f"🤖 <b>API جیسون:</b>\n"
+            f"<code>{base_url}/api/allConfigs.json</code>\n\n"
+            f"📱 <b>کلاینت‌های پیشنهادی:</b>\n"
+            f"• Android: <b>v2rayNG</b>, <b>Hiddify</b>\n"
+            f"• iOS: <b>Streisand</b>, <b>V2Box</b>, <b>Shadowrocket</b>\n"
+            f"• Windows/Mac: <b>v2rayN</b>, <b>Hiddify</b>\n\n"
+            f"#Update #Proxy #V2ray"
+        )
+
+        url = f"https://api.telegram.org/bot{token}/sendMessage"
+        payload = {
+            'chat_id': chat_id,
+            'text': message,
+            'parse_mode': 'HTML',
+            'disable_web_page_preview': True
+        }
+
+        try:
+            async with self.session.post(url, json=payload) as response:
+                if response.status == 200:
+                    logger.info("Telegram notification sent successfully.")
+                else:
+                    logger.error(f"Failed to send Telegram notification: {await response.text()}")
+        except Exception as e:
+            logger.error(f"Error sending Telegram notification: {e}")
+
 # --- Entry Point ---
 
 async def main():
@@ -797,6 +822,9 @@ async def main():
         logger.info("4. Writing Outputs")
         processor.write_output(final, lite, groups, api_data)
         
+        logger.info("5. Sending Notification")
+        await processor.send_telegram_notification(len(final), len(lite))
+
     finally:
         await processor.cleanup()
         logger.info("Cleanup done.")
