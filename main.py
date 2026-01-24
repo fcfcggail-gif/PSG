@@ -39,11 +39,11 @@ URLS = {
 
 CONSTANTS = {
     'LITE_LIMIT': 2,
-    'NORMAL_LIMIT': 4, # <--- NEW: Limit for the main subscription per channel
+    'NORMAL_LIMIT': 4,
     'TIMEOUT': 15,
-    'DNS_WORKERS': 50,
-    'TCP_WORKERS': 100,
-    'TCP_TIMEOUT': 3, 
+    'DNS_WORKERS': 100,      # Increased for faster bulk resolution
+    'TCP_WORKERS': 500,      # Increased significantly for parallel checking
+    'TCP_TIMEOUT': 2,        # Reduced slightly to fail faster
     'FAKE_NAMES': ['#همکاری_ملی', '#جاویدشاه', '#KingRezaPahlavi'],
     'CLOUDFLARE_CIDRS': [
         "173.245.48.0/20", "103.21.244.0/22", "103.22.200.0/22", "103.31.4.0/22",
@@ -65,7 +65,6 @@ CLOUDFLARE_NETWORKS = [ipaddress.ip_network(cidr) for cidr in CONSTANTS['CLOUDFL
 class ConfigUtils:
     @staticmethod
     def decode_base64(s: str) -> str:
-        """Robust Base64 decoder."""
         if not s: return ""
         s = s.strip().replace(' ', '+')
         s = s.replace('-', '+').replace('_', '/')
@@ -167,7 +166,7 @@ class ConfigParser:
     @staticmethod
     def _parse_vmess(config_str: str) -> Optional[Dict]:
         try:
-            prefix_len = 8 # vmess://
+            prefix_len = 8
             b64 = config_str[prefix_len:]
             json_str = ConfigUtils.decode_base64(b64)
             if not json_str: return None
@@ -247,7 +246,6 @@ class ConfigParser:
     def _parse_generic(config_str: str, ctype: str) -> Dict:
         parsed = urlparse(config_str)
         params = parse_qs(parsed.query)
-        # Flatten params: get only first value, ignore empty
         clean_params = {k: v[0] for k, v in params.items() if v}
 
         return {
@@ -314,11 +312,6 @@ class ConfigParser:
 
     @staticmethod
     def get_fingerprint(parsed: Dict) -> str:
-        """
-        Generates a unique signature for the config based ONLY on technical parameters.
-        Ignores: Names, Channel IDs, Remarks.
-        Includes: IPs, Ports, UUIDs/Passwords, Security types, Paths, SNIs, Fingerprints.
-        """
         ctype = parsed.get('type')
         if not ctype: return "invalid"
         
@@ -327,7 +320,6 @@ class ConfigParser:
         components = [ctype]
 
         if ctype == 'vmess':
-            # VMess JSON keys that matter for connection
             keys = ['add', 'port', 'id', 'net', 'type_transport', 'path', 'host', 'sni', 'tls', 'scy']
             for k in keys:
                 components.append(norm(parsed.get(k, '')))
@@ -338,19 +330,13 @@ class ConfigParser:
                 components.append(norm(parsed.get(k, '')))
         
         else:
-            # Generic URI types (VLESS, Trojan, Tuic, Hysteria)
-            # Core credentials
             components.append(norm(parsed.get('user', '')))
             components.append(norm(parsed.get('host', '')))
             components.append(norm(parsed.get('port', '')))
             components.append(norm(parsed.get('path', '')))
             
-            # Param Handling:
-            # We must sort keys to ensure order doesn't matter (a=1&b=2 vs b=2&a=1)
-            # We must exclude irrelevant keys used by scrapers/clients for display only.
             ignored_params = ['name', 'remarks', 'ps', 'plugin', 'spiders', 'hash']
             params = parsed.get('params', {})
-            
             sorted_keys = sorted(params.keys())
             for k in sorted_keys:
                 if k.lower() in ignored_params: continue
@@ -424,41 +410,18 @@ class SubscriptionProcessor:
         except Exception:
             logger.warning("Could not load GeoIP database.")
 
-    async def check_reachability(self, parsed: Dict) -> bool:
-        raw_port = parsed.get('port')
-        if not raw_port: return False
-        
-        try:
-            port = int(raw_port)
-        except ValueError:
-            return False
-
-        host = parsed.get('host') or parsed.get('add', '')
-        sni = parsed.get('sni') or parsed.get('params', {}).get('sni') or parsed.get('params', {}).get('host')
-        
-        if (not host or host == '127.0.0.1') and sni:
-            host = sni
-
-        if not host: return False
-
-        target_host = host.strip('[]')
-
-        async with self.tcp_semaphore:
-            try:
-                future = asyncio.open_connection(target_host, port)
-                reader, writer = await asyncio.wait_for(future, timeout=CONSTANTS['TCP_TIMEOUT'])
-                writer.close()
-                await writer.wait_closed()
-                return True
-            except (OSError, asyncio.TimeoutError):
-                return False
-            except Exception:
-                return False
-
     async def resolve_ip(self, host: str) -> Optional[str]:
         if not host: return None
         if host in self.dns_cache: return self.dns_cache[host]
         
+        # Check if already IP
+        try:
+            ipaddress.ip_address(host.strip('[]'))
+            self.dns_cache[host] = host.strip('[]')
+            return self.dns_cache[host]
+        except ValueError:
+            pass
+
         async with self.dns_semaphore:
             try:
                 loop = asyncio.get_running_loop()
@@ -468,6 +431,28 @@ class SubscriptionProcessor:
             except Exception:
                 self.dns_cache[host] = None
                 return None
+
+    async def check_reachability(self, ip: str, port: int) -> bool:
+        """
+        Modified to take resolved IP directly. 
+        This prevents re-resolving DNS and uses the IP determined earlier.
+        """
+        if not ip or not port: return False
+        
+        target_ip = ip.strip('[]')
+
+        async with self.tcp_semaphore:
+            try:
+                # Use open_connection with the resolved IP
+                future = asyncio.open_connection(target_ip, port)
+                reader, writer = await asyncio.wait_for(future, timeout=CONSTANTS['TCP_TIMEOUT'])
+                writer.close()
+                await writer.wait_closed()
+                return True
+            except (OSError, asyncio.TimeoutError):
+                return False
+            except Exception:
+                return False
 
     def get_geo_code(self, ip: str) -> str:
         if not self.geo_reader or not ip: return "XX"
@@ -574,15 +559,59 @@ class SubscriptionProcessor:
             parsed = ConfigParser.parse(conf_str)
             if not parsed: continue
             
-            # Use strict technical fingerprint.
-            # Does NOT contain Channel Name.
             fp = ConfigParser.get_fingerprint(parsed)
             orig_name = parsed.get('ps') or parsed.get('name') or parsed.get('hash', '')
             
-            # First come, first served for channel attribution
             if fp not in unique_map:
                 unique_map[fp] = (orig_name, parsed, chan)
         return unique_map
+
+    async def _process_config_parallel(self, fp, orig, parsed, chan) -> Optional[Dict]:
+        """
+        Helper function to handle Resolution -> Check -> Result for a single config.
+        This allows us to schedule all configs at once.
+        """
+        # 1. Extract Info
+        raw_port = parsed.get('port')
+        if not raw_port: return None
+        try:
+            port = int(raw_port)
+        except ValueError:
+            return None
+
+        host = parsed.get('host') or parsed.get('add', '')
+        sni = parsed.get('sni') or parsed.get('params', {}).get('sni') or parsed.get('params', {}).get('host')
+        if (not host or host == '127.0.0.1') and sni:
+            host = sni
+        
+        if not host: return None
+
+        # 2. Resolve IP (Goal 1: Address to IP)
+        ip = await self.resolve_ip(host)
+        if not ip: return None
+
+        # 3. Check TCP using Resolved IP (Goal 2: Optimization)
+        # This saves a DNS lookup and works with the bulk resolved cache
+        is_reachable = await self.check_reachability(ip, port)
+        
+        if not is_reachable:
+            return None
+
+        # 4. Prepare Result Data
+        country_code = self.get_geo_code(ip) # Using resolved IP
+        is_cf = ConfigUtils.is_cloudflare(ip)
+        flag = self.get_flag(country_code)
+        
+        return {
+            'fp': fp,
+            'orig': orig,
+            'parsed': parsed,
+            'chan': chan,
+            'ip': ip,
+            'country_code': country_code,
+            'is_cf': is_cf,
+            'flag': flag
+        }
 
     async def enrich_and_tag(self, unique_map: Dict):
         final_list = []
@@ -590,62 +619,56 @@ class SubscriptionProcessor:
         api_data = []
         groups = {'channels': defaultdict(list), 'locations': defaultdict(list), 'ai': []}
         
-        # Track counts for BOTH normal and lite to limit spam
         lite_channel_counts = defaultdict(int)
         normal_channel_counts = defaultdict(int)
-        
-        # Track duplicate names per channel to append numbers (e.g., @Channel #2)
         channel_name_counter = defaultdict(lambda: defaultdict(int))
         
         total = len(unique_map)
-        logger.info(f"Processing {total} configs (Checking TCP + GeoIP)...")
+        logger.info(f"Processing {total} configs (Mass Parallel Check)...")
         
-        for i, (fp, (orig, parsed, chan)) in enumerate(unique_map.items()):
-            if i % 100 == 0: sys.stdout.write(f"\rProcessing... {int(i/total*100)}%")
+        # --- Create Parallel Tasks ---
+        tasks = []
+        for fp, (orig, parsed, chan) in unique_map.items():
+            tasks.append(self._process_config_parallel(fp, orig, parsed, chan))
             
-            is_reachable = await self.check_reachability(parsed)
-            if not is_reachable:
-                continue
+        # --- Execute All Tasks Concurrently ---
+        # This reduces time from 28min to ~1-2min depending on bandwidth
+        results = await asyncio.gather(*tasks)
+        
+        logger.info("Checks complete. Formatting results...")
+        
+        for res in results:
+            if not res: continue # Skip unreachable
 
+            # Unpack results
+            parsed = res['parsed']
+            chan = res['chan']
+            country_code = res['country_code']
+            flag = res['flag']
+            is_cf = res['is_cf']
+            
             clean_chan = chan.strip().lstrip('@')
-            host = parsed.get('host') or parsed.get('add', '')
-            
-            ip = await self.resolve_ip(host)
-            
-            country_code = self.get_geo_code(ip)
-            is_cf = ConfigUtils.is_cloudflare(ip)
-            flag = self.get_flag(country_code)
-            
             ctype_disp = parsed.get('type', 'UNK').upper()
             
-            # --- UNIQUE NAME GENERATION ---
-            # Instead of using the random name provided by the link,
-            # we generate a standard name: Flag Country | Type | @Channel
-            # We append a number if multiple configs exist for this specific combination.
-            
-            # Increment counter for this specific channel + country + type combo
+            # --- Tagging ---
             combo_key = f"{country_code}_{ctype_disp}"
             channel_name_counter[clean_chan][combo_key] += 1
             count_idx = channel_name_counter[clean_chan][combo_key]
             
-            # Format: 🇺🇸 US | VLESS | @Channel #1
             new_tag = f"{flag} {country_code} | {ctype_disp} | @{clean_chan} #{count_idx}"
             
             final_str = ConfigParser.reassemble(parsed, new_tag)
             if not final_str: continue
             
-            # --- LOGIC TO REDUCE NON-LITE CONFIGS ---
-            # Only add to final_list if under NORMAL_LIMIT
+            # --- Logic: Normal Limit ---
             if normal_channel_counts[clean_chan] < CONSTANTS['NORMAL_LIMIT']:
                 final_list.append(final_str)
-                
-                # Update Groups only for valid configs
                 groups['channels'][clean_chan].append(final_str)
                 groups['locations'][country_code].append(final_str)
                 if is_cf:
                     groups['locations']['CF'].append(final_str)
                 
-                # Check for AI (only if it passed normal check)
+                # Check for AI
                 if is_cf and parsed['type'] == 'vless':
                     sni = parsed.get('sni') or parsed.get('params', {}).get('sni') or ''
                     check_host = parsed.get('host') or parsed.get('add') or ''
@@ -659,7 +682,7 @@ class SubscriptionProcessor:
                 
                 normal_channel_counts[clean_chan] += 1
 
-            # --- LOGIC FOR LITE CONFIGS ---
+            # --- Logic: Lite Limit ---
             if lite_channel_counts[clean_chan] < CONSTANTS['LITE_LIMIT']:
                 lite_list.append(final_str)
                 lite_channel_counts[clean_chan] += 1
@@ -668,8 +691,6 @@ class SubscriptionProcessor:
             if eff_type == 'vless' and 'security=reality' in final_str: eff_type = 'reality'
             assets = self.channel_assets.get(clean_chan, {})
             
-            # Note: API data might include configs that were skipped in final_list 
-            # due to limits, or we can restrict it. Here strict mapping to 'normal' limit.
             if normal_channel_counts[clean_chan] <= CONSTANTS['NORMAL_LIMIT']:
                 api_data.append({
                     'channel': {'username': clean_chan, 'title': assets.get('title', ''), 'logo': assets.get('logo', '')},
@@ -742,7 +763,6 @@ class SubscriptionProcessor:
             json.dump(api_data, f, indent=4, ensure_ascii=False)
 
     def _write_files(self, directory: str, filename: str, configs: List[str], title: str, prepends: List[str] = None):
-        """Writes both Normal and Base64 versions of a file."""
         os.makedirs(os.path.join(directory, 'normal'), exist_ok=True)
         os.makedirs(os.path.join(directory, 'base64'), exist_ok=True)
         
@@ -771,7 +791,7 @@ async def main():
         logger.info("2. Deduplicating")
         unique_map = processor.deduplicate_configs()
         
-        logger.info("3. Enriching and Tagging (GeoIP + DNS)")
+        logger.info("3. Enriching and Tagging (Mass Parallel Check)")
         final, lite, groups, api_data = await processor.enrich_and_tag(unique_map)
         
         logger.info("4. Writing Outputs")
