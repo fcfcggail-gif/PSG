@@ -77,8 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇬 SG | VLESS | @config_proxy #1",
-        "🇸🇬 SG | VLESS | @prrofile_purple #1"
+        "🇮🇹 IT | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇬 SG | VLESS | @config_proxy #1",
-        "🇸🇬 SG | VLESS | @prrofile_purple #1"
+        "🇮🇹 IT | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,20 +101,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇸🇬 SG | VLESS | @config_proxy #1",
+      "tag": "🇮🇹 IT | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "cloudproxycdn.healingfluence.com",
-      "server_port": 80,
-      "uuid": "ca75eae9-db9f-4b7d-b02a-f3bb2032ee98",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇬 SG | VLESS | @prrofile_purple #1",
-      "type": "vless",
-      "server": "206.238.239.248",
-      "server_port": 80,
-      "uuid": "f37cb585-1ad0-4636-88e4-fb02d386a40a",
-      "packet_encoding": "xudp"
+      "server": "83.136.107.171",
+      "server_port": 443,
+      "uuid": "1cc1fa50-ad16-4e22-81a0-e416f7a35f60",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇭 CH | VLESS | @proxyfn #1",
-        "🇨🇭 CH | VLESS | @vip_vpn_2022 #1"
+        "🇨🇭 CH | VLESS | @mtproxy22_v2ray #1",
+        "🇨🇭 CH | VLESS | @proxyfn #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇭 CH | VLESS | @proxyfn #1",
-        "🇨🇭 CH | VLESS | @vip_vpn_2022 #1"
+        "🇨🇭 CH | VLESS | @mtproxy22_v2ray #1",
+        "🇨🇭 CH | VLESS | @proxyfn #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,6 +103,14 @@
       "type": "direct"
     },
     {
+      "tag": "🇨🇭 CH | VLESS | @mtproxy22_v2ray #1",
+      "type": "vless",
+      "server": "83.228.227.226",
+      "server_port": 8880,
+      "uuid": "4a92cbd1-39c7-4818-9236-dbbb18630c9e",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇨🇭 CH | VLESS | @proxyfn #1",
       "type": "vless",
       "server": "193.168.144.46",
@@ -116,28 +124,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇨🇭 CH | VLESS | @vip_vpn_2022 #1",
-      "type": "vless",
-      "server": "swit.zerosulution.com",
-      "server_port": 903,
-      "uuid": "be12c60d-1d80-480f-bdd8-960a89d41c85",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

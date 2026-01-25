@@ -79,7 +79,8 @@
         "direct",
         "🇸🇨 SC | VLESS | @arv2ray #1",
         "🇸🇨 SC | VLESS | @arv2ray #2",
-        "🇸🇨 SC | VLESS | @arv2ray #3"
+        "🇸🇨 SC | VLESS | @arv2ray #3",
+        "🇸🇨 SC | VLESS | @flyv2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,7 +90,8 @@
       "outbounds": [
         "🇸🇨 SC | VLESS | @arv2ray #1",
         "🇸🇨 SC | VLESS | @arv2ray #2",
-        "🇸🇨 SC | VLESS | @arv2ray #3"
+        "🇸🇨 SC | VLESS | @arv2ray #3",
+        "🇸🇨 SC | VLESS | @flyv2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -144,6 +146,23 @@
       "server": "156.243.83.167",
       "server_port": 443,
       "uuid": "telegram-id-Arfilter",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @flyv2ray #1",
+      "type": "vless",
+      "server": "154.194.0.159",
+      "server_port": 443,
+      "uuid": "e258977b-e413-4718-a3af-02d75492c349",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
