@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇯🇵 JP | VMESS | @Fr33C0nfig #1", "server": "n1753598445.74qxv.top", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "f53b95dc-3ec3-49a2-803a-510e614ae577", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "n1753598445.74qxv.top"}}}
   - {"name": "🇯🇵 JP | TROJAN | @free4allvpn #1", "server": "kuame.missionsec.us", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "FDIypSwe64a3DA7un2R8DFjYXZO3NS05gKZTTOC8SxO0Fy3cqYg3EaFDA3ABaEYKNx39D"}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇯🇵 JP | VMESS | @Fr33C0nfig #1'
       - '🇯🇵 JP | TROJAN | @free4allvpn #1'
 
   - name: 🌍 Global Media

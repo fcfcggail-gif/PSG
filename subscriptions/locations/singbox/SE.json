@@ -90,7 +90,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇪 SE | VLESS | @Fr33C0nfig #1",
         "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -120,8 +119,6 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | VLESS | @v2ray_vmes #1",
-        "🇸🇪 SE | VLESS | @vip_vpn_2022 #1",
         "🇸🇪 SE | TUIC | @vipv2rey #1"
       ],
       "tag": "proxy",
@@ -130,7 +127,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇪 SE | VLESS | @Fr33C0nfig #1",
         "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -160,8 +156,6 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | VLESS | @v2ray_vmes #1",
-        "🇸🇪 SE | VLESS | @vip_vpn_2022 #1",
         "🇸🇪 SE | TUIC | @vipv2rey #1"
       ],
       "tag": "auto",
@@ -172,23 +166,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @Fr33C0nfig #1",
-      "type": "vless",
-      "server": "194.104.94.141",
-      "server_port": 443,
-      "uuid": "c7b84b2c-3091-4372-8275-774e7a4659b4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇸🇪 SE | VLESS | @deli_servers #1",
@@ -512,52 +489,6 @@
       "server_port": 80,
       "uuid": "telegram-id-ArV2ray",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @v2ray_vmes #1",
-      "type": "vless",
-      "server": "194.104.94.141",
-      "server_port": 443,
-      "uuid": "c7b84b2c-3091-4372-8275-774e7a4659b4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @vip_vpn_2022 #1",
-      "type": "vless",
-      "server": "s7.zerosulution.com",
-      "server_port": 7567,
-      "uuid": "be12c60d-1d80-480f-bdd8-960a89d41c85",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇸🇪 SE | TUIC | @vipv2rey #1",

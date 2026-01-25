@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇬 SG | VLESS | @v2ray_youtube #1"
+        "🇸🇬 SG | VLESS | @config_proxy #1",
+        "🇸🇬 SG | VLESS | @prrofile_purple #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇬 SG | VLESS | @v2ray_youtube #1"
+        "🇸🇬 SG | VLESS | @config_proxy #1",
+        "🇸🇬 SG | VLESS | @prrofile_purple #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,11 +112,19 @@
       "type": "direct"
     },
     {
-      "tag": "🇸🇬 SG | VLESS | @v2ray_youtube #1",
+      "tag": "🇸🇬 SG | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "bf.branly23.cloud",
-      "server_port": 2087,
-      "uuid": "9f6ffb3c-de36-4a48-8cae-34d7e3ede5ea",
+      "server": "cloudproxycdn.healingfluence.com",
+      "server_port": 80,
+      "uuid": "ca75eae9-db9f-4b7d-b02a-f3bb2032ee98",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "206.238.239.248",
+      "server_port": 80,
+      "uuid": "f37cb585-1ad0-4636-88e4-fb02d386a40a",
       "packet_encoding": "xudp"
     }
   ],

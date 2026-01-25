@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇹🇷 TR | VLESS | @prrofile_purple #1", "server": "gody.xrayshop.store", "port": 54230, "type": "vless", "skip-cert-verify": true, "uuid": "4ed0f31f-a400-4012-be63-b7104ce1bb1e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇹🇷 TR | VLESS | @server_nekobox #1", "server": "trfastgateway.amirconfigpaanelllll.com", "port": 2126, "type": "vless", "skip-cert-verify": true, "uuid": "ffabe614-3bc8-4676-b8d3-c015ba274cc2", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇹🇷 TR | TROJAN | @v2rayngconfig #1", "server": "194.146.26.40", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "2ea5fc44-bd38-4fb0-a9b9-88c83fc56622"}
 
@@ -38,6 +39,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇹🇷 TR | VLESS | @prrofile_purple #1'
       - '🇹🇷 TR | VLESS | @server_nekobox #1'
       - '🇹🇷 TR | TROJAN | @v2rayngconfig #1'
 

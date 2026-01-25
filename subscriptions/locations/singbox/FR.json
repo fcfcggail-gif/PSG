@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇷 FR | VLESS | @Fr33C0nfig #1",
         "🇫🇷 FR | VLESS | @ai_duet #1",
+        "🇫🇷 FR | VLESS | @config_proxy #1",
         "🇫🇷 FR | VLESS | @grizzlyvpn #1",
         "🇫🇷 FR | SS | @key_outline #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
@@ -103,6 +103,7 @@
         "🇫🇷 FR | SS | @v2rayng3 #1",
         "🇫🇷 FR | TROJAN | @v2rayngconfig #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
+        "🇫🇷 FR | VLESS | @v2rayvpn2 #1",
         "🇫🇷 FR | TROJAN | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -111,8 +112,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇷 FR | VLESS | @Fr33C0nfig #1",
         "🇫🇷 FR | VLESS | @ai_duet #1",
+        "🇫🇷 FR | VLESS | @config_proxy #1",
         "🇫🇷 FR | VLESS | @grizzlyvpn #1",
         "🇫🇷 FR | SS | @key_outline #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
@@ -124,6 +125,7 @@
         "🇫🇷 FR | SS | @v2rayng3 #1",
         "🇫🇷 FR | TROJAN | @v2rayngconfig #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
+        "🇫🇷 FR | VLESS | @v2rayvpn2 #1",
         "🇫🇷 FR | TROJAN | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -136,20 +138,34 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @Fr33C0nfig #1",
-      "type": "vless",
-      "server": "fr-1-direct.healingfluence.com",
-      "server_port": 8000,
-      "uuid": "54424df8-aee6-4d2d-8006-4f91e5183544",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇫🇷 FR | VLESS | @ai_duet #1",
       "type": "vless",
       "server": "sktr.berkeart.ir",
       "server_port": 19702,
       "uuid": "1f3b130d-7d29-45d1-b5aa-adc5cd94a885",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "fr-1.bot-iphone.ru",
+      "server_port": 8443,
+      "uuid": "123d4832-db2b-4376-be63-f60858cc328e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇫🇷 FR | VLESS | @grizzlyvpn #1",
@@ -282,6 +298,14 @@
       "uuid": "ede27a79-b039-490b-932c-495de4b68880",
       "security": "auto",
       "alter_id": 0
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @v2rayvpn2 #1",
+      "type": "vless",
+      "server": "keyacc.letgetway.ir",
+      "server_port": 59016,
+      "uuid": "5997d00f-28d8-4910-9699-970cc8d5ccee",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇷 FR | TROJAN | @vpn_ioss #1",
