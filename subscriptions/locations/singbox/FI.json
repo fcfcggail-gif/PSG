@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @configv2rayforfree #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
+        "🇫🇮 FI | VLESS | @kafing_2 #1",
         "🇫🇮 FI | VLESS | @orange_vpns #1"
       ],
       "tag": "proxy",
@@ -100,8 +100,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @configv2rayforfree #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
+        "🇫🇮 FI | VLESS | @kafing_2 #1",
         "🇫🇮 FI | VLESS | @orange_vpns #1"
       ],
       "tag": "auto",
@@ -114,11 +114,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @configv2rayforfree #1",
+      "tag": "🇫🇮 FI | VLESS | @freeconfigsplus #1",
       "type": "vless",
-      "server": "1.reis-shop.ir",
-      "server_port": 443,
-      "uuid": "4ef1cb36-e4be-4932-a255-6be22b82dd41",
+      "server": "fi4.srv.cdnopl.link",
+      "server_port": 6443,
+      "uuid": "abb26a5a-3223-476f-a732-4c66f6a116ab",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -127,15 +127,20 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @freeconfigsplus #1",
+      "tag": "🇫🇮 FI | VLESS | @kafing_2 #1",
       "type": "vless",
-      "server": "fi4.srv.cdnopl.link",
-      "server_port": 6443,
-      "uuid": "abb26a5a-3223-476f-a732-4c66f6a116ab",
+      "server": "new.pvnoco.ir",
+      "server_port": 558,
+      "uuid": "4f6efecc-5747-41a0-8fc3-c41271ee8c50",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

@@ -90,15 +90,21 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇬🇧 GB | SS | @config_proxy #1",
+        "🇬🇧 GB | VLESS | @configv2rayforfree #1",
+        "🇬🇧 GB | SS | @imhdiyvp #1",
+        "🇬🇧 GB | SS | @imhdiyvp #2",
         "🇬🇧 GB | VLESS | @kafing_2 #1",
         "🇬🇧 GB | VLESS | @kafing_2 #2",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | VLESS | @miov2ray #1",
+        "🇬🇧 GB | SS | @nepo_v2ray #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @netfreedom0 #2",
         "🇬🇧 GB | SS | @netfreedom0 #3",
-        "🇬🇧 GB | VLESS | @v2raych #1",
+        "🇬🇧 GB | SS | @serverv2ray00 #1",
+        "🇬🇧 GB | SS | @torang_vpn #1",
+        "🇬🇧 GB | VLESS | @v2raymelliii #1",
+        "🇬🇧 GB | SS | @v2rayngalpha #1",
         "🇬🇧 GB | VLESS | @vmesc #1",
         "🇬🇧 GB | VLESS | @vmesc #2",
         "🇬🇧 GB | VLESS | @vmesskhodam #1",
@@ -113,15 +119,21 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇬🇧 GB | SS | @config_proxy #1",
+        "🇬🇧 GB | VLESS | @configv2rayforfree #1",
+        "🇬🇧 GB | SS | @imhdiyvp #1",
+        "🇬🇧 GB | SS | @imhdiyvp #2",
         "🇬🇧 GB | VLESS | @kafing_2 #1",
         "🇬🇧 GB | VLESS | @kafing_2 #2",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | VLESS | @miov2ray #1",
+        "🇬🇧 GB | SS | @nepo_v2ray #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @netfreedom0 #2",
         "🇬🇧 GB | SS | @netfreedom0 #3",
-        "🇬🇧 GB | VLESS | @v2raych #1",
+        "🇬🇧 GB | SS | @serverv2ray00 #1",
+        "🇬🇧 GB | SS | @torang_vpn #1",
+        "🇬🇧 GB | VLESS | @v2raymelliii #1",
+        "🇬🇧 GB | SS | @v2rayngalpha #1",
         "🇬🇧 GB | VLESS | @vmesc #1",
         "🇬🇧 GB | VLESS | @vmesc #2",
         "🇬🇧 GB | VLESS | @vmesskhodam #1",
@@ -140,11 +152,41 @@
       "type": "direct"
     },
     {
-      "tag": "🇬🇧 GB | SS | @config_proxy #1",
+      "tag": "🇬🇧 GB | VLESS | @configv2rayforfree #1",
+      "type": "vless",
+      "server": "fin.1mrsub.site",
+      "server_port": 9001,
+      "uuid": "c5afb2cd-5978-46ae-a30e-81c9485abf2e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @imhdiyvp #1",
       "type": "shadowsocks",
-      "server": "a11",
-      "server_port": null,
-      "method": null,
+      "server": "series-a2.samanehha.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptcHMzRndtRGpMcldhT1Zn",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @imhdiyvp #2",
+      "type": "shadowsocks",
+      "server": "series-a2-mec.varzesh360.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj",
       "password": null
     },
     {
@@ -161,16 +203,7 @@
       "server": "25.26.27.158",
       "server_port": 2096,
       "uuid": "1a25f8ad-cad2-4e93-b5bf-34e42bcac02a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇬🇧 GB | VLESS | @komail315 #1",
@@ -198,6 +231,14 @@
       }
     },
     {
+      "tag": "🇬🇧 GB | SS | @nepo_v2ray #1",
+      "type": "shadowsocks",
+      "server": "series-a2-me.samanehha.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR",
+      "password": null
+    },
+    {
       "tag": "🇬🇧 GB | SS | @netfreedom0 #1",
       "type": "shadowsocks",
       "server": "82.38.31.179",
@@ -222,11 +263,27 @@
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @v2raych #1",
+      "tag": "🇬🇧 GB | SS | @serverv2ray00 #1",
+      "type": "shadowsocks",
+      "server": "series-a2-me.samanehha.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtcG9seTEzMDU6Qm9nMEVMbU1NOURTeERkUQ==",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @torang_vpn #1",
+      "type": "shadowsocks",
+      "server": "series-a1.samanehha.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2raymelliii #1",
       "type": "vless",
-      "server": "78.141.197.131",
-      "server_port": 8443,
-      "uuid": "34050a14-f55f-4878-981f-886ab0a52b56",
+      "server": "armania.mrvpvn.com",
+      "server_port": 9002,
+      "uuid": "18228710-dfd0-4bca-8425-4abff39843a4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -242,6 +299,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @v2rayngalpha #1",
+      "type": "shadowsocks",
+      "server": "series-a2-me.varzesh360.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR",
+      "password": null
     },
     {
       "tag": "🇬🇧 GB | VLESS | @vmesc #1",
