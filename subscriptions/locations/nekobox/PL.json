@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | SS | @outlinereleasedkey #1",
-        "🇵🇱 PL | VLESS | @vmesskhodam #1"
+        "🇵🇱 PL | VLESS | @netmellianti #1",
+        "🇵🇱 PL | SS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | SS | @outlinereleasedkey #1",
-        "🇵🇱 PL | VLESS | @vmesskhodam #1"
+        "🇵🇱 PL | VLESS | @netmellianti #1",
+        "🇵🇱 PL | SS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,19 +103,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | SS | @outlinereleasedkey #1",
-      "type": "shadowsocks",
-      "server": "217.30.10.18",
-      "server_port": 9011,
-      "method": "YWVzLTI1Ni1jZmI6TTN0MlpFUWNNR1JXQmpSYQ==",
-      "password": null
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @vmesskhodam #1",
+      "tag": "🇵🇱 PL | VLESS | @netmellianti #1",
       "type": "vless",
-      "server": "144.31.4.0",
+      "server": "us.asreabi.ir",
       "server_port": 443,
-      "uuid": "406fd0aa-d08a-4099-a7d1-1549359461de",
+      "uuid": "11003d58-cbb3-4ade-a70b-9e095e49d676",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -124,13 +116,16 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇵🇱 PL | SS | @outlinereleasedkey #1",
+      "type": "shadowsocks",
+      "server": "217.30.10.18",
+      "server_port": 9011,
+      "method": "YWVzLTI1Ni1jZmI6TTN0MlpFUWNNR1JXQmpSYQ==",
+      "password": null
     }
   ],
   "route": {

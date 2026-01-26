@@ -90,7 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇺 LU | VLESS | @Fr33C0nfig #1"
+        "🇱🇺 LU | VLESS | @Fr33C0nfig #1",
+        "🇱🇺 LU | VLESS | @vip_vpn_2022 #1",
+        "🇱🇺 LU | VLESS | @vip_vpn_2022 #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇺 LU | VLESS | @Fr33C0nfig #1"
+        "🇱🇺 LU | VLESS | @Fr33C0nfig #1",
+        "🇱🇺 LU | VLESS | @vip_vpn_2022 #1",
+        "🇱🇺 LU | VLESS | @vip_vpn_2022 #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,6 +120,50 @@
       "server_port": 2087,
       "uuid": "23aa242f-09f1-4f7e-8fcc-9d819fd95798",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇱🇺 LU | VLESS | @vip_vpn_2022 #1",
+      "type": "vless",
+      "server": "kyv.love-speed.sbs",
+      "server_port": 903,
+      "uuid": "5f065092-549f-4632-9e8b-55a86aa809bc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇱🇺 LU | VLESS | @vip_vpn_2022 #2",
+      "type": "vless",
+      "server": "kyv.love-speed.sbs",
+      "server_port": 903,
+      "uuid": "70ee5f06-28ea-4739-9e08-f92a5d6d0c79",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

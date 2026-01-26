@@ -95,7 +95,10 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
-        "🇫🇮 FI | VLESS | @freeconfigsplus #1"
+        "🇫🇮 FI | VLESS | @freeconfigsplus #1",
+        "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1",
+        "🇱🇺 LU | VLESS | @vip_vpn_2022 #1",
+        "🇱🇺 LU | VLESS | @vip_vpn_2022 #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -108,7 +111,10 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
-        "🇫🇮 FI | VLESS | @freeconfigsplus #1"
+        "🇫🇮 FI | VLESS | @freeconfigsplus #1",
+        "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1",
+        "🇱🇺 LU | VLESS | @vip_vpn_2022 #1",
+        "🇱🇺 LU | VLESS | @vip_vpn_2022 #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -228,6 +234,68 @@
       "server": "fi4.srv.cdnopl.link",
       "server_port": 6443,
       "uuid": "abb26a5a-3223-476f-a732-4c66f6a116ab",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1",
+      "type": "vless",
+      "server": "test.country-8.eu-ffast.com",
+      "server_port": 443,
+      "uuid": "74be5a30-e7ca-47fa-9e6a-8d602739ec6c",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇱🇺 LU | VLESS | @vip_vpn_2022 #1",
+      "type": "vless",
+      "server": "kyv.love-speed.sbs",
+      "server_port": 903,
+      "uuid": "5f065092-549f-4632-9e8b-55a86aa809bc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇱🇺 LU | VLESS | @vip_vpn_2022 #2",
+      "type": "vless",
+      "server": "kyv.love-speed.sbs",
+      "server_port": 903,
+      "uuid": "70ee5f06-28ea-4739-9e08-f92a5d6d0c79",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
