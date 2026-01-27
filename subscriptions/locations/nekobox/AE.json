@@ -77,10 +77,11 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇦🇪 AE | SS | @NamiraConfigs #1",
+        "🇦🇪 AE | SS | @NamiraConfigs #2",
         "🇦🇪 AE | VLESS | @kafing_2 #1",
         "🇦🇪 AE | SS | @netfreedom0 #1",
-        "🇦🇪 AE | SS | @outlinereleasedkey #1",
-        "🇦🇪 AE | VLESS | @v2raych #1"
+        "🇦🇪 AE | SS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,10 +89,11 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇦🇪 AE | SS | @NamiraConfigs #1",
+        "🇦🇪 AE | SS | @NamiraConfigs #2",
         "🇦🇪 AE | VLESS | @kafing_2 #1",
         "🇦🇪 AE | SS | @netfreedom0 #1",
-        "🇦🇪 AE | SS | @outlinereleasedkey #1",
-        "🇦🇪 AE | VLESS | @v2raych #1"
+        "🇦🇪 AE | SS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -105,6 +107,22 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇦🇪 AE | SS | @NamiraConfigs #1",
+      "type": "shadowsocks",
+      "server": "beesyar.org",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh",
+      "password": null
+    },
+    {
+      "tag": "🇦🇪 AE | SS | @NamiraConfigs #2",
+      "type": "shadowsocks",
+      "server": "beesyar.org",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1",
+      "password": null
     },
     {
       "tag": "🇦🇪 AE | VLESS | @kafing_2 #1",
@@ -129,14 +147,6 @@
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRQ1hEeHVEbFRUTUQ3anRnSFVqSW9q",
       "password": null
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "45.88.8.44",
-      "server_port": 80,
-      "uuid": "174d209e-cba8-095c-0262-62e2ee3214f5",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {
