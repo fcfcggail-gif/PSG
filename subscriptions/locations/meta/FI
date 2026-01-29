@@ -23,10 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇫🇮 FI | VLESS | @flyv2ray #1", "server": "46.224.249.54", "port": 282, "type": "vless", "skip-cert-verify": true, "uuid": "73964310-f9a7-48cf-9d37-8c58149341b6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇫🇮 FI | VLESS | @freeconfigsplus #1", "server": "fi4.srv.cdnopl.link", "port": 6443, "type": "vless", "skip-cert-verify": true, "uuid": "abb26a5a-3223-476f-a732-4c66f6a116ab", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇫🇮 FI | VLESS | @v2rayvpn2 #1", "server": "finland.vpn-mtk.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "5cf56d3c-9647-4e0f-8c0a-cbf924a91f21", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇫🇮 FI | VLESS | @v2rayvpn2 #2", "server": "finland.vpn-mtk.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "5cf56d3c-9647-4e0f-8c0a-cbf924a91f21", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇫🇮 FI | VLESS | @vpnplusee_free #1", "server": "s3-d7.hmvpa.ir", "port": 4319, "type": "vless", "skip-cert-verify": true, "uuid": "0feb4322-5320-4541-9240-5b2876e14332", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,10 +40,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇫🇮 FI | VLESS | @flyv2ray #1'
       - '🇫🇮 FI | VLESS | @freeconfigsplus #1'
       - '🇫🇮 FI | VLESS | @v2rayvpn2 #1'
       - '🇫🇮 FI | VLESS | @v2rayvpn2 #2'
-      - '🇫🇮 FI | VLESS | @vpnplusee_free #1'
 
   - name: 🌍 Global Media
     type: select

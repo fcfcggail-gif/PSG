@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇪 AE | VLESS | @configv2rayforfree #1",
+        "🇦🇪 AE | SS | @NamiraConfigs #1",
+        "🇦🇪 AE | SS | @NamiraConfigs #2",
         "🇦🇪 AE | VLESS | @connectshu #1",
         "🇦🇪 AE | VLESS | @kafing_2 #1",
         "🇦🇪 AE | SS | @netfreedom0 #1",
@@ -108,7 +109,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇪 AE | VLESS | @configv2rayforfree #1",
+        "🇦🇪 AE | SS | @NamiraConfigs #1",
+        "🇦🇪 AE | SS | @NamiraConfigs #2",
         "🇦🇪 AE | VLESS | @connectshu #1",
         "🇦🇪 AE | VLESS | @kafing_2 #1",
         "🇦🇪 AE | SS | @netfreedom0 #1",
@@ -130,21 +132,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇪 AE | VLESS | @configv2rayforfree #1",
-      "type": "vless",
-      "server": "1.clloudflare.ir",
-      "server_port": 443,
-      "uuid": "81039c91-36e5-4110-800a-039677802815",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "tag": "🇦🇪 AE | SS | @NamiraConfigs #1",
+      "type": "shadowsocks",
+      "server": "beesyar.org",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0YTJyZml4b3BoZGpmZmE4S1ZBNEFh",
+      "password": null
+    },
+    {
+      "tag": "🇦🇪 AE | SS | @NamiraConfigs #2",
+      "type": "shadowsocks",
+      "server": "beesyar.org",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpjdklJODVUclc2bjBPR3lmcEhWUzF1",
+      "password": null
     },
     {
       "tag": "🇦🇪 AE | VLESS | @connectshu #1",
@@ -166,10 +167,19 @@
     {
       "tag": "🇦🇪 AE | VLESS | @kafing_2 #1",
       "type": "vless",
-      "server": "ae.aparat-movies-download.ir",
-      "server_port": 42539,
-      "uuid": "5a76fdef-97a2-43cd-93b9-e9646a7d6a6c",
-      "packet_encoding": "xudp"
+      "server": "iran.zone-server-irani.ir",
+      "server_port": 443,
+      "uuid": "bbbddf3f-a747-47a9-b37f-30a2dd2dcf2f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇦🇪 AE | SS | @netfreedom0 #1",
