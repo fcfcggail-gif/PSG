@@ -94,7 +94,8 @@
         "🇷🇺 RU | VLESS | @father_vpn #1",
         "🇷🇺 RU | VLESS | @iranbfilter #1",
         "🇷🇺 RU | VLESS | @kurdistan_vpn_perfectt #1",
-        "🇷🇺 RU | VMESS | @prooxyk #1"
+        "🇷🇺 RU | VMESS | @prooxyk #1",
+        "🇷🇺 RU | VLESS | @v2ray_vmes #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -106,7 +107,8 @@
         "🇷🇺 RU | VLESS | @father_vpn #1",
         "🇷🇺 RU | VLESS | @iranbfilter #1",
         "🇷🇺 RU | VLESS | @kurdistan_vpn_perfectt #1",
-        "🇷🇺 RU | VMESS | @prooxyk #1"
+        "🇷🇺 RU | VMESS | @prooxyk #1",
+        "🇷🇺 RU | VLESS | @v2ray_vmes #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -180,6 +182,28 @@
         "path": "/A2DJOPFT",
         "headers": {
           "Host": "77.v2ray1.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @v2ray_vmes #1",
+      "type": "vless",
+      "server": "ss.02020.sbs",
+      "server_port": 8443,
+      "uuid": "c19fb567-74a9-454f-9757-e612fc4be371",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }
