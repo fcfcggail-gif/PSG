@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇳🇴 NO | SS | @config_proxy #1"
+        "🇹🇷 TR | VLESS | @config_proxy #1",
+        "🇹🇷 TR | VLESS | @prrofile_purple #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇳🇴 NO | SS | @config_proxy #1"
+        "🇹🇷 TR | VLESS | @config_proxy #1",
+        "🇹🇷 TR | VLESS | @prrofile_purple #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,12 +103,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇳🇴 NO | SS | @config_proxy #1",
-      "type": "shadowsocks",
-      "server": "185.213.23.63",
-      "server_port": 990,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpBUmd2R1p5d0ErZ2FjZ0dWMjZCdm11MDUrd1ptUlcvaitBZFUrWjhCdDQ0PQ==",
-      "password": null
+      "tag": "🇹🇷 TR | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "80.253.246.79",
+      "server_port": 2095,
+      "uuid": "XiliVpN-XiliVpNBOT-002",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "185.227.137.167",
+      "server_port": 2095,
+      "uuid": "580f9620-c99e-4170-a45f-674c4733a2f9",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
