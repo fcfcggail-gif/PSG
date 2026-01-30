@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @father_vpn #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
@@ -99,7 +100,6 @@
         "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #2",
-        "🇳🇱 NL | SS | @outlinereleasedkey #3",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @satellitenewspersian #1",
         "🇳🇱 NL | VLESS | @sobi_vpn #1",
@@ -111,6 +111,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @father_vpn #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
@@ -120,7 +121,6 @@
         "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #2",
-        "🇳🇱 NL | SS | @outlinereleasedkey #3",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @satellitenewspersian #1",
         "🇳🇱 NL | VLESS | @sobi_vpn #1",
@@ -134,6 +134,23 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "149.115.110.173",
+      "server_port": 443,
+      "uuid": "cb33f36c-b531-4318-9be3-568e8d6c56c7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | SS | @easy_free_vpn #1",
@@ -249,14 +266,6 @@
       "tag": "🇳🇱 NL | SS | @outlinereleasedkey #2",
       "type": "shadowsocks",
       "server": "193.29.139.240",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
-      "password": null
-    },
-    {
-      "tag": "🇳🇱 NL | SS | @outlinereleasedkey #3",
-      "type": "shadowsocks",
-      "server": "193.29.139.188",
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
       "password": null

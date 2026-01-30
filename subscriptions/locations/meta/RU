@@ -23,11 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇷🇺 RU | VLESS | @config_proxy #1", "server": "87.239.106.153", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "1e4649f5-f5d6-4896-9be0-4c6725d4106e", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VLESS | @father_vpn #1", "server": "45.67.215.233", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1305886a-1725-4abc-9be1-f11bf6cbaf4f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @iranbfilter #1", "server": "benefits.by", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "2d29bc24-aaf2-4e48-b0c1-ec6d625f8271", "network": "httpupgrade", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @kurdistan_vpn_perfectt #1", "server": "fastly2.yasharmobile.com", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "b5585686-fb26-4534-8f84-71ac40a3f462", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VMESS | @prooxyk #1", "server": "77.v2ray1.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/A2DJOPFT", "headers": {"Host": "77.v2ray1.xyz"}}}
-  - {"name": "🇷🇺 RU | VLESS | @v2raych #1", "server": "download.pcapps.ir", "port": 2030, "type": "vless", "skip-cert-verify": true, "uuid": "16dca335-d479-4baa-b5b8-2d137408f289", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,11 +41,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇷🇺 RU | VLESS | @config_proxy #1'
       - '🇷🇺 RU | VLESS | @father_vpn #1'
       - '🇷🇺 RU | VLESS | @iranbfilter #1'
       - '🇷🇺 RU | VLESS | @kurdistan_vpn_perfectt #1'
       - '🇷🇺 RU | VMESS | @prooxyk #1'
-      - '🇷🇺 RU | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select
