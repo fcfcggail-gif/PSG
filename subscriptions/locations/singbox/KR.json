@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgTVk=
+//profile-title: base64:UFNHIHwgS1I=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇲🇾 MY | TROJAN | @kafing_2 #1",
-        "🇲🇾 MY | TROJAN | @kafing_2 #2"
+        "🇰🇷 KR | VLESS | @prrofile_purple #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇲🇾 MY | TROJAN | @kafing_2 #1",
-        "🇲🇾 MY | TROJAN | @kafing_2 #2"
+        "🇰🇷 KR | VLESS | @prrofile_purple #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,11 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇲🇾 MY | TROJAN | @kafing_2 #1",
-      "type": "trojan",
-      "server": "xiaozhu1.kkieo555.cn",
-      "server_port": 41274,
-      "password": "f40d74b6-6092-4a32-bde1-0eec5db90de0",
+      "tag": "🇰🇷 KR | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "47.80.13.85",
+      "server_port": 443,
+      "uuid": "3e7f67de-648e-4871-b51a-a225214d41ee",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -124,22 +123,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇲🇾 MY | TROJAN | @kafing_2 #2",
-      "type": "trojan",
-      "server": "xiaozhu1.kkieo555.cn",
-      "server_port": 41277,
-      "password": "7bdf5985-65ff-4f56-935a-2ff73cf4bf11",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

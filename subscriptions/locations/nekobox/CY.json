@@ -77,14 +77,12 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇨🇾 CY | SS | @config_proxy #1",
         "🇨🇾 CY | TROJAN | @filtershekan_channel #1",
-        "🇨🇾 CY | VLESS | @outline_ir #1",
         "🇨🇾 CY | VLESS | @v2ray_collector #1",
         "🇨🇾 CY | SS | @v2ray_free_conf #1",
-        "🇨🇾 CY | VLESS | @v2rayprotocol #1",
         "🇨🇾 CY | VLESS | @v2raytg #1",
-        "🇨🇾 CY | VLESS | @vpn_ioss #1",
-        "🇨🇾 CY | VLESS | @vpn_ioss #2"
+        "🇨🇾 CY | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -92,14 +90,12 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇨🇾 CY | SS | @config_proxy #1",
         "🇨🇾 CY | TROJAN | @filtershekan_channel #1",
-        "🇨🇾 CY | VLESS | @outline_ir #1",
         "🇨🇾 CY | VLESS | @v2ray_collector #1",
         "🇨🇾 CY | SS | @v2ray_free_conf #1",
-        "🇨🇾 CY | VLESS | @v2rayprotocol #1",
         "🇨🇾 CY | VLESS | @v2raytg #1",
-        "🇨🇾 CY | VLESS | @vpn_ioss #1",
-        "🇨🇾 CY | VLESS | @vpn_ioss #2"
+        "🇨🇾 CY | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -113,6 +109,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇨🇾 CY | SS | @config_proxy #1",
+      "type": "shadowsocks",
+      "server": "pqh38v3.viripdirect.shop",
+      "server_port": 8880,
+      "method": "YXV0bzo7bW4eeR1pHNO3",
+      "password": null
     },
     {
       "tag": "🇨🇾 CY | TROJAN | @filtershekan_channel #1",
@@ -131,14 +135,6 @@
       }
     },
     {
-      "tag": "🇨🇾 CY | VLESS | @outline_ir #1",
-      "type": "vless",
-      "server": "yesok42v2.ip4exordir.shop",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇨🇾 CY | VLESS | @v2ray_collector #1",
       "type": "vless",
       "server": "45.82.251.63",
@@ -155,28 +151,6 @@
       "password": null
     },
     {
-      "tag": "🇨🇾 CY | VLESS | @v2rayprotocol #1",
-      "type": "vless",
-      "server": "5.180.24.11",
-      "server_port": 4443,
-      "uuid": "edb3d24d-1a55-42f7-8752-6ae216f18cf4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇨🇾 CY | VLESS | @v2raytg #1",
       "type": "vless",
       "server": "45.82.251.33",
@@ -186,14 +160,6 @@
     },
     {
       "tag": "🇨🇾 CY | VLESS | @vpn_ioss #1",
-      "type": "vless",
-      "server": "pqh29v3.globalfymain.com",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇨🇾 CY | VLESS | @vpn_ioss #2",
       "type": "vless",
       "server": "pqh29v3.globalfymain.com",
       "server_port": 8880,
