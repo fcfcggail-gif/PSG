@@ -78,7 +78,10 @@
         "auto",
         "direct",
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
-        "🇰🇿 KZ | VLESS | @prrofile_purple #1"
+        "🇰🇿 KZ | VLESS | @grizzlyvpn #1",
+        "🇰🇿 KZ | VLESS | @kurdistan_vpn_perfectt #1",
+        "🇰🇿 KZ | VLESS | @kurdistan_vpn_perfectt #2",
+        "🇰🇿 KZ | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +90,10 @@
       "interval": "10m",
       "outbounds": [
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
-        "🇰🇿 KZ | VLESS | @prrofile_purple #1"
+        "🇰🇿 KZ | VLESS | @grizzlyvpn #1",
+        "🇰🇿 KZ | VLESS | @kurdistan_vpn_perfectt #1",
+        "🇰🇿 KZ | VLESS | @kurdistan_vpn_perfectt #2",
+        "🇰🇿 KZ | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -125,7 +131,59 @@
       }
     },
     {
-      "tag": "🇰🇿 KZ | VLESS | @prrofile_purple #1",
+      "tag": "🇰🇿 KZ | VLESS | @grizzlyvpn #1",
+      "type": "vless",
+      "server": "cdn.az9x99.ir",
+      "server_port": 2096,
+      "uuid": "3a8994ae-5803-4e55-82af-7ba4468b8254",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @kurdistan_vpn_perfectt #1",
+      "type": "vless",
+      "server": "212.111.85.1",
+      "server_port": 8443,
+      "uuid": "80115515-eb00-4d28-8f02-66b3e3e6a515",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @kurdistan_vpn_perfectt #2",
+      "type": "vless",
+      "server": "212.111.84.64",
+      "server_port": 8443,
+      "uuid": "2ad6bd90-51fd-41d2-985b-b7aab5cd77c8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @vmesskhodam #1",
       "type": "vless",
       "server": "212.111.84.187",
       "server_port": 8443,

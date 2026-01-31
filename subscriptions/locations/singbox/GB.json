@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇬🇧 GB | VLESS | @flyv2ray #1",
         "🇬🇧 GB | SS | @imhdiyvp #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | VLESS | @miov2ray #1",
@@ -98,11 +99,12 @@
         "🇬🇧 GB | SS | @netfreedom0 #2",
         "🇬🇧 GB | SS | @netfreedom0 #3",
         "🇬🇧 GB | VLESS | @orange_vpns #1",
+        "🇬🇧 GB | SS | @outline_ir #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
+        "🇬🇧 GB | VLESS | @prrofile_purple #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
-        "🇬🇧 GB | SS | @torang_vpn #1",
-        "🇬🇧 GB | VLESS | @v2raych #1",
-        "🇬🇧 GB | SS | @v2rayngalpha #1"
+        "🇬🇧 GB | SS | @v2rayngalpha #1",
+        "🇬🇧 GB | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -110,6 +112,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇬🇧 GB | VLESS | @flyv2ray #1",
         "🇬🇧 GB | SS | @imhdiyvp #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇬🇧 GB | VLESS | @miov2ray #1",
@@ -118,11 +121,12 @@
         "🇬🇧 GB | SS | @netfreedom0 #2",
         "🇬🇧 GB | SS | @netfreedom0 #3",
         "🇬🇧 GB | VLESS | @orange_vpns #1",
+        "🇬🇧 GB | SS | @outline_ir #1",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
+        "🇬🇧 GB | VLESS | @prrofile_purple #1",
         "🇬🇧 GB | SS | @serverv2ray00 #1",
-        "🇬🇧 GB | SS | @torang_vpn #1",
-        "🇬🇧 GB | VLESS | @v2raych #1",
-        "🇬🇧 GB | SS | @v2rayngalpha #1"
+        "🇬🇧 GB | SS | @v2rayngalpha #1",
+        "🇬🇧 GB | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -132,6 +136,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @flyv2ray #1",
+      "type": "vless",
+      "server": "cf.narton.ir",
+      "server_port": 8443,
+      "uuid": "dd0cfef0-fda9-47ec-8a65-49d7bc004f82",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇬🇧 GB | SS | @imhdiyvp #1",
@@ -207,12 +219,28 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇬🇧 GB | SS | @outline_ir #1",
+      "type": "shadowsocks",
+      "server": "57.129.140.88",
+      "server_port": 8388,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMXY1ZzlGZWZkb08=",
+      "password": null
+    },
+    {
       "tag": "🇬🇧 GB | SS | @outlinereleasedkey #1",
       "type": "shadowsocks",
       "server": "media.mothyleela.cfd",
       "server_port": 40521,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyV2tSR2g2dEF2OFVtc0hoNGkzRjZ6b3NqMmR6QTZzQ3pYYndxNFRkWHRlenRNZnlBNWFaY0x5NWpZNVo3RlozUVFNY1RWd003VHZpYmR2ellpcmNDN2lEWmFmcDJVNno=",
       "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "cf.narton.ir",
+      "server_port": 8443,
+      "uuid": "83f03646-fb28-44cc-9d2c-8853f6c09285",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇬🇧 GB | SS | @serverv2ray00 #1",
@@ -223,28 +251,29 @@
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | SS | @torang_vpn #1",
-      "type": "shadowsocks",
-      "server": "series-a1.samanehha.co",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
-      "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "82.38.31.89",
-      "server_port": 8080,
-      "uuid": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇬🇧 GB | SS | @v2rayngalpha #1",
       "type": "shadowsocks",
       "server": "series-a2-me.varzesh360.co",
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCb2cwRUxtTU05RFN4RGRR",
       "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "57.129.137.56",
+      "server_port": 443,
+      "uuid": "3321a819-889d-40b3-b8fa-f34208827ef1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

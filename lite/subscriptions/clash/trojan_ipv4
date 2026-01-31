@@ -23,7 +23,12 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇷 TR | VLESS | @prrofile_purple #1", "server": "185.227.137.167", "port": 2095, "type": "vless", "skip-cert-verify": true, "uuid": "580f9620-c99e-4170-a45f-674c4733a2f9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇩🇪 DE | TROJAN | @privatevpns #1", "server": "18.193.240.40", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
+  - {"name": "🇫🇷 FR | TROJAN | @privatevpns #1", "server": "15.237.155.10", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
+  - {"name": "🇽🇽 XX | TROJAN | @prrofile_purple #1", "server": "172.64.152.23", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
+  - {"name": "🇽🇽 XX | TROJAN | @v2raying #1", "server": "104.17.166.123", "port": 8443, "type": "trojan", "skip-cert-verify": false, "password": "kh2863z7etiy"}
+  - {"name": "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1", "server": "18.193.240.40", "port": 22223, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-v2rayvpnchannel"}
+  - {"name": "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1", "server": "15.237.155.10", "port": 22223, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-v2rayvpnchannel"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +42,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇷 TR | VLESS | @prrofile_purple #1'
+      - '🇩🇪 DE | TROJAN | @privatevpns #1'
+      - '🇫🇷 FR | TROJAN | @privatevpns #1'
+      - '🇽🇽 XX | TROJAN | @prrofile_purple #1'
+      - '🇽🇽 XX | TROJAN | @v2raying #1'
+      - '🇩🇪 DE | TROJAN | @v2rayvpnchannel #1'
+      - '🇫🇷 FR | TROJAN | @v2rayvpnchannel #1'
 
   - name: 🌍 Global Media
     type: select
