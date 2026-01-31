@@ -23,7 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇵🇱 PL | VLESS | @config_proxy #1", "server": "po.marzxo.biz", "port": 8084, "type": "vless", "skip-cert-verify": true, "uuid": "95a335bf-e902-41d1-879a-396c3290d040", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇵🇱 PL | VLESS | @v2raych #1", "server": "plcdn10.suio.me", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a7a9f670-44c0-45a9-8047-69db0203c142", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇵🇱 PL | VLESS | @v2raych #2", "server": "144.31.0.177", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a7a9f670-44c0-45a9-8047-69db0203c142", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇵🇱 PL | VLESS | @v2raych #3", "server": "plcdn2.suio.me", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a7a9f670-44c0-45a9-8047-69db0203c142", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇵🇱 PL | VLESS | @v2raych #4", "server": "144.31.0.85", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a7a9f670-44c0-45a9-8047-69db0203c142", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇵🇱 PL | VLESS | @v2raych #5", "server": "xp13.vse-horosho.site", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "b2b3110f-8aaa-4971-bfee-608686de098f", "network": "grpc", "tls": false, "udp": true, "client-fingerprint": "chrome", "grpc-opts": {"grpc-service-name": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +41,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇵🇱 PL | VLESS | @config_proxy #1'
+      - '🇵🇱 PL | VLESS | @v2raych #1'
+      - '🇵🇱 PL | VLESS | @v2raych #2'
+      - '🇵🇱 PL | VLESS | @v2raych #3'
+      - '🇵🇱 PL | VLESS | @v2raych #4'
+      - '🇵🇱 PL | VLESS | @v2raych #5'
 
   - name: 🌍 Global Media
     type: select

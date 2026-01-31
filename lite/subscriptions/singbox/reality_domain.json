@@ -93,14 +93,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇵🇱 PL | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
-        "🇳🇱 NL | VLESS | @grizzlyvpn #1",
         "🇩🇪 DE | VLESS | @mimitdl #1",
-        "🇳🇱 NL | VLESS | @satellitenewspersian #1",
-        "🇮🇷 IR | VLESS | @v2ray_vmes #2"
+        "🇮🇷 IR | VLESS | @v2ray_vmes #2",
+        "🇮🇷 IR | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -111,14 +109,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇵🇱 PL | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
-        "🇳🇱 NL | VLESS | @grizzlyvpn #1",
         "🇩🇪 DE | VLESS | @mimitdl #1",
-        "🇳🇱 NL | VLESS | @satellitenewspersian #1",
-        "🇮🇷 IR | VLESS | @v2ray_vmes #2"
+        "🇮🇷 IR | VLESS | @v2ray_vmes #2",
+        "🇮🇷 IR | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -202,28 +198,6 @@
       }
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "po.marzxo.biz",
-      "server_port": 8084,
-      "uuid": "95a335bf-e902-41d1-879a-396c3290d040",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @configasli #1",
       "type": "vless",
       "server": "s1.aparat-movies-download.ir",
@@ -277,50 +251,11 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @grizzlyvpn #1",
-      "type": "vless",
-      "server": "r2.noode.work",
-      "server_port": 443,
-      "uuid": "3a65b0bc-81b9-4e2f-8c2e-35511839a5ac",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @mimitdl #1",
       "type": "vless",
       "server": "khabar.motionbetter.ir",
       "server_port": 39730,
       "uuid": "f30fd335-6022-4a8c-a823-3d8e8321d925",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @satellitenewspersian #1",
-      "type": "vless",
-      "server": "r2.noode.work",
-      "server_port": 443,
-      "uuid": "3a65b0bc-81b9-4e2f-8c2e-35511839a5ac",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -351,6 +286,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "tun.aws-sub.com",
+      "server_port": 1017,
+      "uuid": "ed2513b5-9974-4fb0-acd6-25fd556fb255",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

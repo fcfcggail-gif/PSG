@@ -79,7 +79,8 @@
         "direct",
         "🇸🇨 SC | VLESS | @arv2ray #1",
         "🇸🇨 SC | VLESS | @arv2ray #2",
-        "🇸🇨 SC | VLESS | @arv2ray #3"
+        "🇸🇨 SC | VLESS | @freeconfigsplus #1",
+        "🇸🇨 SC | VLESS | @v2aryng_vpn #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,7 +90,8 @@
       "outbounds": [
         "🇸🇨 SC | VLESS | @arv2ray #1",
         "🇸🇨 SC | VLESS | @arv2ray #2",
-        "🇸🇨 SC | VLESS | @arv2ray #3"
+        "🇸🇨 SC | VLESS | @freeconfigsplus #1",
+        "🇸🇨 SC | VLESS | @v2aryng_vpn #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -139,21 +141,20 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @arv2ray #3",
+      "tag": "🇸🇨 SC | VLESS | @freeconfigsplus #1",
       "type": "vless",
-      "server": "156.243.83.167",
-      "server_port": 443,
-      "uuid": "telegram-id-Arfilter",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "api-saronet.sarhadpirani.ir",
+      "server_port": 2052,
+      "uuid": "cb522244-ff63-4883-ae1f-87d883fb2da7",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @v2aryng_vpn #1",
+      "type": "vless",
+      "server": "ip.notomarosww.com",
+      "server_port": 8443,
+      "uuid": "829658bf-03c4-4c28-81e9-dd6ea141b2d0",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

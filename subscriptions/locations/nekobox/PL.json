@@ -77,7 +77,12 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @config_proxy #1"
+        "🇵🇱 PL | SS | @v2ray_free_conf #1",
+        "🇵🇱 PL | VLESS | @v2raych #1",
+        "🇵🇱 PL | VLESS | @v2raych #2",
+        "🇵🇱 PL | VLESS | @v2raych #3",
+        "🇵🇱 PL | VLESS | @v2raych #4",
+        "🇵🇱 PL | VLESS | @v2raych #5"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +90,12 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @config_proxy #1"
+        "🇵🇱 PL | SS | @v2ray_free_conf #1",
+        "🇵🇱 PL | VLESS | @v2raych #1",
+        "🇵🇱 PL | VLESS | @v2raych #2",
+        "🇵🇱 PL | VLESS | @v2raych #3",
+        "🇵🇱 PL | VLESS | @v2raych #4",
+        "🇵🇱 PL | VLESS | @v2raych #5"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,11 +111,19 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @config_proxy #1",
+      "tag": "🇵🇱 PL | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "217.30.10.70",
+      "server_port": 9001,
+      "method": "YWVzLTI1Ni1jZmI6VWtYUnNYdlI2YnVETUcyWQ==",
+      "password": null
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "po.marzxo.biz",
-      "server_port": 8084,
-      "uuid": "95a335bf-e902-41d1-879a-396c3290d040",
+      "server": "plcdn10.suio.me",
+      "server_port": 443,
+      "uuid": "a7a9f670-44c0-45a9-8047-69db0203c142",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -114,12 +132,79 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "144.31.0.177",
+      "server_port": 443,
+      "uuid": "a7a9f670-44c0-45a9-8047-69db0203c142",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2raych #3",
+      "type": "vless",
+      "server": "plcdn2.suio.me",
+      "server_port": 443,
+      "uuid": "a7a9f670-44c0-45a9-8047-69db0203c142",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2raych #4",
+      "type": "vless",
+      "server": "144.31.0.85",
+      "server_port": 443,
+      "uuid": "a7a9f670-44c0-45a9-8047-69db0203c142",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2raych #5",
+      "type": "vless",
+      "server": "xp13.vse-horosho.site",
+      "server_port": 443,
+      "uuid": "b2b3110f-8aaa-4971-bfee-608686de098f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
       }
     }
   ],

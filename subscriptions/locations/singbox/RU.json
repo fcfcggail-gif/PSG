@@ -93,8 +93,8 @@
         "🇷🇺 RU | SS | @ai_duet #1",
         "🇷🇺 RU | VLESS | @father_vpn #1",
         "🇷🇺 RU | VLESS | @iranbfilter #1",
-        "🇷🇺 RU | VLESS | @kurdistan_vpn_perfectt #1",
-        "🇷🇺 RU | VMESS | @prooxyk #1"
+        "🇷🇺 RU | VMESS | @prooxyk #1",
+        "🇷🇺 RU | VLESS | @v_2rayng0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -105,8 +105,8 @@
         "🇷🇺 RU | SS | @ai_duet #1",
         "🇷🇺 RU | VLESS | @father_vpn #1",
         "🇷🇺 RU | VLESS | @iranbfilter #1",
-        "🇷🇺 RU | VLESS | @kurdistan_vpn_perfectt #1",
-        "🇷🇺 RU | VMESS | @prooxyk #1"
+        "🇷🇺 RU | VMESS | @prooxyk #1",
+        "🇷🇺 RU | VLESS | @v_2rayng0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -151,14 +151,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @kurdistan_vpn_perfectt #1",
-      "type": "vless",
-      "server": "fastly2.yasharmobile.com",
-      "server_port": 8880,
-      "uuid": "b5585686-fb26-4534-8f84-71ac40a3f462",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇷🇺 RU | VMESS | @prooxyk #1",
       "type": "vmess",
       "server": "77.v2ray1.xyz",
@@ -180,6 +172,23 @@
         "path": "/A2DJOPFT",
         "headers": {
           "Host": "77.v2ray1.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @v_2rayng0 #1",
+      "type": "vless",
+      "server": "dawn.wenllies.com",
+      "server_port": 443,
+      "uuid": "65cd15ed-7a25-41ce-8bdd-bb5db2c38f65",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }
