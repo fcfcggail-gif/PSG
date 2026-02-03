@@ -108,17 +108,15 @@
         "🇽🇽 XX | VMESS | @qrv2ray #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #2",
+        "🇽🇽 XX | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
-        "🇮🇷 IR | VMESS | @xsv2ray #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇺🇸 US | VMESS | @v2ray_collector #1",
-        "🇦🇪 AE | VMESS | @v2ray_free_conf #1",
-        "🇫🇷 FR | VMESS | @v2raytg #1"
+        "🇺🇸 US | VMESS | @v2ray_collector #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -144,17 +142,15 @@
         "🇽🇽 XX | VMESS | @qrv2ray #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #2",
+        "🇽🇽 XX | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
-        "🇮🇷 IR | VMESS | @xsv2ray #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇺🇸 US | VMESS | @v2ray_collector #1",
-        "🇦🇪 AE | VMESS | @v2ray_free_conf #1",
-        "🇫🇷 FR | VMESS | @v2raytg #1"
+        "🇺🇸 US | VMESS | @v2ray_collector #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -581,36 +577,45 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "id-lb.vhax.net",
-      "server_port": 80,
-      "uuid": "6fea1649-425b-4092-bf53-29792152c925",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/sshkit/Arsham85231/6347d08022b91/",
-        "headers": {
-          "Host": "zoom.us"
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
       "type": "vmess",
-      "server": "digitalocean.com",
+      "server": "172.64.149.182",
       "server_port": 8080,
       "uuid": "nasnet",
       "security": "auto",
       "alter_id": 0,
       "transport": {
         "type": "ws",
-        "path": "/NASNET/cdn?ed=2560",
+        "path": "/nasnet/cdn?ed=2560",
         "headers": {
-          "Host": "nasnet-571299667.rahavard365.co"
+          "Host": "nasnet-5712964102.sharghdaily.co"
         }
       }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #2",
+      "type": "vmess",
+      "server": "apkwvctghw.114514782.xyz",
+      "server_port": 2052,
+      "uuid": "eaefcb64-2776-3706-b963-a19a2433755e",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/miaosafh",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @v2rayngconfig #1",
+      "type": "vmess",
+      "server": "chatgpt.com",
+      "server_port": 8080,
+      "uuid": "83184a1a-1eab-4220-90b6-23ca974f0a1e",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇺🇸 US | VMESS | @vpngate_config #1",
@@ -634,31 +639,6 @@
         "path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
         "headers": {
           "Host": "cold-dawn-9246.fly.dev"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VMESS | @xsv2ray #1",
-      "type": "vmess",
-      "server": "tehran-sms.xyz",
-      "server_port": 443,
-      "uuid": "7f034e0b-0d3f-4961-92d6-1b4bdbf3cb17",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "pkgbuild.org",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/connect/de/?ed=1024/?JOKERRVPN",
-        "headers": {
-          "Host": ""
         }
       }
     },
@@ -760,33 +740,6 @@
           "Host": "209.126.84.189"
         }
       }
-    },
-    {
-      "tag": "🇦🇪 AE | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "89.31.120.192",
-      "server_port": 443,
-      "uuid": "44537595-9ccc-4b83-8936-5f9ad3229019",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 FR | VMESS | @v2raytg #1",
-      "type": "vmess",
-      "server": "162.19.248.238",
-      "server_port": 550,
-      "uuid": "ede27a79-b039-490b-932c-495de4b68880",
-      "security": "auto",
-      "alter_id": 0
     }
   ],
   "route": {

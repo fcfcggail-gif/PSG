@@ -10,11 +10,12 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇲🇾 MY | TROJAN | @Fr33C0nfig #1 = trojan, xiaozhu1.kkieo555.cn, 11278, password = d03e1173-3109-43c0-a5dd-e2b56916c540, skip-cert-verify = true
+🇲🇾 MY | TROJAN | @Fr33C0nfig #2 = trojan, xiaozhu1.kkieo555.cn, 11278, password = 66037360-50d4-49c3-b3e7-810de84917e9, skip-cert-verify = true
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇲🇾 MY | TROJAN | @Fr33C0nfig #1
-PSG-AUTO = url-test, 🇲🇾 MY | TROJAN | @Fr33C0nfig #1
-PSG-FALLBACK = fallback, 🇲🇾 MY | TROJAN | @Fr33C0nfig #1
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇲🇾 MY | TROJAN | @Fr33C0nfig #1, 🇲🇾 MY | TROJAN | @Fr33C0nfig #2
+PSG-AUTO = url-test, 🇲🇾 MY | TROJAN | @Fr33C0nfig #1, 🇲🇾 MY | TROJAN | @Fr33C0nfig #2
+PSG-FALLBACK = fallback, 🇲🇾 MY | TROJAN | @Fr33C0nfig #1, 🇲🇾 MY | TROJAN | @Fr33C0nfig #2
 
 [Rule]
 GEOIP,IR,DIRECT

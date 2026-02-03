@@ -96,11 +96,13 @@
         "🇽🇽 XX | TROJAN | @grizzlyvpn #1",
         "🇯🇵 JP | TROJAN | @netfreedom0 #1",
         "🇦🇪 AE | TROJAN | @outline_ir #1",
+        "🇫🇷 FR | TROJAN | @privatevpns #1",
         "🇩🇪 DE | TROJAN | @privatevpns #1",
+        "🇫🇷 FR | TROJAN | @privatevpns #2",
         "🇫🇷 FR | TROJAN | @proxyfn #1",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
-        "🇦🇪 AE | TROJAN | @v2ray_youtube #1",
-        "🇫🇷 FR | TROJAN | @vpn_ioss #1"
+        "🇫🇷 FR | TROJAN | @v2raych #1",
+        "🇫🇷 FR | TROJAN | @v2raych #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -114,11 +116,13 @@
         "🇽🇽 XX | TROJAN | @grizzlyvpn #1",
         "🇯🇵 JP | TROJAN | @netfreedom0 #1",
         "🇦🇪 AE | TROJAN | @outline_ir #1",
+        "🇫🇷 FR | TROJAN | @privatevpns #1",
         "🇩🇪 DE | TROJAN | @privatevpns #1",
+        "🇫🇷 FR | TROJAN | @privatevpns #2",
         "🇫🇷 FR | TROJAN | @proxyfn #1",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
-        "🇦🇪 AE | TROJAN | @v2ray_youtube #1",
-        "🇫🇷 FR | TROJAN | @vpn_ioss #1"
+        "🇫🇷 FR | TROJAN | @v2raych #1",
+        "🇫🇷 FR | TROJAN | @v2raych #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -241,9 +245,41 @@
       }
     },
     {
+      "tag": "🇫🇷 FR | TROJAN | @privatevpns #1",
+      "type": "trojan",
+      "server": "13.38.161.110",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇩🇪 DE | TROJAN | @privatevpns #1",
       "type": "trojan",
-      "server": "63.177.190.223",
+      "server": "3.75.160.91",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | TROJAN | @privatevpns #2",
+      "type": "trojan",
+      "server": "35.180.14.60",
       "server_port": 22222,
       "password": "telegram-id-privatevpns",
       "tls": {
@@ -289,11 +325,11 @@
       }
     },
     {
-      "tag": "🇦🇪 AE | TROJAN | @v2ray_youtube #1",
+      "tag": "🇫🇷 FR | TROJAN | @v2raych #1",
       "type": "trojan",
-      "server": "94.140.0.1",
-      "server_port": 443,
-      "password": "bpb-trojan",
+      "server": "35.180.14.60",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -305,11 +341,20 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | TROJAN | @vpn_ioss #1",
+      "tag": "🇫🇷 FR | TROJAN | @v2raych #2",
       "type": "trojan",
-      "server": "88.214.24.235",
-      "server_port": 9443,
-      "password": "02948bde80594712b974368035f294dd"
+      "server": "35.180.14.60",
+      "server_port": 22223,
+      "password": "telegram-id-directvpn",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
