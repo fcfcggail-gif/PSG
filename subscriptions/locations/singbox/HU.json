@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQkU=
+//profile-title: base64:UFNHIHwgSFU=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇪 BE | VLESS | @vmesskhodam #1"
+        "🇭🇺 HU | VLESS | @netmellianti #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇪 BE | VLESS | @vmesskhodam #1"
+        "🇭🇺 HU | VLESS | @netmellianti #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇧🇪 BE | VLESS | @vmesskhodam #1",
+      "tag": "🇭🇺 HU | VLESS | @netmellianti #1",
       "type": "vless",
-      "server": "ip1-fast.tyryqyserver.ir",
-      "server_port": 80,
-      "uuid": "85df0ad4-8818-4aa5-9799-4bb7232de9e0",
-      "packet_encoding": "xudp"
+      "server": "api-r1.wiki-mobile-two.com",
+      "server_port": 5443,
+      "uuid": "030fa0bd-c76d-4b2e-9c49-fe4355bf1c04",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

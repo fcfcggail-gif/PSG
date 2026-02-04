@@ -77,16 +77,17 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
-        "🇳🇱 NL | VLESS | @freeconfigsplus #1",
+        "🇳🇱 NL | VLESS | @filtershekan_channel #1",
         "🇳🇱 NL | SS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #2",
-        "🇳🇱 NL | SS | @outlinereleasedkey #3",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
-        "🇳🇱 NL | VLESS | @sobi_vpn #1"
+        "🇳🇱 NL | VLESS | @sobi_vpn #1",
+        "🇳🇱 NL | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -94,16 +95,17 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
-        "🇳🇱 NL | VLESS | @freeconfigsplus #1",
+        "🇳🇱 NL | VLESS | @filtershekan_channel #1",
         "🇳🇱 NL | SS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #2",
-        "🇳🇱 NL | SS | @outlinereleasedkey #3",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
-        "🇳🇱 NL | VLESS | @sobi_vpn #1"
+        "🇳🇱 NL | VLESS | @sobi_vpn #1",
+        "🇳🇱 NL | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -117,6 +119,23 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "152.53.105.30",
+      "server_port": 443,
+      "uuid": "666250e3-362e-440a-b9e3-2b7794c02af8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | SS | @easy_free_vpn #1",
@@ -149,12 +168,26 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @freeconfigsplus #1",
+      "tag": "🇳🇱 NL | VLESS | @filtershekan_channel #1",
       "type": "vless",
-      "server": "api-saronet.sarhadpirani.ir",
-      "server_port": 2052,
-      "uuid": "cb522244-ff63-4883-ae1f-87d883fb2da7",
-      "packet_encoding": "xudp"
+      "server": "mskhost.outlinekeys.net",
+      "server_port": 443,
+      "uuid": "ca911bd2-e08f-42d8-aefb-3117494d3367",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | SS | @netfreedom0 #1",
@@ -189,14 +222,6 @@
       "password": null
     },
     {
-      "tag": "🇳🇱 NL | SS | @outlinereleasedkey #3",
-      "type": "shadowsocks",
-      "server": "193.29.139.188",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
-      "password": null
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @qeshmserver #1",
       "type": "vless",
       "server": "95.179.138.190",
@@ -220,6 +245,28 @@
       "server_port": 2052,
       "uuid": "8cf73792-0b3e-8e8b-f833-e86067f7a22c",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "77.239.124.88",
+      "server_port": 443,
+      "uuid": "ca911bd2-e08f-42d8-aefb-3117494d3367",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
