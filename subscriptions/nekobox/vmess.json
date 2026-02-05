@@ -95,12 +95,15 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
+        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
+        "🇫🇷 FR | VMESS | @v2ray_free_conf #1",
         "🇫🇷 FR | VMESS | @v2raytg #1"
       ],
       "tag": "proxy",
@@ -127,12 +130,15 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
+        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
+        "🇫🇷 FR | VMESS | @v2ray_free_conf #1",
         "🇫🇷 FR | VMESS | @v2raytg #1"
       ],
       "tag": "auto",
@@ -555,6 +561,40 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "cg1c01.waimaojd.com",
+      "server_port": 443,
+      "uuid": "be8e3136-b874-4085-bd23-ec3699300490",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "cg1c01.waimaojd.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/v1/graphql",
+        "headers": {
+          "Host": "cg1c01.waimaojd.com"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "cip.ertebatgoostar.ir",
+      "server_port": 2020,
+      "uuid": "076928f9-8df8-4a71-9e1c-c75658fe3140",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @vpngate_config #1",
       "type": "vmess",
       "server": "cold-dawn-9246.fly.dev",
@@ -675,6 +715,31 @@
         "path": "/vmessws",
         "headers": {
           "Host": "209.126.84.189"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "57.128.189.240",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {
+          "Host": ""
         }
       }
     },
