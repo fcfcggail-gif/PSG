@@ -1,0 +1,22 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/itsyebekhe/PSG/main/lite/subscriptions/surfboard/trojan_ipv4 interval=3600 strict=false
+
+[General]
+loglevel = notify
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+ipv6 = true
+dns-server = system, 223.5.5.5
+enhanced-mode-by-rule = true
+
+[Proxy]
+DIRECT = direct
+🇩🇪 DE | TROJAN | @privatevpns #1 = trojan, 3.77.16.196, 22222, password = telegram-id-privatevpns, skip-cert-verify = true
+🇩🇪 DE | TROJAN | @privatevpns #2 = trojan, 3.66.146.229, 22222, password = telegram-id-privatevpns, skip-cert-verify = true
+
+[Proxy Group]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | TROJAN | @privatevpns #1, 🇩🇪 DE | TROJAN | @privatevpns #2
+PSG-AUTO = url-test, 🇩🇪 DE | TROJAN | @privatevpns #1, 🇩🇪 DE | TROJAN | @privatevpns #2
+PSG-FALLBACK = fallback, 🇩🇪 DE | TROJAN | @privatevpns #1, 🇩🇪 DE | TROJAN | @privatevpns #2
+
+[Rule]
+GEOIP,IR,DIRECT
+FINAL,PSG-MANUAL
