@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇹 AT | VLESS | @config_proxy #1"
+        "🇰🇿 KZ | VLESS | @filterk0sh #1",
+        "🇰🇿 KZ | VLESS | @v2rayopen #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇹 AT | VLESS | @config_proxy #1"
+        "🇰🇿 KZ | VLESS | @filterk0sh #1",
+        "🇰🇿 KZ | VLESS | @v2rayopen #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,11 +103,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇹 AT | VLESS | @config_proxy #1",
+      "tag": "🇰🇿 KZ | VLESS | @filterk0sh #1",
       "type": "vless",
-      "server": "at.asbndx.com",
-      "server_port": 443,
-      "uuid": "e804e80a-e413-436e-8e3c-8cce9ef657b9",
+      "server": "77.73.232.61",
+      "server_port": 19747,
+      "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -121,6 +123,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @v2rayopen #1",
+      "type": "vless",
+      "server": "1.kkcweb.ir",
+      "server_port": 2083,
+      "uuid": "c805b05e-339d-40e0-8787-432d97a27345",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

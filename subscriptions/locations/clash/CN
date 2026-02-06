@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇦🇹 AT | VLESS | @config_proxy #1", "server": "at.asbndx.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "e804e80a-e413-436e-8e3c-8cce9ef657b9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇨🇳 CN | VMESS | @config_proxy #1", "server": "a475d0e9-t70f40-tphxte-1h5u7.hkt.gotochinatown.net", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "e3fdbd22-8c17-11ee-ace4-f23c913c8d2b", "alterId": 2, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "broadcastlv.chat.bilibili.com"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇦🇹 AT | VLESS | @config_proxy #1'
+      - '🇨🇳 CN | VMESS | @config_proxy #1'
 
   - name: 🌍 Global Media
     type: select
