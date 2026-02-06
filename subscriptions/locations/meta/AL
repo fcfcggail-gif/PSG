@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇨🇳 CN | VMESS | @config_proxy #1", "server": "9f42af8a-t70f40-t99b5n-1hhyy.hkt.gotochinatown.net", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "c594c7ec-8b10-11ef-a2b8-f23c9164ca5d", "alterId": 2, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "broadcastlv.chat.bilibili.com"}}}
+  - {"name": "🇦🇱 AL | VLESS | @v2rayopen #1", "server": "pq-albania1.09vpn.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "b4819c49-6c7e-4b57-9b9b-c73031e1de11", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇨🇳 CN | VMESS | @config_proxy #1'
+      - '🇦🇱 AL | VLESS | @v2rayopen #1'
 
   - name: 🌍 Global Media
     type: select

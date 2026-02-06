@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQ04=
+//profile-title: base64:UFNHIHwgQ1I=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇳 CN | VMESS | @config_proxy #1"
+        "🇨🇷 CR | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇳 CN | VMESS | @config_proxy #1"
+        "🇨🇷 CR | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,20 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇨🇳 CN | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "9f42af8a-t70f40-t99b5n-1hhyy.hkt.gotochinatown.net",
-      "server_port": 80,
-      "uuid": "c594c7ec-8b10-11ef-a2b8-f23c9164ca5d",
-      "security": "auto",
-      "alter_id": 2,
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": "broadcastlv.chat.bilibili.com"
-        }
-      }
+      "tag": "🇨🇷 CR | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "145.14.131.37",
+      "server_port": 990,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpmOGY3YUN6Y1BLYnNGOHAz",
+      "password": null
     }
   ],
   "route": {
