@@ -93,14 +93,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇩🇪 DE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇫🇮 FI | VLESS | @configv2rayforfree #1",
         "🇮🇷 IR | VLESS | @connectshu #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
-        "🇫🇮 FI | VLESS | @freeconfigsplus #1",
-        "🇮🇷 IR | VLESS | @netmellianti #1",
-        "🇮🇷 IR | VLESS | @v2ray_vmes #2",
-        "🇳🇱 NL | VLESS | @v2raych #1"
+        "🇫🇮 FI | VLESS | @freeconfigsplus #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -111,14 +109,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇩🇪 DE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇫🇮 FI | VLESS | @configv2rayforfree #1",
         "🇮🇷 IR | VLESS | @connectshu #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
-        "🇫🇮 FI | VLESS | @freeconfigsplus #1",
-        "🇮🇷 IR | VLESS | @netmellianti #1",
-        "🇮🇷 IR | VLESS | @v2ray_vmes #2",
-        "🇳🇱 NL | VLESS | @v2raych #1"
+        "🇫🇮 FI | VLESS | @freeconfigsplus #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -199,6 +195,18 @@
         "headers": {
           "Host": ""
         }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "partners.dissertationhelpspecialist.com",
+      "server_port": 8443,
+      "uuid": "456e4f29-1623-4944-9244-dcafb0922d03",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
       }
     },
     {
@@ -297,53 +305,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @netmellianti #1",
-      "type": "vless",
-      "server": "free.lumanetwork.cloud",
-      "server_port": 8585,
-      "uuid": "fb79dd3b-09c5-4475-aadb-84ce9bb63665",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_vmes #2",
-      "type": "vless",
-      "server": "m1.designister.com",
-      "server_port": 443,
-      "uuid": "a0011204-1bd7-489b-b120-eeeab41b6e59",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "support.digikala.com.snappshields.ir",
-      "server_port": 51344,
-      "uuid": "5bc19268-fa67-4e3f-b892-d56816d6a75f",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

@@ -79,7 +79,7 @@
         "direct",
         "🇵🇱 PL | VLESS | @flyv2ray #1",
         "🇵🇱 PL | VLESS | @komail315 #1",
-        "🇵🇱 PL | SS | @v2ray_free_conf #1"
+        "🇵🇱 PL | VLESS | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,7 +89,7 @@
       "outbounds": [
         "🇵🇱 PL | VLESS | @flyv2ray #1",
         "🇵🇱 PL | VLESS | @komail315 #1",
-        "🇵🇱 PL | SS | @v2ray_free_conf #1"
+        "🇵🇱 PL | VLESS | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -135,12 +135,21 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇵🇱 PL | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "217.30.10.70",
-      "server_port": 9033,
-      "method": "YWVzLTI1Ni1jZmI6VVRKQTU3eXBrMlhLUXBubQ==",
-      "password": null
+      "tag": "🇵🇱 PL | VLESS | @netfreedom0 #1",
+      "type": "vless",
+      "server": "144.31.0.177",
+      "server_port": 443,
+      "uuid": "a7a9f670-44c0-45a9-8047-69db0203c142",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
