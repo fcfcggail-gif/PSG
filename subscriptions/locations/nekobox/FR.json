@@ -77,16 +77,20 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇷 FR | VLESS | @flyv2ray #1",
+        "🇫🇷 FR | SS | @free1_vpn #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | TROJAN | @privatevpns #1",
+        "🇫🇷 FR | TROJAN | @privatevpns #2",
         "🇫🇷 FR | TROJAN | @proxyfn #1",
-        "🇫🇷 FR | VLESS | @qeshmserver #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | SS | @v2rayng3 #1",
         "🇫🇷 FR | VLESS | @v2rayopen #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
+        "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1",
+        "🇫🇷 FR | TROJAN | @v2rayvpnchannel #2",
         "🇫🇷 FR | VLESS | @vlessconfig #1",
         "🇫🇷 FR | VLESS | @vlessconfig #2",
         "🇫🇷 FR | SS | @vpn_ioss #1"
@@ -97,16 +101,20 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇷 FR | VLESS | @flyv2ray #1",
+        "🇫🇷 FR | SS | @free1_vpn #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | TROJAN | @privatevpns #1",
+        "🇫🇷 FR | TROJAN | @privatevpns #2",
         "🇫🇷 FR | TROJAN | @proxyfn #1",
-        "🇫🇷 FR | VLESS | @qeshmserver #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | SS | @v2rayng3 #1",
         "🇫🇷 FR | VLESS | @v2rayopen #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
+        "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1",
+        "🇫🇷 FR | TROJAN | @v2rayvpnchannel #2",
         "🇫🇷 FR | VLESS | @vlessconfig #1",
         "🇫🇷 FR | VLESS | @vlessconfig #2",
         "🇫🇷 FR | SS | @vpn_ioss #1"
@@ -123,6 +131,31 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @flyv2ray #1",
+      "type": "vless",
+      "server": "162.19.10.94",
+      "server_port": 443,
+      "uuid": "nasnet",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | SS | @free1_vpn #1",
+      "type": "shadowsocks",
+      "server": "54.36.174.140",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwdmd6OXBx",
+      "password": null
     },
     {
       "tag": "🇫🇷 FR | VLESS | @merdesert #1",
@@ -160,7 +193,23 @@
     {
       "tag": "🇫🇷 FR | TROJAN | @privatevpns #1",
       "type": "trojan",
-      "server": "15.236.88.17",
+      "server": "13.39.63.241",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | TROJAN | @privatevpns #2",
+      "type": "trojan",
+      "server": "51.44.43.148",
       "server_port": 22222,
       "password": "telegram-id-privatevpns",
       "tls": {
@@ -179,23 +228,6 @@
       "server": "51.91.11.29",
       "server_port": 80,
       "password": "598c19f3-a48e-47cd-8451-1ba04ea094d0",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @qeshmserver #1",
-      "type": "vless",
-      "server": "140.82.54.120",
-      "server_port": 443,
-      "uuid": "baadf496-921b-41b1-a7ae-fde0ddc6793d",
-      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -234,10 +266,19 @@
     {
       "tag": "🇫🇷 FR | VLESS | @v2rayopen #1",
       "type": "vless",
-      "server": "ov-france1.09vpn.com",
-      "server_port": 80,
-      "uuid": "25f86cb1-2140-4085-abcb-c3a0ea7a4be0",
-      "packet_encoding": "xudp"
+      "server": "162.19.10.94",
+      "server_port": 443,
+      "uuid": "e8b1500b-e9e8-5492-8312-f4eadf7d0767",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇫🇷 FR | VMESS | @v2raytg #1",
@@ -249,9 +290,41 @@
       "alter_id": 0
     },
     {
+      "tag": "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1",
+      "type": "trojan",
+      "server": "13.39.63.241",
+      "server_port": 22223,
+      "password": "telegram-id-v2rayvpnchannel",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | TROJAN | @v2rayvpnchannel #2",
+      "type": "trojan",
+      "server": "51.44.43.148",
+      "server_port": 22223,
+      "password": "telegram-id-v2rayvpnchannel",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇫🇷 FR | VLESS | @vlessconfig #1",
       "type": "vless",
-      "server": "13.39.127.100",
+      "server": "13.39.63.241",
       "server_port": 22224,
       "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
       "packet_encoding": "xudp",
@@ -266,7 +339,7 @@
     {
       "tag": "🇫🇷 FR | VLESS | @vlessconfig #2",
       "type": "vless",
-      "server": "15.236.88.17",
+      "server": "51.44.43.148",
       "server_port": 22224,
       "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
       "packet_encoding": "xudp",
