@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgU0c=
+//profile-title: base64:UFNHIHwgVFc=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -89,17 +89,14 @@
     {
       "outbounds": [
         "auto",
-        "direct",
-        "🇸🇬 SG | VMESS | @red2ray #1"
+        "direct"
       ],
       "tag": "proxy",
       "type": "selector"
     },
     {
       "interval": "10m",
-      "outbounds": [
-        "🇸🇬 SG | VMESS | @red2ray #1"
-      ],
+      "outbounds": [],
       "tag": "auto",
       "tolerance": 50,
       "type": "urltest",
@@ -108,22 +105,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇸🇬 SG | VMESS | @red2ray #1",
-      "type": "vmess",
-      "server": "217.217.255.99",
-      "server_port": 8443,
-      "uuid": "83049bda-8d53-44bc-f71c-f6b03c1ca482",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": ""
-        }
-      }
     }
   ],
   "route": {

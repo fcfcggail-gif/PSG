@@ -23,6 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇹🇷 TR | VLESS | @config_proxy #1", "server": "v2shop-tr2.bing-net.com", "port": 3039, "type": "vless", "skip-cert-verify": true, "uuid": "0b67ba74-239b-4301-a3ed-bca843226b64", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @config_proxy #2", "server": "v2shop-tr1.bing-net.com", "port": 3040, "type": "vless", "skip-cert-verify": true, "uuid": "0b67ba74-239b-4301-a3ed-bca843226b64", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇹🇷 TR | VLESS | @filtershekan_channel #1", "server": "94.131.123.167", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a44e0875-210f-4941-9062-89b6361a14c6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -37,6 +39,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇹🇷 TR | VLESS | @config_proxy #1'
+      - '🇹🇷 TR | VLESS | @config_proxy #2'
       - '🇹🇷 TR | VLESS | @filtershekan_channel #1'
 
   - name: 🌍 Global Media
