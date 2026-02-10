@@ -90,9 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | VLESS | @config_proxy #1",
-        "🇭🇰 HK | VLESS | @flyv2ray #1",
-        "🇭🇰 HK | VMESS | @freev2rays #1"
+        "🇭🇰 HK | VMESS | @freev2rays #1",
+        "🇭🇰 HK | VLESS | @mtproxy22_v2ray #1",
+        "🇭🇰 HK | TROJAN | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | VLESS | @config_proxy #1",
-        "🇭🇰 HK | VLESS | @flyv2ray #1",
-        "🇭🇰 HK | VMESS | @freev2rays #1"
+        "🇭🇰 HK | VMESS | @freev2rays #1",
+        "🇭🇰 HK | VLESS | @mtproxy22_v2ray #1",
+        "🇭🇰 HK | TROJAN | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,36 +112,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇭🇰 HK | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "112.119.56.207",
-      "server_port": 20220,
-      "uuid": "c8d88af0-3329-4ea6-9ab7-1a82724f0579",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇭🇰 HK | VLESS | @flyv2ray #1",
-      "type": "vless",
-      "server": "hk.griffon-guard.com",
-      "server_port": 443,
-      "uuid": "193c75c1-1af1-484a-84ec-14de4828d209",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇭🇰 HK | VMESS | @freev2rays #1",
@@ -165,6 +135,44 @@
         "path": "/register",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 HK | VLESS | @mtproxy22_v2ray #1",
+      "type": "vless",
+      "server": "hk.griffon-guard.com",
+      "server_port": 443,
+      "uuid": "193c75c1-1af1-484a-84ec-14de4828d209",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 HK | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "43.198.233.56",
+      "server_port": 381,
+      "password": "BxceQaOe",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }
