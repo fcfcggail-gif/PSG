@@ -77,7 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇪 AE | VLESS | @ai_duet #1"
+        "🇦🇪 AE | VLESS | @vpnplusee_free #1",
+        "🇦🇪 AE | VLESS | @vpnplusee_free #2",
+        "🇦🇪 AE | VLESS | @vpnplusee_free #3"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇪 AE | VLESS | @ai_duet #1"
+        "🇦🇪 AE | VLESS | @vpnplusee_free #1",
+        "🇦🇪 AE | VLESS | @vpnplusee_free #2",
+        "🇦🇪 AE | VLESS | @vpnplusee_free #3"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,21 +105,28 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇪 AE | VLESS | @ai_duet #1",
+      "tag": "🇦🇪 AE | VLESS | @vpnplusee_free #1",
       "type": "vless",
-      "server": "api.steamsale.ir",
-      "server_port": 443,
-      "uuid": "3a4ddfac-e7da-48c9-9648-4a366109fc3a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "iu.euro2nova.com",
+      "server_port": 8880,
+      "uuid": "329cc5b8-c5a1-4613-862f-2922a7ae0502",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @vpnplusee_free #2",
+      "type": "vless",
+      "server": "bg.euro2nova.com",
+      "server_port": 8880,
+      "uuid": "db26f4a3-0b3b-470a-89b8-3257a594e8e9",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @vpnplusee_free #3",
+      "type": "vless",
+      "server": "t14.euro2nova.com",
+      "server_port": 8880,
+      "uuid": "db26f4a3-0b3b-470a-89b8-3257a594e8e9",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
