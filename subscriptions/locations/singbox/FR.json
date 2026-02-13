@@ -91,16 +91,18 @@
         "auto",
         "direct",
         "🇫🇷 FR | VLESS | @filtershekan_channel #1",
+        "🇫🇷 FR | VLESS | @free1_vpn #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | SS | @mt_proxy #1",
         "🇫🇷 FR | TROJAN | @proxyfn #1",
-        "🇫🇷 FR | VLESS | @prrofile_purple #1",
-        "🇫🇷 FR | VLESS | @red2ray #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | SS | @v2rayng3 #1",
-        "🇫🇷 FR | VMESS | @v2raytg #1"
+        "🇫🇷 FR | VMESS | @v2raytg #1",
+        "🇫🇷 FR | VLESS | @vmesc #1",
+        "🇫🇷 FR | SS | @vpn_ioss #1",
+        "🇫🇷 FR | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -109,16 +111,18 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇷 FR | VLESS | @filtershekan_channel #1",
+        "🇫🇷 FR | VLESS | @free1_vpn #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | SS | @mt_proxy #1",
         "🇫🇷 FR | TROJAN | @proxyfn #1",
-        "🇫🇷 FR | VLESS | @prrofile_purple #1",
-        "🇫🇷 FR | VLESS | @red2ray #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | SS | @v2rayng3 #1",
-        "🇫🇷 FR | VMESS | @v2raytg #1"
+        "🇫🇷 FR | VMESS | @v2raytg #1",
+        "🇫🇷 FR | VLESS | @vmesc #1",
+        "🇫🇷 FR | SS | @vpn_ioss #1",
+        "🇫🇷 FR | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -136,6 +140,28 @@
       "server_port": 2053,
       "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "wolfb03.serverp1anel.ir",
+      "server_port": 8080,
+      "uuid": "61076cc8-6d63-4dbf-80b9-6c6d70f934ab",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇫🇷 FR | VLESS | @merdesert #1",
@@ -195,36 +221,6 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @prrofile_purple #1",
-      "type": "vless",
-      "server": "141.95.127.132",
-      "server_port": 2053,
-      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "wolfb23.serverp1anel.ir",
-      "server_port": 8080,
-      "uuid": "61076cc8-6d63-4dbf-80b9-6c6d70f934ab",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇫🇷 FR | VLESS | @v2ray_collector #1",
       "type": "vless",
       "server": "141.11.203.139",
@@ -257,6 +253,44 @@
       "uuid": "ede27a79-b039-490b-932c-495de4b68880",
       "security": "auto",
       "alter_id": 0
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "wolfb17.serverp1anel.ir",
+      "server_port": 8080,
+      "uuid": "61076cc8-6d63-4dbf-80b9-6c6d70f934ab",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | SS | @vpn_ioss #1",
+      "type": "shadowsocks",
+      "server": "45.95.233.75",
+      "server_port": 27389,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpxWWttSDJEVTVMaWlJelU4Qkt5Wnhv",
+      "password": null
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "fasty.hamrahx.ir",
+      "server_port": 80,
+      "uuid": "71748f9d-4b73-4621-845b-07dd4bcbc051",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

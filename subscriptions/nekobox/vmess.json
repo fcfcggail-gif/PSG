@@ -98,13 +98,13 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #2",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇫🇮 FI | VMESS | @red2ray #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #1",
         "🇫🇷 FR | VMESS | @v2raytg #1"
@@ -136,13 +136,13 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #2",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇫🇮 FI | VMESS | @red2ray #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #1",
         "🇫🇷 FR | VMESS | @v2raytg #1"
@@ -603,6 +603,31 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "c7.620720.xyz",
+      "server_port": 8443,
+      "uuid": "516d8a7a-3f0b-41d3-bad0-246116381516",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "c7.620720.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "c7.620720.xyz"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @v2rayngconfig #2",
       "type": "vmess",
       "server": "id-lb.vhax.net",
@@ -716,15 +741,6 @@
         "type": "grpc",
         "service_name": "WgCmp8p80KDzo64uHE"
       }
-    },
-    {
-      "tag": "🇫🇮 FI | VMESS | @red2ray #1",
-      "type": "vmess",
-      "server": "95.216.183.113",
-      "server_port": 42152,
-      "uuid": "018f4459-056e-4c41-90ce-12cbc2c670b2",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "tag": "🇺🇸 US | VMESS | @v2ray_collector #1",
