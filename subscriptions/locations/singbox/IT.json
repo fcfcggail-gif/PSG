@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSFU=
+//profile-title: base64:UFNHIHwgSVQ=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇺 HU | VLESS | @config_proxy #1"
+        "🇮🇹 IT | SS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇺 HU | VLESS | @config_proxy #1"
+        "🇮🇹 IT | SS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,21 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇭🇺 HU | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "217.13.104.148",
-      "server_port": 443,
-      "uuid": "457c367f-ac78-4641-9846-dd880332f7cf",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "tag": "🇮🇹 IT | SS | @v2raych #1",
+      "type": "shadowsocks",
+      "server": "57.131.38.151",
+      "server_port": 8443,
+      "method": "YWVzLTI1Ni1nY206K3pGTDBZN3NZUTZCUnJZSUo3ZFhHOHNVcWJ2Mkh6YlJ0MVpEY3N2VVpGcz0=",
+      "password": null
     }
   ],
   "route": {
