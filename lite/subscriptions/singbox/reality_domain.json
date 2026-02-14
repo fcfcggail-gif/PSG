@@ -93,16 +93,17 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇦🇹 AT | VLESS | @armod_iran #1",
         "🇩🇪 DE | VLESS | @configasli #1",
-        "🇺🇸 US | VLESS | @connectshu #1",
+        "🇮🇷 IR | VLESS | @dargiiriis #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
         "🇫🇷 FR | VLESS | @free1_vpn #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
         "🇩🇪 DE | VLESS | @netfreedom0 #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #1",
         "🇵🇱 PL | VLESS | @v2rayvpn2 #1",
-        "🇩🇪 DE | VLESS | @vpnowl #1",
-        "🇮🇷 IR | VLESS | @vpnplusee_free #1"
+        "🇩🇪 DE | VLESS | @vmesskhodam #1",
+        "🇩🇪 DE | VLESS | @vpnowl #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -113,16 +114,17 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇦🇹 AT | VLESS | @armod_iran #1",
         "🇩🇪 DE | VLESS | @configasli #1",
-        "🇺🇸 US | VLESS | @connectshu #1",
+        "🇮🇷 IR | VLESS | @dargiiriis #1",
         "🇳🇱 NL | VLESS | @filterk0sh #1",
         "🇫🇷 FR | VLESS | @free1_vpn #1",
         "🇫🇮 FI | VLESS | @freeconfigsplus #1",
         "🇩🇪 DE | VLESS | @netfreedom0 #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #1",
         "🇵🇱 PL | VLESS | @v2rayvpn2 #1",
-        "🇩🇪 DE | VLESS | @vpnowl #1",
-        "🇮🇷 IR | VLESS | @vpnplusee_free #1"
+        "🇩🇪 DE | VLESS | @vmesskhodam #1",
+        "🇩🇪 DE | VLESS | @vpnowl #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -206,6 +208,28 @@
       }
     },
     {
+      "tag": "🇦🇹 AT | VLESS | @armod_iran #1",
+      "type": "vless",
+      "server": "at.jojack.ru",
+      "server_port": 443,
+      "uuid": "eb071647-72a6-46be-8e89-ff3d228d52f6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @configasli #1",
       "type": "vless",
       "server": "s1.aparat-movies-download.ir",
@@ -215,11 +239,11 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @connectshu #1",
+      "tag": "🇮🇷 IR | VLESS | @dargiiriis #1",
       "type": "vless",
-      "server": "mouse5.1lil1.de",
-      "server_port": 443,
-      "uuid": "191ee2c8-e3e3-09a1-a4a5-c9e8323c6f3d",
+      "server": "uktaz.taz-min.com",
+      "server_port": 6923,
+      "uuid": "45c48567-b3ee-4ab5-9ee0-562498c89488",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -228,6 +252,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -345,19 +374,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @vpnowl #1",
+      "tag": "🇩🇪 DE | VLESS | @vmesskhodam #1",
       "type": "vless",
-      "server": "prime.dissertationhelpspecialist.com",
-      "server_port": 2026,
-      "uuid": "e2d67742-6f0a-412c-b382-e420d9461d23",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "tun1.karunwebco.com",
-      "server_port": 1020,
-      "uuid": "98582446-4b95-498d-8959-0d109231639d",
+      "server": "nimbus.isgately.dev",
+      "server_port": 11004,
+      "uuid": "785caed1-8972-430e-9ad2-a08fbbe98db0",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -373,6 +394,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @vpnowl #1",
+      "type": "vless",
+      "server": "prime.dissertationhelpspecialist.com",
+      "server_port": 2026,
+      "uuid": "e2d67742-6f0a-412c-b382-e420d9461d23",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
