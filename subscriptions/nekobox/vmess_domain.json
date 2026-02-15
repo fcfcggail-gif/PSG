@@ -83,8 +83,10 @@
         "🇮🇷 IR | VMESS | @Fr33C0nfig #1",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇮🇷 IR | VMESS | @dargiiriis #1",
+        "🇮🇷 IR | VMESS | @dargiiriis #2",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
+        "🇺🇸 US | VMESS | @hope_net #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
         "🇺🇸 US | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VMESS | @iranvpnet #1",
@@ -96,6 +98,9 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
+        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+        "🇭🇰 HK | VMESS | @v2ray_free_conf #1",
+        "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #2",
         "🇮🇷 IR | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
@@ -112,8 +117,10 @@
         "🇮🇷 IR | VMESS | @Fr33C0nfig #1",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇮🇷 IR | VMESS | @dargiiriis #1",
+        "🇮🇷 IR | VMESS | @dargiiriis #2",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
+        "🇺🇸 US | VMESS | @hope_net #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
         "🇺🇸 US | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VMESS | @iranvpnet #1",
@@ -125,6 +132,9 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
+        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+        "🇭🇰 HK | VMESS | @v2ray_free_conf #1",
+        "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #2",
         "🇮🇷 IR | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
@@ -258,6 +268,15 @@
       "alter_id": 0
     },
     {
+      "tag": "🇮🇷 IR | VMESS | @dargiiriis #2",
+      "type": "vmess",
+      "server": "homeyra.taz-min.com",
+      "server_port": 33221,
+      "uuid": "de6241b0-ee2d-431e-b7e5-2853b4d0fb26",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
       "tag": "🇭🇰 HK | VMESS | @freev2rays #1",
       "type": "vmess",
       "server": "hk2.lrzdx.uk",
@@ -304,6 +323,31 @@
         "path": "/d9863037",
         "headers": {
           "Host": "xcf037.facai2024.com"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @hope_net #1",
+      "type": "vmess",
+      "server": "172.67.71.160",
+      "server_port": 443,
+      "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "obdii.cfd",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkws",
+        "headers": {
+          "Host": "obdii.cfd"
         }
       }
     },
@@ -547,6 +591,54 @@
         "path": "/linkvws",
         "headers": {
           "Host": "kellie.makeup"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "57.129.132.223",
+      "server_port": 80,
+      "uuid": "a25cbf11-2908-4a1b-a3a8-9a571777dca3",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/vmess/",
+        "headers": {
+          "Host": "google.com"
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 HK | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "v10.heduian.link",
+      "server_port": 30807,
+      "uuid": "cbb3f877-d1fb-344c-87a9-d153bffd5484",
+      "security": "auto",
+      "alter_id": 2,
+      "transport": {
+        "type": "ws",
+        "path": "/oooo",
+        "headers": {
+          "Host": "v10.heduian.link"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "tr1-smart.adelping.com",
+      "server_port": 80,
+      "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
         }
       }
     },
