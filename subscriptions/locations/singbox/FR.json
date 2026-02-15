@@ -98,13 +98,10 @@
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | SS | @mt_proxy #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
-        "🇫🇷 FR | TROJAN | @privatevpns #1",
         "🇫🇷 FR | TROJAN | @proxyfn #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | SS | @v2rayng3 #1",
-        "🇫🇷 FR | VMESS | @v2raytg #1",
-        "🇫🇷 FR | VLESS | @vlessconfig #1",
-        "🇫🇷 FR | VLESS | @vmesc #1"
+        "🇫🇷 FR | VMESS | @v2raytg #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -120,13 +117,10 @@
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | SS | @mt_proxy #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
-        "🇫🇷 FR | TROJAN | @privatevpns #1",
         "🇫🇷 FR | TROJAN | @proxyfn #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | SS | @v2rayng3 #1",
-        "🇫🇷 FR | VMESS | @v2raytg #1",
-        "🇫🇷 FR | VLESS | @vlessconfig #1",
-        "🇫🇷 FR | VLESS | @vmesc #1"
+        "🇫🇷 FR | VMESS | @v2raytg #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -225,22 +219,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇷 FR | TROJAN | @privatevpns #1",
-      "type": "trojan",
-      "server": "15.236.182.0",
-      "server_port": 22222,
-      "password": "telegram-id-privatevpns",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇫🇷 FR | TROJAN | @proxyfn #1",
       "type": "trojan",
       "server": "51.91.11.29",
@@ -289,43 +267,6 @@
       "uuid": "ede27a79-b039-490b-932c-495de4b68880",
       "security": "auto",
       "alter_id": 0
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @vlessconfig #1",
-      "type": "vless",
-      "server": "15.236.182.0",
-      "server_port": 22224,
-      "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @vmesc #1",
-      "type": "vless",
-      "server": "wolfb17.serverp1anel.ir",
-      "server_port": 8080,
-      "uuid": "61076cc8-6d63-4dbf-80b9-6c6d70f934ab",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     }
   ],
   "route": {

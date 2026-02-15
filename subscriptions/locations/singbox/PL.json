@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | SS | @outlinereleasedkey #1",
-        "🇵🇱 PL | VLESS | @v2rayvpn2 #1"
+        "🇵🇱 PL | VLESS | @config_proxy #1",
+        "🇵🇱 PL | SS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | SS | @outlinereleasedkey #1",
-        "🇵🇱 PL | VLESS | @v2rayvpn2 #1"
+        "🇵🇱 PL | VLESS | @config_proxy #1",
+        "🇵🇱 PL | SS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,15 +112,7 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | SS | @outlinereleasedkey #1",
-      "type": "shadowsocks",
-      "server": "217.30.10.18",
-      "server_port": 9011,
-      "method": "YWVzLTI1Ni1jZmI6TTN0MlpFUWNNR1JXQmpSYQ==",
-      "password": null
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @v2rayvpn2 #1",
+      "tag": "🇵🇱 PL | VLESS | @config_proxy #1",
       "type": "vless",
       "server": "poland-meow.nethcloud.top",
       "server_port": 8443,
@@ -140,6 +132,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇵🇱 PL | SS | @outlinereleasedkey #1",
+      "type": "shadowsocks",
+      "server": "217.30.10.18",
+      "server_port": 9011,
+      "method": "YWVzLTI1Ni1jZmI6TTN0MlpFUWNNR1JXQmpSYQ==",
+      "password": null
     }
   ],
   "route": {
