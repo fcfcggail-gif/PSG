@@ -78,12 +78,10 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @bored_vpn #1",
-        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇷🇺 RU | VLESS | @v2ray_youtube #1",
-        "🇷🇺 RU | VLESS | @v_2rayng0 #1",
-        "🇷🇺 RU | VLESS | @vmesskhodam #1"
+        "🇷🇺 RU | VLESS | @v_2rayng0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -92,12 +90,10 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @bored_vpn #1",
-        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇷🇺 RU | VLESS | @v2ray_youtube #1",
-        "🇷🇺 RU | VLESS | @v_2rayng0 #1",
-        "🇷🇺 RU | VLESS | @vmesskhodam #1"
+        "🇷🇺 RU | VLESS | @v_2rayng0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -133,14 +129,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "51.250.54.70",
-      "server_port": 8443,
-      "uuid": "8c6302ee-8eb9-488c-9888-b7a5eb48fccd",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
@@ -204,24 +192,6 @@
       "server_port": 443,
       "uuid": "d42a623b-4dbd-4523-ab4e-adedf7b95a6f",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "spb.roblugo.su",
-      "server_port": 443,
-      "uuid": "32561144-434f-4752-a731-f35cd191ba4a",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "",
