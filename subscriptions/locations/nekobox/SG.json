@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇪 BE | VLESS | @prrofile_purple #1"
+        "🇸🇬 SG | SS | @outline_ir #1",
+        "🇸🇬 SG | SS | @v2rayopen #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇪 BE | VLESS | @prrofile_purple #1"
+        "🇸🇬 SG | SS | @outline_ir #1",
+        "🇸🇬 SG | SS | @v2rayopen #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,12 +103,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇧🇪 BE | VLESS | @prrofile_purple #1",
-      "type": "vless",
-      "server": "151.101.9.81",
-      "server_port": 80,
-      "uuid": "e4a6331b-e3e7-4f4e-b46a-8c31bf44bf83",
-      "packet_encoding": "xudp"
+      "tag": "🇸🇬 SG | SS | @outline_ir #1",
+      "type": "shadowsocks",
+      "server": "3.1.195.148",
+      "server_port": 8316,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg==",
+      "password": null
+    },
+    {
+      "tag": "🇸🇬 SG | SS | @v2rayopen #1",
+      "type": "shadowsocks",
+      "server": "3.1.195.148",
+      "server_port": 8319,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg==",
+      "password": null
     }
   ],
   "route": {
