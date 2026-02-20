@@ -93,12 +93,11 @@
         "🇺🇸 US | VLESS | @Fr33C0nfig #1",
         "🇺🇸 US | VLESS | @ai_duet #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
+        "🇺🇸 US | TROJAN | @config_proxy #1",
         "🇺🇸 US | VLESS | @connectshu #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @evay_vpn #1",
-        "🇺🇸 US | VLESS | @evay_vpn #2",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇺🇸 US | VLESS | @filterk0sh #2",
         "🇺🇸 US | SS | @free4allvpn #1",
@@ -151,8 +150,7 @@
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | SS | @v2ray_free_conf #1",
-        "🇺🇸 US | VLESS | @v2raych #1",
+        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2rayfast_7 #1",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #1",
@@ -175,12 +173,11 @@
         "🇺🇸 US | VLESS | @Fr33C0nfig #1",
         "🇺🇸 US | VLESS | @ai_duet #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
+        "🇺🇸 US | TROJAN | @config_proxy #1",
         "🇺🇸 US | VLESS | @connectshu #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @evay_vpn #1",
-        "🇺🇸 US | VLESS | @evay_vpn #2",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇺🇸 US | VLESS | @filterk0sh #2",
         "🇺🇸 US | SS | @free4allvpn #1",
@@ -233,8 +230,7 @@
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | SS | @v2ray_free_conf #1",
-        "🇺🇸 US | VLESS | @v2raych #1",
+        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2rayfast_7 #1",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
         "🇺🇸 US | VMESS | @v2rayngconfig #1",
@@ -298,6 +294,22 @@
       }
     },
     {
+      "tag": "🇺🇸 US | TROJAN | @config_proxy #1",
+      "type": "trojan",
+      "server": "108.165.152.80",
+      "server_port": 2083,
+      "password": "Aimer",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @connectshu #1",
       "type": "vless",
       "server": "66.81.247.155",
@@ -331,23 +343,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @eliteproxyv2 #1",
-      "type": "vless",
-      "server": "germany.fast.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @evay_vpn #1",
-      "type": "vless",
-      "server": "evay_vpn.fast.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "d03d8fc0-23ce-461a-97fa-2a7e0a66d8db",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @evay_vpn #2",
       "type": "vless",
       "server": "151.101.195.8",
       "server_port": 80,
@@ -1038,20 +1034,29 @@
       }
     },
     {
-      "tag": "🇺🇸 US | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "62.146.172.130",
-      "server_port": 80,
-      "method": "YWVzLTI1Ni1nY206TFlYaUlVSjBGdXRuVHpCRw==",
-      "password": null
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "cxp3.azangooo.ir",
-      "server_port": 2053,
-      "uuid": "3432abbc-85da-42fe-8997-4d9041d4c923",
-      "packet_encoding": "xudp"
+      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "57.129.24.131",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "kampong.org",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {
+          "Host": "kampong.org"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @v2rayfast_7 #1",

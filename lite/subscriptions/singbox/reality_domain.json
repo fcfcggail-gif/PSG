@@ -94,11 +94,11 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @configasli #1",
+        "🇩🇪 DE | VLESS | @dargiiriis #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #2",
-        "🇳🇱 NL | VLESS | @vmesc #1",
-        "🇳🇱 NL | VLESS | @vpnplusee_free #1"
+        "🇳🇱 NL | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -110,11 +110,11 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @configasli #1",
+        "🇩🇪 DE | VLESS | @dargiiriis #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #2",
-        "🇳🇱 NL | VLESS | @vmesc #1",
-        "🇳🇱 NL | VLESS | @vpnplusee_free #1"
+        "🇳🇱 NL | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -207,6 +207,28 @@
       "flow": "xtls-rprx-vision"
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @dargiiriis #1",
+      "type": "vless",
+      "server": "uktaz.taz-min.com",
+      "server_port": 6923,
+      "uuid": "45c48567-b3ee-4ab5-9ee0-562498c89488",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @filterk0sh #1",
       "type": "vless",
       "server": "eng14.netliberated.org",
@@ -273,28 +295,6 @@
       "server": "nl.roblugo.su",
       "server_port": 443,
       "uuid": "32561144-434f-4752-a731-f35cd191ba4a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "ll0ll.vip",
-      "server_port": 8443,
-      "uuid": "b9dbc1ff-6364-4826-a973-71c0584116c4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
