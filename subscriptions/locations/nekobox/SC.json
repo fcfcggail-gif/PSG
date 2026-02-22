@@ -80,14 +80,10 @@
         "🇸🇨 SC | VLESS | @arv2ray #1",
         "🇸🇨 SC | VLESS | @arv2ray #2",
         "🇸🇨 SC | VLESS | @bored_vpn #1",
-        "🇸🇨 SC | VLESS | @config_proxy #1",
-        "🇸🇨 SC | VLESS | @config_proxy #2",
         "🇸🇨 SC | VLESS | @ehsawn8 #1",
         "🇸🇨 SC | VLESS | @kafing_2 #1",
-        "🇸🇨 SC | VLESS | @mtproxy22_v2ray #1",
         "🇸🇨 SC | VLESS | @prrofile_purple #1",
-        "🇸🇨 SC | VLESS | @v2raych #1",
-        "🇸🇨 SC | VLESS | @vmesc #1"
+        "🇸🇨 SC | VLESS | @prrofile_purple #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,14 +94,10 @@
         "🇸🇨 SC | VLESS | @arv2ray #1",
         "🇸🇨 SC | VLESS | @arv2ray #2",
         "🇸🇨 SC | VLESS | @bored_vpn #1",
-        "🇸🇨 SC | VLESS | @config_proxy #1",
-        "🇸🇨 SC | VLESS | @config_proxy #2",
         "🇸🇨 SC | VLESS | @ehsawn8 #1",
         "🇸🇨 SC | VLESS | @kafing_2 #1",
-        "🇸🇨 SC | VLESS | @mtproxy22_v2ray #1",
         "🇸🇨 SC | VLESS | @prrofile_purple #1",
-        "🇸🇨 SC | VLESS | @v2raych #1",
-        "🇸🇨 SC | VLESS | @vmesc #1"
+        "🇸🇨 SC | VLESS | @prrofile_purple #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -163,22 +155,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "45.130.125.96",
-      "server_port": 8443,
-      "uuid": "02a8c937-e24a-435c-8ea9-5a11c72fff99",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "45.130.125.160",
-      "server_port": 2086,
-      "uuid": "a506dd7f-1eca-426f-a07a-982490244622",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇸🇨 SC | VLESS | @ehsawn8 #1",
       "type": "vless",
       "server": "45.130.125.160",
@@ -213,14 +189,6 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @mtproxy22_v2ray #1",
-      "type": "vless",
-      "server": "45.130.125.69",
-      "server_port": 8443,
-      "uuid": "cff6f361-828a-43c8-a8b5-8d10b32e57fb",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇸🇨 SC | VLESS | @prrofile_purple #1",
       "type": "vless",
       "server": "z13.prodnsspeed10.ir",
@@ -229,20 +197,21 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @v2raych #1",
+      "tag": "🇸🇨 SC | VLESS | @prrofile_purple #2",
       "type": "vless",
-      "server": "glob.thisiswe.uno",
-      "server_port": 2053,
-      "uuid": "ee9b0614-50ec-41b6-951b-e1d5d755fa4b",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @vmesc #1",
-      "type": "vless",
-      "server": "a.pabloping.cloud",
-      "server_port": 2052,
-      "uuid": "2271c50f-ac7a-4d7f-8b04-64085b0daa56",
-      "packet_encoding": "xudp"
+      "server": "z13.prodnsspeed10.ir",
+      "server_port": 443,
+      "uuid": "1c43ddec-1531-4763-bb5e-2577ce192fac",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
