@@ -91,7 +91,6 @@
         "auto",
         "direct",
         "🇩🇪 DE | VLESS | @Fr33C0nfig #1",
-        "🇩🇪 DE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
@@ -108,6 +107,7 @@
         "🇩🇪 DE | VLESS | @netmellianti #1",
         "🇩🇪 DE | VLESS | @outline_ir #1",
         "🇩🇪 DE | VLESS | @outline_ir #2",
+        "🇩🇪 DE | TROJAN | @privatevpns #1",
         "🇩🇪 DE | VLESS | @proxy48 #1",
         "🇩🇪 DE | VLESS | @selinc #1",
         "🇩🇪 DE | TROJAN | @teamvpnpro #1",
@@ -118,11 +118,11 @@
         "🇩🇪 DE | SS | @v2aryng_vpn #1",
         "🇩🇪 DE | VMESS | @v2ray_free_conf #1",
         "🇩🇪 DE | VLESS | @v2ray_youtube #1",
+        "🇩🇪 DE | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
-        "🇩🇪 DE | VLESS | @vlessconfig #1",
         "🇩🇪 DE | VLESS | @vmesc #1",
         "🇩🇪 DE | VLESS | @vmesc #2",
         "🇩🇪 DE | VLESS | @vmesskhodam #1",
@@ -138,7 +138,6 @@
       "interval": "10m",
       "outbounds": [
         "🇩🇪 DE | VLESS | @Fr33C0nfig #1",
-        "🇩🇪 DE | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
@@ -155,6 +154,7 @@
         "🇩🇪 DE | VLESS | @netmellianti #1",
         "🇩🇪 DE | VLESS | @outline_ir #1",
         "🇩🇪 DE | VLESS | @outline_ir #2",
+        "🇩🇪 DE | TROJAN | @privatevpns #1",
         "🇩🇪 DE | VLESS | @proxy48 #1",
         "🇩🇪 DE | VLESS | @selinc #1",
         "🇩🇪 DE | TROJAN | @teamvpnpro #1",
@@ -165,11 +165,11 @@
         "🇩🇪 DE | SS | @v2aryng_vpn #1",
         "🇩🇪 DE | VMESS | @v2ray_free_conf #1",
         "🇩🇪 DE | VLESS | @v2ray_youtube #1",
+        "🇩🇪 DE | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
-        "🇩🇪 DE | VLESS | @vlessconfig #1",
         "🇩🇪 DE | VLESS | @vmesc #1",
         "🇩🇪 DE | VLESS | @vmesc #2",
         "🇩🇪 DE | VLESS | @vmesskhodam #1",
@@ -193,14 +193,6 @@
       "server": "rably-m.izumii.ir",
       "server_port": 2098,
       "uuid": "7954a88d-2e46-49e2-954b-c6a910fcffc1",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "5.75.194.45",
-      "server_port": 8443,
-      "uuid": "3c52be42-33b4-40e1-be1e-16b96f5af73f",
       "packet_encoding": "xudp"
     },
     {
@@ -476,6 +468,22 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | TROJAN | @privatevpns #1",
+      "type": "trojan",
+      "server": "52.57.37.167",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @proxy48 #1",
       "type": "vless",
       "server": "82.165.77.122",
@@ -625,6 +633,21 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "52.57.37.167",
+      "server_port": 22224,
+      "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @v2raymelliii #1",
       "type": "vless",
       "server": "f1.hamrahconf.ir",
@@ -675,21 +698,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @vlessconfig #1",
-      "type": "vless",
-      "server": "52.57.37.167",
-      "server_port": 22224,
-      "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
         }
       }
     },

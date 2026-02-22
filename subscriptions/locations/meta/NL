@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇳🇱 NL | VLESS | @config_proxy #1", "server": "89.125.48.112", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "fd325093-cdb5-4a73-980e-af2ec0444310", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇱 NL | VLESS | @outline_ir #1", "server": "194.87.31.160", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "03dd7e7c-8d2a-4cd2-b920-f5ed564fc8c4", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇱 NL | VLESS | @qeshmserver #1", "server": "95.179.138.190", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-id-qeshmserver", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @sobi_vpn #1", "server": "45.131.4.5", "port": 2052, "type": "vless", "skip-cert-verify": true, "uuid": "8cf73792-0b3e-8e8b-f833-e86067f7a22c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -43,6 +44,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇳🇱 NL | VLESS | @config_proxy #1'
       - '🇳🇱 NL | VLESS | @outline_ir #1'
       - '🇳🇱 NL | VLESS | @qeshmserver #1'
       - '🇳🇱 NL | VLESS | @sobi_vpn #1'
