@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgTVg=
+//profile-title: base64:UFNHIHwgQlI=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇲🇽 MX | SS | @v2ray_free_conf #1"
+        "🇧🇷 BR | VLESS | @v2ray1_ng #1",
+        "🇧🇷 BR | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇲🇽 MX | SS | @v2ray_free_conf #1"
+        "🇧🇷 BR | VLESS | @v2ray1_ng #1",
+        "🇧🇷 BR | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,11 +112,19 @@
       "type": "direct"
     },
     {
-      "tag": "🇲🇽 MX | SS | @v2ray_free_conf #1",
+      "tag": "🇧🇷 BR | VLESS | @v2ray1_ng #1",
+      "type": "vless",
+      "server": "poli.appleseraj.ir",
+      "server_port": 2096,
+      "uuid": "75d8e7bb-74f8-4c25-a72f-dc3d983fb6d7",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇧🇷 BR | SS | @v2ray_free_conf #1",
       "type": "shadowsocks",
-      "server": "89.223.88.33",
-      "server_port": 11201,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3YzMxYTY3YjQxYjE4YzI2",
+      "server": "5.188.4.103",
+      "server_port": 11202,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphN2MyMDU2NDJiMzAyYzIw",
       "password": null
     }
   ],
