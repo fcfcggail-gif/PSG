@@ -93,10 +93,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
-        "🇮🇷 IR | VLESS | @v2ray_vmes #2"
+        "🇮🇷 IR | VLESS | @v2ray_vmes #1",
+        "🇷🇺 RU | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -107,10 +107,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
-        "🇮🇷 IR | VLESS | @v2ray_vmes #2"
+        "🇮🇷 IR | VLESS | @v2ray_vmes #1",
+        "🇷🇺 RU | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -194,14 +194,6 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "us01-vlr01-gmn03.tcp-reset-club.net",
-      "server_port": 18443,
-      "uuid": "1c4aceb6-bff7-4737-8c5d-43afb3dc350b",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @configasli #1",
       "type": "vless",
       "server": "s1.aparat-movies-download.ir",
@@ -233,7 +225,7 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_vmes #2",
+      "tag": "🇮🇷 IR | VLESS | @v2ray_vmes #1",
       "type": "vless",
       "server": "m1.designister.com",
       "server_port": 443,
@@ -246,6 +238,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "5.cdnconn.com",
+      "server_port": 23335,
+      "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }
