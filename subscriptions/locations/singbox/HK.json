@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇭🇰 HK | VMESS | @config_proxy #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇭🇰 HK | SS | @mftizi #1"
       ],
@@ -99,6 +100,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇭🇰 HK | VMESS | @config_proxy #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇭🇰 HK | SS | @mftizi #1"
       ],
@@ -110,6 +112,31 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇭🇰 HK | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "8.218.19.101",
+      "server_port": 443,
+      "uuid": "469e9a38-b64e-46c3-9793-234158942d3b",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "n1761214902.wpg27.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "n1761214902.wpg27.xyz"
+        }
+      }
     },
     {
       "tag": "🇭🇰 HK | VMESS | @freev2rays #1",
