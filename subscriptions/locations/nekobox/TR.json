@@ -77,8 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @config_proxy #1",
         "🇹🇷 TR | VLESS | @v2raych #1",
+        "🇹🇷 TR | VMESS | @v2rayngconfig #1",
+        "🇹🇷 TR | SS | @v2rayopen #1",
         "🇹🇷 TR | VLESS | @vmesc #1",
         "🇹🇷 TR | SS | @vpn_ioss #1"
       ],
@@ -88,8 +89,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @config_proxy #1",
         "🇹🇷 TR | VLESS | @v2raych #1",
+        "🇹🇷 TR | VMESS | @v2rayngconfig #1",
+        "🇹🇷 TR | SS | @v2rayopen #1",
         "🇹🇷 TR | VLESS | @vmesc #1",
         "🇹🇷 TR | SS | @vpn_ioss #1"
       ],
@@ -105,28 +107,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "webserver.gamedownloadfa.ir",
-      "server_port": 444,
-      "uuid": "304982ea-8ace-4420-a265-224e812e1ba4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇹🇷 TR | VLESS | @v2raych #1",
@@ -149,6 +129,30 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇹🇷 TR | VMESS | @v2rayngconfig #1",
+      "type": "vmess",
+      "server": "tr1-smart.adelping.com",
+      "server_port": 80,
+      "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | SS | @v2rayopen #1",
+      "type": "shadowsocks",
+      "server": "62.60.233.220",
+      "server_port": 18685,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTppeGZYQnE2ZGZNUVFGaUV6NlBCY1R5",
+      "password": null
     },
     {
       "tag": "🇹🇷 TR | VLESS | @vmesc #1",
