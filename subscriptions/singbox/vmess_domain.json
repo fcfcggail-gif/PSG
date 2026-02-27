@@ -112,7 +112,8 @@
         "🇹🇷 TR | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @v_2rayng0 #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
-        "🇺🇸 US | VMESS | @vpngate_config #2"
+        "🇺🇸 US | VMESS | @vpngate_config #2",
+        "🇦🇺 AU | VMESS | @vpngate_config #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -142,7 +143,8 @@
         "🇹🇷 TR | VMESS | @v2rayngconfig #1",
         "🇺🇸 US | VMESS | @v_2rayng0 #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
-        "🇺🇸 US | VMESS | @vpngate_config #2"
+        "🇺🇸 US | VMESS | @vpngate_config #2",
+        "🇦🇺 AU | VMESS | @vpngate_config #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -656,6 +658,31 @@
         "path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
         "headers": {
           "Host": "cold-dawn-9246.fly.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇺 AU | VMESS | @vpngate_config #1",
+      "type": "vmess",
+      "server": "phosphorylative.aurorainiceland.com",
+      "server_port": 443,
+      "uuid": "6388bd92-6cbc-4b72-a9a6-931f071d0ffa",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "phosphorylative.aurorainiceland.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/nimvws",
+        "headers": {
+          "Host": "phosphorylative.aurorainiceland.com"
         }
       }
     }
