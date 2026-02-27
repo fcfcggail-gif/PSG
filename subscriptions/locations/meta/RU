@@ -23,11 +23,14 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇷🇺 RU | VLESS | @config_proxy #1", "server": "178.154.202.254", "port": 7445, "type": "vless", "skip-cert-verify": true, "uuid": "e5e26c03-4660-4182-87f9-8b0a52b2c32c", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @config_proxy #2", "server": "46.235.186.203", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "8e0d168b-f984-07d0-865f-88b9a46fb48f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1", "server": "37.139.35.53", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "c501c66b-c6c2-456b-b604-80393b83d67f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @mtproxy22_v2ray #2", "server": "37.139.35.53", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "c501c66b-c6c2-456b-b604-80393b83d67f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VMESS | @prooxyk #1", "server": "77.v2ray1.xyz", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/A2DJOPFT", "headers": {"Host": "77.v2ray1.xyz"}}}
   - {"name": "🇷🇺 RU | VLESS | @v2ray_youtube #1", "server": "84.201.187.140", "port": 3443, "type": "vless", "skip-cert-verify": true, "uuid": "2e0fd045-2937-42a4-8d01-9ae2948b8620", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @v2ray_youtube #2", "server": "45.82.14.32", "port": 4443, "type": "vless", "skip-cert-verify": true, "uuid": "1b0ad61b-1be2-4cda-9979-984a965b0da5", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @v2raych #1", "server": "90.156.215.49", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "c2e87eb4-ffc6-435a-9d6d-e13056299ce3", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @v_2rayng0 #1", "server": "ru.cheburnetnastalgia1998.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "d42a623b-4dbd-4523-ab4e-adedf7b95a6f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -42,11 +45,14 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇷🇺 RU | VLESS | @config_proxy #1'
+      - '🇷🇺 RU | VLESS | @config_proxy #2'
       - '🇷🇺 RU | VLESS | @mtproxy22_v2ray #1'
       - '🇷🇺 RU | VLESS | @mtproxy22_v2ray #2'
       - '🇷🇺 RU | VMESS | @prooxyk #1'
       - '🇷🇺 RU | VLESS | @v2ray_youtube #1'
       - '🇷🇺 RU | VLESS | @v2ray_youtube #2'
+      - '🇷🇺 RU | VLESS | @v2raych #1'
       - '🇷🇺 RU | VLESS | @v_2rayng0 #1'
 
   - name: 🌍 Global Media
