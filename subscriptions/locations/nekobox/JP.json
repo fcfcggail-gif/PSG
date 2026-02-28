@@ -77,8 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇯🇵 JP | VLESS | @hope_net #1",
-        "🇯🇵 JP | SS | @outlinereleasedkey #1"
+        "🇯🇵 JP | TROJAN | @mpproxy #1",
+        "🇯🇵 JP | SS | @outlinereleasedkey #1",
+        "🇯🇵 JP | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇯🇵 JP | VLESS | @hope_net #1",
-        "🇯🇵 JP | SS | @outlinereleasedkey #1"
+        "🇯🇵 JP | TROJAN | @mpproxy #1",
+        "🇯🇵 JP | SS | @outlinereleasedkey #1",
+        "🇯🇵 JP | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,12 +105,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇯🇵 JP | VLESS | @hope_net #1",
-      "type": "vless",
-      "server": "20.210.64.17",
-      "server_port": 443,
-      "uuid": "6f995056-7802-4a1d-bff7-61678e626c3f",
-      "packet_encoding": "xudp",
+      "tag": "🇯🇵 JP | TROJAN | @mpproxy #1",
+      "type": "trojan",
+      "server": "160.16.68.250",
+      "server_port": 1281,
+      "password": "262f1d150049457ac1d6e66b020fa980",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -126,6 +127,28 @@
       "server_port": 443,
       "method": "YWVzLTEyOC1nY206c2hhZG93c29ja3M=",
       "password": null
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "jp.cdn.stun.su",
+      "server_port": 443,
+      "uuid": "eb071647-72a6-46be-8e89-ff3d228d52f6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

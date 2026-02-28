@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇹🇷 TR | VMESS | @config_proxy #1",
         "🇹🇷 TR | VMESS | @v2rayngconfig #1"
       ],
       "tag": "proxy",
@@ -85,6 +86,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇹🇷 TR | VMESS | @config_proxy #1",
         "🇹🇷 TR | VMESS | @v2rayngconfig #1"
       ],
       "tag": "auto",
@@ -99,6 +101,22 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇹🇷 TR | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "188.114.96.9",
+      "server_port": 80,
+      "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1",
+        "headers": {
+          "Host": "tr1-smart.adelping.com"
+        }
+      }
     },
     {
       "tag": "🇹🇷 TR | VMESS | @v2rayngconfig #1",
