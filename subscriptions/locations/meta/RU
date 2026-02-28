@@ -1,0 +1,91 @@
+mixed-port: 7890
+allow-lan: true
+log-level: info
+external-controller: 0.0.0.0:9090
+
+dns:
+  enabled: true
+  listen: 0.0.0.0:1053
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fake-ip-filter:
+    - '*.lan'
+    - '*.local'
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - '+.pool.ntp.org'
+
+proxies: 
+  - {"name": "🇷🇺 RU | VLESS | @mpproxy #1", "server": "51.250.69.188", "port": 8449, "type": "vless", "skip-cert-verify": true, "uuid": "51f09ae9-e537-4205-aa6f-e539c4b2d413", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @v2ray_youtube #1", "server": "84.201.187.140", "port": 3443, "type": "vless", "skip-cert-verify": true, "uuid": "2e0fd045-2937-42a4-8d01-9ae2948b8620", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @v2ray_youtube #2", "server": "45.82.14.32", "port": 4443, "type": "vless", "skip-cert-verify": true, "uuid": "1b0ad61b-1be2-4cda-9979-984a965b0da5", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @v2rayopen #1", "server": "51.250.0.147", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "64aafe63-ef36-4da5-8bf9-838d767bfe74", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @v_2rayng0 #1", "server": "ru.cheburnetnastalgia1998.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "d42a623b-4dbd-4523-ab4e-adedf7b95a6f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+
+proxy-groups:
+  - name: 🚀 Proxy
+    type: select
+    proxies:
+      - ♻️ Auto
+      - 🎯 Direct
+
+  - name: ♻️ Auto
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies: 
+      - '🇷🇺 RU | VLESS | @mpproxy #1'
+      - '🇷🇺 RU | VLESS | @v2ray_youtube #1'
+      - '🇷🇺 RU | VLESS | @v2ray_youtube #2'
+      - '🇷🇺 RU | VLESS | @v2rayopen #1'
+      - '🇷🇺 RU | VLESS | @v_2rayng0 #1'
+
+  - name: 🌍 Global Media
+    type: select
+    proxies:
+      - 🚀 Proxy
+      - ♻️ Auto
+      - 🎯 Direct
+
+  - name: 🎯 Direct
+    type: select
+    proxies:
+      - DIRECT
+
+  - name: 🛑 Ad Block
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
+  - name: 🐟 Fallback
+    type: select
+    proxies:
+      - 🚀 Proxy
+      - 🎯 Direct
+
+rules:
+  - DOMAIN-KEYWORD,adservice,🛑 Ad Block
+  - DOMAIN-SUFFIX,googlesyndication.com,🛑 Ad Block
+  - DOMAIN-SUFFIX,netflix.com,🌍 Global Media
+  - DOMAIN-SUFFIX,nflxvideo.net,🌍 Global Media
+  - DOMAIN-SUFFIX,disneyplus.com,🌍 Global Media
+  - DOMAIN-KEYWORD,youtube,🌍 Global Media
+  - DOMAIN-SUFFIX,t.me,🚀 Proxy
+  - DOMAIN-SUFFIX,telegram.org,🚀 Proxy
+  - DOMAIN-SUFFIX,openai.com,🚀 Proxy
+  - DOMAIN-SUFFIX,lan,🎯 Direct
+  - DOMAIN-SUFFIX,local,🎯 Direct
+  - IP-CIDR,127.0.0.0/8,🎯 Direct,no-resolve
+  - IP-CIDR,192.168.0.0/16,🎯 Direct,no-resolve
+  - IP-CIDR,10.0.0.0/8,🎯 Direct,no-resolve
+  - IP-CIDR,172.16.0.0/12,🎯 Direct,no-resolve
+  - GEOIP,IR,🎯 Direct
+  - MATCH,🐟 Fallback

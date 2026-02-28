@@ -1,0 +1,309 @@
+{
+  "dns": {
+    "independent_cache": true,
+    "rules": [
+      {
+        "domain": [
+          "dns.google"
+        ],
+        "server": "dns-direct"
+      },
+      {
+        "outbound": [
+          "any"
+        ],
+        "server": "dns-direct"
+      }
+    ],
+    "servers": [
+      {
+        "address": "tcp://1.1.1.1",
+        "address_resolver": "local-dns",
+        "detour": "proxy",
+        "tag": "proxy-dns"
+      },
+      {
+        "address": "local",
+        "detour": "direct",
+        "tag": "local-dns"
+      },
+      {
+        "address": "tcp://8.8.8.8",
+        "detour": "direct",
+        "tag": "direct-dns"
+      }
+    ]
+  },
+  "experimental": {
+    "cache_file": {
+      "enabled": true,
+      "path": "../cache/clash.db",
+      "store_fakeip": true
+    },
+    "clash_api": {
+      "external_controller": "127.0.0.1:9090",
+      "external_ui": "../files/yacd"
+    }
+  },
+  "inbounds": [
+    {
+      "domain_strategy": "",
+      "endpoint_independent_nat": true,
+      "inet4_address": [
+        "172.19.0.1/28"
+      ],
+      "mtu": 9000,
+      "sniff": true,
+      "sniff_override_destination": false,
+      "stack": "mixed",
+      "tag": "tun-in",
+      "type": "tun"
+    },
+    {
+      "domain_strategy": "",
+      "listen": "127.0.0.1",
+      "listen_port": 2080,
+      "sniff": true,
+      "sniff_override_destination": false,
+      "tag": "mixed-in",
+      "type": "mixed"
+    }
+  ],
+  "log": {
+    "level": "info"
+  },
+  "outbounds": [
+    {
+      "outbounds": [
+        "auto",
+        "direct",
+        "🇬🇧 GB | SS | @free4allvpn #1",
+        "🇬🇧 GB | SS | @imhdiyvp #1",
+        "🇬🇧 GB | VLESS | @komail315 #1",
+        "🇬🇧 GB | SS | @mtproxy22_v2ray #1",
+        "🇬🇧 GB | SS | @netfreedom0 #1",
+        "🇬🇧 GB | VLESS | @netfreedom0 #1",
+        "🇬🇧 GB | SS | @outline_ir #1",
+        "🇬🇧 GB | SS | @outlinereleasedkey #1",
+        "🇬🇧 GB | SS | @selinc #1",
+        "🇬🇧 GB | SS | @serverv2ray00 #1",
+        "🇬🇧 GB | SS | @v2ray_free_conf #1",
+        "🇬🇧 GB | SS | @v2ray_free_conf #2",
+        "🇬🇧 GB | VLESS | @v2rayopen #1",
+        "🇬🇧 GB | VLESS | @vmesc #1",
+        "🇬🇧 GB | VLESS | @vmesskhodam #1",
+        "🇬🇧 GB | SS | @vmesskhodam #1"
+      ],
+      "tag": "proxy",
+      "type": "selector"
+    },
+    {
+      "interval": "10m",
+      "outbounds": [
+        "🇬🇧 GB | SS | @free4allvpn #1",
+        "🇬🇧 GB | SS | @imhdiyvp #1",
+        "🇬🇧 GB | VLESS | @komail315 #1",
+        "🇬🇧 GB | SS | @mtproxy22_v2ray #1",
+        "🇬🇧 GB | SS | @netfreedom0 #1",
+        "🇬🇧 GB | VLESS | @netfreedom0 #1",
+        "🇬🇧 GB | SS | @outline_ir #1",
+        "🇬🇧 GB | SS | @outlinereleasedkey #1",
+        "🇬🇧 GB | SS | @selinc #1",
+        "🇬🇧 GB | SS | @serverv2ray00 #1",
+        "🇬🇧 GB | SS | @v2ray_free_conf #1",
+        "🇬🇧 GB | SS | @v2ray_free_conf #2",
+        "🇬🇧 GB | VLESS | @v2rayopen #1",
+        "🇬🇧 GB | VLESS | @vmesc #1",
+        "🇬🇧 GB | VLESS | @vmesskhodam #1",
+        "🇬🇧 GB | SS | @vmesskhodam #1"
+      ],
+      "tag": "auto",
+      "tolerance": 50,
+      "type": "urltest",
+      "url": "http://www.gstatic.com/generate_204"
+    },
+    {
+      "tag": "direct",
+      "type": "direct"
+    },
+    {
+      "tag": "bypass",
+      "type": "direct"
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @free4allvpn #1",
+      "type": "shadowsocks",
+      "server": "141.98.101.182",
+      "server_port": 443,
+      "method": "YXV0bzo=",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @imhdiyvp #1",
+      "type": "shadowsocks",
+      "server": "series-a2-mec.varzesh360.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @komail315 #1",
+      "type": "vless",
+      "server": "cr7.zx-shop.ir",
+      "server_port": 8880,
+      "uuid": "abd432ba-c9ca-4565-e787-f354d466be4e",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @mtproxy22_v2ray #1",
+      "type": "shadowsocks",
+      "server": "admin.c1.webramz.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @netfreedom0 #1",
+      "type": "shadowsocks",
+      "server": "141.98.101.182",
+      "server_port": 443,
+      "method": "YWVzLTEyOC1nY206c2hhZG93c29ja3M=",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @netfreedom0 #1",
+      "type": "vless",
+      "server": "54.38.214.29",
+      "server_port": 2345,
+      "uuid": "0331b690-79fc-49d5-85f0-54faa4eff89f",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @outline_ir #1",
+      "type": "shadowsocks",
+      "server": "admin.c2.havij.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprYVFIM2hHZGNQODBYRURJ",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @outlinereleasedkey #1",
+      "type": "shadowsocks",
+      "server": "media.mothyleela.cfd",
+      "server_port": 40521,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToyV2tSR2g2dEF2OFVtc0hoNGkzRjZ6b3NqMmR6QTZzQ3pYYndxNFRkWHRlenRNZnlBNWFaY0x5NWpZNVo3RlozUVFNY1RWd003VHZpYmR2ellpcmNDN2lEWmFmcDJVNno=",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @selinc #1",
+      "type": "shadowsocks",
+      "server": "series-a1.samanehha.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @serverv2ray00 #1",
+      "type": "shadowsocks",
+      "server": "account-mec.emofid.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3aXZyR0VIWTg4c1FrM0RQ",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "82.38.31.103",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @v2ray_free_conf #2",
+      "type": "shadowsocks",
+      "server": "82.38.31.61",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2rayopen #1",
+      "type": "vless",
+      "server": "167.99.80.91",
+      "server_port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "go.adslimit.info",
+      "server_port": 2345,
+      "uuid": "0331b690-79fc-49d5-85f0-54faa4eff89f",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "178.62.25.163",
+      "server_port": 443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @vmesskhodam #1",
+      "type": "shadowsocks",
+      "server": "series-a2.samanehha.co",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
+      "password": null
+    }
+  ],
+  "route": {
+    "auto_detect_interface": true,
+    "rule_set": [],
+    "rules": [
+      {
+        "action": "hijack-dns",
+        "port": [
+          53
+        ]
+      },
+      {
+        "action": "hijack-dns",
+        "protocol": [
+          "dns"
+        ]
+      },
+      {
+        "action": "reject",
+        "ip_cidr": [
+          "224.0.0.0/3",
+          "ff00::/8"
+        ],
+        "source_ip_cidr": [
+          "224.0.0.0/3",
+          "ff00::/8"
+        ]
+      }
+    ]
+  }
+}
