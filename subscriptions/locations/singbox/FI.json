@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgTFY=
+//profile-title: base64:UFNHIHwgRkk=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇻 LV | VLESS | @config_proxy #1"
+        "🇫🇮 FI | VLESS | @config_proxy #1",
+        "🇫🇮 FI | VLESS | @v2ray_youtube #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇻 LV | VLESS | @config_proxy #1"
+        "🇫🇮 FI | VLESS | @config_proxy #1",
+        "🇫🇮 FI | VLESS | @v2ray_youtube #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,13 +112,34 @@
       "type": "direct"
     },
     {
-      "tag": "🇱🇻 LV | VLESS | @config_proxy #1",
+      "tag": "🇫🇮 FI | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "188.253.17.126",
-      "server_port": 8443,
-      "uuid": "4a098f1e-c449-4061-8b95-70ae594d3458",
+      "server": "2.cdnconn.com",
+      "server_port": 23335,
+      "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_youtube #1",
+      "type": "vless",
+      "server": "sr4.laptopstock7.com",
+      "server_port": 3030,
+      "uuid": "17b16eb9-c1d0-4c12-8520-0b400567d8e4",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
