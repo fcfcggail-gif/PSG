@@ -90,8 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇬 SG | VLESS | @config_proxy #1",
-        "🇸🇬 SG | VLESS | @red2ray #1"
+        "🇸🇬 SG | VLESS | @red2ray #1",
+        "🇸🇬 SG | SS | @v2ray_free_conf #1",
+        "🇸🇬 SG | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇬 SG | VLESS | @config_proxy #1",
-        "🇸🇬 SG | VLESS | @red2ray #1"
+        "🇸🇬 SG | VLESS | @red2ray #1",
+        "🇸🇬 SG | SS | @v2ray_free_conf #1",
+        "🇸🇬 SG | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,11 +114,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇸🇬 SG | VLESS | @config_proxy #1",
+      "tag": "🇸🇬 SG | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "206.238.237.203",
+      "server": "ai.darkvpn.site",
       "server_port": 443,
-      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "uuid": "684e779f-03cf-4a12-ad4d-e923cce20131",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -129,11 +131,19 @@
       }
     },
     {
-      "tag": "🇸🇬 SG | VLESS | @red2ray #1",
+      "tag": "🇸🇬 SG | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "194.233.73.51",
+      "server_port": 14453,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo3NjRhNGQ4YzFjNzZlYjUw",
+      "password": null
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "ai.darkvpn.site",
+      "server": "aws.lokuzerr.online",
       "server_port": 443,
-      "uuid": "684e779f-03cf-4a12-ad4d-e923cce20131",
+      "uuid": "466a380d-bbd2-4025-a58b-1a88ec9c5ffe",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
