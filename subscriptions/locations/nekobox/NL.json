@@ -77,12 +77,12 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇳🇱 NL | VLESS | @Fr33C0nfig #1",
         "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇳🇱 NL | VLESS | @config_proxy #2",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @mpproxy #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
+        "🇳🇱 NL | SS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @outline_ir #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
@@ -96,12 +96,12 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇳🇱 NL | VLESS | @Fr33C0nfig #1",
         "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇳🇱 NL | VLESS | @config_proxy #2",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @mpproxy #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
+        "🇳🇱 NL | SS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @outline_ir #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
@@ -121,14 +121,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @Fr33C0nfig #1",
-      "type": "vless",
-      "server": "netherland.boot-lee.ru",
-      "server_port": 8443,
-      "uuid": "05dc09d5-5c56-454b-a34e-6ef743d91e1a",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
@@ -183,6 +175,14 @@
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | SS | @netfreedom0 #1",
+      "type": "shadowsocks",
+      "server": "193.29.139.141",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
     },
     {
       "tag": "🇳🇱 NL | VLESS | @outline_ir #1",
