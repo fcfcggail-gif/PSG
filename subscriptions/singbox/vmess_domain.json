@@ -93,7 +93,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇹🇷 TR | VMESS | @config_proxy #1",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
+        "🇽🇽 XX | VMESS | @father_vpn #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇨🇿 CZ | VMESS | @freev2rays #1",
@@ -105,9 +107,10 @@
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
+        "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2"
       ],
@@ -120,7 +123,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇹🇷 TR | VMESS | @config_proxy #1",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
+        "🇽🇽 XX | VMESS | @father_vpn #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇨🇿 CZ | VMESS | @freev2rays #1",
@@ -132,9 +137,10 @@
         "🇽🇽 XX | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
+        "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
-        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2"
       ],
@@ -220,6 +226,22 @@
       }
     },
     {
+      "tag": "🇹🇷 TR | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "172.67.74.2",
+      "server_port": 80,
+      "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/?de=2560",
+        "headers": {
+          "Host": "tr1-smart.adelping.com."
+        }
+      }
+    },
+    {
       "tag": "🇦🇺 AU | VMESS | @dailyv2ray #1",
       "type": "vmess",
       "server": "104.31.16.104",
@@ -232,6 +254,31 @@
         "path": "/qmbdkyzn",
         "headers": {
           "Host": "us-4.0rd.net"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @father_vpn #1",
+      "type": "vmess",
+      "server": "seoul03.zgjok.com",
+      "server_port": 443,
+      "uuid": "72a0dac4-9689-4a57-b164-5c65bfa94772",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "seoul03.zgjok.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "seoul03.zgjok.com"
         }
       }
     },
@@ -479,6 +526,31 @@
       }
     },
     {
+      "tag": "🇷🇺 RU | VMESS | @prooxyk #1",
+      "type": "vmess",
+      "server": "77.v2ray1.xyz",
+      "server_port": 443,
+      "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "77.v2ray1.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/A2DJOPFT",
+        "headers": {
+          "Host": "77.v2ray1.xyz"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @serverv2ray00 #1",
       "type": "vmess",
       "server": "104.21.4.6",
@@ -529,16 +601,16 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
       "type": "vmess",
-      "server": "cg1c04.waimaojd.com",
+      "server": "104.21.91.230",
       "server_port": 443,
-      "uuid": "be8e3136-b874-4085-bd23-ec3699300490",
+      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "cg1c04.waimaojd.com",
+        "server_name": "nnh.1x0.indevs.in",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -547,9 +619,9 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/api/v1/graphql",
+        "path": "/iSRWSKUJKNuXvVzsYHmsMrnO",
         "headers": {
-          "Host": "cg1c04.waimaojd.com"
+          "Host": "nnh.1x0.indevs.in"
         }
       }
     },

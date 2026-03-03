@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @v2raych #1"
+        "🇹🇷 TR | VMESS | @config_proxy #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @v2raych #1"
+        "🇹🇷 TR | VMESS | @config_proxy #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,24 +110,18 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "mobina177.tr2.node.apps7.ir",
-      "server_port": 443,
-      "uuid": "2b550bd1-b110-4aaf-95b7-c574aff5f30e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
+      "tag": "🇹🇷 TR | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "172.67.74.2",
+      "server_port": 80,
+      "uuid": "43dcdce1-3cea-4193-bc8d-90b92071d779",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/?de=2560",
+        "headers": {
+          "Host": "tr1-smart.adelping.com."
         }
       }
     }
