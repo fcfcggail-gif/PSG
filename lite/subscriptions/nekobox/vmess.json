@@ -80,6 +80,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇮🇩 ID | VMESS | @config_proxy #1",
+        "🇮🇩 ID | VMESS | @config_proxy #2",
         "🇽🇽 XX | VMESS | @father_vpn #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -94,8 +96,7 @@
         "🇺🇸 US | VMESS | @vpngate_config #2",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇭🇰 HK | VMESS | @v2raych #1"
+        "🇽🇽 XX | VMESS | @proxy48 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -106,6 +107,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇮🇩 ID | VMESS | @config_proxy #1",
+        "🇮🇩 ID | VMESS | @config_proxy #2",
         "🇽🇽 XX | VMESS | @father_vpn #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
@@ -120,8 +123,7 @@
         "🇺🇸 US | VMESS | @vpngate_config #2",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇭🇰 HK | VMESS | @v2raych #1"
+        "🇽🇽 XX | VMESS | @proxy48 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -205,6 +207,56 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇮🇩 ID | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "43.156.6.226",
+      "server_port": 443,
+      "uuid": "462d9694-62b5-4781-a287-61a422b920e8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "mn1ray.jagoanvip.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vvip",
+        "headers": {
+          "Host": "mn1ray.jagoanvip.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇩 ID | VMESS | @config_proxy #2",
+      "type": "vmess",
+      "server": "83.229.121.113",
+      "server_port": 443,
+      "uuid": "462d9694-62b5-4781-a287-61a422b920e8",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "mn1ray.jagoanvip.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/vvip",
+        "headers": {
+          "Host": "mn1ray.jagoanvip.xyz"
         }
       }
     },
@@ -546,22 +598,6 @@
       "transport": {
         "type": "grpc",
         "service_name": "WgCmp8p80KDzo64uHE"
-      }
-    },
-    {
-      "tag": "🇭🇰 HK | VMESS | @v2raych #1",
-      "type": "vmess",
-      "server": "47.243.135.74",
-      "server_port": 55185,
-      "uuid": "1375985e-334a-4c25-8f64-52a182bc8037",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/Notif_Chat",
-        "headers": {
-          "Host": ""
-        }
       }
     }
   ],
