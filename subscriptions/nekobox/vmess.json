@@ -80,8 +80,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | VMESS | @config_proxy #1",
-        "🇦🇺 AU | VMESS | @config_proxy #1",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇽🇽 XX | VMESS | @father_vpn #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
@@ -98,6 +96,7 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
+        "🇺🇸 US | VMESS | @v2raych #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
@@ -105,7 +104,7 @@
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
-        "🇫🇷 FR | VMESS | @v2ray_free_conf #1",
+        "🇫🇷 FR | VMESS | @v2raych #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
         "🇨🇦 CA | VMESS | @NamiraConfigs #1"
       ],
@@ -118,8 +117,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | VMESS | @config_proxy #1",
-        "🇦🇺 AU | VMESS | @config_proxy #1",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
         "🇽🇽 XX | VMESS | @father_vpn #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
@@ -136,6 +133,7 @@
         "🇷🇺 RU | VMESS | @prooxyk #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #2",
+        "🇺🇸 US | VMESS | @v2raych #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VMESS | @vpngate_config #2",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
@@ -143,7 +141,7 @@
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray_collector #1",
-        "🇫🇷 FR | VMESS | @v2ray_free_conf #1",
+        "🇫🇷 FR | VMESS | @v2raych #1",
         "🇫🇷 FR | VMESS | @v2raytg #1",
         "🇨🇦 CA | VMESS | @NamiraConfigs #1"
       ],
@@ -229,47 +227,6 @@
         "path": "",
         "headers": {
           "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "172.64.80.1",
-      "server_port": 80,
-      "uuid": "4e45c1b4-9107-45dd-9995-cdf7cbb44d9d",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/iSRWSKUJKNuXvVzsYHmsMrnO",
-        "headers": {
-          "Host": "bgn.1dd.ccwu.cc"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇺 AU | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "hopev2ray.ddns.net",
-      "server_port": 443,
-      "uuid": "30c15ea0-ec27-11ed-b630-205c6d5f5d78",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "fr-1.0rd.net",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@hopev2ray",
-        "headers": {
-          "Host": "fr-1.0rd.net"
         }
       }
     },
@@ -633,6 +590,31 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VMESS | @v2raych #1",
+      "type": "vmess",
+      "server": "57.129.59.199",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "kampong.org",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "linkvws",
+        "headers": {
+          "Host": "kampong.org"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @vpngate_config #1",
       "type": "vmess",
       "server": "104.18.212.12",
@@ -782,16 +764,16 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VMESS | @v2ray_free_conf #1",
+      "tag": "🇫🇷 FR | VMESS | @v2raych #1",
       "type": "vmess",
-      "server": "57.128.189.227",
+      "server": "57.128.189.241",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "ads.x5.ru",
         "insecure": true,
         "utls": {
           "enabled": true,

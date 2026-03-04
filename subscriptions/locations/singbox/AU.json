@@ -90,9 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇺 AU | VMESS | @config_proxy #1",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
-        "🇦🇺 AU | VMESS | @khoneproxy #1"
+        "🇦🇺 AU | VMESS | @khoneproxy #1",
+        "🇦🇺 AU | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇺 AU | VMESS | @config_proxy #1",
         "🇦🇺 AU | VMESS | @dailyv2ray #1",
-        "🇦🇺 AU | VMESS | @khoneproxy #1"
+        "🇦🇺 AU | VMESS | @khoneproxy #1",
+        "🇦🇺 AU | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,31 +112,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇦🇺 AU | VMESS | @config_proxy #1",
-      "type": "vmess",
-      "server": "hopev2ray.ddns.net",
-      "server_port": 443,
-      "uuid": "30c15ea0-ec27-11ed-b630-205c6d5f5d78",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "fr-1.0rd.net",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/@hopev2ray",
-        "headers": {
-          "Host": "fr-1.0rd.net"
-        }
-      }
     },
     {
       "tag": "🇦🇺 AU | VMESS | @dailyv2ray #1",
@@ -178,6 +153,14 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇦🇺 AU | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "154.26.155.172",
+      "server_port": 80,
+      "method": "YWVzLTI1Ni1nY206U0w0dnpjdmhCSGhUV2l2RA==",
+      "password": null
     }
   ],
   "route": {
