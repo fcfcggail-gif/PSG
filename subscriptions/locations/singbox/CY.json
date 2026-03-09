@@ -92,7 +92,6 @@
         "direct",
         "🇨🇾 CY | SS | @NamiraConfigs #1",
         "🇨🇾 CY | VLESS | @config_proxy #1",
-        "🇨🇾 CY | VLESS | @config_proxy #2",
         "🇨🇾 CY | VLESS | @mt_proxy #1",
         "🇨🇾 CY | VLESS | @v2raytg #1",
         "🇨🇾 CY | VLESS | @NamiraConfigs #1"
@@ -105,7 +104,6 @@
       "outbounds": [
         "🇨🇾 CY | SS | @NamiraConfigs #1",
         "🇨🇾 CY | VLESS | @config_proxy #1",
-        "🇨🇾 CY | VLESS | @config_proxy #2",
         "🇨🇾 CY | VLESS | @mt_proxy #1",
         "🇨🇾 CY | VLESS | @v2raytg #1",
         "🇨🇾 CY | VLESS | @NamiraConfigs #1"
@@ -130,19 +128,20 @@
     {
       "tag": "🇨🇾 CY | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "45.15.129.23",
-      "server_port": 8443,
-      "uuid": "d05b63c6-e5d7-42c9-ba8e-ca3f4f5fef59",
+      "server": "144.31.130.234",
+      "server_port": 443,
+      "uuid": "ff238176-3cc9-4b97-a295-5678919d5cdb",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "tag": "🇨🇾 CY | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "45.15.129.23",
-      "server_port": 8443,
-      "uuid": "cbe70d02-1820-43d5-aaaa-6441d0c60890",
-      "packet_encoding": "xudp"
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇨🇾 CY | VLESS | @mt_proxy #1",
