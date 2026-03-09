@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVkc=
+//profile-title: base64:UFNHIHwgQVQ=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇻🇬 VG | VLESS | @dailyv2ray #1"
+        "🇦🇹 AT | VLESS | @config_proxy #1",
+        "🇦🇹 AT | VLESS | @config_proxy #2",
+        "🇦🇹 AT | VLESS | @config_proxy #3"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇻🇬 VG | VLESS | @dailyv2ray #1"
+        "🇦🇹 AT | VLESS | @config_proxy #1",
+        "🇦🇹 AT | VLESS | @config_proxy #2",
+        "🇦🇹 AT | VLESS | @config_proxy #3"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +114,46 @@
       "type": "direct"
     },
     {
-      "tag": "🇻🇬 VG | VLESS | @dailyv2ray #1",
+      "tag": "🇦🇹 AT | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "mtn.ircf.space",
-      "server_port": 2096,
-      "uuid": "7f64eeb1-b5f1-40a0-d80e-e6c718f6bd6a",
+      "server": "aus.top.subtrust.ru",
+      "server_port": 443,
+      "uuid": "3130fccb-e72e-468d-b2ce-0721bb3058c8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇹 AT | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "178.22.31.68",
+      "server_port": 8443,
+      "uuid": "5e8fd1a8-45d1-407a-89f2-de14d766133a",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇦🇹 AT | VLESS | @config_proxy #3",
+      "type": "vless",
+      "server": "178.22.31.68",
+      "server_port": 443,
+      "uuid": "8a22cd95-5421-49b6-819d-dfda8b3b1cfb",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

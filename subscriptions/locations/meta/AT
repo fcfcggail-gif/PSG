@@ -23,7 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇯🇵 JP | VMESS | @config_proxy #1", "server": "47.245.42.92", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "4f23eb7c-ef2f-43b0-90dd-f2b8a75954a5", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "n1753598452.wpg27.xyz"}}}
+  - {"name": "🇦🇹 AT | VLESS | @config_proxy #1", "server": "aus.top.subtrust.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "3130fccb-e72e-468d-b2ce-0721bb3058c8", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇹 AT | VLESS | @config_proxy #2", "server": "178.22.31.68", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "5e8fd1a8-45d1-407a-89f2-de14d766133a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇹 AT | VLESS | @config_proxy #3", "server": "178.22.31.68", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "8a22cd95-5421-49b6-819d-dfda8b3b1cfb", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇯🇵 JP | VMESS | @config_proxy #1'
+      - '🇦🇹 AT | VLESS | @config_proxy #1'
+      - '🇦🇹 AT | VLESS | @config_proxy #2'
+      - '🇦🇹 AT | VLESS | @config_proxy #3'
 
   - name: 🌍 Global Media
     type: select

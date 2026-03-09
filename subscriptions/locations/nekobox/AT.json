@@ -77,8 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @config_proxy #1",
-        "🇹🇷 TR | VLESS | @config_proxy #2"
+        "🇦🇹 AT | VLESS | @config_proxy #1",
+        "🇦🇹 AT | VLESS | @config_proxy #2",
+        "🇦🇹 AT | VLESS | @config_proxy #3"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @config_proxy #1",
-        "🇹🇷 TR | VLESS | @config_proxy #2"
+        "🇦🇹 AT | VLESS | @config_proxy #1",
+        "🇦🇹 AT | VLESS | @config_proxy #2",
+        "🇦🇹 AT | VLESS | @config_proxy #3"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,20 +105,46 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @config_proxy #1",
+      "tag": "🇦🇹 AT | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "tr2.vpnjantit.com",
-      "server_port": 10002,
-      "uuid": "77ea8d6c-1a96-11f1-be1f-1744d2a6f511",
+      "server": "aus.top.subtrust.ru",
+      "server_port": 443,
+      "uuid": "3130fccb-e72e-468d-b2ce-0721bb3058c8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇹 AT | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "178.22.31.68",
+      "server_port": 8443,
+      "uuid": "5e8fd1a8-45d1-407a-89f2-de14d766133a",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @config_proxy #2",
+      "tag": "🇦🇹 AT | VLESS | @config_proxy #3",
       "type": "vless",
-      "server": "tr2.vpnjantit.com",
-      "server_port": 10004,
-      "uuid": "77ea8d6c-1a96-11f1-be1f-1744d2a6f511",
-      "packet_encoding": "xudp"
+      "server": "178.22.31.68",
+      "server_port": 443,
+      "uuid": "8a22cd95-5421-49b6-819d-dfda8b3b1cfb",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
