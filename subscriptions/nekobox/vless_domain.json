@@ -84,7 +84,6 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇸🇨 SC | VLESS | @bored_vpn #1",
         "🇩🇪 DE | VLESS | @config_proxy #1",
-        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇽🇽 XX | VLESS | @diamondproxytm #1",
@@ -136,7 +135,7 @@
         "🇽🇽 XX | VLESS | @mester_v2ray #6",
         "🇬🇧 GB | VLESS | @miov2ray #1",
         "🇳🇱 NL | VLESS | @mpproxy #1",
-        "🇸🇨 SC | VLESS | @mpproxy #1",
+        "🇩🇪 DE | VLESS | @mpproxy #1",
         "🇽🇽 XX | VLESS | @mt_proxy #2",
         "🇨🇾 CY | VLESS | @mt_proxy #1",
         "🇽🇽 XX | VLESS | @mtpv2ray #1",
@@ -232,7 +231,6 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇸🇨 SC | VLESS | @bored_vpn #1",
         "🇩🇪 DE | VLESS | @config_proxy #1",
-        "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇽🇽 XX | VLESS | @diamondproxytm #1",
@@ -284,7 +282,7 @@
         "🇽🇽 XX | VLESS | @mester_v2ray #6",
         "🇬🇧 GB | VLESS | @miov2ray #1",
         "🇳🇱 NL | VLESS | @mpproxy #1",
-        "🇸🇨 SC | VLESS | @mpproxy #1",
+        "🇩🇪 DE | VLESS | @mpproxy #1",
         "🇽🇽 XX | VLESS | @mt_proxy #2",
         "🇨🇾 CY | VLESS | @mt_proxy #1",
         "🇽🇽 XX | VLESS | @mtpv2ray #1",
@@ -479,18 +477,19 @@
     {
       "tag": "🇩🇪 DE | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "e2.aurorix.net",
-      "server_port": 25930,
-      "uuid": "d70415c7-b3fb-43e9-915a-df66b2274c32",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "5-gaming.harknmav.fun",
-      "server_port": 10443,
-      "uuid": "adad2034-0510-4a4e-8759-77a8244e521a",
-      "packet_encoding": "xudp"
+      "server": "cache.deb.cdn.stemstep.cloud",
+      "server_port": 443,
+      "uuid": "6f35612a-2368-4a28-8935-c22c7e140029",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @configasli #1",
@@ -1141,7 +1140,7 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @mpproxy #1",
+      "tag": "🇩🇪 DE | VLESS | @mpproxy #1",
       "type": "vless",
       "server": "srv1.khatibirepair.ir",
       "server_port": 2086,
