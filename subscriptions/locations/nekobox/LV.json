@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇪 EE | VLESS | @prrofile_purple #1"
+        "🇱🇻 LV | VLESS | @config_proxy #1",
+        "🇱🇻 LV | VLESS | @config_proxy #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇪 EE | VLESS | @prrofile_purple #1"
+        "🇱🇻 LV | VLESS | @config_proxy #1",
+        "🇱🇻 LV | VLESS | @config_proxy #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,11 +103,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇪🇪 EE | VLESS | @prrofile_purple #1",
+      "tag": "🇱🇻 LV | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "est.pink-service.ru",
+      "server": "94.158.218.63",
       "server_port": 443,
-      "uuid": "9c7d89ae-daf3-45c2-84d6-a7447e9123f9",
+      "uuid": "13a1a860-4fd0-4007-86c7-c4b9a3580286",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -114,11 +116,23 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇱🇻 LV | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "lv.darknet.run",
+      "server_port": 443,
+      "uuid": "54c36460-4710-4c4d-8b58-0be7da081331",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }
