@@ -83,10 +83,8 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇸🇨 SC | VLESS | @bored_vpn #1",
-        "🇦🇹 AT | VLESS | @config_proxy #1",
-        "🇩🇪 DE | VLESS | @config_proxy #1",
         "🇪🇪 EE | VLESS | @config_proxy #1",
-        "🇩🇪 DE | VLESS | @configasli #1",
+        "🇱🇹 LT | VLESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇽🇽 XX | VLESS | @diamondproxytm #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
@@ -117,6 +115,7 @@
         "🇺🇸 US | VLESS | @iranvipnet #5",
         "🇺🇸 US | VLESS | @kafing_2 #2",
         "🇽🇽 XX | VLESS | @kafing_2 #1",
+        "🇦🇪 AE | VLESS | @kafing_2 #1",
         "🇽🇽 XX | VLESS | @kilid_stor #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇽🇽 XX | VLESS | @kopltall_vpn #1",
@@ -237,10 +236,8 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇸🇨 SC | VLESS | @bored_vpn #1",
-        "🇦🇹 AT | VLESS | @config_proxy #1",
-        "🇩🇪 DE | VLESS | @config_proxy #1",
         "🇪🇪 EE | VLESS | @config_proxy #1",
-        "🇩🇪 DE | VLESS | @configasli #1",
+        "🇱🇹 LT | VLESS | @config_proxy #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇽🇽 XX | VLESS | @diamondproxytm #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
@@ -271,6 +268,7 @@
         "🇺🇸 US | VLESS | @iranvipnet #5",
         "🇺🇸 US | VLESS | @kafing_2 #2",
         "🇽🇽 XX | VLESS | @kafing_2 #1",
+        "🇦🇪 AE | VLESS | @kafing_2 #1",
         "🇽🇽 XX | VLESS | @kilid_stor #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇽🇽 XX | VLESS | @kopltall_vpn #1",
@@ -489,9 +487,26 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇦🇹 AT | VLESS | @config_proxy #1",
+      "tag": "🇪🇪 EE | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "at.darknet.run",
+      "server": "s501.ccgfw.top",
+      "server_port": 443,
+      "uuid": "ccd85f23-9105-37fd-96b9-9dcbc89ff3eb",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇱🇹 LT | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "lt2.darknet.run",
       "server_port": 443,
       "uuid": "54c36460-4710-4c4d-8b58-0be7da081331",
       "packet_encoding": "xudp",
@@ -504,40 +519,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "senkogermany.foxyrobot.ru",
-      "server_port": 443,
-      "uuid": "aca93f8a-0a46-4c92-a948-e745dd3fa9ae",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇪🇪 EE | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "est.vles.space",
-      "server_port": 8443,
-      "uuid": "7f37b28b-cfcb-4c2a-ae41-8f2ddc9325dd",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @configasli #1",
-      "type": "vless",
-      "server": "s1.aparat-movies-download.ir",
-      "server_port": 4450,
-      "uuid": "a19f4213-fcb8-4384-9c85-cb51cae8ab8b",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
     },
     {
       "tag": "🇺🇸 US | VLESS | @deli_servers #1",
@@ -952,6 +933,23 @@
       "server": "cdn.sjdpictures.ir",
       "server_port": 443,
       "uuid": "6a5d1316-c0a6-4963-8ee1-e8b9b5f98c20",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @kafing_2 #1",
+      "type": "vless",
+      "server": "sv22.v2bit.com",
+      "server_port": 443,
+      "uuid": "cbaf27fe-914e-5457-9db6-92719bfaafac",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

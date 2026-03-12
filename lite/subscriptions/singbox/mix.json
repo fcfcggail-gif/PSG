@@ -102,9 +102,8 @@
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
-        "🇸🇪 SE | VLESS | @config_proxy #1",
-        "🇦🇹 AT | VLESS | @config_proxy #1",
-        "🇩🇪 DE | VLESS | @configasli #1",
+        "🇰🇷 KR | VLESS | @config_proxy #1",
+        "🇪🇪 EE | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @dailyv2ray #1",
@@ -194,7 +193,6 @@
         "🇽🇽 XX | VLESS | @mt_proxy #1",
         "🇽🇽 XX | VLESS | @mt_proxy #2",
         "🇰🇷 KR | VLESS | @mtproxy22_v2ray #1",
-        "🇹🇷 TR | VLESS | @mtproxy22_v2ray #1",
         "🇽🇽 XX | VLESS | @mtpv2ray #1",
         "🇽🇽 XX | VLESS | @nepo_v2ray #1",
         "🇽🇽 XX | VLESS | @nepo_v2ray #2",
@@ -263,7 +261,7 @@
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
         "🇻🇳 VN | SS | @v2ray_free_conf #1",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+        "🇻🇳 VN | SS | @v2ray_free_conf #2",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇿🇦 ZA | VLESS | @v2ray_vmes #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #1",
@@ -337,9 +335,8 @@
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
-        "🇸🇪 SE | VLESS | @config_proxy #1",
-        "🇦🇹 AT | VLESS | @config_proxy #1",
-        "🇩🇪 DE | VLESS | @configasli #1",
+        "🇰🇷 KR | VLESS | @config_proxy #1",
+        "🇪🇪 EE | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @dailyv2ray #1",
@@ -429,7 +426,6 @@
         "🇽🇽 XX | VLESS | @mt_proxy #1",
         "🇽🇽 XX | VLESS | @mt_proxy #2",
         "🇰🇷 KR | VLESS | @mtproxy22_v2ray #1",
-        "🇹🇷 TR | VLESS | @mtproxy22_v2ray #1",
         "🇽🇽 XX | VLESS | @mtpv2ray #1",
         "🇽🇽 XX | VLESS | @nepo_v2ray #1",
         "🇽🇽 XX | VLESS | @nepo_v2ray #2",
@@ -498,7 +494,7 @@
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
         "🇻🇳 VN | SS | @v2ray_free_conf #1",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
+        "🇻🇳 VN | SS | @v2ray_free_conf #2",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇿🇦 ZA | VLESS | @v2ray_vmes #1",
         "🇮🇷 IR | VLESS | @v2ray_vmes #1",
@@ -758,11 +754,19 @@
       }
     },
     {
-      "tag": "🇸🇪 SE | VLESS | @config_proxy #1",
+      "tag": "🇰🇷 KR | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "193.181.29.120",
+      "server": "218.154.216.119",
+      "server_port": 12616,
+      "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "s501.ccgfw.top",
       "server_port": 443,
-      "uuid": "26524cce-d514-4014-a426-365fb266a14d",
+      "uuid": "ccd85f23-9105-37fd-96b9-9dcbc89ff3eb",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -773,32 +777,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇦🇹 AT | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "at.darknet.run",
-      "server_port": 443,
-      "uuid": "54c36460-4710-4c4d-8b58-0be7da081331",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @configasli #1",
-      "type": "vless",
-      "server": "s1.aparat-movies-download.ir",
-      "server_port": 4450,
-      "uuid": "a19f4213-fcb8-4384-9c85-cb51cae8ab8b",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @customizev2ray #1",
@@ -1992,30 +1970,6 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @mtproxy22_v2ray #1",
-      "type": "vless",
-      "server": "212.87.198.108",
-      "server_port": 443,
-      "uuid": "f91c1cc2-05fe-4efd-ba09-86cb6bec19e3",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @mtpv2ray #1",
       "type": "vless",
       "server": "chatgpt.com",
@@ -2830,26 +2784,18 @@
     {
       "tag": "🇻🇳 VN | SS | @v2ray_free_conf #1",
       "type": "shadowsocks",
-      "server": "103.186.155.202",
+      "server": "103.186.155.238",
       "server_port": 38388,
       "method": "YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW",
       "password": null
     },
     {
-      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "tgju.org",
-      "server_port": 8080,
-      "uuid": "nasnet",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/nasnet/cdn",
-        "headers": {
-          "Host": "nasnet-571296497.iranpress.co"
-        }
-      }
+      "tag": "🇻🇳 VN | SS | @v2ray_free_conf #2",
+      "type": "shadowsocks",
+      "server": "103.186.155.63",
+      "server_port": 38388,
+      "method": "YWVzLTI1Ni1jZmI6WG44aktkbURNMDBJZU8lIyQjZkpBTXRzRUFFVU9wSC9ZV1l0WXFERm5UMFNW",
+      "password": null
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
