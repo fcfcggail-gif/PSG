@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇻 LV | VLESS | @config_proxy #1",
-        "🇱🇻 LV | VLESS | @config_proxy #2"
+        "🇦🇱 AL | VLESS | @config_proxy #1",
+        "🇦🇱 AL | VLESS | @config_proxy #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇻 LV | VLESS | @config_proxy #1",
-        "🇱🇻 LV | VLESS | @config_proxy #2"
+        "🇦🇱 AL | VLESS | @config_proxy #1",
+        "🇦🇱 AL | VLESS | @config_proxy #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,11 +103,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇱🇻 LV | VLESS | @config_proxy #1",
+      "tag": "🇦🇱 AL | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "94.158.218.63",
+      "server": "144.31.129.38",
       "server_port": 443,
-      "uuid": "13a1a860-4fd0-4007-86c7-c4b9a3580286",
+      "uuid": "62ad5a48-f452-4868-b7eb-d27df9b3d723",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -120,21 +120,13 @@
       }
     },
     {
-      "tag": "🇱🇻 LV | VLESS | @config_proxy #2",
+      "tag": "🇦🇱 AL | VLESS | @config_proxy #2",
       "type": "vless",
-      "server": "lv.darknet.run",
-      "server_port": 443,
-      "uuid": "54c36460-4710-4c4d-8b58-0be7da081331",
+      "server": "144.31.131.32",
+      "server_port": 8443,
+      "uuid": "2dd1a15d-1426-413a-a3b8-a645788bc844",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "flow": "xtls-rprx-vision"
     }
   ],
   "route": {

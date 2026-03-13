@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇮🇳 IN | VLESS | @v2raytg #1", "server": "45.88.183.100", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "309fa273-6579-4cb2-9143-7cad50401eba", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇦🇱 AL | VLESS | @config_proxy #1", "server": "144.31.129.38", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "62ad5a48-f452-4868-b7eb-d27df9b3d723", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇱 AL | VLESS | @config_proxy #2", "server": "144.31.131.32", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "2dd1a15d-1426-413a-a3b8-a645788bc844", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇮🇳 IN | VLESS | @v2raytg #1'
+      - '🇦🇱 AL | VLESS | @config_proxy #1'
+      - '🇦🇱 AL | VLESS | @config_proxy #2'
 
   - name: 🌍 Global Media
     type: select
