@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQUw=
+//profile-title: base64:UFNHIHwgTFU=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇱 AL | VLESS | @config_proxy #1",
-        "🇦🇱 AL | VLESS | @config_proxy #2"
+        "🇱🇺 LU | SS | @v2ray_free_conf #1",
+        "🇱🇺 LU | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇱 AL | VLESS | @config_proxy #1",
-        "🇦🇱 AL | VLESS | @config_proxy #2"
+        "🇱🇺 LU | SS | @v2ray_free_conf #1",
+        "🇱🇺 LU | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,30 +112,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇱 AL | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "144.31.129.38",
-      "server_port": 443,
-      "uuid": "62ad5a48-f452-4868-b7eb-d27df9b3d723",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "tag": "🇱🇺 LU | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "107.189.7.176",
+      "server_port": 46294,
+      "method": "MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206YmdRV2crelRpeW9WTWU5VTZVNzJJaTZnZmZEN0ZQcWpBTG5sdU95Qi9rOD06RURxdHd2TEJGMENWb05qWnJyK053b21tNE9zNGp0SDN1Z0ZtUHhUZkV1VT0=",
+      "password": null
     },
     {
-      "tag": "🇦🇱 AL | VLESS | @config_proxy #2",
+      "tag": "🇱🇺 LU | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "144.31.131.32",
-      "server_port": 8443,
-      "uuid": "2dd1a15d-1426-413a-a3b8-a645788bc844",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
+      "server": "107.189.7.176",
+      "server_port": 49839,
+      "uuid": "c56375ea-317d-4d81-9213-582d024e5d3a",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
