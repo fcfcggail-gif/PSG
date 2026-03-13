@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇨🇭 CH | VLESS | @config_proxy #1",
         "🇨🇭 CH | VLESS | @proxyfn #1"
       ],
       "tag": "proxy",
@@ -98,6 +99,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇨🇭 CH | VLESS | @config_proxy #1",
         "🇨🇭 CH | VLESS | @proxyfn #1"
       ],
       "tag": "auto",
@@ -108,6 +110,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "90909.sbs",
+      "server_port": 8443,
+      "uuid": "553faafb-9d5e-4986-a2ab-450ad9fc6a3f",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇨🇭 CH | VLESS | @proxyfn #1",
