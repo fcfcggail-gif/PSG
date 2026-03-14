@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇹 AT | VLESS | @config_proxy #1"
+        "🇦🇹 AT | VLESS | @config_proxy #1",
+        "🇦🇹 AT | SS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇹 AT | VLESS | @config_proxy #1"
+        "🇦🇹 AT | VLESS | @config_proxy #1",
+        "🇦🇹 AT | SS | @NamiraConfigs #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,9 +114,9 @@
     {
       "tag": "🇦🇹 AT | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "152.53.47.234",
+      "server": "152.53.46.200",
       "server_port": 443,
-      "uuid": "ba98d5f4-c5ff-4069-8e97-91d8214e1b84",
+      "uuid": "eb071647-72a6-46be-8e89-ff3d228d52f6",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -125,6 +127,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇦🇹 AT | SS | @NamiraConfigs #1",
+      "type": "shadowsocks",
+      "server": "77.110.110.117",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5SmVZeThTa1ZpWHVTSFZzOUdGZVNl",
+      "password": null
     }
   ],
   "route": {

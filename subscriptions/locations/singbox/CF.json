@@ -93,6 +93,9 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
+        "🇽🇽 XX | VLESS | @config_proxy #1",
+        "🇽🇽 XX | VMESS | @config_proxy #1",
+        "🇽🇽 XX | VLESS | @config_proxy #2",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -315,6 +318,9 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
+        "🇽🇽 XX | VLESS | @config_proxy #1",
+        "🇽🇽 XX | VMESS | @config_proxy #1",
+        "🇽🇽 XX | VLESS | @config_proxy #2",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -569,6 +575,54 @@
           "fingerprint": "chrome"
         }
       },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "104.16.149.66",
+      "server_port": 80,
+      "uuid": "a7444b2b-20fb-461f-9840-63e5c8c7d883",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "hwtqcp.uhomdex.shop",
+      "server_port": 8443,
+      "uuid": "eddebc92-b9f7-4019-8a11-0d733bfe665d",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "162.159.153.231",
+      "server_port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
         "path": "",
