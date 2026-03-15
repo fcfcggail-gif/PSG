@@ -79,6 +79,7 @@
         "direct",
         "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇷🇺 RU | VLESS | @config_proxy #2",
+        "🇷🇺 RU | VLESS | @config_proxy #3",
         "🇷🇺 RU | VMESS | @prooxyk #1"
       ],
       "tag": "proxy",
@@ -89,6 +90,7 @@
       "outbounds": [
         "🇷🇺 RU | VLESS | @config_proxy #1",
         "🇷🇺 RU | VLESS | @config_proxy #2",
+        "🇷🇺 RU | VLESS | @config_proxy #3",
         "🇷🇺 RU | VMESS | @prooxyk #1"
       ],
       "tag": "auto",
@@ -107,10 +109,11 @@
     {
       "tag": "🇷🇺 RU | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "0ru84.tcpdoor.net",
+      "server": "146.185.240.139",
       "server_port": 443,
-      "uuid": "2563b829-866c-4c0f-8270-a91cffbfe852",
+      "uuid": "47d149e3-8ba6-01f4-b91f-3dd9771fa7cc",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -124,11 +127,37 @@
     {
       "tag": "🇷🇺 RU | VLESS | @config_proxy #2",
       "type": "vless",
-      "server": "212.233.72.45",
-      "server_port": 4005,
-      "uuid": "90c9c25c-df6c-4438-83d3-ef97166a9184",
+      "server": "5.188.141.138",
+      "server_port": 443,
+      "uuid": "961011c9-1244-414e-ba25-75479b35b553",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @config_proxy #3",
+      "type": "vless",
+      "server": "146.185.240.139",
+      "server_port": 443,
+      "uuid": "47d149e3-8ba6-03e8-b91f-3dd9771fa7cc",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇷🇺 RU | VMESS | @prooxyk #1",
