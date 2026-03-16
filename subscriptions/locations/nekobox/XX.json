@@ -80,9 +80,9 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
+        "🇽🇽 XX | VMESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @config_proxy #1",
-        "🇽🇽 XX | VLESS | @config_proxy #2",
-        "🇽🇽 XX | VLESS | @config_proxy #3",
+        "🇽🇽 XX | VMESS | @config_proxy #2",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -317,9 +317,9 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @buffalo_vpn #1",
+        "🇽🇽 XX | VMESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @config_proxy #1",
-        "🇽🇽 XX | VLESS | @config_proxy #2",
-        "🇽🇽 XX | VLESS | @config_proxy #3",
+        "🇽🇽 XX | VMESS | @config_proxy #2",
         "🇽🇽 XX | VLESS | @customizev2ray #1",
         "🇽🇽 XX | VLESS | @customizev2ray #2",
         "🇽🇽 XX | VLESS | @customizev2ray #3",
@@ -599,6 +599,31 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VMESS | @config_proxy #1",
+      "type": "vmess",
+      "server": "kwtgm.cmvvb.online",
+      "server_port": 8443,
+      "uuid": "82aa5240-ee95-427d-91b0-1ba42383d49e",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "kwtgm.cmvvb.online",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "kwtgm.cmvvb.online"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @config_proxy #1",
       "type": "vless",
       "server": "broad-sky-9360.k7uztejf9ief.workers.dev",
@@ -616,20 +641,29 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "dvgt.zem.indevs.in",
-      "server_port": 80,
-      "uuid": "c558328b-eb46-424c-b9e0-574770f0b072",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @config_proxy #3",
-      "type": "vless",
-      "server": "rtg.ae1autumn.cc.cd",
-      "server_port": 80,
-      "uuid": "c558328b-eb46-424c-b9e0-574770f0b072",
-      "packet_encoding": "xudp"
+      "tag": "🇽🇽 XX | VMESS | @config_proxy #2",
+      "type": "vmess",
+      "server": "nqzkb.cmvvb.online",
+      "server_port": 443,
+      "uuid": "16604b48-7497-428c-a6d4-b017b3a30ce4",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "nqzkb.cmvvb.online",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "nqzkb.cmvvb.online"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @customizev2ray #1",
