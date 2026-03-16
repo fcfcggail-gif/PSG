@@ -95,6 +95,7 @@
         "KingRezaPahlavi",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇽🇽 XX | VLESS | @dailyv2ray #2",
         "🇺🇸 US | VLESS | @deli_servers #1",
@@ -145,7 +146,6 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇿🇦 ZA | VLESS | @v2ray_vmes #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
@@ -177,6 +177,7 @@
         "KingRezaPahlavi",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
+        "🇳🇱 NL | VLESS | @config_proxy #1",
         "🇩🇪 DE | VLESS | @configasli #1",
         "🇽🇽 XX | VLESS | @dailyv2ray #2",
         "🇺🇸 US | VLESS | @deli_servers #1",
@@ -227,7 +228,6 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇿🇦 ZA | VLESS | @v2ray_vmes #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
@@ -344,6 +344,23 @@
       "server_port": 80,
       "uuid": "6db4a91c-838d-419a-af83-bc5bd211ffc6",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "nl.grizzlyvpn.work",
+      "server_port": 443,
+      "uuid": "5952ea01-0669-4f5e-8010-61f8abee3600",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @configasli #1",
@@ -922,14 +939,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇿🇦 ZA | VLESS | @v2ray_vmes #1",
-      "type": "vless",
-      "server": "blackskyvpnn.blackskyvpn.com",
-      "server_port": 28764,
-      "uuid": "2170e394-db32-4602-934c-c0cd0b2a5118",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_youtube #1",
