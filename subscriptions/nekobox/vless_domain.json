@@ -83,7 +83,7 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @config_proxy #1",
-        "🇩🇪 DE | VLESS | @configasli #1",
+        "🇲🇩 MD | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @dailyv2ray #2",
         "🇻🇬 VG | VLESS | @dailyv2ray #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
@@ -135,7 +135,6 @@
         "🇽🇽 XX | VLESS | @lockey_vpn #5",
         "🇽🇽 XX | VLESS | @lockey_vpn #6",
         "🇽🇽 XX | VLESS | @manstervpn #1",
-        "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇽🇽 XX | VLESS | @mester_v2ray #6",
         "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇸🇨 SC | VLESS | @mpproxy #1",
@@ -226,7 +225,7 @@
         "🇽🇽 XX | VLESS | @artemis_vpn_free #1",
         "🇽🇽 XX | VLESS | @artemis_vpn_free #2",
         "🇽🇽 XX | VLESS | @config_proxy #1",
-        "🇩🇪 DE | VLESS | @configasli #1",
+        "🇲🇩 MD | VLESS | @config_proxy #1",
         "🇽🇽 XX | VLESS | @dailyv2ray #2",
         "🇻🇬 VG | VLESS | @dailyv2ray #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
@@ -278,7 +277,6 @@
         "🇽🇽 XX | VLESS | @lockey_vpn #5",
         "🇽🇽 XX | VLESS | @lockey_vpn #6",
         "🇽🇽 XX | VLESS | @manstervpn #1",
-        "🇩🇪 DE | VLESS | @megavpn_link #1",
         "🇽🇽 XX | VLESS | @mester_v2ray #6",
         "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇸🇨 SC | VLESS | @mpproxy #1",
@@ -461,19 +459,41 @@
     {
       "tag": "🇽🇽 XX | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "developers.cloudflare.com",
-      "server_port": 2095,
-      "uuid": "86c50e3a-5b87-49dd-bd20-03c7f2735e40",
-      "packet_encoding": "xudp"
+      "server": "poe.com",
+      "server_port": 443,
+      "uuid": "081efe27-f6b8-4f60-aedb-3c9effe9c67d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @configasli #1",
+      "tag": "🇲🇩 MD | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "s1.aparat-movies-download.ir",
-      "server_port": 4450,
-      "uuid": "a19f4213-fcb8-4384-9c85-cb51cae8ab8b",
+      "server": "kz1.a-svc.com",
+      "server_port": 443,
+      "uuid": "45686761-5a47-40c0-a982-a06233f9d64e",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @dailyv2ray #2",
@@ -1087,28 +1107,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @megavpn_link #1",
-      "type": "vless",
-      "server": "all32-vip.f-sub.com",
-      "server_port": 2434,
-      "uuid": "84e919b0-2a5d-4fad-8614-df01dd210b8e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
