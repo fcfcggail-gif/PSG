@@ -93,9 +93,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | VLESS | @configasli #1",
-        "🇽🇽 XX | VLESS | @vpn_ioss #1",
-        "🇽🇽 XX | VLESS | @vpnplusee_free #1"
+        "🇩🇪 DE | VLESS | @filterk0sh #1",
+        "🇲🇩 MD | VLESS | @vpn_ioss #1",
+        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -106,9 +106,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | VLESS | @configasli #1",
-        "🇽🇽 XX | VLESS | @vpn_ioss #1",
-        "🇽🇽 XX | VLESS | @vpnplusee_free #1"
+        "🇩🇪 DE | VLESS | @filterk0sh #1",
+        "🇲🇩 MD | VLESS | @vpn_ioss #1",
+        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -192,16 +192,29 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @configasli #1",
+      "tag": "🇩🇪 DE | VLESS | @filterk0sh #1",
       "type": "vless",
-      "server": "s1.aparat-movies-download.ir",
-      "server_port": 4450,
-      "uuid": "a19f4213-fcb8-4384-9c85-cb51cae8ab8b",
+      "server": "eng14.netliberated.org",
+      "server_port": 443,
+      "uuid": "0bb6dff2-0029-4b81-8c81-4fc70fae1ed9",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @vpn_ioss #1",
+      "tag": "🇲🇩 MD | VLESS | @vpn_ioss #1",
       "type": "vless",
       "server": "4.cdnconn.com",
       "server_port": 23335,
@@ -223,7 +236,7 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @vpnplusee_free #1",
+      "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #1",
       "type": "vless",
       "server": "sr4.laptopstock7.com",
       "server_port": 3030,
