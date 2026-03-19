@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgTFU=
+//profile-title: base64:UFNHIHwgQU0=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇺 LU | VMESS | @v2ray_free_conf #1",
-        "🇱🇺 LU | VMESS | @v2ray_free_conf #2"
+        "🇦🇲 AM | VLESS | @config_proxy #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇺 LU | VMESS | @v2ray_free_conf #1",
-        "🇱🇺 LU | VMESS | @v2ray_free_conf #2"
+        "🇦🇲 AM | VLESS | @config_proxy #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,13 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇱🇺 LU | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "107.189.7.176",
-      "server_port": 53469,
-      "uuid": "c70b24da-5325-42c5-80bd-374ed82d2781",
-      "security": "auto",
-      "alter_id": 0,
+      "tag": "🇦🇲 AM | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "178.160.229.241",
+      "server_port": 443,
+      "uuid": "0c56d165-7005-4655-8b9e-4f6888b50318",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -126,38 +123,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇱🇺 LU | VMESS | @v2ray_free_conf #2",
-      "type": "vmess",
-      "server": "107.189.7.176",
-      "server_port": 53469,
-      "uuid": "bb051c3a-412f-4c69-9bb9-96224c91c5ae",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": ""
         }
       }
     }

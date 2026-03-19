@@ -77,8 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇯🇵 JP | VLESS | @config_proxy #1",
-        "🇯🇵 JP | VLESS | @config_proxy #2",
         "🇯🇵 JP | SS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
@@ -87,8 +85,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇯🇵 JP | VLESS | @config_proxy #1",
-        "🇯🇵 JP | VLESS | @config_proxy #2",
         "🇯🇵 JP | SS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
@@ -103,31 +99,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇯🇵 JP | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "103.106.228.126",
-      "server_port": 2053,
-      "uuid": "948fac3c-42bf-41a6-a5f9-704d36ff0d8d",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇯🇵 JP | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "103.29.68.206",
-      "server_port": 443,
-      "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇯🇵 JP | SS | @outlinereleasedkey #1",
