@@ -23,7 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇦🇹 AT | VLESS | @v2ray_free_conf #1", "server": "144.31.129.68", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "7e0a9f75-b424-493b-b7e6-cebd7ea8642d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇸🇬 SG | VLESS | @config_proxy #1", "server": "64.120.95.194", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇸🇬 SG | VLESS | @config_proxy #2", "server": "darknet-free.alexid.org", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "653d9e84-3d3d-4613-9b3b-2297f7a1512b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇸🇬 SG | VLESS | @config_proxy #3", "server": "165.245.181.78", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇦🇹 AT | VLESS | @v2ray_free_conf #1'
+      - '🇸🇬 SG | VLESS | @config_proxy #1'
+      - '🇸🇬 SG | VLESS | @config_proxy #2'
+      - '🇸🇬 SG | VLESS | @config_proxy #3'
 
   - name: 🌍 Global Media
     type: select

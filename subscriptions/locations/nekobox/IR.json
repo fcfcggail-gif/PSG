@@ -83,6 +83,7 @@
         "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | VLESS | @prrofile_purple #1",
         "🇮🇷 IR | TROJAN | @prrofile_purple #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1"
       ],
       "tag": "proxy",
@@ -97,6 +98,7 @@
         "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | VLESS | @prrofile_purple #1",
         "🇮🇷 IR | TROJAN | @prrofile_purple #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1"
       ],
       "tag": "auto",
@@ -115,10 +117,19 @@
     {
       "tag": "🇮🇷 IR | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "snapp.ir",
-      "server_port": 80,
-      "uuid": "2ed7a076-c37e-44bc-9bb1-365314c0172f",
-      "packet_encoding": "xudp"
+      "server": "185.143.233.120",
+      "server_port": 443,
+      "uuid": "3ccf236e-315c-4dcb-ab65-8b27b63183a0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VMESS | @khoneproxy #1",
@@ -177,6 +188,23 @@
       "server": "185.143.235.5",
       "server_port": 443,
       "password": "biS%28YrwB%2C3L%24",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "arvancloud.ir",
+      "server_port": 443,
+      "uuid": "613d131b-4c3e-4be7-c3db-2e0611c729a7",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",

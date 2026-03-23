@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVFI=
+//profile-title: base64:UFNHIHwgU0c=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
+        "🇸🇬 SG | VLESS | @config_proxy #1",
+        "🇸🇬 SG | VLESS | @config_proxy #2",
+        "🇸🇬 SG | VLESS | @config_proxy #3"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
+        "🇸🇬 SG | VLESS | @config_proxy #1",
+        "🇸🇬 SG | VLESS | @config_proxy #2",
+        "🇸🇬 SG | VLESS | @config_proxy #3"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +114,55 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇸🇬 SG | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "77.83.245.135",
-      "server_port": 34205,
-      "uuid": "2c287558-4d75-4430-a828-988f94b6d8f5",
-      "packet_encoding": "xudp"
+      "server": "64.120.95.194",
+      "server_port": 443,
+      "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "darknet-free.alexid.org",
+      "server_port": 443,
+      "uuid": "653d9e84-3d3d-4613-9b3b-2297f7a1512b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @config_proxy #3",
+      "type": "vless",
+      "server": "165.245.181.78",
+      "server_port": 443,
+      "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

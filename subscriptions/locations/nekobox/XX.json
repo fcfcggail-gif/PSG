@@ -208,7 +208,6 @@
         "🇽🇽 XX | VLESS | @proxyfn #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #2",
-        "🇽🇽 XX | VLESS | @prrofile_purple #3",
         "🇽🇽 XX | VLESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @red2ray #2",
         "🇽🇽 XX | VLESS | @red2ray #3",
@@ -270,6 +269,7 @@
         "🇽🇽 XX | VLESS | @v2rayza #1",
         "🇽🇽 XX | VLESS | @v2rayza #2",
         "🇽🇽 XX | VLESS | @v2rayza #3",
+        "🇽🇽 XX | VLESS | @v2rayza #4",
         "🇽🇽 XX | VLESS | @v_2rayng0 #1",
         "🇽🇽 XX | VLESS | @v_2rayng0 #2",
         "🇽🇽 XX | VLESS | @v_2rayng0 #3",
@@ -444,7 +444,6 @@
         "🇽🇽 XX | VLESS | @proxyfn #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #2",
-        "🇽🇽 XX | VLESS | @prrofile_purple #3",
         "🇽🇽 XX | VLESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @red2ray #2",
         "🇽🇽 XX | VLESS | @red2ray #3",
@@ -506,6 +505,7 @@
         "🇽🇽 XX | VLESS | @v2rayza #1",
         "🇽🇽 XX | VLESS | @v2rayza #2",
         "🇽🇽 XX | VLESS | @v2rayza #3",
+        "🇽🇽 XX | VLESS | @v2rayza #4",
         "🇽🇽 XX | VLESS | @v_2rayng0 #1",
         "🇽🇽 XX | VLESS | @v_2rayng0 #2",
         "🇽🇽 XX | VLESS | @v_2rayng0 #3",
@@ -2121,21 +2121,13 @@
     {
       "tag": "🇽🇽 XX | VLESS | @prrofile_purple #1",
       "type": "vless",
-      "server": "104.21.17.104",
-      "server_port": 8880,
-      "uuid": "f8d4581a-6dd4-5f4d-b37d-b994c5ae81b1",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @prrofile_purple #2",
-      "type": "vless",
       "server": "f2.hamrahconf.ir",
       "server_port": 8443,
       "uuid": "5558156d-3a2c-4843-9eb9-06e69ac3a2bf",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @prrofile_purple #3",
+      "tag": "🇽🇽 XX | VLESS | @prrofile_purple #2",
       "type": "vless",
       "server": "broad-sky-9360.k7uztejf9ief.workers.dev",
       "server_port": 443,
@@ -2537,10 +2529,19 @@
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "v1.dabache.top",
-      "server_port": 80,
-      "uuid": "388a6c57-87e7-420b-afe2-b3eb670fd7da",
-      "packet_encoding": "xudp"
+      "server": "ip-data.turkserver.ir",
+      "server_port": 2087,
+      "uuid": "1ea92475-4ea3-48b5-a307-d9fa6e9a11e1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_vmes #1",
@@ -2861,6 +2862,21 @@
           "fingerprint": "chrome"
         }
       },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2rayza #4",
+      "type": "vless",
+      "server": "172.66.44.172",
+      "server_port": 2096,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
         "path": "",
