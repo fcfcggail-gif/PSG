@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgU0c=
+//profile-title: base64:UFNHIHwgVUE=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,9 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇬 SG | VLESS | @config_proxy #1",
-        "🇸🇬 SG | VLESS | @config_proxy #2",
-        "🇸🇬 SG | VLESS | @config_proxy #3"
+        "🇺🇦 UA | VLESS | @config_proxy #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇬 SG | VLESS | @config_proxy #1",
-        "🇸🇬 SG | VLESS | @config_proxy #2",
-        "🇸🇬 SG | VLESS | @config_proxy #3"
+        "🇺🇦 UA | VLESS | @config_proxy #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,11 +110,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇸🇬 SG | VLESS | @config_proxy #1",
+      "tag": "🇺🇦 UA | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "64.120.95.194",
+      "server": "md-kiv-2.blook.network",
       "server_port": 443,
-      "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b",
+      "uuid": "bab6fe49-f757-4ece-b48e-2a9f8b324b78",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -127,40 +123,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 SG | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "darknet-free.alexid.org",
-      "server_port": 443,
-      "uuid": "653d9e84-3d3d-4613-9b3b-2297f7a1512b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 SG | VLESS | @config_proxy #3",
-      "type": "vless",
-      "server": "165.245.181.78",
-      "server_port": 443,
-      "uuid": "14b02e2a-8930-4afb-8412-ea4a4954ca5b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }
