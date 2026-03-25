@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇪 BE | VLESS | @config_proxy #1"
+        "🇧🇪 BE | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇪 BE | VLESS | @config_proxy #1"
+        "🇧🇪 BE | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,11 +110,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇧🇪 BE | VLESS | @config_proxy #1",
+      "tag": "🇧🇪 BE | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "113.30.152.46",
+      "server": "fs.cedriklorenz.ir",
       "server_port": 443,
-      "uuid": "4358a465-91cf-4814-b137-0acc1b69062c",
+      "uuid": "fecdbda8-69b2-449a-b8d5-e798ff1c1e6d",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -123,11 +123,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }
