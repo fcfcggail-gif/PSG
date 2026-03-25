@@ -93,7 +93,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇪🇪 EE | VLESS | @config_proxy #1",
+        "🇳🇱 NL | VLESS | @config_proxy #1",
+        "🇨🇿 CZ | VLESS | @config_proxy #1",
         "🇸🇮 SI | VLESS | @filterk0sh #1",
         "🇸🇮 SI | VLESS | @ghalagyann #1",
         "🇸🇪 SE | VLESS | @proxyfn #1",
@@ -102,7 +103,6 @@
         "🇩🇪 DE | VLESS | @v2raych #2",
         "🇷🇺 RU | VLESS | @vip_vpn_2022 #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
-        "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇫🇮 FI | VLESS | @vpnplusee_free #1"
@@ -116,7 +116,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇪🇪 EE | VLESS | @config_proxy #1",
+        "🇳🇱 NL | VLESS | @config_proxy #1",
+        "🇨🇿 CZ | VLESS | @config_proxy #1",
         "🇸🇮 SI | VLESS | @filterk0sh #1",
         "🇸🇮 SI | VLESS | @ghalagyann #1",
         "🇸🇪 SE | VLESS | @proxyfn #1",
@@ -125,7 +126,6 @@
         "🇩🇪 DE | VLESS | @v2raych #2",
         "🇷🇺 RU | VLESS | @vip_vpn_2022 #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
-        "🇩🇪 DE | VLESS | @configasli #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
         "🇫🇮 FI | VLESS | @vpnplusee_free #1"
@@ -212,12 +212,13 @@
       }
     },
     {
-      "tag": "🇪🇪 EE | VLESS | @config_proxy #1",
+      "tag": "🇳🇱 NL | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "77.239.126.65",
+      "server": "85.17.118.17",
       "server_port": 443,
-      "uuid": "1babf197-af69-406e-aae2-83c411ae979f",
+      "uuid": "ad9d1e99-cc1d-4f05-ae31-36b9f22d9bf9",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -226,10 +227,24 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": ""
+      }
+    },
+    {
+      "tag": "🇨🇿 CZ | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "194.87.44.157",
+      "server_port": 443,
+      "uuid": "fd37be2f-f8d1-47de-97e8-13c28107d31e",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {
@@ -392,15 +407,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @configasli #1",
-      "type": "vless",
-      "server": "s1.aparat-movies-download.ir",
-      "server_port": 4450,
-      "uuid": "a19f4213-fcb8-4384-9c85-cb51cae8ab8b",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
     },
     {
       "tag": "🇩🇪 DE | VLESS | @filterk0sh #1",
