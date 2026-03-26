@@ -90,8 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | SS | @outlinereleasedkey #1",
-        "🇵🇱 PL | TROJAN | @v2ray_free_conf #1"
+        "🇵🇱 PL | VLESS | @config_proxy #1",
+        "🇵🇱 PL | VLESS | @config_proxy #2",
+        "🇵🇱 PL | SS | @netfreedom0 #1",
+        "🇵🇱 PL | SS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +101,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | SS | @outlinereleasedkey #1",
-        "🇵🇱 PL | TROJAN | @v2ray_free_conf #1"
+        "🇵🇱 PL | VLESS | @config_proxy #1",
+        "🇵🇱 PL | VLESS | @config_proxy #2",
+        "🇵🇱 PL | SS | @netfreedom0 #1",
+        "🇵🇱 PL | SS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,19 +116,21 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | SS | @outlinereleasedkey #1",
-      "type": "shadowsocks",
-      "server": "217.30.10.18",
-      "server_port": 9011,
-      "method": "YWVzLTI1Ni1jZmI6TTN0MlpFUWNNR1JXQmpSYQ==",
-      "password": null
+      "tag": "🇵🇱 PL | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "144.31.0.97",
+      "server_port": 48885,
+      "uuid": "3f88f137-a506-4386-8936-b0b4d7349478",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision"
     },
     {
-      "tag": "🇵🇱 PL | TROJAN | @v2ray_free_conf #1",
-      "type": "trojan",
-      "server": "funky-platypus.rooster465.autos",
+      "tag": "🇵🇱 PL | VLESS | @config_proxy #2",
+      "type": "vless",
+      "server": "pl1-1.buzzapi.space",
       "server_port": 443,
-      "password": "WF42809561",
+      "uuid": "f87041ed-09cb-4a10-853c-d0044fc6a8c3",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -134,6 +140,22 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇵🇱 PL | SS | @netfreedom0 #1",
+      "type": "shadowsocks",
+      "server": "217.30.10.70",
+      "server_port": 9000,
+      "method": "YWVzLTI1Ni1jZmI6YTNHRll0MzZTbTgyVnlzOQ==",
+      "password": null
+    },
+    {
+      "tag": "🇵🇱 PL | SS | @outlinereleasedkey #1",
+      "type": "shadowsocks",
+      "server": "217.30.10.18",
+      "server_port": 9011,
+      "method": "YWVzLTI1Ni1jZmI6TTN0MlpFUWNNR1JXQmpSYQ==",
+      "password": null
     }
   ],
   "route": {
