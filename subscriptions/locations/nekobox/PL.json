@@ -77,8 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @config_proxy #1",
-        "🇵🇱 PL | VLESS | @config_proxy #2",
         "🇵🇱 PL | SS | @netfreedom0 #1",
         "🇵🇱 PL | SS | @outlinereleasedkey #1"
       ],
@@ -88,8 +86,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @config_proxy #1",
-        "🇵🇱 PL | VLESS | @config_proxy #2",
         "🇵🇱 PL | SS | @netfreedom0 #1",
         "🇵🇱 PL | SS | @outlinereleasedkey #1"
       ],
@@ -105,32 +101,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @config_proxy #1",
-      "type": "vless",
-      "server": "144.31.0.97",
-      "server_port": 48885,
-      "uuid": "3f88f137-a506-4386-8936-b0b4d7349478",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @config_proxy #2",
-      "type": "vless",
-      "server": "pl1-1.buzzapi.space",
-      "server_port": 443,
-      "uuid": "f87041ed-09cb-4a10-853c-d0044fc6a8c3",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇵🇱 PL | SS | @netfreedom0 #1",
