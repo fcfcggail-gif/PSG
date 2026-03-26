@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇭🇰 HK | VLESS | @config_proxy #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇭🇰 HK | SS | @mftizi #1"
       ],
@@ -86,6 +87,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇭🇰 HK | VLESS | @config_proxy #1",
         "🇭🇰 HK | VMESS | @freev2rays #1",
         "🇭🇰 HK | SS | @mftizi #1"
       ],
@@ -101,6 +103,23 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇭🇰 HK | VLESS | @config_proxy #1",
+      "type": "vless",
+      "server": "79.141.169.152",
+      "server_port": 443,
+      "uuid": "dbb66087-10c5-451e-8d97-ea179984bce2",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇭🇰 HK | VMESS | @freev2rays #1",
