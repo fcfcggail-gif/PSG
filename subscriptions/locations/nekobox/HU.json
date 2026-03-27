@@ -77,9 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇪 EE | VLESS | @config_proxy #1",
-        "🇪🇪 EE | VLESS | @config_proxy #2",
-        "🇪🇪 EE | VLESS | @config_proxy #3"
+        "🇭🇺 HU | VLESS | @config_proxy #1",
+        "🇭🇺 HU | VLESS | @config_proxy #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇪 EE | VLESS | @config_proxy #1",
-        "🇪🇪 EE | VLESS | @config_proxy #2",
-        "🇪🇪 EE | VLESS | @config_proxy #3"
+        "🇭🇺 HU | VLESS | @config_proxy #1",
+        "🇭🇺 HU | VLESS | @config_proxy #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -105,49 +103,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇪🇪 EE | VLESS | @config_proxy #1",
+      "tag": "🇭🇺 HU | VLESS | @config_proxy #1",
       "type": "vless",
-      "server": "ee.stardevs.top",
-      "server_port": 443,
-      "uuid": "f00984ef-f57e-41db-9182-b25f7bc3a1e2",
+      "server": "217.13.104.133",
+      "server_port": 7443,
+      "uuid": "88b15015-386d-4bc1-a5de-56c2042e23cc",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "flow": "xtls-rprx-vision"
     },
     {
-      "tag": "🇪🇪 EE | VLESS | @config_proxy #2",
+      "tag": "🇭🇺 HU | VLESS | @config_proxy #2",
       "type": "vless",
-      "server": "144.31.178.192",
+      "server": "217.13.104.133",
       "server_port": 443,
-      "uuid": "a5fe029b-ed4d-4caf-b53f-2f8584c1a103",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": ""
-      }
-    },
-    {
-      "tag": "🇪🇪 EE | VLESS | @config_proxy #3",
-      "type": "vless",
-      "server": "95.85.249.44",
-      "server_port": 443,
-      "uuid": "721842b2-f627-43b6-821e-ef5798a28bfe",
+      "uuid": "88b15015-386d-4bc1-a5de-56c2042e23cc",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
