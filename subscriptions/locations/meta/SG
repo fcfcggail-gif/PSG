@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇱🇻 LV | VLESS | @config_proxy #1", "server": "braskivo.ru", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "96a1cd77-d7f8-42b6-86c1-29a2e2e85ea0", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇸🇬 SG | VMESS | @config_proxy #1", "server": "35.240.225.23", "port": 8880, "type": "vmess", "skip-cert-verify": true, "uuid": "c5dd6680-64ad-4f04-9952-49d94984f9eb", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "35.240.225.23"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇱🇻 LV | VLESS | @config_proxy #1'
+      - '🇸🇬 SG | VMESS | @config_proxy #1'
 
   - name: 🌍 Global Media
     type: select
