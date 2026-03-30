@@ -113,6 +113,7 @@
         "🇺🇸 US | VLESS | @jokerv2ray #2",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇺🇸 US | VLESS | @kafing_2 #2",
+        "🇺🇸 US | VLESS | @kafing_2 #3",
         "🇺🇸 US | SS | @key_outline #1",
         "🇺🇸 US | SS | @key_outline #2",
         "🇺🇸 US | SS | @key_outline #3",
@@ -140,11 +141,11 @@
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+        "🇺🇸 US | VLESS | @v2rayngconfiig #3",
         "🇺🇸 US | VMESS | @vpngate_config #1",
-        "🇺🇸 US | VMESS | @vpngate_config #2",
         "🇺🇸 US | VLESS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
@@ -176,6 +177,7 @@
         "🇺🇸 US | VLESS | @jokerv2ray #2",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇺🇸 US | VLESS | @kafing_2 #2",
+        "🇺🇸 US | VLESS | @kafing_2 #3",
         "🇺🇸 US | SS | @key_outline #1",
         "🇺🇸 US | SS | @key_outline #2",
         "🇺🇸 US | SS | @key_outline #3",
@@ -203,11 +205,11 @@
         "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+        "🇺🇸 US | VLESS | @v2rayngconfiig #3",
         "🇺🇸 US | VMESS | @vpngate_config #1",
-        "🇺🇸 US | VMESS | @vpngate_config #2",
         "🇺🇸 US | VLESS | @NamiraConfigs #1"
       ],
       "tag": "auto",
@@ -522,6 +524,23 @@
     },
     {
       "tag": "🇺🇸 US | VLESS | @kafing_2 #2",
+      "type": "vless",
+      "server": "66.81.247.155",
+      "server_port": 443,
+      "uuid": "4525c260-df3c-4f62-b8f1-f4f5f305694b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @kafing_2 #3",
       "type": "vless",
       "server": "66.81.247.155",
       "server_port": 443,
@@ -892,21 +911,13 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "016fab73dd0e5521.freestly.sapienza-mahan.ir",
-      "server_port": 443,
-      "uuid": "983da2df-bc52-4226-84c1-bbfef0704427",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "snapp.ir.bmi.ir.mobato-mobile.com",
+      "server_port": 80,
+      "uuid": "820a9e42-e18d-43e4-859f-d1c2f6b8600a",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #1",
@@ -918,6 +929,14 @@
     },
     {
       "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #2",
+      "type": "vless",
+      "server": "test.fast.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "TELEGRAM-CONFiGLiNE-29",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2rayngconfiig #3",
       "type": "vless",
       "server": "fastly1.hamrahflow.ir",
       "server_port": 443,
@@ -935,31 +954,6 @@
     },
     {
       "tag": "🇺🇸 US | VMESS | @vpngate_config #1",
-      "type": "vmess",
-      "server": "104.18.212.12",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "sub.yifenjichang.top",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/oliv.beauty:443/linkvws",
-        "headers": {
-          "Host": "sub.yifenjichang.top"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @vpngate_config #2",
       "type": "vmess",
       "server": "cold-dawn-9246.fly.dev",
       "server_port": 443,
