@@ -92,6 +92,7 @@
         "direct",
         "🇮🇷 IR | VMESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
+        "🇮🇷 IR | VMESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @ghalagyann #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
@@ -100,7 +101,6 @@
         "🇮🇷 IR | VLESS | @prrofile_purple #2",
         "🇮🇷 IR | VLESS | @prrofile_purple #3",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #2",
@@ -115,6 +115,7 @@
       "outbounds": [
         "🇮🇷 IR | VMESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
+        "🇮🇷 IR | VMESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @ghalagyann #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
@@ -123,7 +124,6 @@
         "🇮🇷 IR | VLESS | @prrofile_purple #2",
         "🇮🇷 IR | VLESS | @prrofile_purple #3",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #2",
@@ -171,6 +171,31 @@
       "server_port": 80,
       "uuid": "5927166d-e1fe-455c-b8f6-f5a8524c0397",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VMESS | @config_proxy #2",
+      "type": "vmess",
+      "server": "i-love-iran.amlakayuni.ir",
+      "server_port": 2053,
+      "uuid": "f2fe0d70-1cb1-ae84-4585-ec96d450da80",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "i-love-iran.amlakayuni.ir",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "?ed=2053",
+        "headers": {
+          "Host": "i-love-iran.amlakayuni.ir"
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @ghalagyann #1",
@@ -252,7 +277,7 @@
       "type": "vless",
       "server": "user11.ionosio.ir",
       "server_port": 2052,
-      "uuid": "223e5111-34b2-4a3b-8daa-36ae6e84d1f5",
+      "uuid": "55122bef-b6b8-4134-a483-ed1dee79d39f",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
@@ -261,14 +286,6 @@
           "Host": ""
         }
       }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
-      "type": "vless",
-      "server": "link2x03544.temp.veraspeed.ir",
-      "server_port": 80,
-      "uuid": "87763dea-6e00-4146-b2e9-f70db0f0a972",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
