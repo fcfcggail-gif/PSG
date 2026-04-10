@@ -82,7 +82,8 @@
         "🇸🇨 SC | VLESS | @kafing_2 #1",
         "🇸🇨 SC | TROJAN | @mpproxy #1",
         "🇸🇨 SC | VLESS | @mpproxy #1",
-        "🇸🇨 SC | TROJAN | @mpproxy #2"
+        "🇸🇨 SC | TROJAN | @mpproxy #2",
+        "🇸🇨 SC | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -95,7 +96,8 @@
         "🇸🇨 SC | VLESS | @kafing_2 #1",
         "🇸🇨 SC | TROJAN | @mpproxy #1",
         "🇸🇨 SC | VLESS | @mpproxy #1",
-        "🇸🇨 SC | TROJAN | @mpproxy #2"
+        "🇸🇨 SC | TROJAN | @mpproxy #2",
+        "🇸🇨 SC | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -182,6 +184,23 @@
       "server": "srv1.khatibirepair.ir",
       "server_port": 443,
       "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "dlbazi2.ketakhan.sbs",
+      "server_port": 8443,
+      "uuid": "75851373-9166-4413-bcb4-e995135ca3ce",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",

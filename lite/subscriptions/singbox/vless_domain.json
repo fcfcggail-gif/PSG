@@ -101,7 +101,7 @@
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
         "🇮🇷 IR | VLESS | @ehsawn8 #1",
         "🇮🇷 IR | VLESS | @ehsawn8 #2",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇽🇽 XX | VLESS | @f_nirevil #1",
         "🇽🇽 XX | VLESS | @f_nirevil #2",
         "🇮🇷 IR | VLESS | @father_vpn #1",
@@ -142,8 +142,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayng3 #1",
@@ -159,6 +158,7 @@
         "🇽🇽 XX | VLESS | @vmesc #1",
         "🇮🇷 IR | VLESS | @vmesskhodam #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
+        "🇲🇩 MD | VLESS | @vpn_ioss #2",
         "🇽🇽 XX | VLESS | @vpnowl #1",
         "🇽🇽 XX | VLESS | @vpnowl #2",
         "🇽🇽 XX | VLESS | @vpnplusee_free #1",
@@ -183,7 +183,7 @@
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
         "🇮🇷 IR | VLESS | @ehsawn8 #1",
         "🇮🇷 IR | VLESS | @ehsawn8 #2",
-        "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇽🇽 XX | VLESS | @f_nirevil #1",
         "🇽🇽 XX | VLESS | @f_nirevil #2",
         "🇮🇷 IR | VLESS | @father_vpn #1",
@@ -224,8 +224,7 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2rayng3 #1",
@@ -241,6 +240,7 @@
         "🇽🇽 XX | VLESS | @vmesc #1",
         "🇮🇷 IR | VLESS | @vmesskhodam #1",
         "🇲🇩 MD | VLESS | @vpn_ioss #1",
+        "🇲🇩 MD | VLESS | @vpn_ioss #2",
         "🇽🇽 XX | VLESS | @vpnowl #1",
         "🇽🇽 XX | VLESS | @vpnowl #2",
         "🇽🇽 XX | VLESS | @vpnplusee_free #1",
@@ -394,7 +394,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @eliteproxyv2 #1",
+      "tag": "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
       "type": "vless",
       "server": "germany.fast.hosting-ip.com",
       "server_port": 80,
@@ -885,20 +885,21 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "snapp.ir",
-      "server_port": 8080,
-      "uuid": "263552aa-5a5e-4703-a42d-374bda1566f6",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
-      "type": "vless",
-      "server": "s2.tehranionliine.ir",
-      "server_port": 80,
-      "uuid": "b1ac23fb-b336-4d37-a3c0-64b29c4ef3a4",
-      "packet_encoding": "xudp"
+      "server": "fs.cedriklorenz.ir",
+      "server_port": 443,
+      "uuid": "fecdbda8-69b2-449a-b8d5-e798ff1c1e6d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2raybe #1",
@@ -1075,6 +1076,28 @@
     },
     {
       "tag": "🇲🇩 MD | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "4.cdnconn.com",
+      "server_port": 23335,
+      "uuid": "e384913f-8863-47b4-8858-a84b68abb4a6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇲🇩 MD | VLESS | @vpn_ioss #2",
       "type": "vless",
       "server": "3.cdnconn.com",
       "server_port": 23335,
