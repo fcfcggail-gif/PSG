@@ -90,7 +90,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇩🇪 DE | VMESS | @freev2rays #1",
         "🇩🇪 DE | TROJAN | @goldenshiinevpn #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
@@ -101,6 +100,7 @@
         "🇩🇪 DE | VLESS | @mpproxy #2",
         "🇩🇪 DE | VLESS | @mpproxy #3",
         "🇩🇪 DE | VLESS | @mpproxy #4",
+        "🇩🇪 DE | VLESS | @mpproxy #5",
         "🇩🇪 DE | TROJAN | @privatevpns #1",
         "🇩🇪 DE | VLESS | @proxy48 #1",
         "🇩🇪 DE | VLESS | @tobevasl #1",
@@ -108,6 +108,7 @@
         "🇩🇪 DE | VLESS | @tobevasl #3",
         "🇩🇪 DE | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @v2raych #2",
+        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇩🇪 DE | VLESS | @vlessconfig #1",
@@ -120,7 +121,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇩🇪 DE | VMESS | @freev2rays #1",
         "🇩🇪 DE | TROJAN | @goldenshiinevpn #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
@@ -131,6 +131,7 @@
         "🇩🇪 DE | VLESS | @mpproxy #2",
         "🇩🇪 DE | VLESS | @mpproxy #3",
         "🇩🇪 DE | VLESS | @mpproxy #4",
+        "🇩🇪 DE | VLESS | @mpproxy #5",
         "🇩🇪 DE | TROJAN | @privatevpns #1",
         "🇩🇪 DE | VLESS | @proxy48 #1",
         "🇩🇪 DE | VLESS | @tobevasl #1",
@@ -138,6 +139,7 @@
         "🇩🇪 DE | VLESS | @tobevasl #3",
         "🇩🇪 DE | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @v2raych #2",
+        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇩🇪 DE | VLESS | @vlessconfig #1",
@@ -152,14 +154,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
-      "type": "vless",
-      "server": "germany.fast.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇩🇪 DE | VMESS | @freev2rays #1",
@@ -275,16 +269,8 @@
       "tag": "🇩🇪 DE | VLESS | @mpproxy #1",
       "type": "vless",
       "server": "srv1.khatibirepair.ir",
-      "server_port": 80,
-      "uuid": "97fa2fbd-b24c-ff98-633e-fd6fc14556db",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @mpproxy #2",
-      "type": "vless",
-      "server": "srv1.khatibirepair.ir",
       "server_port": 443,
-      "uuid": "991ad178-3afc-11f1-8d78-bc24110a77a6",
+      "uuid": "651a858c-2975-4b96-96b7-82745b38714c",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -297,17 +283,27 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @mpproxy #2",
+      "type": "vless",
+      "server": "srv1.khatibirepair.ir",
+      "server_port": 2096,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @mpproxy #3",
       "type": "vless",
       "server": "srv1.khatibirepair.ir",
-      "server_port": 80,
-      "uuid": "28952684-9265-4582-abba-acb01efb060e",
+      "server_port": 443,
+      "uuid": "9dcba3ab-b118-4143-b44b-de00366bdf70",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -316,7 +312,7 @@
       "type": "vless",
       "server": "srv1.khatibirepair.ir",
       "server_port": 443,
-      "uuid": "9a58741b-b9d2-41d6-9910-d5ea4fce6139",
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -327,6 +323,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @mpproxy #5",
+      "type": "vless",
+      "server": "srv1.khatibirepair.ir",
+      "server_port": 8443,
+      "uuid": "6202b230-417c-4d8e-b624-0f71afa9c75d",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇩🇪 DE | TROJAN | @privatevpns #1",
@@ -441,6 +445,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
+      "type": "vless",
+      "server": "test.fast.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "TELEGRAM-CONFiGLiNE-29",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1",
