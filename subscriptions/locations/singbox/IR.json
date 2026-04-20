@@ -107,6 +107,7 @@
         "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | VLESS | @prrofile_purple #1",
         "🇮🇷 IR | VLESS | @prrofile_purple #2",
+        "🇮🇷 IR | VLESS | @prrofile_purple #3",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #3",
@@ -141,6 +142,7 @@
         "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | VLESS | @prrofile_purple #1",
         "🇮🇷 IR | VLESS | @prrofile_purple #2",
+        "🇮🇷 IR | VLESS | @prrofile_purple #3",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #3",
@@ -358,20 +360,35 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇮🇷 IR | VLESS | @prrofile_purple #3",
+      "type": "vless",
+      "server": "s2.xbat.ir",
+      "server_port": 80,
+      "uuid": "c0cac14f-9702-46c2-985f-f5d3b24b456d",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
       "server": "snapp.ir",
       "server_port": 80,
-      "uuid": "9ff7fadd-aef7-4e0d-8c4a-d4339d10cb00",
+      "uuid": "e92933f3-a778-4b6d-b2a9-e67a6a5f1fce",
       "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
       "type": "vless",
-      "server": "cia.parsincharm.ir",
+      "server": "185.143.234.235",
       "server_port": 80,
-      "uuid": "b1edea64-dd36-405b-a8b8-441a0ae55776",
-      "packet_encoding": "xudp"
+      "uuid": "7781ead2-f630-471d-81c8-b4da5ad2c0c4",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #3",
@@ -384,9 +401,9 @@
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #4",
       "type": "vless",
-      "server": "185.143.234.235",
-      "server_port": 80,
-      "uuid": "343dfa74-0465-40f8-8210-1f7dacf20438",
+      "server": "shopcenter.lumavision.ir",
+      "server_port": 8080,
+      "uuid": "11a6d832-cac8-4ce4-a2f9-f0e87c4b6e35",
       "packet_encoding": "xudp"
     },
     {
@@ -418,7 +435,7 @@
       "type": "vless",
       "server": "185.143.233.5",
       "server_port": 443,
-      "uuid": "e94f647c-7077-4199-96cd-231a81786462",
+      "uuid": "9dcba3ab-b118-4143-b44b-de00366bdf70",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -433,27 +450,25 @@
     {
       "tag": "🇮🇷 IR | VLESS | @vmesskhodam #2",
       "type": "vless",
-      "server": "185.143.233.5",
-      "server_port": 443,
-      "uuid": "9dcba3ab-b118-4143-b44b-de00366bdf70",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @vmesskhodam #3",
-      "type": "vless",
       "server": "185.143.234.200",
       "server_port": 80,
       "uuid": "1cd5fa1a-fae9-45a3-a4b8-2bc636ec0952",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @vmesskhodam #3",
+      "type": "vless",
+      "server": "hmt.masterdadeh.ir",
+      "server_port": 80,
+      "uuid": "1dfd5183-ec72-3537-461a-0781118e26db",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
     }
   ],
   "route": {
