@@ -77,7 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @vmesc #1"
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi",
+        "🇰🇿 KZ | VLESS | @filterk0sh #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +88,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @vmesc #1"
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi",
+        "🇰🇿 KZ | VLESS | @filterk0sh #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,11 +107,83 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @vmesc #1",
+      "tag": "همکاری_ملی",
       "type": "vless",
-      "server": "103.231.75.185",
+      "server": "127.0.0.1",
       "server_port": 443,
-      "uuid": "c4e055e5-c9dd-44ae-8daf-2f0f344dcbdb",
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "جاویدشاه",
+      "type": "vless",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "KingRezaPahlavi",
+      "type": "vless",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇰🇿 KZ | VLESS | @filterk0sh #1",
+      "type": "vless",
+      "server": "eng14.netliberated.org",
+      "server_port": 443,
+      "uuid": "0bb6dff2-0029-4b81-8c81-4fc70fae1ed9",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
