@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇩🇪 DE | VLESS | @father_vpn #1",
         "🇩🇪 DE | VMESS | @freev2rays #1",
         "🇩🇪 DE | TROJAN | @goldenshiinevpn #1",
@@ -101,6 +102,7 @@
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
         "🇩🇪 DE | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @v2raych #2",
         "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1",
@@ -114,6 +116,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇩🇪 DE | VLESS | @father_vpn #1",
         "🇩🇪 DE | VMESS | @freev2rays #1",
         "🇩🇪 DE | TROJAN | @goldenshiinevpn #1",
@@ -125,6 +128,7 @@
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
         "🇩🇪 DE | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @v2raych #2",
         "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1",
@@ -140,6 +144,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
+      "type": "vless",
+      "server": "germany.fast.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇩🇪 DE | VLESS | @father_vpn #1",
@@ -305,6 +317,23 @@
       "server": "91.99.195.73",
       "server_port": 443,
       "uuid": "36ee3f5a-3816-4c03-a324-47531167e53b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "dlbazi3.ketakhan.sbs",
+      "server_port": 8443,
+      "uuid": "75851373-9166-4413-bcb4-e995135ca3ce",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
