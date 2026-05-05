@@ -90,7 +90,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇩🇪 DE | VMESS | @freev2rays #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
@@ -102,10 +101,12 @@
         "🇩🇪 DE | VLESS | @tobevasl #3",
         "🇩🇪 DE | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @v2raych #2",
+        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇩🇪 DE | TUIC | @vipv2rey #1",
-        "🇩🇪 DE | VLESS | @vlessconfig #1"
+        "🇩🇪 DE | VLESS | @vlessconfig #1",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -113,7 +114,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
         "🇩🇪 DE | VMESS | @freev2rays #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
@@ -125,10 +125,12 @@
         "🇩🇪 DE | VLESS | @tobevasl #3",
         "🇩🇪 DE | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @v2raych #2",
+        "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇩🇪 DE | TUIC | @vipv2rey #1",
-        "🇩🇪 DE | VLESS | @vlessconfig #1"
+        "🇩🇪 DE | VLESS | @vlessconfig #1",
+        "🇩🇪 DE | VLESS | @NamiraConfigs #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -138,14 +140,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @eliteproxyv2 #1",
-      "type": "vless",
-      "server": "germany.fast.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇩🇪 DE | VMESS | @freev2rays #1",
@@ -338,6 +332,14 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
+      "type": "vless",
+      "server": "test.fast.hosting-ip.com",
+      "server_port": 80,
+      "uuid": "TELEGRAM-CONFiGLiNE-29",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇩🇪 DE | TROJAN | @v2rayvpnchannel #1",
       "type": "trojan",
       "server": "3.123.178.214",
@@ -398,6 +400,30 @@
       "server_port": 22224,
       "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
       "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "212.192.31.146",
+      "server_port": 443,
+      "uuid": "199a78a5-b4d4-4064-a0db-bb37c5839134",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
         "type": "ws",
         "path": "",
