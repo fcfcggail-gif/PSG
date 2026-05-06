@@ -165,7 +165,7 @@
         "🇽🇽 XX | VLESS | @kesslervpn #1",
         "🇽🇽 XX | VLESS | @kesslervpn #2",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
-        "🇮🇷 IR | VMESS | @khoneproxy #1",
+        "🇺🇸 US | VMESS | @khoneproxy #1",
         "🇽🇽 XX | VLESS | @kilid_stor #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇽🇽 XX | VLESS | @kopltall_vpn #1",
@@ -194,7 +194,7 @@
         "🇺🇸 US | VLESS | @minovpnch #1",
         "🇽🇽 XX | VLESS | @miov2ray #1",
         "🇽🇽 XX | VLESS | @miov2ray #2",
-        "🇩🇪 DE | VLESS | @mpproxy #1",
+        "🇸🇨 SC | VLESS | @mpproxy #1",
         "🇦🇹 AT | TROJAN | @mpproxy #1",
         "🇺🇸 US | VLESS | @msv2raynp #1",
         "🇺🇸 US | VLESS | @msv2raynp #2",
@@ -262,8 +262,8 @@
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇽🇽 XX | TROJAN | @v2ray_youtube #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
@@ -401,7 +401,7 @@
         "🇽🇽 XX | VLESS | @kesslervpn #1",
         "🇽🇽 XX | VLESS | @kesslervpn #2",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
-        "🇮🇷 IR | VMESS | @khoneproxy #1",
+        "🇺🇸 US | VMESS | @khoneproxy #1",
         "🇽🇽 XX | VLESS | @kilid_stor #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇽🇽 XX | VLESS | @kopltall_vpn #1",
@@ -430,7 +430,7 @@
         "🇺🇸 US | VLESS | @minovpnch #1",
         "🇽🇽 XX | VLESS | @miov2ray #1",
         "🇽🇽 XX | VLESS | @miov2ray #2",
-        "🇩🇪 DE | VLESS | @mpproxy #1",
+        "🇸🇨 SC | VLESS | @mpproxy #1",
         "🇦🇹 AT | TROJAN | @mpproxy #1",
         "🇺🇸 US | VLESS | @msv2raynp #1",
         "🇺🇸 US | VLESS | @msv2raynp #2",
@@ -498,8 +498,8 @@
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇽🇽 XX | TROJAN | @v2ray_youtube #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
@@ -1616,13 +1616,29 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VMESS | @khoneproxy #1",
+      "tag": "🇺🇸 US | VMESS | @khoneproxy #1",
       "type": "vmess",
-      "server": "78.47.131.39",
-      "server_port": 8443,
-      "uuid": "4d598e48-234f-4c60-fdd3-fa90e084770d",
+      "server": "us-2.0rd.net",
+      "server_port": 443,
+      "uuid": "597888c0-a318-11ed-b536-205c6d5f5d78",
       "security": "auto",
-      "alter_id": 0
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/tq98e0yk",
+        "headers": {
+          "Host": ""
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @kilid_stor #1",
@@ -1988,7 +2004,7 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @mpproxy #1",
+      "tag": "🇸🇨 SC | VLESS | @mpproxy #1",
       "type": "vless",
       "server": "srv1.khatibirepair.ir",
       "server_port": 443,
@@ -2823,29 +2839,27 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "216.24.57.1",
-      "server_port": 443,
-      "uuid": "8c4604ef-749c-4b56-adf1-7da405002a21",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "varzesh3.com",
+      "server_port": 80,
+      "uuid": "156c3200-265d-4257-9fa1-45a0fd1dfcb0",
+      "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
       "type": "vless",
-      "server": "170.168.103.156",
-      "server_port": 8081,
-      "uuid": "89960e91-7f08-401d-98b1-60a8ca601c6f",
-      "packet_encoding": "xudp"
+      "server": "cdn3.whitepol4.ir",
+      "server_port": 2052,
+      "uuid": "c8a390d4-743a-42d3-806c-2a4c6ee8b7df",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
