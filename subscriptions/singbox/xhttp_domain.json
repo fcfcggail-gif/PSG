@@ -97,6 +97,7 @@
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇺🇸 US | VLESS | @parsashonam #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #2",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "proxy",
@@ -112,6 +113,7 @@
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇺🇸 US | VLESS | @parsashonam #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #2",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "auto",
@@ -225,6 +227,23 @@
       "server": "kubernetes.io",
       "server_port": 443,
       "uuid": "Telegram-Parsashonam",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "helm.sh",
+      "server_port": 443,
+      "uuid": "1c8eb478-5829-41c1-8b6c-ef74bb72edf8",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
