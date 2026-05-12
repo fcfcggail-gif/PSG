@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgRlI=
+//profile-title: base64:UFNHIHwgUEw=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,11 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇷 FR | VLESS | @minovpnch #1",
-        "🇫🇷 FR | VLESS | @minovpnch #2",
-        "🇫🇷 FR | SS | @mt_proxy #1",
-        "🇫🇷 FR | TROJAN | @proxyfn #1",
-        "🇫🇷 FR | VLESS | @v2ray_collector #1"
+        "🇵🇱 PL | SS | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,11 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇷 FR | VLESS | @minovpnch #1",
-        "🇫🇷 FR | VLESS | @minovpnch #2",
-        "🇫🇷 FR | SS | @mt_proxy #1",
-        "🇫🇷 FR | TROJAN | @proxyfn #1",
-        "🇫🇷 FR | VLESS | @v2ray_collector #1"
+        "🇵🇱 PL | SS | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -118,70 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @minovpnch #1",
-      "type": "vless",
-      "server": "199.232.169.135",
-      "server_port": 80,
-      "uuid": "f408696c-cdbe-49a1-90e9-ab602003315c",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @minovpnch #2",
-      "type": "vless",
-      "server": "199.232.169.135",
-      "server_port": 443,
-      "uuid": "f408696c-cdbe-49a1-90e9-ab602003315c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 FR | SS | @mt_proxy #1",
+      "tag": "🇵🇱 PL | SS | @netfreedom0 #1",
       "type": "shadowsocks",
-      "server": "54.36.174.140",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpwdmd6OXBx",
+      "server": "217.30.10.70",
+      "server_port": 9000,
+      "method": "YWVzLTI1Ni1jZmI6YTNHRll0MzZTbTgyVnlzOQ==",
       "password": null
-    },
-    {
-      "tag": "🇫🇷 FR | TROJAN | @proxyfn #1",
-      "type": "trojan",
-      "server": "51.91.11.29",
-      "server_port": 80,
-      "password": "598c19f3-a48e-47cd-8451-1ba04ea094d0",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @v2ray_collector #1",
-      "type": "vless",
-      "server": "141.11.203.139",
-      "server_port": 443,
-      "uuid": "401374e6-df77-41fb-f638-dad8184f175b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     }
   ],
   "route": {
