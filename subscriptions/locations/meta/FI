@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇮🇷 IR | VMESS | @khoneproxy #1", "server": "78.47.131.39", "port": 8443, "type": "vmess", "skip-cert-verify": true, "uuid": "4d598e48-234f-4c60-fdd3-fa90e084770d", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇫🇮 FI | VLESS | @filtershekan_channel #1", "server": "65.109.112.38", "port": 30366, "type": "vless", "skip-cert-verify": true, "uuid": "2c72062a-a542-4b9b-97ac-0b636930d7c7", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇮🇷 IR | VMESS | @khoneproxy #1'
+      - '🇫🇮 FI | VLESS | @filtershekan_channel #1'
 
   - name: 🌍 Global Media
     type: select
