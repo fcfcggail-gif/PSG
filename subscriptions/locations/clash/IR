@@ -23,13 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇦🇹 AT | TROJAN | @mpproxy #1", "server": "152.53.45.251", "port": 8888, "type": "trojan", "skip-cert-verify": false, "password": "trojan"}
-  - {"name": "🇩🇪 DE | TROJAN | @privatevpns #1", "server": "63.183.106.71", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
-  - {"name": "🇫🇷 FR | TROJAN | @privatevpns #1", "server": "13.38.186.226", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
-  - {"name": "🇫🇷 FR | TROJAN | @privatevpns #2", "server": "35.181.10.101", "port": 22222, "type": "trojan", "skip-cert-verify": false, "password": "telegram-id-privatevpns"}
-  - {"name": "🇫🇷 FR | TROJAN | @proxyfn #1", "server": "51.91.11.29", "port": 80, "type": "trojan", "skip-cert-verify": false, "password": "598c19f3-a48e-47cd-8451-1ba04ea094d0"}
-  - {"name": "🇽🇽 XX | TROJAN | @red2ray #1", "server": "172.64.149.54", "port": 2096, "type": "trojan", "skip-cert-verify": false, "password": "8r%3C%5B9%27l6hAO%238ZQi"}
-  - {"name": "🇽🇽 XX | TROJAN | @vmesc #1", "server": "172.64.152.23", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
+  - {"name": "🇮🇷 IR | VMESS | @khoneproxy #1", "server": "78.47.131.39", "port": 8443, "type": "vmess", "skip-cert-verify": true, "uuid": "4d598e48-234f-4c60-fdd3-fa90e084770d", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -43,13 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇦🇹 AT | TROJAN | @mpproxy #1'
-      - '🇩🇪 DE | TROJAN | @privatevpns #1'
-      - '🇫🇷 FR | TROJAN | @privatevpns #1'
-      - '🇫🇷 FR | TROJAN | @privatevpns #2'
-      - '🇫🇷 FR | TROJAN | @proxyfn #1'
-      - '🇽🇽 XX | TROJAN | @red2ray #1'
-      - '🇽🇽 XX | TROJAN | @vmesc #1'
+      - '🇮🇷 IR | VMESS | @khoneproxy #1'
 
   - name: 🌍 Global Media
     type: select
