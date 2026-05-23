@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | VMESS | @freev2rays #1"
+        "🇭🇰 HK | VMESS | @freev2rays #1",
+        "🇭🇰 HK | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | VMESS | @freev2rays #1"
+        "🇭🇰 HK | VMESS | @freev2rays #1",
+        "🇭🇰 HK | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -133,6 +135,14 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇭🇰 HK | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "vh3.com",
+      "server_port": 80,
+      "uuid": "2fb8086a-a107-437c-bbc6-13c2d066fcd5",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
