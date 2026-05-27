@@ -83,8 +83,8 @@
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
         "🇨🇾 CY | VLESS | @nn_vpn #2",
-        "🇮🇷 IR | VLESS | @v_2rayng0 #1",
-        "🇦🇪 AE | VLESS | @vmesskhodam #1"
+        "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
+        "🇮🇷 IR | VLESS | @v_2rayng0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,8 +98,8 @@
         "🇰🇿 KZ | VLESS | @filterk0sh #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
         "🇨🇾 CY | VLESS | @nn_vpn #2",
-        "🇮🇷 IR | VLESS | @v_2rayng0 #1",
-        "🇦🇪 AE | VLESS | @vmesskhodam #1"
+        "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
+        "🇮🇷 IR | VLESS | @v_2rayng0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -225,6 +225,28 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇳🇱 NL | VLESS | @v2rayngconfiig #1",
+      "type": "vless",
+      "server": "fi.podpiska.vip",
+      "server_port": 443,
+      "uuid": "fc363de7-5d11-42e0-b9c0-79d59274882a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @v_2rayng0 #1",
       "type": "vless",
       "server": "wp14.virgool.best",
@@ -243,23 +265,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "nl3.freekeysh110.online",
-      "server_port": 443,
-      "uuid": "24323a9a-5962-47f0-ae60-7b12f4503dea",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     }
