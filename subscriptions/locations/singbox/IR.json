@@ -91,16 +91,15 @@
         "auto",
         "direct",
         "🇮🇷 IR | VLESS | @Fr33C0nfig #1",
-        "🇮🇷 IR | VLESS | @ai_duet #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @configv2rayforfree #1",
         "🇮🇷 IR | VLESS | @ehsawn8 #1",
+        "🇮🇷 IR | VLESS | @ehsawn8 #2",
         "🇮🇷 IR | VLESS | @frev2rayng #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @miov2ray #1",
-        "🇮🇷 IR | VLESS | @netmellianti #1",
         "🇮🇷 IR | VLESS | @nofilter_v2rayng #1",
         "🇮🇷 IR | VLESS | @v2ang #1",
         "🇮🇷 IR | VLESS | @v2ang #2",
@@ -111,6 +110,7 @@
         "🇮🇷 IR | VLESS | @v2rayopen #1",
         "🇮🇷 IR | VLESS | @v_2rayng0 #1",
         "🇮🇷 IR | VLESS | @vip_vpn_2022 #1",
+        "🇮🇷 IR | VLESS | @vmesskhodam #1",
         "🇮🇷 IR | VLESS | @vpnfree85 #1"
       ],
       "tag": "proxy",
@@ -120,16 +120,15 @@
       "interval": "10m",
       "outbounds": [
         "🇮🇷 IR | VLESS | @Fr33C0nfig #1",
-        "🇮🇷 IR | VLESS | @ai_duet #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @configv2rayforfree #1",
         "🇮🇷 IR | VLESS | @ehsawn8 #1",
+        "🇮🇷 IR | VLESS | @ehsawn8 #2",
         "🇮🇷 IR | VLESS | @frev2rayng #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @miov2ray #1",
-        "🇮🇷 IR | VLESS | @netmellianti #1",
         "🇮🇷 IR | VLESS | @nofilter_v2rayng #1",
         "🇮🇷 IR | VLESS | @v2ang #1",
         "🇮🇷 IR | VLESS | @v2ang #2",
@@ -140,6 +139,7 @@
         "🇮🇷 IR | VLESS | @v2rayopen #1",
         "🇮🇷 IR | VLESS | @v_2rayng0 #1",
         "🇮🇷 IR | VLESS | @vip_vpn_2022 #1",
+        "🇮🇷 IR | VLESS | @vmesskhodam #1",
         "🇮🇷 IR | VLESS | @vpnfree85 #1"
       ],
       "tag": "auto",
@@ -165,14 +165,6 @@
           "Host": ""
         }
       }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @ai_duet #1",
-      "type": "vless",
-      "server": "193.151.147.114",
-      "server_port": 500,
-      "uuid": "f4f7a3f2-1b84-4a85-bae6-c17495dea6ea",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @config_proxy #1",
@@ -204,6 +196,21 @@
       "server": "snapp.ir",
       "server_port": 80,
       "uuid": "0c422f0c-5ada-4ef7-8294-0f383b42ad65",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @ehsawn8 #2",
+      "type": "vless",
+      "server": "snapp.ir",
+      "server_port": 80,
+      "uuid": "8f9c17b0-0a00-4ffb-a82d-007caf1e0743",
       "packet_encoding": "xudp",
       "transport": {
         "type": "ws",
@@ -263,14 +270,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @netmellianti #1",
-      "type": "vless",
-      "server": "arvancloud.ir",
-      "server_port": 8080,
-      "uuid": "e8cbc051-e0ac-452d-9bd3-8ad46625573c",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @nofilter_v2rayng #1",
@@ -383,6 +382,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "arvancloud.ir",
+      "server_port": 8080,
+      "uuid": "e8cbc051-e0ac-452d-9bd3-8ad46625573c",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @vpnfree85 #1",
