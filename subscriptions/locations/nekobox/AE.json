@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇪 AE | SS | @manstervpn #1",
-        "🇦🇪 AE | VLESS | @vmesskhodam #1"
+        "🇦🇪 AE | VLESS | @filterk0sh #1",
+        "🇦🇪 AE | SS | @manstervpn #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇪 AE | SS | @manstervpn #1",
-        "🇦🇪 AE | VLESS | @vmesskhodam #1"
+        "🇦🇪 AE | VLESS | @filterk0sh #1",
+        "🇦🇪 AE | SS | @manstervpn #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,19 +103,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇪 AE | SS | @manstervpn #1",
-      "type": "shadowsocks",
-      "server": "3.29.198.112",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj",
-      "password": null
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @vmesskhodam #1",
+      "tag": "🇦🇪 AE | VLESS | @filterk0sh #1",
       "type": "vless",
-      "server": "94.140.0.188",
+      "server": "eng14.netliberated.org",
       "server_port": 443,
-      "uuid": "cb12d2f4-d743-47c8-9e23-26f22387a042",
+      "uuid": "0bb6dff2-0029-4b81-8c81-4fc70fae1ed9",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -124,8 +116,21 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇦🇪 AE | SS | @manstervpn #1",
+      "type": "shadowsocks",
+      "server": "3.29.198.112",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj",
+      "password": null
     }
   ],
   "route": {
