@@ -112,10 +112,19 @@
     {
       "tag": "🇮🇹 IT | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "sca13.myfymain.com",
-      "server_port": 8880,
-      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
-      "packet_encoding": "xudp"
+      "server": "world.mobileemdad.top",
+      "server_port": 443,
+      "uuid": "2ca184d4-e4f5-47ae-8b94-72ff791177e1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
