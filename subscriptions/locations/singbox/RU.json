@@ -92,7 +92,7 @@
         "direct",
         "🇷🇺 RU | VLESS | @megavpn_link #1",
         "🇷🇺 RU | VLESS | @v2ray_collector #1",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1"
+        "🇷🇺 RU | VLESS | @v2ray_youtube #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,7 +102,7 @@
       "outbounds": [
         "🇷🇺 RU | VLESS | @megavpn_link #1",
         "🇷🇺 RU | VLESS | @v2ray_collector #1",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1"
+        "🇷🇺 RU | VLESS | @v2ray_youtube #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -158,12 +158,13 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+      "tag": "🇷🇺 RU | VLESS | @v2ray_youtube #1",
       "type": "vless",
-      "server": "62.109.21.244",
-      "server_port": 2096,
-      "uuid": "ba2630d8-d6c4-49ff-b5d5-2c24330dd245",
-      "packet_encoding": "xudp"
+      "server": "185.91.53.220",
+      "server_port": 6443,
+      "uuid": "cd26af96-638b-4d53-a264-8e0d584be772",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision"
     }
   ],
   "route": {

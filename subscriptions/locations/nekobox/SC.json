@@ -82,7 +82,6 @@
         "🇸🇨 SC | VLESS | @arv2ray #2",
         "🇸🇨 SC | VLESS | @father_vpn #1",
         "🇸🇨 SC | VLESS | @father_vpn #2",
-        "🇸🇨 SC | VLESS | @freeconfigsplus #1",
         "🇸🇨 SC | VLESS | @freevirgoolnet #1",
         "🇸🇨 SC | VLESS | @mehrosaboran #1",
         "🇸🇨 SC | VLESS | @mpproxy #1",
@@ -93,12 +92,10 @@
         "🇸🇨 SC | VLESS | @parsashonam #1",
         "🇸🇨 SC | VLESS | @parsashonam #2",
         "🇸🇨 SC | VLESS | @turboo_server #1",
-        "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
-        "🇸🇨 SC | TROJAN | @v2ray_free_conf #1",
         "🇸🇨 SC | VLESS | @v2ray_youtube #1",
+        "🇸🇨 SC | VLESS | @v2raych #1",
         "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",
-        "🇸🇨 SC | VLESS | @v2rayngvpn_1 #2",
-        "🇸🇨 SC | TROJAN | @vmesc #1"
+        "🇸🇨 SC | VLESS | @v2rayngvpn_1 #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -111,7 +108,6 @@
         "🇸🇨 SC | VLESS | @arv2ray #2",
         "🇸🇨 SC | VLESS | @father_vpn #1",
         "🇸🇨 SC | VLESS | @father_vpn #2",
-        "🇸🇨 SC | VLESS | @freeconfigsplus #1",
         "🇸🇨 SC | VLESS | @freevirgoolnet #1",
         "🇸🇨 SC | VLESS | @mehrosaboran #1",
         "🇸🇨 SC | VLESS | @mpproxy #1",
@@ -122,12 +118,10 @@
         "🇸🇨 SC | VLESS | @parsashonam #1",
         "🇸🇨 SC | VLESS | @parsashonam #2",
         "🇸🇨 SC | VLESS | @turboo_server #1",
-        "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
-        "🇸🇨 SC | TROJAN | @v2ray_free_conf #1",
         "🇸🇨 SC | VLESS | @v2ray_youtube #1",
+        "🇸🇨 SC | VLESS | @v2raych #1",
         "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",
-        "🇸🇨 SC | VLESS | @v2rayngvpn_1 #2",
-        "🇸🇨 SC | TROJAN | @vmesc #1"
+        "🇸🇨 SC | VLESS | @v2rayngvpn_1 #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -217,21 +211,6 @@
       "server_port": 2096,
       "uuid": "e258977b-e413-4718-a3af-02d75492c349",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @freeconfigsplus #1",
-      "type": "vless",
-      "server": "45.130.125.76",
-      "server_port": 2096,
-      "uuid": "7dc5ed50-e32b-4a1f-b840-69db2725e767",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": ""
-        }
-      }
     },
     {
       "tag": "🇸🇨 SC | VLESS | @freevirgoolnet #1",
@@ -368,11 +347,19 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+      "tag": "🇸🇨 SC | VLESS | @v2ray_youtube #1",
       "type": "vless",
-      "server": "45.130.125.160",
-      "server_port": 443,
-      "uuid": "47422044-85e3-426b-b6c4-3588cb24a3e5",
+      "server": "solar.appleseraj.ir",
+      "server_port": 2083,
+      "uuid": "e7344606-2a4b-4375-975a-0eac96192b16",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "45.130.125.162",
+      "server_port": 8443,
+      "uuid": "3d08f4ea-0207-4098-a17d-e6de41463c49",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -383,30 +370,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇸🇨 SC | TROJAN | @v2ray_free_conf #1",
-      "type": "trojan",
-      "server": "45.130.125.69",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @v2ray_youtube #1",
-      "type": "vless",
-      "server": "solar.appleseraj.ir",
-      "server_port": 2083,
-      "uuid": "e7344606-2a4b-4375-975a-0eac96192b16",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",
@@ -423,22 +386,6 @@
       "server_port": 443,
       "uuid": "1f9d104e-ca0e-4202-ba4b-a0afb969c747",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇨 SC | TROJAN | @vmesc #1",
-      "type": "trojan",
-      "server": "45.130.125.69",
-      "server_port": 443,
-      "password": "humanity",
       "tls": {
         "enabled": true,
         "server_name": "",
