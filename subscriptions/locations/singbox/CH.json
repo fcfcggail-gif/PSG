@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇨🇭 CH | VLESS | @turboo_server #1",
-        "🇨🇭 CH | VLESS | @v2rayngvpn_1 #1"
+        "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
+        "🇨🇭 CH | VLESS | @v2ray_free_conf #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇭 CH | VLESS | @turboo_server #1",
-        "🇨🇭 CH | VLESS | @v2rayngvpn_1 #1"
+        "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
+        "🇨🇭 CH | VLESS | @v2ray_free_conf #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -134,7 +136,15 @@
       }
     },
     {
-      "tag": "🇨🇭 CH | VLESS | @v2rayngvpn_1 #1",
+      "tag": "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "83.228.226.72",
+      "server_port": 18921,
+      "uuid": "a1ee1f7f-deb9-48e4-9a97-6f565949817d",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @v2ray_free_conf #2",
       "type": "vless",
       "server": "83.228.226.72",
       "server_port": 443,
