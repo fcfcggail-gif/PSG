@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgTlo=
+//profile-title: base64:UFNHIHwgSU0=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇳🇿 NZ | VLESS | @bored_vpn #1"
+        "🇮🇲 IM | VLESS | @freeconfigsplus #1",
+        "🇮🇲 IM | VLESS | @freeconfigsplus #2",
+        "🇮🇲 IM | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇳🇿 NZ | VLESS | @bored_vpn #1"
+        "🇮🇲 IM | VLESS | @freeconfigsplus #1",
+        "🇮🇲 IM | VLESS | @freeconfigsplus #2",
+        "🇮🇲 IM | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,21 +114,42 @@
       "type": "direct"
     },
     {
-      "tag": "🇳🇿 NZ | VLESS | @bored_vpn #1",
+      "tag": "🇮🇲 IM | VLESS | @freeconfigsplus #1",
       "type": "vless",
-      "server": "202.37.33.80",
-      "server_port": 443,
-      "uuid": "cc752a3e-1537-4e86-bb50-1b897bf7b33c",
+      "server": "web.subster.ir",
+      "server_port": 2053,
+      "uuid": "7dc5ed50-e32b-4a1f-b840-69db2725e767",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇮🇲 IM | VLESS | @freeconfigsplus #2",
+      "type": "vless",
+      "server": "web.subster.ir",
+      "server_port": 2083,
+      "uuid": "7dc5ed50-e32b-4a1f-b840-69db2725e767",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇮🇲 IM | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "web.subster.ir",
+      "server_port": 2053,
+      "uuid": "3ff8a900-6102-401d-a003-f65be762c1fc",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

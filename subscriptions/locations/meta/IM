@@ -23,7 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇳🇿 NZ | VLESS | @bored_vpn #1", "server": "202.37.33.80", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "cc752a3e-1537-4e86-bb50-1b897bf7b33c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇲 IM | VLESS | @freeconfigsplus #1", "server": "web.subster.ir", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "7dc5ed50-e32b-4a1f-b840-69db2725e767", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "/", "headers": {"Host": "web.subster.ir"}}}
+  - {"name": "🇮🇲 IM | VLESS | @freeconfigsplus #2", "server": "web.subster.ir", "port": 2083, "type": "vless", "skip-cert-verify": true, "uuid": "7dc5ed50-e32b-4a1f-b840-69db2725e767", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "/", "headers": {"Host": "web.subster.ir"}}}
+  - {"name": "🇮🇲 IM | VLESS | @vmesskhodam #1", "server": "web.subster.ir", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "3ff8a900-6102-401d-a003-f65be762c1fc", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇳🇿 NZ | VLESS | @bored_vpn #1'
+      - '🇮🇲 IM | VLESS | @freeconfigsplus #1'
+      - '🇮🇲 IM | VLESS | @freeconfigsplus #2'
+      - '🇮🇲 IM | VLESS | @vmesskhodam #1'
 
   - name: 🌍 Global Media
     type: select
