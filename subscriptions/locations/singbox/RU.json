@@ -92,7 +92,7 @@
         "direct",
         "🇷🇺 RU | VLESS | @megavpn_link #1",
         "🇷🇺 RU | VLESS | @v2ray_collector #1",
-        "🇷🇺 RU | VLESS | @v2ray_youtube #1"
+        "🇷🇺 RU | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,7 +102,7 @@
       "outbounds": [
         "🇷🇺 RU | VLESS | @megavpn_link #1",
         "🇷🇺 RU | VLESS | @v2ray_collector #1",
-        "🇷🇺 RU | VLESS | @v2ray_youtube #1"
+        "🇷🇺 RU | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -158,13 +158,22 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @v2ray_youtube #1",
+      "tag": "🇷🇺 RU | VLESS | @v2rayngconfiig #1",
       "type": "vless",
-      "server": "185.91.53.220",
-      "server_port": 6443,
-      "uuid": "cd26af96-638b-4d53-a264-8e0d584be772",
+      "server": "51.250.97.18",
+      "server_port": 443,
+      "uuid": "f4b907c2-4faa-46cc-a0f2-6dd6c2057bd2",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
