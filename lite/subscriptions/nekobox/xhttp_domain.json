@@ -82,9 +82,8 @@
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
-        "🇺🇸 US | VLESS | @rez1vpn #1",
-        "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
-        "🇺🇸 US | VLESS | @vmesskhodam #1"
+        "🇷🇴 RO | TROJAN | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -97,9 +96,8 @@
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
-        "🇺🇸 US | VLESS | @rez1vpn #1",
-        "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
-        "🇺🇸 US | VLESS | @vmesskhodam #1"
+        "🇷🇴 RO | TROJAN | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -203,12 +201,20 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @rez1vpn #1",
-      "type": "vless",
-      "server": "fastly.com",
-      "server_port": 80,
-      "uuid": "InternetAzadRobot",
-      "packet_encoding": "xudp"
+      "tag": "🇷🇴 RO | TROJAN | @v2ray_free_conf #1",
+      "type": "trojan",
+      "server": "hakime-kos2.karamoz2.ir",
+      "server_port": 443,
+      "password": "svmykwb2l2v8jpd6",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
@@ -226,14 +232,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "nytimes.com",
-      "server_port": 80,
-      "uuid": "da48859d-edf9-4a8c-a026-80910591f284",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

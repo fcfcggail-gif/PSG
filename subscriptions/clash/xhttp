@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇷 TR | VLESS | @turboo_server #1", "server": "37.221.79.82", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "turboo-server", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇴 RO | TROJAN | @bored_vpn #1", "server": "vip-srv-for-you.parsiclouds.ir", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "SHAMOJ3rnxb5LyMDn6CRXA"}
+  - {"name": "🇷🇴 RO | TROJAN | @v2ray_free_conf #1", "server": "hakime-kos2.karamoz2.ir", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "svmykwb2l2v8jpd6"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇷 TR | VLESS | @turboo_server #1'
+      - '🇷🇴 RO | TROJAN | @bored_vpn #1'
+      - '🇷🇴 RO | TROJAN | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select
