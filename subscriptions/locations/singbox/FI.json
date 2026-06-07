@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇮 FI | VLESS | @vmesc #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -98,6 +99,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇮 FI | VLESS | @vmesc #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -108,6 +110,28 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "91.103.140.69",
+      "server_port": 443,
+      "uuid": "b7e79518-fb32-446b-a74a-755cfbe77da0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",

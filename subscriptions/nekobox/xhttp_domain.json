@@ -84,8 +84,8 @@
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇺🇸 US | VLESS | @mehrosaboran #1",
-        "🇮🇷 IR | VLESS | @nofiltering2 #1",
         "🇺🇸 US | VLESS | @prrofile_purple #3",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇷🇺 RU | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "proxy",
@@ -101,8 +101,8 @@
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇬🇧 GB | VLESS | @komail315 #1",
         "🇺🇸 US | VLESS | @mehrosaboran #1",
-        "🇮🇷 IR | VLESS | @nofiltering2 #1",
         "🇺🇸 US | VLESS | @prrofile_purple #3",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇷🇺 RU | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "auto",
@@ -240,20 +240,29 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @nofiltering2 #1",
-      "type": "vless",
-      "server": "tun2.axenet.company",
-      "server_port": 8443,
-      "uuid": "e6d74f1f-bce5-43e3-b65a-63bb6d825764",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @prrofile_purple #3",
       "type": "vless",
       "server": "speedtest.net",
       "server_port": 80,
       "uuid": "aeeef25a-5ec2-4129-a043-2ca89357e15d",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "cfc.sororain.com",
+      "server_port": 443,
+      "uuid": "454645a8-1fe0-4588-acd6-3786dcf8355e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇷🇺 RU | VLESS | @v2rayngvpn_1 #1",

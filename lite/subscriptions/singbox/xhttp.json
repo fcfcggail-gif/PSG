@@ -107,7 +107,8 @@
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @vpnowl #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇬🇧 GB | VLESS | @komail315 #1"
+        "🇬🇧 GB | VLESS | @komail315 #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -132,7 +133,8 @@
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @vpnowl #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇬🇧 GB | VLESS | @komail315 #1"
+        "🇬🇧 GB | VLESS | @komail315 #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -415,6 +417,23 @@
       "server_port": 8880,
       "uuid": "abd432ba-c9ca-4565-e787-f354d466be4e",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "cfc.sororain.com",
+      "server_port": 443,
+      "uuid": "454645a8-1fe0-4588-acd6-3786dcf8355e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
