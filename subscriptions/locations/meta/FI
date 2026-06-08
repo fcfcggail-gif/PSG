@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇮 FI | TROJAN | @v2ray_free_conf #1", "server": "46.62.201.63", "port": 2087, "type": "trojan", "skip-cert-verify": false, "password": "SoftNetConnect"}
+  - {"name": "🇫🇮 FI | VLESS | @v2ray_free_conf #1", "server": "digital-robin.wp-toolbox.ir", "port": 1610, "type": "vless", "skip-cert-verify": true, "uuid": "64a28ed6-2238-42d9-8452-b83674f741e5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇮 FI | TROJAN | @v2ray_free_conf #1'
+      - '🇫🇮 FI | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select
