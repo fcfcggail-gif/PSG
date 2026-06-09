@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇨🇭 CH | VLESS | @rez1vpn #1",
-        "🇨🇭 CH | VLESS | @turboo_server #1"
+        "🇨🇭 CH | VLESS | @turboo_server #1",
+        "🇨🇭 CH | TROJAN | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇭 CH | VLESS | @rez1vpn #1",
-        "🇨🇭 CH | VLESS | @turboo_server #1"
+        "🇨🇭 CH | VLESS | @turboo_server #1",
+        "🇨🇭 CH | TROJAN | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -138,6 +140,22 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇨🇭 CH | TROJAN | @vmesskhodam #1",
+      "type": "trojan",
+      "server": "185.18.250.252",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }
