@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇪 AE | VLESS | @rez1vpn #1",
-        "🇦🇪 AE | VLESS | @vpnfree85 #1"
+        "🇦🇪 AE | SS | @manstervpn #1",
+        "🇦🇪 AE | VLESS | @rez1vpn #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇪 AE | VLESS | @rez1vpn #1",
-        "🇦🇪 AE | VLESS | @vpnfree85 #1"
+        "🇦🇪 AE | SS | @manstervpn #1",
+        "🇦🇪 AE | VLESS | @rez1vpn #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,6 +110,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇦🇪 AE | SS | @manstervpn #1",
+      "type": "shadowsocks",
+      "server": "3.29.198.112",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj",
+      "password": null
     },
     {
       "tag": "🇦🇪 AE | VLESS | @rez1vpn #1",
@@ -130,23 +138,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @vpnfree85 #1",
-      "type": "vless",
-      "server": "protectnet.cloudinohost.com",
-      "server_port": 443,
-      "uuid": "ea470142-10c6-4b1f-a8e6-0ddcc78a4058",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     }
