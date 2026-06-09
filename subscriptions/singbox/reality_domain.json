@@ -97,13 +97,15 @@
         "🇺🇸 US | VLESS | @netmellianti #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
         "🇨🇾 CY | VLESS | @nn_vpn #2",
+        "🇧🇾 BY | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #2",
         "🇮🇷 IR | VLESS | @v_2rayng0 #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1",
-        "🇺🇸 US | VLESS | @vmesskhodam #2"
+        "🇺🇸 US | VLESS | @vmesskhodam #2",
+        "🇫🇷 FR | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -118,13 +120,15 @@
         "🇺🇸 US | VLESS | @netmellianti #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
         "🇨🇾 CY | VLESS | @nn_vpn #2",
+        "🇧🇾 BY | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #2",
         "🇮🇷 IR | VLESS | @v_2rayng0 #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1",
-        "🇺🇸 US | VLESS | @vmesskhodam #2"
+        "🇺🇸 US | VLESS | @vmesskhodam #2",
+        "🇫🇷 FR | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -268,6 +272,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇧🇾 BY | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "rb01.bearvpn.win",
+      "server_port": 443,
+      "uuid": "9778a597-c81f-4459-9754-140b2ba8f784",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇳🇱 NL | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "nl-pro.maxg.ch",
@@ -396,6 +417,28 @@
     },
     {
       "tag": "🇺🇸 US | VLESS | @vmesskhodam #2",
+      "type": "vless",
+      "server": "de.pink-perfect.ru",
+      "server_port": 443,
+      "uuid": "5d8fcd24-9634-4dd7-845c-3dc2d6291942",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @vmesskhodam #1",
       "type": "vless",
       "server": "fr.pink-perfect.ru",
       "server_port": 443,
