@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVFI=
+//profile-title: base64:UFNHIHwgQ04=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @bored_vpn #1",
-        "🇹🇷 TR | VLESS | @v2raych #1"
+        "🇨🇳 CN | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @bored_vpn #1",
-        "🇹🇷 TR | VLESS | @v2raych #1"
+        "🇨🇳 CN | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,11 +110,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @bored_vpn #1",
+      "tag": "🇨🇳 CN | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "five.paliss.ir",
-      "server_port": 443,
-      "uuid": "2e409cdc-d0c9-4fc0-b285-9371034b8002",
+      "server": "122.8.44.3",
+      "server_port": 993,
+      "uuid": "2703cda8-5cf4-019d-c4bd-6cf0c2261946",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -125,16 +123,13 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "1.call-me-seyed.ir",
-      "server_port": 8080,
-      "uuid": "2e409cdc-d0c9-4fc0-b285-9371034b8002",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {
