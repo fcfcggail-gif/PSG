@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇲🇾 MY | VMESS | @hope_net #1", "server": "47.250.45.234", "port": 43063, "type": "vmess", "skip-cert-verify": true, "uuid": "c77f48f5-4be3-4461-b52b-49998e7b897b", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/arki?ed=2048", "headers": {"Host": "47.250.45.234"}}}
+  - {"name": "🇦🇪 AE | VLESS | @filterk0sh #1", "server": "eng14.netliberated.org", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0bb6dff2-0029-4b81-8c81-4fc70fae1ed9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇦🇪 AE | VLESS | @rez1vpn #1", "server": "185.253.116.18", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "cbc9f9be-bd9c-4a8a-8439-ec606ea4803f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇲🇾 MY | VMESS | @hope_net #1'
+      - '🇦🇪 AE | VLESS | @filterk0sh #1'
+      - '🇦🇪 AE | VLESS | @rez1vpn #1'
 
   - name: 🌍 Global Media
     type: select
