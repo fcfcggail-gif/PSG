@@ -78,7 +78,7 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @bored_vpn #1",
-        "🇹🇷 TR | VMESS | @hope_net #1"
+        "🇹🇷 TR | VLESS | @turboo_server #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +87,7 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @bored_vpn #1",
-        "🇹🇷 TR | VMESS | @hope_net #1"
+        "🇹🇷 TR | VLESS | @turboo_server #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -120,13 +120,12 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VMESS | @hope_net #1",
-      "type": "vmess",
-      "server": "45.94.169.142",
-      "server_port": 443,
-      "uuid": "824c58b1-65ba-4680-a609-663a000dbb92",
-      "security": "auto",
-      "alter_id": 0,
+      "tag": "🇹🇷 TR | VLESS | @turboo_server #1",
+      "type": "vless",
+      "server": "37.221.79.82",
+      "server_port": 8443,
+      "uuid": "turboo-server",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -134,13 +133,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/wss13889",
-        "headers": {
-          "Host": ""
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }
