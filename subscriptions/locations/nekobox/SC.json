@@ -84,14 +84,14 @@
         "🇸🇨 SC | VLESS | @father_vpn #1",
         "🇸🇨 SC | VLESS | @freevirgoolnet #1",
         "🇸🇨 SC | VLESS | @mehrosaboran #1",
+        "🇸🇨 SC | VLESS | @outline_ir #1",
         "🇸🇨 SC | VLESS | @red2ray #1",
-        "🇸🇨 SC | VLESS | @red2ray #2",
         "🇸🇨 SC | VLESS | @turboo_server #1",
-        "🇸🇨 SC | VLESS | @v2raych #1",
+        "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+        "🇸🇨 SC | VLESS | @v2ray_free_conf #2",
         "🇸🇨 SC | VLESS | @vmesskhodam #1",
         "🇸🇨 SC | VLESS | @vmesskhodam #2",
         "🇸🇨 SC | VLESS | @vmesskhodam #3",
-        "🇸🇨 SC | VLESS | @vmesskhodam #4",
         "🇸🇨 SC | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -107,14 +107,14 @@
         "🇸🇨 SC | VLESS | @father_vpn #1",
         "🇸🇨 SC | VLESS | @freevirgoolnet #1",
         "🇸🇨 SC | VLESS | @mehrosaboran #1",
+        "🇸🇨 SC | VLESS | @outline_ir #1",
         "🇸🇨 SC | VLESS | @red2ray #1",
-        "🇸🇨 SC | VLESS | @red2ray #2",
         "🇸🇨 SC | VLESS | @turboo_server #1",
-        "🇸🇨 SC | VLESS | @v2raych #1",
+        "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+        "🇸🇨 SC | VLESS | @v2ray_free_conf #2",
         "🇸🇨 SC | VLESS | @vmesskhodam #1",
         "🇸🇨 SC | VLESS | @vmesskhodam #2",
         "🇸🇨 SC | VLESS | @vmesskhodam #3",
-        "🇸🇨 SC | VLESS | @vmesskhodam #4",
         "🇸🇨 SC | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -214,20 +214,48 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @red2ray #1",
+      "tag": "🇸🇨 SC | VLESS | @outline_ir #1",
       "type": "vless",
-      "server": "45.130.125.192",
+      "server": "bypass.ch-gt-01.com",
       "server_port": 8443,
-      "uuid": "5960576d-829e-4d09-8232-0e80121a6fe4",
-      "packet_encoding": "xudp"
+      "uuid": "4fdec620-73bb-40a7-a8d5-2570a59f1832",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @red2ray #2",
+      "tag": "🇸🇨 SC | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "45.130.125.194",
+      "server": "tralalero.site",
       "server_port": 8443,
-      "uuid": "d3d046fa-d372-430a-8ed9-083d62c44efb",
-      "packet_encoding": "xudp"
+      "uuid": "85c42ce4-7789-49cb-9012-9d6d6ba16581",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇸🇨 SC | VLESS | @turboo_server #1",
@@ -238,11 +266,19 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @v2raych #1",
+      "tag": "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "45.130.125.162",
+      "server": "154.222.9.20",
       "server_port": 8443,
-      "uuid": "1435f6f7-f53c-422e-b9ba-4eef2fa8d5f9",
+      "uuid": "b80b0321-6112-4fdc-9abd-85ff5cb757f8",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "45.130.125.194",
+      "server_port": 8443,
+      "uuid": "d4eb1900-6515-494e-85c5-306bb9594f56",
       "packet_encoding": "xudp"
     },
     {
@@ -256,21 +292,13 @@
     {
       "tag": "🇸🇨 SC | VLESS | @vmesskhodam #2",
       "type": "vless",
-      "server": "45.130.125.194",
-      "server_port": 8443,
-      "uuid": "d3d046fa-d372-430a-8ed9-083d62c44efb",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @vmesskhodam #3",
-      "type": "vless",
       "server": "45.130.125.192",
       "server_port": 8443,
       "uuid": "5960576d-829e-4d09-8232-0e80121a6fe4",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @vmesskhodam #4",
+      "tag": "🇸🇨 SC | VLESS | @vmesskhodam #3",
       "type": "vless",
       "server": "45.130.125.194",
       "server_port": 8443,
