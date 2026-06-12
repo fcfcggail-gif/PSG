@@ -94,10 +94,10 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇧🇷 BR | VMESS | @Fr33C0nfig #1",
+        "🇽🇽 XX | VMESS | @hope_net #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
-        "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇫🇷 FR | VMESS | @red2ray #1"
+        "🇩🇪 DE | VMESS | @magickey_shop #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -109,10 +109,10 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇧🇷 BR | VMESS | @Fr33C0nfig #1",
+        "🇽🇽 XX | VMESS | @hope_net #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
-        "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇫🇷 FR | VMESS | @red2ray #1"
+        "🇩🇪 DE | VMESS | @magickey_shop #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -205,6 +205,22 @@
       "alter_id": 0
     },
     {
+      "tag": "🇽🇽 XX | VMESS | @hope_net #1",
+      "type": "vmess",
+      "server": "141.101.120.243",
+      "server_port": 2095,
+      "uuid": "417d27fb-cb93-3bd8-9bf7-71cd91319821",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/hgcefomn",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
       "tag": "🇩🇪 DE | VMESS | @khoneproxy #1",
       "type": "vmess",
       "server": "142.132.163.200",
@@ -256,24 +272,6 @@
       "tls": {
         "enabled": true,
         "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 FR | VMESS | @red2ray #1",
-      "type": "vmess",
-      "server": "137.74.119.18",
-      "server_port": 2053,
-      "uuid": "2f4234f9-8f33-4c7f-952f-565ffa5f5fb7",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "node-fr.connectsuite.org",
         "insecure": true,
         "utls": {
           "enabled": true,

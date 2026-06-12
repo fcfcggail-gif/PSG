@@ -89,7 +89,6 @@
         "🇮🇷 IR | VLESS | @ehsawn8 #5",
         "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇮🇷 IR | VLESS | @frev2rayng #1",
-        "🇮🇷 IR | SS | @hope_net #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #2",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
@@ -100,12 +99,15 @@
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @nofiltering2 #1",
         "🇮🇷 IR | VLESS | @nofiltering2 #2",
+        "🇮🇷 IR | VLESS | @parsashonam #1",
         "🇮🇷 IR | VLESS | @v2ang #1",
         "🇮🇷 IR | VLESS | @v2ang #2",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | SS | @v2rayng3 #1",
         "🇮🇷 IR | VLESS | @v2rayngalpha #1",
-        "🇮🇷 IR | VLESS | @v_2rayng0 #1"
+        "🇮🇷 IR | VLESS | @v_2rayng0 #1",
+        "🇮🇷 IR | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -125,7 +127,6 @@
         "🇮🇷 IR | VLESS | @ehsawn8 #5",
         "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇮🇷 IR | VLESS | @frev2rayng #1",
-        "🇮🇷 IR | SS | @hope_net #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #2",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
@@ -136,12 +137,15 @@
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @nofiltering2 #1",
         "🇮🇷 IR | VLESS | @nofiltering2 #2",
+        "🇮🇷 IR | VLESS | @parsashonam #1",
         "🇮🇷 IR | VLESS | @v2ang #1",
         "🇮🇷 IR | VLESS | @v2ang #2",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | SS | @v2rayng3 #1",
         "🇮🇷 IR | VLESS | @v2rayngalpha #1",
-        "🇮🇷 IR | VLESS | @v_2rayng0 #1"
+        "🇮🇷 IR | VLESS | @v_2rayng0 #1",
+        "🇮🇷 IR | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -288,14 +292,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | SS | @hope_net #1",
-      "type": "shadowsocks",
-      "server": "103.130.147.40",
-      "server_port": 1122,
-      "method": "YWVzLTI1Ni1nY206d2MvZXFSUHJZam54ZkFKMkpLbmlvN2NHMktvOUs5RGlNd3pvblJqVTNMST0=",
-      "password": null
-    },
-    {
       "tag": "🇮🇷 IR | VMESS | @khoneproxy #1",
       "type": "vmess",
       "server": "37.32.23.122",
@@ -421,6 +417,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇮🇷 IR | VLESS | @parsashonam #1",
+      "type": "vless",
+      "server": "185.116.162.12",
+      "server_port": 443,
+      "uuid": "Telegram-Parsashonam-11",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @v2ang #1",
       "type": "vless",
       "server": "193.151.141.36",
@@ -434,6 +447,14 @@
       "server": "::ffff:c197:8d24",
       "server_port": 2026,
       "uuid": "c9c416ed-8a72-4572-8bd6-12292dee8dfd",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "netherland.soft26.ir",
+      "server_port": 8443,
+      "uuid": "d39664df-5bc0-4f49-9894-8f03b4150082",
       "packet_encoding": "xudp"
     },
     {
@@ -481,6 +502,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "snapp.ir",
+      "server_port": 2087,
+      "uuid": "c8fc1f9f-f06d-49f5-ec3e-7f6b37dd30d5",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
