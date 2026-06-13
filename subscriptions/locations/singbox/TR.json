@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @bored_vpn #1",
-        "🇹🇷 TR | VLESS | @turboo_server #1"
+        "🇹🇷 TR | VLESS | @turboo_server #1",
+        "🇹🇷 TR | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @bored_vpn #1",
-        "🇹🇷 TR | VLESS | @turboo_server #1"
+        "🇹🇷 TR | VLESS | @turboo_server #1",
+        "🇹🇷 TR | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -149,6 +151,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇹🇷 TR | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "62.133.63.169",
+      "server_port": 37096,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpLUDZGUVZtSmhsWFBndlBocncyZ25J",
+      "password": null
     }
   ],
   "route": {
