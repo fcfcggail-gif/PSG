@@ -94,7 +94,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇧🇷 BR | VMESS | @Fr33C0nfig #1",
-        "🇭🇰 HK | VMESS | @hope_net #1",
+        "🇽🇽 XX | VMESS | @hope_net #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
@@ -121,7 +121,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇧🇷 BR | VMESS | @Fr33C0nfig #1",
-        "🇭🇰 HK | VMESS | @hope_net #1",
+        "🇽🇽 XX | VMESS | @hope_net #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
@@ -229,16 +229,25 @@
       "alter_id": 0
     },
     {
-      "tag": "🇭🇰 HK | VMESS | @hope_net #1",
+      "tag": "🇽🇽 XX | VMESS | @hope_net #1",
       "type": "vmess",
-      "server": "154.92.9.212",
-      "server_port": 80,
-      "uuid": "dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3",
+      "server": "104.31.16.58",
+      "server_port": 443,
+      "uuid": "F591CE71-33F8-4B12-824A-0167FA839ED9",
       "security": "auto",
       "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
         "type": "ws",
-        "path": "/blue",
+        "path": "/speedtest",
         "headers": {
           "Host": ""
         }
