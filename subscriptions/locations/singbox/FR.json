@@ -90,7 +90,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | TROJAN | @privatevpns #1",
@@ -99,6 +98,7 @@
         "🇫🇷 FR | VLESS | @v2rayprotocol #1",
         "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1",
         "🇫🇷 FR | TROJAN | @v2rayvpnchannel #2",
+        "🇫🇷 FR | VLESS | @v_2rayng0 #1",
         "🇫🇷 FR | VLESS | @vlessconfig #1",
         "🇫🇷 FR | VLESS | @vlessconfig #2",
         "🇫🇷 FR | SS | @vpn_ioss #1"
@@ -109,7 +109,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | TROJAN | @privatevpns #1",
@@ -118,6 +117,7 @@
         "🇫🇷 FR | VLESS | @v2rayprotocol #1",
         "🇫🇷 FR | TROJAN | @v2rayvpnchannel #1",
         "🇫🇷 FR | TROJAN | @v2rayvpnchannel #2",
+        "🇫🇷 FR | VLESS | @v_2rayng0 #1",
         "🇫🇷 FR | VLESS | @vlessconfig #1",
         "🇫🇷 FR | VLESS | @vlessconfig #2",
         "🇫🇷 FR | SS | @vpn_ioss #1"
@@ -130,14 +130,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @merdesert #1",
-      "type": "vless",
-      "server": "51.75.30.8",
-      "server_port": 80,
-      "uuid": "1949f066-bcb0-49be-88e9-74abd940f80e",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇷 FR | VLESS | @minovpnch #1",
@@ -252,6 +244,23 @@
       "server": "51.45.49.57",
       "server_port": 22223,
       "password": "telegram-id-v2rayvpnchannel",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @v_2rayng0 #1",
+      "type": "vless",
+      "server": "79.127.196.11",
+      "server_port": 8443,
+      "uuid": "55f7d143-a594-4a91-b030-f227039f85ef",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
