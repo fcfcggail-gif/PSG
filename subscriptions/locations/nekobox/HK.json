@@ -78,7 +78,7 @@
         "auto",
         "direct",
         "🇭🇰 HK | VMESS | @freev2rays #1",
-        "🇭🇰 HK | VMESS | @hope_net #1"
+        "🇭🇰 HK | TROJAN | @hope_net #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +87,7 @@
       "interval": "10m",
       "outbounds": [
         "🇭🇰 HK | VMESS | @freev2rays #1",
-        "🇭🇰 HK | VMESS | @hope_net #1"
+        "🇭🇰 HK | TROJAN | @hope_net #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -128,20 +128,11 @@
       }
     },
     {
-      "tag": "🇭🇰 HK | VMESS | @hope_net #1",
-      "type": "vmess",
-      "server": "154.92.9.212",
-      "server_port": 80,
-      "uuid": "dd41b5cb-b72e-4a8c-c75a-3ecc928d6eb3",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/blue",
-        "headers": {
-          "Host": ""
-        }
-      }
+      "tag": "🇭🇰 HK | TROJAN | @hope_net #1",
+      "type": "trojan",
+      "server": "45.38.42.198",
+      "server_port": 2053,
+      "password": "eeb6823c-b926-4ea2-866a-5542edd26e59"
     }
   ],
   "route": {
