@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇰🇷 KR | SS | @netfreedom0 #1"
+        "🇰🇷 KR | SS | @netfreedom0 #1",
+        "🇰🇷 KR | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇰🇷 KR | SS | @netfreedom0 #1"
+        "🇰🇷 KR | SS | @netfreedom0 #1",
+        "🇰🇷 KR | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -107,6 +109,23 @@
       "server_port": 13979,
       "method": "YWVzLTI1Ni1jZmI6cXdlclJFV1FAQA==",
       "password": null
+    },
+    {
+      "tag": "🇰🇷 KR | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "47.80.60.254",
+      "server_port": 443,
+      "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
