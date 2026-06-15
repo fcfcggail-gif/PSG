@@ -90,7 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇿 CZ | VMESS | @freev2rays #1"
+        "🇨🇿 CZ | VLESS | @free1_vpn #1",
+        "🇨🇿 CZ | VMESS | @freev2rays #1",
+        "🇨🇿 CZ | TROJAN | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇿 CZ | VMESS | @freev2rays #1"
+        "🇨🇿 CZ | VLESS | @free1_vpn #1",
+        "🇨🇿 CZ | VMESS | @freev2rays #1",
+        "🇨🇿 CZ | TROJAN | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -108,6 +112,28 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇨🇿 CZ | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "de.srv.anti-zapret.com",
+      "server_port": 443,
+      "uuid": "8d1803b9-f9ff-4c09-a6d0-aceb98c4a019",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇨🇿 CZ | VMESS | @freev2rays #1",
@@ -131,6 +157,22 @@
         "path": "/",
         "headers": {
           "Host": "shs111.kejixiaoqi666.store"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇿 CZ | TROJAN | @vmesskhodam #1",
+      "type": "trojan",
+      "server": "46.8.113.142",
+      "server_port": 443,
+      "password": "LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }
