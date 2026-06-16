@@ -86,16 +86,18 @@
         "🇱🇻 LV | VLESS | @megavpn_link #1",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
-        "🇸🇨 SC | VLESS | @red2ray #1",
         "🇮🇱 IL | VLESS | @v2aryng_vpn #1",
         "🇸🇨 SC | VLESS | @v2ray1_ng #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
+        "🇳🇱 NL | VLESS | @v2raying #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇦🇪 AE | VLESS | @filterk0sh #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
-        "🇮🇷 IR | VLESS | @v_2rayng0 #1"
+        "🇨🇭 CH | VLESS | @v2raych #1",
+        "🇮🇷 IR | VLESS | @v_2rayng0 #1",
+        "🇩🇪 DE | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -112,16 +114,18 @@
         "🇱🇻 LV | VLESS | @megavpn_link #1",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
-        "🇸🇨 SC | VLESS | @red2ray #1",
         "🇮🇱 IL | VLESS | @v2aryng_vpn #1",
         "🇸🇨 SC | VLESS | @v2ray1_ng #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
+        "🇳🇱 NL | VLESS | @v2raying #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇦🇪 AE | VLESS | @filterk0sh #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
-        "🇮🇷 IR | VLESS | @v_2rayng0 #1"
+        "🇨🇭 CH | VLESS | @v2raych #1",
+        "🇮🇷 IR | VLESS | @v_2rayng0 #1",
+        "🇩🇪 DE | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -326,28 +330,6 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "45.196.224.110",
-      "server_port": 8443,
-      "uuid": "ad7b2fde-d820-4dfe-be66-09fde32ddf61",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇮🇱 IL | VLESS | @v2aryng_vpn #1",
       "type": "vless",
       "server": "193.203.10.86",
@@ -436,6 +418,28 @@
       }
     },
     {
+      "tag": "🇳🇱 NL | VLESS | @v2raying #1",
+      "type": "vless",
+      "server": "109.205.63.187",
+      "server_port": 443,
+      "uuid": "89dd47b1-5677-44e6-85fc-7e52d4a2addc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @vipv2rey #1",
       "type": "vless",
       "server": "49.13.135.58",
@@ -505,11 +509,41 @@
       }
     },
     {
+      "tag": "🇨🇭 CH | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "germany-vip.soft26.ir",
+      "server_port": 8443,
+      "uuid": "d39664df-5bc0-4f49-9894-8f03b4150082",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @v_2rayng0 #1",
       "type": "vless",
       "server": "wp14.virgool.best",
       "server_port": 55014,
       "uuid": "b01631fa-502b-497f-b8ed-2fda669667ad",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "grns1.ravenlo.ir",
+      "server_port": 7005,
+      "uuid": "dde00f06-f3bb-42d7-b78b-942c072bce0f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
