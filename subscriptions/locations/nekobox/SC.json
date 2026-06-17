@@ -95,10 +95,8 @@
         "🇸🇨 SC | VLESS | @v2ray1_ng #1",
         "🇸🇨 SC | TROJAN | @v2rayopen #1",
         "🇸🇨 SC | VLESS | @v2rayopen #1",
-        "🇸🇨 SC | VLESS | @vmesskhodam #1",
-        "🇸🇨 SC | VLESS | @vmesskhodam #2",
-        "🇸🇨 SC | VLESS | @vmesskhodam #3",
-        "🇸🇨 SC | TROJAN | @vpn_ioss #1"
+        "🇸🇨 SC | TROJAN | @vpn_ioss #1",
+        "🇸🇨 SC | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -124,10 +122,8 @@
         "🇸🇨 SC | VLESS | @v2ray1_ng #1",
         "🇸🇨 SC | TROJAN | @v2rayopen #1",
         "🇸🇨 SC | VLESS | @v2rayopen #1",
-        "🇸🇨 SC | VLESS | @vmesskhodam #1",
-        "🇸🇨 SC | VLESS | @vmesskhodam #2",
-        "🇸🇨 SC | VLESS | @vmesskhodam #3",
-        "🇸🇨 SC | TROJAN | @vpn_ioss #1"
+        "🇸🇨 SC | TROJAN | @vpn_ioss #1",
+        "🇸🇨 SC | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -417,12 +413,11 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "45.205.0.55",
+      "tag": "🇸🇨 SC | TROJAN | @vpn_ioss #1",
+      "type": "trojan",
+      "server": "45.130.125.158",
       "server_port": 443,
-      "uuid": "44f7eb71-de22-4a9c-8d5a-64fb7115c82f",
-      "packet_encoding": "xudp",
+      "password": "humanity",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -434,28 +429,11 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @vmesskhodam #2",
+      "tag": "🇸🇨 SC | VLESS | @vpn_ioss #1",
       "type": "vless",
-      "server": "45.205.0.58",
-      "server_port": 443,
-      "uuid": "44f7eb71-de22-4a9c-8d5a-64fb7115c82f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @vmesskhodam #3",
-      "type": "vless",
-      "server": "45.198.87.43",
+      "server": "uk-gthost-01.com",
       "server_port": 8443,
-      "uuid": "d91397a6-aa9c-4ce3-903e-81c50e14fdaf",
+      "uuid": "4d606920-62d7-4d28-a5c4-f8a70fe56aaa",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -469,22 +447,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇸🇨 SC | TROJAN | @vpn_ioss #1",
-      "type": "trojan",
-      "server": "45.130.125.158",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     }
