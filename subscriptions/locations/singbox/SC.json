@@ -112,8 +112,11 @@
         "🇸🇨 SC | VLESS | @turboo_server #1",
         "🇸🇨 SC | VLESS | @v2ray1_ng #1",
         "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+        "🇸🇨 SC | VLESS | @v2raych #1",
         "🇸🇨 SC | TROJAN | @v2rayopen #1",
-        "🇸🇨 SC | TROJAN | @vpn_ioss #1"
+        "🇸🇨 SC | VLESS | @v2rayopen #1",
+        "🇸🇨 SC | TROJAN | @vpn_ioss #1",
+        "🇸🇨 SC | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -143,8 +146,11 @@
         "🇸🇨 SC | VLESS | @turboo_server #1",
         "🇸🇨 SC | VLESS | @v2ray1_ng #1",
         "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+        "🇸🇨 SC | VLESS | @v2raych #1",
         "🇸🇨 SC | TROJAN | @v2rayopen #1",
-        "🇸🇨 SC | TROJAN | @vpn_ioss #1"
+        "🇸🇨 SC | VLESS | @v2rayopen #1",
+        "🇸🇨 SC | TROJAN | @vpn_ioss #1",
+        "🇸🇨 SC | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -439,9 +445,26 @@
     {
       "tag": "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "45.130.125.158",
+      "server": "45.130.125.160",
       "server_port": 443,
-      "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
+      "uuid": "536d0d54-53a5-455a-ad7c-a525d8ff629f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "45.205.0.55",
+      "server_port": 443,
+      "uuid": "44f7eb71-de22-4a9c-8d5a-64fb7115c82f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -470,6 +493,23 @@
       }
     },
     {
+      "tag": "🇸🇨 SC | VLESS | @v2rayopen #1",
+      "type": "vless",
+      "server": "45.130.125.158",
+      "server_port": 443,
+      "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇸🇨 SC | TROJAN | @vpn_ioss #1",
       "type": "trojan",
       "server": "45.130.125.158",
@@ -482,6 +522,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "uk-gthost-01.com",
+      "server_port": 8443,
+      "uuid": "4d606920-62d7-4d28-a5c4-f8a70fe56aaa",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }
