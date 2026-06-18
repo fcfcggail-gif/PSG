@@ -9,13 +9,18 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇫🇷 FR | TROJAN | @privatevpns #1 = trojan, 15.188.249.44, 22222, password = telegram-id-privatevpns, skip-cert-verify = true
+🇫🇷 FR | TROJAN | @privatevpns #1 = trojan, 13.39.52.139, 22222, password = telegram-id-privatevpns, skip-cert-verify = true
+🇫🇷 FR | TROJAN | @privatevpns #2 = trojan, 15.188.249.44, 22222, password = telegram-id-privatevpns, skip-cert-verify = true
+🇫🇷 FR | TROJAN | @v2raych #1 = trojan, 13.39.52.139, 22223, password = telegram-id-directvpn, skip-cert-verify = true
+🇫🇷 FR | TROJAN | @v2raych #2 = trojan, 15.188.249.44, 22223, password = telegram-id-directvpn, skip-cert-verify = true
+🇫🇷 FR | VMESS | @v2raych #1 = vmess, 57.128.189.227, 443, username = 03fcc618-b93d-6796-6aed-8a38c975d581, ws = true, tls = true, ws-path = /linkvws, ws-headers = Host:"57.128.189.227"
 🇫🇷 FR | TROJAN | @v2rayvpnchannel #1 = trojan, 13.39.52.139, 22223, password = telegram-id-v2rayvpnchannel, skip-cert-verify = true
+🇫🇷 FR | TROJAN | @v2rayvpnchannel #2 = trojan, 15.188.249.44, 22223, password = telegram-id-v2rayvpnchannel, skip-cert-verify = true
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇫🇷 FR | TROJAN | @privatevpns #1, 🇫🇷 FR | TROJAN | @v2rayvpnchannel #1
-PSG-AUTO = url-test, 🇫🇷 FR | TROJAN | @privatevpns #1, 🇫🇷 FR | TROJAN | @v2rayvpnchannel #1
-PSG-FALLBACK = fallback, 🇫🇷 FR | TROJAN | @privatevpns #1, 🇫🇷 FR | TROJAN | @v2rayvpnchannel #1
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇫🇷 FR | TROJAN | @privatevpns #1, 🇫🇷 FR | TROJAN | @privatevpns #2, 🇫🇷 FR | TROJAN | @v2raych #1, 🇫🇷 FR | TROJAN | @v2raych #2, 🇫🇷 FR | VMESS | @v2raych #1, 🇫🇷 FR | TROJAN | @v2rayvpnchannel #1, 🇫🇷 FR | TROJAN | @v2rayvpnchannel #2
+PSG-AUTO = url-test, 🇫🇷 FR | TROJAN | @privatevpns #1, 🇫🇷 FR | TROJAN | @privatevpns #2, 🇫🇷 FR | TROJAN | @v2raych #1, 🇫🇷 FR | TROJAN | @v2raych #2, 🇫🇷 FR | VMESS | @v2raych #1, 🇫🇷 FR | TROJAN | @v2rayvpnchannel #1, 🇫🇷 FR | TROJAN | @v2rayvpnchannel #2
+PSG-FALLBACK = fallback, 🇫🇷 FR | TROJAN | @privatevpns #1, 🇫🇷 FR | TROJAN | @privatevpns #2, 🇫🇷 FR | TROJAN | @v2raych #1, 🇫🇷 FR | TROJAN | @v2raych #2, 🇫🇷 FR | VMESS | @v2raych #1, 🇫🇷 FR | TROJAN | @v2rayvpnchannel #1, 🇫🇷 FR | TROJAN | @v2rayvpnchannel #2
 
 [Rule]
 GEOIP,IR,DIRECT
