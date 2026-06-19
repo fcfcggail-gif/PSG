@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @father_vpn #1",
-        "🇹🇷 TR | VLESS | @vmesskhodam #1"
+        "🇹🇷 TR | VLESS | @netmellianti #1",
+        "🇹🇷 TR | VLESS | @netmellianti #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @father_vpn #1",
-        "🇹🇷 TR | VLESS | @vmesskhodam #1"
+        "🇹🇷 TR | VLESS | @netmellianti #1",
+        "🇹🇷 TR | VLESS | @netmellianti #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,20 +112,48 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @father_vpn #1",
+      "tag": "🇹🇷 TR | VLESS | @netmellianti #1",
       "type": "vless",
-      "server": "6.call-me-seyed.ir",
-      "server_port": 2052,
-      "uuid": "2e409cdc-d0c9-4fc0-b285-9371034b8002",
-      "packet_encoding": "xudp"
+      "server": "turk.nomac.ir",
+      "server_port": 8443,
+      "uuid": "19af3d13-4a9a-41da-8501-efffc6ec317b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @vmesskhodam #1",
+      "tag": "🇹🇷 TR | VLESS | @netmellianti #2",
       "type": "vless",
-      "server": "netnab2.dgrozz.ir",
-      "server_port": 48405,
-      "uuid": "57c7030e-d72b-4e8d-bc5b-8bc534763128",
-      "packet_encoding": "xudp"
+      "server": "91.216.104.45",
+      "server_port": 8443,
+      "uuid": "7698de4e-2882-4fee-967b-8db030ced1dc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
