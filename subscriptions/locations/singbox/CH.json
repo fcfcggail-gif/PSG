@@ -90,9 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇭 CH | VLESS | @free1_vpn #1",
         "🇨🇭 CH | VLESS | @hope_net #1",
-        "🇨🇭 CH | VLESS | @rez1vpn #1"
+        "🇨🇭 CH | VLESS | @rez1vpn #1",
+        "🇨🇭 CH | TROJAN | @vpnv2raytop #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇭 CH | VLESS | @free1_vpn #1",
         "🇨🇭 CH | VLESS | @hope_net #1",
-        "🇨🇭 CH | VLESS | @rez1vpn #1"
+        "🇨🇭 CH | VLESS | @rez1vpn #1",
+        "🇨🇭 CH | TROJAN | @vpnv2raytop #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,28 +112,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇨🇭 CH | VLESS | @free1_vpn #1",
-      "type": "vless",
-      "server": "www.sibzam-poshak.ir",
-      "server_port": 2082,
-      "uuid": "252e7311-477b-4713-96ec-30ee8bb5f694",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇨🇭 CH | VLESS | @hope_net #1",
@@ -159,6 +137,22 @@
       "server_port": 443,
       "uuid": "f77299ea-e13d-417d-8cdc-ce5566dfc94b",
       "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇭 CH | TROJAN | @vpnv2raytop #1",
+      "type": "trojan",
+      "server": "195.15.253.91",
+      "server_port": 443,
+      "password": "Masir_Sefid",
       "tls": {
         "enabled": true,
         "server_name": "",
