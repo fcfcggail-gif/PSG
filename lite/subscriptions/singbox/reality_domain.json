@@ -96,8 +96,8 @@
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇹🇷 TR | VLESS | @netmellianti #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
-        "🇩🇪 DE | VLESS | @outline_ir #1",
-        "🇳🇱 NL | VLESS | @v2ray_youtube #1"
+        "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+        "🇩🇪 DE | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -111,8 +111,8 @@
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇹🇷 TR | VLESS | @netmellianti #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
-        "🇩🇪 DE | VLESS | @outline_ir #1",
-        "🇳🇱 NL | VLESS | @v2ray_youtube #1"
+        "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+        "🇩🇪 DE | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -248,28 +248,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @outline_ir #1",
-      "type": "vless",
-      "server": "abrservicetaban.ir",
-      "server_port": 8443,
-      "uuid": "2d5cb213-27f8-469c-a72f-3d56d2788e3d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "nl-pro.maxg.ch",
@@ -283,6 +261,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "de.ipsenter.org",
+      "server_port": 443,
+      "uuid": "c381ed79-f3c9-4028-85ae-687795d89ece",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }
