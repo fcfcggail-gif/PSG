@@ -82,7 +82,7 @@
         "KingRezaPahlavi",
         "🇽🇽 XX | VLESS | @flyv2ray #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇺🇸 US | VLESS | @outline_ir #1"
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -95,7 +95,7 @@
         "KingRezaPahlavi",
         "🇽🇽 XX | VLESS | @flyv2ray #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇺🇸 US | VLESS | @outline_ir #1"
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -208,12 +208,21 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @outline_ir #1",
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "mci.connectingissues.ir",
-      "server_port": 80,
-      "uuid": "8937c203-8ec6-477f-830b-939992cba4eb",
-      "packet_encoding": "xudp"
+      "server": "xn-ip1.dbssl.ir",
+      "server_port": 443,
+      "uuid": "216c57fd-302f-4c67-a6ac-eb4b7dc70b2b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
