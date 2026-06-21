@@ -107,6 +107,7 @@
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇸🇨 SC | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
+        "🇷🇴 RO | VLESS | @red2ray #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
@@ -116,9 +117,9 @@
         "🇽🇽 XX | VLESS | @flyv2ray #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇬🇧 GB | VLESS | @v2aryng_vpn #1",
-        "🇺🇸 US | VLESS | @v2raych #1",
-        "🇽🇽 XX | VLESS | @vmesskhodam #4",
-        "🇽🇽 XX | VLESS | @vmesskhodam #5"
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @vmesskhodam #1",
+        "🇽🇽 XX | VLESS | @vmesskhodam #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -143,6 +144,7 @@
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇸🇨 SC | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
+        "🇷🇴 RO | VLESS | @red2ray #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
@@ -152,9 +154,9 @@
         "🇽🇽 XX | VLESS | @flyv2ray #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇬🇧 GB | VLESS | @v2aryng_vpn #1",
-        "🇺🇸 US | VLESS | @v2raych #1",
-        "🇽🇽 XX | VLESS | @vmesskhodam #4",
-        "🇽🇽 XX | VLESS | @vmesskhodam #5"
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @vmesskhodam #1",
+        "🇽🇽 XX | VLESS | @vmesskhodam #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -422,6 +424,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇷🇴 RO | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "45.85.119.181",
+      "server_port": 2053,
+      "uuid": "2cad0994-46ed-44e6-8cab-48004e540445",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇸🇨 SC | VLESS | @turboo_server #1",
       "type": "vless",
       "server": "45.130.125.76",
@@ -539,15 +549,24 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2raych #1",
+      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "mci.connectingissues.ir",
-      "server_port": 80,
-      "uuid": "53146906-5cb5-4332-ac19-d4822762b1cd",
-      "packet_encoding": "xudp"
+      "server": "amin.sylixteam.ir",
+      "server_port": 443,
+      "uuid": "f78e60da-32b7-4867-aeef-8bed337901a2",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @vmesskhodam #4",
+      "tag": "🇽🇽 XX | VLESS | @vmesskhodam #1",
       "type": "vless",
       "server": "www.speedtest.net",
       "server_port": 8880,
@@ -555,7 +574,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @vmesskhodam #5",
+      "tag": "🇽🇽 XX | VLESS | @vmesskhodam #2",
       "type": "vless",
       "server": "www.speedtest.net",
       "server_port": 8880,
