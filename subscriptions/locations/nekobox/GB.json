@@ -78,12 +78,12 @@
         "auto",
         "direct",
         "🇬🇧 GB | SS | @bored_vpn #1",
-        "🇬🇧 GB | SS | @bored_vpn #2",
+        "🇬🇧 GB | VLESS | @bored_vpn #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @free4allvpn #2",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @netfreedom0 #2",
-        "🇬🇧 GB | VLESS | @outline_ir #1",
+        "🇬🇧 GB | SS | @torang_vpn #1",
         "🇬🇧 GB | VLESS | @v2aryng_vpn #1",
         "🇬🇧 GB | SS | @v2rayng3 #1",
         "🇬🇧 GB | SS | @v2rayprotocol #1",
@@ -97,12 +97,12 @@
       "interval": "10m",
       "outbounds": [
         "🇬🇧 GB | SS | @bored_vpn #1",
-        "🇬🇧 GB | SS | @bored_vpn #2",
+        "🇬🇧 GB | VLESS | @bored_vpn #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @free4allvpn #2",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @netfreedom0 #2",
-        "🇬🇧 GB | VLESS | @outline_ir #1",
+        "🇬🇧 GB | SS | @torang_vpn #1",
         "🇬🇧 GB | VLESS | @v2aryng_vpn #1",
         "🇬🇧 GB | SS | @v2rayng3 #1",
         "🇬🇧 GB | SS | @v2rayprotocol #1",
@@ -125,18 +125,32 @@
     {
       "tag": "🇬🇧 GB | SS | @bored_vpn #1",
       "type": "shadowsocks",
-      "server": "series-a1.samanehha.co",
+      "server": "series-a2.samanehha.co",
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | SS | @bored_vpn #2",
-      "type": "shadowsocks",
-      "server": "series-a2.samanehha.co",
+      "tag": "🇬🇧 GB | VLESS | @bored_vpn #1",
+      "type": "vless",
+      "server": "all27.allenshop100.ir",
       "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
-      "password": null
+      "uuid": "9cda451e-0adf-4df1-a5b4-7fec8f363c10",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇬🇧 GB | SS | @free4allvpn #1",
@@ -171,26 +185,12 @@
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @outline_ir #1",
-      "type": "vless",
-      "server": "all44.allenshop100.ir",
+      "tag": "🇬🇧 GB | SS | @torang_vpn #1",
+      "type": "shadowsocks",
+      "server": "series-a1.samanehha.co",
       "server_port": 443,
-      "uuid": "9cda451e-0adf-4df1-a5b4-7fec8f363c10",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
+      "password": null
     },
     {
       "tag": "🇬🇧 GB | VLESS | @v2aryng_vpn #1",

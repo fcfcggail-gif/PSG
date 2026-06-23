@@ -87,7 +87,7 @@
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇮🇷 IR | VLESS | @red2ray #1",
         "🇬🇧 GB | VLESS | @v2aryng_vpn #1",
-        "🇽🇽 XX | VLESS | @v2raych #3",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #3",
         "🇽🇽 XX | VLESS | @vmesskhodam #3",
         "🇽🇽 XX | VLESS | @vmesskhodam #4"
       ],
@@ -107,7 +107,7 @@
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇮🇷 IR | VLESS | @red2ray #1",
         "🇬🇧 GB | VLESS | @v2aryng_vpn #1",
-        "🇽🇽 XX | VLESS | @v2raych #3",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #3",
         "🇽🇽 XX | VLESS | @vmesskhodam #3",
         "🇽🇽 XX | VLESS | @vmesskhodam #4"
       ],
@@ -262,12 +262,21 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @v2raych #3",
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #3",
       "type": "vless",
-      "server": "x7.sorix-home.ir",
-      "server_port": 2087,
-      "uuid": "545322c5-dba4-4fd4-a8c1-b29db989251e",
-      "packet_encoding": "xudp"
+      "server": "ipw.ygdfw.com",
+      "server_port": 443,
+      "uuid": "bbab81f3-87a0-4e63-8b3b-010c645d8da7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @vmesskhodam #3",
