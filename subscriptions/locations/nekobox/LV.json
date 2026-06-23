@@ -77,9 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇻 LV | VLESS | @megavpn_link #1",
-        "🇱🇻 LV | VLESS | @v2ray_free_conf #1",
-        "🇱🇻 LV | VLESS | @v2raych #1"
+        "🇱🇻 LV | VLESS | @free1_vpn #1",
+        "🇱🇻 LV | VLESS | @megavpn_link #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇻 LV | VLESS | @megavpn_link #1",
-        "🇱🇻 LV | VLESS | @v2ray_free_conf #1",
-        "🇱🇻 LV | VLESS | @v2raych #1"
+        "🇱🇻 LV | VLESS | @free1_vpn #1",
+        "🇱🇻 LV | VLESS | @megavpn_link #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,6 +101,28 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇱🇻 LV | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "95.182.80.48",
+      "server_port": 15370,
+      "uuid": "8e13e299-1bbf-46da-a297-8ee19fe4c914",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇱🇻 LV | VLESS | @megavpn_link #1",
@@ -125,36 +145,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇱🇻 LV | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "lv.faygo.bot",
-      "server_port": 443,
-      "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇱🇻 LV | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "xn-riga.easyodin.ir",
-      "server_port": 80,
-      "uuid": "1f762bc9-f5a4-4906-9b27-a51dc5c1f870",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {
