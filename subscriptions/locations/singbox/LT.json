@@ -91,6 +91,7 @@
         "auto",
         "direct",
         "🇱🇹 LT | VLESS | @v2ray_collector #1",
+        "🇱🇹 LT | TROJAN | @v2raych #1",
         "🇱🇹 LT | VLESS | @v2raymelliii #1",
         "🇱🇹 LT | VLESS | @v_2rayng0 #1"
       ],
@@ -101,6 +102,7 @@
       "interval": "10m",
       "outbounds": [
         "🇱🇹 LT | VLESS | @v2ray_collector #1",
+        "🇱🇹 LT | TROJAN | @v2raych #1",
         "🇱🇹 LT | VLESS | @v2raymelliii #1",
         "🇱🇹 LT | VLESS | @v_2rayng0 #1"
       ],
@@ -120,6 +122,22 @@
       "server_port": 443,
       "uuid": "401374e6-df77-41fb-f638-dad8184f175b",
       "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇱🇹 LT | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "89.116.180.49",
+      "server_port": 443,
+      "password": "MiTiVPN",
       "tls": {
         "enabled": true,
         "server_name": "",
