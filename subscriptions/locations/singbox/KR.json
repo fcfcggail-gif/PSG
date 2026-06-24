@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSEs=
+//profile-title: base64:UFNHIHwgS1I=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | VMESS | @freev2rays #1"
+        "🇰🇷 KR | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | VMESS | @freev2rays #1"
+        "🇰🇷 KR | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,27 +110,19 @@
       "type": "direct"
     },
     {
-      "tag": "🇭🇰 HK | VMESS | @freev2rays #1",
-      "type": "vmess",
-      "server": "hk2.lrzdx.uk",
+      "tag": "🇰🇷 KR | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "47.80.60.254",
       "server_port": 443,
-      "uuid": "db69d5bc-d36c-4903-f471-74b98c5cefe5",
-      "security": "auto",
-      "alter_id": 0,
+      "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "hk2.lrzdx.uk",
+        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/register",
-        "headers": {
-          "Host": ""
         }
       }
     }
