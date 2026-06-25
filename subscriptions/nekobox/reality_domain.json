@@ -86,11 +86,11 @@
         "🇨🇾 CY | VLESS | @nn_vpn #1",
         "🇨🇾 CY | VLESS | @nn_vpn #2",
         "🇳🇱 NL | VLESS | @outline_ir #1",
+        "🇱🇹 LT | VLESS | @red2ray #1",
         "🇬🇧 GB | VLESS | @rez1vpn #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇩🇪 DE | VLESS | @vmesc #1",
         "🇫🇷 FR | VLESS | @vpn_ioss #1",
-        "🇺🇸 US | VLESS | @vpn_ioss #1",
         "🇩🇪 DE | VLESS | @vpnowl #1"
       ],
       "tag": "proxy",
@@ -108,11 +108,11 @@
         "🇨🇾 CY | VLESS | @nn_vpn #1",
         "🇨🇾 CY | VLESS | @nn_vpn #2",
         "🇳🇱 NL | VLESS | @outline_ir #1",
+        "🇱🇹 LT | VLESS | @red2ray #1",
         "🇬🇧 GB | VLESS | @rez1vpn #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇩🇪 DE | VLESS | @vmesc #1",
         "🇫🇷 FR | VLESS | @vpn_ioss #1",
-        "🇺🇸 US | VLESS | @vpn_ioss #1",
         "🇩🇪 DE | VLESS | @vpnowl #1"
       ],
       "tag": "auto",
@@ -277,6 +277,28 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇱🇹 LT | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "lt-cherry-01.com",
+      "server_port": 8443,
+      "uuid": "3e7cede4-721a-4807-b0a2-5fe6586af907",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇬🇧 GB | VLESS | @rez1vpn #1",
       "type": "vless",
       "server": "cdn-prouk.plusmusical2.ir",
@@ -348,28 +370,6 @@
       "server": "greb.loralden.com",
       "server_port": 443,
       "uuid": "2065a8c9-8b3d-4dba-b0ce-90d649aa3da7",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @vpn_ioss #1",
-      "type": "vless",
-      "server": "cdn.netraidly.ru",
-      "server_port": 40443,
-      "uuid": "4bf5a71c-d726-4585-b095-7396675706d5",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
