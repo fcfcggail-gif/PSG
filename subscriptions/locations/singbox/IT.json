@@ -91,9 +91,7 @@
         "auto",
         "direct",
         "🇮🇹 IT | VLESS | @free1_vpn #1",
-        "🇮🇹 IT | VLESS | @v2raych #1",
-        "🇮🇹 IT | VLESS | @vmesskhodam #1",
-        "🇮🇹 IT | VLESS | @vmesskhodam #2"
+        "🇮🇹 IT | TROJAN | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,9 +100,7 @@
       "interval": "10m",
       "outbounds": [
         "🇮🇹 IT | VLESS | @free1_vpn #1",
-        "🇮🇹 IT | VLESS | @v2raych #1",
-        "🇮🇹 IT | VLESS | @vmesskhodam #1",
-        "🇮🇹 IT | VLESS | @vmesskhodam #2"
+        "🇮🇹 IT | TROJAN | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -133,20 +129,11 @@
       }
     },
     {
-      "tag": "🇮🇹 IT | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "57.131.18.123",
-      "server_port": 13355,
-      "uuid": "d59a05b5-2cc9-47c4-98dd-f1bf239ca5fd",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇹 IT | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "31.76.113.25",
+      "tag": "🇮🇹 IT | TROJAN | @vmesskhodam #1",
+      "type": "trojan",
+      "server": "172.235.229.227",
       "server_port": 443,
-      "uuid": "dfc0cb9d-f005-41b0-848c-7703bd39d0de",
-      "packet_encoding": "xudp",
+      "password": "zK%3D0KfL3IG%2BsNNZL-J7d0Nonu4wFBx8MOy",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -154,33 +141,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇮🇹 IT | VLESS | @vmesskhodam #2",
-      "type": "vless",
-      "server": "31.76.113.22",
-      "server_port": 443,
-      "uuid": "dfc0cb9d-f005-41b0-848c-7703bd39d0de",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }
