@@ -96,12 +96,13 @@
         "🇳🇱 NL | TROJAN | @nofiltering2 #2",
         "🇳🇱 NL | VLESS | @outline_ir #1",
         "🇳🇱 NL | VLESS | @outline_ir #2",
+        "🇳🇱 NL | SS | @outline_ir #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @rez1vpn #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
-        "🇳🇱 NL | VLESS | @vmesskhodam #1",
-        "🇳🇱 NL | VLESS | @vmesskhodam #2"
+        "🇳🇱 NL | VLESS | @v2rayprotocol #1",
+        "🇳🇱 NL | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -115,12 +116,13 @@
         "🇳🇱 NL | TROJAN | @nofiltering2 #2",
         "🇳🇱 NL | VLESS | @outline_ir #1",
         "🇳🇱 NL | VLESS | @outline_ir #2",
+        "🇳🇱 NL | SS | @outline_ir #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @rez1vpn #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
-        "🇳🇱 NL | VLESS | @vmesskhodam #1",
-        "🇳🇱 NL | VLESS | @vmesskhodam #2"
+        "🇳🇱 NL | VLESS | @v2rayprotocol #1",
+        "🇳🇱 NL | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -205,6 +207,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇳🇱 NL | SS | @outline_ir #1",
+      "type": "shadowsocks",
+      "server": "108.181.58.239",
+      "server_port": 8388,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDSm1UQ0N4N0x0dWQ=",
+      "password": null
+    },
+    {
       "tag": "🇳🇱 NL | SS | @outlinereleasedkey #1",
       "type": "shadowsocks",
       "server": "193.29.139.235",
@@ -269,15 +279,24 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @vmesskhodam #1",
+      "tag": "🇳🇱 NL | VLESS | @v2rayprotocol #1",
       "type": "vless",
-      "server": "167.104.55.25",
-      "server_port": 35401,
-      "uuid": "2c745da3-f69f-4268-810e-389e935412e9",
-      "packet_encoding": "xudp"
+      "server": "cdn3-87.vk-cdnvideo.com",
+      "server_port": 8443,
+      "uuid": "931729a8-3c20-4841-89a1-f18dc9ce0a6f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @vmesskhodam #2",
+      "tag": "🇳🇱 NL | VLESS | @vmesskhodam #1",
       "type": "vless",
       "server": "188.164.248.193",
       "server_port": 443,
