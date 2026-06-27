@@ -83,8 +83,11 @@
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mpproxy #1",
+        "🇫🇷 FR | TROJAN | @privatevpns #1",
+        "🇫🇷 FR | TROJAN | @privatevpns #2",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
-        "🇫🇷 FR | VLESS | @vlessconfig #1"
+        "🇫🇷 FR | VLESS | @vlessconfig #1",
+        "🇫🇷 FR | VLESS | @vlessconfig #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,8 +101,11 @@
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mpproxy #1",
+        "🇫🇷 FR | TROJAN | @privatevpns #1",
+        "🇫🇷 FR | TROJAN | @privatevpns #2",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
-        "🇫🇷 FR | VLESS | @vlessconfig #1"
+        "🇫🇷 FR | VLESS | @vlessconfig #1",
+        "🇫🇷 FR | VLESS | @vlessconfig #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -195,6 +201,38 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇫🇷 FR | TROJAN | @privatevpns #1",
+      "type": "trojan",
+      "server": "13.36.124.82",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | TROJAN | @privatevpns #2",
+      "type": "trojan",
+      "server": "13.39.71.117",
+      "server_port": 22222,
+      "password": "telegram-id-privatevpns",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇫🇷 FR | VLESS | @v2ray_collector #1",
       "type": "vless",
       "server": "141.11.203.139",
@@ -214,7 +252,22 @@
     {
       "tag": "🇫🇷 FR | VLESS | @vlessconfig #1",
       "type": "vless",
-      "server": "13.36.2.68",
+      "server": "13.36.124.82",
+      "server_port": 22224,
+      "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @vlessconfig #2",
+      "type": "vless",
+      "server": "13.39.71.117",
       "server_port": 22224,
       "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
       "packet_encoding": "xudp",
