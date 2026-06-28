@@ -95,16 +95,16 @@
         "KingRezaPahlavi",
         "🇬🇧 GB | VLESS | @bored_vpn #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
-        "🇫🇮 FI | VLESS | @free1_vpn #1",
+        "🇩🇪 DE | VLESS | @free1_vpn #3",
         "🇸🇨 SC | VLESS | @netfreedom0 #1",
         "🇫🇮 FI | VLESS | @netfreedom0 #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
         "🇨🇾 CY | VLESS | @nn_vpn #2",
-        "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
-        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2raych #1",
+        "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇳🇱 NL | VLESS | @vpn_ioss #1",
+        "🇫🇷 FR | VLESS | @vpn_ioss #1",
         "🇳🇱 NL | VLESS | @vpn_ioss #2"
       ],
       "tag": "proxy",
@@ -118,16 +118,16 @@
         "KingRezaPahlavi",
         "🇬🇧 GB | VLESS | @bored_vpn #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
-        "🇫🇮 FI | VLESS | @free1_vpn #1",
+        "🇩🇪 DE | VLESS | @free1_vpn #3",
         "🇸🇨 SC | VLESS | @netfreedom0 #1",
         "🇫🇮 FI | VLESS | @netfreedom0 #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
         "🇨🇾 CY | VLESS | @nn_vpn #2",
-        "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
-        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2raych #1",
+        "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇳🇱 NL | VLESS | @vpn_ioss #1",
+        "🇫🇷 FR | VLESS | @vpn_ioss #1",
         "🇳🇱 NL | VLESS | @vpn_ioss #2"
       ],
       "tag": "auto",
@@ -256,12 +256,26 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @free1_vpn #1",
+      "tag": "🇩🇪 DE | VLESS | @free1_vpn #3",
       "type": "vless",
-      "server": "fanlandv2.sorcepack.ir",
-      "server_port": 52077,
-      "uuid": "f6c9ef00-feb2-456e-ac54-11fd5a996cc3",
-      "packet_encoding": "xudp"
+      "server": "de.ko.prod.n7.homes",
+      "server_port": 8443,
+      "uuid": "dcba77d7-bb59-4802-b32c-37fd7011fca4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇸🇨 SC | VLESS | @netfreedom0 #1",
@@ -310,11 +324,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
+      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "dd.teain.org",
-      "server_port": 1000,
-      "uuid": "3d6e324c-664a-ca9b-869d-945d0b194c9e",
+      "server": "de-3.coinbridge.nl",
+      "server_port": 443,
+      "uuid": "b0f08ae1-7cf9-4612-ad61-72681e0b92da",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -323,28 +337,15 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+      "tag": "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
       "type": "vless",
-      "server": "net.walking-with-death.shop",
-      "server_port": 2083,
-      "uuid": "f8f64365-69ee-415f-b591-58d919520c36",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "all32.allenshop100.ir",
+      "server": "re1.wantedhonor.ir",
       "server_port": 443,
-      "uuid": "296a5736-bc8c-45dd-9971-8bf44b28ed4e",
+      "uuid": "d6ef367c-4b0f-44ec-a8c4-8c5947ec747b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -397,6 +398,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "greb.loralden.com",
+      "server_port": 443,
+      "uuid": "2065a8c9-8b3d-4dba-b0ce-90d649aa3da7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
