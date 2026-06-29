@@ -90,7 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇮 FI | VLESS | @NamiraConfigs #1",
         "🇫🇮 FI | VLESS | @free1_vpn #1",
+        "🇫🇮 FI | SS | @jiedianf #1",
         "🇫🇮 FI | VLESS | @mimitdl #1",
         "🇫🇮 FI | VLESS | @netfreedom0 #1",
         "🇫🇮 FI | VLESS | @outline_ir #1",
@@ -102,7 +104,9 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇮 FI | VLESS | @NamiraConfigs #1",
         "🇫🇮 FI | VLESS | @free1_vpn #1",
+        "🇫🇮 FI | SS | @jiedianf #1",
         "🇫🇮 FI | VLESS | @mimitdl #1",
         "🇫🇮 FI | VLESS | @netfreedom0 #1",
         "🇫🇮 FI | VLESS | @outline_ir #1",
@@ -118,26 +122,28 @@
       "type": "direct"
     },
     {
+      "tag": "🇫🇮 FI | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "telewebion.com.fin2.shakhle.ir",
+      "server_port": 52525,
+      "uuid": "21702d6d-7b35-4faa-8462-c23dc7e20e00",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇫🇮 FI | VLESS | @free1_vpn #1",
       "type": "vless",
-      "server": "217.217.247.246",
-      "server_port": 443,
-      "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "fanlandv2.sorcepack.ir",
+      "server_port": 52077,
+      "uuid": "f6c9ef00-feb2-456e-ac54-11fd5a996cc3",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | SS | @jiedianf #1",
+      "type": "shadowsocks",
+      "server": "109.107.182.229",
+      "server_port": 51544,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0ZDFuVnBxSlZwNW9xMlc0RDBMank0",
+      "password": null
     },
     {
       "tag": "🇫🇮 FI | VLESS | @mimitdl #1",
