@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇹🇷 TR | VLESS | @turboo_server #1", "server": "37.221.79.82", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "turboo-server", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇹🇷 TR | VLESS | @v2ray_free_conf #1", "server": "static.oneset.ir", "port": 2128, "type": "vless", "skip-cert-verify": true, "uuid": "9ca2de90-90c3-48ef-beac-998a8fbd56fb", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇹🇷 TR | VLESS | @turboo_server #1'
+      - '🇹🇷 TR | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select
