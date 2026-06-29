@@ -79,10 +79,12 @@
         "direct",
         "🇫🇮 FI | VLESS | @NamiraConfigs #1",
         "🇫🇮 FI | VLESS | @free1_vpn #1",
+        "🇫🇮 FI | VLESS | @free1_vpn #2",
         "🇫🇮 FI | SS | @jiedianf #1",
         "🇫🇮 FI | VLESS | @mimitdl #1",
         "🇫🇮 FI | VLESS | @netfreedom0 #1",
-        "🇫🇮 FI | VLESS | @outline_ir #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @v2raych #1",
         "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "proxy",
@@ -93,10 +95,12 @@
       "outbounds": [
         "🇫🇮 FI | VLESS | @NamiraConfigs #1",
         "🇫🇮 FI | VLESS | @free1_vpn #1",
+        "🇫🇮 FI | VLESS | @free1_vpn #2",
         "🇫🇮 FI | SS | @jiedianf #1",
         "🇫🇮 FI | VLESS | @mimitdl #1",
         "🇫🇮 FI | VLESS | @netfreedom0 #1",
-        "🇫🇮 FI | VLESS | @outline_ir #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @v2raych #1",
         "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "auto",
@@ -127,6 +131,28 @@
       "server_port": 52077,
       "uuid": "f6c9ef00-feb2-456e-ac54-11fd5a996cc3",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @free1_vpn #2",
+      "type": "vless",
+      "server": "217.217.247.246",
+      "server_port": 443,
+      "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇫🇮 FI | SS | @jiedianf #1",
@@ -167,9 +193,26 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @outline_ir #1",
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "217.217.247.245",
+      "server": "fl-1.ladaclubs.xyz",
+      "server_port": 443,
+      "uuid": "77c911b4-c1c8-4c07-9e73-4d3523046280",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "217.217.247.246",
       "server_port": 443,
       "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
       "packet_encoding": "xudp",

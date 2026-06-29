@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇱 AL | VLESS | @v2ray_free_conf #1"
+        "🇵🇱 PL | VLESS | @netmellianti #1",
+        "🇵🇱 PL | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇱 AL | VLESS | @v2ray_free_conf #1"
+        "🇵🇱 PL | VLESS | @netmellianti #1",
+        "🇵🇱 PL | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,12 +103,34 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇱 AL | VLESS | @v2ray_free_conf #1",
+      "tag": "🇵🇱 PL | VLESS | @netmellianti #1",
       "type": "vless",
-      "server": "s.karizma.space",
-      "server_port": 37870,
-      "uuid": "b7d23bac-cb1a-4609-af53-1a03c8ab8285",
+      "server": "62.112.222.47",
+      "server_port": 8080,
+      "uuid": "b21c558b-1ca1-4159-a140-868448e5b1a8",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "51.83.251.233",
+      "server_port": 9331,
+      "uuid": "275e5518-9097-57bf-3241-8b9f369a115b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

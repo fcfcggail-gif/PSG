@@ -80,7 +80,9 @@
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
         "🇸🇬 SG | TROJAN | @nofiltering2 #1",
         "🇸🇬 SG | TROJAN | @nofiltering2 #2",
-        "🇸🇬 SG | VLESS | @v2rayexpress #1"
+        "🇸🇬 SG | VLESS | @v2rayexpress #1",
+        "🇸🇬 SG | VLESS | @vmesc #1",
+        "🇸🇬 SG | TROJAN | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -91,7 +93,9 @@
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
         "🇸🇬 SG | TROJAN | @nofiltering2 #1",
         "🇸🇬 SG | TROJAN | @nofiltering2 #2",
-        "🇸🇬 SG | VLESS | @v2rayexpress #1"
+        "🇸🇬 SG | VLESS | @v2rayexpress #1",
+        "🇸🇬 SG | VLESS | @vmesc #1",
+        "🇸🇬 SG | TROJAN | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -181,6 +185,39 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "www.fghrsh.net",
+      "server_port": 443,
+      "uuid": "5582f622-f805-4a7a-81c5-f99b74b5bdfb",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 SG | TROJAN | @vpn_ioss #1",
+      "type": "trojan",
+      "server": "43.169.18.179",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }
