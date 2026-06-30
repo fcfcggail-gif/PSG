@@ -93,13 +93,14 @@
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | TROJAN | @nofiltering2 #1",
         "🇳🇱 NL | TROJAN | @nofiltering2 #2",
+        "🇳🇱 NL | TROJAN | @outline_ir #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @red2ray #1",
         "🇳🇱 NL | VLESS | @rez1vpn #1",
         "🇳🇱 NL | VLESS | @v2ray1_ng #1",
-        "🇳🇱 NL | TROJAN | @v2ray_free_conf #1",
-        "🇳🇱 NL | VLESS | @v2rayngvpn_1 #1"
+        "🇳🇱 NL | VLESS | @v2rayngvpn_1 #1",
+        "🇳🇱 NL | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -110,13 +111,14 @@
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | TROJAN | @nofiltering2 #1",
         "🇳🇱 NL | TROJAN | @nofiltering2 #2",
+        "🇳🇱 NL | TROJAN | @outline_ir #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @red2ray #1",
         "🇳🇱 NL | VLESS | @rez1vpn #1",
         "🇳🇱 NL | VLESS | @v2ray1_ng #1",
-        "🇳🇱 NL | TROJAN | @v2ray_free_conf #1",
-        "🇳🇱 NL | VLESS | @v2rayngvpn_1 #1"
+        "🇳🇱 NL | VLESS | @v2rayngvpn_1 #1",
+        "🇳🇱 NL | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -168,6 +170,22 @@
       }
     },
     {
+      "tag": "🇳🇱 NL | TROJAN | @outline_ir #1",
+      "type": "trojan",
+      "server": "45.131.4.118",
+      "server_port": 443,
+      "password": "MiTiVPN",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇳🇱 NL | SS | @outlinereleasedkey #1",
       "type": "shadowsocks",
       "server": "193.29.139.235",
@@ -195,9 +213,9 @@
     {
       "tag": "🇳🇱 NL | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "87.199.210.215",
+      "server": "89.105.206.151",
       "server_port": 443,
-      "uuid": "def62c86-e2f2-4d13-b1f1-b3c197ed4873",
+      "uuid": "15634a62-7add-473b-a76c-cf26d158850d",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -206,6 +224,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -249,22 +272,6 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | TROJAN | @v2ray_free_conf #1",
-      "type": "trojan",
-      "server": "45.131.4.118",
-      "server_port": 443,
-      "password": "MiTiVPN",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @v2rayngvpn_1 #1",
       "type": "vless",
       "server": "79.127.227.18",
@@ -278,6 +285,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "87.199.202.15",
+      "server_port": 2566,
+      "uuid": "49bab9b8-5a76-4ef1-a4b4-979d8611acef",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }
