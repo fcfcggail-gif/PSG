@@ -78,6 +78,7 @@
         "auto",
         "direct",
         "🇭🇰 HK | TROJAN | @jiedianf #1",
+        "🇭🇰 HK | VLESS | @red2ray #1",
         "🇭🇰 HK | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -87,6 +88,7 @@
       "interval": "10m",
       "outbounds": [
         "🇭🇰 HK | TROJAN | @jiedianf #1",
+        "🇭🇰 HK | VLESS | @red2ray #1",
         "🇭🇰 HK | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -108,6 +110,28 @@
       "server": "103.177.136.42",
       "server_port": 45619,
       "password": "4f4d1167-ef14-4304-9bce-0740472503ef"
+    },
+    {
+      "tag": "🇭🇰 HK | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "64.49.44.87",
+      "server_port": 19107,
+      "uuid": "9e13f74e-3ad7-437d-aba6-5def3c42b046",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇭🇰 HK | VLESS | @vmesskhodam #1",
