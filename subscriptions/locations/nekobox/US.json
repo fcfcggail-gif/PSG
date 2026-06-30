@@ -116,6 +116,8 @@
         "🇺🇸 US | VLESS | @prrofile_purple #2",
         "🇺🇸 US | VLESS | @public504 #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
+        "🇺🇸 US | VLESS | @red2ray #1",
+        "🇺🇸 US | VLESS | @red2ray #2",
         "🇺🇸 US | TROJAN | @rez1vpn #1",
         "🇺🇸 US | VLESS | @tobevasl #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
@@ -125,6 +127,7 @@
         "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2ray_youtube #1",
         "🇺🇸 US | VLESS | @v2ray_youtube #2",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2raying #1",
         "🇺🇸 US | TROJAN | @v2raying #1",
         "🇺🇸 US | TROJAN | @v2raymelliii #1",
@@ -138,6 +141,10 @@
         "🇺🇸 US | VLESS | @vboxpanel #1",
         "🇺🇸 US | VLESS | @vboxpanel #2",
         "🇺🇸 US | VLESS | @vboxpanel #3",
+        "🇺🇸 US | TROJAN | @vmesc #1",
+        "🇺🇸 US | VLESS | @vmesc #1",
+        "🇺🇸 US | VLESS | @vmesc #2",
+        "🇺🇸 US | VLESS | @vmesc #3",
         "🇺🇸 US | TROJAN | @vmesskhodam #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VLESS | @vpnowl #1"
@@ -187,6 +194,8 @@
         "🇺🇸 US | VLESS | @prrofile_purple #2",
         "🇺🇸 US | VLESS | @public504 #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
+        "🇺🇸 US | VLESS | @red2ray #1",
+        "🇺🇸 US | VLESS | @red2ray #2",
         "🇺🇸 US | TROJAN | @rez1vpn #1",
         "🇺🇸 US | VLESS | @tobevasl #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
@@ -196,6 +205,7 @@
         "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2ray_youtube #1",
         "🇺🇸 US | VLESS | @v2ray_youtube #2",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2raying #1",
         "🇺🇸 US | TROJAN | @v2raying #1",
         "🇺🇸 US | TROJAN | @v2raymelliii #1",
@@ -209,6 +219,10 @@
         "🇺🇸 US | VLESS | @vboxpanel #1",
         "🇺🇸 US | VLESS | @vboxpanel #2",
         "🇺🇸 US | VLESS | @vboxpanel #3",
+        "🇺🇸 US | TROJAN | @vmesc #1",
+        "🇺🇸 US | VLESS | @vmesc #1",
+        "🇺🇸 US | VLESS | @vmesc #2",
+        "🇺🇸 US | VLESS | @vmesc #3",
         "🇺🇸 US | TROJAN | @vmesskhodam #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VLESS | @vpnowl #1"
@@ -775,6 +789,45 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇺🇸 US | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "shadyvpn-production-afff.up.railway.app",
+      "server_port": 443,
+      "uuid": "a692da68-3bb0-4716-909a-9918acfcef30",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @red2ray #2",
+      "type": "vless",
+      "server": "174.129.45.76",
+      "server_port": 2053,
+      "uuid": "f188ec3b-e055-4eed-ae62-97403931d4e2",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | TROJAN | @rez1vpn #1",
       "type": "trojan",
       "server": "151.101.56.6",
@@ -884,9 +937,9 @@
     {
       "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "rvg-production-cccb.up.railway.app",
+      "server": "web-production-9a1f3.up.railway.app",
       "server_port": 443,
-      "uuid": "14145d41-a01f-b4f1-6793-3328ef0063df",
+      "uuid": "1a7015d0-1790-452f-a31d-d863b69b7bcb",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -921,6 +974,23 @@
       "server": "162.251.82.240",
       "server_port": 443,
       "uuid": "b991b390-dd0f-4061-9150-bee0cb467bce",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "gb7.univesalsrv.com",
+      "server_port": 443,
+      "uuid": "810b8ba9-3232-42ac-a474-3e921fdc8845",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -1119,6 +1189,64 @@
       "server": "dns8.nufilter.store",
       "server_port": 443,
       "uuid": "7f99da38-1333-4a8e-abf1-9ecd951b9365",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | TROJAN | @vmesc #1",
+      "type": "trojan",
+      "server": "iranpoems.ir",
+      "server_port": 443,
+      "password": "Mitivpn",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "199.232.78.143",
+      "server_port": 443,
+      "uuid": "f659ae31-0281-4dcf-acf5-5736ec0a58cc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @vmesc #2",
+      "type": "vless",
+      "server": "199.232.78.159",
+      "server_port": 80,
+      "uuid": "203fea15-b8f7-46cf-bd6a-a59811589308",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @vmesc #3",
+      "type": "vless",
+      "server": "rvg-production-2030.up.railway.app",
+      "server_port": 443,
+      "uuid": "8664d5b6-3316-a334-5163-dffb9dea4c3f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
