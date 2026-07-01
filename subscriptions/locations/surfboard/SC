@@ -10,13 +10,12 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇸🇨 SC | TROJAN | @outline_ir #1 = trojan, 45.130.125.2, 443, password = rdC7DTr5wK, skip-cert-verify = true
-🇸🇨 SC | TROJAN | @v2raych #1 = trojan, 45.130.125.190, 443, password = humanity, skip-cert-verify = true
 🇸🇨 SC | TROJAN | @vmesc #1 = trojan, 45.130.125.2, 443, password = HHyBuQthOg, skip-cert-verify = true
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇸🇨 SC | TROJAN | @outline_ir #1, 🇸🇨 SC | TROJAN | @v2raych #1, 🇸🇨 SC | TROJAN | @vmesc #1
-PSG-AUTO = url-test, 🇸🇨 SC | TROJAN | @outline_ir #1, 🇸🇨 SC | TROJAN | @v2raych #1, 🇸🇨 SC | TROJAN | @vmesc #1
-PSG-FALLBACK = fallback, 🇸🇨 SC | TROJAN | @outline_ir #1, 🇸🇨 SC | TROJAN | @v2raych #1, 🇸🇨 SC | TROJAN | @vmesc #1
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇸🇨 SC | TROJAN | @outline_ir #1, 🇸🇨 SC | TROJAN | @vmesc #1
+PSG-AUTO = url-test, 🇸🇨 SC | TROJAN | @outline_ir #1, 🇸🇨 SC | TROJAN | @vmesc #1
+PSG-FALLBACK = fallback, 🇸🇨 SC | TROJAN | @outline_ir #1, 🇸🇨 SC | TROJAN | @vmesc #1
 
 [Rule]
 GEOIP,IR,DIRECT
