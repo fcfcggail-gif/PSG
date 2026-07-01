@@ -95,7 +95,8 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇸🇨 SC | VLESS | @netfreedom0 #1",
-        "🇨🇾 CY | VLESS | @nn_vpn #1"
+        "🇨🇾 CY | VLESS | @nn_vpn #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -108,7 +109,8 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇸🇨 SC | VLESS | @netfreedom0 #1",
-        "🇨🇾 CY | VLESS | @nn_vpn #1"
+        "🇨🇾 CY | VLESS | @nn_vpn #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -228,6 +230,23 @@
       "server_port": 80,
       "uuid": "59acb90b-fb9d-433b-a2f0-c039cf23dfc7",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "blog.th3team.ir",
+      "server_port": 443,
+      "uuid": "2bf268a6-c1a0-4136-b499-6878962e8dd5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

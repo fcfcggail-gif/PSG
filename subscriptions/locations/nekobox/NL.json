@@ -77,17 +77,23 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇳🇱 NL | VLESS | @NamiraConfigs #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @freeconfigsplus #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
+        "🇳🇱 NL | VLESS | @netmellianti #1",
         "🇳🇱 NL | TROJAN | @nofiltering2 #1",
         "🇳🇱 NL | TROJAN | @nofiltering2 #2",
-        "🇳🇱 NL | TROJAN | @outline_ir #1",
+        "🇳🇱 NL | VLESS | @outline_ir #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
+        "🇳🇱 NL | VLESS | @red2ray #1",
+        "🇳🇱 NL | VLESS | @red2ray #2",
+        "🇳🇱 NL | VLESS | @red2ray #3",
         "🇳🇱 NL | VLESS | @rez1vpn #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
-        "🇳🇱 NL | VLESS | @v2raych #1",
+        "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+        "🇳🇱 NL | TROJAN | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2rayngvpn_1 #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1"
       ],
@@ -97,17 +103,23 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇳🇱 NL | VLESS | @NamiraConfigs #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @freeconfigsplus #1",
         "🇳🇱 NL | VLESS | @netfreedom0 #1",
+        "🇳🇱 NL | VLESS | @netmellianti #1",
         "🇳🇱 NL | TROJAN | @nofiltering2 #1",
         "🇳🇱 NL | TROJAN | @nofiltering2 #2",
-        "🇳🇱 NL | TROJAN | @outline_ir #1",
+        "🇳🇱 NL | VLESS | @outline_ir #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
+        "🇳🇱 NL | VLESS | @red2ray #1",
+        "🇳🇱 NL | VLESS | @red2ray #2",
+        "🇳🇱 NL | VLESS | @red2ray #3",
         "🇳🇱 NL | VLESS | @rez1vpn #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
-        "🇳🇱 NL | VLESS | @v2raych #1",
+        "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+        "🇳🇱 NL | TROJAN | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2rayngvpn_1 #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1"
       ],
@@ -123,6 +135,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "cd.pascalplus.com",
+      "server_port": 8443,
+      "uuid": "ebb957fc-5a5a-4a50-b550-c05d24f5ff36",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇳🇱 NL | SS | @easy_free_vpn #1",
@@ -158,6 +178,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇳🇱 NL | VLESS | @netmellianti #1",
+      "type": "vless",
+      "server": "45.131.6.203",
+      "server_port": 2096,
+      "uuid": "9c940549-ac64-370e-eda9-67257bab6815",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇳🇱 NL | TROJAN | @nofiltering2 #1",
       "type": "trojan",
       "server": "45.131.4.118",
@@ -190,20 +218,12 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | TROJAN | @outline_ir #1",
-      "type": "trojan",
-      "server": "45.131.4.118",
-      "server_port": 443,
-      "password": "MiTiVPN",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "tag": "🇳🇱 NL | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "45.131.6.203",
+      "server_port": 2096,
+      "uuid": "9c940549-ac64-370e-eda9-67257bab6815",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇳🇱 NL | SS | @outlinereleasedkey #1",
@@ -227,6 +247,72 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "89.105.206.151",
+      "server_port": 443,
+      "uuid": "15634a62-7add-473b-a76c-cf26d158850d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @red2ray #2",
+      "type": "vless",
+      "server": "154.83.159.14",
+      "server_port": 8443,
+      "uuid": "0047a8bc-0025-4d45-899b-c75c669f3ede",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @red2ray #3",
+      "type": "vless",
+      "server": "85.234.65.130",
+      "server_port": 6000,
+      "uuid": "f75566a5-4744-4806-ac2e-ccaefe1b1080",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -270,12 +356,28 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
+      "tag": "🇳🇱 NL | VLESS | @v2ray_youtube #1",
       "type": "vless",
-      "server": "45.131.6.203",
-      "server_port": 2096,
-      "uuid": "9c940549-ac64-370e-eda9-67257bab6815",
+      "server": "alpha.iranhttp.com",
+      "server_port": 4242,
+      "uuid": "df196287-5b8c-4592-870f-b3ede251fa68",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "45.131.4.115",
+      "server_port": 443,
+      "password": "MITIVPN",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @v2rayngvpn_1 #1",
