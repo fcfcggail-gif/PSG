@@ -91,9 +91,9 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @filtershekan_channel #1",
+        "🇫🇮 FI | VLESS | @free1_vpn #1",
         "🇫🇮 FI | SS | @jiedianf #1",
         "🇫🇮 FI | VLESS | @netfreedom0 #1",
-        "🇫🇮 FI | VLESS | @v2raych #1",
         "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "proxy",
@@ -103,9 +103,9 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @filtershekan_channel #1",
+        "🇫🇮 FI | VLESS | @free1_vpn #1",
         "🇫🇮 FI | SS | @jiedianf #1",
         "🇫🇮 FI | VLESS | @netfreedom0 #1",
-        "🇫🇮 FI | VLESS | @v2raych #1",
         "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "auto",
@@ -121,6 +121,28 @@
       "tag": "🇫🇮 FI | VLESS | @filtershekan_channel #1",
       "type": "vless",
       "server": "217.217.247.246",
+      "server_port": 443,
+      "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "fi.faygo.bot",
       "server_port": 443,
       "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
       "packet_encoding": "xudp",
@@ -168,14 +190,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "65.109.176.46",
-      "server_port": 2053,
-      "uuid": "527561c6-bed1-44c5-8404-f322fbf7ced2",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
