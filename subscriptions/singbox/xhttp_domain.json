@@ -99,8 +99,7 @@
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇬🇧 GB | VLESS | @netmellianti #1",
         "🇬🇧 GB | VLESS | @v2aryng_vpn #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
-        "🇮🇷 IR | VLESS | @v2raych #2",
+        "🇽🇽 XX | VLESS | @v2ray_youtube #3",
         "🇮🇷 IR | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -118,8 +117,7 @@
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇬🇧 GB | VLESS | @netmellianti #1",
         "🇬🇧 GB | VLESS | @v2aryng_vpn #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
-        "🇮🇷 IR | VLESS | @v2raych #2",
+        "🇽🇽 XX | VLESS | @v2ray_youtube #3",
         "🇮🇷 IR | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -261,20 +259,21 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+      "tag": "🇽🇽 XX | VLESS | @v2ray_youtube #3",
       "type": "vless",
-      "server": "speedtest.net",
-      "server_port": 80,
-      "uuid": "6bbd3836-4740-4f2e-a37b-3463b57c6ee2",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "s2.zynavo.ir",
-      "server_port": 2087,
-      "uuid": "026b8bd2-fa80-49ee-7790-c7d3b56667ac",
-      "packet_encoding": "xudp"
+      "server": "us.aleykesalam.dpdns.org",
+      "server_port": 443,
+      "uuid": "b72e5e3e-2353-4f66-a915-f938e8fb9988",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @vmesskhodam #1",
