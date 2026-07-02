@@ -94,9 +94,10 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
+        "🇫🇮 FI | VLESS | @free1_vpn #1",
         "🇸🇨 SC | VLESS | @netfreedom0 #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1"
+        "🇩🇪 DE | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -108,9 +109,10 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
+        "🇫🇮 FI | VLESS | @free1_vpn #1",
         "🇸🇨 SC | VLESS | @netfreedom0 #1",
         "🇨🇾 CY | VLESS | @nn_vpn #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1"
+        "🇩🇪 DE | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -216,6 +218,28 @@
       }
     },
     {
+      "tag": "🇫🇮 FI | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "fi.faygo.bot",
+      "server_port": 443,
+      "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇸🇨 SC | VLESS | @netfreedom0 #1",
       "type": "vless",
       "server": "ch-gt-02.com",
@@ -232,11 +256,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+      "tag": "🇩🇪 DE | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "blog.th3team.ir",
-      "server_port": 443,
-      "uuid": "2bf268a6-c1a0-4136-b499-6878962e8dd5",
+      "server": "nl-t2.vinnypuxtomoon.today",
+      "server_port": 2053,
+      "uuid": "1ee0c3d2-9c42-463f-8497-ee05f76b84e5",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -245,6 +269,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }
