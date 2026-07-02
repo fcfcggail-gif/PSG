@@ -23,8 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇯🇵 JP | VMESS | @NamiraConfigs #1", "server": "172.104.80.66", "port": 22324, "type": "vmess", "skip-cert-verify": true, "uuid": "04621bae-ab36-11ec-b909-0242ac120002", "alterId": 1, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇯🇵 JP | VLESS | @NamiraConfigs #1", "server": "43.163.241.110", "port": 24477, "type": "vless", "skip-cert-verify": true, "uuid": "2bc72bec-0c2a-4c6b-aa9f-138bfce7ba0d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇯🇵 JP | VMESS | @NamiraConfigs #1", "server": "172.104.80.66", "port": 22324, "type": "vmess", "skip-cert-verify": true, "uuid": "04621bae-ab36-11ec-b909-0242ac120002", "alterId": 1, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇯🇵 JP | VLESS | @megavpn_link #1", "server": "134.122.194.186", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ce069292-c8bf-40dd-a6b1-87818a1e64e9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -39,8 +39,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇯🇵 JP | VMESS | @NamiraConfigs #1'
       - '🇯🇵 JP | VLESS | @NamiraConfigs #1'
+      - '🇯🇵 JP | VMESS | @NamiraConfigs #1'
       - '🇯🇵 JP | VLESS | @megavpn_link #1'
 
   - name: 🌍 Global Media
