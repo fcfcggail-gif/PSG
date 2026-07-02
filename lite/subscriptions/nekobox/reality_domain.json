@@ -82,9 +82,8 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @free1_vpn #1",
-        "🇨🇾 CY | VLESS | @nn_vpn #1",
-        "🇩🇪 DE | VLESS | @red2ray #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1"
+        "🇱🇹 LT | VLESS | @free1_vpn #1",
+        "🇨🇾 CY | VLESS | @nn_vpn #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -97,9 +96,8 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇫🇮 FI | VLESS | @free1_vpn #1",
-        "🇨🇾 CY | VLESS | @nn_vpn #1",
-        "🇩🇪 DE | VLESS | @red2ray #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1"
+        "🇱🇹 LT | VLESS | @free1_vpn #1",
+        "🇨🇾 CY | VLESS | @nn_vpn #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -231,56 +229,34 @@
       }
     },
     {
+      "tag": "🇱🇹 LT | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "cherry-lt-01.live",
+      "server_port": 8443,
+      "uuid": "a1472a7d-ca70-4490-a5a5-81537599861c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇨🇾 CY | VLESS | @nn_vpn #1",
       "type": "vless",
       "server": "sadaf.netherlands.mehrdadsadaf.com",
       "server_port": 80,
       "uuid": "59acb90b-fb9d-433b-a2f0-c039cf23dfc7",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "nr.cnkstore.ru",
-      "server_port": 8443,
-      "uuid": "501c1f83-a390-4b93-99db-7f57d0111573",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "blog.th3team.ir",
-      "server_port": 443,
-      "uuid": "035bc854-adc5-4b57-b7da-c348e9959c9e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     }
   ],
   "route": {

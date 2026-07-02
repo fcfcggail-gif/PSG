@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇷 TR | VLESS | @v2ray_free_conf #1", "server": "tr.motorbazan.com", "port": 2087, "type": "vless", "skip-cert-verify": true, "uuid": "ece8760d-3b9b-4a78-9b4a-8c00758cc066", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇯🇵 JP | VMESS | @NamiraConfigs #1", "server": "172.104.80.66", "port": 22324, "type": "vmess", "skip-cert-verify": true, "uuid": "04621bae-ab36-11ec-b909-0242ac120002", "alterId": 1, "cipher": "auto", "network": "tcp", "tls": false}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇷 TR | VLESS | @v2ray_free_conf #1'
+      - '🇯🇵 JP | VMESS | @NamiraConfigs #1'
 
   - name: 🌍 Global Media
     type: select

@@ -77,7 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
+        "🇪🇸 ES | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
+        "🇪🇸 ES | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,12 +101,21 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇪🇸 ES | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "tr.motorbazan.com",
-      "server_port": 2087,
-      "uuid": "ece8760d-3b9b-4a78-9b4a-8c00758cc066",
-      "packet_encoding": "xudp"
+      "server": "5.180.173.171",
+      "server_port": 443,
+      "uuid": "e89a8012-7794-4e54-9b6e-14b12b7e0802",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
