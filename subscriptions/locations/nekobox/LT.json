@@ -78,7 +78,9 @@
         "auto",
         "direct",
         "🇱🇹 LT | VLESS | @free1_vpn #1",
+        "🇱🇹 LT | VLESS | @free1_vpn #2",
         "🇱🇹 LT | VLESS | @v2ray_collector #1",
+        "🇱🇹 LT | TROJAN | @v2raych #1",
         "🇱🇹 LT | VLESS | @v_2rayng0 #1"
       ],
       "tag": "proxy",
@@ -88,7 +90,9 @@
       "interval": "10m",
       "outbounds": [
         "🇱🇹 LT | VLESS | @free1_vpn #1",
+        "🇱🇹 LT | VLESS | @free1_vpn #2",
         "🇱🇹 LT | VLESS | @v2ray_collector #1",
+        "🇱🇹 LT | TROJAN | @v2raych #1",
         "🇱🇹 LT | VLESS | @v_2rayng0 #1"
       ],
       "tag": "auto",
@@ -106,6 +110,28 @@
     },
     {
       "tag": "🇱🇹 LT | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "cherry-lt-01.live",
+      "server_port": 8443,
+      "uuid": "a1472a7d-ca70-4490-a5a5-81537599861c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇱🇹 LT | VLESS | @free1_vpn #2",
       "type": "vless",
       "server": "45.194.10.83",
       "server_port": 8443,
@@ -133,6 +159,22 @@
       "server_port": 443,
       "uuid": "401374e6-df77-41fb-f638-dad8184f175b",
       "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇱🇹 LT | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "88.216.67.230",
+      "server_port": 443,
+      "password": "MiTiVPN",
       "tls": {
         "enabled": true,
         "server_name": "",
