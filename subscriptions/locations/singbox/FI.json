@@ -94,8 +94,9 @@
         "🇫🇮 FI | VLESS | @free1_vpn #1",
         "🇫🇮 FI | SS | @jiedianf #1",
         "🇫🇮 FI | VLESS | @netfreedom0 #1",
-        "🇫🇮 FI | VLESS | @outline_ir #1",
-        "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1"
+        "🇫🇮 FI | VLESS | @sobi_vpn #1",
+        "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
+        "🇫🇮 FI | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -107,8 +108,9 @@
         "🇫🇮 FI | VLESS | @free1_vpn #1",
         "🇫🇮 FI | SS | @jiedianf #1",
         "🇫🇮 FI | VLESS | @netfreedom0 #1",
-        "🇫🇮 FI | VLESS | @outline_ir #1",
-        "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1"
+        "🇫🇮 FI | VLESS | @sobi_vpn #1",
+        "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
+        "🇫🇮 FI | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -194,7 +196,32 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @outline_ir #1",
+      "tag": "🇫🇮 FI | VLESS | @sobi_vpn #1",
+      "type": "vless",
+      "server": "shop.frahidx.ir",
+      "server_port": 2044,
+      "uuid": "075232d9-82c0-4500-b049-812e944c655c",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
+      "type": "vless",
+      "server": "46.246.34.165",
+      "server_port": 8443,
+      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vmesc #1",
       "type": "vless",
       "server": "217.217.247.248",
       "server_port": 443,
@@ -212,23 +239,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
-      "type": "vless",
-      "server": "46.246.34.165",
-      "server_port": 8443,
-      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     }

@@ -77,7 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | VLESS | @NamiraConfigs #1",
+        "🇷🇺 RU | VLESS | @jiedianf #1",
         "🇷🇺 RU | VLESS | @megavpn_link #1",
         "🇷🇺 RU | VLESS | @v2ray_collector #1",
         "🇷🇺 RU | VLESS | @v2raytg #1"
@@ -88,7 +88,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @NamiraConfigs #1",
+        "🇷🇺 RU | VLESS | @jiedianf #1",
         "🇷🇺 RU | VLESS | @megavpn_link #1",
         "🇷🇺 RU | VLESS | @v2ray_collector #1",
         "🇷🇺 RU | VLESS | @v2raytg #1"
@@ -107,12 +107,22 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @NamiraConfigs #1",
+      "tag": "🇷🇺 RU | VLESS | @jiedianf #1",
       "type": "vless",
-      "server": "130.49.219.126",
-      "server_port": 8443,
-      "uuid": "2ee2b77f-e4cd-4e5d-af22-f9d919eeadd5",
-      "packet_encoding": "xudp"
+      "server": "2.26.8.55",
+      "server_port": 443,
+      "uuid": "10ea33f2-1a66-4dec-99f2-8068a6b56a45",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇷🇺 RU | VLESS | @megavpn_link #1",
