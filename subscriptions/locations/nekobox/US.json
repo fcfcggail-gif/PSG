@@ -77,7 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇺🇸 US | VLESS | @NamiraConfigs #1",
+        "🇺🇸 US | VMESS | @NamiraConfigs #1",
         "🇺🇸 US | VLESS | @bored_vpn #1",
+        "🇺🇸 US | VLESS | @bored_vpn #2",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
@@ -124,9 +127,9 @@
         "🇺🇸 US | VMESS | @v2ray4win #2",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2ray_youtube #1",
         "🇺🇸 US | VLESS | @v2ray_youtube #2",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2raying #1",
         "🇺🇸 US | TROJAN | @v2raying #1",
         "🇺🇸 US | TROJAN | @v2raymelliii #1",
@@ -152,7 +155,10 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇺🇸 US | VLESS | @NamiraConfigs #1",
+        "🇺🇸 US | VMESS | @NamiraConfigs #1",
         "🇺🇸 US | VLESS | @bored_vpn #1",
+        "🇺🇸 US | VLESS | @bored_vpn #2",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
         "🇺🇸 US | VLESS | @easy_free_vpn #1",
@@ -199,9 +205,9 @@
         "🇺🇸 US | VMESS | @v2ray4win #2",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2ray_youtube #1",
         "🇺🇸 US | VLESS | @v2ray_youtube #2",
+        "🇺🇸 US | VLESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2raying #1",
         "🇺🇸 US | TROJAN | @v2raying #1",
         "🇺🇸 US | TROJAN | @v2raymelliii #1",
@@ -235,11 +241,54 @@
       "type": "direct"
     },
     {
+      "tag": "🇺🇸 US | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "fast.motorbazan.com",
+      "server_port": 443,
+      "uuid": "06462f62-5f9c-4632-9041-d35fedd0df97",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @NamiraConfigs #1",
+      "type": "vmess",
+      "server": "57.151.100.27",
+      "server_port": 10086,
+      "uuid": "550e8400-e29b-41d4-a716-446655440000",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @bored_vpn #1",
       "type": "vless",
       "server": "rvg-production-1ab7.up.railway.app",
       "server_port": 443,
       "uuid": "deffbfcd-0626-365b-ff92-9b93f2fd6459",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @bored_vpn #2",
+      "type": "vless",
+      "server": "rvg-production-798c.up.railway.app",
+      "server_port": 443,
+      "uuid": "c9c5e676-278f-7bf7-5436-dcf6e3210667",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -927,23 +976,6 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "gb7.univesalsrv.com",
-      "server_port": 443,
-      "uuid": "810b8ba9-3232-42ac-a474-3e921fdc8845",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "162.251.82.240",
@@ -976,6 +1008,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "udf4532193.dadashinet10.ir",
+      "server_port": 2044,
+      "uuid": "9205058d-99ca-4493-836a-0137834ece4d",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇺🇸 US | VLESS | @v2raying #1",

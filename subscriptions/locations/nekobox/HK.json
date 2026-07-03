@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇭🇰 HK | TROJAN | @jiedianf #1",
-        "🇭🇰 HK | TROJAN | @jiedianf #2"
+        "🇭🇰 HK | TROJAN | @jiedianf #2",
+        "🇭🇰 HK | VMESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇭🇰 HK | TROJAN | @jiedianf #1",
-        "🇭🇰 HK | TROJAN | @jiedianf #2"
+        "🇭🇰 HK | TROJAN | @jiedianf #2",
+        "🇭🇰 HK | VMESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -115,6 +117,22 @@
       "server": "103.177.136.45",
       "server_port": 47909,
       "password": "4f4d1167-ef14-4304-9bce-0740472503ef"
+    },
+    {
+      "tag": "🇭🇰 HK | VMESS | @red2ray #1",
+      "type": "vmess",
+      "server": "47.244.120.197",
+      "server_port": 36703,
+      "uuid": "45b83519-9c4f-4052-a11b-02e017b636d4",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/arki?ed=2048",
+        "headers": {
+          "Host": "47.244.120.197"
+        }
+      }
     }
   ],
   "route": {
