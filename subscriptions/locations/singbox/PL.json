@@ -91,8 +91,7 @@
         "auto",
         "direct",
         "🇵🇱 PL | VLESS | @free1_vpn #1",
-        "🇵🇱 PL | VLESS | @red2ray #1",
-        "🇵🇱 PL | VLESS | @v2ray_free_conf #1"
+        "🇵🇱 PL | VLESS | @outline_ir #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,8 +100,7 @@
       "interval": "10m",
       "outbounds": [
         "🇵🇱 PL | VLESS | @free1_vpn #1",
-        "🇵🇱 PL | VLESS | @red2ray #1",
-        "🇵🇱 PL | VLESS | @v2ray_free_conf #1"
+        "🇵🇱 PL | VLESS | @outline_ir #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -136,11 +134,11 @@
       }
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @red2ray #1",
+      "tag": "🇵🇱 PL | VLESS | @outline_ir #1",
       "type": "vless",
-      "server": "31.169.126.66",
-      "server_port": 443,
-      "uuid": "0970324b-8c61-4ae7-8c3f-385a6f1e17e4",
+      "server": "pl-allnet.onlinernet.ir",
+      "server_port": 20000,
+      "uuid": "199436d3-2fa2-4e34-a1de-844419de5a4f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -149,16 +147,13 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "scj.foot8all.ir",
-      "server_port": 11332,
-      "uuid": "681314c5-b3ee-41f1-a959-fa42841f5383",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {
