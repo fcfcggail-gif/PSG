@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇳🇱 NL | SS | @NamiraConfigs #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @netmellianti #1",
         "🇳🇱 NL | TROJAN | @nofiltering2 #1",
@@ -106,6 +107,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇳🇱 NL | SS | @NamiraConfigs #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @netmellianti #1",
         "🇳🇱 NL | TROJAN | @nofiltering2 #1",
@@ -124,6 +126,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇳🇱 NL | SS | @NamiraConfigs #1",
+      "type": "shadowsocks",
+      "server": "switcher-nick-croquet.freesocks.work",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I",
+      "password": null
     },
     {
       "tag": "🇳🇱 NL | SS | @easy_free_vpn #1",
@@ -223,24 +233,10 @@
     {
       "tag": "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "104.238.31.71",
-      "server_port": 443,
-      "uuid": "b783c6d6-3a0f-4c13-bbd1-86bf1ec4d94d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "ipv4.daimondweb.ir",
+      "server_port": 2053,
+      "uuid": "b7d8604b-e24b-4973-840a-d02ed34053f1",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇳🇱 NL | VLESS | @v2rayngvpn_1 #1",
