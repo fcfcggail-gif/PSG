@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | TROJAN | @jiedianf #1",
-        "🇭🇰 HK | TROJAN | @jiedianf #2"
+        "🇭🇰 HK | SS | @v2raych #1",
+        "🇭🇰 HK | SS | @v2raych #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | TROJAN | @jiedianf #1",
-        "🇭🇰 HK | TROJAN | @jiedianf #2"
+        "🇭🇰 HK | SS | @v2raych #1",
+        "🇭🇰 HK | SS | @v2raych #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,18 +112,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇭🇰 HK | TROJAN | @jiedianf #1",
-      "type": "trojan",
-      "server": "103.177.136.42",
-      "server_port": 45619,
-      "password": "4f4d1167-ef14-4304-9bce-0740472503ef"
+      "tag": "🇭🇰 HK | SS | @v2raych #1",
+      "type": "shadowsocks",
+      "server": "jp01.network-cdn-gw-yd.net",
+      "server_port": 48801,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToxMzQ4YTgzOC05MTA1LTRmM2UtYmQwNC02OTlhOWJlMTA0ODA=",
+      "password": null
     },
     {
-      "tag": "🇭🇰 HK | TROJAN | @jiedianf #2",
-      "type": "trojan",
-      "server": "103.177.136.45",
-      "server_port": 47909,
-      "password": "4f4d1167-ef14-4304-9bce-0740472503ef"
+      "tag": "🇭🇰 HK | SS | @v2raych #2",
+      "type": "shadowsocks",
+      "server": "hk1.network-cdn-gw-yd.net",
+      "server_port": 32060,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiMzgxM2UwMS1lMTMxLTRlZDItOThmZC1jM2E4MDVmYzUxNWY=",
+      "password": null
     }
   ],
   "route": {
