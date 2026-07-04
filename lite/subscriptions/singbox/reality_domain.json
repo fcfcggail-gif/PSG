@@ -94,11 +94,10 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
-        "🇩🇪 DE | VLESS | @free1_vpn #1",
         "🇫🇮 FI | VLESS | @netfreedom0 #1",
+        "🇫🇷 FR | VLESS | @red2ray #1",
         "🇩🇪 DE | VLESS | @sobi_vpn #1",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
-        "🇸🇪 SE | VLESS | @vmesc #1"
+        "🇩🇪 DE | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -110,11 +109,10 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
-        "🇩🇪 DE | VLESS | @free1_vpn #1",
         "🇫🇮 FI | VLESS | @netfreedom0 #1",
+        "🇫🇷 FR | VLESS | @red2ray #1",
         "🇩🇪 DE | VLESS | @sobi_vpn #1",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
-        "🇸🇪 SE | VLESS | @vmesc #1"
+        "🇩🇪 DE | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -220,19 +218,33 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @free1_vpn #1",
-      "type": "vless",
-      "server": "md.arghavanrezaii.co.uk",
-      "server_port": 2082,
-      "uuid": "c5ee3bba-f737-42d5-b0bc-cccec1ffe7e2",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇫🇮 FI | VLESS | @netfreedom0 #1",
       "type": "vless",
       "server": "fi1.vitok.cc",
       "server_port": 443,
       "uuid": "1b9e301d-cecd-4eb1-8b36-eef811c2696d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "check05.allenshop66244.ir",
+      "server_port": 8443,
+      "uuid": "cc3e6e36-b329-435b-bb71-192fb5c718ae",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -258,33 +270,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+      "tag": "🇩🇪 DE | VLESS | @vmesskhodam #1",
       "type": "vless",
-      "server": "germanclouding.iranlast.com",
-      "server_port": 7000,
-      "uuid": "3f298aca-2412-49ac-9f20-235f0e448d31",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @vmesc #1",
-      "type": "vless",
-      "server": "teain.org",
-      "server_port": 1005,
-      "uuid": "19f6900b-e716-4efc-55bb-c43b3cb4acfc",
+      "server": "alafi.marzban-locations.com",
+      "server_port": 6300,
+      "uuid": "8f6ccdb2-2b4e-4834-a90b-344bff490402",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

@@ -83,11 +83,14 @@
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mpproxy #1",
         "🇫🇷 FR | TROJAN | @privatevpns #1",
-        "🇫🇷 FR | TROJAN | @privatevpns #2",
         "🇫🇷 FR | VLESS | @red2ray #1",
+        "🇫🇷 FR | VLESS | @red2ray #2",
+        "🇫🇷 FR | VLESS | @red2ray #3",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
+        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
         "🇫🇷 FR | VLESS | @v2rayprotocol #1",
-        "🇫🇷 FR | VLESS | @v_2rayng0 #1"
+        "🇫🇷 FR | VLESS | @v_2rayng0 #1",
+        "🇫🇷 FR | VLESS | @vlessconfig #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,11 +104,14 @@
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mpproxy #1",
         "🇫🇷 FR | TROJAN | @privatevpns #1",
-        "🇫🇷 FR | TROJAN | @privatevpns #2",
         "🇫🇷 FR | VLESS | @red2ray #1",
+        "🇫🇷 FR | VLESS | @red2ray #2",
+        "🇫🇷 FR | VLESS | @red2ray #3",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
+        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
         "🇫🇷 FR | VLESS | @v2rayprotocol #1",
-        "🇫🇷 FR | VLESS | @v_2rayng0 #1"
+        "🇫🇷 FR | VLESS | @v_2rayng0 #1",
+        "🇫🇷 FR | VLESS | @vlessconfig #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -181,23 +187,7 @@
     {
       "tag": "🇫🇷 FR | TROJAN | @privatevpns #1",
       "type": "trojan",
-      "server": "13.39.253.200",
-      "server_port": 22222,
-      "password": "telegram-id-privatevpns",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 FR | TROJAN | @privatevpns #2",
-      "type": "trojan",
-      "server": "15.188.93.166",
+      "server": "15.236.49.148",
       "server_port": 22222,
       "password": "telegram-id-privatevpns",
       "tls": {
@@ -213,7 +203,51 @@
     {
       "tag": "🇫🇷 FR | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "all105.allenshop66245.ir",
+      "server": "check05.allenshop66244.ir",
+      "server_port": 8443,
+      "uuid": "cc3e6e36-b329-435b-bb71-192fb5c718ae",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @red2ray #2",
+      "type": "vless",
+      "server": "all163.allenshop66245.ir",
+      "server_port": 443,
+      "uuid": "36644091-0cec-47fe-9955-97c3f424baf7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @red2ray #3",
+      "type": "vless",
+      "server": "all065.allenshop66245.ir",
       "server_port": 443,
       "uuid": "36644091-0cec-47fe-9955-97c3f424baf7",
       "packet_encoding": "xudp",
@@ -250,6 +284,14 @@
       }
     },
     {
+      "tag": "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "104.252.89.240",
+      "server_port": 10393,
+      "uuid": "c5b7066c-88c3-4fd7-a07c-d5a3c45f9b62",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇫🇷 FR | VLESS | @v2rayprotocol #1",
       "type": "vless",
       "server": "cdg-1.fromblancwithlove.com",
@@ -280,6 +322,21 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @vlessconfig #1",
+      "type": "vless",
+      "server": "15.188.93.166",
+      "server_port": 22224,
+      "uuid": "05519058-d2ac-4f28-9e4a-2b2a1386749e",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
         }
       }
     }
