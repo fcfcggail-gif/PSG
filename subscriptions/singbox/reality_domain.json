@@ -100,8 +100,10 @@
         "🇺🇸 US | VLESS | @red2ray #1",
         "🇸🇨 SC | VLESS | @red2ray #1",
         "🇩🇪 DE | VLESS | @sobi_vpn #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
-        "🇩🇪 DE | VLESS | @vmesskhodam #1"
+        "🇵🇱 PL | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -119,8 +121,10 @@
         "🇺🇸 US | VLESS | @red2ray #1",
         "🇸🇨 SC | VLESS | @red2ray #1",
         "🇩🇪 DE | VLESS | @sobi_vpn #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
-        "🇩🇪 DE | VLESS | @vmesskhodam #1"
+        "🇵🇱 PL | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -330,6 +334,45 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "s2.dipvpn.ru",
+      "server_port": 443,
+      "uuid": "3559f1f7-7d70-46c9-82db-d2b46269300b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "all112.allenshop66245.ir",
+      "server_port": 443,
+      "uuid": "36644091-0cec-47fe-9955-97c3f424baf7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇷🇺 RU | VLESS | @v2raytg #1",
       "type": "vless",
       "server": "b02.connectv.net",
@@ -352,11 +395,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @vmesskhodam #1",
+      "tag": "🇵🇱 PL | VLESS | @vmesc #1",
       "type": "vless",
-      "server": "alafi.marzban-locations.com",
-      "server_port": 6300,
-      "uuid": "8f6ccdb2-2b4e-4834-a90b-344bff490402",
+      "server": "polja.foot8all.ir",
+      "server_port": 50567,
+      "uuid": "e13a3671-2049-49c2-837c-f2b596567f79",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
