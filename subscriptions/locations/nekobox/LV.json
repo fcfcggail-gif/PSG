@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇱🇻 LV | VLESS | @free4allvpn #1",
-        "🇱🇻 LV | VLESS | @megavpn_link #1"
+        "🇱🇻 LV | VLESS | @megavpn_link #1",
+        "🇱🇻 LV | VLESS | @outline_ir #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇱🇻 LV | VLESS | @free4allvpn #1",
-        "🇱🇻 LV | VLESS | @megavpn_link #1"
+        "🇱🇻 LV | VLESS | @megavpn_link #1",
+        "🇱🇻 LV | VLESS | @outline_ir #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -130,6 +132,28 @@
       "server": "91.218.143.194",
       "server_port": 43798,
       "uuid": "b7725d23-840a-4f8e-993c-69b40424cfc0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇱🇻 LV | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "subi.polnejat.ir",
+      "server_port": 25718,
+      "uuid": "28074c22-d65e-46ce-8426-22f9e05e0363",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
