@@ -119,8 +119,8 @@
         "🇸🇪 SE | VLESS | @v2logy #3",
         "🇸🇪 SE | VLESS | @v2raymelliii #1",
         "🇸🇪 SE | VLESS | @v2raymelliii #2",
-        "🇸🇪 SE | VLESS | @v2rayprotocol #1",
-        "🇸🇪 SE | TUIC | @vipv2rey #1"
+        "🇸🇪 SE | TUIC | @vipv2rey #1",
+        "🇸🇪 SE | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -157,8 +157,8 @@
         "🇸🇪 SE | VLESS | @v2logy #3",
         "🇸🇪 SE | VLESS | @v2raymelliii #1",
         "🇸🇪 SE | VLESS | @v2raymelliii #2",
-        "🇸🇪 SE | VLESS | @v2rayprotocol #1",
-        "🇸🇪 SE | TUIC | @vipv2rey #1"
+        "🇸🇪 SE | TUIC | @vipv2rey #1",
+        "🇸🇪 SE | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -510,23 +510,6 @@
       }
     },
     {
-      "tag": "🇸🇪 SE | VLESS | @v2rayprotocol #1",
-      "type": "vless",
-      "server": "45.159.12.162",
-      "server_port": 8443,
-      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇸🇪 SE | TUIC | @vipv2rey #1",
       "type": "tuic",
       "server": "70.34.197.98",
@@ -540,6 +523,23 @@
         "server_name": "",
         "insecure": false,
         "alpn": null
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "192.71.82.2",
+      "server_port": 443,
+      "uuid": "a5c05c1e-aa68-443f-8598-09800244bd4b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     }
   ],
