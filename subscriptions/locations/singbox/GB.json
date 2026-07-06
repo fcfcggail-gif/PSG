@@ -90,7 +90,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇬🇧 GB | VLESS | @NamiraConfigs #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @free4allvpn #2",
         "🇬🇧 GB | TROJAN | @mehrosaboran #1",
@@ -102,7 +101,9 @@
         "🇬🇧 GB | SS | @v2rayng3 #1",
         "🇬🇧 GB | SS | @v2rayopen #1",
         "🇬🇧 GB | TUIC | @vipv2rey #1",
-        "🇬🇧 GB | VLESS | @vmesskhodam #1"
+        "🇬🇧 GB | SS | @vmesskhodam #1",
+        "🇬🇧 GB | VLESS | @vmesskhodam #1",
+        "🇬🇧 GB | SS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -110,7 +111,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇬🇧 GB | VLESS | @NamiraConfigs #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @free4allvpn #2",
         "🇬🇧 GB | TROJAN | @mehrosaboran #1",
@@ -122,7 +122,9 @@
         "🇬🇧 GB | SS | @v2rayng3 #1",
         "🇬🇧 GB | SS | @v2rayopen #1",
         "🇬🇧 GB | TUIC | @vipv2rey #1",
-        "🇬🇧 GB | VLESS | @vmesskhodam #1"
+        "🇬🇧 GB | SS | @vmesskhodam #1",
+        "🇬🇧 GB | VLESS | @vmesskhodam #1",
+        "🇬🇧 GB | SS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -132,18 +134,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "45.86.159.134",
-      "server_port": 2085,
-      "uuid": "1ea1b30b-4114-4a5c-bd3a-9637bdae1948",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "grpc",
-        "service_name": ""
-      }
     },
     {
       "tag": "🇬🇧 GB | SS | @free4allvpn #1",
@@ -264,6 +254,14 @@
       }
     },
     {
+      "tag": "🇬🇧 GB | SS | @vmesskhodam #1",
+      "type": "shadowsocks",
+      "server": "82.38.31.47",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
+    },
+    {
       "tag": "🇬🇧 GB | VLESS | @vmesskhodam #1",
       "type": "vless",
       "server": "186.190.211.188",
@@ -279,6 +277,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @vpn_ioss #1",
+      "type": "shadowsocks",
+      "server": "82.38.31.214",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
+      "password": null
     }
   ],
   "route": {

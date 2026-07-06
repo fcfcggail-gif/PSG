@@ -105,13 +105,13 @@
         "🇸🇨 SC | VLESS | @bored_vpn #1",
         "🇽🇽 XX | VLESS | @configv2rayforfree #2",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
-        "🇸🇨 SC | VLESS | @mehrosaboran #1",
         "🇳🇱 NL | VLESS | @netmellianti #1",
+        "🇺🇸 US | VLESS | @netmellianti #1",
+        "🇽🇽 XX | VLESS | @netmellianti #2",
         "🇬🇧 GB | VLESS | @v2aryng_vpn #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
-        "🇽🇽 XX | VLESS | @v2ray_youtube #4",
-        "🇮🇷 IR | VLESS | @v2raych #2"
+        "🇽🇽 XX | VLESS | @v2ray_youtube #4"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -147,13 +147,13 @@
         "🇸🇨 SC | VLESS | @bored_vpn #1",
         "🇽🇽 XX | VLESS | @configv2rayforfree #2",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
-        "🇸🇨 SC | VLESS | @mehrosaboran #1",
         "🇳🇱 NL | VLESS | @netmellianti #1",
+        "🇺🇸 US | VLESS | @netmellianti #1",
+        "🇽🇽 XX | VLESS | @netmellianti #2",
         "🇬🇧 GB | VLESS | @v2aryng_vpn #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
-        "🇽🇽 XX | VLESS | @v2ray_youtube #4",
-        "🇮🇷 IR | VLESS | @v2raych #2"
+        "🇽🇽 XX | VLESS | @v2ray_youtube #4"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -558,28 +558,27 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @mehrosaboran #1",
-      "type": "vless",
-      "server": "ipw.ygdfw.com",
-      "server_port": 443,
-      "uuid": "bbab81f3-87a0-4e63-8b3b-010c645d8da7",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @netmellianti #1",
       "type": "vless",
       "server": "nl.ipsafe2.site",
       "server_port": 42439,
       "uuid": "41a6a386-485c-417f-971c-06167252863a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @netmellianti #1",
+      "type": "vless",
+      "server": "us.ipsafe2.site",
+      "server_port": 40646,
+      "uuid": "41a6a386-485c-417f-971c-06167252863a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @netmellianti #2",
+      "type": "vless",
+      "server": "cdn1.mehfa.site",
+      "server_port": 80,
+      "uuid": "b14bc0dc-623e-42ca-b45a-383a572fa192",
       "packet_encoding": "xudp"
     },
     {
@@ -621,14 +620,6 @@
       "server": "fbi.gov",
       "server_port": 2053,
       "uuid": "ee137caa-54c7-4392-a017-3a7c460fa773",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "s2.zynavo.ir",
-      "server_port": 2087,
-      "uuid": "9eca02b6-5d5e-4199-3c6e-3509e2fe779d",
       "packet_encoding": "xudp"
     }
   ],
