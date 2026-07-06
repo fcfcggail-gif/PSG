@@ -95,8 +95,11 @@
         "KingRezaPahlavi",
         "🇽🇽 XX | VLESS | @configv2rayforfree #2",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
+        "🇩🇪 DE | VLESS | @free1_vpn #1",
         "🇸🇨 SC | VLESS | @mehrosaboran #1",
-        "🇬🇧 GB | VLESS | @v2aryng_vpn #1"
+        "🇽🇽 XX | VLESS | @outline_ir #2",
+        "🇬🇧 GB | VLESS | @v2aryng_vpn #1",
+        "🇽🇽 XX | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -109,8 +112,11 @@
         "KingRezaPahlavi",
         "🇽🇽 XX | VLESS | @configv2rayforfree #2",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
+        "🇩🇪 DE | VLESS | @free1_vpn #1",
         "🇸🇨 SC | VLESS | @mehrosaboran #1",
-        "🇬🇧 GB | VLESS | @v2aryng_vpn #1"
+        "🇽🇽 XX | VLESS | @outline_ir #2",
+        "🇬🇧 GB | VLESS | @v2aryng_vpn #1",
+        "🇽🇽 XX | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -210,11 +216,36 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "md.arghavanrezaii.co.uk",
+      "server_port": 2082,
+      "uuid": "c5ee3bba-f737-42d5-b0bc-cccec1ffe7e2",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇸🇨 SC | VLESS | @mehrosaboran #1",
       "type": "vless",
       "server": "ipw.ygdfw.com",
       "server_port": 443,
       "uuid": "bbab81f3-87a0-4e63-8b3b-010c645d8da7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @outline_ir #2",
+      "type": "vless",
+      "server": "az.bgp6.ir",
+      "server_port": 443,
+      "uuid": "19a04069-2321-4d57-a289-44fa974a08f8",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -233,6 +264,23 @@
       "server_port": 2053,
       "uuid": "2dacceea-8664-4fed-ba16-27fdd3b40f3e",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "az.bgp6.ir",
+      "server_port": 443,
+      "uuid": "19a04069-2321-4d57-a289-44fa974a08f8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

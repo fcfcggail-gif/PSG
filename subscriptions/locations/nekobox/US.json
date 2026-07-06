@@ -77,7 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇺🇸 US | VLESS | @NamiraConfigs #1",
+        "🇺🇸 US | SS | @NamiraConfigs #1",
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @bored_vpn #2",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
@@ -116,7 +116,6 @@
         "🇺🇸 US | TROJAN | @prrofile_purple #2",
         "🇺🇸 US | VLESS | @public504 #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
-        "🇺🇸 US | VLESS | @red2ray #1",
         "🇺🇸 US | TROJAN | @rez1vpn #1",
         "🇺🇸 US | VLESS | @tobevasl #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
@@ -124,9 +123,9 @@
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_youtube #1",
+        "🇺🇸 US | VMESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2raying #1",
         "🇺🇸 US | TROJAN | @v2raying #1",
-        "🇺🇸 US | TROJAN | @v2rayng3 #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
         "🇺🇸 US | TROJAN | @v2rayprotocol #1",
@@ -145,7 +144,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇺🇸 US | VLESS | @NamiraConfigs #1",
+        "🇺🇸 US | SS | @NamiraConfigs #1",
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @bored_vpn #2",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
@@ -184,7 +183,6 @@
         "🇺🇸 US | TROJAN | @prrofile_purple #2",
         "🇺🇸 US | VLESS | @public504 #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
-        "🇺🇸 US | VLESS | @red2ray #1",
         "🇺🇸 US | TROJAN | @rez1vpn #1",
         "🇺🇸 US | VLESS | @tobevasl #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
@@ -192,9 +190,9 @@
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_youtube #1",
+        "🇺🇸 US | VMESS | @v2raych #1",
         "🇺🇸 US | VLESS | @v2raying #1",
         "🇺🇸 US | TROJAN | @v2raying #1",
-        "🇺🇸 US | TROJAN | @v2rayng3 #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
         "🇺🇸 US | TROJAN | @v2rayprotocol #1",
@@ -221,12 +219,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "usa.mohammadaz2.shop",
-      "server_port": 42348,
-      "uuid": "e286cebe-7473-44e9-8c30-273ac36ac83b",
-      "packet_encoding": "xudp"
+      "tag": "🇺🇸 US | SS | @NamiraConfigs #1",
+      "type": "shadowsocks",
+      "server": "156.146.38.170",
+      "server_port": 443,
+      "method": "YWVzLTEyOC1nY206c2hhZG93c29ja3M=",
+      "password": null
     },
     {
       "tag": "🇺🇸 US | VLESS | @bored_vpn #1",
@@ -769,14 +767,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "141.193.213.21",
-      "server_port": 2087,
-      "uuid": "bef3d732-ca3a-4589-8e1b-7cb9e18475dc",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇺🇸 US | TROJAN | @rez1vpn #1",
       "type": "trojan",
       "server": "151.101.56.6",
@@ -892,6 +882,31 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇺🇸 US | VMESS | @v2raych #1",
+      "type": "vmess",
+      "server": "phoenix0202.zgjok.com",
+      "server_port": 443,
+      "uuid": "d9c36b55-447a-4484-882b-d799f5301681",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "phoenix0202.zgjok.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/d9c36b55-447a-4484-882b-d799f5301681",
+        "headers": {
+          "Host": "phoenix0202.zgjok.com"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @v2raying #1",
       "type": "vless",
       "server": "psf-1.zdshop.ir",
@@ -905,22 +920,6 @@
       "server": "151.101.110.219",
       "server_port": 443,
       "password": "Mitivpn",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | TROJAN | @v2rayng3 #1",
-      "type": "trojan",
-      "server": "165.215.250.14",
-      "server_port": 443,
-      "password": "humanity",
       "tls": {
         "enabled": true,
         "server_name": "",

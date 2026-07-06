@@ -77,7 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇸 ES | VLESS | @NamiraConfigs #1"
+        "🇪🇸 ES | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇸 ES | VLESS | @NamiraConfigs #1"
+        "🇪🇸 ES | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,12 +101,21 @@
       "type": "direct"
     },
     {
-      "tag": "🇪🇸 ES | VLESS | @NamiraConfigs #1",
+      "tag": "🇪🇸 ES | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "spain.unixzone.us",
-      "server_port": 36326,
-      "uuid": "63ff4bfa-0f1d-48e4-8314-e882b14e602c",
-      "packet_encoding": "xudp"
+      "server": "es204.mechvpn.online",
+      "server_port": 443,
+      "uuid": "c777e5b5-9904-4644-947a-e4208a0329d0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

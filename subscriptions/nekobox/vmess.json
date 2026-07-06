@@ -80,6 +80,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇨🇦 CA | VMESS | @NamiraConfigs #1",
         "🇩🇪 DE | VMESS | @NamiraConfigs #1",
         "🇽🇽 XX | VMESS | @frev2rayng #1",
         "🇽🇽 XX | VMESS | @hope_net #1",
@@ -103,7 +104,9 @@
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
+        "🇺🇸 US | VMESS | @v2raych #1",
         "🇮🇷 IR | VMESS | @v2rayng3 #1",
+        "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "proxy",
@@ -115,6 +118,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇨🇦 CA | VMESS | @NamiraConfigs #1",
         "🇩🇪 DE | VMESS | @NamiraConfigs #1",
         "🇽🇽 XX | VMESS | @frev2rayng #1",
         "🇽🇽 XX | VMESS | @hope_net #1",
@@ -138,7 +142,9 @@
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
+        "🇺🇸 US | VMESS | @v2raych #1",
         "🇮🇷 IR | VMESS | @v2rayng3 #1",
+        "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "auto",
@@ -225,6 +231,15 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇨🇦 CA | VMESS | @NamiraConfigs #1",
+      "type": "vmess",
+      "server": "23.162.200.198",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇩🇪 DE | VMESS | @NamiraConfigs #1",
@@ -725,6 +740,31 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VMESS | @v2raych #1",
+      "type": "vmess",
+      "server": "phoenix0202.zgjok.com",
+      "server_port": 443,
+      "uuid": "d9c36b55-447a-4484-882b-d799f5301681",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "phoenix0202.zgjok.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/d9c36b55-447a-4484-882b-d799f5301681",
+        "headers": {
+          "Host": "phoenix0202.zgjok.com"
+        }
+      }
+    },
+    {
       "tag": "🇮🇷 IR | VMESS | @v2rayng3 #1",
       "type": "vmess",
       "server": "client.cloudafra.top",
@@ -732,6 +772,31 @@
       "uuid": "0c9dc39b-47d9-47d8-8dab-c3cce76e3099",
       "security": "auto",
       "alter_id": 0
+    },
+    {
+      "tag": "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
+      "type": "vmess",
+      "server": "site.hooracoffee.ir",
+      "server_port": 443,
+      "uuid": "ed954dba-5ad5-4688-8174-247944361c38",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "site.hooracoffee.ir",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/www",
+        "headers": {
+          "Host": "site.hooracoffee.ir"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VMESS | @vpngate_config #1",
