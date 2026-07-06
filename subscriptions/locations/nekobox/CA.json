@@ -77,9 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇦 CA | VMESS | @NamiraConfigs #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
+        "🇨🇦 CA | VLESS | @rez1vpn #1",
         "🇨🇦 CA | VLESS | @serverv2ray00 #1"
       ],
       "tag": "proxy",
@@ -88,9 +88,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇦 CA | VMESS | @NamiraConfigs #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
+        "🇨🇦 CA | VLESS | @rez1vpn #1",
         "🇨🇦 CA | VLESS | @serverv2ray00 #1"
       ],
       "tag": "auto",
@@ -105,15 +105,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇨🇦 CA | VMESS | @NamiraConfigs #1",
-      "type": "vmess",
-      "server": "23.162.200.198",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "tag": "🇨🇦 CA | VLESS | @jokerv2ray #1",
@@ -137,6 +128,14 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇨🇦 CA | VLESS | @rez1vpn #1",
+      "type": "vless",
+      "server": "ov-canada1.09vpn.com",
+      "server_port": 8443,
+      "uuid": "08f96221-9b7b-4e6f-8ffe-aee8b9c9b504",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇨🇦 CA | VLESS | @serverv2ray00 #1",

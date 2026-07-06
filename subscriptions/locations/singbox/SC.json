@@ -98,10 +98,12 @@
         "🇸🇨 SC | VLESS | @free1_vpn #1",
         "🇸🇨 SC | VLESS | @freevirgoolnet #1",
         "🇸🇨 SC | VLESS | @mehrosaboran #1",
+        "🇸🇨 SC | TROJAN | @red2ray #1",
         "🇸🇨 SC | VLESS | @rez1vpn #1",
         "🇸🇨 SC | VLESS | @selinc #1",
         "🇸🇨 SC | VLESS | @selinc #2",
-        "🇸🇨 SC | VLESS | @turboo_server #1"
+        "🇸🇨 SC | VLESS | @turboo_server #1",
+        "🇸🇨 SC | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -117,10 +119,12 @@
         "🇸🇨 SC | VLESS | @free1_vpn #1",
         "🇸🇨 SC | VLESS | @freevirgoolnet #1",
         "🇸🇨 SC | VLESS | @mehrosaboran #1",
+        "🇸🇨 SC | TROJAN | @red2ray #1",
         "🇸🇨 SC | VLESS | @rez1vpn #1",
         "🇸🇨 SC | VLESS | @selinc #1",
         "🇸🇨 SC | VLESS | @selinc #2",
-        "🇸🇨 SC | VLESS | @turboo_server #1"
+        "🇸🇨 SC | VLESS | @turboo_server #1",
+        "🇸🇨 SC | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -241,6 +245,22 @@
       }
     },
     {
+      "tag": "🇸🇨 SC | TROJAN | @red2ray #1",
+      "type": "trojan",
+      "server": "45.130.125.2",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇸🇨 SC | VLESS | @rez1vpn #1",
       "type": "vless",
       "server": "45.195.137.48",
@@ -313,6 +333,28 @@
       "server_port": 2053,
       "uuid": "b37be529-83c9-4851-a3cf-73d7d05bf308",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "45.196.182.76",
+      "server_port": 443,
+      "uuid": "701ea834-7c31-4544-95d6-f0a4dfe40b36",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
