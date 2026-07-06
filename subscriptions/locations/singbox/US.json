@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇺🇸 US | VMESS | @NamiraConfigs #1",
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @bored_vpn #2",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
@@ -99,6 +100,7 @@
         "🇺🇸 US | TROJAN | @father_vpn #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇺🇸 US | VLESS | @flyv2ray #1",
+        "🇺🇸 US | VLESS | @free1_vpn #1",
         "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇺🇸 US | SS | @godv2rang #1",
@@ -129,15 +131,14 @@
         "🇺🇸 US | VLESS | @public504 #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇺🇸 US | VLESS | @red2ray #1",
+        "🇺🇸 US | VLESS | @red2ray #2",
         "🇺🇸 US | TROJAN | @rez1vpn #1",
         "🇺🇸 US | VLESS | @tobevasl #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2ray_youtube #1",
-        "🇺🇸 US | VLESS | @v2raying #1",
         "🇺🇸 US | TROJAN | @v2raying #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
@@ -158,6 +159,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇺🇸 US | VMESS | @NamiraConfigs #1",
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @bored_vpn #2",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
@@ -167,6 +169,7 @@
         "🇺🇸 US | TROJAN | @father_vpn #1",
         "🇺🇸 US | VLESS | @filterk0sh #1",
         "🇺🇸 US | VLESS | @flyv2ray #1",
+        "🇺🇸 US | VLESS | @free1_vpn #1",
         "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇺🇸 US | SS | @godv2rang #1",
@@ -197,15 +200,14 @@
         "🇺🇸 US | VLESS | @public504 #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇺🇸 US | VLESS | @red2ray #1",
+        "🇺🇸 US | VLESS | @red2ray #2",
         "🇺🇸 US | TROJAN | @rez1vpn #1",
         "🇺🇸 US | VLESS | @tobevasl #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2ray_youtube #1",
-        "🇺🇸 US | VLESS | @v2raying #1",
         "🇺🇸 US | TROJAN | @v2raying #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
@@ -228,6 +230,15 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @NamiraConfigs #1",
+      "type": "vmess",
+      "server": "c722s801.portablesubmarines.com",
+      "server_port": 16025,
+      "uuid": "4bd2af9a-67a3-4e1a-8eef-c443ec86e80b",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇺🇸 US | VLESS | @bored_vpn #1",
@@ -341,6 +352,23 @@
       "server": "rvg-production-dfeb.up.railway.app",
       "server_port": 443,
       "uuid": "147182ba-946d-9ef2-a209-dbfcccec9231",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "141.193.213.21",
+      "server_port": 443,
+      "uuid": "4f013568-a58b-4b04-b5dd-4d52bf1c33a4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -774,7 +802,24 @@
       "type": "vless",
       "server": "blog.webex.com",
       "server_port": 443,
-      "uuid": "57d22829-187c-4f83-b757-d6e367ca6de8",
+      "uuid": "c1842b1d-433d-4576-ab60-7603fd3dcc55",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @red2ray #2",
+      "type": "vless",
+      "server": "fast.motorbazan.com",
+      "server_port": 443,
+      "uuid": "7943183f-5c33-4728-8d57-8f18efe6ce25",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -894,27 +939,11 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "151.101.3.147",
-      "server_port": 80,
-      "uuid": "24d49ddd-67c1-4821-b5b9-f12107366978",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "38.107.232.146",
       "server_port": 80,
       "uuid": "d07c6648-b644-4736-ade5-9bb4062bf42a",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @v2raying #1",
-      "type": "vless",
-      "server": "psf-1.zdshop.ir",
-      "server_port": 80,
-      "uuid": "7dfdbb4b-5bf7-4503-b2c0-4ef05922dcb9",
       "packet_encoding": "xudp"
     },
     {

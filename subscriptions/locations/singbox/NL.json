@@ -90,8 +90,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇳🇱 NL | VLESS | @NamiraConfigs #1",
-        "🇳🇱 NL | VLESS | @NamiraConfigs #2",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @netmellianti #1",
         "🇳🇱 NL | TROJAN | @nofiltering2 #1",
@@ -99,7 +97,8 @@
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
-        "🇳🇱 NL | VLESS | @v2ray_youtube #1"
+        "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+        "🇳🇱 NL | TROJAN | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -107,8 +106,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇳🇱 NL | VLESS | @NamiraConfigs #1",
-        "🇳🇱 NL | VLESS | @NamiraConfigs #2",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @netmellianti #1",
         "🇳🇱 NL | TROJAN | @nofiltering2 #1",
@@ -116,7 +113,8 @@
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
-        "🇳🇱 NL | VLESS | @v2ray_youtube #1"
+        "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+        "🇳🇱 NL | TROJAN | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -126,31 +124,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "176.222.54.252",
-      "server_port": 26690,
-      "uuid": "bd449f7a-95aa-4920-9af0-cd6b5d4cb5f1",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @NamiraConfigs #2",
-      "type": "vless",
-      "server": "45.131.209.212",
-      "server_port": 443,
-      "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇳🇱 NL | SS | @easy_free_vpn #1",
@@ -254,6 +227,22 @@
       "server_port": 4242,
       "uuid": "df196287-5b8c-4592-870f-b3ede251fa68",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | TROJAN | @vmesskhodam #1",
+      "type": "trojan",
+      "server": "45.131.4.115",
+      "server_port": 443,
+      "password": "MiTiVPN",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
