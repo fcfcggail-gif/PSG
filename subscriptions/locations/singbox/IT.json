@@ -90,7 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇮🇹 IT | VLESS | @free1_vpn #1",
         "🇮🇹 IT | VLESS | @netfreedom0 #1",
+        "🇮🇹 IT | VLESS | @red2ray #1",
+        "🇮🇹 IT | VLESS | @vmesc #1",
         "🇮🇹 IT | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -99,7 +102,10 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇮🇹 IT | VLESS | @free1_vpn #1",
         "🇮🇹 IT | VLESS | @netfreedom0 #1",
+        "🇮🇹 IT | VLESS | @red2ray #1",
+        "🇮🇹 IT | VLESS | @vmesc #1",
         "🇮🇹 IT | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -112,6 +118,14 @@
       "type": "direct"
     },
     {
+      "tag": "🇮🇹 IT | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "sca15.speedmeter.shop",
+      "server_port": 8880,
+      "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇮🇹 IT | VLESS | @netfreedom0 #1",
       "type": "vless",
       "server": "sca30.mysilipdir.com",
@@ -121,6 +135,50 @@
       "transport": {
         "type": "grpc",
         "service_name": ""
+      }
+    },
+    {
+      "tag": "🇮🇹 IT | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "it-one.quiet-rogue.site",
+      "server_port": 443,
+      "uuid": "bf142126-5bc4-46fa-986e-ffc4517655dd",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇮🇹 IT | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "talianaccentclouding.iranlast.com",
+      "server_port": 7009,
+      "uuid": "3f298aca-2412-49ac-9f20-235f0e448d31",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
       }
     },
     {

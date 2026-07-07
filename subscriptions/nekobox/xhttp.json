@@ -98,6 +98,7 @@
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
@@ -111,7 +112,9 @@
         "🇬🇧 GB | VLESS | @v2aryng_vpn #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
-        "🇽🇽 XX | VLESS | @v2ray_youtube #4"
+        "🇽🇽 XX | VLESS | @v2ray_youtube #4",
+        "🇮🇷 IR | VLESS | @v2raych #1",
+        "🇳🇱 NL | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -140,6 +143,7 @@
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
@@ -153,7 +157,9 @@
         "🇬🇧 GB | VLESS | @v2aryng_vpn #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
-        "🇽🇽 XX | VLESS | @v2ray_youtube #4"
+        "🇽🇽 XX | VLESS | @v2ray_youtube #4",
+        "🇮🇷 IR | VLESS | @v2raych #1",
+        "🇳🇱 NL | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -466,6 +472,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "104.16.7.70",
+      "server_port": 443,
+      "uuid": "406d8436-0eb9-4eb2-84fb-960e076ffba6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "104.20.46.193",
@@ -620,6 +643,22 @@
       "server": "fbi.gov",
       "server_port": 2053,
       "uuid": "ee137caa-54c7-4392-a017-3a7c460fa773",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "pokt.azizpor.com",
+      "server_port": 2020,
+      "uuid": "a8f67c18-0db1-44a5-9ab9-c8c9470e23ca",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "nlll.serendpiti.ir",
+      "server_port": 2060,
+      "uuid": "b1f66344-4d4a-49d9-9c3a-9fae78d408f8",
       "packet_encoding": "xudp"
     }
   ],
