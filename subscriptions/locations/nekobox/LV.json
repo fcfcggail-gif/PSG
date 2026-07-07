@@ -79,7 +79,7 @@
         "direct",
         "🇱🇻 LV | VLESS | @free4allvpn #1",
         "🇱🇻 LV | VLESS | @megavpn_link #1",
-        "🇱🇻 LV | VLESS | @outline_ir #1"
+        "🇱🇻 LV | VLESS | @mehrosaboran #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,7 +89,7 @@
       "outbounds": [
         "🇱🇻 LV | VLESS | @free4allvpn #1",
         "🇱🇻 LV | VLESS | @megavpn_link #1",
-        "🇱🇻 LV | VLESS | @outline_ir #1"
+        "🇱🇻 LV | VLESS | @mehrosaboran #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -149,12 +149,26 @@
       }
     },
     {
-      "tag": "🇱🇻 LV | VLESS | @outline_ir #1",
+      "tag": "🇱🇻 LV | VLESS | @mehrosaboran #1",
       "type": "vless",
-      "server": "fn.fifapes.monster",
-      "server_port": 2090,
-      "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
-      "packet_encoding": "xudp"
+      "server": "31.57.28.197",
+      "server_port": 443,
+      "uuid": "fedf7ff3-0bd2-45dd-ba36-b25cda318388",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
