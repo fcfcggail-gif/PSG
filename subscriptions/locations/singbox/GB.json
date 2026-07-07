@@ -90,12 +90,18 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇬🇧 GB | SS | @NamiraConfigs #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
+        "🇬🇧 GB | SS | @free4allvpn #2",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | VLESS | @netfreedom0 #1",
+        "🇬🇧 GB | SS | @outline_ir #1",
+        "🇬🇧 GB | SS | @outline_ir #2",
         "🇬🇧 GB | SS | @torang_vpn #1",
         "🇬🇧 GB | VLESS | @v2aryng_vpn #1",
-        "🇬🇧 GB | TUIC | @vipv2rey #1"
+        "🇬🇧 GB | SS | @v2rayng3 #1",
+        "🇬🇧 GB | TUIC | @vipv2rey #1",
+        "🇬🇧 GB | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -103,12 +109,18 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇬🇧 GB | SS | @NamiraConfigs #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
+        "🇬🇧 GB | SS | @free4allvpn #2",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | VLESS | @netfreedom0 #1",
+        "🇬🇧 GB | SS | @outline_ir #1",
+        "🇬🇧 GB | SS | @outline_ir #2",
         "🇬🇧 GB | SS | @torang_vpn #1",
         "🇬🇧 GB | VLESS | @v2aryng_vpn #1",
-        "🇬🇧 GB | TUIC | @vipv2rey #1"
+        "🇬🇧 GB | SS | @v2rayng3 #1",
+        "🇬🇧 GB | TUIC | @vipv2rey #1",
+        "🇬🇧 GB | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -120,11 +132,27 @@
       "type": "direct"
     },
     {
+      "tag": "🇬🇧 GB | SS | @NamiraConfigs #1",
+      "type": "shadowsocks",
+      "server": "82.38.31.218",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
+      "password": null
+    },
+    {
       "tag": "🇬🇧 GB | SS | @free4allvpn #1",
       "type": "shadowsocks",
       "server": "141.98.101.182",
       "server_port": 443,
       "method": "YXV0bzo=",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @free4allvpn #2",
+      "type": "shadowsocks",
+      "server": "82.38.31.205",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
       "password": null
     },
     {
@@ -158,6 +186,22 @@
       }
     },
     {
+      "tag": "🇬🇧 GB | SS | @outline_ir #1",
+      "type": "shadowsocks",
+      "server": "82.38.31.203",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @outline_ir #2",
+      "type": "shadowsocks",
+      "server": "82.38.31.195",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
+      "password": null
+    },
+    {
       "tag": "🇬🇧 GB | SS | @torang_vpn #1",
       "type": "shadowsocks",
       "server": "series-a1.samanehha.co",
@@ -174,6 +218,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇬🇧 GB | SS | @v2rayng3 #1",
+      "type": "shadowsocks",
+      "server": "82.38.31.35",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
+    },
+    {
       "tag": "🇬🇧 GB | TUIC | @vipv2rey #1",
       "type": "tuic",
       "server": "64.176.186.193",
@@ -187,6 +239,28 @@
         "server_name": "",
         "insecure": false,
         "alpn": null
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "britain.oorluma.ir",
+      "server_port": 6300,
+      "uuid": "8f6ccdb2-2b4e-4834-a90b-344bff490402",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
       }
     }
   ],
