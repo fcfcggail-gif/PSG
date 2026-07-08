@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQkU=
+//profile-title: base64:UFNHIHwgVFI=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇪 BE | VLESS | @v2ray_free_conf #1"
+        "🇹🇷 TR | VLESS | @NamiraConfigs #1",
+        "🇹🇷 TR | VLESS | @mehrosaboran #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇪 BE | VLESS | @v2ray_free_conf #1"
+        "🇹🇷 TR | VLESS | @NamiraConfigs #1",
+        "🇹🇷 TR | VLESS | @mehrosaboran #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +112,38 @@
       "type": "direct"
     },
     {
-      "tag": "🇧🇪 BE | VLESS | @v2ray_free_conf #1",
+      "tag": "🇹🇷 TR | VLESS | @NamiraConfigs #1",
       "type": "vless",
-      "server": "cdn2.portalcode.ir",
-      "server_port": 2095,
-      "uuid": "681314c5-b3ee-41f1-a959-fa42841f5383",
-      "packet_encoding": "xudp"
+      "server": "185.226.93.88",
+      "server_port": 443,
+      "uuid": "9b8a334b-e4e1-424c-99b4-4fd203ffb571",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @mehrosaboran #1",
+      "type": "vless",
+      "server": "panel1.bakhe01.ir",
+      "server_port": 443,
+      "uuid": "de3b6d50-1b2d-4156-b3fa-e559be5cf271",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
