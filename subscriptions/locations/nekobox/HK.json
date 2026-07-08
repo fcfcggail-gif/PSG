@@ -77,9 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇪 EE | SS | @NamiraConfigs #1",
-        "🇪🇪 EE | VLESS | @red2ray #1",
-        "🇪🇪 EE | VLESS | @red2ray #2"
+        "🇭🇰 HK | TROJAN | @jiedianf #1",
+        "🇭🇰 HK | TROJAN | @jiedianf #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇪 EE | SS | @NamiraConfigs #1",
-        "🇪🇪 EE | VLESS | @red2ray #1",
-        "🇪🇪 EE | VLESS | @red2ray #2"
+        "🇭🇰 HK | TROJAN | @jiedianf #1",
+        "🇭🇰 HK | TROJAN | @jiedianf #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -105,56 +103,18 @@
       "type": "direct"
     },
     {
-      "tag": "🇪🇪 EE | SS | @NamiraConfigs #1",
-      "type": "shadowsocks",
-      "server": "45.83.181.155",
-      "server_port": 14475,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpqMUhhVUFOVlJkQjVsdFNxaExZUFdt",
-      "password": null
+      "tag": "🇭🇰 HK | TROJAN | @jiedianf #1",
+      "type": "trojan",
+      "server": "103.177.136.42",
+      "server_port": 45619,
+      "password": "4f4d1167-ef14-4304-9bce-0740472503ef"
     },
     {
-      "tag": "🇪🇪 EE | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "185.155.97.58",
-      "server_port": 45176,
-      "uuid": "dc7940e0-6bff-45e3-853d-4007561803c3",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇪🇪 EE | VLESS | @red2ray #2",
-      "type": "vless",
-      "server": "45.12.28.47",
-      "server_port": 8443,
-      "uuid": "cf038a28-8f85-41fc-9e86-ba99a3fdd0d9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "tag": "🇭🇰 HK | TROJAN | @jiedianf #2",
+      "type": "trojan",
+      "server": "103.177.136.45",
+      "server_port": 47909,
+      "password": "4f4d1167-ef14-4304-9bce-0740472503ef"
     }
   ],
   "route": {

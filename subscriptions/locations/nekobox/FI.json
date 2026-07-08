@@ -77,9 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @NamiraConfigs #1",
-        "🇫🇮 FI | SS | @jiedianf #1",
+        "🇫🇮 FI | VLESS | @free1_vpn #1",
         "🇫🇮 FI | VLESS | @netfreedom0 #1",
+        "🇫🇮 FI | VLESS | @netmellianti #1",
         "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
         "🇫🇮 FI | VLESS | @vmesc #1"
       ],
@@ -89,9 +89,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @NamiraConfigs #1",
-        "🇫🇮 FI | SS | @jiedianf #1",
+        "🇫🇮 FI | VLESS | @free1_vpn #1",
         "🇫🇮 FI | VLESS | @netfreedom0 #1",
+        "🇫🇮 FI | VLESS | @netmellianti #1",
         "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
         "🇫🇮 FI | VLESS | @vmesc #1"
       ],
@@ -109,20 +109,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @NamiraConfigs #1",
+      "tag": "🇫🇮 FI | VLESS | @free1_vpn #1",
       "type": "vless",
-      "server": "65.109.209.71",
-      "server_port": 8441,
-      "uuid": "9b8a334b-e4e1-424c-99b4-4fd203ffb571",
+      "server": "pan2.mashkestan.com",
+      "server_port": 2087,
+      "uuid": "7943183f-5c33-4728-8d57-8f18efe6ce25",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇮 FI | SS | @jiedianf #1",
-      "type": "shadowsocks",
-      "server": "109.107.182.229",
-      "server_port": 51544,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0ZDFuVnBxSlZwNW9xMlc0RDBMank0",
-      "password": null
     },
     {
       "tag": "🇫🇮 FI | VLESS | @netfreedom0 #1",
@@ -130,6 +122,28 @@
       "server": "fi1.vitok.cc",
       "server_port": 443,
       "uuid": "1b9e301d-cecd-4eb1-8b36-eef811c2696d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @netmellianti #1",
+      "type": "vless",
+      "server": "fn2-unlimited.pavilof.ir",
+      "server_port": 1020,
+      "uuid": "01aacd3b-fdda-4e3f-894b-bc380f184fe1",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

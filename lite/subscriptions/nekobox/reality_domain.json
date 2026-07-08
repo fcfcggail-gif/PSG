@@ -82,12 +82,12 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇨🇭 CH | VLESS | @free1_vpn #1",
+        "🇹🇷 TR | VLESS | @mehrosaboran #1",
         "🇫🇮 FI | VLESS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @netmellianti #1",
-        "🇷🇺 RU | VLESS | @prrofile_purple #1",
         "🇩🇪 DE | VLESS | @sobi_vpn #1",
-        "🇵🇱 PL | VLESS | @vmesc #1",
-        "🇫🇮 FI | VLESS | @vmesc #1"
+        "🇫🇮 FI | VLESS | @vmesc #1",
+        "🇺🇸 US | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,12 +100,12 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇨🇭 CH | VLESS | @free1_vpn #1",
+        "🇹🇷 TR | VLESS | @mehrosaboran #1",
         "🇫🇮 FI | VLESS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @netmellianti #1",
-        "🇷🇺 RU | VLESS | @prrofile_purple #1",
         "🇩🇪 DE | VLESS | @sobi_vpn #1",
-        "🇵🇱 PL | VLESS | @vmesc #1",
-        "🇫🇮 FI | VLESS | @vmesc #1"
+        "🇫🇮 FI | VLESS | @vmesc #1",
+        "🇺🇸 US | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -237,6 +237,23 @@
       }
     },
     {
+      "tag": "🇹🇷 TR | VLESS | @mehrosaboran #1",
+      "type": "vless",
+      "server": "panel1.bakhe01.ir",
+      "server_port": 443,
+      "uuid": "de3b6d50-1b2d-4156-b3fa-e559be5cf271",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇫🇮 FI | VLESS | @netfreedom0 #1",
       "type": "vless",
       "server": "fi1.vitok.cc",
@@ -267,56 +284,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #1",
-      "type": "vless",
-      "server": "ru.faygo.bot",
-      "server_port": 443,
-      "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @sobi_vpn #1",
       "type": "vless",
       "server": "shop.frahidx.ir",
       "server_port": 2044,
       "uuid": "075232d9-82c0-4500-b049-812e944c655c",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @vmesc #1",
-      "type": "vless",
-      "server": "qwjz.foot8all.ir",
-      "server_port": 50567,
-      "uuid": "e2a442d3-b454-4b3d-a3c1-4db2f91837a3",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇫🇮 FI | VLESS | @vmesc #1",
@@ -339,6 +312,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "hayabusa.proxy.rlwy.net",
+      "server_port": 45900,
+      "uuid": "%40MAconnectt",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
