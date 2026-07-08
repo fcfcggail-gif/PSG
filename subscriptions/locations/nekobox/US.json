@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇺🇸 US | VMESS | @NamiraConfigs #1",
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
@@ -107,6 +106,7 @@
         "🇺🇸 US | VLESS | @msv2raynp #2",
         "🇺🇸 US | VLESS | @netmellianti #1",
         "🇺🇸 US | VLESS | @outline_ir #1",
+        "🇺🇸 US | VLESS | @outline_ir #2",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | TROJAN | @prrofile_purple #1",
@@ -120,10 +120,9 @@
         "🇺🇸 US | VMESS | @v2ray4win #2",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | TROJAN | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2ray_youtube #1",
-        "🇺🇸 US | TROJAN | @v2raych #1",
         "🇺🇸 US | TROJAN | @v2raying #1",
+        "🇺🇸 US | TROJAN | @v2rayng3 #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
         "🇺🇸 US | TROJAN | @v2rayngvpn_1 #1",
@@ -146,7 +145,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇺🇸 US | VMESS | @NamiraConfigs #1",
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
         "🇺🇸 US | VLESS | @deli_servers #1",
@@ -176,6 +174,7 @@
         "🇺🇸 US | VLESS | @msv2raynp #2",
         "🇺🇸 US | VLESS | @netmellianti #1",
         "🇺🇸 US | VLESS | @outline_ir #1",
+        "🇺🇸 US | VLESS | @outline_ir #2",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | TROJAN | @prrofile_purple #1",
@@ -189,10 +188,9 @@
         "🇺🇸 US | VMESS | @v2ray4win #2",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
-        "🇺🇸 US | TROJAN | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2ray_youtube #1",
-        "🇺🇸 US | TROJAN | @v2raych #1",
         "🇺🇸 US | TROJAN | @v2raying #1",
+        "🇺🇸 US | TROJAN | @v2rayng3 #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
         "🇺🇸 US | TROJAN | @v2rayngvpn_1 #1",
@@ -221,24 +219,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @NamiraConfigs #1",
-      "type": "vmess",
-      "server": "165.140.216.141",
-      "server_port": 443,
-      "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @bored_vpn #1",
@@ -607,9 +587,26 @@
     {
       "tag": "🇺🇸 US | VLESS | @outline_ir #1",
       "type": "vless",
-      "server": "ansooyefilter6.up.railway.app",
+      "server": "151.101.57.134",
       "server_port": 443,
-      "uuid": "0b0dd312-eecb-cb9d-fe12-6d0c1df30ae4",
+      "uuid": "XpnTeam-65",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @outline_ir #2",
+      "type": "vless",
+      "server": "fast.motorbazan.com",
+      "server_port": 443,
+      "uuid": "7943183f-5c33-4728-8d57-8f18efe6ce25",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -844,22 +841,6 @@
       }
     },
     {
-      "tag": "🇺🇸 US | TROJAN | @v2ray_free_conf #1",
-      "type": "trojan",
-      "server": "140.248.185.252",
-      "server_port": 443,
-      "password": "MITIVPN",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "38.107.232.146",
@@ -868,11 +849,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | TROJAN | @v2raych #1",
+      "tag": "🇺🇸 US | TROJAN | @v2raying #1",
       "type": "trojan",
-      "server": "199.232.78.140",
+      "server": "151.101.110.219",
       "server_port": 443,
-      "password": "MiTiVPN",
+      "password": "Mitivpn",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -884,11 +865,11 @@
       }
     },
     {
-      "tag": "🇺🇸 US | TROJAN | @v2raying #1",
+      "tag": "🇺🇸 US | TROJAN | @v2rayng3 #1",
       "type": "trojan",
-      "server": "151.101.110.219",
+      "server": "165.215.250.14",
       "server_port": 443,
-      "password": "Mitivpn",
+      "password": "humanity",
       "tls": {
         "enabled": true,
         "server_name": "",

@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgWkE=
+//profile-title: base64:UFNHIHwgQkU=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇿🇦 ZA | VLESS | @red2ray #1",
-        "🇿🇦 ZA | VLESS | @red2ray #2"
+        "🇧🇪 BE | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇿🇦 ZA | VLESS | @red2ray #1",
-        "🇿🇦 ZA | VLESS | @red2ray #2"
+        "🇧🇪 BE | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,48 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇿🇦 ZA | VLESS | @red2ray #1",
+      "tag": "🇧🇪 BE | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "192.142.12.89",
-      "server_port": 443,
-      "uuid": "eb295947-24de-0003-9b8f-85431e5fe493",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇿🇦 ZA | VLESS | @red2ray #2",
-      "type": "vless",
-      "server": "192.142.23.45",
-      "server_port": 443,
-      "uuid": "eb295947-24de-0002-9b8f-85431e5fe493",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "cdn2.portalcode.ir",
+      "server_port": 2095,
+      "uuid": "681314c5-b3ee-41f1-a959-fa42841f5383",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
