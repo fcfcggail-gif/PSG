@@ -90,7 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @bored_vpn #1"
+        "🇵🇱 PL | VLESS | @bored_vpn #1",
+        "🇵🇱 PL | VLESS | @free1_vpn #1",
+        "🇵🇱 PL | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @bored_vpn #1"
+        "🇵🇱 PL | VLESS | @bored_vpn #1",
+        "🇵🇱 PL | VLESS | @free1_vpn #1",
+        "🇵🇱 PL | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -115,6 +119,50 @@
       "server": "83.168.71.216",
       "server_port": 443,
       "uuid": "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "83.168.71.216",
+      "server_port": 443,
+      "uuid": "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "ssp.foot8all.ir",
+      "server_port": 50567,
+      "uuid": "5ee4ce84-c0b1-4230-ae32-b5266621cbf6",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
