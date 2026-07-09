@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇹🇷 TR | VLESS | @NamiraConfigs #1", "server": "turki.gelqino.ir", "port": 17830, "type": "vless", "skip-cert-verify": true, "uuid": "e1c7f7ce-5bf8-41a8-87d5-896d2659f08a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇹🇷 TR | VLESS | @mehrosaboran #1", "server": "panel1.bakhe01.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "de3b6d50-1b2d-4156-b3fa-e559be5cf271", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇹🇷 TR | VLESS | @NamiraConfigs #1'
       - '🇹🇷 TR | VLESS | @mehrosaboran #1'
 
   - name: 🌍 Global Media

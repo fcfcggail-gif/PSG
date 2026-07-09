@@ -77,9 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇭 CH | VLESS | @free1_vpn #1",
         "🇨🇭 CH | VLESS | @hope_net #1",
+        "🇨🇭 CH | VLESS | @red2ray #1",
         "🇨🇭 CH | VLESS | @rez1vpn #1",
+        "🇨🇭 CH | VLESS | @v2raymelliii #1",
         "🇨🇭 CH | TROJAN | @vpnv2raytop #1"
       ],
       "tag": "proxy",
@@ -88,9 +89,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇭 CH | VLESS | @free1_vpn #1",
         "🇨🇭 CH | VLESS | @hope_net #1",
+        "🇨🇭 CH | VLESS | @red2ray #1",
         "🇨🇭 CH | VLESS | @rez1vpn #1",
+        "🇨🇭 CH | VLESS | @v2raymelliii #1",
         "🇨🇭 CH | TROJAN | @vpnv2raytop #1"
       ],
       "tag": "auto",
@@ -105,28 +107,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇨🇭 CH | VLESS | @free1_vpn #1",
-      "type": "vless",
-      "server": "switzerlandscloudnig.iranlast.com",
-      "server_port": 7009,
-      "uuid": "3f298aca-2412-49ac-9f20-235f0e448d31",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇨🇭 CH | VLESS | @hope_net #1",
@@ -146,6 +126,28 @@
       }
     },
     {
+      "tag": "🇨🇭 CH | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "37.156.44.233",
+      "server_port": 50148,
+      "uuid": "c00b79fc-02e0-5b2f-8e53-15e91c0c8929",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇨🇭 CH | VLESS | @rez1vpn #1",
       "type": "vless",
       "server": "185.18.250.252",
@@ -159,6 +161,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @v2raymelliii #1",
+      "type": "vless",
+      "server": "switzerlandscloudnig.iranlast.com",
+      "server_port": 7009,
+      "uuid": "3f298aca-2412-49ac-9f20-235f0e448d31",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },

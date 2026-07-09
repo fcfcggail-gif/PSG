@@ -91,11 +91,12 @@
         "auto",
         "direct",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
-        "🇳🇱 NL | VLESS | @netmellianti #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
-        "🇳🇱 NL | VLESS | @v2ray_youtube #1"
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+        "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+        "🇳🇱 NL | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -104,11 +105,12 @@
       "interval": "10m",
       "outbounds": [
         "🇳🇱 NL | SS | @easy_free_vpn #1",
-        "🇳🇱 NL | VLESS | @netmellianti #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
-        "🇳🇱 NL | VLESS | @v2ray_youtube #1"
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+        "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+        "🇳🇱 NL | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -126,14 +128,6 @@
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
       "password": null
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @netmellianti #1",
-      "type": "vless",
-      "server": "nl.ipsafe2.site",
-      "server_port": 42439,
-      "uuid": "41a6a386-485c-417f-971c-06167252863a",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇳🇱 NL | SS | @outlinereleasedkey #1",
@@ -183,12 +177,42 @@
       }
     },
     {
+      "tag": "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "nd1.fastcodz.ir",
+      "server_port": 52077,
+      "uuid": "39eb6d15-e27a-4f2e-b865-b49a15b2d5f6",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇳🇱 NL | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "alpha.iranhttp.com",
       "server_port": 4242,
       "uuid": "df196287-5b8c-4592-870f-b3ede251fa68",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2rayngvpn_1 #1",
+      "type": "vless",
+      "server": "176.119.141.136",
+      "server_port": 8443,
+      "uuid": "0828a0bc-8acf-422c-9fac-8ad885a0dbaf",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

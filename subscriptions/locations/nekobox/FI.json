@@ -78,8 +78,9 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @netmellianti #1",
-        "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
-        "🇫🇮 FI | VLESS | @vmesc #1"
+        "🇫🇮 FI | VLESS | @netmellianti #2",
+        "🇫🇮 FI | VLESS | @prrofile_purple #1",
+        "🇫🇮 FI | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,8 +89,9 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @netmellianti #1",
-        "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
-        "🇫🇮 FI | VLESS | @vmesc #1"
+        "🇫🇮 FI | VLESS | @netmellianti #2",
+        "🇫🇮 FI | VLESS | @prrofile_purple #1",
+        "🇫🇮 FI | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -127,11 +129,11 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
+      "tag": "🇫🇮 FI | VLESS | @netmellianti #2",
       "type": "vless",
-      "server": "46.246.34.165",
-      "server_port": 8443,
-      "uuid": "394f6981-a782-4779-9a85-e6cf22935d93",
+      "server": "65.109.184.172",
+      "server_port": 1020,
+      "uuid": "01aacd3b-fdda-4e3f-894b-bc380f184fe1",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -140,15 +142,42 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @vmesc #1",
+      "tag": "🇫🇮 FI | VLESS | @prrofile_purple #1",
       "type": "vless",
-      "server": "fi.theatak.com",
-      "server_port": 4450,
-      "uuid": "051154dd-2eac-4f84-8d20-e253ada6eac8",
+      "server": "217.217.247.251",
+      "server_port": 443,
+      "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "66.234.150.145",
+      "server_port": 443,
+      "uuid": "701ea834-7c31-4544-95d6-f0a4dfe40b36",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

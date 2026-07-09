@@ -91,8 +91,9 @@
         "auto",
         "direct",
         "🇦🇪 AE | SS | @manstervpn #1",
+        "🇦🇪 AE | VLESS | @red2ray #1",
         "🇦🇪 AE | VLESS | @rez1vpn #1",
-        "🇦🇪 AE | VLESS | @v2raych #1",
+        "🇦🇪 AE | TROJAN | @v2raych #1",
         "🇦🇪 AE | VLESS | @v2rayprotocol #1"
       ],
       "tag": "proxy",
@@ -102,8 +103,9 @@
       "interval": "10m",
       "outbounds": [
         "🇦🇪 AE | SS | @manstervpn #1",
+        "🇦🇪 AE | VLESS | @red2ray #1",
         "🇦🇪 AE | VLESS | @rez1vpn #1",
-        "🇦🇪 AE | VLESS | @v2raych #1",
+        "🇦🇪 AE | TROJAN | @v2raych #1",
         "🇦🇪 AE | VLESS | @v2rayprotocol #1"
       ],
       "tag": "auto",
@@ -122,6 +124,28 @@
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj",
       "password": null
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "78.17.3.113",
+      "server_port": 443,
+      "uuid": "c7c0e837-d9ac-4211-aee7-1e7691be3be1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇦🇪 AE | VLESS | @rez1vpn #1",
@@ -146,12 +170,11 @@
       }
     },
     {
-      "tag": "🇦🇪 AE | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "45.86.228.237",
+      "tag": "🇦🇪 AE | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "94.140.0.40",
       "server_port": 443,
-      "uuid": "56fde86d-7985-4385-bc75-276b29a70e44",
-      "packet_encoding": "xudp",
+      "password": "MITIVPN",
       "tls": {
         "enabled": true,
         "server_name": "",
