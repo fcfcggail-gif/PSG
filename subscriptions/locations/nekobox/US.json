@@ -78,6 +78,7 @@
         "auto",
         "direct",
         "🇺🇸 US | VLESS | @NamiraConfigs #1",
+        "🇺🇸 US | VLESS | @NamiraConfigs #2",
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @bored_vpn #2",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
@@ -122,7 +123,9 @@
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #2",
         "🇺🇸 US | VLESS | @v2ray_youtube #1",
+        "🇺🇸 US | TROJAN | @v2raych #1",
         "🇺🇸 US | TROJAN | @v2rayng3 #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | TROJAN | @v2rayngvpn_1 #1",
@@ -133,7 +136,6 @@
         "🇺🇸 US | VLESS | @vboxpanel #1",
         "🇺🇸 US | VLESS | @vboxpanel #2",
         "🇺🇸 US | VLESS | @vboxpanel #3",
-        "🇺🇸 US | VLESS | @vmesc #1",
         "🇺🇸 US | TROJAN | @vmesskhodam #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VLESS | @vpnowl #1"
@@ -145,6 +147,7 @@
       "interval": "10m",
       "outbounds": [
         "🇺🇸 US | VLESS | @NamiraConfigs #1",
+        "🇺🇸 US | VLESS | @NamiraConfigs #2",
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @bored_vpn #2",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
@@ -189,7 +192,9 @@
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #2",
         "🇺🇸 US | VLESS | @v2ray_youtube #1",
+        "🇺🇸 US | TROJAN | @v2raych #1",
         "🇺🇸 US | TROJAN | @v2rayng3 #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | TROJAN | @v2rayngvpn_1 #1",
@@ -200,7 +205,6 @@
         "🇺🇸 US | VLESS | @vboxpanel #1",
         "🇺🇸 US | VLESS | @vboxpanel #2",
         "🇺🇸 US | VLESS | @vboxpanel #3",
-        "🇺🇸 US | VLESS | @vmesc #1",
         "🇺🇸 US | TROJAN | @vmesskhodam #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VLESS | @vpnowl #1"
@@ -224,6 +228,23 @@
       "server": "x4g-production-213b.up.railway.app",
       "server_port": 443,
       "uuid": "6e475ace-9410-5f61-8ea9-f05fadd1f604",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @NamiraConfigs #2",
+      "type": "vless",
+      "server": "69.46.46.55",
+      "server_port": 443,
+      "uuid": "9a50f494-e264-fcef-406d-52c5eb6dc2df",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -635,9 +656,9 @@
     {
       "tag": "🇺🇸 US | VLESS | @netmellianti #1",
       "type": "vless",
-      "server": "us.ipsafe2.site",
-      "server_port": 40646,
-      "uuid": "41a6a386-485c-417f-971c-06167252863a",
+      "server": "manage.fastly.com",
+      "server_port": 80,
+      "uuid": "237a0397-1cf5-4f2e-9bac-418e7a8b34ce",
       "packet_encoding": "xudp"
     },
     {
@@ -842,9 +863,17 @@
     {
       "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "141.193.213.21",
-      "server_port": 443,
-      "uuid": "4f013568-a58b-4b04-b5dd-4d52bf1c33a4",
+      "server": "151.101.129.164",
+      "server_port": 80,
+      "uuid": "InternetAzadRobot",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "137.184.218.169",
+      "server_port": 36925,
+      "uuid": "c9fd0fb1-8251-4106-b09a-f4b426736f67",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -853,6 +882,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -863,6 +897,22 @@
       "server_port": 80,
       "uuid": "d07c6648-b644-4736-ade5-9bb4062bf42a",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "151.101.34.144",
+      "server_port": 443,
+      "password": "zBfIAxaXtz",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | TROJAN | @v2rayng3 #1",
@@ -1030,14 +1080,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @vmesc #1",
-      "type": "vless",
-      "server": "hayabusa.proxy.rlwy.net",
-      "server_port": 45900,
-      "uuid": "%40MAconnectt",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇺🇸 US | TROJAN | @vmesskhodam #1",
