@@ -100,11 +100,10 @@
         "🇹🇷 TR | VLESS | @mehrosaboran #1",
         "🇺🇸 US | VLESS | @netmellianti #1",
         "🇪🇸 ES | VLESS | @netmellianti #1",
-        "🇵🇱 PL | VLESS | @outline_ir #1",
+        "🇵🇱 PL | VLESS | @netmellianti #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
-        "🇽🇽 XX | VLESS | @v2ray_youtube #4",
-        "🇽🇽 XX | VLESS | @vmesc #2"
+        "🇽🇽 XX | VLESS | @v2ray_youtube #4"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -122,11 +121,10 @@
         "🇹🇷 TR | VLESS | @mehrosaboran #1",
         "🇺🇸 US | VLESS | @netmellianti #1",
         "🇪🇸 ES | VLESS | @netmellianti #1",
-        "🇵🇱 PL | VLESS | @outline_ir #1",
+        "🇵🇱 PL | VLESS | @netmellianti #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
-        "🇽🇽 XX | VLESS | @v2ray_youtube #4",
-        "🇽🇽 XX | VLESS | @vmesc #2"
+        "🇽🇽 XX | VLESS | @v2ray_youtube #4"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -275,12 +273,21 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @outline_ir #1",
+      "tag": "🇵🇱 PL | VLESS | @netmellianti #1",
       "type": "vless",
-      "server": "pol.mrsolo5323.ir",
-      "server_port": 2053,
-      "uuid": "3d8f333a-1e87-4689-a6d1-b3c9bbacfdea",
-      "packet_encoding": "xudp"
+      "server": "w.r.stockym.com",
+      "server_port": 443,
+      "uuid": "f09d18a9-d778-4e00-a49a-c0063d1c1b11",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_youtube #3",
@@ -313,14 +320,6 @@
       "server": "fbi.gov",
       "server_port": 2053,
       "uuid": "ee137caa-54c7-4392-a017-3a7c460fa773",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @vmesc #2",
-      "type": "vless",
-      "server": "ns2.zabidat.ir",
-      "server_port": 2086,
-      "uuid": "e2b46a5d-9346-4085-b174-3f878013cb5b",
       "packet_encoding": "xudp"
     }
   ],
