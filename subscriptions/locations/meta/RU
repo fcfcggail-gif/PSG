@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇷🇺 RU | VLESS | @NamiraConfigs #1", "server": "192.144.13.35", "port": 59242, "type": "vless", "skip-cert-verify": true, "uuid": "ad997094-40d4-461c-baf1-759d987351c3", "network": "raw", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @jiedianf #1", "server": "2.26.8.55", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "10ea33f2-1a66-4dec-99f2-8068a6b56a45", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
   - {"name": "🇷🇺 RU | VLESS | @megavpn_link #1", "server": "158.160.250.45", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "b6083a84-80a5-3e88-9dbb-5c8ef241be3a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VLESS | @nofiltering2 #1", "server": "94.242.55.42", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
@@ -43,6 +44,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇷🇺 RU | VLESS | @NamiraConfigs #1'
       - '🇷🇺 RU | VLESS | @jiedianf #1'
       - '🇷🇺 RU | VLESS | @megavpn_link #1'
       - '🇷🇺 RU | VLESS | @nofiltering2 #1'

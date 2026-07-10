@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇮🇹 IT | VLESS | @v2ray_free_conf #1",
         "🇮🇹 IT | VLESS | @vpnowl #1"
       ],
       "tag": "proxy",
@@ -85,6 +86,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇮🇹 IT | VLESS | @v2ray_free_conf #1",
         "🇮🇹 IT | VLESS | @vpnowl #1"
       ],
       "tag": "auto",
@@ -99,6 +101,28 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇮🇹 IT | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "talianaccentclouding.iranlast.com",
+      "server_port": 7009,
+      "uuid": "3f298aca-2412-49ac-9f20-235f0e448d31",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇮🇹 IT | VLESS | @vpnowl #1",

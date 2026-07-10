@@ -91,7 +91,7 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @mehrosaboran #1",
-        "🇹🇷 TR | VLESS | @red2ray #1"
+        "🇹🇷 TR | VLESS | @oonfig #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +100,7 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @mehrosaboran #1",
-        "🇹🇷 TR | VLESS | @red2ray #1"
+        "🇹🇷 TR | VLESS | @oonfig #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -129,12 +129,21 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @red2ray #1",
+      "tag": "🇹🇷 TR | VLESS | @oonfig #1",
       "type": "vless",
-      "server": "turk1.codesystem.ir",
-      "server_port": 8080,
-      "uuid": "f8cae104-2eaa-4b16-b258-65be28281b70",
-      "packet_encoding": "xudp"
+      "server": "my.filpower.shop",
+      "server_port": 443,
+      "uuid": "09bb1018-47b1-4968-964c-d9bf96bb052b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
