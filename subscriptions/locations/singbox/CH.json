@@ -90,10 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇭 CH | VLESS | @free1_vpn #1",
         "🇨🇭 CH | VLESS | @hope_net #1",
+        "🇨🇭 CH | TROJAN | @mtproxy22_v2ray #1",
+        "🇨🇭 CH | TROJAN | @mtproxy22_v2ray #2",
         "🇨🇭 CH | VLESS | @rez1vpn #1",
-        "🇨🇭 CH | TROJAN | @v2ray_free_conf #1",
         "🇨🇭 CH | VLESS | @v2raymelliii #1",
         "🇨🇭 CH | TROJAN | @vpnv2raytop #1"
       ],
@@ -103,10 +103,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇭 CH | VLESS | @free1_vpn #1",
         "🇨🇭 CH | VLESS | @hope_net #1",
+        "🇨🇭 CH | TROJAN | @mtproxy22_v2ray #1",
+        "🇨🇭 CH | TROJAN | @mtproxy22_v2ray #2",
         "🇨🇭 CH | VLESS | @rez1vpn #1",
-        "🇨🇭 CH | TROJAN | @v2ray_free_conf #1",
         "🇨🇭 CH | VLESS | @v2raymelliii #1",
         "🇨🇭 CH | TROJAN | @vpnv2raytop #1"
       ],
@@ -118,23 +118,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇨🇭 CH | VLESS | @free1_vpn #1",
-      "type": "vless",
-      "server": "179.237.75.21",
-      "server_port": 443,
-      "uuid": "56fde86d-7985-4385-bc75-276b29a70e44",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇨🇭 CH | VLESS | @hope_net #1",
@@ -154,6 +137,20 @@
       }
     },
     {
+      "tag": "🇨🇭 CH | TROJAN | @mtproxy22_v2ray #1",
+      "type": "trojan",
+      "server": "84.234.30.16",
+      "server_port": 27981,
+      "password": "---------BanV2ray--------"
+    },
+    {
+      "tag": "🇨🇭 CH | TROJAN | @mtproxy22_v2ray #2",
+      "type": "trojan",
+      "server": "84.234.30.16",
+      "server_port": 30000,
+      "password": "---------BanV2ray--------"
+    },
+    {
       "tag": "🇨🇭 CH | VLESS | @rez1vpn #1",
       "type": "vless",
       "server": "185.18.250.252",
@@ -169,13 +166,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇨🇭 CH | TROJAN | @v2ray_free_conf #1",
-      "type": "trojan",
-      "server": "84.234.30.16",
-      "server_port": 26653,
-      "password": "---------BanV2ray--------"
     },
     {
       "tag": "🇨🇭 CH | VLESS | @v2raymelliii #1",
