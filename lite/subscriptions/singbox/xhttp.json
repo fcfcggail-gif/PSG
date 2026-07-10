@@ -102,13 +102,12 @@
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #2",
+        "🇺🇸 US | TROJAN | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇽🇽 XX | VLESS | @configv2rayforfree #2",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
-        "🇹🇷 TR | VLESS | @mehrosaboran #1",
         "🇺🇸 US | VLESS | @netmellianti #1"
       ],
       "tag": "proxy",
@@ -129,13 +128,12 @@
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #2",
+        "🇺🇸 US | TROJAN | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇽🇽 XX | VLESS | @configv2rayforfree #2",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
-        "🇹🇷 TR | VLESS | @mehrosaboran #1",
         "🇺🇸 US | VLESS | @netmellianti #1"
       ],
       "tag": "auto",
@@ -247,7 +245,7 @@
     {
       "tag": "🇽🇽 XX | VLESS | @flyv2ray #1",
       "type": "vless",
-      "server": "162.159.27.199",
+      "server": "162.159.62.247",
       "server_port": 8443,
       "uuid": "8ee19304-fdf4-43dd-ab77-133a77d349ed",
       "packet_encoding": "xudp"
@@ -255,7 +253,7 @@
     {
       "tag": "🇽🇽 XX | VLESS | @flyv2ray #2",
       "type": "vless",
-      "server": "162.159.62.247",
+      "server": "162.159.93.9",
       "server_port": 8443,
       "uuid": "8ee19304-fdf4-43dd-ab77-133a77d349ed",
       "packet_encoding": "xudp"
@@ -328,12 +326,20 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #2",
-      "type": "vless",
-      "server": "151.101.193.57",
-      "server_port": 80,
-      "uuid": "7b19a5a7-8bf7-4b37-be3c-3251f9c43241",
-      "packet_encoding": "xudp"
+      "tag": "🇺🇸 US | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "151.101.34.144",
+      "server_port": 443,
+      "password": "1N2o5bPwwA",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
@@ -401,23 +407,6 @@
       "server_port": 80,
       "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @mehrosaboran #1",
-      "type": "vless",
-      "server": "panel1.bakhe01.ir",
-      "server_port": 443,
-      "uuid": "de3b6d50-1b2d-4156-b3fa-e559be5cf271",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @netmellianti #1",
