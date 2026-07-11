@@ -23,6 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇺🇸 US | VMESS | @NamiraConfigs #1", "server": "31.77.149.99", "port": 110, "type": "vmess", "skip-cert-verify": true, "uuid": "f0841ef6-a703-4248-9c69-efed21a38e65", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇩🇪 DE | VMESS | @NamiraConfigs #1", "server": "jazzghost.com", "port": 8998, "type": "vmess", "skip-cert-verify": true, "uuid": "45e6cc1d-fc2e-4c97-8633-b33caa28e130", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": true}
   - {"name": "🇽🇽 XX | TROJAN | @filtershekan_channel #1", "server": "104.18.152.246", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
   - {"name": "🇽🇽 XX | TROJAN | @filtershekan_channel #2", "server": "104.19.229.21", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
   - {"name": "🇦🇹 AT | TROJAN | @freeconfigsplus #1", "server": "212.183.88.136", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
@@ -72,6 +74,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇺🇸 US | VMESS | @NamiraConfigs #1'
+      - '🇩🇪 DE | VMESS | @NamiraConfigs #1'
       - '🇽🇽 XX | TROJAN | @filtershekan_channel #1'
       - '🇽🇽 XX | TROJAN | @filtershekan_channel #2'
       - '🇦🇹 AT | TROJAN | @freeconfigsplus #1'
