@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇨🇭 CH | TROJAN | @v2raych #1", "server": "8y7r-2-4-3-1-4-5-2-2-3.poki-pakipon.ir", "port": 27111, "type": "trojan", "skip-cert-verify": false, "password": "-----------y------------"}
-  - {"name": "🇨🇭 CH | TROJAN | @vmesc #1", "server": "179.237.75.28", "port": 61235, "type": "trojan", "skip-cert-verify": false, "password": "2TzqY10FJL"}
+  - {"name": "🇹🇷 TR | VLESS | @oonfig #1", "server": "my.filpower.shop", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "09bb1018-47b1-4968-964c-d9bf96bb052b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇨🇭 CH | TROJAN | @v2raych #1'
-      - '🇨🇭 CH | TROJAN | @vmesc #1'
+      - '🇹🇷 TR | VLESS | @oonfig #1'
 
   - name: 🌍 Global Media
     type: select
