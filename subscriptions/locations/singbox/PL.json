@@ -91,10 +91,12 @@
         "auto",
         "direct",
         "🇵🇱 PL | VLESS | @bored_vpn #1",
-        "🇵🇱 PL | VLESS | @free1_vpn #1",
         "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1",
+        "🇵🇱 PL | VLESS | @mtproxy22_v2ray #2",
         "🇵🇱 PL | VLESS | @netmellianti #1",
-        "🇵🇱 PL | VLESS | @prrofile_purple #1"
+        "🇵🇱 PL | VLESS | @prrofile_purple #1",
+        "🇵🇱 PL | VLESS | @red2ray #1",
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -103,10 +105,12 @@
       "interval": "10m",
       "outbounds": [
         "🇵🇱 PL | VLESS | @bored_vpn #1",
-        "🇵🇱 PL | VLESS | @free1_vpn #1",
         "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1",
+        "🇵🇱 PL | VLESS | @mtproxy22_v2ray #2",
         "🇵🇱 PL | VLESS | @netmellianti #1",
-        "🇵🇱 PL | VLESS | @prrofile_purple #1"
+        "🇵🇱 PL | VLESS | @prrofile_purple #1",
+        "🇵🇱 PL | VLESS | @red2ray #1",
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -119,28 +123,6 @@
     },
     {
       "tag": "🇵🇱 PL | VLESS | @bored_vpn #1",
-      "type": "vless",
-      "server": "83.168.71.216",
-      "server_port": 443,
-      "uuid": "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @free1_vpn #1",
       "type": "vless",
       "server": "83.168.71.216",
       "server_port": 443,
@@ -184,6 +166,28 @@
       }
     },
     {
+      "tag": "🇵🇱 PL | VLESS | @mtproxy22_v2ray #2",
+      "type": "vless",
+      "server": "83.168.71.216",
+      "server_port": 443,
+      "uuid": "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇵🇱 PL | VLESS | @netmellianti #1",
       "type": "vless",
       "server": "w.r.stockym.com",
@@ -206,6 +210,50 @@
       "server": "83.168.71.216",
       "server_port": 443,
       "uuid": "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "31.77.56.218",
+      "server_port": 443,
+      "uuid": "ef3e206d-3cbc-4254-8374-df04fe35a762",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "plkrep.tgflow.me",
+      "server_port": 443,
+      "uuid": "9f19123a-1450-49f9-8ca4-3cc5f92f600b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
