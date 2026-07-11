@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇩🇪 DE | VMESS | @NamiraConfigs #1", "server": "jazzghost.com", "port": 8998, "type": "vmess", "skip-cert-verify": true, "uuid": "45e6cc1d-fc2e-4c97-8633-b33caa28e130", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": true}
   - {"name": "🇺🇸 US | VMESS | @freev2rays #1", "server": "xcf037.facai2024.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d9863037-0463-4615-e972-36ba9662d1e9", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/d9863037", "headers": {"Host": "xcf037.facai2024.com"}}}
   - {"name": "🇨🇿 CZ | VMESS | @freev2rays #1", "server": "time.is", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "b526926d-1474-4f41-985e-8b877cb840cd", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "shs111.kejixiaoqi666.store"}}}
   - {"name": "🇧🇾 BY | VMESS | @ir_netproxy #1", "server": "5.161.156.196", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d20e38ef-1a4d-4009-a00d-2f0d44e3c65a", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
@@ -54,6 +55,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇩🇪 DE | VMESS | @NamiraConfigs #1'
       - '🇺🇸 US | VMESS | @freev2rays #1'
       - '🇨🇿 CZ | VMESS | @freev2rays #1'
       - '🇧🇾 BY | VMESS | @ir_netproxy #1'

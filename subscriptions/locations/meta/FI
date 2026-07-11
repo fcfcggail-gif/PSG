@@ -24,6 +24,8 @@ dns:
 
 proxies: 
   - {"name": "🇫🇮 FI | VLESS | @prrofile_purple #1", "server": "217.217.247.251", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇫🇮 FI | VLESS | @v2ray_free_conf #1", "server": "pan2.mashkestan.com", "port": 2087, "type": "vless", "skip-cert-verify": true, "uuid": "878a4010-a3b6-43ce-b95b-e42e2f053cb9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇮 FI | VLESS | @v2ray_free_conf #2", "server": "fn4.sannest.ir", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "7cf47eb2-26fa-9bb9-a1af-562a9a6342d9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +40,8 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇫🇮 FI | VLESS | @prrofile_purple #1'
+      - '🇫🇮 FI | VLESS | @v2ray_free_conf #1'
+      - '🇫🇮 FI | VLESS | @v2ray_free_conf #2'
 
   - name: 🌍 Global Media
     type: select

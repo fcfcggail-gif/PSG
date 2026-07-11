@@ -90,7 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @prrofile_purple #1"
+        "🇫🇮 FI | VLESS | @prrofile_purple #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @prrofile_purple #1"
+        "🇫🇮 FI | VLESS | @prrofile_purple #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -130,6 +134,23 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "pan2.mashkestan.com",
+      "server_port": 2087,
+      "uuid": "878a4010-a3b6-43ce-b95b-e42e2f053cb9",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "fn4.sannest.ir",
+      "server_port": 8443,
+      "uuid": "7cf47eb2-26fa-9bb9-a1af-562a9a6342d9",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision"
     }
   ],
   "route": {
