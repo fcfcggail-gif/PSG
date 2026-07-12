@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @oonfig #1"
+        "🇹🇷 TR | VLESS | @oonfig #1",
+        "🇹🇷 TR | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @oonfig #1"
+        "🇹🇷 TR | VLESS | @oonfig #1",
+        "🇹🇷 TR | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -115,6 +117,23 @@
       "server": "my.filpower.shop",
       "server_port": 443,
       "uuid": "09bb1018-47b1-4968-964c-d9bf96bb052b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "trus.sannest.ir",
+      "server_port": 443,
+      "uuid": "576c33d8-2a0b-4ee1-bffb-3a12cae56d5b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

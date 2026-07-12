@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇺 AU | VMESS | @serverv2ray00 #1"
+        "🇦🇺 AU | VMESS | @serverv2ray00 #1",
+        "🇦🇺 AU | TROJAN | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇺 AU | VMESS | @serverv2ray00 #1"
+        "🇦🇺 AU | VMESS | @serverv2ray00 #1",
+        "🇦🇺 AU | TROJAN | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -131,6 +133,22 @@
         "path": "/linkvws",
         "headers": {
           "Host": "janett.click"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇺 AU | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "concise-buck.rooster465.autos",
+      "server_port": 443,
+      "password": "XG59623478",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }

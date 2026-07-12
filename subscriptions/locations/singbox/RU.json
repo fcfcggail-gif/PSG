@@ -90,9 +90,12 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇷🇺 RU | VLESS | @NamiraConfigs #1",
         "🇷🇺 RU | VLESS | @jiedianf #1",
         "🇷🇺 RU | VLESS | @megavpn_link #1",
         "🇷🇺 RU | VLESS | @mehrosaboran #1",
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #2",
         "🇷🇺 RU | VLESS | @v2raytg #1"
       ],
       "tag": "proxy",
@@ -101,9 +104,12 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇷🇺 RU | VLESS | @NamiraConfigs #1",
         "🇷🇺 RU | VLESS | @jiedianf #1",
         "🇷🇺 RU | VLESS | @megavpn_link #1",
         "🇷🇺 RU | VLESS | @mehrosaboran #1",
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #2",
         "🇷🇺 RU | VLESS | @v2raytg #1"
       ],
       "tag": "auto",
@@ -114,6 +120,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "using.neobo-tooth.ru",
+      "server_port": 2083,
+      "uuid": "0c6b632a-cd96-4b74-9b51-151e3b5697db",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @jiedianf #1",
@@ -174,6 +188,45 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "94.242.55.42",
+      "server_port": 443,
+      "uuid": "8ca5cbd3-ec16-4728-bedc-2bc0d82f0922",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "45.8.211.217",
+      "server_port": 443,
+      "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
