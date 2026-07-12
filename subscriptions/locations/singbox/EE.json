@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVFI=
+//profile-title: base64:UFNHIHwgRUU=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @oonfig #1",
-        "🇹🇷 TR | VLESS | @v2raych #1"
+        "🇪🇪 EE | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @oonfig #1",
-        "🇹🇷 TR | VLESS | @v2raych #1"
+        "🇪🇪 EE | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,11 +110,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @oonfig #1",
+      "tag": "🇪🇪 EE | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "my.filpower.shop",
-      "server_port": 443,
-      "uuid": "09bb1018-47b1-4968-964c-d9bf96bb052b",
+      "server": "185.155.97.58",
+      "server_port": 45176,
+      "uuid": "dc7940e0-6bff-45e3-853d-4007561803c3",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -125,23 +123,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "trus.sannest.ir",
-      "server_port": 443,
-      "uuid": "576c33d8-2a0b-4ee1-bffb-3a12cae56d5b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

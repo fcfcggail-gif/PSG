@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇺🇸 US | VLESS | @NamiraConfigs #1",
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @bored_vpn #2",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
@@ -122,6 +121,7 @@
         "🇺🇸 US | VMESS | @v2ray4win #2",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
+        "🇺🇸 US | TROJAN | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2ray_youtube #1",
         "🇺🇸 US | TROJAN | @v2rayng3 #1",
@@ -145,7 +145,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇺🇸 US | VLESS | @NamiraConfigs #1",
         "🇺🇸 US | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @bored_vpn #2",
         "🇺🇸 US | VLESS | @buffalo_vpn #1",
@@ -190,6 +189,7 @@
         "🇺🇸 US | VMESS | @v2ray4win #2",
         "🇺🇸 US | TROJAN | @v2ray_collector #1",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
+        "🇺🇸 US | TROJAN | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2ray_youtube #1",
         "🇺🇸 US | TROJAN | @v2rayng3 #1",
@@ -219,23 +219,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "rvg-production-aa24.up.railway.app",
-      "server_port": 443,
-      "uuid": "3aedf221-f6c5-9f8d-49da-2547c302cb03",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @bored_vpn #1",
@@ -655,9 +638,9 @@
     {
       "tag": "🇺🇸 US | VLESS | @outline_ir #1",
       "type": "vless",
-      "server": "hayabusa.proxy.rlwy.net",
-      "server_port": 50127,
-      "uuid": "acea7275-2565-45ac-a5b4-aaf018a30e1f",
+      "server": "x4g-production-1c57.up.railway.app",
+      "server_port": 443,
+      "uuid": "96dc234e-4809-39c4-dc20-aec74bdbc30e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -666,11 +649,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
@@ -874,11 +852,27 @@
       }
     },
     {
+      "tag": "🇺🇸 US | TROJAN | @v2ray_free_conf #1",
+      "type": "trojan",
+      "server": "170.114.45.6",
+      "server_port": 443,
+      "password": "MITIVPN",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "199.232.22.39",
-      "server_port": 443,
-      "uuid": "891710f4-45f3-41b1-99a6-6f1510f83c10",
+      "server": "xnod3x.artemida.live",
+      "server_port": 8443,
+      "uuid": "5e9709cb-bfc3-0152-a8e1-7beea7dd72d8",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -887,6 +881,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },

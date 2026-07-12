@@ -79,7 +79,8 @@
         "direct",
         "🇵🇱 PL | VLESS | @bored_vpn #1",
         "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1",
-        "🇵🇱 PL | VLESS | @netmellianti #1"
+        "🇵🇱 PL | VLESS | @netmellianti #1",
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,7 +90,8 @@
       "outbounds": [
         "🇵🇱 PL | VLESS | @bored_vpn #1",
         "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1",
-        "🇵🇱 PL | VLESS | @netmellianti #1"
+        "🇵🇱 PL | VLESS | @netmellianti #1",
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -162,6 +164,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "plkrep.tgflow.me",
+      "server_port": 443,
+      "uuid": "9f19123a-1450-49f9-8ca4-3cc5f92f600b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }
