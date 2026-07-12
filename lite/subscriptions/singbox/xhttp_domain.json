@@ -93,11 +93,11 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇸🇨 SC | VLESS | @bored_vpn #1",
         "🇽🇽 XX | VLESS | @configv2rayforfree #2",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇪🇸 ES | VLESS | @netmellianti #1"
+        "🇵🇱 PL | VLESS | @netmellianti #1",
+        "🇳🇱 NL | VLESS | @prrofile_purple #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -108,11 +108,11 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇸🇨 SC | VLESS | @bored_vpn #1",
         "🇽🇽 XX | VLESS | @configv2rayforfree #2",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇪🇸 ES | VLESS | @netmellianti #1"
+        "🇵🇱 PL | VLESS | @netmellianti #1",
+        "🇳🇱 NL | VLESS | @prrofile_purple #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -196,14 +196,6 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @bored_vpn #1",
-      "type": "vless",
-      "server": "xcdn.ramcalshoping.ir",
-      "server_port": 2053,
-      "uuid": "5a8fe611-8fa3-44cb-803b-13c9610454db",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @configv2rayforfree #2",
       "type": "vless",
       "server": "adamak1.phacode.ir",
@@ -228,12 +220,38 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇪🇸 ES | VLESS | @netmellianti #1",
+      "tag": "🇵🇱 PL | VLESS | @netmellianti #1",
       "type": "vless",
-      "server": "uk.r.stockym.com",
-      "server_port": 23564,
+      "server": "w.r.stockym.com",
+      "server_port": 443,
       "uuid": "f09d18a9-d778-4e00-a49a-c0063d1c1b11",
-      "packet_encoding": "xudp"
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "static.lotussec.com",
+      "server_port": 443,
+      "uuid": "1ca2c927-f8ba-4475-94cb-f85e0fb03ff5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

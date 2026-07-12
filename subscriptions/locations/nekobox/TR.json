@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇪 EE | VLESS | @red2ray #1"
+        "🇹🇷 TR | VLESS | @oonfig #1",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇪 EE | VLESS | @red2ray #1"
+        "🇹🇷 TR | VLESS | @oonfig #1",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,11 +103,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇪🇪 EE | VLESS | @red2ray #1",
+      "tag": "🇹🇷 TR | VLESS | @oonfig #1",
       "type": "vless",
-      "server": "185.155.97.58",
-      "server_port": 45176,
-      "uuid": "dc7940e0-6bff-45e3-853d-4007561803c3",
+      "server": "my.filpower.shop",
+      "server_port": 443,
+      "uuid": "09bb1018-47b1-4968-964c-d9bf96bb052b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -114,13 +116,16 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "jsv-ir2.randino.ir",
+      "server_port": 2,
+      "uuid": "fc7f5780-4c4e-11f1-a3f8-b58432c62d9c",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
