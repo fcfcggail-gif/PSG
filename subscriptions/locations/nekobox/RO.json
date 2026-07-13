@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @v2rayopen #1"
+        "🇷🇴 RO | VLESS | @v2raych #1",
+        "🇷🇴 RO | VLESS | @v2raych #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @v2rayopen #1"
+        "🇷🇴 RO | VLESS | @v2raych #1",
+        "🇷🇴 RO | VLESS | @v2raych #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,12 +103,38 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @v2rayopen #1",
+      "tag": "🇷🇴 RO | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "fn.fifapes.monster",
-      "server_port": 2090,
-      "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
-      "packet_encoding": "xudp"
+      "server": "portal.seysisi.ir",
+      "server_port": 443,
+      "uuid": "cbb4d9c9-6a8f-4acc-9aa1-2974015e0279",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇴 RO | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "portal.seysisi.ir",
+      "server_port": 443,
+      "uuid": "cbb4d9c9-6a8f-4acc-9aa1-2974015e0279",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
