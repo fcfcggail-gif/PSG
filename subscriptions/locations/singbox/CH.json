@@ -90,8 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇨🇭 CH | SS | @NamiraConfigs #1",
         "🇨🇭 CH | VLESS | @hope_net #1",
-        "🇨🇭 CH | VLESS | @rez1vpn #1"
+        "🇨🇭 CH | VLESS | @rez1vpn #1",
+        "🇨🇭 CH | TROJAN | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +101,10 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇨🇭 CH | SS | @NamiraConfigs #1",
         "🇨🇭 CH | VLESS | @hope_net #1",
-        "🇨🇭 CH | VLESS | @rez1vpn #1"
+        "🇨🇭 CH | VLESS | @rez1vpn #1",
+        "🇨🇭 CH | TROJAN | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,6 +114,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇨🇭 CH | SS | @NamiraConfigs #1",
+      "type": "shadowsocks",
+      "server": "45.95.232.138",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYSFlyMm4wbGtQVHRlejdSRmpXSk9L",
+      "password": null
     },
     {
       "tag": "🇨🇭 CH | VLESS | @hope_net #1",
@@ -144,6 +156,13 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇨🇭 CH | TROJAN | @vmesc #1",
+      "type": "trojan",
+      "server": "8y7r-2-4-3-1-4-5-2-2-3.poki-pakipon.ir",
+      "server_port": 4818,
+      "password": "------BanV2ray-------"
     }
   ],
   "route": {

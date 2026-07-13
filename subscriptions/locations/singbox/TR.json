@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgUk8=
+//profile-title: base64:UFNHIHwgVFI=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇴 RO | VLESS | @v2ray_free_conf #1"
+        "🇹🇷 TR | SS | @outline_ir #1",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+        "🇹🇷 TR | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇴 RO | VLESS | @v2ray_free_conf #1"
+        "🇹🇷 TR | SS | @outline_ir #1",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+        "🇹🇷 TR | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,11 +114,27 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇴 RO | VLESS | @v2ray_free_conf #1",
+      "tag": "🇹🇷 TR | SS | @outline_ir #1",
+      "type": "shadowsocks",
+      "server": "62.133.63.222",
+      "server_port": 48981,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphYkM0M1dlTnh1REFYZG1RWmRrd1Z4",
+      "password": null
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "html.iranpood.com",
-      "server_port": 2086,
-      "uuid": "3b715892-8610-4fdc-9086-647b36af5443",
+      "server": "vajm5bz324c3.vtret.com",
+      "server_port": 8379,
+      "uuid": "a2292e36-fafb-6634-051d-1d99f45503c7",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "195.162.69.241",
+      "server_port": 4433,
+      "uuid": "6d41e0c5-c90f-4f38-aa46-072a3db0cd56",
       "packet_encoding": "xudp"
     }
   ],
