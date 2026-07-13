@@ -91,6 +91,7 @@
         "auto",
         "direct",
         "🇱🇹 LT | VLESS | @jiedianf #1",
+        "🇱🇹 LT | TROJAN | @prrofile_purple #1",
         "🇱🇹 LT | VLESS | @v2ray_collector #1"
       ],
       "tag": "proxy",
@@ -100,6 +101,7 @@
       "interval": "10m",
       "outbounds": [
         "🇱🇹 LT | VLESS | @jiedianf #1",
+        "🇱🇹 LT | TROJAN | @prrofile_purple #1",
         "🇱🇹 LT | VLESS | @v2ray_collector #1"
       ],
       "tag": "auto",
@@ -119,6 +121,22 @@
       "uuid": "3e7cede4-721a-4807-b0a2-5fe6586af907",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision"
+    },
+    {
+      "tag": "🇱🇹 LT | TROJAN | @prrofile_purple #1",
+      "type": "trojan",
+      "server": "89.116.180.49",
+      "server_port": 443,
+      "password": "MiTiVPN",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇱🇹 LT | VLESS | @v2ray_collector #1",

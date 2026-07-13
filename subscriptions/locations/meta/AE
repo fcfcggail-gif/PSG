@@ -24,6 +24,8 @@ dns:
 
 proxies: 
   - {"name": "🇦🇪 AE | VLESS | @rez1vpn #1", "server": "185.253.116.18", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "cbc9f9be-bd9c-4a8a-8439-ec606ea4803f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇦🇪 AE | VLESS | @v2raych #1", "server": "test.dnmpropack.ir", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "864f675f-2177-4cdb-967e-6bfc13792a24", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇪 AE | VLESS | @vmesskhodam #1", "server": "test.dnmpropack.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "c31e4bed-e31a-489c-9433-b036c3940bc5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +40,8 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇦🇪 AE | VLESS | @rez1vpn #1'
+      - '🇦🇪 AE | VLESS | @v2raych #1'
+      - '🇦🇪 AE | VLESS | @vmesskhodam #1'
 
   - name: 🌍 Global Media
     type: select

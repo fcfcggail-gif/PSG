@@ -1,0 +1,21 @@
+#!MANAGED-CONFIG https://raw.githubusercontent.com/itsyebekhe/PSG/main/subscriptions/locations/surfboard/FR interval=3600 strict=false
+
+[General]
+loglevel = notify
+skip-proxy = 127.0.0.1, 192.168.0.0/16, 10.0.0.0/8, 172.16.0.0/12, 100.64.0.0/10, localhost, *.local
+ipv6 = true
+dns-server = system, 223.5.5.5
+enhanced-mode-by-rule = true
+
+[Proxy]
+DIRECT = direct
+🇫🇷 FR | VMESS | @hope_net #1 = vmess, 51.83.97.167, 80, username = 6e7ef21f-4736-480e-93aa-1f7d54f28089, ws = true, tls = false, ws-path = /vmess, ws-headers = Host:"51.83.97.167"
+
+[Proxy Group]
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇫🇷 FR | VMESS | @hope_net #1
+PSG-AUTO = url-test, 🇫🇷 FR | VMESS | @hope_net #1
+PSG-FALLBACK = fallback, 🇫🇷 FR | VMESS | @hope_net #1
+
+[Rule]
+GEOIP,IR,DIRECT
+FINAL,PSG-MANUAL
