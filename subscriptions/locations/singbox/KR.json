@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSU4=
+//profile-title: base64:UFNHIHwgS1I=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇳 IN | SS | @netfreedom0 #1"
+        "🇰🇷 KR | TROJAN | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇳 IN | SS | @netfreedom0 #1"
+        "🇰🇷 KR | TROJAN | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇳 IN | SS | @netfreedom0 #1",
-      "type": "shadowsocks",
-      "server": "103.111.114.80",
-      "server_port": 28061,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXT2lyM2xYQmhNSERjTEZQUWRFWlhQdTM3X3BUUURDWGZt",
-      "password": null
+      "tag": "🇰🇷 KR | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "aware-lionfish.rooster465.autos",
+      "server_port": 443,
+      "password": "CF68213490",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

@@ -90,9 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | SS | @outline_ir #1",
-        "🇹🇷 TR | VLESS | @red2ray #1",
-        "🇹🇷 TR | VLESS | @vmesc #1"
+        "🇹🇷 TR | VLESS | @vmesc #1",
+        "🇹🇷 TR | VLESS | @vmesc #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | SS | @outline_ir #1",
-        "🇹🇷 TR | VLESS | @red2ray #1",
-        "🇹🇷 TR | VLESS | @vmesc #1"
+        "🇹🇷 TR | VLESS | @vmesc #1",
+        "🇹🇷 TR | VLESS | @vmesc #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,41 +112,19 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | SS | @outline_ir #1",
-      "type": "shadowsocks",
-      "server": "62.133.63.222",
-      "server_port": 48981,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphYkM0M1dlTnh1REFYZG1RWmRrd1Z4",
-      "password": null
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "tr.linuxbase.ir",
-      "server_port": 1152,
-      "uuid": "eb6f13cb-da91-4f6f-adf3-aad51788812f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇹🇷 TR | VLESS | @vmesc #1",
       "type": "vless",
       "server": "195.162.69.241",
       "server_port": 4433,
       "uuid": "6d41e0c5-c90f-4f38-aa46-072a3db0cd56",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @vmesc #2",
+      "type": "vless",
+      "server": "107.161.174.153",
+      "server_port": 59142,
+      "uuid": "c4c96606-100d-491c-a7ad-f56e0a5c61d3",
       "packet_encoding": "xudp"
     }
   ],

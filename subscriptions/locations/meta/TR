@@ -23,8 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇷 TR | VLESS | @red2ray #1", "server": "tr.linuxbase.ir", "port": 1152, "type": "vless", "skip-cert-verify": true, "uuid": "eb6f13cb-da91-4f6f-adf3-aad51788812f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇹🇷 TR | VLESS | @vmesc #1", "server": "195.162.69.241", "port": 4433, "type": "vless", "skip-cert-verify": true, "uuid": "6d41e0c5-c90f-4f38-aa46-072a3db0cd56", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @vmesc #2", "server": "107.161.174.153", "port": 59142, "type": "vless", "skip-cert-verify": true, "uuid": "c4c96606-100d-491c-a7ad-f56e0a5c61d3", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇷 TR | VLESS | @red2ray #1'
       - '🇹🇷 TR | VLESS | @vmesc #1'
+      - '🇹🇷 TR | VLESS | @vmesc #2'
 
   - name: 🌍 Global Media
     type: select
