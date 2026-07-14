@@ -1,0 +1,121 @@
+mixed-port: 7890
+allow-lan: true
+log-level: info
+external-controller: 0.0.0.0:9090
+
+dns:
+  enabled: true
+  listen: 0.0.0.0:1053
+  ipv6: true
+  enhanced-mode: fake-ip
+  fake-ip-range: 198.18.0.1/16
+  default-nameserver:
+    - 223.5.5.5
+    - 119.29.29.29
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+  fake-ip-filter:
+    - '*.lan'
+    - '*.local'
+    - '*.msftconnecttest.com'
+    - '*.msftncsi.com'
+    - '+.pool.ntp.org'
+
+proxies: 
+  - {"name": "همکاری_ملی", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
+  - {"name": "جاویدشاه", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
+  - {"name": "KingRezaPahlavi", "server": "127.0.0.1", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "00000000-0000-0000-0000-000000000000", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "127.0.0.1"}}}
+  - {"name": "🇩🇪 DE | VLESS | @filterk0sh #1", "server": "eng14.netliberated.org", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0bb6dff2-0029-4b81-8c81-4fc70fae1ed9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇨🇿 CZ | VLESS | @mehrosaboran #1", "server": "s1.streemmovie.shop", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "76b7834c-75d4-4fce-a90b-2639739e8e3e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇱 AL | VLESS | @netmellianti #1", "server": "albanyao.consolgame.ir", "port": 1002, "type": "vless", "skip-cert-verify": true, "uuid": "7691d590-be40-411f-ab11-1e1ab4b03570", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇩🇪 DE | VLESS | @netmellianti #1", "server": "mreal2.varzesh361.ir", "port": 1153, "type": "vless", "skip-cert-verify": true, "uuid": "7691d590-be40-411f-ab11-1e1ab4b03570", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇩🇪 DE | VLESS | @orange_vpns #1", "server": "vip-de2-unlimited.relqino.ir", "port": 2087, "type": "vless", "skip-cert-verify": true, "uuid": "4e37ec19-064c-41fe-a218-42b093d2ca5f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇩🇪 DE | VLESS | @outline_ir #1", "server": "af48e9533d6a23ed.mbmovietime.ir", "port": 50567, "type": "vless", "skip-cert-verify": true, "uuid": "d7955f3f-dfa3-45a0-a3ef-9693df439a0f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇨🇭 CH | VLESS | @prrofile_purple #1", "server": "ch-zicid.locations-sub.com", "port": 6200, "type": "vless", "skip-cert-verify": true, "uuid": "5c9ca141-62fb-4c9a-8ba2-af48afdeafaa", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇹🇷 TR | VLESS | @red2ray #1", "server": "tr.linuxbase.ir", "port": 1152, "type": "vless", "skip-cert-verify": true, "uuid": "eb6f13cb-da91-4f6f-adf3-aad51788812f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇩🇪 DE | VLESS | @savagev2ray #1", "server": "tv.myblog.org.tr", "port": 25520, "type": "vless", "skip-cert-verify": true, "uuid": "27bb7bca-1335-4f1a-91e6-14c2974cffb1", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇩🇪 DE | VLESS | @savagev2ray #2", "server": "tv.myblog.org.tr", "port": 25520, "type": "vless", "skip-cert-verify": true, "uuid": "27bb7bca-1335-4f1a-91e6-14c2974cffb1", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇩🇪 DE | VLESS | @v2ray_free_conf #1", "server": "www.aiemusic.ir", "port": 46312, "type": "vless", "skip-cert-verify": true, "uuid": "d08c3d5e-ef85-48ac-b532-0fe6d3ae14d1", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇸🇪 SE | VLESS | @v2rayngvpn_1 #1", "server": "sw.linuxbase.ir", "port": 1152, "type": "vless", "skip-cert-verify": true, "uuid": "4973357c-6436-4970-b1e6-e21244d2ef94", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @v2raytg #1", "server": "b02.connectv.net", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "c65ca957-329a-0001-8e62-eaaa48468833", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇫🇷 FR | VLESS | @vmesc #1", "server": "30078f12035fb0b9.mechanicir.ir", "port": 56625, "type": "vless", "skip-cert-verify": true, "uuid": "d7955f3f-dfa3-45a0-a3ef-9693df439a0f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇪 AE | VLESS | @vmesskhodam #1", "server": "test.dnmpropack.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "c31e4bed-e31a-489c-9433-b036c3940bc5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇩🇪 DE | VLESS | @vmesskhodam #1", "server": "6fde6e41dffe6417.mbmovietime.ir", "port": 50567, "type": "vless", "skip-cert-verify": true, "uuid": "3b4529e8-9c14-4541-8388-fe90d737baeb", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇩🇪 DE | VLESS | @vmesskhodam #2", "server": "mcdn.server-wolf.ir", "port": 1509, "type": "vless", "skip-cert-verify": true, "uuid": "59e48e66-89c0-4139-ab2b-f808ec1ef825", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+
+proxy-groups:
+  - name: 🚀 Proxy
+    type: select
+    proxies:
+      - ♻️ Auto
+      - 🎯 Direct
+
+  - name: ♻️ Auto
+    type: url-test
+    url: http://www.gstatic.com/generate_204
+    interval: 300
+    proxies: 
+      - 'همکاری_ملی'
+      - 'جاویدشاه'
+      - 'KingRezaPahlavi'
+      - '🇩🇪 DE | VLESS | @filterk0sh #1'
+      - '🇨🇿 CZ | VLESS | @mehrosaboran #1'
+      - '🇦🇱 AL | VLESS | @netmellianti #1'
+      - '🇩🇪 DE | VLESS | @netmellianti #1'
+      - '🇩🇪 DE | VLESS | @orange_vpns #1'
+      - '🇩🇪 DE | VLESS | @outline_ir #1'
+      - '🇨🇭 CH | VLESS | @prrofile_purple #1'
+      - '🇹🇷 TR | VLESS | @red2ray #1'
+      - '🇩🇪 DE | VLESS | @savagev2ray #1'
+      - '🇩🇪 DE | VLESS | @savagev2ray #2'
+      - '🇩🇪 DE | VLESS | @v2ray_free_conf #1'
+      - '🇸🇪 SE | VLESS | @v2rayngvpn_1 #1'
+      - '🇷🇺 RU | VLESS | @v2raytg #1'
+      - '🇫🇷 FR | VLESS | @vmesc #1'
+      - '🇦🇪 AE | VLESS | @vmesskhodam #1'
+      - '🇩🇪 DE | VLESS | @vmesskhodam #1'
+      - '🇩🇪 DE | VLESS | @vmesskhodam #2'
+
+  - name: 🌍 Global Media
+    type: select
+    proxies:
+      - 🚀 Proxy
+      - ♻️ Auto
+      - 🎯 Direct
+
+  - name: 🎯 Direct
+    type: select
+    proxies:
+      - DIRECT
+
+  - name: 🛑 Ad Block
+    type: select
+    proxies:
+      - REJECT
+      - DIRECT
+
+  - name: 🐟 Fallback
+    type: select
+    proxies:
+      - 🚀 Proxy
+      - 🎯 Direct
+
+rules:
+  - DOMAIN-KEYWORD,adservice,🛑 Ad Block
+  - DOMAIN-SUFFIX,googlesyndication.com,🛑 Ad Block
+  - DOMAIN-SUFFIX,netflix.com,🌍 Global Media
+  - DOMAIN-SUFFIX,nflxvideo.net,🌍 Global Media
+  - DOMAIN-SUFFIX,disneyplus.com,🌍 Global Media
+  - DOMAIN-KEYWORD,youtube,🌍 Global Media
+  - DOMAIN-SUFFIX,t.me,🚀 Proxy
+  - DOMAIN-SUFFIX,telegram.org,🚀 Proxy
+  - DOMAIN-SUFFIX,openai.com,🚀 Proxy
+  - DOMAIN-SUFFIX,lan,🎯 Direct
+  - DOMAIN-SUFFIX,local,🎯 Direct
+  - IP-CIDR,127.0.0.0/8,🎯 Direct,no-resolve
+  - IP-CIDR,192.168.0.0/16,🎯 Direct,no-resolve
+  - IP-CIDR,10.0.0.0/8,🎯 Direct,no-resolve
+  - IP-CIDR,172.16.0.0/12,🎯 Direct,no-resolve
+  - GEOIP,IR,🎯 Direct
+  - MATCH,🐟 Fallback
