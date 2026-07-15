@@ -76,19 +76,14 @@
     {
       "outbounds": [
         "auto",
-        "direct",
-        "🇫🇮 FI | VLESS | @mtproxy22_v2ray #1",
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #1"
+        "direct"
       ],
       "tag": "proxy",
       "type": "selector"
     },
     {
       "interval": "10m",
-      "outbounds": [
-        "🇫🇮 FI | VLESS | @mtproxy22_v2ray #1",
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #1"
-      ],
+      "outbounds": [],
       "tag": "auto",
       "tolerance": 50,
       "type": "urltest",
@@ -101,36 +96,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @mtproxy22_v2ray #1",
-      "type": "vless",
-      "server": "65.109.245.160",
-      "server_port": 8441,
-      "uuid": "665b2cec-6027-44e1-bd04-9dc2c3ca8f2e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "95.217.16.41",
-      "server_port": 4432,
-      "uuid": "62cdf075-a753-4836-9ebc-83ff409d85f5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     }
   ],
   "route": {

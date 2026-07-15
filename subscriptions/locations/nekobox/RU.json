@@ -79,6 +79,8 @@
         "direct",
         "🇷🇺 RU | VLESS | @jiedianf #1",
         "🇷🇺 RU | VLESS | @megavpn_link #1",
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+        "🇷🇺 RU | VLESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @v2raytg #1"
       ],
       "tag": "proxy",
@@ -89,6 +91,8 @@
       "outbounds": [
         "🇷🇺 RU | VLESS | @jiedianf #1",
         "🇷🇺 RU | VLESS | @megavpn_link #1",
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+        "🇷🇺 RU | VLESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @v2raytg #1"
       ],
       "tag": "auto",
@@ -128,6 +132,46 @@
       "server": "158.160.250.45",
       "server_port": 443,
       "uuid": "b6083a84-80a5-3e88-9dbb-5c8ef241be3a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "51.250.69.118",
+      "server_port": 443,
+      "uuid": "4392b776-41a2-4300-b545-a3d2724b605b",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "95.163.211.116",
+      "server_port": 443,
+      "uuid": "54244201-1f12-45fa-95f3-af46a3a7fc0b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
