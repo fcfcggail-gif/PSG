@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇪🇪 EE | VLESS | @hope_net #1", "server": "45.80.110.96", "port": 2087, "type": "vless", "skip-cert-verify": true, "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇪🇪 EE | VLESS | @hope_net #2", "server": "45.80.110.230", "port": 2087, "type": "vless", "skip-cert-verify": true, "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇪🇪 EE | VLESS | @red2ray #1", "server": "est.vrsvpn.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0b9bcbc1-b289-4a64-86fa-a5b731b65384", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇪🇪 EE | VLESS | @hope_net #1'
-      - '🇪🇪 EE | VLESS | @hope_net #2'
+      - '🇪🇪 EE | VLESS | @red2ray #1'
 
   - name: 🌍 Global Media
     type: select

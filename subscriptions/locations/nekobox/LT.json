@@ -78,8 +78,8 @@
         "auto",
         "direct",
         "🇱🇹 LT | VLESS | @jiedianf #1",
-        "🇱🇹 LT | VLESS | @red2ray #1",
-        "🇱🇹 LT | VLESS | @v2ray_collector #1"
+        "🇱🇹 LT | VLESS | @v2ray_collector #1",
+        "🇱🇹 LT | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,8 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇱🇹 LT | VLESS | @jiedianf #1",
-        "🇱🇹 LT | VLESS | @red2ray #1",
-        "🇱🇹 LT | VLESS | @v2ray_collector #1"
+        "🇱🇹 LT | VLESS | @v2ray_collector #1",
+        "🇱🇹 LT | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,28 +114,6 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "tag": "🇱🇹 LT | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "lt.vrsvpn.com",
-      "server_port": 443,
-      "uuid": "0b9bcbc1-b289-4a64-86fa-a5b731b65384",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇱🇹 LT | VLESS | @v2ray_collector #1",
       "type": "vless",
       "server": "89.116.180.248",
@@ -151,6 +129,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇱🇹 LT | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "84.32.209.210",
+      "server_port": 7443,
+      "uuid": "8f0560ec-ba22-4431-a6a7-318dc59d5233",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

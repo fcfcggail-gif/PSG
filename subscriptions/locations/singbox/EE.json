@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇪 EE | VLESS | @hope_net #1",
-        "🇪🇪 EE | VLESS | @hope_net #2"
+        "🇪🇪 EE | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇪 EE | VLESS | @hope_net #1",
-        "🇪🇪 EE | VLESS | @hope_net #2"
+        "🇪🇪 EE | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,20 +110,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇪🇪 EE | VLESS | @hope_net #1",
+      "tag": "🇪🇪 EE | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "45.80.110.96",
-      "server_port": 2087,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇪🇪 EE | VLESS | @hope_net #2",
-      "type": "vless",
-      "server": "45.80.110.230",
-      "server_port": 2087,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp"
+      "server": "est.vrsvpn.com",
+      "server_port": 443,
+      "uuid": "0b9bcbc1-b289-4a64-86fa-a5b731b65384",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
