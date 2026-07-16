@@ -76,14 +76,17 @@
     {
       "outbounds": [
         "auto",
-        "direct"
+        "direct",
+        "🇫🇮 FI | VLESS | @orange_vpns #1"
       ],
       "tag": "proxy",
       "type": "selector"
     },
     {
       "interval": "10m",
-      "outbounds": [],
+      "outbounds": [
+        "🇫🇮 FI | VLESS | @orange_vpns #1"
+      ],
       "tag": "auto",
       "tolerance": 50,
       "type": "urltest",
@@ -96,6 +99,23 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "62.238.41.102",
+      "server_port": 443,
+      "uuid": "13deef01-0a60-47ec-aa9c-8a3481e1c87f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

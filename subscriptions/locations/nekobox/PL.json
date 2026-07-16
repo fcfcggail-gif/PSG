@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇪 EE | VLESS | @red2ray #1"
+        "🇵🇱 PL | VLESS | @red2ray #1",
+        "🇵🇱 PL | VLESS | @red2ray #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇪 EE | VLESS | @red2ray #1"
+        "🇵🇱 PL | VLESS | @red2ray #1",
+        "🇵🇱 PL | VLESS | @red2ray #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,26 +103,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇪🇪 EE | VLESS | @red2ray #1",
+      "tag": "🇵🇱 PL | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "est.vrsvpn.com",
-      "server_port": 443,
-      "uuid": "0b9bcbc1-b289-4a64-86fa-a5b731b65384",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "91.224.75.127",
+      "server_port": 2053,
+      "uuid": "42e2dd45-2323-4929-9ab7-98f43591416e",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @red2ray #2",
+      "type": "vless",
+      "server": "pol.mrsolo5323.ir",
+      "server_port": 2053,
+      "uuid": "592b8484-76af-40b3-8892-a35001ce015a",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

@@ -77,21 +77,19 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇷 FR | VLESS | @NamiraConfigs #1",
+        "🇫🇷 FR | VLESS | @NamiraConfigs #2",
+        "🇫🇷 FR | VLESS | @NamiraConfigs #3",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mpproxy #1",
-        "🇫🇷 FR | VLESS | @orange_vpns #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
         "🇫🇷 FR | VLESS | @privatevpns #1",
-        "🇫🇷 FR | VLESS | @privatevpns #2",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
-        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
-        "🇫🇷 FR | VLESS | @v2raych #1",
         "🇫🇷 FR | VLESS | @v2rayvpnchannel #1",
         "🇫🇷 FR | VLESS | @vlessconfig #1",
-        "🇫🇷 FR | VLESS | @vmesc #1",
-        "🇫🇷 FR | VLESS | @vmesskhodam #1"
+        "🇫🇷 FR | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,21 +97,19 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇷 FR | VLESS | @NamiraConfigs #1",
+        "🇫🇷 FR | VLESS | @NamiraConfigs #2",
+        "🇫🇷 FR | VLESS | @NamiraConfigs #3",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mpproxy #1",
-        "🇫🇷 FR | VLESS | @orange_vpns #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
         "🇫🇷 FR | VLESS | @privatevpns #1",
-        "🇫🇷 FR | VLESS | @privatevpns #2",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
-        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
-        "🇫🇷 FR | VLESS | @v2raych #1",
         "🇫🇷 FR | VLESS | @v2rayvpnchannel #1",
         "🇫🇷 FR | VLESS | @vlessconfig #1",
-        "🇫🇷 FR | VLESS | @vmesc #1",
-        "🇫🇷 FR | VLESS | @vmesskhodam #1"
+        "🇫🇷 FR | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -127,6 +123,30 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "15.188.249.140",
+      "server_port": 22223,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @NamiraConfigs #2",
+      "type": "vless",
+      "server": "15.188.249.140",
+      "server_port": 22222,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @NamiraConfigs #3",
+      "type": "vless",
+      "server": "15.188.249.140",
+      "server_port": 22224,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇷 FR | VLESS | @merdesert #1",
@@ -170,14 +190,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @orange_vpns #1",
-      "type": "vless",
-      "server": "145.239.137.250",
-      "server_port": 58748,
-      "uuid": "21e22226-0b96-4b4e-9a91-5c7f9e3f1760",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇫🇷 FR | VLESS | @outline_ir #1",
       "type": "vless",
       "server": "cf380c40b2993608.nimaghaffarzadeh.ir",
@@ -187,14 +199,6 @@
     },
     {
       "tag": "🇫🇷 FR | VLESS | @privatevpns #1",
-      "type": "vless",
-      "server": "35.181.79.91",
-      "server_port": 22222,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @privatevpns #2",
       "type": "vless",
       "server": "15.188.249.140",
       "server_port": 22222,
@@ -219,34 +223,9 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "frms.sannest.ir",
-      "server_port": 443,
-      "uuid": "2a388220-e558-493c-97c8-97ccf32ef1f7",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "15.188.249.140",
-      "server_port": 22224,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇫🇷 FR | VLESS | @v2rayvpnchannel #1",
       "type": "vless",
-      "server": "35.181.79.91",
+      "server": "15.188.249.140",
       "server_port": 22223,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "packet_encoding": "xudp"
@@ -254,7 +233,7 @@
     {
       "tag": "🇫🇷 FR | VLESS | @vlessconfig #1",
       "type": "vless",
-      "server": "35.181.79.91",
+      "server": "15.188.249.140",
       "server_port": 22224,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "packet_encoding": "xudp"
@@ -265,14 +244,6 @@
       "server": "30078f12035fb0b9.mechanicir.ir",
       "server_port": 56625,
       "uuid": "d7955f3f-dfa3-45a0-a3ef-9693df439a0f",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "s4.cnavippanel.com",
-      "server_port": 8090,
-      "uuid": "bbea7c42-aec2-42b4-8bec-9b9c4afea03d",
       "packet_encoding": "xudp"
     }
   ],

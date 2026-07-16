@@ -23,6 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇹🇷 TR | VLESS | @red2ray #1", "server": "104.239.83.102", "port": 53411, "type": "vless", "skip-cert-verify": true, "uuid": "7c8d83f8-2f16-4d74-9484-118dd14a1ffa", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇹🇷 TR | VLESS | @v2raych #1", "server": "104.239.83.102", "port": 44607, "type": "vless", "skip-cert-verify": true, "uuid": "7c8d83f8-2f16-4d74-9484-118dd14a1ffa", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇹🇷 TR | VLESS | @vmesc #1", "server": "107.161.174.153", "port": 59142, "type": "vless", "skip-cert-verify": true, "uuid": "c4c96606-100d-491c-a7ad-f56e0a5c61d3", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇹🇷 TR | VLESS | @vmesskhodam #1", "server": "107.161.174.153", "port": 59142, "type": "vless", "skip-cert-verify": true, "uuid": "c4c96606-100d-491c-a7ad-f56e0a5c61d3", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
@@ -38,6 +40,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇹🇷 TR | VLESS | @red2ray #1'
+      - '🇹🇷 TR | VLESS | @v2raych #1'
       - '🇹🇷 TR | VLESS | @vmesc #1'
       - '🇹🇷 TR | VLESS | @vmesskhodam #1'
 
