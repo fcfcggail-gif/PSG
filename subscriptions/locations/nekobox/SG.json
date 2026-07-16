@@ -79,6 +79,7 @@
         "direct",
         "🇸🇬 SG | VLESS | @free1_vpn #1",
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
+        "🇸🇬 SG | VLESS | @orange_vpns #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1"
       ],
       "tag": "proxy",
@@ -89,6 +90,7 @@
       "outbounds": [
         "🇸🇬 SG | VLESS | @free1_vpn #1",
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
+        "🇸🇬 SG | VLESS | @orange_vpns #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1"
       ],
       "tag": "auto",
@@ -142,6 +144,23 @@
         "path": "/",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "43.174.246.46",
+      "server_port": 443,
+      "uuid": "fd9a728d-ece1-4168-c5a4-c28ecb5a0065",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
