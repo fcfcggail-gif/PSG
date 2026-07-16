@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇭 CH | VLESS | @rez1vpn #1"
+        "🇨🇭 CH | VLESS | @rez1vpn #1",
+        "🇨🇭 CH | TROJAN | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇭 CH | VLESS | @rez1vpn #1"
+        "🇨🇭 CH | VLESS | @rez1vpn #1",
+        "🇨🇭 CH | TROJAN | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -125,6 +127,13 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇨🇭 CH | TROJAN | @v2ray_free_conf #1",
+      "type": "trojan",
+      "server": "bnbnbbnbnbnbnbnbnbnbnbnbnvn.poki-pakipon.ir",
+      "server_port": 5315,
+      "password": "-------BanV2ray------"
     }
   ],
   "route": {
