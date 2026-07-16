@@ -102,13 +102,11 @@
         "🇺🇸 US | VLESS | @orange_vpns #2",
         "🇩🇪 DE | VLESS | @outline_ir #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
-        "🇵🇱 PL | VLESS | @red2ray #2",
+        "🇵🇱 PL | VLESS | @red2ray #1",
+        "🇹🇷 TR | VLESS | @red2ray #2",
         "🇩🇪 DE | VLESS | @savagev2ray #1",
         "🇩🇪 DE | VLESS | @savagev2ray #2",
         "🇩🇪 DE | VLESS | @savagev2ray #3",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #2",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #3",
         "🇸🇪 SE | VLESS | @v2rayngvpn_1 #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇫🇷 FR | VLESS | @vmesc #1",
@@ -132,13 +130,11 @@
         "🇺🇸 US | VLESS | @orange_vpns #2",
         "🇩🇪 DE | VLESS | @outline_ir #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
-        "🇵🇱 PL | VLESS | @red2ray #2",
+        "🇵🇱 PL | VLESS | @red2ray #1",
+        "🇹🇷 TR | VLESS | @red2ray #2",
         "🇩🇪 DE | VLESS | @savagev2ray #1",
         "🇩🇪 DE | VLESS | @savagev2ray #2",
         "🇩🇪 DE | VLESS | @savagev2ray #3",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #2",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #3",
         "🇸🇪 SE | VLESS | @v2rayngvpn_1 #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇫🇷 FR | VLESS | @vmesc #1",
@@ -368,12 +364,34 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @red2ray #2",
+      "tag": "🇵🇱 PL | VLESS | @red2ray #1",
       "type": "vless",
       "server": "pol.mrsolo5323.ir",
       "server_port": 2053,
       "uuid": "592b8484-76af-40b3-8892-a35001ce015a",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @red2ray #2",
+      "type": "vless",
+      "server": "98tr21223dadfadsfas.hardy2venom.ir",
+      "server_port": 57198,
+      "uuid": "7c8d83f8-2f16-4d74-9484-118dd14a1ffa",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @savagev2ray #1",
@@ -425,67 +443,6 @@
       "server": "tv.myblog.org.tr",
       "server_port": 25520,
       "uuid": "db1aebd3-7599-4d9e-962f-0004ee87119e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "de-play.montago-shop.ir",
-      "server_port": 443,
-      "uuid": "2050e43c-7f7e-469e-bfbc-c189944fdabc",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #2",
-      "type": "vless",
-      "server": "naran-de-ow.fizikade.ir",
-      "server_port": 443,
-      "uuid": "993055af-0b6b-4487-8065-8892d0684f64",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #3",
-      "type": "vless",
-      "server": "de.vrsvpn.com",
-      "server_port": 443,
-      "uuid": "0b9bcbc1-b289-4a64-86fa-a5b731b65384",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

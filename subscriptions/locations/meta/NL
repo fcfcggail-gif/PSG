@@ -23,11 +23,12 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇳🇱 NL | VLESS | @NamiraConfigs #1", "server": "195.63.137.251", "port": 8090, "type": "vless", "skip-cert-verify": true, "uuid": "ef14c532-b69a-4f46-ae29-272f2fdaf673", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @configv2rayforfree #1", "server": "c1.fineartsnet.org", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "668869b1-860e-4308-b1da-386e222defce", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | TROJAN | @prrofile_purple #1", "server": "45.131.4.118", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "MiTiVPN"}
   - {"name": "🇳🇱 NL | VLESS | @qeshmserver #1", "server": "95.179.138.190", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-id-qeshmserver", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇳🇱 NL | VLESS | @v2ray_free_conf #1", "server": "195.63.144.164", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "09c9f597-0c54-40e4-810a-474e1ef4bd6b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇱 NL | VLESS | @v2ray_youtube #1", "server": "alpha.iranhttp.com", "port": 4242, "type": "vless", "skip-cert-verify": true, "uuid": "df196287-5b8c-4592-870f-b3ede251fa68", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇳🇱 NL | VLESS | @v2raych #1", "server": "195.63.144.164", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "09c9f597-0c54-40e4-810a-474e1ef4bd6b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇱 NL | VLESS | @vmesc #1", "server": "153.75.89.148", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "8afb91d5-76bd-11f1-bd1f-525400b0a67a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -42,11 +43,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇳🇱 NL | VLESS | @NamiraConfigs #1'
       - '🇳🇱 NL | VLESS | @configv2rayforfree #1'
       - '🇳🇱 NL | TROJAN | @prrofile_purple #1'
       - '🇳🇱 NL | VLESS | @qeshmserver #1'
-      - '🇳🇱 NL | VLESS | @v2ray_free_conf #1'
       - '🇳🇱 NL | VLESS | @v2ray_youtube #1'
+      - '🇳🇱 NL | VLESS | @v2raych #1'
       - '🇳🇱 NL | VLESS | @vmesc #1'
 
   - name: 🌍 Global Media
