@@ -78,6 +78,7 @@
         "auto",
         "direct",
         "🇮🇹 IT | VLESS | @outline_ir #1",
+        "🇮🇹 IT | VLESS | @v2raymelliii #1",
         "🇮🇹 IT | VLESS | @vpnowl #1"
       ],
       "tag": "proxy",
@@ -87,6 +88,7 @@
       "interval": "10m",
       "outbounds": [
         "🇮🇹 IT | VLESS | @outline_ir #1",
+        "🇮🇹 IT | VLESS | @v2raymelliii #1",
         "🇮🇹 IT | VLESS | @vpnowl #1"
       ],
       "tag": "auto",
@@ -109,6 +111,28 @@
       "server_port": 8880,
       "uuid": "8dc7722c-2767-4eea-a28b-2f8daacc07e3",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇹 IT | VLESS | @v2raymelliii #1",
+      "type": "vless",
+      "server": "hudrososov.blog",
+      "server_port": 443,
+      "uuid": "2428711f-5117-46e9-a2cb-741797a60ed8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇮🇹 IT | VLESS | @vpnowl #1",

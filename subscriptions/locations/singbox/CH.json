@@ -91,7 +91,9 @@
         "auto",
         "direct",
         "🇨🇭 CH | VLESS | @red2ray #1",
-        "🇨🇭 CH | VLESS | @rez1vpn #1"
+        "🇨🇭 CH | VLESS | @red2ray #2",
+        "🇨🇭 CH | VLESS | @rez1vpn #1",
+        "🇨🇭 CH | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +102,9 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇭 CH | VLESS | @red2ray #1",
-        "🇨🇭 CH | VLESS | @rez1vpn #1"
+        "🇨🇭 CH | VLESS | @red2ray #2",
+        "🇨🇭 CH | VLESS | @rez1vpn #1",
+        "🇨🇭 CH | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -134,6 +138,28 @@
       }
     },
     {
+      "tag": "🇨🇭 CH | VLESS | @red2ray #2",
+      "type": "vless",
+      "server": "ch-5.lemonbow.ru",
+      "server_port": 443,
+      "uuid": "8516c47e-a7a1-42f7-9c14-ae9b14873cc8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇨🇭 CH | VLESS | @rez1vpn #1",
       "type": "vless",
       "server": "185.18.250.252",
@@ -147,6 +173,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "dk-google.mobileemdad.top",
+      "server_port": 443,
+      "uuid": "2050e43c-7f7e-469e-bfbc-c189944fdabc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }
