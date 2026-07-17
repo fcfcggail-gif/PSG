@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇾 BY | VMESS | @ir_netproxy #1"
+        "🇧🇾 BY | VMESS | @ir_netproxy #1",
+        "🇧🇾 BY | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇾 BY | VMESS | @ir_netproxy #1"
+        "🇧🇾 BY | VMESS | @ir_netproxy #1",
+        "🇧🇾 BY | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -124,6 +126,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇾 BY | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "87.252.237.219",
+      "server_port": 8443,
+      "uuid": "c50680f6-8dc9-44cc-a8fe-72cab1f7f51b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

@@ -77,7 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇭 CH | VLESS | @rez1vpn #1"
+        "🇨🇭 CH | VLESS | @rez1vpn #1",
+        "🇨🇭 CH | TROJAN | @v2ray_free_conf #1",
+        "🇨🇭 CH | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇭 CH | VLESS | @rez1vpn #1"
+        "🇨🇭 CH | VLESS | @rez1vpn #1",
+        "🇨🇭 CH | TROJAN | @v2ray_free_conf #1",
+        "🇨🇭 CH | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,6 +118,35 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇭 CH | TROJAN | @v2ray_free_conf #1",
+      "type": "trojan",
+      "server": "uupupupuppupupupuuppupupupupuup-11.poki-pakipon.ir",
+      "server_port": 62115,
+      "password": "----------BanV2ray-----------"
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "dk-google.mobileemdad.top",
+      "server_port": 443,
+      "uuid": "527831db-b8fc-4012-8410-c0698dc43f12",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
         "🇹🇷 TR | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
@@ -85,6 +86,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
         "🇹🇷 TR | VLESS | @vmesc #1"
       ],
       "tag": "auto",
@@ -99,6 +101,23 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "trus.sannest.ir",
+      "server_port": 443,
+      "uuid": "876b751a-517f-4d69-bc5d-eba9d9ed143a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇹🇷 TR | VLESS | @vmesc #1",
