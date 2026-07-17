@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSFI=
+//profile-title: base64:UFNHIHwgS1I=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇷 HR | VLESS | @v2ray_free_conf #1"
+        "🇰🇷 KR | TROJAN | @v2raych #1",
+        "🇰🇷 KR | TROJAN | @v2raych #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇷 HR | VLESS | @v2ray_free_conf #1"
+        "🇰🇷 KR | TROJAN | @v2raych #1",
+        "🇰🇷 KR | TROJAN | @v2raych #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +112,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇭🇷 HR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "92.243.65.31",
+      "tag": "🇰🇷 KR | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "merry-falcon.rooster465.autos",
       "server_port": 443,
-      "uuid": "a54cfb1f-6bd8-7f0f-d6b8-2ee70180952a",
-      "packet_encoding": "xudp",
+      "password": "NQ26071394",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -123,11 +124,22 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇰🇷 KR | TROJAN | @v2raych #2",
+      "type": "trojan",
+      "server": "genuine-cougar.rooster465.autos",
+      "server_port": 443,
+      "password": "NQ26071394",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }

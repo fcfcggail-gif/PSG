@@ -23,10 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇨🇭 CH | VLESS | @red2ray #1", "server": "179.237.75.28", "port": 32875, "type": "vless", "skip-cert-verify": true, "uuid": "1961317f-5f2c-4346-e4b0-b767f0946138", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇨🇭 CH | VLESS | @red2ray #2", "server": "ch-5.lemonbow.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "8516c47e-a7a1-42f7-9c14-ae9b14873cc8", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇨🇭 CH | VLESS | @rez1vpn #1", "server": "185.18.250.252", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "f77299ea-e13d-417d-8cdc-ce5566dfc94b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇨🇭 CH | VLESS | @vmesc #1", "server": "dk-google.mobileemdad.top", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2050e43c-7f7e-469e-bfbc-c189944fdabc", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,10 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇨🇭 CH | VLESS | @red2ray #1'
-      - '🇨🇭 CH | VLESS | @red2ray #2'
       - '🇨🇭 CH | VLESS | @rez1vpn #1'
-      - '🇨🇭 CH | VLESS | @vmesc #1'
 
   - name: 🌍 Global Media
     type: select
