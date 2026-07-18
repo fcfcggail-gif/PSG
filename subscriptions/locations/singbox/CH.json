@@ -90,8 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇨🇭 CH | VLESS | @red2ray #1",
         "🇨🇭 CH | VLESS | @rez1vpn #1",
-        "🇨🇭 CH | TROJAN | @v2ray_free_conf #1",
+        "🇨🇭 CH | VLESS | @vmesc #1",
         "🇨🇭 CH | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -100,8 +101,9 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇨🇭 CH | VLESS | @red2ray #1",
         "🇨🇭 CH | VLESS | @rez1vpn #1",
-        "🇨🇭 CH | TROJAN | @v2ray_free_conf #1",
+        "🇨🇭 CH | VLESS | @vmesc #1",
         "🇨🇭 CH | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -112,6 +114,28 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "zicid.ch.service-panelbaz.ir",
+      "server_port": 6200,
+      "uuid": "6142e0d7-7d75-4579-b70b-4b58e84b92ba",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇨🇭 CH | VLESS | @rez1vpn #1",
@@ -131,11 +155,26 @@
       }
     },
     {
-      "tag": "🇨🇭 CH | TROJAN | @v2ray_free_conf #1",
-      "type": "trojan",
-      "server": "uupupupuppupupupuuppupupupupuup-11.poki-pakipon.ir",
-      "server_port": 62115,
-      "password": "----------BanV2ray-----------"
+      "tag": "🇨🇭 CH | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "dk-google.mobileemdad.top",
+      "server_port": 443,
+      "uuid": "2050e43c-7f7e-469e-bfbc-c189944fdabc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇨🇭 CH | VLESS | @vmesskhodam #1",
