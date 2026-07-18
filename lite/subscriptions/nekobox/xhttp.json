@@ -84,6 +84,9 @@
         "🇺🇸 US | VLESS | @ehsawn8 #1",
         "🇽🇽 XX | VLESS | @flyv2ray #1",
         "🇽🇽 XX | VLESS | @flyv2ray #2",
+        "🇺🇸 US | TROJAN | @free1_vpn #1",
+        "🇳🇱 NL | VLESS | @mehrosaboran #1",
+        "🇺🇸 US | TROJAN | @nofiltering2 #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
@@ -92,12 +95,11 @@
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
-        "🇽🇽 XX | VLESS | @configv2rayforfree #1",
         "🇳🇱 NL | VLESS | @configv2rayforfree #1",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇨🇿 CZ | VLESS | @mehrosaboran #1",
-        "🇽🇽 XX | VLESS | @v2ray_youtube #2"
+        "🇽🇽 XX | VLESS | @v2ray_youtube #1",
+        "🇩🇪 DE | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -112,6 +114,9 @@
         "🇺🇸 US | VLESS | @ehsawn8 #1",
         "🇽🇽 XX | VLESS | @flyv2ray #1",
         "🇽🇽 XX | VLESS | @flyv2ray #2",
+        "🇺🇸 US | TROJAN | @free1_vpn #1",
+        "🇳🇱 NL | VLESS | @mehrosaboran #1",
+        "🇺🇸 US | TROJAN | @nofiltering2 #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
@@ -120,12 +125,11 @@
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
-        "🇽🇽 XX | VLESS | @configv2rayforfree #1",
         "🇳🇱 NL | VLESS | @configv2rayforfree #1",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇨🇿 CZ | VLESS | @mehrosaboran #1",
-        "🇽🇽 XX | VLESS | @v2ray_youtube #2"
+        "🇽🇽 XX | VLESS | @v2ray_youtube #1",
+        "🇩🇪 DE | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -254,6 +258,55 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇺🇸 US | TROJAN | @free1_vpn #1",
+      "type": "trojan",
+      "server": "151.101.34.144",
+      "server_port": 443,
+      "password": "4aFbwy5BHa",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @mehrosaboran #1",
+      "type": "vless",
+      "server": "206.71.158.124",
+      "server_port": 443,
+      "uuid": "3536e1fa-0850-44d1-b123-925ce12476cf",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | TROJAN | @nofiltering2 #1",
+      "type": "trojan",
+      "server": "151.101.34.144",
+      "server_port": 443,
+      "password": "itX52H4tiA",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @proxie #1",
       "type": "vless",
       "server": "104.21.62.144",
@@ -372,14 +425,6 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @configv2rayforfree #1",
-      "type": "vless",
-      "server": "adamak1.phacode.ir",
-      "server_port": 2053,
-      "uuid": "f5887006-d4da-48c7-81e7-92595a2703fd",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @configv2rayforfree #1",
       "type": "vless",
       "server": "c1.fineartsnet.org",
@@ -404,15 +449,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇨🇿 CZ | VLESS | @mehrosaboran #1",
-      "type": "vless",
-      "server": "s1.streemmovie.shop",
-      "server_port": 8443,
-      "uuid": "76b7834c-75d4-4fce-a90b-2639739e8e3e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2ray_youtube #2",
+      "tag": "🇽🇽 XX | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "us.aleykesalam.dpdns.org",
       "server_port": 443,
@@ -427,6 +464,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "c.bazardam.shop",
+      "server_port": 2056,
+      "uuid": "3f646f4d-b96e-4ba4-b562-0fd4854391a8",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
