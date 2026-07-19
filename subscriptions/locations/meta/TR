@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇷 TR | VLESS | @v2ray_free_conf #1", "server": "tery.aliyostd.com", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "907772ba-dd82-40a8-8ccb-71a7cba854b6", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @orange_vpns #1", "server": "tr.koomeh.net", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "ce6ae434-7ace-4ce8-851a-9321a9e5a0a6", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @v2ray_free_conf #1", "server": "game.arshia-nova.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "d5b25051-c06c-4af5-9cd6-b6000310177c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇹🇷 TR | VLESS | @orange_vpns #1'
       - '🇹🇷 TR | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
