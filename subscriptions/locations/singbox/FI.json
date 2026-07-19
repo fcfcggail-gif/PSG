@@ -89,17 +89,14 @@
     {
       "outbounds": [
         "auto",
-        "direct",
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #1"
+        "direct"
       ],
       "tag": "proxy",
       "type": "selector"
     },
     {
       "interval": "10m",
-      "outbounds": [
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #1"
-      ],
+      "outbounds": [],
       "tag": "auto",
       "tolerance": 50,
       "type": "urltest",
@@ -108,14 +105,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "fi.sv.temas-bor.ir",
-      "server_port": 22010,
-      "uuid": "783e3a33-7aa3-402a-95e4-e863ddaca78e",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

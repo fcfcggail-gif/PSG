@@ -77,12 +77,15 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇬🇧 GB | SS | @father_vpn #1",
+        "🇬🇧 GB | VLESS | @flyv2ray #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @free4allvpn #2",
         "🇬🇧 GB | TROJAN | @prrofile_purple #1",
+        "🇬🇧 GB | TROJAN | @prrofile_purple #2",
         "🇬🇧 GB | VLESS | @red2ray #1",
         "🇬🇧 GB | SS | @torang_vpn #1",
+        "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
+        "🇬🇧 GB | SS | @v2ray_free_conf #1",
         "🇬🇧 GB | VLESS | @v2ray_youtube #1",
         "🇬🇧 GB | SS | @v2rayng3 #1",
         "🇬🇧 GB | SS | @v2rayng3 #2",
@@ -96,12 +99,15 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇬🇧 GB | SS | @father_vpn #1",
+        "🇬🇧 GB | VLESS | @flyv2ray #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @free4allvpn #2",
         "🇬🇧 GB | TROJAN | @prrofile_purple #1",
+        "🇬🇧 GB | TROJAN | @prrofile_purple #2",
         "🇬🇧 GB | VLESS | @red2ray #1",
         "🇬🇧 GB | SS | @torang_vpn #1",
+        "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
+        "🇬🇧 GB | SS | @v2ray_free_conf #1",
         "🇬🇧 GB | VLESS | @v2ray_youtube #1",
         "🇬🇧 GB | SS | @v2rayng3 #1",
         "🇬🇧 GB | SS | @v2rayng3 #2",
@@ -123,12 +129,21 @@
       "type": "direct"
     },
     {
-      "tag": "🇬🇧 GB | SS | @father_vpn #1",
-      "type": "shadowsocks",
-      "server": "82.38.31.176",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
-      "password": null
+      "tag": "🇬🇧 GB | VLESS | @flyv2ray #1",
+      "type": "vless",
+      "server": "main.oneoker.com",
+      "server_port": 443,
+      "uuid": "86208db7-8bbc-42c2-9eb2-ffe5675502c3",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇬🇧 GB | SS | @free4allvpn #1",
@@ -148,6 +163,22 @@
     },
     {
       "tag": "🇬🇧 GB | TROJAN | @prrofile_purple #1",
+      "type": "trojan",
+      "server": "91.193.58.201",
+      "server_port": 443,
+      "password": "MiTiVPN",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | TROJAN | @prrofile_purple #2",
       "type": "trojan",
       "server": "91.193.58.201",
       "server_port": 443,
@@ -190,6 +221,22 @@
       "server": "series-a1.samanehha.co",
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "91.193.59.135",
+      "server_port": 80,
+      "uuid": "f4e91fac-25eb-4d26-a14c-c82c3778a0e4",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "82.38.31.28",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
       "password": null
     },
     {
