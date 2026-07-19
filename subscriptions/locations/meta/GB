@@ -23,8 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇬🇧 GB | VLESS | @free1_vpn #1", "server": "main.oneoker.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "86208db7-8bbc-42c2-9eb2-ffe5675502c3", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | TROJAN | @prrofile_purple #1", "server": "91.193.58.201", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "MiTiVPN"}
+  - {"name": "🇬🇧 GB | VLESS | @red2ray #1", "server": "8.208.25.123", "port": 10002, "type": "vless", "skip-cert-verify": true, "uuid": "2e8dd587-3540-4066-8e19-b266043e096f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇬🇧 GB | VLESS | @v2ray_youtube #1", "server": "eng.wizardx1.com", "port": 8085, "type": "vless", "skip-cert-verify": true, "uuid": "4a836d89-0655-4c77-9702-b47219afaa5d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -39,8 +39,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇬🇧 GB | VLESS | @free1_vpn #1'
       - '🇬🇧 GB | TROJAN | @prrofile_purple #1'
+      - '🇬🇧 GB | VLESS | @red2ray #1'
       - '🇬🇧 GB | VLESS | @v2ray_youtube #1'
 
   - name: 🌍 Global Media

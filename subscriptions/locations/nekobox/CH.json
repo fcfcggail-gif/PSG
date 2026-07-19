@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇭 CH | VLESS | @rez1vpn #1",
-        "🇨🇭 CH | TROJAN | @v2ray_free_conf #1"
+        "🇨🇭 CH | TROJAN | @outline_ir #1",
+        "🇨🇭 CH | VLESS | @rez1vpn #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇭 CH | VLESS | @rez1vpn #1",
-        "🇨🇭 CH | TROJAN | @v2ray_free_conf #1"
+        "🇨🇭 CH | TROJAN | @outline_ir #1",
+        "🇨🇭 CH | VLESS | @rez1vpn #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,6 +101,22 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇨🇭 CH | TROJAN | @outline_ir #1",
+      "type": "trojan",
+      "server": "185.18.250.252",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇨🇭 CH | VLESS | @rez1vpn #1",
@@ -118,13 +134,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇨🇭 CH | TROJAN | @v2ray_free_conf #1",
-      "type": "trojan",
-      "server": "uupupupuppupupupuuppupupupupuup-11.poki-pakipon.ir",
-      "server_port": 28998,
-      "password": "-----------BanV2ray-----------"
     }
   ],
   "route": {
