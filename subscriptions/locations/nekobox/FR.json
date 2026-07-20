@@ -78,20 +78,18 @@
         "auto",
         "direct",
         "🇫🇷 FR | VLESS | @configasli #1",
+        "🇫🇷 FR | VLESS | @free1_vpn #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mpproxy #1",
         "🇫🇷 FR | VLESS | @netmellianti #1",
         "🇫🇷 FR | VLESS | @privatevpns #1",
-        "🇫🇷 FR | VLESS | @privatevpns #2",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | VLESS | @v2ray_youtube #1",
         "🇫🇷 FR | VLESS | @v2raymelliii #1",
         "🇫🇷 FR | VLESS | @v2rayvpnchannel #1",
-        "🇫🇷 FR | VLESS | @v2rayvpnchannel #2",
-        "🇫🇷 FR | VLESS | @vlessconfig #1",
-        "🇫🇷 FR | VLESS | @vlessconfig #2"
+        "🇫🇷 FR | VLESS | @vlessconfig #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,20 +98,18 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇷 FR | VLESS | @configasli #1",
+        "🇫🇷 FR | VLESS | @free1_vpn #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mpproxy #1",
         "🇫🇷 FR | VLESS | @netmellianti #1",
         "🇫🇷 FR | VLESS | @privatevpns #1",
-        "🇫🇷 FR | VLESS | @privatevpns #2",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | VLESS | @v2ray_youtube #1",
         "🇫🇷 FR | VLESS | @v2raymelliii #1",
         "🇫🇷 FR | VLESS | @v2rayvpnchannel #1",
-        "🇫🇷 FR | VLESS | @v2rayvpnchannel #2",
-        "🇫🇷 FR | VLESS | @vlessconfig #1",
-        "🇫🇷 FR | VLESS | @vlessconfig #2"
+        "🇫🇷 FR | VLESS | @vlessconfig #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -134,6 +130,28 @@
       "server": "172.232.33.18",
       "server_port": 443,
       "uuid": "fe48773b-df06-409a-bc61-117cd8fb1eb7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "141.227.160.73",
+      "server_port": 6300,
+      "uuid": "b1a689fa-20c3-43b4-a107-4af64f8a7cf3",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -216,15 +234,7 @@
     {
       "tag": "🇫🇷 FR | VLESS | @privatevpns #1",
       "type": "vless",
-      "server": "13.36.111.173",
-      "server_port": 22222,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @privatevpns #2",
-      "type": "vless",
-      "server": "15.237.47.97",
+      "server": "15.188.114.69",
       "server_port": 22222,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "packet_encoding": "xudp"
@@ -279,15 +289,7 @@
     {
       "tag": "🇫🇷 FR | VLESS | @v2rayvpnchannel #1",
       "type": "vless",
-      "server": "13.36.111.173",
-      "server_port": 22223,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @v2rayvpnchannel #2",
-      "type": "vless",
-      "server": "15.237.47.97",
+      "server": "15.188.114.69",
       "server_port": 22223,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "packet_encoding": "xudp"
@@ -295,15 +297,7 @@
     {
       "tag": "🇫🇷 FR | VLESS | @vlessconfig #1",
       "type": "vless",
-      "server": "13.36.111.173",
-      "server_port": 22224,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @vlessconfig #2",
-      "type": "vless",
-      "server": "15.237.47.97",
+      "server": "15.188.114.69",
       "server_port": 22224,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "packet_encoding": "xudp"
