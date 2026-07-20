@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @orange_vpns #1"
+        "🇹🇷 TR | VLESS | @orange_vpns #1",
+        "🇹🇷 TR | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @orange_vpns #1"
+        "🇹🇷 TR | VLESS | @orange_vpns #1",
+        "🇹🇷 TR | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,6 +118,14 @@
       "server_port": 80,
       "uuid": "ce6ae434-7ace-4ce8-851a-9321a9e5a0a6",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "turkey.mrapanel.shop",
+      "server_port": 1080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNToySkR1Sm1XZkpxbDVaWE9CZWJoTFFzYk1GczVpSGZveQ==",
+      "password": null
     }
   ],
   "route": {

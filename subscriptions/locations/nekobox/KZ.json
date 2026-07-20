@@ -77,8 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇺 AU | VLESS | @NamiraConfigs #1",
-        "🇦🇺 AU | VMESS | @serverv2ray00 #1"
+        "🇰🇿 KZ | VLESS | @filterk0sh #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇺 AU | VLESS | @NamiraConfigs #1",
-        "🇦🇺 AU | VMESS | @serverv2ray00 #1"
+        "🇰🇿 KZ | VLESS | @filterk0sh #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,35 +101,24 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇺 AU | VLESS | @NamiraConfigs #1",
+      "tag": "🇰🇿 KZ | VLESS | @filterk0sh #1",
       "type": "vless",
-      "server": "82.115.16.211",
-      "server_port": 2082,
-      "uuid": "1c404fde-0aa5-482c-ab00-0b34db703ac8",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇦🇺 AU | VMESS | @serverv2ray00 #1",
-      "type": "vmess",
-      "server": "162.159.135.79",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
+      "server": "77.73.232.61",
+      "server_port": 19747,
+      "uuid": "2a9ed01e-5455-44b4-a66a-76ee8165f0ac",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "janett.click",
+        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/linkvws",
-        "headers": {
-          "Host": "janett.click"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

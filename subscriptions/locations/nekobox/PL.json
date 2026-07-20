@@ -77,8 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇴 RO | SS | @red2ray #1",
-        "🇷🇴 RO | SS | @red2ray #2"
+        "🇵🇱 PL | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇴 RO | SS | @red2ray #1",
-        "🇷🇴 RO | SS | @red2ray #2"
+        "🇵🇱 PL | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,20 +101,21 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇴 RO | SS | @red2ray #1",
-      "type": "shadowsocks",
-      "server": "154.46.31.106",
+      "tag": "🇵🇱 PL | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "meow-warsaw.nethcloud.top",
       "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRRld6Q3cydVg5QjlpNnFBWWVGQklF",
-      "password": null
-    },
-    {
-      "tag": "🇷🇴 RO | SS | @red2ray #2",
-      "type": "shadowsocks",
-      "server": "bogging-eyeteeth-fly.freesocks.work",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpRRld6Q3cydVg5QjlpNnFBWWVGQklF",
-      "password": null
+      "uuid": "a34b5e88-cf0d-4c01-8199-2d1002d3c787",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
