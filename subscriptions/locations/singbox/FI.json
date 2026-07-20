@@ -90,6 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇮 FI | VMESS | @NamiraConfigs #1",
+        "🇫🇮 FI | VLESS | @prrofile_purple #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -98,6 +100,8 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇮 FI | VMESS | @NamiraConfigs #1",
+        "🇫🇮 FI | VLESS | @prrofile_purple #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -108,6 +112,37 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇮 FI | VMESS | @NamiraConfigs #1",
+      "type": "vmess",
+      "server": "65.109.219.124",
+      "server_port": 52525,
+      "uuid": "358f44f0-2686-46c8-9cc6-ec52abd66df4",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "fi.linuxbase.ir",
+      "server_port": 1152,
+      "uuid": "1e7e0537-c23d-43c2-afd5-4d7753831278",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",
