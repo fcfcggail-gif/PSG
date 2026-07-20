@@ -88,7 +88,8 @@
         "🇹🇷 TR | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
-        "🇽🇽 XX | VLESS | @v2ray_youtube #1"
+        "🇽🇽 XX | VLESS | @v2ray_youtube #1",
+        "🇺🇸 US | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -107,7 +108,8 @@
         "🇹🇷 TR | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
-        "🇽🇽 XX | VLESS | @v2ray_youtube #1"
+        "🇽🇽 XX | VLESS | @v2ray_youtube #1",
+        "🇺🇸 US | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -274,6 +276,23 @@
       "server_port": 2053,
       "uuid": "ee137caa-54c7-4392-a017-3a7c460fa773",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "rokervpn-production.up.railway.app",
+      "server_port": 443,
+      "uuid": "c78851ee-e51f-845c-0b5a-7157c5411a88",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

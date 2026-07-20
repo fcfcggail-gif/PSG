@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇮 FI | VMESS | @NamiraConfigs #1", "server": "65.109.219.124", "port": 52525, "type": "vmess", "skip-cert-verify": true, "uuid": "358f44f0-2686-46c8-9cc6-ec52abd66df4", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
-  - {"name": "🇫🇮 FI | VLESS | @prrofile_purple #1", "server": "fi.linuxbase.ir", "port": 1152, "type": "vless", "skip-cert-verify": true, "uuid": "1e7e0537-c23d-43c2-afd5-4d7753831278", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇫🇮 FI | VLESS | @red2ray #1", "server": "65.109.219.124", "port": 10485, "type": "vless", "skip-cert-verify": true, "uuid": "bf973a3b-b285-4369-8c01-1f1e50024a38", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇮 FI | VLESS | @vmesskhodam #1", "server": "85.192.48.81", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "8f0560ec-ba22-4431-a6a7-318dc59d5233", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -39,8 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇮 FI | VMESS | @NamiraConfigs #1'
-      - '🇫🇮 FI | VLESS | @prrofile_purple #1'
+      - '🇫🇮 FI | VLESS | @red2ray #1'
       - '🇫🇮 FI | VLESS | @vmesskhodam #1'
 
   - name: 🌍 Global Media
