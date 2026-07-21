@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇬 BG | VLESS | @vmesskhodam #1"
+        "🇰🇷 KR | TROJAN | @red2ray #1",
+        "🇰🇷 KR | TROJAN | @red2ray #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇬 BG | VLESS | @vmesskhodam #1"
+        "🇰🇷 KR | TROJAN | @red2ray #1",
+        "🇰🇷 KR | TROJAN | @red2ray #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,12 +103,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇧🇬 BG | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "93.152.223.98",
+      "tag": "🇰🇷 KR | TROJAN | @red2ray #1",
+      "type": "trojan",
+      "server": "select-marmoset.rooster465.autos",
       "server_port": 443,
-      "uuid": "0b9bcbc1-b289-4a64-86fa-a5b731b65384",
-      "packet_encoding": "xudp",
+      "password": "IQ68037294",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -114,11 +115,22 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇰🇷 KR | TROJAN | @red2ray #2",
+      "type": "trojan",
+      "server": "artistic-pigeon.rooster465.autos",
+      "server_port": 443,
+      "password": "IQ68037294",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }

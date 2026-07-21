@@ -81,14 +81,15 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @bored_vpn #1",
+        "🇺🇸 US | VLESS | @bored_vpn #2",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇺🇸 US | VLESS | @mehrosaboran #1",
         "🇨🇿 CZ | VLESS | @netmellianti #1",
         "🇩🇪 DE | VLESS | @savagev2ray #1",
         "🇩🇪 DE | VLESS | @savagev2ray #2",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
-        "🇫🇮 FI | VLESS | @v2rayopen #1",
-        "🇺🇸 US | VLESS | @vmesskhodam #1"
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+        "🇫🇷 FR | VLESS | @v2raymelliii #1",
+        "🇫🇮 FI | VLESS | @v2rayopen #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,14 +101,15 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @bored_vpn #1",
+        "🇺🇸 US | VLESS | @bored_vpn #2",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇺🇸 US | VLESS | @mehrosaboran #1",
         "🇨🇿 CZ | VLESS | @netmellianti #1",
         "🇩🇪 DE | VLESS | @savagev2ray #1",
         "🇩🇪 DE | VLESS | @savagev2ray #2",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
-        "🇫🇮 FI | VLESS | @v2rayopen #1",
-        "🇺🇸 US | VLESS | @vmesskhodam #1"
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+        "🇫🇷 FR | VLESS | @v2raymelliii #1",
+        "🇫🇮 FI | VLESS | @v2rayopen #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -198,6 +200,23 @@
       "tag": "🇺🇸 US | VLESS | @bored_vpn #1",
       "type": "vless",
       "server": "api.oneokgames.com",
+      "server_port": 443,
+      "uuid": "86208db7-8bbc-42c2-9eb2-ffe5675502c3",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @bored_vpn #2",
+      "type": "vless",
+      "server": "edge1.oneokgames.com",
       "server_port": 443,
       "uuid": "86208db7-8bbc-42c2-9eb2-ffe5675502c3",
       "packet_encoding": "xudp",
@@ -303,11 +322,19 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "de.edge-9d7c.com",
-      "server_port": 443,
-      "uuid": "bbae962a-b6e9-46e6-990c-6abf13e6b075",
+      "server": "sokot.tarfiq.ir",
+      "server_port": 38733,
+      "uuid": "384a72e6-8a10-4695-9ee5-c93728ef7e2a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @v2raymelliii #1",
+      "type": "vless",
+      "server": "a.fra.axylegend.shop",
+      "server_port": 20100,
+      "uuid": "7028b15e-594f-4a64-8570-c6ea2e47175e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -316,6 +343,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -338,23 +370,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "api.onetimeok.com",
-      "server_port": 443,
-      "uuid": "86208db7-8bbc-42c2-9eb2-ffe5675502c3",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     }

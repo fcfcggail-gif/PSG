@@ -78,18 +78,19 @@
         "auto",
         "direct",
         "🇬🇧 GB | VLESS | @NamiraConfigs #1",
+        "🇬🇧 GB | VLESS | @bored_vpn #1",
         "🇬🇧 GB | SS | @father_vpn #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @free4allvpn #2",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @outline_ir #1",
         "🇬🇧 GB | SS | @outline_ir #2",
-        "🇬🇧 GB | TROJAN | @prrofile_purple #1",
-        "🇬🇧 GB | SS | @red2ray #1",
+        "🇬🇧 GB | VLESS | @prrofile_purple #1",
         "🇬🇧 GB | SS | @torang_vpn #1",
         "🇬🇧 GB | VLESS | @v2ray_youtube #1",
         "🇬🇧 GB | SS | @v2rayng3 #1",
         "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
+        "🇬🇧 GB | VLESS | @vmesskhodam #1",
         "🇬🇧 GB | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -99,18 +100,19 @@
       "interval": "10m",
       "outbounds": [
         "🇬🇧 GB | VLESS | @NamiraConfigs #1",
+        "🇬🇧 GB | VLESS | @bored_vpn #1",
         "🇬🇧 GB | SS | @father_vpn #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @free4allvpn #2",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @outline_ir #1",
         "🇬🇧 GB | SS | @outline_ir #2",
-        "🇬🇧 GB | TROJAN | @prrofile_purple #1",
-        "🇬🇧 GB | SS | @red2ray #1",
+        "🇬🇧 GB | VLESS | @prrofile_purple #1",
         "🇬🇧 GB | SS | @torang_vpn #1",
         "🇬🇧 GB | VLESS | @v2ray_youtube #1",
         "🇬🇧 GB | SS | @v2rayng3 #1",
         "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
+        "🇬🇧 GB | VLESS | @vmesskhodam #1",
         "🇬🇧 GB | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -129,10 +131,27 @@
     {
       "tag": "🇬🇧 GB | VLESS | @NamiraConfigs #1",
       "type": "vless",
-      "server": "82.109.242.198",
-      "server_port": 2553,
-      "uuid": "d8b42cd5-a149-4356-9e61-000000000000",
+      "server": "45.86.159.132",
+      "server_port": 2085,
+      "uuid": "ae86f68e-84c7-41de-b69f-87285451fb71",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @bored_vpn #1",
+      "type": "vless",
+      "server": "186.190.211.188",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇬🇧 GB | SS | @father_vpn #1",
@@ -183,11 +202,12 @@
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | TROJAN | @prrofile_purple #1",
-      "type": "trojan",
-      "server": "91.193.58.201",
+      "tag": "🇬🇧 GB | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "186.190.211.188",
       "server_port": 443,
-      "password": "MiTiVPN",
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -197,14 +217,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇬🇧 GB | SS | @red2ray #1",
-      "type": "shadowsocks",
-      "server": "82.38.31.200",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
-      "password": null
     },
     {
       "tag": "🇬🇧 GB | SS | @torang_vpn #1",
@@ -237,6 +249,28 @@
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
       "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "britain.pelzimo.ir",
+      "server_port": 6300,
+      "uuid": "b1a689fa-20c3-43b4-a107-4af64f8a7cf3",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇬🇧 GB | VLESS | @vpn_ioss #1",

@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @v2rayopen #1"
+        "🇫🇮 FI | VLESS | @v2rayopen #1",
+        "🇫🇮 FI | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @v2rayopen #1"
+        "🇫🇮 FI | VLESS | @v2rayopen #1",
+        "🇫🇮 FI | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -121,6 +123,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "65.109.219.124",
+      "server_port": 10485,
+      "uuid": "358f44f0-2686-46c8-9cc6-ec52abd66df4",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

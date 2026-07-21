@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSEs=
+//profile-title: base64:UFNHIHwgS1I=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | VMESS | @NamiraConfigs #1"
+        "🇰🇷 KR | TROJAN | @red2ray #1",
+        "🇰🇷 KR | TROJAN | @red2ray #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | VMESS | @NamiraConfigs #1"
+        "🇰🇷 KR | TROJAN | @red2ray #1",
+        "🇰🇷 KR | TROJAN | @red2ray #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,13 +112,36 @@
       "type": "direct"
     },
     {
-      "tag": "🇭🇰 HK | VMESS | @NamiraConfigs #1",
-      "type": "vmess",
-      "server": "47.83.221.185",
-      "server_port": 80,
-      "uuid": "771a590c-5eac-5732-b796-17251132f8d2",
-      "security": "auto",
-      "alter_id": 0
+      "tag": "🇰🇷 KR | TROJAN | @red2ray #1",
+      "type": "trojan",
+      "server": "select-marmoset.rooster465.autos",
+      "server_port": 443,
+      "password": "IQ68037294",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇰🇷 KR | TROJAN | @red2ray #2",
+      "type": "trojan",
+      "server": "artistic-pigeon.rooster465.autos",
+      "server_port": 443,
+      "password": "IQ68037294",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
