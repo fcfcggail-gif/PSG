@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @orange_vpns #1",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
         "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -99,7 +99,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @orange_vpns #1",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
         "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -112,12 +112,21 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @orange_vpns #1",
+      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "tr.koomeh.net",
-      "server_port": 80,
-      "uuid": "ce6ae434-7ace-4ce8-851a-9321a9e5a0a6",
-      "packet_encoding": "xudp"
+      "server": "ninja.monak2.ir",
+      "server_port": 443,
+      "uuid": "69c0e64c-363f-46da-865c-88d5075a9356",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇹🇷 TR | VLESS | @vmesskhodam #1",

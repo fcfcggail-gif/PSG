@@ -91,10 +91,7 @@
         "auto",
         "direct",
         "🇮🇪 IE | TROJAN | @jiedianf #1",
-        "🇮🇪 IE | TROJAN | @red2ray #1",
-        "🇮🇪 IE | TROJAN | @red2ray #2",
-        "🇮🇪 IE | TROJAN | @red2ray #3",
-        "🇮🇪 IE | TROJAN | @red2ray #4"
+        "🇮🇪 IE | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -103,10 +100,7 @@
       "interval": "10m",
       "outbounds": [
         "🇮🇪 IE | TROJAN | @jiedianf #1",
-        "🇮🇪 IE | TROJAN | @red2ray #1",
-        "🇮🇪 IE | TROJAN | @red2ray #2",
-        "🇮🇪 IE | TROJAN | @red2ray #3",
-        "🇮🇪 IE | TROJAN | @red2ray #4"
+        "🇮🇪 IE | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -125,11 +119,12 @@
       "password": "t1k169n5zmvvwn96r9ft"
     },
     {
-      "tag": "🇮🇪 IE | TROJAN | @red2ray #1",
-      "type": "trojan",
-      "server": "18.202.244.191",
+      "tag": "🇮🇪 IE | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "188.211.233.228",
       "server_port": 443,
-      "password": "OD90375861",
+      "uuid": "0cd25ad8-8b62-4943-9bab-96941b1d9401",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -137,54 +132,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇪 IE | TROJAN | @red2ray #2",
-      "type": "trojan",
-      "server": "witty-stallion.rooster465.autos",
-      "server_port": 443,
-      "password": "ON38567014",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇪 IE | TROJAN | @red2ray #3",
-      "type": "trojan",
-      "server": "vast-turkey.rooster465.autos",
-      "server_port": 443,
-      "password": "ON38567014",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇪 IE | TROJAN | @red2ray #4",
-      "type": "trojan",
-      "server": "108.131.117.154",
-      "server_port": 443,
-      "password": "NQ26071394",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }
