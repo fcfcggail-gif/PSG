@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇷 TR | VLESS | @v2ray_free_conf #1", "server": "ninja.monak2.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "69c0e64c-363f-46da-865c-88d5075a9356", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @netmellianti #1", "server": "213.156.152.221", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "7377227f-358d-497a-8a83-52460b905e80", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | TROJAN | @netmellianti #1", "server": "213.156.152.221", "port": 8443, "type": "trojan", "skip-cert-verify": false, "password": "86v45m3l1v8grrdk"}
   - {"name": "🇹🇷 TR | VLESS | @vmesskhodam #1", "server": "ninja.monak2.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "69c0e64c-363f-46da-865c-88d5075a9356", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -38,7 +39,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇷 TR | VLESS | @v2ray_free_conf #1'
+      - '🇹🇷 TR | VLESS | @netmellianti #1'
+      - '🇹🇷 TR | TROJAN | @netmellianti #1'
       - '🇹🇷 TR | VLESS | @vmesskhodam #1'
 
   - name: 🌍 Global Media

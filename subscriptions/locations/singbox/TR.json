@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+        "🇹🇷 TR | VLESS | @netmellianti #1",
+        "🇹🇷 TR | TROJAN | @netmellianti #1",
         "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -99,7 +100,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+        "🇹🇷 TR | VLESS | @netmellianti #1",
+        "🇹🇷 TR | TROJAN | @netmellianti #1",
         "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -112,21 +114,19 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇹🇷 TR | VLESS | @netmellianti #1",
       "type": "vless",
-      "server": "ninja.monak2.ir",
-      "server_port": 443,
-      "uuid": "69c0e64c-363f-46da-865c-88d5075a9356",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "213.156.152.221",
+      "server_port": 8080,
+      "uuid": "7377227f-358d-497a-8a83-52460b905e80",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | TROJAN | @netmellianti #1",
+      "type": "trojan",
+      "server": "213.156.152.221",
+      "server_port": 8443,
+      "password": "86v45m3l1v8grrdk"
     },
     {
       "tag": "🇹🇷 TR | VLESS | @vmesskhodam #1",
