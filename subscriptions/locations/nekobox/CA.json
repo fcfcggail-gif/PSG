@@ -78,7 +78,9 @@
         "auto",
         "direct",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
-        "🇨🇦 CA | VLESS | @jokerv2ray #2"
+        "🇨🇦 CA | VLESS | @jokerv2ray #2",
+        "🇨🇦 CA | VLESS | @rez1vpn #1",
+        "🇨🇦 CA | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +89,9 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
-        "🇨🇦 CA | VLESS | @jokerv2ray #2"
+        "🇨🇦 CA | VLESS | @jokerv2ray #2",
+        "🇨🇦 CA | VLESS | @rez1vpn #1",
+        "🇨🇦 CA | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -122,6 +126,31 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇨🇦 CA | VLESS | @rez1vpn #1",
+      "type": "vless",
+      "server": "ov-canada1.09vpn.com",
+      "server_port": 8443,
+      "uuid": "08f96221-9b7b-4e6f-8ffe-aee8b9c9b504",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇨🇦 CA | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "ar4nh.sannest.ir",
+      "server_port": 443,
+      "uuid": "26acab49-7cf6-489a-924d-7fae7b643f5a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }

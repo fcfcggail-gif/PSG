@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇭🇰 HK | VMESS | @NamiraConfigs #1", "server": "47.83.221.185", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "771a590c-5eac-5732-b796-17251132f8d2", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇭🇰 HK | VLESS | @v2ray_free_conf #1", "server": "103.224.80.28", "port": 10926, "type": "vless", "skip-cert-verify": true, "uuid": "407ef8f9-8ac2-46ab-83b9-e478d785ff6b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇭🇰 HK | VMESS | @NamiraConfigs #1'
+      - '🇭🇰 HK | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | VMESS | @NamiraConfigs #1"
+        "🇭🇰 HK | VMESS | @NamiraConfigs #1",
+        "🇭🇰 HK | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | VMESS | @NamiraConfigs #1"
+        "🇭🇰 HK | VMESS | @NamiraConfigs #1",
+        "🇭🇰 HK | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -108,6 +110,28 @@
       "uuid": "771a590c-5eac-5732-b796-17251132f8d2",
       "security": "auto",
       "alter_id": 0
+    },
+    {
+      "tag": "🇭🇰 HK | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "103.224.80.28",
+      "server_port": 10926,
+      "uuid": "407ef8f9-8ac2-46ab-83b9-e478d785ff6b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
