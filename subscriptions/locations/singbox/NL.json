@@ -90,13 +90,14 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇳🇱 NL | SS | @NamiraConfigs #1",
         "🇳🇱 NL | VLESS | @configv2rayforfree #1",
+        "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @mehrosaboran #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
+        "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
-        "🇳🇱 NL | VLESS | @red2ray #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2raymelliii #1",
         "🇳🇱 NL | VLESS | @vmesc #1",
         "🇳🇱 NL | VLESS | @vmesc #2"
@@ -107,13 +108,14 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇳🇱 NL | SS | @NamiraConfigs #1",
         "🇳🇱 NL | VLESS | @configv2rayforfree #1",
+        "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @mehrosaboran #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
+        "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
-        "🇳🇱 NL | VLESS | @red2ray #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2raymelliii #1",
         "🇳🇱 NL | VLESS | @vmesc #1",
         "🇳🇱 NL | VLESS | @vmesc #2"
@@ -128,20 +130,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇳🇱 NL | SS | @NamiraConfigs #1",
-      "type": "shadowsocks",
-      "server": "switcher-nick-croquet.freesocks.work",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I",
-      "password": null
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @configv2rayforfree #1",
       "type": "vless",
       "server": "c1.fineartsnet.org",
       "server_port": 8443,
       "uuid": "668869b1-860e-4308-b1da-386e222defce",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | SS | @easy_free_vpn #1",
+      "type": "shadowsocks",
+      "server": "193.29.139.151",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
     },
     {
       "tag": "🇳🇱 NL | VLESS | @mehrosaboran #1",
@@ -178,6 +180,14 @@
       }
     },
     {
+      "tag": "🇳🇱 NL | SS | @outlinereleasedkey #1",
+      "type": "shadowsocks",
+      "server": "193.29.139.235",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "password": null
+    },
+    {
       "tag": "🇳🇱 NL | VLESS | @qeshmserver #1",
       "type": "vless",
       "server": "95.179.138.190",
@@ -195,20 +205,29 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "sut.sesssutacc.ir",
-      "server_port": 8443,
-      "uuid": "0271655d-e862-4329-b303-076e96c4ede1",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "alpha.iranhttp.com",
       "server_port": 4242,
       "uuid": "df196287-5b8c-4592-870f-b3ede251fa68",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "nl-five.quiet-rogue.site",
+      "server_port": 443,
+      "uuid": "71cada65-d23e-418c-88e4-a06188d14689",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @v2raymelliii #1",

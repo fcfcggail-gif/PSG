@@ -78,8 +78,6 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @netmellianti #1",
-        "🇹🇷 TR | TROJAN | @netmellianti #1",
-        "🇹🇷 TR | VLESS | @red2ray #1",
         "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -89,8 +87,6 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @netmellianti #1",
-        "🇹🇷 TR | TROJAN | @netmellianti #1",
-        "🇹🇷 TR | VLESS | @red2ray #1",
         "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -109,25 +105,24 @@
     {
       "tag": "🇹🇷 TR | VLESS | @netmellianti #1",
       "type": "vless",
-      "server": "213.156.152.221",
-      "server_port": 8080,
-      "uuid": "7377227f-358d-497a-8a83-52460b905e80",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | TROJAN | @netmellianti #1",
-      "type": "trojan",
-      "server": "213.156.152.221",
-      "server_port": 8443,
-      "password": "86v45m3l1v8grrdk"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "ger1.fastcodz.ir",
-      "server_port": 52077,
-      "uuid": "99cb4cc4-e435-4626-ad83-8fc181836fbd",
-      "packet_encoding": "xudp"
+      "server": "panel1.molock.click",
+      "server_port": 443,
+      "uuid": "5b8eb4fd-c93c-4149-b4ae-167df0db7d84",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇹🇷 TR | VLESS | @vmesskhodam #1",
