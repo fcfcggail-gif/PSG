@@ -91,7 +91,10 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @netmellianti #1",
-        "🇹🇷 TR | VLESS | @vmesskhodam #1"
+        "🇹🇷 TR | VLESS | @orange_vpns #1",
+        "🇹🇷 TR | VLESS | @v2raych #1",
+        "🇹🇷 TR | VLESS | @v2raych #2",
+        "🇹🇷 TR | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +103,10 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @netmellianti #1",
-        "🇹🇷 TR | VLESS | @vmesskhodam #1"
+        "🇹🇷 TR | VLESS | @orange_vpns #1",
+        "🇹🇷 TR | VLESS | @v2raych #1",
+        "🇹🇷 TR | VLESS | @v2raych #2",
+        "🇹🇷 TR | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -134,11 +140,35 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @vmesskhodam #1",
+      "tag": "🇹🇷 TR | VLESS | @orange_vpns #1",
       "type": "vless",
-      "server": "ninja.monak2.ir",
+      "server": "144.225.65.176",
+      "server_port": 80,
+      "uuid": "680071d4-42e8-4931-ad42-592d21721da6",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "kcf.tarfiq.ir",
+      "server_port": 38733,
+      "uuid": "9b7388b9-8c8c-4a86-b518-da32df36e6c6",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "kcf.tarfiq.ir",
+      "server_port": 38733,
+      "uuid": "9b7388b9-8c8c-4a86-b518-da32df36e6c6",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "t.avrilon.us",
       "server_port": 443,
-      "uuid": "69c0e64c-363f-46da-865c-88d5075a9356",
+      "uuid": "d0e2ae3e-0be7-4dcf-9abb-dcc82aabc076",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -147,6 +177,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

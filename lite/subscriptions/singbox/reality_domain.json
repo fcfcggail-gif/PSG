@@ -96,13 +96,9 @@
         "🇩🇪 DE | VLESS | @bored_vpn #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇸🇪 SE | VLESS | @flyv2ray #1",
+        "🇩🇪 DE | VLESS | @free1_vpn #1",
         "🇩🇪 DE | VLESS | @mehrosaboran #1",
-        "🇩🇪 DE | VLESS | @orange_vpns #1",
-        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
-        "🇩🇪 DE | VLESS | @v2raych #1",
-        "🇫🇮 FI | VLESS | @v2rayopen #1",
-        "🇹🇷 TR | VLESS | @vmesskhodam #1",
-        "🇬🇧 GB | VLESS | @vmesskhodam #1"
+        "🇩🇪 DE | VLESS | @orange_vpns #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -116,13 +112,9 @@
         "🇩🇪 DE | VLESS | @bored_vpn #1",
         "🇩🇪 DE | VLESS | @filterk0sh #1",
         "🇸🇪 SE | VLESS | @flyv2ray #1",
+        "🇩🇪 DE | VLESS | @free1_vpn #1",
         "🇩🇪 DE | VLESS | @mehrosaboran #1",
-        "🇩🇪 DE | VLESS | @orange_vpns #1",
-        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
-        "🇩🇪 DE | VLESS | @v2raych #1",
-        "🇫🇮 FI | VLESS | @v2rayopen #1",
-        "🇹🇷 TR | VLESS | @vmesskhodam #1",
-        "🇬🇧 GB | VLESS | @vmesskhodam #1"
+        "🇩🇪 DE | VLESS | @orange_vpns #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -262,6 +254,28 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "de.edge-9d7c.com",
+      "server_port": 443,
+      "uuid": "bbae962a-b6e9-46e6-990c-6abf13e6b075",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @mehrosaboran #1",
       "type": "vless",
       "server": "link.oneokgames.com",
@@ -285,106 +299,6 @@
       "server_port": 56625,
       "uuid": "f3d05beb-ea6f-46c9-afc8-fe98c191f82e",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "poland.vpnserverhub.com",
-      "server_port": 443,
-      "uuid": "1aed7c8a-d3c9-4c57-9544-ef40dc61a2da",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "ch.sv.temas-bor.ir",
-      "server_port": 22004,
-      "uuid": "9b13e10c-74a8-46bf-9b13-64d791941b35",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2rayopen #1",
-      "type": "vless",
-      "server": "fn2-unlimited.pavilof.ir",
-      "server_port": 1020,
-      "uuid": "37182b68-6422-4414-9518-7df6776c0150",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "ninja.monak2.ir",
-      "server_port": 443,
-      "uuid": "69c0e64c-363f-46da-865c-88d5075a9356",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "britain.pelzimo.ir",
-      "server_port": 6300,
-      "uuid": "b1a689fa-20c3-43b4-a107-4af64f8a7cf3",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     }
   ],
   "route": {

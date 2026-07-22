@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇳🇱 NL | VLESS | @NamiraConfigs #1",
         "🇳🇱 NL | VLESS | @configv2rayforfree #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @mehrosaboran #1",
@@ -98,8 +99,8 @@
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇳🇱 NL | VLESS | @v2raymelliii #1",
-        "🇳🇱 NL | VLESS | @vmesc #1",
-        "🇳🇱 NL | VLESS | @vmesc #2"
+        "🇳🇱 NL | VLESS | @v2raymelliii #2",
+        "🇳🇱 NL | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -107,6 +108,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇳🇱 NL | VLESS | @NamiraConfigs #1",
         "🇳🇱 NL | VLESS | @configv2rayforfree #1",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @mehrosaboran #1",
@@ -115,8 +117,8 @@
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇳🇱 NL | VLESS | @v2raymelliii #1",
-        "🇳🇱 NL | VLESS | @vmesc #1",
-        "🇳🇱 NL | VLESS | @vmesc #2"
+        "🇳🇱 NL | VLESS | @v2raymelliii #2",
+        "🇳🇱 NL | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -126,6 +128,23 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "45.131.211.136",
+      "server_port": 443,
+      "uuid": "14b59caf-a196-4ec2-8c70-c7b388062f5b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @configv2rayforfree #1",
@@ -219,11 +238,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @vmesc #1",
+      "tag": "🇳🇱 NL | VLESS | @v2raymelliii #2",
       "type": "vless",
-      "server": "185.125.203.221",
-      "server_port": 443,
-      "uuid": "00a84cc6-073c-454b-9487-f0b7238e715f",
+      "server": "212.34.147.118",
+      "server_port": 5483,
+      "uuid": "b3fe34a9-cda1-4ef3-b822-ddccc507a22d",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -241,7 +260,7 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @vmesc #2",
+      "tag": "🇳🇱 NL | VLESS | @vmesc #1",
       "type": "vless",
       "server": "185.125.203.221",
       "server_port": 443,
