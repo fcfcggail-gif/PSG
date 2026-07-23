@@ -23,7 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇲🇾 MY | VMESS | @NamiraConfigs #1", "server": "47.250.135.244", "port": 10000, "type": "vmess", "skip-cert-verify": true, "uuid": "aedc66b8-99d7-4a21-8310-61870e7f870d", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇫🇮 FI | VLESS | @red2ray #1", "server": "fl2.cr7com1.ir", "port": 53416, "type": "vless", "skip-cert-verify": true, "uuid": "5437e624-1a3d-4528-8d9d-b5d6553c78eb", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇮 FI | VLESS | @v2ray_free_conf #1", "server": "cz-play.montago-shop.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2d6a30d2-886e-4660-b1dc-82f587ca4cae", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇮 FI | VLESS | @v2rayopen #1", "server": "fn2-unlimited.pavilof.ir", "port": 1020, "type": "vless", "skip-cert-verify": true, "uuid": "37182b68-6422-4414-9518-7df6776c0150", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇲🇾 MY | VMESS | @NamiraConfigs #1'
+      - '🇫🇮 FI | VLESS | @red2ray #1'
+      - '🇫🇮 FI | VLESS | @v2ray_free_conf #1'
+      - '🇫🇮 FI | VLESS | @v2rayopen #1'
 
   - name: 🌍 Global Media
     type: select
