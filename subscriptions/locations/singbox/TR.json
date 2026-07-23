@@ -91,6 +91,8 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @netmellianti #1",
+        "🇹🇷 TR | VLESS | @netmellianti #2",
+        "🇹🇷 TR | VLESS | @orange_vpns #1",
         "🇹🇷 TR | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
@@ -100,6 +102,8 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @netmellianti #1",
+        "🇹🇷 TR | VLESS | @netmellianti #2",
+        "🇹🇷 TR | VLESS | @orange_vpns #1",
         "🇹🇷 TR | VLESS | @vmesc #1"
       ],
       "tag": "auto",
@@ -132,6 +136,31 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @netmellianti #2",
+      "type": "vless",
+      "server": "212.87.198.123",
+      "server_port": 443,
+      "uuid": "5368b830-5434-4ba1-a45d-b61eeecf4a59",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "tr-tcp7733.th3team.ir",
+      "server_port": 8080,
+      "uuid": "4f5dddeb-2728-4f0b-9ca8-029cb6052d9c",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇹🇷 TR | VLESS | @vmesc #1",

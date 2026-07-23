@@ -99,13 +99,12 @@
         "🇬🇧 GB | VLESS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @outline_ir #1",
         "🇬🇧 GB | SS | @outline_ir #2",
-        "🇬🇧 GB | SS | @outline_ir #3",
+        "🇬🇧 GB | SS | @red2ray #1",
+        "🇬🇧 GB | SS | @red2ray #2",
         "🇬🇧 GB | SS | @torang_vpn #1",
         "🇬🇧 GB | VLESS | @v2ray_youtube #1",
         "🇬🇧 GB | SS | @v2rayng3 #1",
-        "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
-        "🇬🇧 GB | VLESS | @vmesskhodam #1",
-        "🇬🇧 GB | VLESS | @vpn_ioss #1"
+        "🇬🇧 GB | SS | @v2rayngvpn_1 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -122,13 +121,12 @@
         "🇬🇧 GB | VLESS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @outline_ir #1",
         "🇬🇧 GB | SS | @outline_ir #2",
-        "🇬🇧 GB | SS | @outline_ir #3",
+        "🇬🇧 GB | SS | @red2ray #1",
+        "🇬🇧 GB | SS | @red2ray #2",
         "🇬🇧 GB | SS | @torang_vpn #1",
         "🇬🇧 GB | VLESS | @v2ray_youtube #1",
         "🇬🇧 GB | SS | @v2rayng3 #1",
-        "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
-        "🇬🇧 GB | VLESS | @vmesskhodam #1",
-        "🇬🇧 GB | VLESS | @vpn_ioss #1"
+        "🇬🇧 GB | SS | @v2rayngvpn_1 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -207,7 +205,7 @@
     {
       "tag": "🇬🇧 GB | SS | @outline_ir #1",
       "type": "shadowsocks",
-      "server": "82.38.31.3",
+      "server": "82.38.31.11",
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
       "password": null
@@ -215,17 +213,25 @@
     {
       "tag": "🇬🇧 GB | SS | @outline_ir #2",
       "type": "shadowsocks",
-      "server": "82.38.31.11",
-      "server_port": 8080,
+      "server": "82.38.31.57",
+      "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
       "password": null
     },
     {
-      "tag": "🇬🇧 GB | SS | @outline_ir #3",
+      "tag": "🇬🇧 GB | SS | @red2ray #1",
       "type": "shadowsocks",
-      "server": "82.38.31.57",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
+      "server": "82.38.31.190",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @red2ray #2",
+      "type": "shadowsocks",
+      "server": "82.38.31.215",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
       "password": null
     },
     {
@@ -259,31 +265,6 @@
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
       "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "45.86.159.131",
-      "server_port": 2085,
-      "uuid": "ae86f68e-84c7-41de-b69f-87285451fb71",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @vpn_ioss #1",
-      "type": "vless",
-      "server": "164.38.155.13",
-      "server_port": 443,
-      "uuid": "4feb7818-dc02-46cd-b985-abf3fdd0cdc5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     }
   ],
   "route": {
