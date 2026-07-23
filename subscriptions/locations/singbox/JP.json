@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇯🇵 JP | TROJAN | @hope_net #1",
         "🇯🇵 JP | VLESS | @megavpn_link #1",
         "🇯🇵 JP | SS | @outlinereleasedkey #1"
       ],
@@ -99,6 +100,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇯🇵 JP | TROJAN | @hope_net #1",
         "🇯🇵 JP | VLESS | @megavpn_link #1",
         "🇯🇵 JP | SS | @outlinereleasedkey #1"
       ],
@@ -110,6 +112,22 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇯🇵 JP | TROJAN | @hope_net #1",
+      "type": "trojan",
+      "server": "150.230.206.237",
+      "server_port": 9710,
+      "password": "tg-dns68",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇯🇵 JP | VLESS | @megavpn_link #1",
