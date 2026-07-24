@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇷🇴 RO | VLESS | @netmellianti #1", "server": "de.pub.accuratenetworkchecker.ir", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "StableInternet", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇴 RO | VLESS | @orange_vpns #1", "server": "205.237.109.211", "port": 448, "type": "vless", "skip-cert-verify": true, "uuid": "70df38ff-5a22-4ffc-a3f9-1725515e0ea5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇴 RO | VLESS | @outline_ir #1", "server": "205.237.109.210", "port": 448, "type": "vless", "skip-cert-verify": true, "uuid": "70df38ff-5a22-4ffc-a3f9-1725515e0ea5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
@@ -38,6 +39,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇷🇴 RO | VLESS | @netmellianti #1'
       - '🇷🇴 RO | VLESS | @orange_vpns #1'
       - '🇷🇴 RO | VLESS | @outline_ir #1'
 

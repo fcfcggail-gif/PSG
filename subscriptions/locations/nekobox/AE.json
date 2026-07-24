@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇦🇪 AE | SS | @manstervpn #1",
-        "🇦🇪 AE | VLESS | @v2ray_free_conf #1"
+        "🇦🇪 AE | VLESS | @netmellianti #1",
+        "🇦🇪 AE | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇦🇪 AE | SS | @manstervpn #1",
-        "🇦🇪 AE | VLESS | @v2ray_free_conf #1"
+        "🇦🇪 AE | VLESS | @netmellianti #1",
+        "🇦🇪 AE | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -111,12 +113,43 @@
       "password": null
     },
     {
-      "tag": "🇦🇪 AE | VLESS | @v2ray_free_conf #1",
+      "tag": "🇦🇪 AE | VLESS | @netmellianti #1",
       "type": "vless",
-      "server": "130.185.121.169",
-      "server_port": 18269,
-      "uuid": "f379f28e-c535-4d03-a1ca-0f413429e9ac",
-      "packet_encoding": "xudp"
+      "server": "130.185.120.181",
+      "server_port": 443,
+      "uuid": "eaf28b90-7c6c-4b27-8406-7b2511ae1e13",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "ae-google.mobileemdad.top",
+      "server_port": 443,
+      "uuid": "f8c3065e-4437-4561-aacb-75b32586f011",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
