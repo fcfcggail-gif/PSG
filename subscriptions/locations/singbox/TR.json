@@ -91,8 +91,8 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @netmellianti #1",
-        "🇹🇷 TR | VLESS | @netmellianti #2",
         "🇹🇷 TR | VLESS | @orange_vpns #1",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
         "🇹🇷 TR | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
@@ -102,8 +102,8 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @netmellianti #1",
-        "🇹🇷 TR | VLESS | @netmellianti #2",
         "🇹🇷 TR | VLESS | @orange_vpns #1",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
         "🇹🇷 TR | VLESS | @vmesc #1"
       ],
       "tag": "auto",
@@ -138,11 +138,19 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @netmellianti #2",
+      "tag": "🇹🇷 TR | VLESS | @orange_vpns #1",
       "type": "vless",
-      "server": "212.87.198.123",
-      "server_port": 443,
-      "uuid": "5368b830-5434-4ba1-a45d-b61eeecf4a59",
+      "server": "tr-tcp7733.th3team.ir",
+      "server_port": 8080,
+      "uuid": "4f5dddeb-2728-4f0b-9ca8-029cb6052d9c",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "turkbot1.namirasly.com",
+      "server_port": 8888,
+      "uuid": "906cde2e-3d43-41cc-b0c0-1bdcebc92ff2",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -151,16 +159,13 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @orange_vpns #1",
-      "type": "vless",
-      "server": "tr-tcp7733.th3team.ir",
-      "server_port": 8080,
-      "uuid": "4f5dddeb-2728-4f0b-9ca8-029cb6052d9c",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇹🇷 TR | VLESS | @vmesc #1",
