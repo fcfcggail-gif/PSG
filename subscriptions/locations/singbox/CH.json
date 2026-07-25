@@ -91,8 +91,12 @@
         "auto",
         "direct",
         "🇨🇭 CH | VLESS | @bored_vpn #1",
+        "🇨🇭 CH | TROJAN | @mehrosaboran #1",
         "🇨🇭 CH | VLESS | @rez1vpn #1",
-        "🇨🇭 CH | VLESS | @vmesskhodam #1"
+        "🇨🇭 CH | TROJAN | @v2ray_free_conf #1",
+        "🇨🇭 CH | TROJAN | @v2ray_free_conf #2",
+        "🇨🇭 CH | TROJAN | @v2raych #1",
+        "🇨🇭 CH | TROJAN | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,8 +105,12 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇭 CH | VLESS | @bored_vpn #1",
+        "🇨🇭 CH | TROJAN | @mehrosaboran #1",
         "🇨🇭 CH | VLESS | @rez1vpn #1",
-        "🇨🇭 CH | VLESS | @vmesskhodam #1"
+        "🇨🇭 CH | TROJAN | @v2ray_free_conf #1",
+        "🇨🇭 CH | TROJAN | @v2ray_free_conf #2",
+        "🇨🇭 CH | TROJAN | @v2raych #1",
+        "🇨🇭 CH | TROJAN | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -122,6 +130,13 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇨🇭 CH | TROJAN | @mehrosaboran #1",
+      "type": "trojan",
+      "server": "37.156.45.60",
+      "server_port": 4016,
+      "password": "1------------------BanV2ray------------------1"
+    },
+    {
       "tag": "🇨🇭 CH | VLESS | @rez1vpn #1",
       "type": "vless",
       "server": "185.18.250.252",
@@ -139,26 +154,32 @@
       }
     },
     {
-      "tag": "🇨🇭 CH | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "onkwo.ojcenter.com",
-      "server_port": 3468,
-      "uuid": "ef340ab7-b1a5-a3de-cdcd-5e5d4f2cf9fd",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "tag": "🇨🇭 CH | TROJAN | @v2ray_free_conf #1",
+      "type": "trojan",
+      "server": "37.156.45.60",
+      "server_port": 2387,
+      "password": "1------------------BanV2ray------------------1"
+    },
+    {
+      "tag": "🇨🇭 CH | TROJAN | @v2ray_free_conf #2",
+      "type": "trojan",
+      "server": "37.156.45.60",
+      "server_port": 3716,
+      "password": "1------------------BanV2ray------------------1"
+    },
+    {
+      "tag": "🇨🇭 CH | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "37.156.45.60",
+      "server_port": 4611,
+      "password": "1------------------BanV2ray------------------1"
+    },
+    {
+      "tag": "🇨🇭 CH | TROJAN | @vmesskhodam #1",
+      "type": "trojan",
+      "server": "37.156.45.60",
+      "server_port": 3716,
+      "password": "1------------------BanV2ray------------------1"
     }
   ],
   "route": {
