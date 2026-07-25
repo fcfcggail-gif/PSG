@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇴 RO | VLESS | @orange_vpns #1"
+        "🇷🇴 RO | VLESS | @orange_vpns #1",
+        "🇷🇴 RO | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇴 RO | VLESS | @orange_vpns #1"
+        "🇷🇴 RO | VLESS | @orange_vpns #1",
+        "🇷🇴 RO | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -119,6 +121,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇴 RO | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "cdn.fonix1.com",
+      "server_port": 443,
+      "uuid": "68f68e9d-e1f2-4904-9971-10983e47ffc4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }

@@ -82,10 +82,8 @@
         "🇳🇱 NL | VLESS | @mehrosaboran #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
-        "🇳🇱 NL | VLESS | @red2ray #1",
-        "🇳🇱 NL | VLESS | @red2ray #2",
-        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
-        "🇳🇱 NL | TROJAN | @vmesc #1"
+        "🇳🇱 NL | TROJAN | @vmesc #1",
+        "🇳🇱 NL | VLESS | @vpnowl #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,10 +96,8 @@
         "🇳🇱 NL | VLESS | @mehrosaboran #1",
         "🇳🇱 NL | SS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
-        "🇳🇱 NL | VLESS | @red2ray #1",
-        "🇳🇱 NL | VLESS | @red2ray #2",
-        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
-        "🇳🇱 NL | TROJAN | @vmesc #1"
+        "🇳🇱 NL | TROJAN | @vmesc #1",
+        "🇳🇱 NL | VLESS | @vpnowl #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -175,72 +171,6 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "netraidly.ru",
-      "server_port": 40443,
-      "uuid": "4480161e-2c59-4d37-8736-675c9af32bf1",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @red2ray #2",
-      "type": "vless",
-      "server": "cdn.netraidly.ru",
-      "server_port": 40443,
-      "uuid": "4bf5a71c-d726-4585-b095-7396675706d5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "static2.hexogate.net",
-      "server_port": 443,
-      "uuid": "0fccbf30-7e79-455b-a756-548f9ba43ec2",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇳🇱 NL | TROJAN | @vmesc #1",
       "type": "trojan",
       "server": "89.39.70.159",
@@ -253,6 +183,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @vpnowl #1",
+      "type": "vless",
+      "server": "107.189.21.7",
+      "server_port": 443,
+      "uuid": "FREE-4-ALL",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

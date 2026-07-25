@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇱🇹 LT | VLESS | @jiedianf #1",
-        "🇱🇹 LT | VLESS | @v2ray_collector #1"
+        "🇱🇹 LT | VLESS | @v2ray_collector #1",
+        "🇱🇹 LT | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇱🇹 LT | VLESS | @jiedianf #1",
-        "🇱🇹 LT | VLESS | @v2ray_collector #1"
+        "🇱🇹 LT | VLESS | @v2ray_collector #1",
+        "🇱🇹 LT | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -126,6 +128,23 @@
       "server": "89.116.180.248",
       "server_port": 443,
       "uuid": "401374e6-df77-41fb-f638-dad8184f175b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇱🇹 LT | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "45.81.254.101",
+      "server_port": 443,
+      "uuid": "c01c2da7-6977-4b53-a493-cda17fa61b4f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
