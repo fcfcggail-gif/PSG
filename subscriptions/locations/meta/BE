@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇨🇳 CN | TROJAN | @hope_net #1", "server": "42.236.73.72", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "fuck", "sni": "www.zitian.cn"}
+  - {"name": "🇧🇪 BE | VLESS | @v2raych #1", "server": "cdn1.portalcode.ir", "port": 2083, "type": "vless", "skip-cert-verify": true, "uuid": "22ceed66-6218-4688-9234-9ba29027774b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇨🇳 CN | TROJAN | @hope_net #1'
+      - '🇧🇪 BE | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select
