@@ -24,6 +24,8 @@ dns:
 
 proxies: 
   - {"name": "🇵🇱 PL | VLESS | @outline_ir #1", "server": "144.31.0.100", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "7b81d175-d180-4ec8-bbc5-dfe80e8d3b68", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇵🇱 PL | VLESS | @v2raych #1", "server": "namasha.broute.online", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "ea3e24c1-6bc1-4a7a-9711-88f937f08bbb", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇵🇱 PL | VLESS | @vmesskhodam #1", "server": "namasha.broute.online", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "ea3e24c1-6bc1-4a7a-9711-88f937f08bbb", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +40,8 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇵🇱 PL | VLESS | @outline_ir #1'
+      - '🇵🇱 PL | VLESS | @v2raych #1'
+      - '🇵🇱 PL | VLESS | @vmesskhodam #1'
 
   - name: 🌍 Global Media
     type: select
