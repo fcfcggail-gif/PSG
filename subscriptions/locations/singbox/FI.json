@@ -91,8 +91,9 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @evay_vpn #1",
-        "🇫🇮 FI | VLESS | @netfreedom0 #1",
-        "🇫🇮 FI | VLESS | @netmellianti #1"
+        "🇫🇮 FI | VLESS | @netmellianti #1",
+        "🇫🇮 FI | VLESS | @netmellianti #2",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,8 +102,9 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @evay_vpn #1",
-        "🇫🇮 FI | VLESS | @netfreedom0 #1",
-        "🇫🇮 FI | VLESS | @netmellianti #1"
+        "🇫🇮 FI | VLESS | @netmellianti #1",
+        "🇫🇮 FI | VLESS | @netmellianti #2",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -122,11 +124,27 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @netfreedom0 #1",
+      "tag": "🇫🇮 FI | VLESS | @netmellianti #1",
       "type": "vless",
-      "server": "mx.bexumconnect.ltd",
+      "server": "65.109.187.194",
+      "server_port": 8888,
+      "uuid": "d233e659-98c9-445d-9a77-b9391f5e1f01",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @netmellianti #2",
+      "type": "vless",
+      "server": "storage.vipdatanetwork.com",
+      "server_port": 24504,
+      "uuid": "6682b6ba-0dd1-42a7-b3f6-05d0f545a98c",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "fl.amin0087.ir",
       "server_port": 443,
-      "uuid": "1e06c388-d31c-420e-916a-94a990648e34",
+      "uuid": "6eda6cd3-8a6a-45ac-b1e5-38066d79a1ab",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -137,14 +155,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @netmellianti #1",
-      "type": "vless",
-      "server": "storage.vipdatanetwork.com",
-      "server_port": 24504,
-      "uuid": "6682b6ba-0dd1-42a7-b3f6-05d0f545a98c",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {
