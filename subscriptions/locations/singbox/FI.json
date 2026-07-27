@@ -91,7 +91,9 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @evay_vpn #1",
-        "🇫🇮 FI | VLESS | @netmellianti #1"
+        "🇫🇮 FI | VLESS | @netmellianti #1",
+        "🇫🇮 FI | VLESS | @red2ray #1",
+        "🇫🇮 FI | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +102,9 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @evay_vpn #1",
-        "🇫🇮 FI | VLESS | @netmellianti #1"
+        "🇫🇮 FI | VLESS | @netmellianti #1",
+        "🇫🇮 FI | VLESS | @red2ray #1",
+        "🇫🇮 FI | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -126,6 +130,45 @@
       "server_port": 24504,
       "uuid": "6682b6ba-0dd1-42a7-b3f6-05d0f545a98c",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "62.238.44.10",
+      "server_port": 50653,
+      "uuid": "c913aaad-7c27-4639-a830-5c99c79da80e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "gue75.pastilbastani.ir",
+      "server_port": 443,
+      "uuid": "5ec01bbd-ffc3-4979-bdba-10cf4a6b3986",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
