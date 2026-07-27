@@ -77,9 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇯🇵 JP | VLESS | @NamiraConfigs #1",
         "🇯🇵 JP | VLESS | @megavpn_link #1",
-        "🇯🇵 JP | SS | @outlinereleasedkey #1"
+        "🇯🇵 JP | SS | @outlinereleasedkey #1",
+        "🇯🇵 JP | TROJAN | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇯🇵 JP | VLESS | @NamiraConfigs #1",
         "🇯🇵 JP | VLESS | @megavpn_link #1",
-        "🇯🇵 JP | SS | @outlinereleasedkey #1"
+        "🇯🇵 JP | SS | @outlinereleasedkey #1",
+        "🇯🇵 JP | TROJAN | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,14 +103,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇯🇵 JP | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "43.163.241.110",
-      "server_port": 24477,
-      "uuid": "2bc72bec-0c2a-4c6b-aa9f-138bfce7ba0d",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇯🇵 JP | VLESS | @megavpn_link #1",
@@ -136,6 +128,22 @@
       "server_port": 443,
       "method": "YWVzLTEyOC1nY206c2hhZG93c29ja3M=",
       "password": null
+    },
+    {
+      "tag": "🇯🇵 JP | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "better-silkworm.rooster465.autos",
+      "server_port": 443,
+      "password": "AQ71834695",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

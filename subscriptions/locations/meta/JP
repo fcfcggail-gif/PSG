@@ -23,8 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇯🇵 JP | VLESS | @NamiraConfigs #1", "server": "43.163.241.110", "port": 24477, "type": "vless", "skip-cert-verify": true, "uuid": "2bc72bec-0c2a-4c6b-aa9f-138bfce7ba0d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇯🇵 JP | VLESS | @megavpn_link #1", "server": "134.122.194.186", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ce069292-c8bf-40dd-a6b1-87818a1e64e9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇯🇵 JP | TROJAN | @v2raych #1", "server": "better-silkworm.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": true, "password": "AQ71834695"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇯🇵 JP | VLESS | @NamiraConfigs #1'
       - '🇯🇵 JP | VLESS | @megavpn_link #1'
+      - '🇯🇵 JP | TROJAN | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

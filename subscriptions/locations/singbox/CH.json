@@ -91,8 +91,8 @@
         "auto",
         "direct",
         "🇨🇭 CH | VLESS | @bored_vpn #1",
-        "🇨🇭 CH | VLESS | @rez1vpn #1",
-        "🇨🇭 CH | TROJAN | @v2raych #1"
+        "🇨🇭 CH | VLESS | @red2ray #1",
+        "🇨🇭 CH | VLESS | @rez1vpn #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,8 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇭 CH | VLESS | @bored_vpn #1",
-        "🇨🇭 CH | VLESS | @rez1vpn #1",
-        "🇨🇭 CH | TROJAN | @v2raych #1"
+        "🇨🇭 CH | VLESS | @red2ray #1",
+        "🇨🇭 CH | VLESS | @rez1vpn #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -122,6 +122,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇨🇭 CH | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "45.59.125.228",
+      "server_port": 443,
+      "uuid": "691a9a35-76a6-48ea-9379-4f4f638c2b66",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇨🇭 CH | VLESS | @rez1vpn #1",
       "type": "vless",
       "server": "185.18.250.252",
@@ -137,13 +154,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇨🇭 CH | TROJAN | @v2raych #1",
-      "type": "trojan",
-      "server": "0101010101010101010101001010101010110010101010101010101010101.poki-pakipon.ir",
-      "server_port": 24154,
-      "password": "Xpp4J8jfbWRwCFPbFQ0PaugqS8VZLKkm"
     }
   ],
   "route": {
