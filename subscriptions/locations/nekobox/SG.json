@@ -79,6 +79,7 @@
         "direct",
         "🇸🇬 SG | TROJAN | @free1_vpn #1",
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
+        "🇸🇬 SG | VLESS | @v2ray_free_conf #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1"
       ],
       "tag": "proxy",
@@ -89,6 +90,7 @@
       "outbounds": [
         "🇸🇬 SG | TROJAN | @free1_vpn #1",
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
+        "🇸🇬 SG | VLESS | @v2ray_free_conf #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1"
       ],
       "tag": "auto",
@@ -141,6 +143,24 @@
         "path": "/",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "45.198.96.153",
+      "server_port": 443,
+      "uuid": "83ab4443-ec22-4b3d-a587-53090be7beb2",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },

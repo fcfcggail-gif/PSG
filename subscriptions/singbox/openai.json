@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgUEw=
+//profile-title: base64:UFNHIHwgT1BFTkFJ
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,11 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @outline_ir #1",
-        "🇵🇱 PL | VLESS | @vmesskhodam #1"
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi",
+        "🇽🇽 XX | VLESS | @v2raych #2",
+        "🇽🇽 XX | VLESS | @v2raych #4"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +102,11 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @outline_ir #1",
-        "🇵🇱 PL | VLESS | @vmesskhodam #1"
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi",
+        "🇽🇽 XX | VLESS | @v2raych #2",
+        "🇽🇽 XX | VLESS | @v2raych #4"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,11 +118,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @outline_ir #1",
+      "tag": "همکاری_ملی",
       "type": "vless",
-      "server": "144.31.0.100",
+      "server": "127.0.0.1",
       "server_port": 443,
-      "uuid": "7b81d175-d180-4ec8-bbc5-dfe80e8d3b68",
+      "uuid": "00000000-0000-0000-0000-000000000000",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -125,20 +131,22 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
         }
       }
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @vmesskhodam #1",
+      "tag": "جاویدشاه",
       "type": "vless",
-      "server": "namasha.broute.online",
-      "server_port": 2053,
-      "uuid": "ea3e24c1-6bc1-4a7a-9711-88f937f08bbb",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -147,11 +155,71 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "KingRezaPahlavi",
+      "type": "vless",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "chatgpt.com",
+      "server_port": 2053,
+      "uuid": "a625ba9c-9bfd-44b0-954e-6e88ed1df2cb",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2raych #4",
+      "type": "vless",
+      "server": "chatgpt.com",
+      "server_port": 2053,
+      "uuid": "a625ba9c-9bfd-44b0-954e-6e88ed1df2cb",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }
