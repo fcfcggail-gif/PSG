@@ -10,13 +10,11 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇦🇺 AU | VMESS | @serverv2ray00 #1 = vmess, 162.159.135.79, 443, username = 03fcc618-b93d-6796-6aed-8a38c975d581, ws = true, tls = true, ws-path = /linkvws, ws-headers = Host:"janett.click"
-🇦🇺 AU | TROJAN | @v2raych #1 = trojan, 82.117.225.123, 443, password = OD90375861, skip-cert-verify = true
-🇦🇺 AU | TROJAN | @v2raych #2 = trojan, wanted-marmoset.rooster465.autos, 443, password = IQ68037294, skip-cert-verify = true, sni = wanted-marmoset.rooster465.autos
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇦🇺 AU | VMESS | @serverv2ray00 #1, 🇦🇺 AU | TROJAN | @v2raych #1, 🇦🇺 AU | TROJAN | @v2raych #2
-PSG-AUTO = url-test, 🇦🇺 AU | VMESS | @serverv2ray00 #1, 🇦🇺 AU | TROJAN | @v2raych #1, 🇦🇺 AU | TROJAN | @v2raych #2
-PSG-FALLBACK = fallback, 🇦🇺 AU | VMESS | @serverv2ray00 #1, 🇦🇺 AU | TROJAN | @v2raych #1, 🇦🇺 AU | TROJAN | @v2raych #2
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇦🇺 AU | VMESS | @serverv2ray00 #1
+PSG-AUTO = url-test, 🇦🇺 AU | VMESS | @serverv2ray00 #1
+PSG-FALLBACK = fallback, 🇦🇺 AU | VMESS | @serverv2ray00 #1
 
 [Rule]
 GEOIP,IR,DIRECT

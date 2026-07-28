@@ -23,8 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇸🇨 SC | TROJAN | @prrofile_purple #1", "server": "45.130.125.2", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "MiTiVPN"}
-  - {"name": "🇸🇨 SC | TROJAN | @prrofile_purple #2", "server": "45.130.125.2", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "MiTiVPN"}
+  - {"name": "🇪🇪 EE | VLESS | @hope_net #1", "server": "45.80.110.211", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇪🇪 EE | VLESS | @hope_net #2", "server": "45.80.110.223", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇸🇨 SC | TROJAN | @prrofile_purple #1'
-      - '🇸🇨 SC | TROJAN | @prrofile_purple #2'
+      - '🇪🇪 EE | VLESS | @hope_net #1'
+      - '🇪🇪 EE | VLESS | @hope_net #2'
 
   - name: 🌍 Global Media
     type: select
