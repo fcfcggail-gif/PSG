@@ -78,8 +78,8 @@
         "auto",
         "direct",
         "🇨🇭 CH | VLESS | @bored_vpn #1",
-        "🇨🇭 CH | SS | @red2ray #1",
-        "🇨🇭 CH | VLESS | @rez1vpn #1"
+        "🇨🇭 CH | VLESS | @rez1vpn #1",
+        "🇨🇭 CH | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,8 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇭 CH | VLESS | @bored_vpn #1",
-        "🇨🇭 CH | SS | @red2ray #1",
-        "🇨🇭 CH | VLESS | @rez1vpn #1"
+        "🇨🇭 CH | VLESS | @rez1vpn #1",
+        "🇨🇭 CH | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -113,14 +113,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇨🇭 CH | SS | @red2ray #1",
-      "type": "shadowsocks",
-      "server": "best.kovira2.ir",
-      "server_port": 25026,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp4cDZxZHV5YTMzYnZsODYz",
-      "password": null
-    },
-    {
       "tag": "🇨🇭 CH | VLESS | @rez1vpn #1",
       "type": "vless",
       "server": "185.18.250.252",
@@ -134,6 +126,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "channel.tradeip.store",
+      "server_port": 443,
+      "uuid": "t.me.TradeIP",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }
