@@ -91,12 +91,20 @@
         "auto",
         "direct",
         "🇸🇨 SC | VLESS | @ai_duet #1",
+        "🇸🇨 SC | VLESS | @arv2ray #1",
         "🇸🇨 SC | VLESS | @bored_vpn #1",
         "🇸🇨 SC | VLESS | @ehsawn8 #1",
         "🇸🇨 SC | VLESS | @freevirgoolnet #1",
         "🇸🇨 SC | VLESS | @jiedianf #1",
         "🇸🇨 SC | VLESS | @mehrosaboran #1",
-        "🇸🇨 SC | VLESS | @turboo_server #1"
+        "🇸🇨 SC | VLESS | @nofiltering2 #1",
+        "🇸🇨 SC | VLESS | @nofiltering2 #2",
+        "🇸🇨 SC | VLESS | @outline_ir #1",
+        "🇸🇨 SC | VLESS | @turboo_server #1",
+        "🇸🇨 SC | VLESS | @v2ray_youtube #1",
+        "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",
+        "🇸🇨 SC | VLESS | @v2rayngvpn_1 #2",
+        "🇸🇨 SC | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -105,12 +113,20 @@
       "interval": "10m",
       "outbounds": [
         "🇸🇨 SC | VLESS | @ai_duet #1",
+        "🇸🇨 SC | VLESS | @arv2ray #1",
         "🇸🇨 SC | VLESS | @bored_vpn #1",
         "🇸🇨 SC | VLESS | @ehsawn8 #1",
         "🇸🇨 SC | VLESS | @freevirgoolnet #1",
         "🇸🇨 SC | VLESS | @jiedianf #1",
         "🇸🇨 SC | VLESS | @mehrosaboran #1",
-        "🇸🇨 SC | VLESS | @turboo_server #1"
+        "🇸🇨 SC | VLESS | @nofiltering2 #1",
+        "🇸🇨 SC | VLESS | @nofiltering2 #2",
+        "🇸🇨 SC | VLESS | @outline_ir #1",
+        "🇸🇨 SC | VLESS | @turboo_server #1",
+        "🇸🇨 SC | VLESS | @v2ray_youtube #1",
+        "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",
+        "🇸🇨 SC | VLESS | @v2rayngvpn_1 #2",
+        "🇸🇨 SC | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -127,6 +143,23 @@
       "server": "45.130.125.160",
       "server_port": 443,
       "uuid": "406d8436-0eb9-4eb2-84fb-960e076ffba6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @arv2ray #1",
+      "type": "vless",
+      "server": "156.243.83.167",
+      "server_port": 443,
+      "uuid": "telegram-id-Arfilter",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -217,12 +250,161 @@
       }
     },
     {
+      "tag": "🇸🇨 SC | VLESS | @nofiltering2 #1",
+      "type": "vless",
+      "server": "45.192.2.115",
+      "server_port": 443,
+      "uuid": "0b8dfc50-9e2d-4b3c-85cd-870b478312a0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @nofiltering2 #2",
+      "type": "vless",
+      "server": "45.192.2.115",
+      "server_port": 443,
+      "uuid": "0b8dfc50-9e2d-4b3c-85cd-870b478312a0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "45.196.201.138",
+      "server_port": 443,
+      "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇸🇨 SC | VLESS | @turboo_server #1",
       "type": "vless",
       "server": "45.130.125.76",
       "server_port": 2053,
       "uuid": "b37be529-83c9-4851-a3cf-73d7d05bf308",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @v2ray_youtube #1",
+      "type": "vless",
+      "server": "45.130.125.207",
+      "server_port": 443,
+      "uuid": "eeb6823c-b926-4ea2-866a-5542edd26e59",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",
+      "type": "vless",
+      "server": "45.196.182.41",
+      "server_port": 443,
+      "uuid": "701ea834-7c31-4544-95d6-f0a4dfe40b36",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @v2rayngvpn_1 #2",
+      "type": "vless",
+      "server": "45.196.182.49",
+      "server_port": 443,
+      "uuid": "701ea834-7c31-4544-95d6-f0a4dfe40b36",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "154.83.246.50",
+      "server_port": 443,
+      "uuid": "7216b4e8-e935-4d68-b959-73d145accdee",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

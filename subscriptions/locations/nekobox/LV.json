@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇻 LV | VLESS | @free4allvpn #1"
+        "🇱🇻 LV | VLESS | @free4allvpn #1",
+        "🇱🇻 LV | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇻 LV | VLESS | @free4allvpn #1"
+        "🇱🇻 LV | VLESS | @free4allvpn #1",
+        "🇱🇻 LV | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -121,6 +123,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇱🇻 LV | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "fn.fifapes.monster",
+      "server_port": 2090,
+      "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇬 SG | VLESS | @freeconfigsplus #1"
+        "🇸🇬 SG | VLESS | @freeconfigsplus #1",
+        "🇸🇬 SG | VLESS | @v2rayexpress #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇬 SG | VLESS | @freeconfigsplus #1"
+        "🇸🇬 SG | VLESS | @freeconfigsplus #1",
+        "🇸🇬 SG | VLESS | @v2rayexpress #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -121,6 +123,28 @@
         "path": "/",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @v2rayexpress #1",
+      "type": "vless",
+      "server": "5.223.42.211",
+      "server_port": 443,
+      "uuid": "9d33dc91-fb84-4f96-d9b1-fe28a230a94f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }
