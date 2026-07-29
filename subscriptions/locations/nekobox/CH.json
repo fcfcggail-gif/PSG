@@ -80,10 +80,8 @@
         "🇨🇭 CH | VLESS | @bored_vpn #1",
         "🇨🇭 CH | VLESS | @nofiltering2 #1",
         "🇨🇭 CH | VLESS | @nofiltering2 #2",
-        "🇨🇭 CH | VLESS | @red2ray #1",
-        "🇨🇭 CH | VLESS | @red2ray #2",
-        "🇨🇭 CH | SS | @red2ray #1",
-        "🇨🇭 CH | VLESS | @rez1vpn #1"
+        "🇨🇭 CH | VLESS | @rez1vpn #1",
+        "🇨🇭 CH | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -94,10 +92,8 @@
         "🇨🇭 CH | VLESS | @bored_vpn #1",
         "🇨🇭 CH | VLESS | @nofiltering2 #1",
         "🇨🇭 CH | VLESS | @nofiltering2 #2",
-        "🇨🇭 CH | VLESS | @red2ray #1",
-        "🇨🇭 CH | VLESS | @red2ray #2",
-        "🇨🇭 CH | SS | @red2ray #1",
-        "🇨🇭 CH | VLESS | @rez1vpn #1"
+        "🇨🇭 CH | VLESS | @rez1vpn #1",
+        "🇨🇭 CH | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -165,39 +161,6 @@
       }
     },
     {
-      "tag": "🇨🇭 CH | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "koviraaa.kovira2.ir",
-      "server_port": 443,
-      "uuid": "f5f77177-4937-4f40-b6fc-7c4278151f01",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇨🇭 CH | VLESS | @red2ray #2",
-      "type": "vless",
-      "server": "koviraaa.kovira2.ir",
-      "server_port": 13424,
-      "uuid": "f5f77177-4937-4f40-b6fc-7c4278151f01",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇨🇭 CH | SS | @red2ray #1",
-      "type": "shadowsocks",
-      "server": "koviraaa.kovira2.ir",
-      "server_port": 25026,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprdnJvdjR2ZDRpc3piM2F3",
-      "password": null
-    },
-    {
       "tag": "🇨🇭 CH | VLESS | @rez1vpn #1",
       "type": "vless",
       "server": "185.18.250.252",
@@ -213,6 +176,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇨🇭 CH | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "koviraaa.kovira2.ir",
+      "server_port": 25026,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprdnJvdjR2ZDRpc3piM2F3",
+      "password": null
     }
   ],
   "route": {

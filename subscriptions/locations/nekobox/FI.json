@@ -77,9 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @orange_vpns #1",
-        "🇫🇮 FI | VLESS | @red2ray #1",
-        "🇫🇮 FI | VLESS | @vmesc #1"
+        "🇫🇮 FI | VLESS | @netfreedom0 #1",
+        "🇫🇮 FI | VLESS | @orange_vpns #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @orange_vpns #1",
-        "🇫🇮 FI | VLESS | @red2ray #1",
-        "🇫🇮 FI | VLESS | @vmesc #1"
+        "🇫🇮 FI | VLESS | @netfreedom0 #1",
+        "🇫🇮 FI | VLESS | @orange_vpns #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -105,6 +103,23 @@
       "type": "direct"
     },
     {
+      "tag": "🇫🇮 FI | VLESS | @netfreedom0 #1",
+      "type": "vless",
+      "server": "mx.bexumconnect.ltd",
+      "server_port": 443,
+      "uuid": "1e06c388-d31c-420e-916a-94a990648e34",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇫🇮 FI | VLESS | @orange_vpns #1",
       "type": "vless",
       "server": "135.181.32.60",
@@ -118,36 +133,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "77.42.83.112",
-      "server_port": 8443,
-      "uuid": "e315526f-c838-44db-9bd4-01ccb03450b9",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @vmesc #1",
-      "type": "vless",
-      "server": "tun.temas-bor.ir",
-      "server_port": 443,
-      "uuid": "38df5518-26c5-449b-98d9-a4f456f5f689",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }
