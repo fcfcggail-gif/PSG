@@ -77,9 +77,11 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇹🇷 TR | VMESS | @NamiraConfigs #1",
+        "🇹🇷 TR | VLESS | @NamiraConfigs #1",
         "🇹🇷 TR | VLESS | @netmellianti #1",
         "🇹🇷 TR | VLESS | @netmellianti #2",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
+        "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +89,11 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇹🇷 TR | VMESS | @NamiraConfigs #1",
+        "🇹🇷 TR | VLESS | @NamiraConfigs #1",
         "🇹🇷 TR | VLESS | @netmellianti #1",
         "🇹🇷 TR | VLESS | @netmellianti #2",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
+        "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,6 +107,23 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇹🇷 TR | VMESS | @NamiraConfigs #1",
+      "type": "vmess",
+      "server": "5.188.190.252",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "nodde.soft88.site",
+      "server_port": 45141,
+      "uuid": "dce873e4-10be-4d1b-ae61-8b0d551d5bec",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇹🇷 TR | VLESS | @netmellianti #1",
@@ -139,11 +160,11 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇹🇷 TR | VLESS | @vmesskhodam #1",
       "type": "vless",
-      "server": "panel.jorgotr.ir",
-      "server_port": 42754,
-      "uuid": "a3bf5677-eaa6-42c5-959c-38cfdcd58d48",
+      "server": "185.39.204.155",
+      "server_port": 8443,
+      "uuid": "1f29762d-3f23-4207-9e39-f774de5d49ba",
       "packet_encoding": "xudp"
     }
   ],

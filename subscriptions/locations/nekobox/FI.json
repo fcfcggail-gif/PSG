@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @evay_vpn #1"
+        "🇫🇮 FI | VLESS | @orange_vpns #1",
+        "🇫🇮 FI | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @evay_vpn #1"
+        "🇫🇮 FI | VLESS | @orange_vpns #1",
+        "🇫🇮 FI | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,11 +103,28 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @evay_vpn #1",
+      "tag": "🇫🇮 FI | VLESS | @orange_vpns #1",
       "type": "vless",
-      "server": "s1.esantion.info",
-      "server_port": 24206,
-      "uuid": "b90bc52c-d95b-49d2-8061-598ddb44e288",
+      "server": "135.181.32.60",
+      "server_port": 443,
+      "uuid": "20f293d5-b0a5-4f15-bcb7-b79da2b17c81",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "77.42.83.112",
+      "server_port": 8443,
+      "uuid": "e315526f-c838-44db-9bd4-01ccb03450b9",
       "packet_encoding": "xudp"
     }
   ],

@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇮 FI | VLESS | @evay_vpn #1", "server": "s1.esantion.info", "port": 24206, "type": "vless", "skip-cert-verify": true, "uuid": "b90bc52c-d95b-49d2-8061-598ddb44e288", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇮 FI | VLESS | @orange_vpns #1", "server": "135.181.32.60", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "20f293d5-b0a5-4f15-bcb7-b79da2b17c81", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇮 FI | VLESS | @red2ray #1", "server": "77.42.83.112", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "e315526f-c838-44db-9bd4-01ccb03450b9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇮 FI | VLESS | @evay_vpn #1'
+      - '🇫🇮 FI | VLESS | @orange_vpns #1'
+      - '🇫🇮 FI | VLESS | @red2ray #1'
 
   - name: 🌍 Global Media
     type: select
