@@ -112,10 +112,8 @@
         "🇮🇷 IR | SS | @v2rayng3 #2",
         "🇮🇷 IR | SS | @v2rayng3 #3",
         "🇮🇷 IR | VLESS | @v2rayngalpha #1",
-        "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
-        "🇮🇷 IR | VLESS | @v_2rayngvpn #2",
-        "🇮🇷 IR | VLESS | @NamiraConfigs #2"
+        "🇮🇷 IR | VLESS | @v_2rayngvpn #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -145,10 +143,8 @@
         "🇮🇷 IR | SS | @v2rayng3 #2",
         "🇮🇷 IR | SS | @v2rayng3 #3",
         "🇮🇷 IR | VLESS | @v2rayngalpha #1",
-        "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
-        "🇮🇷 IR | VLESS | @v_2rayngvpn #2",
-        "🇮🇷 IR | VLESS | @NamiraConfigs #2"
+        "🇮🇷 IR | VLESS | @v_2rayngvpn #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -409,31 +405,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
-      "type": "vmess",
-      "server": "site.hooracoffee.ir",
-      "server_port": 443,
-      "uuid": "ed954dba-5ad5-4688-8174-247944361c38",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "site.hooracoffee.ir",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/www",
-        "headers": {
-          "Host": "site.hooracoffee.ir"
-        }
-      }
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
       "type": "vless",
       "server": "www.zula.ir",
@@ -448,24 +419,6 @@
       "server_port": 80,
       "uuid": "bfe63cc5-412d-4aa7-b04e-75c9d52b5831",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @NamiraConfigs #2",
-      "type": "vless",
-      "server": "a.samrayan.ir",
-      "server_port": 443,
-      "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "a.samrayan.ir",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     }
   ],
   "route": {
