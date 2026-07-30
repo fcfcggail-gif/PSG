@@ -91,13 +91,10 @@
         "auto",
         "direct",
         "🇹🇷 TR | VMESS | @NamiraConfigs #1",
-        "🇹🇷 TR | VLESS | @NamiraConfigs #1",
         "🇹🇷 TR | VLESS | @netmellianti #1",
         "🇹🇷 TR | VLESS | @netmellianti #2",
         "🇹🇷 TR | VLESS | @v2raych #1",
-        "🇹🇷 TR | VLESS | @v2raych #2",
-        "🇹🇷 TR | VLESS | @vmesskhodam #1",
-        "🇹🇷 TR | VLESS | @NamiraConfigs #2"
+        "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -106,13 +103,10 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VMESS | @NamiraConfigs #1",
-        "🇹🇷 TR | VLESS | @NamiraConfigs #1",
         "🇹🇷 TR | VLESS | @netmellianti #1",
         "🇹🇷 TR | VLESS | @netmellianti #2",
         "🇹🇷 TR | VLESS | @v2raych #1",
-        "🇹🇷 TR | VLESS | @v2raych #2",
-        "🇹🇷 TR | VLESS | @vmesskhodam #1",
-        "🇹🇷 TR | VLESS | @NamiraConfigs #2"
+        "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -133,14 +127,6 @@
       "alter_id": 0
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "nodde.soft88.site",
-      "server_port": 45141,
-      "uuid": "dce873e4-10be-4d1b-ae61-8b0d551d5bec",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇹🇷 TR | VLESS | @netmellianti #1",
       "type": "vless",
       "server": "arme.biscuitnazari.ir",
@@ -159,18 +145,19 @@
     {
       "tag": "🇹🇷 TR | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "tr.justparsa1-irdata.site",
-      "server_port": 25895,
-      "uuid": "39790379-db01-4c27-94e4-3f052ab53b08",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "tr.justparsa1-irdata.site",
-      "server_port": 25895,
-      "uuid": "39790379-db01-4c27-94e4-3f052ab53b08",
-      "packet_encoding": "xudp"
+      "server": "45.74.159.124",
+      "server_port": 443,
+      "uuid": "41a52590-0ab0-4def-acba-68103da2fbfa",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇹🇷 TR | VLESS | @vmesskhodam #1",
@@ -178,14 +165,6 @@
       "server": "185.39.204.155",
       "server_port": 8443,
       "uuid": "1f29762d-3f23-4207-9e39-f774de5d49ba",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @NamiraConfigs #2",
-      "type": "vless",
-      "server": "nodde.soft88.site",
-      "server_port": 45141,
-      "uuid": "dce873e4-10be-4d1b-ae61-8b0d551d5bec",
       "packet_encoding": "xudp"
     }
   ],
