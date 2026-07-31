@@ -23,10 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇨🇭 CH | VLESS | @nofiltering2 #1", "server": "onkwo.ojcenter.com", "port": 3468, "type": "vless", "skip-cert-verify": true, "uuid": "ef340ab7-b1a5-a3de-cdcd-5e5d4f2cf9fd", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇨🇭 CH | VLESS | @rez1vpn #1", "server": "185.18.250.252", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "f77299ea-e13d-417d-8cdc-ce5566dfc94b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇨🇭 CH | VLESS | @v2raych #1", "server": "138.124.60.95", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "6f93f3eb-8ff2-4da4-837b-8a333c281ff3", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇨🇭 CH | VLESS | @v2raych #2", "server": "138.124.60.95", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "6f93f3eb-8ff2-4da4-837b-8a333c281ff3", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇨🇭 CH | VLESS | @vmesskhodam #1", "server": "channel.tradeip.store", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "t.me.TradeIP", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇨🇭 CH | VLESS | @vmesskhodam #2", "server": "channel.tradeip.store", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "t.me.TradeIP", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,10 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇨🇭 CH | VLESS | @nofiltering2 #1'
       - '🇨🇭 CH | VLESS | @rez1vpn #1'
-      - '🇨🇭 CH | VLESS | @v2raych #1'
-      - '🇨🇭 CH | VLESS | @v2raych #2'
+      - '🇨🇭 CH | VLESS | @vmesskhodam #1'
+      - '🇨🇭 CH | VLESS | @vmesskhodam #2'
 
   - name: 🌍 Global Media
     type: select
