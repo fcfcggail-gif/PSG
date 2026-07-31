@@ -25,6 +25,8 @@ dns:
 proxies: 
   - {"name": "🇹🇷 TR | VMESS | @NamiraConfigs #1", "server": "5.188.190.252", "port": 22324, "type": "vmess", "skip-cert-verify": true, "uuid": "04621bae-ab36-11ec-b909-0242ac120002", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇹🇷 TR | VLESS | @netmellianti #1", "server": "arme.biscuitnazari.ir", "port": 9443, "type": "vless", "skip-cert-verify": true, "uuid": "fd5d3017-c682-46dd-9259-a6a884e918df", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @netmellianti #2", "server": "newtr.karmatel.ir", "port": 20727, "type": "vless", "skip-cert-verify": true, "uuid": "bc903fe3-865f-4f2e-87f9-24c4b58854de", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @v2ray_free_conf #1", "server": "jsv-ir2.randino.ir", "port": 2, "type": "vless", "skip-cert-verify": true, "uuid": "fc7f5780-4c4e-11f1-a3f8-b58432c62d9c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,6 +42,8 @@ proxy-groups:
     proxies: 
       - '🇹🇷 TR | VMESS | @NamiraConfigs #1'
       - '🇹🇷 TR | VLESS | @netmellianti #1'
+      - '🇹🇷 TR | VLESS | @netmellianti #2'
+      - '🇹🇷 TR | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

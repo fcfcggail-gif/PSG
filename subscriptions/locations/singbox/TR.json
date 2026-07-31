@@ -92,7 +92,8 @@
         "direct",
         "🇹🇷 TR | VMESS | @NamiraConfigs #1",
         "🇹🇷 TR | VLESS | @netmellianti #1",
-        "🇹🇷 TR | SS | @v2raych #1"
+        "🇹🇷 TR | VLESS | @netmellianti #2",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,7 +103,8 @@
       "outbounds": [
         "🇹🇷 TR | VMESS | @NamiraConfigs #1",
         "🇹🇷 TR | VLESS | @netmellianti #1",
-        "🇹🇷 TR | SS | @v2raych #1"
+        "🇹🇷 TR | VLESS | @netmellianti #2",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -131,12 +133,20 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇹🇷 TR | SS | @v2raych #1",
-      "type": "shadowsocks",
-      "server": "188.41.249.20",
-      "server_port": 1080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyWWZpNGNRM3o3enRzN0JPNC1ZOV9B",
-      "password": null
+      "tag": "🇹🇷 TR | VLESS | @netmellianti #2",
+      "type": "vless",
+      "server": "newtr.karmatel.ir",
+      "server_port": 20727,
+      "uuid": "bc903fe3-865f-4f2e-87f9-24c4b58854de",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "jsv-ir2.randino.ir",
+      "server_port": 2,
+      "uuid": "fc7f5780-4c4e-11f1-a3f8-b58432c62d9c",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
