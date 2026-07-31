@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQ1k=
+//profile-title: base64:UFNHIHwgRkk=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇾 CY | VLESS | @eliteproxyv2 #1"
+        "🇫🇮 FI | VLESS | @red2ray #1",
+        "🇫🇮 FI | VLESS | @red2ray #2",
+        "🇫🇮 FI | VLESS | @red2ray #3",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +101,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇾 CY | VLESS | @eliteproxyv2 #1"
+        "🇫🇮 FI | VLESS | @red2ray #1",
+        "🇫🇮 FI | VLESS | @red2ray #2",
+        "🇫🇮 FI | VLESS | @red2ray #3",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,11 +116,49 @@
       "type": "direct"
     },
     {
-      "tag": "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
+      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "germany.fast.hosting-ip.com",
+      "server": "3bcd331c14bcf7a0.mbcloudynias.ir",
       "server_port": 80,
-      "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
+      "uuid": "8f0a9c91-ec47-4351-a8e8-93dfd493cd5f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @red2ray #2",
+      "type": "vless",
+      "server": "62.238.63.51",
+      "server_port": 1234,
+      "uuid": "1b74b98a-619f-47ab-bbb9-a7650f6c4d4c",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @red2ray #3",
+      "type": "vless",
+      "server": "62.238.53.197",
+      "server_port": 1234,
+      "uuid": "1b74b98a-619f-47ab-bbb9-a7650f6c4d4c",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "65.109.177.15",
+      "server_port": 41601,
+      "uuid": "Filterboro",
       "packet_encoding": "xudp"
     }
   ],

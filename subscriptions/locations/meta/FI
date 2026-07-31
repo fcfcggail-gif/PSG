@@ -23,7 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇨🇾 CY | VLESS | @eliteproxyv2 #1", "server": "germany.fast.hosting-ip.com", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇮 FI | VLESS | @red2ray #1", "server": "3bcd331c14bcf7a0.mbcloudynias.ir", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "8f0a9c91-ec47-4351-a8e8-93dfd493cd5f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇫🇮 FI | VLESS | @red2ray #2", "server": "62.238.63.51", "port": 1234, "type": "vless", "skip-cert-verify": true, "uuid": "1b74b98a-619f-47ab-bbb9-a7650f6c4d4c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇮 FI | VLESS | @red2ray #3", "server": "62.238.53.197", "port": 1234, "type": "vless", "skip-cert-verify": true, "uuid": "1b74b98a-619f-47ab-bbb9-a7650f6c4d4c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇮 FI | VLESS | @v2ray_free_conf #1", "server": "65.109.177.15", "port": 41601, "type": "vless", "skip-cert-verify": true, "uuid": "Filterboro", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +40,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇨🇾 CY | VLESS | @eliteproxyv2 #1'
+      - '🇫🇮 FI | VLESS | @red2ray #1'
+      - '🇫🇮 FI | VLESS | @red2ray #2'
+      - '🇫🇮 FI | VLESS | @red2ray #3'
+      - '🇫🇮 FI | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

@@ -94,17 +94,17 @@
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
-        "🇫🇷 FR | VLESS | @v2ray_free_conf #2",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇫🇷 FR | VLESS | @vmesskhodam #1",
+        "🇫🇷 FR | VLESS | @vmesskhodam #2",
         "🇳🇱 NL | VLESS | @vpn_ioss #1",
-        "🇳🇱 NL | VLESS | @bored_vpn #1",
-        "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
-        "🇽🇽 XX | VLESS | @free1_vpn #3",
+        "🇩🇪 DE | VLESS | @bored_vpn #2",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2"
@@ -132,17 +132,17 @@
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
-        "🇫🇷 FR | VLESS | @v2ray_free_conf #2",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇫🇷 FR | VLESS | @vmesskhodam #1",
+        "🇫🇷 FR | VLESS | @vmesskhodam #2",
         "🇳🇱 NL | VLESS | @vpn_ioss #1",
-        "🇳🇱 NL | VLESS | @bored_vpn #1",
-        "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
-        "🇽🇽 XX | VLESS | @free1_vpn #3",
+        "🇩🇪 DE | VLESS | @bored_vpn #2",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2"
@@ -435,12 +435,19 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @v2ray_free_conf #2",
+      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "130.49.77.3",
+      "server": "5.175.136.134",
+      "server_port": 2053,
+      "uuid": "dd280dbb-75ec-4631-9979-d65237e27185",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
+      "type": "trojan",
+      "server": "104.18.16.56",
       "server_port": 443,
-      "uuid": "e51796bb-3305-ac88-f39d-22fd9dd63b4f",
-      "packet_encoding": "xudp",
+      "password": "VPNCUSTOMIZE",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -536,6 +543,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇫🇷 FR | VLESS | @vmesskhodam #2",
+      "type": "vless",
+      "server": "130.49.77.3",
+      "server_port": 443,
+      "uuid": "e51796bb-3305-ac88-f39d-22fd9dd63b4f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇳🇱 NL | VLESS | @vpn_ioss #1",
       "type": "vless",
       "server": "206.71.158.124",
@@ -553,7 +577,7 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @bored_vpn #1",
+      "tag": "🇩🇪 DE | VLESS | @bored_vpn #2",
       "type": "vless",
       "server": "static.lotussec.com",
       "server_port": 443,
@@ -568,22 +592,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
-      "type": "vless",
-      "server": "germany.fast.hosting-ip.com",
-      "server_port": 80,
-      "uuid": "55d7c587-7d65-4cd2-a51a-0a7fb6a63285",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @free1_vpn #3",
-      "type": "vless",
-      "server": "mci.pictureiran.ir",
-      "server_port": 2087,
-      "uuid": "412d7fbe-7474-4f1d-86c6-7eebdc628f72",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇺🇸 US | VLESS | @kafing_2 #1",
