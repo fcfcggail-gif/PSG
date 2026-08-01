@@ -80,8 +80,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇲🇾 MY | VMESS | @NamiraConfigs #1",
         "🇩🇪 DE | VMESS | @NamiraConfigs #1",
-        "🇩🇪 DE | VMESS | @NamiraConfigs #2",
+        "🇺🇸 US | VMESS | @NamiraConfigs #1",
         "🇽🇽 XX | VMESS | @frev2rayng #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
@@ -90,7 +91,6 @@
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇨🇿 CZ | VMESS | @freev2rays #1",
-        "🇽🇽 XX | VMESS | @hope_net #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VMESS | @iranvpnet #1",
@@ -119,8 +119,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇲🇾 MY | VMESS | @NamiraConfigs #1",
         "🇩🇪 DE | VMESS | @NamiraConfigs #1",
-        "🇩🇪 DE | VMESS | @NamiraConfigs #2",
+        "🇺🇸 US | VMESS | @NamiraConfigs #1",
         "🇽🇽 XX | VMESS | @frev2rayng #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
@@ -129,7 +130,6 @@
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇨🇿 CZ | VMESS | @freev2rays #1",
-        "🇽🇽 XX | VMESS | @hope_net #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VMESS | @ir_netproxy #1",
         "🇽🇽 XX | VMESS | @iranvpnet #1",
@@ -235,6 +235,15 @@
       }
     },
     {
+      "tag": "🇲🇾 MY | VMESS | @NamiraConfigs #1",
+      "type": "vmess",
+      "server": "47.250.135.244",
+      "server_port": 10000,
+      "uuid": "aedc66b8-99d7-4a21-8310-61870e7f870d",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
       "tag": "🇩🇪 DE | VMESS | @NamiraConfigs #1",
       "type": "vmess",
       "server": "82.198.246.97",
@@ -244,13 +253,22 @@
       "alter_id": 0
     },
     {
-      "tag": "🇩🇪 DE | VMESS | @NamiraConfigs #2",
+      "tag": "🇺🇸 US | VMESS | @NamiraConfigs #1",
       "type": "vmess",
-      "server": "195.133.193.18",
-      "server_port": 27726,
-      "uuid": "98e2be3c-8f84-4b85-996b-b68dcc2fbcb6",
+      "server": "165.140.216.141",
+      "server_port": 443,
+      "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
       "security": "auto",
-      "alter_id": 0
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VMESS | @frev2rayng #1",
@@ -420,31 +438,6 @@
         "path": "/",
         "headers": {
           "Host": "shs111.kejixiaoqi666.store"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @hope_net #1",
-      "type": "vmess",
-      "server": "speed.cloudflare.com",
-      "server_port": 8443,
-      "uuid": "76221bfb-e92f-4e80-81c5-6fe48f50ac0b",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "withered-disk-c4c0.wwwjoecartoonscom-vaalco.workers.dev",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/glweidf.sbs/linkws",
-        "headers": {
-          "Host": "withered-disk-c4c0.wwwjoecartoonscom-vaalco.workers.dev"
         }
       }
     },

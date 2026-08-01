@@ -78,12 +78,8 @@
         "auto",
         "direct",
         "🇩🇪 DE | VMESS | @NamiraConfigs #1",
-        "🇩🇪 DE | VMESS | @NamiraConfigs #2",
-        "🇩🇪 DE | VLESS | @NamiraConfigs #1",
-        "🇩🇪 DE | VLESS | @NamiraConfigs #2",
         "🇩🇪 DE | VLESS | @ai_duet #1",
         "🇩🇪 DE | VLESS | @bored_vpn #1",
-        "🇩🇪 DE | VLESS | @bored_vpn #2",
         "🇩🇪 DE | VLESS | @evay_vpn #1",
         "🇩🇪 DE | VLESS | @evay_vpn #2",
         "🇩🇪 DE | VLESS | @father_vpn #1",
@@ -102,6 +98,8 @@
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
+        "🇩🇪 DE | TROJAN | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | VLESS | @v2rayprotocol #1",
@@ -115,12 +113,8 @@
       "interval": "10m",
       "outbounds": [
         "🇩🇪 DE | VMESS | @NamiraConfigs #1",
-        "🇩🇪 DE | VMESS | @NamiraConfigs #2",
-        "🇩🇪 DE | VLESS | @NamiraConfigs #1",
-        "🇩🇪 DE | VLESS | @NamiraConfigs #2",
         "🇩🇪 DE | VLESS | @ai_duet #1",
         "🇩🇪 DE | VLESS | @bored_vpn #1",
-        "🇩🇪 DE | VLESS | @bored_vpn #2",
         "🇩🇪 DE | VLESS | @evay_vpn #1",
         "🇩🇪 DE | VLESS | @evay_vpn #2",
         "🇩🇪 DE | VLESS | @father_vpn #1",
@@ -139,6 +133,8 @@
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
+        "🇩🇪 DE | TROJAN | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | VLESS | @v2rayprotocol #1",
@@ -166,31 +162,6 @@
       "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
       "security": "auto",
       "alter_id": 0
-    },
-    {
-      "tag": "🇩🇪 DE | VMESS | @NamiraConfigs #2",
-      "type": "vmess",
-      "server": "195.133.193.18",
-      "server_port": 27726,
-      "uuid": "98e2be3c-8f84-4b85-996b-b68dcc2fbcb6",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "91.99.119.155",
-      "server_port": 1234,
-      "uuid": "957797d5-1710-4e4a-bf41-9f5b641503e3",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #2",
-      "type": "vless",
-      "server": "128.140.114.57",
-      "server_port": 1234,
-      "uuid": "957797d5-1710-4e4a-bf41-9f5b641503e3",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇩🇪 DE | VLESS | @ai_duet #1",
@@ -228,23 +199,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @bored_vpn #2",
-      "type": "vless",
-      "server": "static.lotussec.com",
-      "server_port": 443,
-      "uuid": "14b48651-3738-4926-bc09-4c04e87ff80b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },
@@ -539,6 +493,44 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | TROJAN | @v2ray_free_conf #1",
+      "type": "trojan",
+      "server": "45.80.111.7",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "www.ranvuno.ir",
+      "server_port": 443,
+      "uuid": "262dab5d-349a-445c-81fc-393413804b77",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },

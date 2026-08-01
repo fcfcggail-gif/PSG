@@ -77,9 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @netmellianti #1",
-        "🇵🇱 PL | VLESS | @v2raych #1",
-        "🇵🇱 PL | VLESS | @v2raych #2"
+        "🇵🇱 PL | VLESS | @netfreedom0 #1",
+        "🇵🇱 PL | VLESS | @netmellianti #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @netmellianti #1",
-        "🇵🇱 PL | VLESS | @v2raych #1",
-        "🇵🇱 PL | VLESS | @v2raych #2"
+        "🇵🇱 PL | VLESS | @netfreedom0 #1",
+        "🇵🇱 PL | VLESS | @netmellianti #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,6 +101,23 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @netfreedom0 #1",
+      "type": "vless",
+      "server": "meow-warsaw.nethcloud.top",
+      "server_port": 443,
+      "uuid": "a34b5e88-cf0d-4c01-8199-2d1002d3c787",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇵🇱 PL | VLESS | @netmellianti #1",
@@ -125,22 +140,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "152.233.43.74",
-      "server_port": 16923,
-      "uuid": "695e3dfd-14dd-4fa3-9c6a-f8108c376982",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "152.233.43.74",
-      "server_port": 16923,
-      "uuid": "695e3dfd-14dd-4fa3-9c6a-f8108c376982",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {
