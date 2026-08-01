@@ -96,6 +96,7 @@
         "🇷🇺 RU | VLESS | @bored_vpn #1",
         "🇪🇸 ES | VLESS | @flyv2ray #1",
         "🇮🇹 IT | VLESS | @freeconfigsplus #1",
+        "🇱🇻 LV | VLESS | @megavpn_link #1",
         "🇵🇱 PL | VLESS | @netmellianti #1",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
         "🇷🇺 RU | VLESS | @orange_vpns #1",
@@ -107,8 +108,7 @@
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇺🇸 US | VLESS | @vpnowl #1",
         "🇵🇱 PL | VLESS | @netfreedom0 #1",
-        "🇫🇷 FR | VLESS | @oonfig #1",
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #1"
+        "🇫🇷 FR | VLESS | @oonfig #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -122,6 +122,7 @@
         "🇷🇺 RU | VLESS | @bored_vpn #1",
         "🇪🇸 ES | VLESS | @flyv2ray #1",
         "🇮🇹 IT | VLESS | @freeconfigsplus #1",
+        "🇱🇻 LV | VLESS | @megavpn_link #1",
         "🇵🇱 PL | VLESS | @netmellianti #1",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
         "🇷🇺 RU | VLESS | @orange_vpns #1",
@@ -133,8 +134,7 @@
         "🇩🇪 DE | VLESS | @vipv2rey #1",
         "🇺🇸 US | VLESS | @vpnowl #1",
         "🇵🇱 PL | VLESS | @netfreedom0 #1",
-        "🇫🇷 FR | VLESS | @oonfig #1",
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #1"
+        "🇫🇷 FR | VLESS | @oonfig #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -270,6 +270,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇱🇻 LV | VLESS | @megavpn_link #1",
+      "type": "vless",
+      "server": "91.218.143.194",
+      "server_port": 43798,
+      "uuid": "b7725d23-840a-4f8e-993c-69b40424cfc0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -506,14 +528,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "id04-tel-badangellll.shopiranii.ir",
-      "server_port": 9076,
-      "uuid": "008251f9-d80e-4ebc-96a4-d71a472c8ebc",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {
