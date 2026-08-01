@@ -79,8 +79,8 @@
         "direct",
         "🇹🇷 TR | VLESS | @netmellianti #1",
         "🇹🇷 TR | VLESS | @netmellianti #2",
-        "🇹🇷 TR | VLESS | @v2raych #1",
-        "🇹🇷 TR | VLESS | @vmesc #1"
+        "🇹🇷 TR | SS | @outline_ir #1",
+        "🇹🇷 TR | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -90,8 +90,8 @@
       "outbounds": [
         "🇹🇷 TR | VLESS | @netmellianti #1",
         "🇹🇷 TR | VLESS | @netmellianti #2",
-        "🇹🇷 TR | VLESS | @v2raych #1",
-        "🇹🇷 TR | VLESS | @vmesc #1"
+        "🇹🇷 TR | SS | @outline_ir #1",
+        "🇹🇷 TR | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -123,34 +123,20 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "tr1.ferape.shop",
-      "server_port": 57709,
-      "uuid": "9d96011a-8d7f-42e7-8d57-6f98e57d4b6c",
-      "packet_encoding": "xudp"
+      "tag": "🇹🇷 TR | SS | @outline_ir #1",
+      "type": "shadowsocks",
+      "server": "188.41.249.20",
+      "server_port": 1080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyWWZpNGNRM3o3enRzN0JPNC1ZOV9B",
+      "password": null
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @vmesc #1",
-      "type": "vless",
-      "server": "t.avrilon.us",
-      "server_port": 443,
-      "uuid": "e996abc7-cff3-4d9f-a9dc-0d717048a345",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "tag": "🇹🇷 TR | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "38.180.113.194",
+      "server_port": 8119,
+      "method": "YWVzLTI1Ni1nY206Y2RCSURWNDJEQ3duZklO",
+      "password": null
     }
   ],
   "route": {
