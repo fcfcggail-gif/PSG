@@ -91,7 +91,7 @@
         "auto",
         "direct",
         "🇨🇿 CZ | VMESS | @freev2rays #1",
-        "🇨🇿 CZ | SS | @outline_ir #1"
+        "🇨🇿 CZ | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +100,7 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇿 CZ | VMESS | @freev2rays #1",
-        "🇨🇿 CZ | SS | @outline_ir #1"
+        "🇨🇿 CZ | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -137,12 +137,21 @@
       }
     },
     {
-      "tag": "🇨🇿 CZ | SS | @outline_ir #1",
-      "type": "shadowsocks",
-      "server": "185.156.174.106",
-      "server_port": 1080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpYRjBrbHc3ODcwdlhuM3VRSXhlMTlR",
-      "password": null
+      "tag": "🇨🇿 CZ | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "sentinel.unlimitedprojects.fun",
+      "server_port": 443,
+      "uuid": "6fa1b8eb-56f4-4f41-97dc-e0185bcfc575",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
