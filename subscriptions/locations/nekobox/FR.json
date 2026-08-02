@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇷 FR | VLESS | @NamiraConfigs #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
@@ -90,7 +89,8 @@
         "🇫🇷 FR | VLESS | @v2rayvpnchannel #2",
         "🇫🇷 FR | VLESS | @vlessconfig #1",
         "🇫🇷 FR | VLESS | @vlessconfig #2",
-        "🇫🇷 FR | VLESS | @vmesskhodam #1"
+        "🇫🇷 FR | VLESS | @vmesskhodam #1",
+        "🇫🇷 FR | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇷 FR | VLESS | @NamiraConfigs #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
@@ -111,7 +110,8 @@
         "🇫🇷 FR | VLESS | @v2rayvpnchannel #2",
         "🇫🇷 FR | VLESS | @vlessconfig #1",
         "🇫🇷 FR | VLESS | @vlessconfig #2",
-        "🇫🇷 FR | VLESS | @vmesskhodam #1"
+        "🇫🇷 FR | VLESS | @vmesskhodam #1",
+        "🇫🇷 FR | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -125,14 +125,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "15.224.118.170",
-      "server_port": 22224,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇷 FR | VLESS | @merdesert #1",
@@ -264,6 +256,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "gr1.fifapes.monster",
+      "server_port": 8882,
+      "uuid": "eab915bc-d2df-73d1-47d0-6eb240497055",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

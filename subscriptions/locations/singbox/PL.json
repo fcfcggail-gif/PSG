@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇵🇱 PL | VLESS | @netfreedom0 #1",
-        "🇵🇱 PL | TROJAN | @v2raych #1"
+        "🇵🇱 PL | VLESS | @prrofile_purple #1",
+        "🇵🇱 PL | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇵🇱 PL | VLESS | @netfreedom0 #1",
-        "🇵🇱 PL | TROJAN | @v2raych #1"
+        "🇵🇱 PL | VLESS | @prrofile_purple #1",
+        "🇵🇱 PL | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -129,11 +131,12 @@
       }
     },
     {
-      "tag": "🇵🇱 PL | TROJAN | @v2raych #1",
-      "type": "trojan",
-      "server": "31.76.251.127.cdn-one.org",
+      "tag": "🇵🇱 PL | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "83.168.71.216",
       "server_port": 443,
-      "password": "581e14a5fcc14107b9326cc54f047891",
+      "uuid": "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -141,8 +144,21 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇵🇱 PL | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "168.222.49.82",
+      "server_port": 53356,
+      "method": "MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206RmIxK20rUkExcUQraHdYaEZ2dDloOFVQamszMjBaajVQZkZLejJwL3pHOD06cGNxQkNnK1N1d0NjQVp4QWFIaHdQMzl3UnNWTHZpdWFOZUNtUTBYbnBmQT0=",
+      "password": null
     }
   ],
   "route": {
