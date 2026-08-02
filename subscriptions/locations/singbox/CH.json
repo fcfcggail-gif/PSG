@@ -91,7 +91,9 @@
         "auto",
         "direct",
         "🇨🇭 CH | VLESS | @rez1vpn #1",
-        "🇨🇭 CH | VLESS | @vmesskhodam #1"
+        "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
+        "🇨🇭 CH | VLESS | @vmesskhodam #1",
+        "🇨🇭 CH | VLESS | @vmesskhodam #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +102,9 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇭 CH | VLESS | @rez1vpn #1",
-        "🇨🇭 CH | VLESS | @vmesskhodam #1"
+        "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
+        "🇨🇭 CH | VLESS | @vmesskhodam #1",
+        "🇨🇭 CH | VLESS | @vmesskhodam #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -129,7 +133,51 @@
       }
     },
     {
+      "tag": "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "channel.tradeip.store",
+      "server_port": 8443,
+      "uuid": "t.me.TradeIP",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇨🇭 CH | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "channel.tradeip.store",
+      "server_port": 8443,
+      "uuid": "t.me.TradeIP",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @vmesskhodam #2",
       "type": "vless",
       "server": "channel.tradeip.store",
       "server_port": 8443,

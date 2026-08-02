@@ -91,7 +91,7 @@
         "auto",
         "direct",
         "🇵🇱 PL | VLESS | @netfreedom0 #1",
-        "🇵🇱 PL | VLESS | @netmellianti #1"
+        "🇵🇱 PL | TROJAN | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +100,7 @@
       "interval": "10m",
       "outbounds": [
         "🇵🇱 PL | VLESS | @netfreedom0 #1",
-        "🇵🇱 PL | VLESS | @netmellianti #1"
+        "🇵🇱 PL | TROJAN | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -129,12 +129,11 @@
       }
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @netmellianti #1",
-      "type": "vless",
-      "server": "168.222.49.20",
-      "server_port": 2053,
-      "uuid": "ea3e24c1-6bc1-4a7a-9711-88f937f08bbb",
-      "packet_encoding": "xudp",
+      "tag": "🇵🇱 PL | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "31.76.251.127.cdn-one.org",
+      "server_port": 443,
+      "password": "581e14a5fcc14107b9326cc54f047891",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -142,11 +141,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }
