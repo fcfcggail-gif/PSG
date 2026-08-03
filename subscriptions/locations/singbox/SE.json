@@ -114,7 +114,9 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | TUIC | @vipv2rey #1"
+        "🇸🇪 SE | TUIC | @vipv2rey #1",
+        "🇸🇪 SE | VLESS | @vmesc #1",
+        "🇸🇪 SE | VLESS | @vmesc #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -146,7 +148,9 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | TUIC | @vipv2rey #1"
+        "🇸🇪 SE | TUIC | @vipv2rey #1",
+        "🇸🇪 SE | VLESS | @vmesc #1",
+        "🇸🇪 SE | VLESS | @vmesc #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -427,6 +431,36 @@
         "insecure": false,
         "alpn": null
       }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "192.142.23.30",
+      "server_port": 443,
+      "uuid": "bd92eda1-8b37-0002-91fb-dafe419590ea",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @vmesc #2",
+      "type": "vless",
+      "server": "194.87.30.92",
+      "server_port": 16739,
+      "uuid": "8c3578fe-cbaa-46eb-a20f-c834d65d9663",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

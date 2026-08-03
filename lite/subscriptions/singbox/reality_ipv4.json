@@ -101,10 +101,12 @@
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇷🇺 RU | VLESS | @v2ray_collector #1",
+        "🇹🇷 TR | VLESS | @v2raych #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
+        "🇸🇨 SC | VLESS | @vmesc #1",
         "🇸🇨 SC | VLESS | @vmesskhodam #1",
-        "🇺🇸 US | VLESS | @vpnowl #1"
+        "🇳🇱 NL | VLESS | @vpnowl #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -123,10 +125,12 @@
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇷🇺 RU | VLESS | @v2ray_collector #1",
+        "🇹🇷 TR | VLESS | @v2raych #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
+        "🇸🇨 SC | VLESS | @vmesc #1",
         "🇸🇨 SC | VLESS | @vmesskhodam #1",
-        "🇺🇸 US | VLESS | @vpnowl #1"
+        "🇳🇱 NL | VLESS | @vpnowl #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -357,6 +361,14 @@
       }
     },
     {
+      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "144.225.65.214",
+      "server_port": 49000,
+      "uuid": "arianet-vpnkurdnet-1",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇸🇬 SG | VLESS | @v2rayexpress #1",
       "type": "vless",
       "server": "5.223.42.211",
@@ -401,6 +413,28 @@
       }
     },
     {
+      "tag": "🇸🇨 SC | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "45.196.201.185",
+      "server_port": 443,
+      "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇸🇨 SC | VLESS | @vmesskhodam #1",
       "type": "vless",
       "server": "45.196.201.163",
@@ -423,11 +457,11 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @vpnowl #1",
+      "tag": "🇳🇱 NL | VLESS | @vpnowl #1",
       "type": "vless",
-      "server": "144.172.115.130",
+      "server": "107.189.21.7",
       "server_port": 443,
-      "uuid": "free-fff-aaa",
+      "uuid": "FREE-4-ALL",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -436,6 +470,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

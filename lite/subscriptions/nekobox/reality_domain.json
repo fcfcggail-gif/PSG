@@ -81,9 +81,10 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @bored_vpn #2",
+        "🇷🇺 RU | VLESS | @flyv2ray #1",
         "🇫🇷 FR | VLESS | @oonfig #1",
-        "🇩🇪 DE | VLESS | @red2ray #1",
-        "🇵🇱 PL | VLESS | @red2ray #1"
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇫🇷 FR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -95,9 +96,10 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @bored_vpn #2",
+        "🇷🇺 RU | VLESS | @flyv2ray #1",
         "🇫🇷 FR | VLESS | @oonfig #1",
-        "🇩🇪 DE | VLESS | @red2ray #1",
-        "🇵🇱 PL | VLESS | @red2ray #1"
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇫🇷 FR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -207,6 +209,28 @@
       }
     },
     {
+      "tag": "🇷🇺 RU | VLESS | @flyv2ray #1",
+      "type": "vless",
+      "server": "qq.utiltools.ru",
+      "server_port": 443,
+      "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇫🇷 FR | VLESS | @oonfig #1",
       "type": "vless",
       "server": "my.filpower.shop",
@@ -224,11 +248,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @red2ray #1",
+      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "pl1.levikogjgfdd.ir",
-      "server_port": 443,
-      "uuid": "6f98a077-004e-4b86-8b78-8d09308d3868",
+      "server": "static.247.23.224.46.clients.your-server.de",
+      "server_port": 8443,
+      "uuid": "b2a21714-fd64-461f-9364-49ea2ddc8b59",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -237,15 +261,20 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @red2ray #1",
+      "tag": "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "pl2.levikogjgfdd.ir",
-      "server_port": 443,
-      "uuid": "6a248b82-ad33-4a8f-8ef7-cdd0ac26c261",
+      "server": "areal5.greewebservices.ir",
+      "server_port": 6465,
+      "uuid": "5ed96588-c4ad-4ef5-af61-af178bf77f57",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
