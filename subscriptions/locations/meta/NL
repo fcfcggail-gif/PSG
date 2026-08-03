@@ -23,9 +23,12 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇳🇱 NL | VLESS | @free1_vpn #1", "server": "static.lotussec.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "14b48651-3738-4926-bc09-4c04e87ff80b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @qeshmserver #1", "server": "95.179.138.190", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-id-qeshmserver", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @v2rayngvpn_1 #1", "server": "46.8.229.199", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "59d08a71-f206-4ca3-9a42-8c56d3bfdc3c", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇱 NL | VLESS | @vmesskhodam #1", "server": "188.226.133.127", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "bdb694c1-fd18-4775-abee-5cf551db8e13", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇳🇱 NL | VLESS | @vpn_ioss #1", "server": "nl10.roscomsosal.de", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0f3965de-fd00-40cb-94a6-d4c81a9b9216", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇳🇱 NL | VLESS | @vpnowl #1", "server": "107.189.21.7", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "FREE-4-ALL", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +42,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇳🇱 NL | VLESS | @free1_vpn #1'
       - '🇳🇱 NL | VLESS | @qeshmserver #1'
       - '🇳🇱 NL | VLESS | @v2rayngvpn_1 #1'
       - '🇳🇱 NL | VLESS | @vmesskhodam #1'
+      - '🇳🇱 NL | VLESS | @vpn_ioss #1'
+      - '🇳🇱 NL | VLESS | @vpnowl #1'
 
   - name: 🌍 Global Media
     type: select

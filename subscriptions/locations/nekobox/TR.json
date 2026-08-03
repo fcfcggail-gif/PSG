@@ -77,10 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @NamiraConfigs #1",
         "🇹🇷 TR | SS | @free1_vpn #1",
         "🇹🇷 TR | VLESS | @netmellianti #1",
-        "🇹🇷 TR | VLESS | @netmellianti #2"
+        "🇹🇷 TR | VLESS | @netmellianti #2",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,10 +88,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @NamiraConfigs #1",
         "🇹🇷 TR | SS | @free1_vpn #1",
         "🇹🇷 TR | VLESS | @netmellianti #1",
-        "🇹🇷 TR | VLESS | @netmellianti #2"
+        "🇹🇷 TR | VLESS | @netmellianti #2",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -105,14 +105,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "tr2.soundfiy.ir",
-      "server_port": 61169,
-      "uuid": "ddfe43fe-7b67-4606-b0d4-4e5339abab5d",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇹🇷 TR | SS | @free1_vpn #1",
@@ -137,6 +129,28 @@
       "server_port": 52632,
       "uuid": "7f34b2d2-f06c-4c9d-8a40-40aab0f80976",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "45.141.148.75",
+      "server_port": 8000,
+      "uuid": "4aef3ccd-b048-4efa-bbd6-3b8f259e3dc5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
