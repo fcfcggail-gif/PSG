@@ -78,11 +78,11 @@
         "auto",
         "direct",
         "🇳🇱 NL | SS | @easy_free_vpn #1",
-        "🇳🇱 NL | VLESS | @free1_vpn #1",
+        "🇳🇱 NL | SS | @outline_ir #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
+        "🇳🇱 NL | VLESS | @red2ray #1",
         "🇳🇱 NL | VLESS | @v2rayngvpn_1 #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1",
-        "🇳🇱 NL | VLESS | @vpn_ioss #1",
         "🇳🇱 NL | VLESS | @vpnowl #1"
       ],
       "tag": "proxy",
@@ -92,11 +92,11 @@
       "interval": "10m",
       "outbounds": [
         "🇳🇱 NL | SS | @easy_free_vpn #1",
-        "🇳🇱 NL | VLESS | @free1_vpn #1",
+        "🇳🇱 NL | SS | @outline_ir #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
+        "🇳🇱 NL | VLESS | @red2ray #1",
         "🇳🇱 NL | VLESS | @v2rayngvpn_1 #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1",
-        "🇳🇱 NL | VLESS | @vpn_ioss #1",
         "🇳🇱 NL | VLESS | @vpnowl #1"
       ],
       "tag": "auto",
@@ -121,21 +121,12 @@
       "password": null
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @free1_vpn #1",
-      "type": "vless",
-      "server": "static.lotussec.com",
-      "server_port": 443,
-      "uuid": "14b48651-3738-4926-bc09-4c04e87ff80b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "tag": "🇳🇱 NL | SS | @outline_ir #1",
+      "type": "shadowsocks",
+      "server": "108.181.58.239",
+      "server_port": 8388,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDSm1UQ0N4N0x0dWQ=",
+      "password": null
     },
     {
       "tag": "🇳🇱 NL | VLESS | @qeshmserver #1",
@@ -151,6 +142,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "nl4.levikogjgfdd.ir",
+      "server_port": 40443,
+      "uuid": "69a74770-7152-4a27-bef0-2615ca16e1b1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -183,23 +196,6 @@
       "server_port": 2053,
       "uuid": "bdb694c1-fd18-4775-abee-5cf551db8e13",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @vpn_ioss #1",
-      "type": "vless",
-      "server": "nl10.roscomsosal.de",
-      "server_port": 443,
-      "uuid": "0f3965de-fd00-40cb-94a6-d4c81a9b9216",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @vpnowl #1",
