@@ -97,18 +97,19 @@
         "🇷🇺 RU | VLESS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @flyv2ray #2",
         "🇫🇮 FI | VLESS | @flyv2ray #1",
+        "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇫🇷 FR | VLESS | @oonfig #1",
         "🇺🇸 US | VLESS | @outline_ir #1",
-        "🇨🇭 CH | VLESS | @red2ray #1",
         "🇷🇺 RU | VLESS | @selinc #1",
         "🇷🇺 RU | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇺🇸 US | VLESS | @vmesc #1",
         "🇩🇪 DE | VLESS | @vmesskhodam #2",
-        "🇫🇮 FI | VLESS | @vmesskhodam #1"
+        "🇺🇸 US | VLESS | @vmesskhodam #1",
+        "🇷🇺 RU | VLESS | @vmesskhodam #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -123,18 +124,19 @@
         "🇷🇺 RU | VLESS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @flyv2ray #2",
         "🇫🇮 FI | VLESS | @flyv2ray #1",
+        "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇫🇷 FR | VLESS | @oonfig #1",
         "🇺🇸 US | VLESS | @outline_ir #1",
-        "🇨🇭 CH | VLESS | @red2ray #1",
         "🇷🇺 RU | VLESS | @selinc #1",
         "🇷🇺 RU | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇺🇸 US | VLESS | @vmesc #1",
         "🇩🇪 DE | VLESS | @vmesskhodam #2",
-        "🇫🇮 FI | VLESS | @vmesskhodam #1"
+        "🇺🇸 US | VLESS | @vmesskhodam #1",
+        "🇷🇺 RU | VLESS | @vmesskhodam #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -306,6 +308,28 @@
       }
     },
     {
+      "tag": "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1",
+      "type": "vless",
+      "server": "tg.riotvpn.eu",
+      "server_port": 443,
+      "uuid": "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇷🇺 RU | VLESS | @nofiltering2 #1",
       "type": "vless",
       "server": "qq.utiltools.ru",
@@ -389,14 +413,6 @@
       }
     },
     {
-      "tag": "🇨🇭 CH | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "dl12sw.cdn-ir-prime.shop",
-      "server_port": 2053,
-      "uuid": "4f985006-8cb0-cf98-2c37-51c111780604",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇷🇺 RU | VLESS | @selinc #1",
       "type": "vless",
       "server": "qq.utiltools.ru",
@@ -421,9 +437,9 @@
     {
       "tag": "🇷🇺 RU | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "code-sandbox.blog",
-      "server_port": 443,
-      "uuid": "06d44c57-8e1a-41f4-b9c4-65d35869e078",
+      "server": "kumpan-cdn.ru",
+      "server_port": 37667,
+      "uuid": "fde4bf10-efcf-4ce2-b1f8-a48edb7c118d",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -515,11 +531,33 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",
+      "tag": "🇺🇸 US | VLESS | @vmesskhodam #1",
       "type": "vless",
-      "server": "nod3.kaafserver.ir",
+      "server": "get2s.skystreamgame.com",
       "server_port": 8443,
-      "uuid": "f3d2dbde-f8c1-4fd1-a4ff-32c2fd476d65",
+      "uuid": "840336f4-2c42-4f97-9f0f-97f13642bc5a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @vmesskhodam #2",
+      "type": "vless",
+      "server": "qq.utiltools.ru",
+      "server_port": 443,
+      "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
