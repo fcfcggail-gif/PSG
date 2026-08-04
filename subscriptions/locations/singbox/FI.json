@@ -95,9 +95,9 @@
         "🇫🇮 FI | VLESS | @flyv2ray #1",
         "🇫🇮 FI | VLESS | @outline_ir #1",
         "🇫🇮 FI | VLESS | @outline_ir #2",
-        "🇫🇮 FI | VLESS | @red2ray #1",
-        "🇫🇮 FI | VLESS | @v2raych #1",
-        "🇫🇮 FI | VLESS | @v2raymelliii #1"
+        "🇫🇮 FI | VLESS | @v2raymelliii #1",
+        "🇫🇮 FI | VLESS | @v2raymelliii #2",
+        "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -110,9 +110,9 @@
         "🇫🇮 FI | VLESS | @flyv2ray #1",
         "🇫🇮 FI | VLESS | @outline_ir #1",
         "🇫🇮 FI | VLESS | @outline_ir #2",
-        "🇫🇮 FI | VLESS | @red2ray #1",
-        "🇫🇮 FI | VLESS | @v2raych #1",
-        "🇫🇮 FI | VLESS | @v2raymelliii #1"
+        "🇫🇮 FI | VLESS | @v2raymelliii #1",
+        "🇫🇮 FI | VLESS | @v2raymelliii #2",
+        "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -126,10 +126,19 @@
     {
       "tag": "🇫🇮 FI | VLESS | @NamiraConfigs #1",
       "type": "vless",
-      "server": "mahdipok.paydar.site",
-      "server_port": 80,
-      "uuid": "116f860d-c67a-4443-b478-18e11d193592",
-      "packet_encoding": "xudp"
+      "server": "iran-tehran.co.uk",
+      "server_port": 443,
+      "uuid": "509c0aa6-f98b-4f57-b73c-c707129f556e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇫🇮 FI | SS | @flyv2ray #1",
@@ -178,15 +187,23 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
+      "tag": "🇫🇮 FI | VLESS | @v2raymelliii #1",
       "type": "vless",
-      "server": "62.238.53.197",
+      "server": "62.238.51.180",
       "server_port": 1234,
-      "uuid": "8b0c48db-c228-47d9-b634-6ea6edf81e22",
+      "uuid": "a481265c-a4d8-4d1a-9ae1-48eb3f7fccb4",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
+      "tag": "🇫🇮 FI | VLESS | @v2raymelliii #2",
+      "type": "vless",
+      "server": "mahdipok.paydar.site",
+      "server_port": 80,
+      "uuid": "c85a6219-5105-4786-bfb4-92f57f8c32e0",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",
       "type": "vless",
       "server": "nod3.kaafserver.ir",
       "server_port": 8443,
@@ -206,14 +223,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2raymelliii #1",
-      "type": "vless",
-      "server": "62.238.51.180",
-      "server_port": 1234,
-      "uuid": "a481265c-a4d8-4d1a-9ae1-48eb3f7fccb4",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {
