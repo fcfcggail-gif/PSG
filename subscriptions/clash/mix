@@ -23,8 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇩🇪 DE | VMESS | @NamiraConfigs #1", "server": "82.198.246.97", "port": 180, "type": "vmess", "skip-cert-verify": true, "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
-  - {"name": "🇩🇪 DE | VMESS | @NamiraConfigs #2", "server": "195.133.193.18", "port": 27726, "type": "vmess", "skip-cert-verify": true, "uuid": "98e2be3c-8f84-4b85-996b-b68dcc2fbcb6", "alterId": 0, "cipher": "chacha20-poly1305", "network": "tcp", "tls": false}
+  - {"name": "🇩🇪 DE | VMESS | @NamiraConfigs #1", "server": "195.133.193.18", "port": 27726, "type": "vmess", "skip-cert-verify": true, "uuid": "98e2be3c-8f84-4b85-996b-b68dcc2fbcb6", "alterId": 0, "cipher": "chacha20-poly1305", "network": "tcp", "tls": false}
+  - {"name": "🇩🇪 DE | VMESS | @NamiraConfigs #2", "server": "82.198.246.97", "port": 180, "type": "vmess", "skip-cert-verify": true, "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇩🇪 DE | VMESS | @NamiraConfigs #3", "server": "82.198.246.37", "port": 180, "type": "vmess", "skip-cert-verify": true, "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇩🇪 DE | TROJAN | @father_vpn #1", "server": "91.233.8.25", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "I1vtf6pjYsAu-nFnraWAMjKTy90AHitdAz"}
   - {"name": "🇽🇽 XX | TROJAN | @filtershekan_channel #1", "server": "104.16.174.117", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
   - {"name": "🇽🇽 XX | TROJAN | @filtershekan_channel #2", "server": "104.19.229.21", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
@@ -69,6 +70,8 @@ proxies:
   - {"name": "🇽🇽 XX | TROJAN | @teamvpnpro #2", "server": "chatbuzzteambhm.chatbuzzt7150.workers.dev", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "c7f9b8f0-bfdb-11ee-a15c-1239d0255272"}
   - {"name": "🇺🇸 US | VMESS | @v2ray4win #1", "server": "45.85.118.88", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "ee30d3ff-da14-4ea8-bcd2-02e8ee3667de", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/aidapp.lifevws", "headers": {"Host": "hstr1675520106270.aidapp.life"}}}
   - {"name": "🇺🇸 US | VMESS | @v2ray4win #2", "server": "cf.sudoer.net", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "c11357eb-a34e-5acb-a309-f8af8082855c", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/api05", "headers": {"Host": "scherehtzflk01.schere.net"}}}
+  - {"name": "🇽🇽 XX | TROJAN | @v2ray_free_conf #1", "server": "162.159.38.119", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
+  - {"name": "🇸🇨 SC | TROJAN | @v2raych #1", "server": "45.130.125.75", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
   - {"name": "🇮🇷 IR | VMESS | @v2rayng3 #1", "server": "client.cloudafra.top", "port": 4356, "type": "vmess", "skip-cert-verify": true, "uuid": "0c9dc39b-47d9-47d8-8dab-c3cce76e3099", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇺🇸 US | TROJAN | @v2rayng3 #1", "server": "165.215.250.14", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
   - {"name": "🇽🇽 XX | VMESS | @v2rayng3 #1", "server": "104.17.121.43", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "e9947b42-27ed-401e-b75e-c9ebd357c0f3", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "omkuzygiv.com"}}}
@@ -96,6 +99,7 @@ proxy-groups:
     proxies: 
       - '🇩🇪 DE | VMESS | @NamiraConfigs #1'
       - '🇩🇪 DE | VMESS | @NamiraConfigs #2'
+      - '🇩🇪 DE | VMESS | @NamiraConfigs #3'
       - '🇩🇪 DE | TROJAN | @father_vpn #1'
       - '🇽🇽 XX | TROJAN | @filtershekan_channel #1'
       - '🇽🇽 XX | TROJAN | @filtershekan_channel #2'
@@ -140,6 +144,8 @@ proxy-groups:
       - '🇽🇽 XX | TROJAN | @teamvpnpro #2'
       - '🇺🇸 US | VMESS | @v2ray4win #1'
       - '🇺🇸 US | VMESS | @v2ray4win #2'
+      - '🇽🇽 XX | TROJAN | @v2ray_free_conf #1'
+      - '🇸🇨 SC | TROJAN | @v2raych #1'
       - '🇮🇷 IR | VMESS | @v2rayng3 #1'
       - '🇺🇸 US | TROJAN | @v2rayng3 #1'
       - '🇽🇽 XX | VMESS | @v2rayng3 #1'

@@ -90,11 +90,12 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇷 FR | VLESS | @merdesert #1",
+        "🇫🇷 FR | VLESS | @hope_net #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mpproxy #1",
         "🇫🇷 FR | VLESS | @oonfig #1",
+        "🇫🇷 FR | VLESS | @orange_vpns #1",
         "🇫🇷 FR | SS | @v2ray_collector #1",
         "🇫🇷 FR | VLESS | @vmesc #1"
       ],
@@ -104,11 +105,12 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇷 FR | VLESS | @merdesert #1",
+        "🇫🇷 FR | VLESS | @hope_net #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mpproxy #1",
         "🇫🇷 FR | VLESS | @oonfig #1",
+        "🇫🇷 FR | VLESS | @orange_vpns #1",
         "🇫🇷 FR | SS | @v2ray_collector #1",
         "🇫🇷 FR | VLESS | @vmesc #1"
       ],
@@ -122,12 +124,21 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @merdesert #1",
+      "tag": "🇫🇷 FR | VLESS | @hope_net #1",
       "type": "vless",
-      "server": "51.75.30.8",
-      "server_port": 80,
-      "uuid": "1949f066-bcb0-49be-88e9-74abd940f80e",
-      "packet_encoding": "xudp"
+      "server": "217.163.76.55",
+      "server_port": 443,
+      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇫🇷 FR | VLESS | @minovpnch #1",
@@ -178,6 +189,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "162.19.228.119",
+      "server_port": 80,
+      "uuid": "dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇷 FR | SS | @v2ray_collector #1",
