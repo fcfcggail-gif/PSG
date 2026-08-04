@@ -86,12 +86,12 @@
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇷🇺 RU | VLESS | @nofiltering2 #3",
+        "🇷🇺 RU | VLESS | @nofiltering2 #4",
         "🇷🇺 RU | VLESS | @outline_ir #1",
         "🇷🇺 RU | VLESS | @v2ray_collector #1",
         "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
         "🇷🇺 RU | VLESS | @v2raymelliii #1",
-        "🇷🇺 RU | VLESS | @v2raytg #1",
-        "🇷🇺 RU | SS | @vpn_ioss #1"
+        "🇷🇺 RU | VLESS | @v2raytg #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -108,12 +108,12 @@
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇷🇺 RU | VLESS | @nofiltering2 #3",
+        "🇷🇺 RU | VLESS | @nofiltering2 #4",
         "🇷🇺 RU | VLESS | @outline_ir #1",
         "🇷🇺 RU | VLESS | @v2ray_collector #1",
         "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
         "🇷🇺 RU | VLESS | @v2raymelliii #1",
-        "🇷🇺 RU | VLESS | @v2raytg #1",
-        "🇷🇺 RU | SS | @vpn_ioss #1"
+        "🇷🇺 RU | VLESS | @v2raytg #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -318,6 +318,28 @@
       }
     },
     {
+      "tag": "🇷🇺 RU | VLESS | @nofiltering2 #4",
+      "type": "vless",
+      "server": "78.159.250.214",
+      "server_port": 443,
+      "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇷🇺 RU | VLESS | @outline_ir #1",
       "type": "vless",
       "server": "78.159.250.214",
@@ -364,11 +386,24 @@
     {
       "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "status.netraidly.ru",
-      "server_port": 40443,
-      "uuid": "28d0edc6-93c9-4465-bac9-720274d8b8c4",
+      "server": "qq.utiltools.ru",
+      "server_port": 443,
+      "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇷🇺 RU | VLESS | @v2raymelliii #1",
@@ -413,14 +448,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇷🇺 RU | SS | @vpn_ioss #1",
-      "type": "shadowsocks",
-      "server": "195.58.48.19",
-      "server_port": 10910,
-      "method": "YXV0bzo=",
-      "password": null
     }
   ],
   "route": {
