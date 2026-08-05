@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | SS | @free1_vpn #1",
+        "🇹🇷 TR | VLESS | @free1_vpn #1",
+        "🇹🇷 TR | VLESS | @mtpv2ray #1",
         "🇹🇷 TR | VLESS | @netmellianti #1"
       ],
       "tag": "proxy",
@@ -99,7 +100,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | SS | @free1_vpn #1",
+        "🇹🇷 TR | VLESS | @free1_vpn #1",
+        "🇹🇷 TR | VLESS | @mtpv2ray #1",
         "🇹🇷 TR | VLESS | @netmellianti #1"
       ],
       "tag": "auto",
@@ -112,12 +114,48 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | SS | @free1_vpn #1",
-      "type": "shadowsocks",
-      "server": "188.41.249.20",
-      "server_port": 1080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpyWWZpNGNRM3o3enRzN0JPNC1ZOV9B",
-      "password": null
+      "tag": "🇹🇷 TR | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "62.133.63.202",
+      "server_port": 13868,
+      "uuid": "06d44c57-8e1a-41f4-b9c4-65d35869e078",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @mtpv2ray #1",
+      "type": "vless",
+      "server": "45.92.219.204",
+      "server_port": 8088,
+      "uuid": "06f86f1b-1fa0-437e-9e5d-8f8cf27bdf96",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇹🇷 TR | VLESS | @netmellianti #1",

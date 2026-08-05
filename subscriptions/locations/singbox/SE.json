@@ -97,7 +97,6 @@
         "🇸🇪 SE | VLESS | @free_vip3 #4",
         "🇸🇪 SE | VLESS | @free_vip3 #5",
         "🇸🇪 SE | VLESS | @free_vip3 #6",
-        "🇸🇪 SE | VLESS | @hope_net #1",
         "🇸🇪 SE | VLESS | @kurd_v2ray #1",
         "🇸🇪 SE | VLESS | @kurd_v2ray #2",
         "🇸🇪 SE | VLESS | @kurd_v2ray #3",
@@ -115,7 +114,10 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | TUIC | @vipv2rey #1"
+        "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
+        "🇸🇪 SE | VLESS | @v2ray_free_conf #2",
+        "🇸🇪 SE | TUIC | @vipv2rey #1",
+        "🇸🇪 SE | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -130,7 +132,6 @@
         "🇸🇪 SE | VLESS | @free_vip3 #4",
         "🇸🇪 SE | VLESS | @free_vip3 #5",
         "🇸🇪 SE | VLESS | @free_vip3 #6",
-        "🇸🇪 SE | VLESS | @hope_net #1",
         "🇸🇪 SE | VLESS | @kurd_v2ray #1",
         "🇸🇪 SE | VLESS | @kurd_v2ray #2",
         "🇸🇪 SE | VLESS | @kurd_v2ray #3",
@@ -148,7 +149,10 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | TUIC | @vipv2rey #1"
+        "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
+        "🇸🇪 SE | VLESS | @v2ray_free_conf #2",
+        "🇸🇪 SE | TUIC | @vipv2rey #1",
+        "🇸🇪 SE | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -256,14 +260,6 @@
           "Host": ""
         }
       }
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @hope_net #1",
-      "type": "vless",
-      "server": "185.146.173.58",
-      "server_port": 8080,
-      "uuid": "d617f9de-8905-478d-b30c-f4e5db5b3abc",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇸🇪 SE | VLESS | @kurd_v2ray #1",
@@ -423,6 +419,45 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "192.71.82.2",
+      "server_port": 443,
+      "uuid": "a5c05c1e-aa68-443f-8598-09800244bd4b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "admin.kermanshahi.org",
+      "server_port": 1000,
+      "uuid": "6f436a44-f703-93da-7e45-615824a39d3b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇸🇪 SE | TUIC | @vipv2rey #1",
       "type": "tuic",
       "server": "70.34.197.98",
@@ -436,6 +471,28 @@
         "server_name": "",
         "insecure": false,
         "alpn": null
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "192.142.23.30",
+      "server_port": 443,
+      "uuid": "bd92eda1-8b37-0002-91fb-dafe419590ea",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
       }
     }
   ],

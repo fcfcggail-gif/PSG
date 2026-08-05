@@ -90,10 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | SS | @flyv2ray #1",
         "🇫🇮 FI | VLESS | @flyv2ray #1",
-        "🇫🇮 FI | VLESS | @outline_ir #1",
-        "🇫🇮 FI | VLESS | @outline_ir #2"
+        "🇫🇮 FI | VLESS | @v2raymelliii #1",
+        "🇫🇮 FI | VLESS | @v2raymelliii #2",
+        "🇫🇮 FI | SS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,10 +101,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | SS | @flyv2ray #1",
         "🇫🇮 FI | VLESS | @flyv2ray #1",
-        "🇫🇮 FI | VLESS | @outline_ir #1",
-        "🇫🇮 FI | VLESS | @outline_ir #2"
+        "🇫🇮 FI | VLESS | @v2raymelliii #1",
+        "🇫🇮 FI | VLESS | @v2raymelliii #2",
+        "🇫🇮 FI | SS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,14 +114,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇫🇮 FI | SS | @flyv2ray #1",
-      "type": "shadowsocks",
-      "server": "31.76.30.79",
-      "server_port": 10808,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUbVhTcGNSQmJodkhEZzY2Ym8ydzg5YlRveFFzYk1vYQ==",
-      "password": null
     },
     {
       "tag": "🇫🇮 FI | VLESS | @flyv2ray #1",
@@ -146,20 +138,28 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @outline_ir #1",
+      "tag": "🇫🇮 FI | VLESS | @v2raymelliii #1",
       "type": "vless",
-      "server": "62.238.63.51",
-      "server_port": 1234,
-      "uuid": "cf546c96-ed5e-46cc-b080-1cacf1770a5c",
+      "server": "91.108.241.199",
+      "server_port": 2021,
+      "uuid": "dc2930b0-187c-468f-8b1c-63ad1676083b",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @outline_ir #2",
+      "tag": "🇫🇮 FI | VLESS | @v2raymelliii #2",
       "type": "vless",
-      "server": "62.238.55.96",
-      "server_port": 1234,
-      "uuid": "5de3f60c-7cc2-4f66-9177-706a2693dc19",
+      "server": "vip.msdjoebdkddgu.belamona.ir",
+      "server_port": 2021,
+      "uuid": "8a36c7f8-d7dd-4d10-a300-cce11b591b1b",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | SS | @vmesskhodam #1",
+      "type": "shadowsocks",
+      "server": "31.76.30.79",
+      "server_port": 10808,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUbVhTcGNSQmJodkhEZzY2Ym8ydzg5YlRveFFzYk1vYQ==",
+      "password": null
     }
   ],
   "route": {
