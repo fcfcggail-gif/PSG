@@ -91,6 +91,8 @@
         "auto",
         "direct",
         "🇸🇪 SE | VLESS | @deli_servers #1",
+        "🇸🇪 SE | VLESS | @evay_vpn #1",
+        "🇸🇪 SE | VLESS | @evay_vpn #2",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
         "🇸🇪 SE | VLESS | @free_vip3 #3",
@@ -114,8 +116,6 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
-        "🇸🇪 SE | VLESS | @v2ray_free_conf #2",
         "🇸🇪 SE | TUIC | @vipv2rey #1",
         "🇸🇪 SE | VLESS | @vmesc #1"
       ],
@@ -126,6 +126,8 @@
       "interval": "10m",
       "outbounds": [
         "🇸🇪 SE | VLESS | @deli_servers #1",
+        "🇸🇪 SE | VLESS | @evay_vpn #1",
+        "🇸🇪 SE | VLESS | @evay_vpn #2",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
         "🇸🇪 SE | VLESS | @free_vip3 #3",
@@ -149,8 +151,6 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
-        "🇸🇪 SE | VLESS | @v2ray_free_conf #2",
         "🇸🇪 SE | TUIC | @vipv2rey #1",
         "🇸🇪 SE | VLESS | @vmesc #1"
       ],
@@ -169,6 +169,22 @@
       "server": "185.146.173.59",
       "server_port": 80,
       "uuid": "telegram-deli-servers",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @evay_vpn #1",
+      "type": "vless",
+      "server": "s1.esantion.info",
+      "server_port": 24206,
+      "uuid": "b90bc52c-d95b-49d2-8061-598ddb44e288",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @evay_vpn #2",
+      "type": "vless",
+      "server": "s1.esantion.info",
+      "server_port": 24206,
+      "uuid": "9913a211-19e0-4c7f-b813-841d30d28168",
       "packet_encoding": "xudp"
     },
     {
@@ -417,45 +433,6 @@
       "server_port": 80,
       "uuid": "telegram-id-ArV2ray",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "192.71.82.2",
-      "server_port": 443,
-      "uuid": "a5c05c1e-aa68-443f-8598-09800244bd4b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @v2ray_free_conf #2",
-      "type": "vless",
-      "server": "admin.kermanshahi.org",
-      "server_port": 1000,
-      "uuid": "6f436a44-f703-93da-7e45-615824a39d3b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇸🇪 SE | TUIC | @vipv2rey #1",
