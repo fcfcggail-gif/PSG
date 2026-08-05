@@ -23,8 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇳🇱 NL | VLESS | @hope_net #1", "server": "45.131.208.37", "port": 8880, "type": "vless", "skip-cert-verify": true, "uuid": "82fdc77c-5def-4930-89a6-afb5cc609d4b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @qeshmserver #1", "server": "95.179.138.190", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "telegram-id-qeshmserver", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇳🇱 NL | VLESS | @v2ray_free_conf #1", "server": "89.105.197.203", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "631ee34f-4faf-4ad7-b49d-e6f50403cf0e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇳🇱 NL | VLESS | @v2ray_free_conf #1", "server": "89.110.120.140", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "c7e9c591-2764-423a-afca-efbd010fd396", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇳🇱 NL | VLESS | @v2raych #1", "server": "nl1.app-sync-data.space", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "5c183e56-0f02-421e-a334-2fae45555395", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇳🇱 NL | VLESS | @v2raymelliii #1", "server": "static.lotussec.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "14b48651-3738-4926-bc09-4c04e87ff80b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @v2rayngvpn_1 #1", "server": "46.8.229.199", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "59d08a71-f206-4ca3-9a42-8c56d3bfdc3c", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇱 NL | VLESS | @vpnowl #1", "server": "107.189.21.7", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "FREE-4-ALL", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
@@ -40,8 +43,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇳🇱 NL | VLESS | @hope_net #1'
       - '🇳🇱 NL | VLESS | @qeshmserver #1'
       - '🇳🇱 NL | VLESS | @v2ray_free_conf #1'
+      - '🇳🇱 NL | VLESS | @v2raych #1'
+      - '🇳🇱 NL | VLESS | @v2raymelliii #1'
       - '🇳🇱 NL | VLESS | @v2rayngvpn_1 #1'
       - '🇳🇱 NL | VLESS | @vpnowl #1'
 
