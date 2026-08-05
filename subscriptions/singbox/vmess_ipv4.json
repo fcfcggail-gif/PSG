@@ -95,14 +95,14 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VMESS | @NamiraConfigs #1",
         "🇩🇪 DE | VMESS | @NamiraConfigs #2",
-        "🇩🇪 DE | VMESS | @NamiraConfigs #3",
         "🇽🇽 XX | VMESS | @frev2rayng #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1"
+        "🇽🇽 XX | VMESS | @proxy48 #1",
+        "🇺🇸 US | VMESS | @red2ray #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -115,14 +115,14 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VMESS | @NamiraConfigs #1",
         "🇩🇪 DE | VMESS | @NamiraConfigs #2",
-        "🇩🇪 DE | VMESS | @NamiraConfigs #3",
         "🇽🇽 XX | VMESS | @frev2rayng #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1"
+        "🇽🇽 XX | VMESS | @proxy48 #1",
+        "🇺🇸 US | VMESS | @red2ray #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -208,15 +208,6 @@
     {
       "tag": "🇩🇪 DE | VMESS | @NamiraConfigs #1",
       "type": "vmess",
-      "server": "195.133.193.18",
-      "server_port": 27726,
-      "uuid": "98e2be3c-8f84-4b85-996b-b68dcc2fbcb6",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "tag": "🇩🇪 DE | VMESS | @NamiraConfigs #2",
-      "type": "vmess",
       "server": "82.198.246.97",
       "server_port": 180,
       "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
@@ -224,11 +215,11 @@
       "alter_id": 0
     },
     {
-      "tag": "🇩🇪 DE | VMESS | @NamiraConfigs #3",
+      "tag": "🇩🇪 DE | VMESS | @NamiraConfigs #2",
       "type": "vmess",
-      "server": "82.198.246.37",
-      "server_port": 180,
-      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "server": "195.133.193.18",
+      "server_port": 27726,
+      "uuid": "98e2be3c-8f84-4b85-996b-b68dcc2fbcb6",
       "security": "auto",
       "alter_id": 0
     },
@@ -369,6 +360,24 @@
       "transport": {
         "type": "grpc",
         "service_name": "WgCmp8p80KDzo64uHE"
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @red2ray #2",
+      "type": "vmess",
+      "server": "165.140.216.141",
+      "server_port": 443,
+      "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     }
   ],
