@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇪 EE | VLESS | @outline_ir #1"
+        "🇪🇪 EE | VLESS | @outline_ir #1",
+        "🇪🇪 EE | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇪 EE | VLESS | @outline_ir #1"
+        "🇪🇪 EE | VLESS | @outline_ir #1",
+        "🇪🇪 EE | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -115,6 +117,28 @@
       "server": "185.215.184.31",
       "server_port": 8443,
       "uuid": "631ee34f-4faf-4ad7-b49d-e6f50403cf0e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "89.125.13.67",
+      "server_port": 8443,
+      "uuid": "2181d0c8-448a-4f75-b848-1718029baef9",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
