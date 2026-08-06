@@ -91,7 +91,7 @@
         "auto",
         "direct",
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
-        "🇸🇬 SG | VLESS | @red2ray #1",
+        "🇸🇬 SG | TROJAN | @v2raych #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1"
       ],
       "tag": "proxy",
@@ -101,7 +101,7 @@
       "interval": "10m",
       "outbounds": [
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
-        "🇸🇬 SG | VLESS | @red2ray #1",
+        "🇸🇬 SG | TROJAN | @v2raych #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1"
       ],
       "tag": "auto",
@@ -138,12 +138,20 @@
       }
     },
     {
-      "tag": "🇸🇬 SG | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "54.254.145.25",
-      "server_port": 6768,
-      "uuid": "edd5f4a0-19dd-4017-8d67-03482fd6472a",
-      "packet_encoding": "xudp"
+      "tag": "🇸🇬 SG | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "tidy-gelding.rooster465.autos",
+      "server_port": 443,
+      "password": "ND91608427",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇸🇬 SG | VLESS | @v2rayexpress #1",

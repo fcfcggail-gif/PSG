@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇬🇧 GB | TROJAN | @outlinereleasedkey #1", "server": "104.248.161.136", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "521314"}
-  - {"name": "🇬🇧 GB | VLESS | @red2ray #1", "server": "165.232.108.151", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "d006fdc7-9aed-4763-bc40-e45aa7c54658", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VLESS | @v2raych #1", "server": "91.193.58.217", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "a1de0630-5786-48a0-84f6-dc6f2de10d6d", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "/", "headers": {"Host": "91.193.58.217"}}}
   - {"name": "🇬🇧 GB | VLESS | @v2rayopen #1", "server": "82.39.171.148", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -39,8 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇬🇧 GB | TROJAN | @outlinereleasedkey #1'
-      - '🇬🇧 GB | VLESS | @red2ray #1'
+      - '🇬🇧 GB | VLESS | @v2raych #1'
       - '🇬🇧 GB | VLESS | @v2rayopen #1'
 
   - name: 🌍 Global Media
