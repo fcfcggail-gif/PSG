@@ -79,7 +79,7 @@
         "direct",
         "🇹🇷 TR | VLESS | @bored_vpn #1",
         "🇹🇷 TR | VLESS | @free1_vpn #1",
-        "🇹🇷 TR | VLESS | @netmellianti #1"
+        "🇹🇷 TR | VLESS | @free1_vpn #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,7 +89,7 @@
       "outbounds": [
         "🇹🇷 TR | VLESS | @bored_vpn #1",
         "🇹🇷 TR | VLESS | @free1_vpn #1",
-        "🇹🇷 TR | VLESS | @netmellianti #1"
+        "🇹🇷 TR | VLESS | @free1_vpn #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -149,12 +149,26 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @netmellianti #1",
+      "tag": "🇹🇷 TR | VLESS | @free1_vpn #2",
       "type": "vless",
-      "server": "newtr.karmatel.ir",
-      "server_port": 20727,
-      "uuid": "bc903fe3-865f-4f2e-87f9-24c4b58854de",
-      "packet_encoding": "xudp"
+      "server": "45.92.219.204",
+      "server_port": 8088,
+      "uuid": "06f86f1b-1fa0-437e-9e5d-8f8cf27bdf96",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

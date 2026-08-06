@@ -90,10 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @flyv2ray #1",
+        "🇫🇮 FI | VLESS | @red2ray #1",
+        "🇫🇮 FI | VLESS | @red2ray #2",
         "🇫🇮 FI | VLESS | @v2raymelliii #1",
-        "🇫🇮 FI | VLESS | @v2raymelliii #2",
-        "🇫🇮 FI | SS | @vmesskhodam #1"
+        "🇫🇮 FI | VLESS | @v2raymelliii #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,10 +101,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @flyv2ray #1",
+        "🇫🇮 FI | VLESS | @red2ray #1",
+        "🇫🇮 FI | VLESS | @red2ray #2",
         "🇫🇮 FI | VLESS | @v2raymelliii #1",
-        "🇫🇮 FI | VLESS | @v2raymelliii #2",
-        "🇫🇮 FI | SS | @vmesskhodam #1"
+        "🇫🇮 FI | VLESS | @v2raymelliii #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,11 +116,33 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @flyv2ray #1",
+      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "m.telewebion.ir.varzesh3.com.de",
+      "server": "node15.mxvpn.dev",
       "server_port": 443,
-      "uuid": "e9085087-c930-463c-830f-ca78f5cc4755",
+      "uuid": "564082ff-cf3c-48db-9e10-8ad2312847b4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @red2ray #2",
+      "type": "vless",
+      "server": "node16.mxvpn.dev",
+      "server_port": 443,
+      "uuid": "564082ff-cf3c-48db-9e10-8ad2312847b4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -152,14 +174,6 @@
       "server_port": 2021,
       "uuid": "8a36c7f8-d7dd-4d10-a300-cce11b591b1b",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇮 FI | SS | @vmesskhodam #1",
-      "type": "shadowsocks",
-      "server": "31.76.30.79",
-      "server_port": 10808,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUbVhTcGNSQmJodkhEZzY2Ym8ydzg5YlRveFFzYk1vYQ==",
-      "password": null
     }
   ],
   "route": {
