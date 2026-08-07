@@ -23,7 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇨🇭 CH | VLESS | @red2ray #1", "server": "138.124.244.77", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "8787dd0a-095a-414e-804f-a7d16a1ae166", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇨🇭 CH | VLESS | @rez1vpn #1", "server": "185.18.250.252", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "f77299ea-e13d-417d-8cdc-ce5566dfc94b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇨🇭 CH | VLESS | @v2raych #1", "server": "sosis.horlutr.ir", "port": 11458, "type": "vless", "skip-cert-verify": true, "uuid": "6dde1138-4f6d-4202-9c40-a4bed38c1121", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇨🇭 CH | VLESS | @red2ray #1'
       - '🇨🇭 CH | VLESS | @rez1vpn #1'
+      - '🇨🇭 CH | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

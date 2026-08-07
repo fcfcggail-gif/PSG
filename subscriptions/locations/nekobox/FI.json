@@ -77,10 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @red2ray #1",
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
         "🇫🇮 FI | VLESS | @v2raymelliii #1",
-        "🇫🇮 FI | VLESS | @v2raymelliii #2"
+        "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,10 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @red2ray #1",
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
         "🇫🇮 FI | VLESS | @v2raymelliii #1",
-        "🇫🇮 FI | VLESS | @v2raymelliii #2"
+        "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -107,54 +103,34 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "193.29.224.185",
-      "server_port": 8443,
-      "uuid": "8787dd0a-095a-414e-804f-a7d16a1ae166",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "vip.fnlan.mnb.viramiq.ir",
-      "server_port": 443,
-      "uuid": "727fea7a-67d7-4781-9662-661ae14ac949",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇫🇮 FI | VLESS | @v2raymelliii #1",
-      "type": "vless",
-      "server": "91.108.241.199",
-      "server_port": 2021,
-      "uuid": "dc2930b0-187c-468f-8b1c-63ad1676083b",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2raymelliii #2",
       "type": "vless",
       "server": "vip.msdjoebdkddgu.belamona.ir",
       "server_port": 2021,
       "uuid": "8a36c7f8-d7dd-4d10-a300-cce11b591b1b",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "fin.irgonde.ir",
+      "server_port": 443,
+      "uuid": "d840e1ca-5432-425a-40e6-4f8791b6474d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
