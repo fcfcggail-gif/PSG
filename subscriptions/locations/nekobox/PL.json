@@ -78,7 +78,10 @@
         "auto",
         "direct",
         "🇵🇱 PL | VLESS | @bored_vpn #1",
-        "🇵🇱 PL | VLESS | @prrofile_purple #1"
+        "🇵🇱 PL | VLESS | @prrofile_purple #1",
+        "🇵🇱 PL | VLESS | @prrofile_purple #2",
+        "🇵🇱 PL | VLESS | @red2ray #1",
+        "🇵🇱 PL | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +90,10 @@
       "interval": "10m",
       "outbounds": [
         "🇵🇱 PL | VLESS | @bored_vpn #1",
-        "🇵🇱 PL | VLESS | @prrofile_purple #1"
+        "🇵🇱 PL | VLESS | @prrofile_purple #1",
+        "🇵🇱 PL | VLESS | @prrofile_purple #2",
+        "🇵🇱 PL | VLESS | @red2ray #1",
+        "🇵🇱 PL | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -126,6 +132,67 @@
     },
     {
       "tag": "🇵🇱 PL | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "83.168.71.216",
+      "server_port": 443,
+      "uuid": "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @prrofile_purple #2",
+      "type": "vless",
+      "server": "alapo.sannest.ir",
+      "server_port": 443,
+      "uuid": "1d798021-6b6e-4bff-8e8c-b7efc51d51b9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "144.31.2.48",
+      "server_port": 443,
+      "uuid": "64d997dd-fa2d-450b-b736-beada89ed9aa",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @vmesc #1",
       "type": "vless",
       "server": "83.168.71.216",
       "server_port": 443,
