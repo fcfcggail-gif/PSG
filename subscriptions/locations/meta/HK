@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇭🇰 HK | TROJAN | @v2ray_collector #1", "server": "18.163.180.201", "port": 6357, "type": "trojan", "skip-cert-verify": false, "password": "d1960ba9f0f6353353994fa844cf817b"}
+  - {"name": "🇭🇰 HK | VLESS | @v2ray_free_conf #1", "server": "45.144.174.171", "port": 40149, "type": "vless", "skip-cert-verify": true, "uuid": "2af30aff-de7a-44b9-b929-158081b4f3e6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇭🇰 HK | VLESS | @vpn_ioss #1", "server": "182.16.61.3", "port": 45647, "type": "vless", "skip-cert-verify": true, "uuid": "431fe973-a43a-4fac-bf83-2a772e0d0625", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -39,6 +40,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇭🇰 HK | TROJAN | @v2ray_collector #1'
+      - '🇭🇰 HK | VLESS | @v2ray_free_conf #1'
       - '🇭🇰 HK | VLESS | @vpn_ioss #1'
 
   - name: 🌍 Global Media
