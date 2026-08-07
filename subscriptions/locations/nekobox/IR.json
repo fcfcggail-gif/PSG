@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇷 IR | VLESS | @NamiraConfigs #1",
         "🇮🇷 IR | VLESS | @ai_duet #1",
         "🇮🇷 IR | VLESS | @bored_vpn #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
@@ -91,10 +90,12 @@
         "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | VLESS | @mpproxy #1",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
+        "🇮🇷 IR | VLESS | @orange_vpns #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇮🇷 IR | VMESS | @v2rayng3 #1",
+        "🇮🇷 IR | SS | @v2rayng3 #1",
         "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #2"
@@ -105,7 +106,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇷 IR | VLESS | @NamiraConfigs #1",
         "🇮🇷 IR | VLESS | @ai_duet #1",
         "🇮🇷 IR | VLESS | @bored_vpn #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
@@ -119,10 +119,12 @@
         "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | VLESS | @mpproxy #1",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
+        "🇮🇷 IR | VLESS | @orange_vpns #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇮🇷 IR | VMESS | @v2rayng3 #1",
+        "🇮🇷 IR | SS | @v2rayng3 #1",
         "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #2"
@@ -139,14 +141,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "185.143.233.122",
-      "server_port": 80,
-      "uuid": "297d481a-615b-4717-8430-09253bc9af57",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @ai_duet #1",
@@ -307,12 +301,37 @@
       }
     },
     {
+      "tag": "🇮🇷 IR | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "vl1.salar4040.ir",
+      "server_port": 4040,
+      "uuid": "b1d2a517-3ff2-4eb7-a9cd-2a42a2eb1c29",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @realvpnmaster #1",
       "type": "vless",
       "server": "zula.ir",
       "server_port": 80,
       "uuid": "19f935c2-4c92-4b8a-b024-3e378f396255",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "varzesh3.com",
+      "server_port": 443,
+      "uuid": "c387b0f2-5d9e-4c95-882d-1d5eeb443ce2",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
@@ -323,28 +342,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2raymelliii #1",
-      "type": "vless",
-      "server": "vip.nekeodjdbdji.fanzeka.ir",
-      "server_port": 61885,
-      "uuid": "6d50f4d6-ce1c-401b-bb4c-0cb54c0bb071",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇮🇷 IR | VMESS | @v2rayng3 #1",
       "type": "vmess",
       "server": "client.cloudafra.top",
@@ -352,6 +349,14 @@
       "uuid": "0c9dc39b-47d9-47d8-8dab-c3cce76e3099",
       "security": "auto",
       "alter_id": 0
+    },
+    {
+      "tag": "🇮🇷 IR | SS | @v2rayng3 #1",
+      "type": "shadowsocks",
+      "server": "e3.cover20.ir",
+      "server_port": 56985,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5ZmRIWG05QXhrSmx4K0FZQ2IxS0ZSUXVqaEpBWFlOQkdhVDNQYUhsN2YwPQ==",
+      "password": null
     },
     {
       "tag": "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
