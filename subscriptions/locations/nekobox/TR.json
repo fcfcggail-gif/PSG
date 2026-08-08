@@ -77,9 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VMESS | @NamiraConfigs #1",
         "🇹🇷 TR | VLESS | @bored_vpn #1",
-        "🇹🇷 TR | VLESS | @netmellianti #1"
+        "🇹🇷 TR | VLESS | @netmellianti #1",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VMESS | @NamiraConfigs #1",
         "🇹🇷 TR | VLESS | @bored_vpn #1",
-        "🇹🇷 TR | VLESS | @netmellianti #1"
+        "🇹🇷 TR | VLESS | @netmellianti #1",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,15 +103,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇹🇷 TR | VMESS | @NamiraConfigs #1",
-      "type": "vmess",
-      "server": "5.188.190.252",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "tag": "🇹🇷 TR | VLESS | @bored_vpn #1",
@@ -141,6 +132,14 @@
       "server": "newtr.karmatel.ir",
       "server_port": 20727,
       "uuid": "bc903fe3-865f-4f2e-87f9-24c4b58854de",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "91.228.227.231",
+      "server_port": 54034,
+      "uuid": "2697ce6d-62b1-4d57-95e6-fee940e6c5bb",
       "packet_encoding": "xudp"
     }
   ],

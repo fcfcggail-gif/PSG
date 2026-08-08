@@ -90,9 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VMESS | @NamiraConfigs #1",
         "🇫🇮 FI | VLESS | @v2raymelliii #1",
-        "🇫🇮 FI | VLESS | @vmesskhodam #1"
+        "🇫🇮 FI | SS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VMESS | @NamiraConfigs #1",
         "🇫🇮 FI | VLESS | @v2raymelliii #1",
-        "🇫🇮 FI | VLESS | @vmesskhodam #1"
+        "🇫🇮 FI | SS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,15 +112,6 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇮 FI | VMESS | @NamiraConfigs #1",
-      "type": "vmess",
-      "server": "65.109.208.236",
-      "server_port": 46962,
-      "uuid": "c896406b-ccc4-4c37-8b8c-15964f32a9a2",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
       "tag": "🇫🇮 FI | VLESS | @v2raymelliii #1",
       "type": "vless",
       "server": "fanland.horlutr.ir",
@@ -131,26 +120,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "fin.irgonde.ir",
-      "server_port": 443,
-      "uuid": "d840e1ca-5432-425a-40e6-4f8791b6474d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "tag": "🇫🇮 FI | SS | @vmesskhodam #1",
+      "type": "shadowsocks",
+      "server": "31.76.30.79",
+      "server_port": 10808,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUbVhTcGNSQmJodkhEZzY2Ym8ydzg5YlRveFFzYk1vYQ==",
+      "password": null
     }
   ],
   "route": {
