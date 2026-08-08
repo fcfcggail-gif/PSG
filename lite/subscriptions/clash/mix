@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇩🇪 DE | VMESS | @NamiraConfigs #1", "server": "82.198.246.97", "port": 180, "type": "vmess", "skip-cert-verify": true, "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇽🇽 XX | TROJAN | @filtershekan_channel #1", "server": "104.19.229.21", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
   - {"name": "🇽🇽 XX | TROJAN | @filtershekan_channel #2", "server": "104.16.174.36", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
   - {"name": "🇺🇸 US | VMESS | @freev2rays #1", "server": "xcf037.facai2024.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d9863037-0463-4615-e972-36ba9662d1e9", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/d9863037", "headers": {"Host": "xcf037.facai2024.com"}}}
@@ -64,6 +65,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇩🇪 DE | VMESS | @NamiraConfigs #1'
       - '🇽🇽 XX | TROJAN | @filtershekan_channel #1'
       - '🇽🇽 XX | TROJAN | @filtershekan_channel #2'
       - '🇺🇸 US | VMESS | @freev2rays #1'
