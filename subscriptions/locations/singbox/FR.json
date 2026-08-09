@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇷 FR | VLESS | @NamiraConfigs #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
@@ -97,10 +98,7 @@
         "🇫🇷 FR | VLESS | @oonfig #1",
         "🇫🇷 FR | SS | @outline_ir #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
-        "🇫🇷 FR | VLESS | @red2ray #1",
-        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
-        "🇫🇷 FR | VLESS | @v2raych #1",
-        "🇫🇷 FR | VLESS | @vmesskhodam #1"
+        "🇫🇷 FR | VLESS | @outline_ir #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -108,6 +106,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇷 FR | VLESS | @NamiraConfigs #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
@@ -115,10 +114,7 @@
         "🇫🇷 FR | VLESS | @oonfig #1",
         "🇫🇷 FR | SS | @outline_ir #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
-        "🇫🇷 FR | VLESS | @red2ray #1",
-        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
-        "🇫🇷 FR | VLESS | @v2raych #1",
-        "🇫🇷 FR | VLESS | @vmesskhodam #1"
+        "🇫🇷 FR | VLESS | @outline_ir #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -128,6 +124,23 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "89.208.113.16",
+      "server_port": 443,
+      "uuid": "adce7c2a-3191-49ae-b61c-9b8258ea1b0e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇫🇷 FR | VLESS | @merdesert #1",
@@ -218,44 +231,11 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @red2ray #1",
+      "tag": "🇫🇷 FR | VLESS | @outline_ir #2",
       "type": "vless",
-      "server": "nasnet-162191099-direct.mbghalibaf.com",
-      "server_port": 443,
-      "uuid": "e8b1500b-e9e8-5492-8312-f4eadf7d0767",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "54.37.6.119",
-      "server_port": 2053,
-      "uuid": "d9aa9ea3-9388-483f-a58d-a754f33ec505",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "135.125.184.182",
-      "server_port": 50559,
-      "uuid": "3fd3909b-238f-42c4-9170-38d10014b1d8",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "54.37.6.119",
-      "server_port": 2053,
-      "uuid": "d9aa9ea3-9388-483f-a58d-a754f33ec505",
+      "server": "75.119.151.16",
+      "server_port": 80,
+      "uuid": "71286f3b-ec0f-4d12-9d3b-8d2941dee6ae",
       "packet_encoding": "xudp"
     }
   ],
