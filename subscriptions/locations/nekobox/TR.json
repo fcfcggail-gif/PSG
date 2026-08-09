@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @bored_vpn #1",
-        "🇹🇷 TR | VLESS | @netmellianti #1"
+        "🇹🇷 TR | VLESS | @netmellianti #1",
+        "🇹🇷 TR | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @bored_vpn #1",
-        "🇹🇷 TR | VLESS | @netmellianti #1"
+        "🇹🇷 TR | VLESS | @netmellianti #1",
+        "🇹🇷 TR | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -131,6 +133,28 @@
       "server_port": 20727,
       "uuid": "bc903fe3-865f-4f2e-87f9-24c4b58854de",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "blog.allcaline.ir",
+      "server_port": 6690,
+      "uuid": "2c26ed61-be8a-45d1-978c-3774e062ac2b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

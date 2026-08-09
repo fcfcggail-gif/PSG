@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇦🇪 AE | VLESS | @free1_vpn #1",
         "🇦🇪 AE | SS | @free4allvpn #1",
         "🇦🇪 AE | SS | @manstervpn #1"
       ],
@@ -86,6 +87,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇦🇪 AE | VLESS | @free1_vpn #1",
         "🇦🇪 AE | SS | @free4allvpn #1",
         "🇦🇪 AE | SS | @manstervpn #1"
       ],
@@ -101,6 +103,23 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "188.72.103.3",
+      "server_port": 443,
+      "uuid": "166ef05e-8ab5-43b7-8910-d1bb0a4326a5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇦🇪 AE | SS | @free4allvpn #1",

@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
-        "🇨🇾 CY | VLESS | @v2ray_collector #1"
+        "🇨🇾 CY | VLESS | @v2ray_collector #1",
+        "🇨🇾 CY | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇾 CY | VLESS | @eliteproxyv2 #1",
-        "🇨🇾 CY | VLESS | @v2ray_collector #1"
+        "🇨🇾 CY | VLESS | @v2ray_collector #1",
+        "🇨🇾 CY | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,6 +118,28 @@
       "server": "194.76.154.31",
       "server_port": 40443,
       "uuid": "9f0baff8-bdee-4de9-9515-bcc4932b41fa",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇨🇾 CY | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "5.253.42.164",
+      "server_port": 40443,
+      "uuid": "e99ba96d-dec8-42eb-be53-19e71eef7cab",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

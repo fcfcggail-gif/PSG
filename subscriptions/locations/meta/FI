@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇫🇮 FI | VLESS | @red2ray #1", "server": "journalist_info.allcaline.ir", "port": 6690, "type": "vless", "skip-cert-verify": true, "uuid": "2c26ed61-be8a-45d1-978c-3774e062ac2b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇫🇮 FI | VLESS | @v2raymelliii #1", "server": "fanland.horlutr.ir", "port": 2087, "type": "vless", "skip-cert-verify": true, "uuid": "c1372e6d-ba03-4262-9a06-5487c13ad479", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇫🇮 FI | VLESS | @red2ray #1'
       - '🇫🇮 FI | VLESS | @v2raymelliii #1'
 
   - name: 🌍 Global Media
