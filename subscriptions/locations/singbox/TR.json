@@ -90,10 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @bored_vpn #1",
-        "🇹🇷 TR | VLESS | @mtproxy22_v2ray #1",
-        "🇹🇷 TR | VLESS | @netmellianti #1",
-        "🇹🇷 TR | VLESS | @red2ray #1"
+        "🇹🇷 TR | VMESS | @NamiraConfigs #1",
+        "🇹🇷 TR | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,10 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @bored_vpn #1",
-        "🇹🇷 TR | VLESS | @mtproxy22_v2ray #1",
-        "🇹🇷 TR | VLESS | @netmellianti #1",
-        "🇹🇷 TR | VLESS | @red2ray #1"
+        "🇹🇷 TR | VMESS | @NamiraConfigs #1",
+        "🇹🇷 TR | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,63 +112,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @bored_vpn #1",
-      "type": "vless",
-      "server": "nod4.kaafserver.ir",
-      "server_port": 8443,
-      "uuid": "f3d2dbde-f8c1-4fd1-a4ff-32c2fd476d65",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "tag": "🇹🇷 TR | VMESS | @NamiraConfigs #1",
+      "type": "vmess",
+      "server": "5.188.190.252",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto",
+      "alter_id": 0
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @mtproxy22_v2ray #1",
+      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "103.215.218.159",
-      "server_port": 443,
-      "uuid": "cd0e14f8-b4d4-4a60-b23d-32f4037856b9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @netmellianti #1",
-      "type": "vless",
-      "server": "newtr.karmatel.ir",
-      "server_port": 20727,
-      "uuid": "bc903fe3-865f-4f2e-87f9-24c4b58854de",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "titi.k44lawm.ir",
-      "server_port": 2547,
-      "uuid": "e86c6e2a-382d-4f03-8f52-f52a5ab38a3f",
+      "server": "tr-play.mobileemdad.top",
+      "server_port": 42542,
+      "uuid": "fcbfb2a6-efa9-4d48-953b-f9bb9c4bd097",
       "packet_encoding": "xudp"
     }
   ],
