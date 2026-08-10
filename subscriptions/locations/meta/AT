@@ -24,6 +24,12 @@ dns:
 
 proxies: 
   - {"name": "🇦🇹 AT | TROJAN | @mpproxy #1", "server": "152.53.45.251", "port": 8888, "type": "trojan", "skip-cert-verify": false, "password": "trojan"}
+  - {"name": "🇦🇹 AT | VLESS | @v2ray_free_conf #1", "server": "77.110.110.146", "port": 51579, "type": "vless", "skip-cert-verify": true, "uuid": "3cc60df5-de1f-4af8-bc4a-653c912dbb65", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇹 AT | TROJAN | @v2raych #1", "server": "77.110.110.146", "port": 47950, "type": "trojan", "skip-cert-verify": false, "password": "hJTiRo2T5o"}
+  - {"name": "🇦🇹 AT | TROJAN | @v2raych #2", "server": "77.110.110.146", "port": 47950, "type": "trojan", "skip-cert-verify": false, "password": "hJTiRo2T5o"}
+  - {"name": "🇦🇹 AT | TROJAN | @v2raych #3", "server": "77.110.110.146", "port": 28129, "type": "trojan", "skip-cert-verify": false, "password": "5L6dD8XskT"}
+  - {"name": "🇦🇹 AT | TROJAN | @v2raych #4", "server": "77.110.110.146", "port": 28129, "type": "trojan", "skip-cert-verify": false, "password": "5L6dD8XskT"}
+  - {"name": "🇦🇹 AT | VLESS | @v2raych #1", "server": "77.110.110.146", "port": 29728, "type": "vless", "skip-cert-verify": true, "uuid": "fc841f80-9a9f-4e4c-b5ca-c909b422a639", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +44,12 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇦🇹 AT | TROJAN | @mpproxy #1'
+      - '🇦🇹 AT | VLESS | @v2ray_free_conf #1'
+      - '🇦🇹 AT | TROJAN | @v2raych #1'
+      - '🇦🇹 AT | TROJAN | @v2raych #2'
+      - '🇦🇹 AT | TROJAN | @v2raych #3'
+      - '🇦🇹 AT | TROJAN | @v2raych #4'
+      - '🇦🇹 AT | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select
