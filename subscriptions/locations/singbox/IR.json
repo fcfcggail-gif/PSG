@@ -95,6 +95,7 @@
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @father_vpn #1",
+        "🇮🇷 IR | VLESS | @hope_net #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #2",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
@@ -107,7 +108,9 @@
         "🇮🇷 IR | SS | @sobi_vpn #1",
         "🇮🇷 IR | SS | @sobi_vpn #2",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
+        "🇮🇷 IR | SS | @v2raych #1",
         "🇮🇷 IR | SS | @v2rayng3 #1",
+        "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #2"
       ],
@@ -122,6 +125,7 @@
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @father_vpn #1",
+        "🇮🇷 IR | VLESS | @hope_net #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #2",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
@@ -134,7 +138,9 @@
         "🇮🇷 IR | SS | @sobi_vpn #1",
         "🇮🇷 IR | SS | @sobi_vpn #2",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
+        "🇮🇷 IR | SS | @v2raych #1",
         "🇮🇷 IR | SS | @v2rayng3 #1",
+        "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #2"
       ],
@@ -186,6 +192,21 @@
       "server_port": 2052,
       "uuid": "7b81a350-89c3-47da-a3a9-5f2b65313d03",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @hope_net #1",
+      "type": "vless",
+      "server": "zula.ir",
+      "server_port": 80,
+      "uuid": "839236b3-a8e5-426d-94d3-3ffa53317b70",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VMESS | @khoneproxy #1",
@@ -338,12 +359,45 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇮🇷 IR | SS | @v2raych #1",
+      "type": "shadowsocks",
+      "server": "95.38.167.78",
+      "server_port": 9147,
+      "method": "YWVzLTI1Ni1nY206WlRVeU56SXpaakF5TlRVMlltVmlZelU0TnpSa1pEUXlNV0l5TVRjMQ==",
+      "password": null
+    },
+    {
       "tag": "🇮🇷 IR | SS | @v2rayng3 #1",
       "type": "shadowsocks",
       "server": "e1.cover20.ir",
       "server_port": 51570,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNUHMrcHVDdTdMWFBxSVRDSml0bXQ0Tk9CbG5vc3pSR3JwdlVXdHRncU93PQ==",
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZaTVrMUo1S1ZiZlR1UDV2SHplTE84K1VEUHlBQzByU0ljWlVCaG5kK2lnPQ==",
       "password": null
+    },
+    {
+      "tag": "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
+      "type": "vmess",
+      "server": "site.hooracoffee.ir",
+      "server_port": 443,
+      "uuid": "ed954dba-5ad5-4688-8174-247944361c38",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "site.hooracoffee.ir",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/www",
+        "headers": {
+          "Host": "site.hooracoffee.ir"
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
