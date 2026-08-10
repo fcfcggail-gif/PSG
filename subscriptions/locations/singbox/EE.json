@@ -92,7 +92,7 @@
         "direct",
         "🇪🇪 EE | VLESS | @NamiraConfigs #1",
         "🇪🇪 EE | VLESS | @free1_vpn #1",
-        "🇪🇪 EE | VLESS | @v2ray_free_conf #1"
+        "🇪🇪 EE | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,7 +102,7 @@
       "outbounds": [
         "🇪🇪 EE | VLESS | @NamiraConfigs #1",
         "🇪🇪 EE | VLESS | @free1_vpn #1",
-        "🇪🇪 EE | VLESS | @v2ray_free_conf #1"
+        "🇪🇪 EE | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -144,19 +144,24 @@
       }
     },
     {
-      "tag": "🇪🇪 EE | VLESS | @v2ray_free_conf #1",
+      "tag": "🇪🇪 EE | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "188.255.236.213",
+      "server": "217.9.12.233",
       "server_port": 443,
-      "uuid": "2a12bb81-f3a3-41bb-99ab-36febf676b4a",
+      "uuid": "02e2d68f-9982-4467-ad47-00cbeeae30e6",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "cosmic-aurora.cdn.cachefleet.com",
+        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

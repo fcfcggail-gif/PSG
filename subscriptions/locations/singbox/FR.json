@@ -95,13 +95,13 @@
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mpproxy #1",
         "🇫🇷 FR | VLESS | @orange_vpns #1",
-        "🇫🇷 FR | SS | @outline_ir #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
         "🇫🇷 FR | VLESS | @outline_ir #2",
         "🇫🇷 FR | VLESS | @privatevpns #1",
-        "🇫🇷 FR | VLESS | @red2ray #1",
         "🇫🇷 FR | TROJAN | @v2ray_collector #1",
-        "🇫🇷 FR | VLESS | @v2raymelliii #1"
+        "🇫🇷 FR | VLESS | @v2raymelliii #1",
+        "🇫🇷 FR | SS | @vmesc #1",
+        "🇫🇷 FR | SS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -114,13 +114,13 @@
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mpproxy #1",
         "🇫🇷 FR | VLESS | @orange_vpns #1",
-        "🇫🇷 FR | SS | @outline_ir #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
         "🇫🇷 FR | VLESS | @outline_ir #2",
         "🇫🇷 FR | VLESS | @privatevpns #1",
-        "🇫🇷 FR | VLESS | @red2ray #1",
         "🇫🇷 FR | TROJAN | @v2ray_collector #1",
-        "🇫🇷 FR | VLESS | @v2raymelliii #1"
+        "🇫🇷 FR | VLESS | @v2raymelliii #1",
+        "🇫🇷 FR | SS | @vmesc #1",
+        "🇫🇷 FR | SS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -195,14 +195,6 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | SS | @outline_ir #1",
-      "type": "shadowsocks",
-      "server": "antony.athforce.ir",
-      "server_port": 51058,
-      "method": "YWVzLTEyOC1nY206U3lTV0RhUDhybTFORUswd2RMZG9hVjVDbGtTakZEZnc=",
-      "password": null
-    },
-    {
       "tag": "🇫🇷 FR | VLESS | @outline_ir #1",
       "type": "vless",
       "server": "paris.vypnet.su",
@@ -235,27 +227,10 @@
     {
       "tag": "🇫🇷 FR | VLESS | @privatevpns #1",
       "type": "vless",
-      "server": "15.224.71.113",
+      "server": "15.236.79.105",
       "server_port": 22222,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "31.220.86.213",
-      "server_port": 443,
-      "uuid": "74ed8b25-5ff1-40bf-bcd7-3db03be19f53",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇫🇷 FR | TROJAN | @v2ray_collector #1",
@@ -289,6 +264,22 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇫🇷 FR | SS | @vmesc #1",
+      "type": "shadowsocks",
+      "server": "antony.athforce.ir",
+      "server_port": 51058,
+      "method": "YWVzLTEyOC1nY206U3lTV0RhUDhybTFORUswd2RMZG9hVjVDbGtTakZEZnc=",
+      "password": null
+    },
+    {
+      "tag": "🇫🇷 FR | SS | @vpn_ioss #1",
+      "type": "shadowsocks",
+      "server": "173.212.251.231",
+      "server_port": 51058,
+      "method": "YXV0bzo=",
+      "password": null
     }
   ],
   "route": {
