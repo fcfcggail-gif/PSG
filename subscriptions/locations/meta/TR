@@ -23,10 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇷 TR | VMESS | @NamiraConfigs #1", "server": "5.188.190.252", "port": 22324, "type": "vmess", "skip-cert-verify": true, "uuid": "04621bae-ab36-11ec-b909-0242ac120002", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇹🇷 TR | VLESS | @bored_vpn #1", "server": "nod4.kaafserver.ir", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "f3d2dbde-f8c1-4fd1-a4ff-32c2fd476d65", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇹🇷 TR | VLESS | @configv2rayforfree #1", "server": "45.74.178.41", "port": 719, "type": "vless", "skip-cert-verify": true, "uuid": "ae9bcc43-5fd8-4891-b06e-1c93e2747ed9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇹🇷 TR | VLESS | @netmellianti #1", "server": "newtr.karmatel.ir", "port": 20727, "type": "vless", "skip-cert-verify": true, "uuid": "bc903fe3-865f-4f2e-87f9-24c4b58854de", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @v2raych #1", "server": "158.94.216.232", "port": 9145, "type": "vless", "skip-cert-verify": true, "uuid": "de9f46e2-5785-4978-b1d0-c6b308a66b35", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,10 +40,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇷 TR | VMESS | @NamiraConfigs #1'
       - '🇹🇷 TR | VLESS | @bored_vpn #1'
       - '🇹🇷 TR | VLESS | @configv2rayforfree #1'
       - '🇹🇷 TR | VLESS | @netmellianti #1'
+      - '🇹🇷 TR | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

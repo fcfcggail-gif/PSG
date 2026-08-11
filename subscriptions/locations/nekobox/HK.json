@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇭🇰 HK | TROJAN | @outlinereleasedkey #1",
         "🇭🇰 HK | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -85,6 +86,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇭🇰 HK | TROJAN | @outlinereleasedkey #1",
         "🇭🇰 HK | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -99,6 +101,22 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇭🇰 HK | TROJAN | @outlinereleasedkey #1",
+      "type": "trojan",
+      "server": "upright-hamster.rooster465.autos",
+      "server_port": 443,
+      "password": "ND91608427",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇭🇰 HK | VLESS | @vpn_ioss #1",

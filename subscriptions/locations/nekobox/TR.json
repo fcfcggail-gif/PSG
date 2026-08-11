@@ -77,10 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VMESS | @NamiraConfigs #1",
         "🇹🇷 TR | VLESS | @bored_vpn #1",
         "🇹🇷 TR | VLESS | @configv2rayforfree #1",
-        "🇹🇷 TR | VLESS | @netmellianti #1"
+        "🇹🇷 TR | VLESS | @netmellianti #1",
+        "🇹🇷 TR | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,10 +88,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VMESS | @NamiraConfigs #1",
         "🇹🇷 TR | VLESS | @bored_vpn #1",
         "🇹🇷 TR | VLESS | @configv2rayforfree #1",
-        "🇹🇷 TR | VLESS | @netmellianti #1"
+        "🇹🇷 TR | VLESS | @netmellianti #1",
+        "🇹🇷 TR | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -105,15 +105,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇹🇷 TR | VMESS | @NamiraConfigs #1",
-      "type": "vmess",
-      "server": "5.188.190.252",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "tag": "🇹🇷 TR | VLESS | @bored_vpn #1",
@@ -152,6 +143,28 @@
       "server_port": 20727,
       "uuid": "bc903fe3-865f-4f2e-87f9-24c4b58854de",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "158.94.216.232",
+      "server_port": 9145,
+      "uuid": "de9f46e2-5785-4978-b1d0-c6b308a66b35",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
