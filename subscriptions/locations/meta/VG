@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇻🇬 VG | VLESS | @dailyv2ray #1", "server": "mtn.ircf.space", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "7f64eeb1-b5f1-40a0-d80e-e6c718f6bd6a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇻🇬 VG | VLESS | @red2ray #1", "server": "fin1.panel11.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "8aeda8e3-dd32-4071-bcbb-f793e646eb13", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇻🇬 VG | VLESS | @dailyv2ray #1'
+      - '🇻🇬 VG | VLESS | @red2ray #1'
 
   - name: 🌍 Global Media
     type: select

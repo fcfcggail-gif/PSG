@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇻🇬 VG | VLESS | @dailyv2ray #1"
+        "🇻🇬 VG | VLESS | @dailyv2ray #1",
+        "🇻🇬 VG | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇻🇬 VG | VLESS | @dailyv2ray #1"
+        "🇻🇬 VG | VLESS | @dailyv2ray #1",
+        "🇻🇬 VG | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -107,6 +109,28 @@
       "server_port": 2096,
       "uuid": "7f64eeb1-b5f1-40a0-d80e-e6c718f6bd6a",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇻🇬 VG | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "fin1.panel11.ru",
+      "server_port": 443,
+      "uuid": "8aeda8e3-dd32-4071-bcbb-f793e646eb13",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
