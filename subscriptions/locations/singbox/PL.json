@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @bored_vpn #1"
+        "🇵🇱 PL | VLESS | @bored_vpn #1",
+        "🇵🇱 PL | VMESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @bored_vpn #1"
+        "🇵🇱 PL | VLESS | @bored_vpn #1",
+        "🇵🇱 PL | VMESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -130,6 +132,15 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇵🇱 PL | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "168.222.49.188",
+      "server_port": 80,
+      "uuid": "2571f762-03af-4c30-8eb9-6652102e7cd3",
+      "security": "auto",
+      "alter_id": 0
     }
   ],
   "route": {
