@@ -77,9 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇪 EE | VLESS | @NamiraConfigs #1",
-        "🇪🇪 EE | VLESS | @free1_vpn #1",
-        "🇪🇪 EE | VLESS | @v2raych #1"
+        "🇪🇪 EE | VLESS | @free1_vpn #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇪 EE | VLESS | @NamiraConfigs #1",
-        "🇪🇪 EE | VLESS | @free1_vpn #1",
-        "🇪🇪 EE | VLESS | @v2raych #1"
+        "🇪🇪 EE | VLESS | @free1_vpn #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,14 +99,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇪🇪 EE | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "95.85.224.3",
-      "server_port": 8443,
-      "uuid": "7e8f7489-e65f-4be6-93ed-867a74ec6759",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇪🇪 EE | VLESS | @free1_vpn #1",
@@ -131,23 +119,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇪🇪 EE | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "188.255.236.213",
-      "server_port": 443,
-      "uuid": "2a12bb81-f3a3-41bb-99ab-36febf676b4a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "random"
         }
       }
     }

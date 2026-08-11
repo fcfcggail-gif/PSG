@@ -23,9 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇪🇪 EE | VLESS | @NamiraConfigs #1", "server": "95.85.224.3", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "7e8f7489-e65f-4be6-93ed-867a74ec6759", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇪🇪 EE | VLESS | @free1_vpn #1", "server": "188.255.236.213", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2a12bb81-f3a3-41bb-99ab-36febf676b4a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇪🇪 EE | VLESS | @v2raych #1", "server": "188.255.236.213", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2a12bb81-f3a3-41bb-99ab-36febf676b4a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "random"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇪🇪 EE | VLESS | @NamiraConfigs #1'
       - '🇪🇪 EE | VLESS | @free1_vpn #1'
-      - '🇪🇪 EE | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

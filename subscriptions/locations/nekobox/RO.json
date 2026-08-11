@@ -76,14 +76,19 @@
     {
       "outbounds": [
         "auto",
-        "direct"
+        "direct",
+        "🇷🇴 RO | VLESS | @v2raych #1",
+        "🇷🇴 RO | VLESS | @v2raych #2"
       ],
       "tag": "proxy",
       "type": "selector"
     },
     {
       "interval": "10m",
-      "outbounds": [],
+      "outbounds": [
+        "🇷🇴 RO | VLESS | @v2raych #1",
+        "🇷🇴 RO | VLESS | @v2raych #2"
+      ],
       "tag": "auto",
       "tolerance": 50,
       "type": "urltest",
@@ -96,6 +101,40 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇷🇴 RO | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "203.14.32.178",
+      "server_port": 443,
+      "uuid": "d16a7171-625d-4d09-9459-859f1c9b3b0a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇴 RO | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "203.14.32.178",
+      "server_port": 443,
+      "uuid": "d16a7171-625d-4d09-9459-859f1c9b3b0a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

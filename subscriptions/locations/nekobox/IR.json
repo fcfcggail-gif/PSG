@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇷 IR | VLESS | @NamiraConfigs #1",
         "🇮🇷 IR | VLESS | @ai_duet #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
@@ -90,10 +89,10 @@
         "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | VLESS | @mpproxy #1",
         "🇮🇷 IR | VLESS | @mtproxy22_v2ray #1",
+        "🇮🇷 IR | VLESS | @mtproxy22_v2ray #2",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
         "🇮🇷 IR | SS | @sobi_vpn #1",
-        "🇮🇷 IR | SS | @sobi_vpn #2",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
@@ -105,7 +104,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇷 IR | VLESS | @NamiraConfigs #1",
         "🇮🇷 IR | VLESS | @ai_duet #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
@@ -118,10 +116,10 @@
         "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | VLESS | @mpproxy #1",
         "🇮🇷 IR | VLESS | @mtproxy22_v2ray #1",
+        "🇮🇷 IR | VLESS | @mtproxy22_v2ray #2",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
         "🇮🇷 IR | SS | @sobi_vpn #1",
-        "🇮🇷 IR | SS | @sobi_vpn #2",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
@@ -139,23 +137,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "a.samrayan.ir",
-      "server_port": 443,
-      "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @ai_duet #1",
@@ -306,6 +287,28 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇮🇷 IR | VLESS | @mtproxy22_v2ray #2",
+      "type": "vless",
+      "server": "free.soundfiy.ir",
+      "server_port": 4554,
+      "uuid": "7f3c3105-bc39-47fa-812d-1833b3709a9f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @nn_vpn #1",
       "type": "vless",
       "server": "allsms.rozfa.com",
@@ -334,14 +337,6 @@
       "tag": "🇮🇷 IR | SS | @sobi_vpn #1",
       "type": "shadowsocks",
       "server": "tt.hsrdnr.ir",
-      "server_port": 2044,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozcmZuajExcTV4dmc3Mnkx",
-      "password": null
-    },
-    {
-      "tag": "🇮🇷 IR | SS | @sobi_vpn #2",
-      "type": "shadowsocks",
-      "server": "page.hsrdnr.ir",
       "server_port": 2044,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozcmZuajExcTV4dmc3Mnkx",
       "password": null

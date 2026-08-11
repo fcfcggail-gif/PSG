@@ -96,8 +96,12 @@
         "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇳🇱 NL | VLESS | @outline_ir #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
+        "🇳🇱 NL | VLESS | @red2ray #1",
+        "🇳🇱 NL | VLESS | @red2ray #2",
         "🇳🇱 NL | TROJAN | @v2ray_collector #1",
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
+        "🇳🇱 NL | SS | @v2rayng3 #1",
         "🇳🇱 NL | VLESS | @vpnowl #1"
       ],
       "tag": "proxy",
@@ -112,8 +116,12 @@
         "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇳🇱 NL | VLESS | @outline_ir #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
+        "🇳🇱 NL | VLESS | @red2ray #1",
+        "🇳🇱 NL | VLESS | @red2ray #2",
         "🇳🇱 NL | TROJAN | @v2ray_collector #1",
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
+        "🇳🇱 NL | SS | @v2rayng3 #1",
         "🇳🇱 NL | VLESS | @vpnowl #1"
       ],
       "tag": "auto",
@@ -197,6 +205,36 @@
       }
     },
     {
+      "tag": "🇳🇱 NL | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "176.98.182.67",
+      "server_port": 10443,
+      "uuid": "f61025f4-7973-4e3e-883c-a0fe85f0489c",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @red2ray #2",
+      "type": "vless",
+      "server": "144.31.54.85",
+      "server_port": 443,
+      "uuid": "06ee3130-cb1e-4d66-b61c-d221eec984ed",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇳🇱 NL | TROJAN | @v2ray_collector #1",
       "type": "trojan",
       "server": "eager-louse.rooster465.autos",
@@ -211,6 +249,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "31.56.222.59",
+      "server_port": 19869,
+      "uuid": "f7d78118-f954-40dd-a0de-7fe7245798c7",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇳🇱 NL | VLESS | @v2raying #1",
@@ -233,6 +279,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇳🇱 NL | SS | @v2rayng3 #1",
+      "type": "shadowsocks",
+      "server": "158.173.20.208",
+      "server_port": 443,
+      "method": "YXV0bzo=",
+      "password": null
     },
     {
       "tag": "🇳🇱 NL | VLESS | @vpnowl #1",
