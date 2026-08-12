@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgS1I=
+//profile-title: base64:UFNHIHwgTUQ=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇰🇷 KR | TROJAN | @v2ray_collector #1"
+        "🇲🇩 MD | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇰🇷 KR | TROJAN | @v2ray_collector #1"
+        "🇲🇩 MD | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,11 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇰🇷 KR | TROJAN | @v2ray_collector #1",
-      "type": "trojan",
-      "server": "distinct-llama.rooster465.autos",
+      "tag": "🇲🇩 MD | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "md.voxyvpn.ru",
       "server_port": 443,
-      "password": "ND91608427",
+      "uuid": "e16c49e6-fca7-4c4e-b717-c4b12b1859bc",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -122,6 +123,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

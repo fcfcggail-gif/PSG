@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
-        "🇭🇰 HK | VLESS | @vpn_ioss #1"
+        "🇭🇰 HK | VLESS | @vpn_ioss #1",
+        "🇭🇰 HK | VLESS | @vpn_ioss #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
-        "🇭🇰 HK | VLESS | @vpn_ioss #1"
+        "🇭🇰 HK | VLESS | @vpn_ioss #1",
+        "🇭🇰 HK | VLESS | @vpn_ioss #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -138,6 +140,14 @@
     },
     {
       "tag": "🇭🇰 HK | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "182.16.61.3",
+      "server_port": 45647,
+      "uuid": "431fe973-a43a-4fac-bf83-2a772e0d0625",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇭🇰 HK | VLESS | @vpn_ioss #2",
       "type": "vless",
       "server": "182.16.61.3",
       "server_port": 45647,
