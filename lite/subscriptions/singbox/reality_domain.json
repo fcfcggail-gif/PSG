@@ -97,9 +97,9 @@
         "🇷🇺 RU | VLESS | @mt_proxy #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
-        "🇻🇬 VG | VLESS | @red2ray #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
-        "🇺🇸 US | VLESS | @vmesc #1"
+        "🇺🇸 US | VLESS | @vmesc #1",
+        "🇫🇷 FR | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -114,9 +114,9 @@
         "🇷🇺 RU | VLESS | @mt_proxy #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
-        "🇻🇬 VG | VLESS | @red2ray #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
-        "🇺🇸 US | VLESS | @vmesc #1"
+        "🇺🇸 US | VLESS | @vmesc #1",
+        "🇫🇷 FR | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -288,28 +288,6 @@
       }
     },
     {
-      "tag": "🇻🇬 VG | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "fin1.panel11.ru",
-      "server_port": 443,
-      "uuid": "8aeda8e3-dd32-4071-bcbb-f793e646eb13",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @v2raying #1",
       "type": "vless",
       "server": "netraidly.ru",
@@ -350,6 +328,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "uiv.taguenaby-backend.com",
+      "server_port": 443,
+      "uuid": "74ed8b25-5ff1-40bf-bcd7-3db03be19f53",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }

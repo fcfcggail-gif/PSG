@@ -96,10 +96,9 @@
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mpproxy #1",
         "🇫🇷 FR | VLESS | @orange_vpns #1",
-        "🇫🇷 FR | VLESS | @red2ray #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | VLESS | @vmesc #1",
-        "🇫🇷 FR | SS | @vpn_ioss #1"
+        "🇫🇷 FR | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -113,10 +112,9 @@
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mpproxy #1",
         "🇫🇷 FR | VLESS | @orange_vpns #1",
-        "🇫🇷 FR | VLESS | @red2ray #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | VLESS | @vmesc #1",
-        "🇫🇷 FR | SS | @vpn_ioss #1"
+        "🇫🇷 FR | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -208,23 +206,6 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "31.220.86.213",
-      "server_port": 443,
-      "uuid": "74ed8b25-5ff1-40bf-bcd7-3db03be19f53",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇫🇷 FR | VLESS | @v2ray_collector #1",
       "type": "vless",
       "server": "45.13.119.219",
@@ -250,12 +231,21 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | SS | @vpn_ioss #1",
-      "type": "shadowsocks",
-      "server": "173.212.251.231",
-      "server_port": 51058,
-      "method": "YXV0bzo=",
-      "password": null
+      "tag": "🇫🇷 FR | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "uiv.taguenaby-backend.com",
+      "server_port": 443,
+      "uuid": "74ed8b25-5ff1-40bf-bcd7-3db03be19f53",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @red2ray #1",
-        "🇫🇮 FI | VLESS | @red2ray #2"
+        "🇫🇮 FI | VLESS | @red2ray #2",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @red2ray #1",
-        "🇫🇮 FI | VLESS | @red2ray #2"
+        "🇫🇮 FI | VLESS | @red2ray #2",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -143,6 +145,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "95.216.161.1",
+      "server_port": 443,
+      "uuid": "22199ed8-5f22-4906-9917-67e3609d8776",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }
