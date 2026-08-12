@@ -102,6 +102,7 @@
         "🇽🇽 XX | VLESS | @evay_vpn #3",
         "🇽🇽 XX | VLESS | @evay_vpn #4",
         "🇫🇷 FR | VLESS | @flyv2ray #1",
+        "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇺🇸 US | VLESS | @orange_vpns #1",
         "🇸🇪 SE | VLESS | @outlinereleasedkey #1",
         "🇽🇽 XX | VLESS | @proxie #1",
@@ -113,15 +114,15 @@
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇳🇱 NL | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
-        "🇰🇿 KZ | VLESS | @red2ray #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
+        "🇺🇸 US | VLESS | @v2raych #3",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇫🇷 FR | VLESS | @vmesc #1",
-        "🇳🇱 NL | VLESS | @vpn_ioss #2"
+        "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -141,6 +142,7 @@
         "🇽🇽 XX | VLESS | @evay_vpn #3",
         "🇽🇽 XX | VLESS | @evay_vpn #4",
         "🇫🇷 FR | VLESS | @flyv2ray #1",
+        "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇺🇸 US | VLESS | @orange_vpns #1",
         "🇸🇪 SE | VLESS | @outlinereleasedkey #1",
         "🇽🇽 XX | VLESS | @proxie #1",
@@ -152,15 +154,15 @@
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇳🇱 NL | VLESS | @prrofile_purple #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
-        "🇰🇿 KZ | VLESS | @red2ray #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
+        "🇺🇸 US | VLESS | @v2raych #3",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇫🇷 FR | VLESS | @vmesc #1",
-        "🇳🇱 NL | VLESS | @vpn_ioss #2"
+        "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -388,6 +390,14 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VLESS | @free4allvpn #1",
+      "type": "vless",
+      "server": "151.101.25.242",
+      "server_port": 80,
+      "uuid": "02d87d00-c769-48d8-91cb-bd05e2f62790",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇺🇸 US | VLESS | @orange_vpns #1",
       "type": "vless",
       "server": "66.33.22.224",
@@ -557,23 +567,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇰🇿 KZ | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "185.136.12.190",
-      "server_port": 443,
-      "uuid": "2cca8201-c93e-40eb-bd8a-fea4170c169e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇸🇨 SC | VLESS | @turboo_server #1",
       "type": "vless",
       "server": "45.130.125.76",
@@ -587,6 +580,14 @@
       "server": "104.26.14.137",
       "server_port": 8443,
       "uuid": "8ee19304-fdf4-43dd-ab77-133a77d349ed",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2raych #3",
+      "type": "vless",
+      "server": "66.33.22.240",
+      "server_port": 39296,
+      "uuid": "ab17401c-1be5-489b-8dc6-befeb2ef7e0b",
       "packet_encoding": "xudp"
     },
     {
@@ -675,21 +676,12 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @vpn_ioss #2",
+      "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",
       "type": "vless",
-      "server": "206.71.158.124",
-      "server_port": 443,
-      "uuid": "3536e1fa-0850-44d1-b123-925ce12476cf",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "179.198.50.131",
+      "server_port": 8443,
+      "uuid": "a34b5e88-cf0d-4c01-8199-2d1002d3c787",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

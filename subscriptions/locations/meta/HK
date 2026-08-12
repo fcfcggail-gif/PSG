@@ -23,9 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇭🇰 HK | VMESS | @outlinereleasedkey #1", "server": "drbkg16egf3fzlm3.v.3dns.vip", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "f23bb427-c1f9-4373-876c-2f43e9f790f3", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/ws-vmess", "headers": {"Host": "DrBKg16eGf3FZlM3.v.3dns.vip"}}}
-  - {"name": "🇭🇰 HK | VLESS | @vpn_ioss #1", "server": "182.16.61.3", "port": 45647, "type": "vless", "skip-cert-verify": true, "uuid": "431fe973-a43a-4fac-bf83-2a772e0d0625", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇭🇰 HK | VLESS | @vpn_ioss #2", "server": "182.16.61.3", "port": 45647, "type": "vless", "skip-cert-verify": true, "uuid": "431fe973-a43a-4fac-bf83-2a772e0d0625", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇭🇰 HK | VMESS | @outlinereleasedkey #1", "server": "nycqg19zkwacpm1b.v.3dns.vip", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "f23bb427-c1f9-4373-876c-2f43e9f790f3", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/ws-vmess", "headers": {"Host": "NYcQg19zkwaCPM1B.v.3dns.vip"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,8 +38,6 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇭🇰 HK | VMESS | @outlinereleasedkey #1'
-      - '🇭🇰 HK | VLESS | @vpn_ioss #1'
-      - '🇭🇰 HK | VLESS | @vpn_ioss #2'
 
   - name: 🌍 Global Media
     type: select

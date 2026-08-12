@@ -76,14 +76,19 @@
     {
       "outbounds": [
         "auto",
-        "direct"
+        "direct",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
     },
     {
       "interval": "10m",
-      "outbounds": [],
+      "outbounds": [
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @vmesskhodam #1"
+      ],
       "tag": "auto",
       "tolerance": 50,
       "type": "urltest",
@@ -96,6 +101,22 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "65.109.188.209",
+      "server_port": 3389,
+      "uuid": "a06119a7-4f1a-4592-86d9-e050a332b2b3",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "179.198.50.131",
+      "server_port": 8443,
+      "uuid": "a34b5e88-cf0d-4c01-8199-2d1002d3c787",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

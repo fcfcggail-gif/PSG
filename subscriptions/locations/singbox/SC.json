@@ -98,9 +98,9 @@
         "🇸🇨 SC | VLESS | @netfreedom0 #2",
         "🇸🇨 SC | VLESS | @netfreedom0 #3",
         "🇸🇨 SC | VLESS | @turboo_server #1",
+        "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
         "🇸🇨 SC | VLESS | @v2ray_youtube #1",
-        "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",
-        "🇸🇨 SC | VLESS | @vmesskhodam #1"
+        "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -116,9 +116,9 @@
         "🇸🇨 SC | VLESS | @netfreedom0 #2",
         "🇸🇨 SC | VLESS | @netfreedom0 #3",
         "🇸🇨 SC | VLESS | @turboo_server #1",
+        "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
         "🇸🇨 SC | VLESS | @v2ray_youtube #1",
-        "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",
-        "🇸🇨 SC | VLESS | @vmesskhodam #1"
+        "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -249,6 +249,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "45.130.125.160",
+      "server_port": 443,
+      "uuid": "536d0d54-53a5-455a-ad7c-a525d8ff629f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇸🇨 SC | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "45.130.125.207",
@@ -271,28 +288,6 @@
       "server": "45.196.201.129",
       "server_port": 443,
       "uuid": "f75814f6-8f81-4847-b792-168c41f2dc85",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "154.83.246.225",
-      "server_port": 443,
-      "uuid": "d2042070-c247-4226-a3ac-15337923e00d",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
