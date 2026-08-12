@@ -94,7 +94,6 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VMESS | @NamiraConfigs #1",
-        "🇬🇧 GB | VMESS | @NamiraConfigs #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
@@ -113,6 +112,7 @@
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
         "🇽🇽 XX | VMESS | @mi_pn_official #1",
+        "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇽🇽 XX | VMESS | @serverv2ray00 #1",
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
@@ -133,7 +133,6 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VMESS | @NamiraConfigs #1",
-        "🇬🇧 GB | VMESS | @NamiraConfigs #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
@@ -152,6 +151,7 @@
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
         "🇽🇽 XX | VMESS | @mi_pn_official #1",
+        "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇽🇽 XX | VMESS | @serverv2ray00 #1",
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
@@ -249,15 +249,6 @@
       "server": "82.198.246.97",
       "server_port": 180,
       "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "tag": "🇬🇧 GB | VMESS | @NamiraConfigs #1",
-      "type": "vmess",
-      "server": "66.163.117.58",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
       "security": "auto",
       "alter_id": 0
     },
@@ -634,6 +625,31 @@
         "path": "/linkws",
         "headers": {
           "Host": "glweidf.sbs"
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
+      "type": "vmess",
+      "server": "drbkg16egf3fzlm3.v.3dns.vip",
+      "server_port": 443,
+      "uuid": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "DrBKg16eGf3FZlM3.v.3dns.vip",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws-vmess",
+        "headers": {
+          "Host": "DrBKg16eGf3FZlM3.v.3dns.vip"
         }
       }
     },

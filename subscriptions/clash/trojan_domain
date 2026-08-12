@@ -23,11 +23,13 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇭🇰 HK | TROJAN | @outlinereleasedkey #1", "server": "upright-hamster.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": true, "password": "ND91608427"}
   - {"name": "🇯🇵 JP | TROJAN | @outlinereleasedkey #1", "server": "clear-snail.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": true, "password": "ND91608427"}
+  - {"name": "🇮🇪 IE | TROJAN | @outlinereleasedkey #1", "server": "skilled-lioness.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "ND91608427", "sni": "skilled-lioness.rooster465.autos"}
+  - {"name": "🇺🇸 US | TROJAN | @red2ray #1", "server": "ru.federal-usa.com", "port": 8443, "type": "trojan", "skip-cert-verify": false, "password": "08QNE5JBq7kTV6b9Dd6e_w-y4WhjMLS9"}
   - {"name": "🇽🇽 XX | TROJAN | @teamvpnpro #1", "server": "chatbuzzteambhm.chatbuzzt7150.workers.dev", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "22f86840-bcac-11ee-abea-1239d0255272"}
   - {"name": "🇽🇽 XX | TROJAN | @teamvpnpro #2", "server": "chatbuzzteambhm.chatbuzzt7150.workers.dev", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "c7f9b8f0-bfdb-11ee-a15c-1239d0255272"}
   - {"name": "🇰🇷 KR | TROJAN | @v2ray_collector #1", "server": "distinct-llama.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": true, "password": "ND91608427"}
+  - {"name": "🇺🇸 US | TROJAN | @v2ray_free_conf #1", "server": "render.com", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,11 +43,13 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇭🇰 HK | TROJAN | @outlinereleasedkey #1'
       - '🇯🇵 JP | TROJAN | @outlinereleasedkey #1'
+      - '🇮🇪 IE | TROJAN | @outlinereleasedkey #1'
+      - '🇺🇸 US | TROJAN | @red2ray #1'
       - '🇽🇽 XX | TROJAN | @teamvpnpro #1'
       - '🇽🇽 XX | TROJAN | @teamvpnpro #2'
       - '🇰🇷 KR | TROJAN | @v2ray_collector #1'
+      - '🇺🇸 US | TROJAN | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select
