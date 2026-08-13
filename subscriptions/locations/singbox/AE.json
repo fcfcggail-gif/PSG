@@ -91,9 +91,9 @@
         "auto",
         "direct",
         "🇦🇪 AE | VLESS | @configv2rayforfree #1",
-        "🇦🇪 AE | VLESS | @free1_vpn #1",
         "🇦🇪 AE | SS | @manstervpn #1",
-        "🇦🇪 AE | VLESS | @orange_vpns #1"
+        "🇦🇪 AE | VLESS | @orange_vpns #1",
+        "🇦🇪 AE | SS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,9 +102,9 @@
       "interval": "10m",
       "outbounds": [
         "🇦🇪 AE | VLESS | @configv2rayforfree #1",
-        "🇦🇪 AE | VLESS | @free1_vpn #1",
         "🇦🇪 AE | SS | @manstervpn #1",
-        "🇦🇪 AE | VLESS | @orange_vpns #1"
+        "🇦🇪 AE | VLESS | @orange_vpns #1",
+        "🇦🇪 AE | SS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -117,28 +117,6 @@
     },
     {
       "tag": "🇦🇪 AE | VLESS | @configv2rayforfree #1",
-      "type": "vless",
-      "server": "78.17.112.103",
-      "server_port": 13868,
-      "uuid": "06d44c57-8e1a-41f4-b9c4-65d35869e078",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @free1_vpn #1",
       "type": "vless",
       "server": "78.17.112.103",
       "server_port": 13868,
@@ -183,6 +161,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇦🇪 AE | SS | @v2raych #1",
+      "type": "shadowsocks",
+      "server": "sec2.masterdpibypass.com",
+      "server_port": 12892,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpnd3ptcm5qcnNlcC9QelcvM3lZYzRqRTRSRzQxYUV3SkF0aGxiVHVwQmp3PQ==",
+      "password": null
     }
   ],
   "route": {
