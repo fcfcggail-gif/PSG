@@ -78,7 +78,7 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @v2raych #1",
-        "🇫🇮 FI | VLESS | @v2raych #2",
+        "🇫🇮 FI | VMESS | @v2raych #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -88,7 +88,7 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @v2raych #1",
-        "🇫🇮 FI | VLESS | @v2raych #2",
+        "🇫🇮 FI | VMESS | @v2raych #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -107,9 +107,9 @@
     {
       "tag": "🇫🇮 FI | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "helsink.vypnet.su",
+      "server": "132.243.223.88",
       "server_port": 443,
-      "uuid": "c124a209-d949-4951-8234-e2d918b3e6c0",
+      "uuid": "fbb74aa8-b89a-4f20-9504-6b25aadf6681",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -118,35 +118,17 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "helsink.vypnet.su",
-      "server_port": 443,
-      "uuid": "c124a209-d949-4951-8234-e2d918b3e6c0",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "tag": "🇫🇮 FI | VMESS | @v2raych #1",
+      "type": "vmess",
+      "server": "65.109.178.10",
+      "server_port": 2086,
+      "uuid": "f6361af8-bb8f-4609-bf5d-3fc0f688f47b",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",
