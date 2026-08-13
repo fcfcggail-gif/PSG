@@ -77,7 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | VMESS | @outlinereleasedkey #1"
+        "🇪🇪 EE | VLESS | @NamiraConfigs #1",
+        "🇪🇪 EE | VLESS | @v2raych #1",
+        "🇪🇪 EE | VLESS | @v2raych #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | VMESS | @outlinereleasedkey #1"
+        "🇪🇪 EE | VLESS | @NamiraConfigs #1",
+        "🇪🇪 EE | VLESS | @v2raych #1",
+        "🇪🇪 EE | VLESS | @v2raych #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,27 +105,54 @@
       "type": "direct"
     },
     {
-      "tag": "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
-      "type": "vmess",
-      "server": "nycqg19zkwacpm1b.v.3dns.vip",
+      "tag": "🇪🇪 EE | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "95.85.224.3",
+      "server_port": 8443,
+      "uuid": "7e8f7489-e65f-4be6-93ed-867a74ec6759",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "est.vrsvpn.com",
       "server_port": 443,
-      "uuid": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
-      "security": "auto",
-      "alter_id": 0,
+      "uuid": "0b9bcbc1-b289-4a64-86fa-a5b731b65384",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "NYcQg19zkwaCPM1B.v.3dns.vip",
+        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws-vmess",
-        "headers": {
-          "Host": "NYcQg19zkwaCPM1B.v.3dns.vip"
+      }
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "est.vrsvpn.com",
+      "server_port": 443,
+      "uuid": "0b9bcbc1-b289-4a64-86fa-a5b731b65384",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }
