@@ -77,8 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @free1_vpn #1",
-        "🇵🇱 PL | VLESS | @v2ray_free_conf #1"
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi",
+        "🇽🇽 XX | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +88,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @free1_vpn #1",
-        "🇵🇱 PL | VLESS | @v2ray_free_conf #1"
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi",
+        "🇽🇽 XX | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,11 +107,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @free1_vpn #1",
+      "tag": "همکاری_ملی",
       "type": "vless",
-      "server": "95.85.253.5",
+      "server": "127.0.0.1",
       "server_port": 443,
-      "uuid": "8033102198",
+      "uuid": "00000000-0000-0000-0000-000000000000",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -117,14 +121,69 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
       }
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+      "tag": "جاویدشاه",
       "type": "vless",
-      "server": "82.40.62.22",
-      "server_port": 8443,
-      "uuid": "YOUR-UUID",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "KingRezaPahlavi",
+      "type": "vless",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "chatgpt-async-webps-prod-centralus-0.chatgpt.com",
+      "server_port": 443,
+      "uuid": "3666e25b-a1c2-48ec-b060-075392b1aa6e",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
