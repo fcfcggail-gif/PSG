@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇯🇵 JP | VLESS | @megavpn_link #1"
+        "🇯🇵 JP | VLESS | @megavpn_link #1",
+        "🇯🇵 JP | SS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇯🇵 JP | VLESS | @megavpn_link #1"
+        "🇯🇵 JP | VLESS | @megavpn_link #1",
+        "🇯🇵 JP | SS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,6 +118,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇯🇵 JP | SS | @vmesskhodam #1",
+      "type": "shadowsocks",
+      "server": "176.97.73.215",
+      "server_port": 8388,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptYTZ6YzRKb0xSSkE=",
+      "password": null
     }
   ],
   "route": {
