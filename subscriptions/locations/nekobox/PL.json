@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @free1_vpn #1"
+        "🇵🇱 PL | VLESS | @free1_vpn #1",
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @free1_vpn #1"
+        "🇵🇱 PL | VLESS | @free1_vpn #1",
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -106,6 +108,23 @@
       "server": "95.85.253.5",
       "server_port": 443,
       "uuid": "8033102198",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "82.40.62.22",
+      "server_port": 8443,
+      "uuid": "YOUR-UUID",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

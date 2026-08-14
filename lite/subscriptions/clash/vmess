@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇩🇪 DE | VMESS | @NamiraConfigs #1", "server": "82.198.246.97", "port": 180, "type": "vmess", "skip-cert-verify": true, "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇩🇪 DE | VMESS | @NamiraConfigs #1", "server": "82.198.246.37", "port": 180, "type": "vmess", "skip-cert-verify": true, "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇩🇪 DE | VMESS | @NamiraConfigs #2", "server": "82.198.246.97", "port": 180, "type": "vmess", "skip-cert-verify": true, "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇩🇪 DE | VMESS | @khoneproxy #1", "server": "142.132.163.200", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "7f965e3e-b03f-455e-a96e-01b61f72537a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/graphql", "headers": {"Host": "142.132.163.200"}}}
   - {"name": "🇮🇷 IR | VMESS | @khoneproxy #1", "server": "37.32.23.122", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d12bc882-43c7-415e-87c5-2a7fdc8371c0", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/websocket/", "headers": {"Host": "37.32.23.122"}}}
   - {"name": "🇩🇪 DE | VMESS | @magickey_shop #1", "server": "168.119.174.229", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
@@ -41,6 +42,7 @@ proxies:
   - {"name": "🇭🇰 HK | VMESS | @outlinereleasedkey #1", "server": "nycqg19zkwacpm1b.v.3dns.vip", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "f23bb427-c1f9-4373-876c-2f43e9f790f3", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/ws-vmess", "headers": {"Host": "NYcQg19zkwaCPM1B.v.3dns.vip"}}}
   - {"name": "🇺🇸 US | VMESS | @proxy48 #1", "server": "188.114.97.3", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "f584de15-2034-4170-a723-f48c2bae5e0f", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkws", "headers": {"Host": "afrhms16v.bestxray.buzz"}}}
   - {"name": "🇺🇸 US | VMESS | @v2ray4win #1", "server": "45.85.118.88", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "ee30d3ff-da14-4ea8-bcd2-02e8ee3667de", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/aidapp.lifevws", "headers": {"Host": "hstr1675520106270.aidapp.life"}}}
+  - {"name": "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1", "server": "site.hooracoffee.ir", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "ed954dba-5ad5-4688-8174-247944361c38", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/www", "headers": {"Host": "site.hooracoffee.ir"}}}
   - {"name": "🇺🇸 US | VMESS | @vpngate_config #1", "server": "cold-dawn-9246.fly.dev", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm", "headers": {"Host": "cold-dawn-9246.fly.dev"}}}
 
 proxy-groups:
@@ -56,6 +58,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇩🇪 DE | VMESS | @NamiraConfigs #1'
+      - '🇩🇪 DE | VMESS | @NamiraConfigs #2'
       - '🇩🇪 DE | VMESS | @khoneproxy #1'
       - '🇮🇷 IR | VMESS | @khoneproxy #1'
       - '🇩🇪 DE | VMESS | @magickey_shop #1'
@@ -73,6 +76,7 @@ proxy-groups:
       - '🇭🇰 HK | VMESS | @outlinereleasedkey #1'
       - '🇺🇸 US | VMESS | @proxy48 #1'
       - '🇺🇸 US | VMESS | @v2ray4win #1'
+      - '🇮🇷 IR | VMESS | @v2rayngvpn_1 #1'
       - '🇺🇸 US | VMESS | @vpngate_config #1'
 
   - name: 🌍 Global Media

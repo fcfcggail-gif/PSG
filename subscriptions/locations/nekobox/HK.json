@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
-        "🇭🇰 HK | VLESS | @v2ray_collector #1"
+        "🇭🇰 HK | VLESS | @v2ray_collector #1",
+        "🇭🇰 HK | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
-        "🇭🇰 HK | VLESS | @v2ray_collector #1"
+        "🇭🇰 HK | VLESS | @v2ray_collector #1",
+        "🇭🇰 HK | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -143,6 +145,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇭🇰 HK | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "182.16.61.2",
+      "server_port": 45647,
+      "uuid": "caec0d8d-ab2f-4247-b97d-7fb1a34ab195",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

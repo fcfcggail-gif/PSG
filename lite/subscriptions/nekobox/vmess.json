@@ -81,6 +81,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VMESS | @NamiraConfigs #1",
+        "🇩🇪 DE | VMESS | @NamiraConfigs #2",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
@@ -98,6 +99,7 @@
         "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
+        "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "proxy",
@@ -110,6 +112,7 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VMESS | @NamiraConfigs #1",
+        "🇩🇪 DE | VMESS | @NamiraConfigs #2",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
@@ -127,6 +130,7 @@
         "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
+        "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "auto",
@@ -216,6 +220,15 @@
     },
     {
       "tag": "🇩🇪 DE | VMESS | @NamiraConfigs #1",
+      "type": "vmess",
+      "server": "82.198.246.37",
+      "server_port": 180,
+      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "tag": "🇩🇪 DE | VMESS | @NamiraConfigs #2",
       "type": "vmess",
       "server": "82.198.246.97",
       "server_port": 180,
@@ -588,6 +601,31 @@
         "path": "/aidapp.lifevws",
         "headers": {
           "Host": "hstr1675520106270.aidapp.life"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
+      "type": "vmess",
+      "server": "site.hooracoffee.ir",
+      "server_port": 443,
+      "uuid": "ed954dba-5ad5-4688-8174-247944361c38",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "site.hooracoffee.ir",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/www",
+        "headers": {
+          "Host": "site.hooracoffee.ir"
         }
       }
     },
