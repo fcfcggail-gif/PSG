@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇳🇿 NZ | VLESS | @outline_ir #1",
         "🇳🇿 NZ | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -98,6 +99,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇳🇿 NZ | VLESS | @outline_ir #1",
         "🇳🇿 NZ | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -108,6 +110,23 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇳🇿 NZ | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "202.37.33.80",
+      "server_port": 443,
+      "uuid": "5aafc2be-9348-4dec-b896-f4a91253bbca",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇳🇿 NZ | VLESS | @vpn_ioss #1",

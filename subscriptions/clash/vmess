@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇫🇮 FI | VMESS | @NamiraConfigs #1", "server": "65.109.178.10", "port": 2086, "type": "vmess", "skip-cert-verify": true, "uuid": "f6361af8-bb8f-4609-bf5d-3fc0f688f47b", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇩🇪 DE | VMESS | @NamiraConfigs #1", "server": "82.198.246.97", "port": 180, "type": "vmess", "skip-cert-verify": true, "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇩🇪 DE | VMESS | @khoneproxy #1", "server": "142.132.163.200", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "7f965e3e-b03f-455e-a96e-01b61f72537a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/graphql", "headers": {"Host": "142.132.163.200"}}}
   - {"name": "🇮🇷 IR | VMESS | @khoneproxy #1", "server": "37.32.23.122", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d12bc882-43c7-415e-87c5-2a7fdc8371c0", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/websocket/", "headers": {"Host": "37.32.23.122"}}}
@@ -33,6 +34,8 @@ proxies:
   - {"name": "🇩🇪 DE | VMESS | @vpn_ioss #1", "server": "82.198.246.37", "port": 180, "type": "vmess", "skip-cert-verify": true, "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇺🇸 US | VMESS | @vpn_ioss #1", "server": "165.140.216.141", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇬🇧 GB | VMESS | @vpn_ioss #1", "server": "66.163.117.58", "port": 22324, "type": "vmess", "skip-cert-verify": true, "uuid": "04621bae-ab36-11ec-b909-0242ac120002", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇽🇽 XX | VMESS | @NamiraConfigs #1", "server": "cdn-cloudflare455.korvexe.ir", "port": 2095, "type": "vmess", "skip-cert-verify": true, "uuid": "8000e374-6b7f-4bbf-b45f-2272657ed5f9", "alterId": 0, "cipher": "auto", "network": "httpupgrade", "tls": false}
+  - {"name": "🇽🇽 XX | VMESS | @NamiraConfigs #2", "server": "cdn-cloudflare455.korvexe.ir", "port": 2095, "type": "vmess", "skip-cert-verify": true, "uuid": "8000e374-6b7f-4bbf-b45f-2272657ed5f9", "alterId": 0, "cipher": "auto", "network": "httpupgrade", "tls": false}
   - {"name": "🇺🇸 US | VMESS | @freev2rays #1", "server": "xcf037.facai2024.com", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d9863037-0463-4615-e972-36ba9662d1e9", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/d9863037", "headers": {"Host": "xcf037.facai2024.com"}}}
   - {"name": "🇨🇿 CZ | VMESS | @freev2rays #1", "server": "time.is", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "b526926d-1474-4f41-985e-8b877cb840cd", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "shs111.kejixiaoqi666.store"}}}
   - {"name": "🇽🇽 XX | VMESS | @hope_net #1", "server": "104.19.45.243", "port": 2095, "type": "vmess", "skip-cert-verify": true, "uuid": "7a737f41-b792-4260-94ff-3d864da67b80", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "onea.flha.ru"}}}
@@ -68,6 +71,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇫🇮 FI | VMESS | @NamiraConfigs #1'
       - '🇩🇪 DE | VMESS | @NamiraConfigs #1'
       - '🇩🇪 DE | VMESS | @khoneproxy #1'
       - '🇮🇷 IR | VMESS | @khoneproxy #1'
@@ -78,6 +82,8 @@ proxy-groups:
       - '🇩🇪 DE | VMESS | @vpn_ioss #1'
       - '🇺🇸 US | VMESS | @vpn_ioss #1'
       - '🇬🇧 GB | VMESS | @vpn_ioss #1'
+      - '🇽🇽 XX | VMESS | @NamiraConfigs #1'
+      - '🇽🇽 XX | VMESS | @NamiraConfigs #2'
       - '🇺🇸 US | VMESS | @freev2rays #1'
       - '🇨🇿 CZ | VMESS | @freev2rays #1'
       - '🇽🇽 XX | VMESS | @hope_net #1'
