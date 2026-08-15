@@ -90,7 +90,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇷 FR | VLESS | @NamiraConfigs #1",
         "🇫🇷 FR | VLESS | @flyv2ray #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
@@ -98,9 +97,7 @@
         "🇫🇷 FR | VLESS | @mpproxy #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
         "🇫🇷 FR | SS | @outline_ir #1",
-        "🇫🇷 FR | VLESS | @outlinereleasedkey #1",
-        "🇫🇷 FR | VLESS | @privatevpns #1",
-        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
+        "🇫🇷 FR | TROJAN | @outlinereleasedkey #1",
         "🇫🇷 FR | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
@@ -109,7 +106,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇷 FR | VLESS | @NamiraConfigs #1",
         "🇫🇷 FR | VLESS | @flyv2ray #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
@@ -117,9 +113,7 @@
         "🇫🇷 FR | VLESS | @mpproxy #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
         "🇫🇷 FR | SS | @outline_ir #1",
-        "🇫🇷 FR | VLESS | @outlinereleasedkey #1",
-        "🇫🇷 FR | VLESS | @privatevpns #1",
-        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
+        "🇫🇷 FR | TROJAN | @outlinereleasedkey #1",
         "🇫🇷 FR | VLESS | @vmesc #1"
       ],
       "tag": "auto",
@@ -130,23 +124,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "finite-node.rtxconfigz.com",
-      "server_port": 443,
-      "uuid": "25f3beef-a4b6-40bc-aa74-17a0f89f683c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇫🇷 FR | VLESS | @flyv2ray #1",
@@ -237,28 +214,20 @@
       "password": null
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @outlinereleasedkey #1",
-      "type": "vless",
-      "server": "62.210.24.143",
-      "server_port": 32202,
-      "uuid": "28148be2-61a7-4f36-8adb-030cc9f82bd0",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @privatevpns #1",
-      "type": "vless",
-      "server": "13.37.191.103",
-      "server_port": 22222,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "162.19.156.14",
-      "server_port": 6800,
-      "uuid": "7595cd50-9326-48e4-a7bc-802e85e643ec",
-      "packet_encoding": "xudp"
+      "tag": "🇫🇷 FR | TROJAN | @outlinereleasedkey #1",
+      "type": "trojan",
+      "server": "star-kiwi.rooster465.autos",
+      "server_port": 443,
+      "password": "ND91608427",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇫🇷 FR | VLESS | @vmesc #1",
