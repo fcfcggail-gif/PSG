@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇦🇹 AT | VLESS | @NamiraConfigs #1", "server": "185.126.236.181", "port": 2052, "type": "vless", "skip-cert-verify": true, "uuid": "daa34529-5219-4323-d26a-2c395b25a56d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇦🇹 AT | TROJAN | @mpproxy #1", "server": "152.53.45.251", "port": 8888, "type": "trojan", "skip-cert-verify": false, "password": "trojan"}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇦🇹 AT | VLESS | @NamiraConfigs #1'
       - '🇦🇹 AT | TROJAN | @mpproxy #1'
 
   - name: 🌍 Global Media

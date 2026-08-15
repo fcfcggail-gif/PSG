@@ -77,10 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇹🇷 TR | VLESS | @configv2rayforfree #1",
         "🇹🇷 TR | VLESS | @netmellianti #1",
         "🇹🇷 TR | VLESS | @orange_vpns #1",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
-        "🇹🇷 TR | VLESS | @v2raych #1"
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,10 +88,10 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇹🇷 TR | VLESS | @configv2rayforfree #1",
         "🇹🇷 TR | VLESS | @netmellianti #1",
         "🇹🇷 TR | VLESS | @orange_vpns #1",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
-        "🇹🇷 TR | VLESS | @v2raych #1"
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -105,6 +105,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @configv2rayforfree #1",
+      "type": "vless",
+      "server": "45.74.178.41",
+      "server_port": 719,
+      "uuid": "ae9bcc43-5fd8-4891-b06e-1c93e2747ed9",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇹🇷 TR | VLESS | @netmellianti #1",
@@ -134,32 +142,10 @@
     {
       "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "dashbourd.speedmizban.net",
-      "server_port": 80,
-      "uuid": "a771a06c-3ddc-4f25-a0da-1bab830059b0",
+      "server": "91.228.186.215",
+      "server_port": 8282,
+      "uuid": "f76c1fb2-47ef-4b15-9901-69a5656afdb4",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "146.103.26.96",
-      "server_port": 37211,
-      "uuid": "f8fd2381-40ea-4b46-973b-f9dab2eed50b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     }
   ],
   "route": {
