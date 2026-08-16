@@ -90,7 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇯🇵 JP | VLESS | @megavpn_link #1"
+        "🇯🇵 JP | VLESS | @megavpn_link #1",
+        "🇯🇵 JP | TROJAN | @outlinereleasedkey #1",
+        "🇯🇵 JP | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇯🇵 JP | VLESS | @megavpn_link #1"
+        "🇯🇵 JP | VLESS | @megavpn_link #1",
+        "🇯🇵 JP | TROJAN | @outlinereleasedkey #1",
+        "🇯🇵 JP | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -125,6 +129,30 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇯🇵 JP | TROJAN | @outlinereleasedkey #1",
+      "type": "trojan",
+      "server": "social-mutt.rooster465.autos",
+      "server_port": 443,
+      "password": "ND91608427",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 JP | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "176.97.73.215",
+      "server_port": 8388,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptYTZ6YzRKb0xSSkE=",
+      "password": null
     }
   ],
   "route": {

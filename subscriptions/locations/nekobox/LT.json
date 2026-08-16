@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇹 LT | VLESS | @orange_vpns #1"
+        "🇱🇹 LT | VLESS | @orange_vpns #1",
+        "🇱🇹 LT | VLESS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇹 LT | VLESS | @orange_vpns #1"
+        "🇱🇹 LT | VLESS | @orange_vpns #1",
+        "🇱🇹 LT | VLESS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -107,6 +109,23 @@
       "server_port": 37801,
       "uuid": "965f5b8b-b762-4281-bb45-60fb1e346c94",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇱🇹 LT | VLESS | @outlinereleasedkey #1",
+      "type": "vless",
+      "server": "84.32.209.7",
+      "server_port": 443,
+      "uuid": "f1c496bf-d2ab-45be-bc13-051d60d227b7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
