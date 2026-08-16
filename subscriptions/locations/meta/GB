@@ -25,7 +25,9 @@ dns:
 proxies: 
   - {"name": "🇬🇧 GB | VMESS | @NamiraConfigs #1", "server": "66.163.117.58", "port": 22324, "type": "vmess", "skip-cert-verify": true, "uuid": "04621bae-ab36-11ec-b909-0242ac120002", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇬🇧 GB | VLESS | @orange_vpns #1", "server": "uk2.levikogjgfdd.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a6f6d9c9-9d43-4d0e-bf95-4b87cc5bbaac", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇬🇧 GB | VLESS | @red2ray #1", "server": "31.76.39.176", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "7a3fa6b9-e862-4b3f-b742-a9168c4fa3b6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇬🇧 GB | VLESS | @v2raych #1", "server": "gb1.murhost.network", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a6f6d9c9-9d43-4d0e-bf95-4b87cc5bbaac", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VLESS | @v2raych #2", "server": "82.39.154.230", "port": 8458, "type": "vless", "skip-cert-verify": true, "uuid": "09a8d436-03d5-40bc-a06e-bb6541802c47", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VLESS | @vpn_ioss #1", "server": "164.37.104.234", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a6f6d9c9-9d43-4d0e-bf95-4b87cc5bbaac", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,7 +43,9 @@ proxy-groups:
     proxies: 
       - '🇬🇧 GB | VMESS | @NamiraConfigs #1'
       - '🇬🇧 GB | VLESS | @orange_vpns #1'
-      - '🇬🇧 GB | VLESS | @red2ray #1'
+      - '🇬🇧 GB | VLESS | @v2raych #1'
+      - '🇬🇧 GB | VLESS | @v2raych #2'
+      - '🇬🇧 GB | VLESS | @vpn_ioss #1'
 
   - name: 🌍 Global Media
     type: select
