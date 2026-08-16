@@ -23,8 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇷🇺 RU | VLESS | @NamiraConfigs #1", "server": "77.222.37.89", "port": 2200, "type": "vless", "skip-cert-verify": true, "uuid": "b79c54f3-68e9-4e9d-8b57-22cbbe978730", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇷🇺 RU | VLESS | @NamiraConfigs #2", "server": "185.247.16.117", "port": 2200, "type": "vless", "skip-cert-verify": true, "uuid": "b79c54f3-68e9-4e9d-8b57-22cbbe978730", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @free1_vpn #1", "server": "188.225.83.179", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ff1b0b50-70dc-4bae-866e-55cff86f4d6d", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VLESS | @jiedianf #1", "server": "2.26.8.55", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "10ea33f2-1a66-4dec-99f2-8068a6b56a45", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
   - {"name": "🇷🇺 RU | VLESS | @mt_proxy #1", "server": "qq.utiltools.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
@@ -34,9 +32,9 @@ proxies:
   - {"name": "🇷🇺 RU | VLESS | @nofiltering2 #3", "server": "78.159.250.214", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VLESS | @nofiltering2 #4", "server": "78.159.250.214", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VLESS | @selinc #1", "server": "qq.utiltools.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇷🇺 RU | VLESS | @v2raych #1", "server": "45.151.30.127", "port": 9873, "type": "vless", "skip-cert-verify": true, "uuid": "2a650f3b-d95b-4bd6-aadf-16ccc0717155", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @v2raytg #1", "server": "b02.connectv.net", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "c65ca957-329a-0001-8e62-eaaa48468833", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇷🇺 RU | VLESS | @vmesskhodam #1", "server": "185.103.100.134", "port": 4100, "type": "vless", "skip-cert-verify": true, "uuid": "269c4c7d-6e37-4c63-9a8f-2f162bd892a3", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @vpn_ioss #1", "server": "92.42.96.240", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "mahanvpn-mahanvpn", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -50,8 +48,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇷🇺 RU | VLESS | @NamiraConfigs #1'
-      - '🇷🇺 RU | VLESS | @NamiraConfigs #2'
       - '🇷🇺 RU | VLESS | @free1_vpn #1'
       - '🇷🇺 RU | VLESS | @jiedianf #1'
       - '🇷🇺 RU | VLESS | @mt_proxy #1'
@@ -61,9 +57,9 @@ proxy-groups:
       - '🇷🇺 RU | VLESS | @nofiltering2 #3'
       - '🇷🇺 RU | VLESS | @nofiltering2 #4'
       - '🇷🇺 RU | VLESS | @selinc #1'
-      - '🇷🇺 RU | VLESS | @v2raych #1'
       - '🇷🇺 RU | VLESS | @v2raytg #1'
       - '🇷🇺 RU | VLESS | @vmesskhodam #1'
+      - '🇷🇺 RU | VLESS | @vpn_ioss #1'
 
   - name: 🌍 Global Media
     type: select

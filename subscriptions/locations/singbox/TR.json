@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @orange_vpns #1"
+        "🇹🇷 TR | VLESS | @orange_vpns #1",
+        "🇹🇷 TR | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @orange_vpns #1"
+        "🇹🇷 TR | VLESS | @orange_vpns #1",
+        "🇹🇷 TR | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -111,6 +113,23 @@
     },
     {
       "tag": "🇹🇷 TR | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "141.98.118.70",
+      "server_port": 443,
+      "uuid": "de64aaa6-a0ea-48d0-853b-1c3cbc7fb42c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @red2ray #1",
       "type": "vless",
       "server": "141.98.118.70",
       "server_port": 443,
