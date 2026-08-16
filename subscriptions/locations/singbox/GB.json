@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇬🇧 GB | VMESS | @NamiraConfigs #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | VLESS | @orange_vpns #1",
@@ -104,6 +105,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇬🇧 GB | VMESS | @NamiraConfigs #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | VLESS | @orange_vpns #1",
@@ -120,6 +122,15 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇬🇧 GB | VMESS | @NamiraConfigs #1",
+      "type": "vmess",
+      "server": "66.163.117.58",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇬🇧 GB | SS | @free4allvpn #1",
@@ -140,10 +151,24 @@
     {
       "tag": "🇬🇧 GB | VLESS | @orange_vpns #1",
       "type": "vless",
-      "server": "169.197.113.179",
-      "server_port": 20190,
-      "uuid": "ad4dd89a-2e4b-4f33-bb96-7e9c4eb85d0b",
-      "packet_encoding": "xudp"
+      "server": "uk2.levikogjgfdd.ir",
+      "server_port": 443,
+      "uuid": "a6f6d9c9-9d43-4d0e-bf95-4b87cc5bbaac",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇬🇧 GB | SS | @torang_vpn #1",

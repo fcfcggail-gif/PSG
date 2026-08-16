@@ -134,6 +134,7 @@
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇺🇸 US | VLESS | @orange_vpns #1",
+        "🇽🇽 XX | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @prooxyk #1",
         "🇽🇽 XX | VLESS | @proxy48 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
@@ -147,10 +148,11 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
-        "🇽🇽 XX | VLESS | @v2raych #2",
+        "🇺🇸 US | VLESS | @v2raych #1",
+        "🇴🇲 OM | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
         "🇺🇸 US | VLESS | @v2rayprotocol #1",
@@ -212,6 +214,7 @@
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇺🇸 US | VLESS | @orange_vpns #1",
+        "🇽🇽 XX | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @prooxyk #1",
         "🇽🇽 XX | VLESS | @proxy48 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #1",
@@ -225,10 +228,11 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
-        "🇽🇽 XX | VLESS | @v2raych #2",
+        "🇺🇸 US | VLESS | @v2raych #1",
+        "🇴🇲 OM | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
         "🇺🇸 US | VLESS | @v2rayprotocol #1",
@@ -830,6 +834,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇽🇽 XX | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "c2.nyanners.ir",
+      "server_port": 443,
+      "uuid": "956d6917-0f67-4515-aafa-d6210312648d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @prooxyk #1",
       "type": "vless",
       "server": "avalpardakht.com",
@@ -993,17 +1014,19 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "de22.fastplus7.site",
-      "server_port": 2086,
-      "uuid": "0d1c3cee-2952-4a3e-a03e-fbe99d32dc72",
+      "server": "cpanel.mizban-b.site",
+      "server_port": 443,
+      "uuid": "f1679e17-47a4-42d1-8e9f-6c3e2be19674",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -1024,11 +1047,28 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @v2raych #2",
+      "tag": "🇺🇸 US | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "18telegram.com.zapas.iran.janebicall.ir",
-      "server_port": 2087,
-      "uuid": "725a4f7d-a997-4bc9-9cdf-e6a88de05a5d",
+      "server": "rvg-production-9909.up.railway.app",
+      "server_port": 443,
+      "uuid": "8d67bb91-2a75-dd88-44f5-ed7771727a7b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇴🇲 OM | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "omdr.whooisthebest.ir",
+      "server_port": 33353,
+      "uuid": "395ee0ee-4342-472a-9d2b-40a562a0eaa1",
       "packet_encoding": "xudp"
     },
     {
