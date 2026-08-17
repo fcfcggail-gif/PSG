@@ -97,12 +97,16 @@
         "🇷🇺 RU | VLESS | @mt_proxy #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
-        "🇬🇧 GB | VLESS | @orange_vpns #1",
+        "🇳🇱 NL | VLESS | @orange_vpns #1",
+        "🇬🇧 GB | VLESS | @orange_vpns #2",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
-        "🇩🇪 DE | VLESS | @prrofile_purple #1",
+        "🇬🇧 GB | VLESS | @red2ray #1",
         "🇷🇺 RU | VLESS | @selinc #1",
         "🇮🇹 IT | VLESS | @selinc #1",
         "🇮🇹 IT | VLESS | @v2ray_collector #1",
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VLESS | @v2raych #1",
+        "🇮🇷 IR | VLESS | @v2raych #2",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
         "🇷🇺 RU | VLESS | @v2raytg #1"
@@ -120,12 +124,16 @@
         "🇷🇺 RU | VLESS | @mt_proxy #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
-        "🇬🇧 GB | VLESS | @orange_vpns #1",
+        "🇳🇱 NL | VLESS | @orange_vpns #1",
+        "🇬🇧 GB | VLESS | @orange_vpns #2",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
-        "🇩🇪 DE | VLESS | @prrofile_purple #1",
+        "🇬🇧 GB | VLESS | @red2ray #1",
         "🇷🇺 RU | VLESS | @selinc #1",
         "🇮🇹 IT | VLESS | @selinc #1",
         "🇮🇹 IT | VLESS | @v2ray_collector #1",
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VLESS | @v2raych #1",
+        "🇮🇷 IR | VLESS | @v2raych #2",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
         "🇷🇺 RU | VLESS | @v2raytg #1"
@@ -300,7 +308,25 @@
       }
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @orange_vpns #1",
+      "tag": "🇳🇱 NL | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "direct-nl.bachidze.com",
+      "server_port": 443,
+      "uuid": "f7c25743-140c-4d32-a296-a53bc49682d8",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @orange_vpns #2",
       "type": "vless",
       "server": "uk2.levikogjgfdd.ir",
       "server_port": 443,
@@ -330,11 +356,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @prrofile_purple #1",
+      "tag": "🇬🇧 GB | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "grid.onetimeok.com",
-      "server_port": 443,
-      "uuid": "86208db7-8bbc-42c2-9eb2-ffe5675502c3",
+      "server": "sitea.awexco.shop",
+      "server_port": 2020,
+      "uuid": "00b41e07-68e6-46b0-928f-a02becd4e398",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -343,6 +369,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -383,6 +414,72 @@
       "server_port": 8008,
       "uuid": "b91abe1a-80ca-417b-998b-2b542661c16f",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "d.telewebion.ir.varzesh3.com.de",
+      "server_port": 443,
+      "uuid": "c8098c37-d9db-4824-8f82-642a932c5d14",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "turkey.blueheartz.ir",
+      "server_port": 27632,
+      "uuid": "9a5d9060-f69c-4394-9028-e75f9a0db37f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "turkey.blueheartz.ir",
+      "server_port": 27632,
+      "uuid": "9a5d9060-f69c-4394-9028-e75f9a0db37f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @v2raying #1",

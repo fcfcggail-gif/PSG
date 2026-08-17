@@ -23,8 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇬🇧 GB | VLESS | @orange_vpns #1", "server": "uk2.levikogjgfdd.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a6f6d9c9-9d43-4d0e-bf95-4b87cc5bbaac", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇬🇧 GB | VMESS | @vpn_ioss #1", "server": "66.163.117.58", "port": 22324, "type": "vmess", "skip-cert-verify": true, "uuid": "04621bae-ab36-11ec-b909-0242ac120002", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇬🇧 GB | VLESS | @orange_vpns #1", "server": "169.197.113.179", "port": 20190, "type": "vless", "skip-cert-verify": true, "uuid": "ad4dd89a-2e4b-4f33-bb96-7e9c4eb85d0b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VLESS | @orange_vpns #2", "server": "uk2.levikogjgfdd.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a6f6d9c9-9d43-4d0e-bf95-4b87cc5bbaac", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇬🇧 GB | VLESS | @red2ray #1", "server": "sitea.awexco.shop", "port": 2020, "type": "vless", "skip-cert-verify": true, "uuid": "00b41e07-68e6-46b0-928f-a02becd4e398", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇬🇧 GB | VLESS | @vpn_ioss #1", "server": "164.37.104.234", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a6f6d9c9-9d43-4d0e-bf95-4b87cc5bbaac", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,7 +41,9 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇬🇧 GB | VLESS | @orange_vpns #1'
-      - '🇬🇧 GB | VMESS | @vpn_ioss #1'
+      - '🇬🇧 GB | VLESS | @orange_vpns #2'
+      - '🇬🇧 GB | VLESS | @red2ray #1'
+      - '🇬🇧 GB | VLESS | @vpn_ioss #1'
 
   - name: 🌍 Global Media
     type: select

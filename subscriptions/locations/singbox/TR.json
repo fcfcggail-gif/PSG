@@ -91,10 +91,7 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @orange_vpns #1",
-        "🇹🇷 TR | VLESS | @outline_ir #1",
-        "🇹🇷 TR | SS | @outlinereleasedkey #1",
-        "🇹🇷 TR | VLESS | @red2ray #1",
-        "🇹🇷 TR | VMESS | @v2raych #1"
+        "🇹🇷 TR | SS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -103,10 +100,7 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @orange_vpns #1",
-        "🇹🇷 TR | VLESS | @outline_ir #1",
-        "🇹🇷 TR | SS | @outlinereleasedkey #1",
-        "🇹🇷 TR | VLESS | @red2ray #1",
-        "🇹🇷 TR | VMESS | @v2raych #1"
+        "🇹🇷 TR | SS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -126,58 +120,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @outline_ir #1",
-      "type": "vless",
-      "server": "89.251.8.180",
-      "server_port": 43080,
-      "uuid": "64430c88-1b87-48b2-b472-135a3f4c765e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇹🇷 TR | SS | @outlinereleasedkey #1",
       "type": "shadowsocks",
       "server": "tr-1.stunnel.cc",
       "server_port": 8444,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp0dW5uZWwtZmJyb2Y=",
       "password": null
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "custom.zelnora.ir",
-      "server_port": 64584,
-      "uuid": "a19bdc9c-042f-4ee6-a1a7-3dedd2ef337b",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | VMESS | @v2raych #1",
-      "type": "vmess",
-      "server": "193.111.78.106",
-      "server_port": 58304,
-      "uuid": "26b6fd32-04e6-43ff-a065-bea36f748655",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": ""
-        }
-      }
     }
   ],
   "route": {
