@@ -94,7 +94,9 @@
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
-        "🇫🇷 FR | VLESS | @mpproxy #1"
+        "🇫🇷 FR | VLESS | @mpproxy #1",
+        "🇫🇷 FR | TROJAN | @v2ray_collector #1",
+        "🇫🇷 FR | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -106,7 +108,9 @@
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
-        "🇫🇷 FR | VLESS | @mpproxy #1"
+        "🇫🇷 FR | VLESS | @mpproxy #1",
+        "🇫🇷 FR | TROJAN | @v2ray_collector #1",
+        "🇫🇷 FR | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -174,6 +178,44 @@
       "server_port": 4433,
       "uuid": "00000000-0000-4000-8000-000000000000",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇷 FR | TROJAN | @v2ray_collector #1",
+      "type": "trojan",
+      "server": "fancy-skink.rooster465.autos",
+      "server_port": 443,
+      "password": "ND91608427",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "162.19.156.14",
+      "server_port": 6800,
+      "uuid": "7595cd50-9326-48e4-a7bc-802e85e643ec",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

@@ -82,7 +82,8 @@
         "KingRezaPahlavi",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #2",
-        "🇰🇷 KR | TROJAN | @v2ray_collector #1"
+        "🇫🇷 FR | TROJAN | @v2ray_collector #1",
+        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -95,7 +96,8 @@
         "KingRezaPahlavi",
         "🇽🇽 XX | TROJAN | @teamvpnpro #1",
         "🇽🇽 XX | TROJAN | @teamvpnpro #2",
-        "🇰🇷 KR | TROJAN | @v2ray_collector #1"
+        "🇫🇷 FR | TROJAN | @v2ray_collector #1",
+        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -215,11 +217,27 @@
       }
     },
     {
-      "tag": "🇰🇷 KR | TROJAN | @v2ray_collector #1",
+      "tag": "🇫🇷 FR | TROJAN | @v2ray_collector #1",
       "type": "trojan",
-      "server": "communal-sunbird.rooster465.autos",
+      "server": "fancy-skink.rooster465.autos",
       "server_port": 443,
       "password": "ND91608427",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
+      "type": "trojan",
+      "server": "blackshadow.dpdns.org",
+      "server_port": 443,
+      "password": "2bcfbfba-b446-4ad5-93ad-72af9e008f61",
       "tls": {
         "enabled": true,
         "server_name": "",

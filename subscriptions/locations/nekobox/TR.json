@@ -80,7 +80,8 @@
         "🇹🇷 TR | VLESS | @orange_vpns #1",
         "🇹🇷 TR | VLESS | @outline_ir #1",
         "🇹🇷 TR | SS | @outlinereleasedkey #1",
-        "🇹🇷 TR | VLESS | @red2ray #1"
+        "🇹🇷 TR | VLESS | @red2ray #1",
+        "🇹🇷 TR | VMESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -91,7 +92,8 @@
         "🇹🇷 TR | VLESS | @orange_vpns #1",
         "🇹🇷 TR | VLESS | @outline_ir #1",
         "🇹🇷 TR | SS | @outlinereleasedkey #1",
-        "🇹🇷 TR | VLESS | @red2ray #1"
+        "🇹🇷 TR | VLESS | @red2ray #1",
+        "🇹🇷 TR | VMESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -109,9 +111,9 @@
     {
       "tag": "🇹🇷 TR | VLESS | @orange_vpns #1",
       "type": "vless",
-      "server": "188.132.174.237",
-      "server_port": 22753,
-      "uuid": "c5721b62-ba28-4cd0-b2e8-aad2eec644f4",
+      "server": "89.251.8.180",
+      "server_port": 43080,
+      "uuid": "64430c88-1b87-48b2-b472-135a3f4c765e",
       "packet_encoding": "xudp"
     },
     {
@@ -151,6 +153,22 @@
       "server_port": 64584,
       "uuid": "a19bdc9c-042f-4ee6-a1a7-3dedd2ef337b",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VMESS | @v2raych #1",
+      "type": "vmess",
+      "server": "193.111.78.106",
+      "server_port": 58304,
+      "uuid": "26b6fd32-04e6-43ff-a065-bea36f748655",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
+        }
+      }
     }
   ],
   "route": {

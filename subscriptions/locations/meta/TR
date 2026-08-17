@@ -23,9 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇷 TR | VLESS | @orange_vpns #1", "server": "188.132.174.237", "port": 22753, "type": "vless", "skip-cert-verify": true, "uuid": "c5721b62-ba28-4cd0-b2e8-aad2eec644f4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @orange_vpns #1", "server": "89.251.8.180", "port": 43080, "type": "vless", "skip-cert-verify": true, "uuid": "64430c88-1b87-48b2-b472-135a3f4c765e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇹🇷 TR | VLESS | @outline_ir #1", "server": "89.251.8.180", "port": 43080, "type": "vless", "skip-cert-verify": true, "uuid": "64430c88-1b87-48b2-b472-135a3f4c765e", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇹🇷 TR | VLESS | @red2ray #1", "server": "custom.zelnora.ir", "port": 64584, "type": "vless", "skip-cert-verify": true, "uuid": "a19bdc9c-042f-4ee6-a1a7-3dedd2ef337b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VMESS | @v2raych #1", "server": "193.111.78.106", "port": 58304, "type": "vmess", "skip-cert-verify": true, "uuid": "26b6fd32-04e6-43ff-a065-bea36f748655", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "193.111.78.106"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -42,6 +43,7 @@ proxy-groups:
       - '🇹🇷 TR | VLESS | @orange_vpns #1'
       - '🇹🇷 TR | VLESS | @outline_ir #1'
       - '🇹🇷 TR | VLESS | @red2ray #1'
+      - '🇹🇷 TR | VMESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select
