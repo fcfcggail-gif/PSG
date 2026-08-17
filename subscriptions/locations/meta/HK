@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇭🇰 HK | TROJAN | @outlinereleasedkey #1", "server": "185.244.208.13", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "ND91608427"}
+  - {"name": "🇭🇰 HK | VLESS | @NamiraConfigs #1", "server": "182.16.61.2", "port": 45647, "type": "vless", "skip-cert-verify": true, "uuid": "caec0d8d-ab2f-4247-b97d-7fb1a34ab195", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇭🇰 HK | VLESS | @v2ray_free_conf #1", "server": "182.16.61.4", "port": 45647, "type": "vless", "skip-cert-verify": true, "uuid": "431fe973-a43a-4fac-bf83-2a772e0d0625", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇭🇰 HK | TROJAN | @outlinereleasedkey #1'
+      - '🇭🇰 HK | VLESS | @NamiraConfigs #1'
+      - '🇭🇰 HK | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select
