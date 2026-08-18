@@ -93,10 +93,11 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇬🇧 GB | VMESS | @NamiraConfigs #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇮🇷 IR | VMESS | @mtproxy22_v2ray #1"
+        "🇩🇪 DE | VMESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -107,10 +108,11 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇬🇧 GB | VMESS | @NamiraConfigs #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇮🇷 IR | VMESS | @mtproxy22_v2ray #1"
+        "🇩🇪 DE | VMESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -194,6 +196,15 @@
       }
     },
     {
+      "tag": "🇬🇧 GB | VMESS | @NamiraConfigs #1",
+      "type": "vmess",
+      "server": "66.163.117.58",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
       "tag": "🇩🇪 DE | VMESS | @khoneproxy #1",
       "type": "vmess",
       "server": "142.132.163.200",
@@ -253,20 +264,18 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VMESS | @mtproxy22_v2ray #1",
+      "tag": "🇩🇪 DE | VMESS | @v2ray_free_conf #1",
       "type": "vmess",
-      "server": "176.120.17.21",
-      "server_port": 1015,
-      "uuid": "5af8c5cc-7317-4542-8908-81be05ea1d1b",
+      "server": "68.183.209.180",
+      "server_port": 80,
+      "uuid": "d5121154-ced6-460d-a9fd-5892027ab4a0",
       "security": "auto",
       "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "astra.iraniangamersclub.ir",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+      "transport": {
+        "type": "ws",
+        "path": "/graphql",
+        "headers": {
+          "Host": ""
         }
       }
     }

@@ -23,7 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇬🇧 GB | VMESS | @NamiraConfigs #1", "server": "66.163.117.58", "port": 22324, "type": "vmess", "skip-cert-verify": true, "uuid": "04621bae-ab36-11ec-b909-0242ac120002", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇬🇧 GB | VLESS | @orange_vpns #1", "server": "uk2.levikogjgfdd.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a6f6d9c9-9d43-4d0e-bf95-4b87cc5bbaac", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇬🇧 GB | VLESS | @v2raych #1", "server": "132.243.207.38", "port": 4443, "type": "vless", "skip-cert-verify": true, "uuid": "1f35c4eb-e4fa-5a62-b0e1-b557983b34c7", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇬🇧 GB | VMESS | @NamiraConfigs #1'
       - '🇬🇧 GB | VLESS | @orange_vpns #1'
+      - '🇬🇧 GB | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

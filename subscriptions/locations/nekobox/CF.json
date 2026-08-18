@@ -78,7 +78,7 @@
         "auto",
         "direct",
         "🇽🇽 XX | VLESS | @Fr33C0nfig #1",
-        "🇽🇽 XX | VLESS | @NamiraConfigs #2",
+        "🇽🇽 XX | VLESS | @NamiraConfigs #1",
         "🇽🇽 XX | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @ai_duet #2",
         "🇽🇽 XX | VLESS | @ai_duet #3",
@@ -112,6 +112,7 @@
         "🇽🇽 XX | VLESS | @free1_vpn #1",
         "🇽🇽 XX | VLESS | @free1_vpn #2",
         "🇽🇽 XX | VLESS | @free1_vpn #3",
+        "🇽🇽 XX | VLESS | @free1_vpn #4",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #2",
         "🇽🇽 XX | VLESS | @freev2flyng #1",
@@ -259,17 +260,13 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
         "🇽🇽 XX | VLESS | @v2ray_youtube #4",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
-        "🇽🇽 XX | VLESS | @v2raych #1",
-        "🇽🇽 XX | VLESS | @v2raych #2",
-        "🇽🇽 XX | VLESS | @v2raych #3",
-        "🇽🇽 XX | VLESS | @v2raych #4",
-        "🇽🇽 XX | VLESS | @v2raych #5",
         "🇽🇽 XX | VMESS | @v2rayng3 #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
@@ -324,7 +321,7 @@
       "interval": "10m",
       "outbounds": [
         "🇽🇽 XX | VLESS | @Fr33C0nfig #1",
-        "🇽🇽 XX | VLESS | @NamiraConfigs #2",
+        "🇽🇽 XX | VLESS | @NamiraConfigs #1",
         "🇽🇽 XX | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @ai_duet #2",
         "🇽🇽 XX | VLESS | @ai_duet #3",
@@ -358,6 +355,7 @@
         "🇽🇽 XX | VLESS | @free1_vpn #1",
         "🇽🇽 XX | VLESS | @free1_vpn #2",
         "🇽🇽 XX | VLESS | @free1_vpn #3",
+        "🇽🇽 XX | VLESS | @free1_vpn #4",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #2",
         "🇽🇽 XX | VLESS | @freev2flyng #1",
@@ -505,17 +503,13 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
         "🇽🇽 XX | VLESS | @v2ray_youtube #4",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
-        "🇽🇽 XX | VLESS | @v2raych #1",
-        "🇽🇽 XX | VLESS | @v2raych #2",
-        "🇽🇽 XX | VLESS | @v2raych #3",
-        "🇽🇽 XX | VLESS | @v2raych #4",
-        "🇽🇽 XX | VLESS | @v2raych #5",
         "🇽🇽 XX | VMESS | @v2rayng3 #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
@@ -585,12 +579,21 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @NamiraConfigs #2",
+      "tag": "🇽🇽 XX | VLESS | @NamiraConfigs #1",
       "type": "vless",
-      "server": "104.21.23.72",
-      "server_port": 8880,
-      "uuid": "48c20f0a-c2a4-453f-8a61-ec73ea7829c5",
-      "packet_encoding": "xudp"
+      "server": "172.67.161.109",
+      "server_port": 443,
+      "uuid": "13da3f61-36bc-4f4f-9b49-4152de570bd3",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @ai_duet #1",
@@ -955,7 +958,7 @@
     {
       "tag": "🇽🇽 XX | VLESS | @free1_vpn #2",
       "type": "vless",
-      "server": "104.18.37.228",
+      "server": "172.66.44.97",
       "server_port": 443,
       "uuid": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
       "packet_encoding": "xudp",
@@ -971,6 +974,23 @@
     },
     {
       "tag": "🇽🇽 XX | VLESS | @free1_vpn #3",
+      "type": "vless",
+      "server": "104.18.37.228",
+      "server_port": 443,
+      "uuid": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @free1_vpn #4",
       "type": "vless",
       "server": "172.66.44.97",
       "server_port": 443,
@@ -2874,6 +2894,14 @@
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
       "type": "vless",
+      "server": "104.18.1.1",
+      "server_port": 2087,
+      "uuid": "97ea73b6-2043-4238-903c-a1e3d4a43c96",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
       "server": "188.114.97.4",
       "server_port": 443,
       "uuid": "cf39fab0-bb85-42cb-9945-2ad69d78e575",
@@ -2962,73 +2990,6 @@
       "server_port": 2083,
       "uuid": "266169d9-665f-4fed-b1a8-da29794ee3cd",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "172.67.74.10",
-      "server_port": 443,
-      "uuid": "577699f7-468d-4b63-ae21-cdcdfd8d11c2",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "172.67.74.10",
-      "server_port": 443,
-      "uuid": "577699f7-468d-4b63-ae21-cdcdfd8d11c2",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2raych #3",
-      "type": "vless",
-      "server": "www.zsu.gov.ua",
-      "server_port": 8880,
-      "uuid": "5c7a171d-de8a-446d-accc-4d3cf7d473f4",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2raych #4",
-      "type": "vless",
-      "server": "www.zsu.gov.ua",
-      "server_port": 8880,
-      "uuid": "5c7a171d-de8a-446d-accc-4d3cf7d473f4",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2raych #5",
-      "type": "vless",
-      "server": "104.26.14.85",
-      "server_port": 443,
-      "uuid": "cf39fab0-bb85-42cb-9945-2ad69d78e575",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇽🇽 XX | VMESS | @v2rayng3 #1",
