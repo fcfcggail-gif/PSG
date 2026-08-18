@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇭🇰 HK | VLESS | @NamiraConfigs #1",
-        "🇭🇰 HK | VLESS | @v2ray_free_conf #1"
+        "🇭🇰 HK | VLESS | @NamiraConfigs #2",
+        "🇭🇰 HK | VMESS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇭🇰 HK | VLESS | @NamiraConfigs #1",
-        "🇭🇰 HK | VLESS | @v2ray_free_conf #1"
+        "🇭🇰 HK | VLESS | @NamiraConfigs #2",
+        "🇭🇰 HK | VMESS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -111,12 +113,37 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇭🇰 HK | VLESS | @v2ray_free_conf #1",
+      "tag": "🇭🇰 HK | VLESS | @NamiraConfigs #2",
       "type": "vless",
       "server": "182.16.61.4",
       "server_port": 45647,
       "uuid": "431fe973-a43a-4fac-bf83-2a772e0d0625",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
+      "type": "vmess",
+      "server": "n1761296892.4u9ma.icu",
+      "server_port": 443,
+      "uuid": "d6db128f-42b9-40b1-b979-5e0095fa593c",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "n1761296892.4u9ma.icu",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "n1761296892.4u9ma.icu"
+        }
+      }
     }
   ],
   "route": {
