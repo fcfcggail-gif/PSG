@@ -80,7 +80,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇬🇧 GB | VMESS | @NamiraConfigs #1",
         "🇩🇪 DE | VMESS | @NamiraConfigs #1",
         "🇩🇪 DE | VMESS | @NamiraConfigs #2",
         "🇩🇪 DE | VMESS | @NamiraConfigs #3",
@@ -90,7 +89,8 @@
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇩🇪 DE | VMESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VMESS | @vpn_ioss #1",
+        "🇬🇧 GB | VMESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇨🇿 CZ | VMESS | @freev2rays #1",
         "🇽🇽 XX | VMESS | @hope_net #1",
@@ -109,7 +109,8 @@
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
-        "🇩🇪 DE | VMESS | @v2ray_collector #1",
+        "🇭🇰 HK | VMESS | @v2ray_collector #1",
+        "🇽🇽 XX | VMESS | @v2ray_collector #1",
         "🇽🇽 XX | VMESS | @v2rayng3 #1",
         "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
@@ -123,7 +124,6 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇬🇧 GB | VMESS | @NamiraConfigs #1",
         "🇩🇪 DE | VMESS | @NamiraConfigs #1",
         "🇩🇪 DE | VMESS | @NamiraConfigs #2",
         "🇩🇪 DE | VMESS | @NamiraConfigs #3",
@@ -133,7 +133,8 @@
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇩🇪 DE | VMESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VMESS | @vpn_ioss #1",
+        "🇬🇧 GB | VMESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇨🇿 CZ | VMESS | @freev2rays #1",
         "🇽🇽 XX | VMESS | @hope_net #1",
@@ -152,7 +153,8 @@
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
-        "🇩🇪 DE | VMESS | @v2ray_collector #1",
+        "🇭🇰 HK | VMESS | @v2ray_collector #1",
+        "🇽🇽 XX | VMESS | @v2ray_collector #1",
         "🇽🇽 XX | VMESS | @v2rayng3 #1",
         "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
@@ -241,15 +243,6 @@
           "Host": ""
         }
       }
-    },
-    {
-      "tag": "🇬🇧 GB | VMESS | @NamiraConfigs #1",
-      "type": "vmess",
-      "server": "66.163.117.58",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "tag": "🇩🇪 DE | VMESS | @NamiraConfigs #1",
@@ -396,20 +389,31 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VMESS | @v2ray_free_conf #1",
+      "tag": "🇺🇸 US | VMESS | @vpn_ioss #1",
       "type": "vmess",
-      "server": "68.183.209.180",
-      "server_port": 80,
-      "uuid": "d5121154-ced6-460d-a9fd-5892027ab4a0",
+      "server": "165.140.216.142",
+      "server_port": 443,
+      "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
       "security": "auto",
       "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/graphql",
-        "headers": {
-          "Host": ""
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇬🇧 GB | VMESS | @vpn_ioss #1",
+      "type": "vmess",
+      "server": "66.163.117.58",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇺🇸 US | VMESS | @freev2rays #1",
@@ -821,16 +825,16 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VMESS | @v2ray_collector #1",
+      "tag": "🇭🇰 HK | VMESS | @v2ray_collector #1",
       "type": "vmess",
-      "server": "deapp.jisuyun.top",
-      "server_port": 2053,
-      "uuid": "9a1a05d9-69be-45d3-e326-c6621edf7b31",
+      "server": "47.243.92.155",
+      "server_port": 443,
+      "uuid": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "deapp.jisuyun.top",
+        "server_name": "mTCKUNDiGePwU3uP.v.3dns.vip",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -839,9 +843,34 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/devm",
+        "path": "/ws-vmess",
         "headers": {
-          "Host": "deapp.jisuyun.top"
+          "Host": "mTCKUNDiGePwU3uP.v.3dns.vip"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @v2ray_collector #1",
+      "type": "vmess",
+      "server": "rush-72frf.meeopp.site",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "rush-72frf.meeopp.site",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "rush-72frf.meeopp.site"
         }
       }
     },

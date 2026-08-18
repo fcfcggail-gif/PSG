@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇭🇰 HK | VLESS | @mtproxy22_v2ray #1",
-        "🇭🇰 HK | VMESS | @outlinereleasedkey #1"
+        "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
+        "🇭🇰 HK | VMESS | @v2ray_collector #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇭🇰 HK | VLESS | @mtproxy22_v2ray #1",
-        "🇭🇰 HK | VMESS | @outlinereleasedkey #1"
+        "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
+        "🇭🇰 HK | VMESS | @v2ray_collector #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -141,6 +143,31 @@
         "path": "/",
         "headers": {
           "Host": "n1761296892.4u9ma.icu"
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 HK | VMESS | @v2ray_collector #1",
+      "type": "vmess",
+      "server": "47.243.92.155",
+      "server_port": 443,
+      "uuid": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "mTCKUNDiGePwU3uP.v.3dns.vip",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws-vmess",
+        "headers": {
+          "Host": "mTCKUNDiGePwU3uP.v.3dns.vip"
         }
       }
     }
