@@ -86,7 +86,6 @@
         "🇽🇽 XX | VLESS | @evay_vpn #4",
         "🇫🇷 FR | VLESS | @flyv2ray #1",
         "🇺🇸 US | VLESS | @free4allvpn #1",
-        "🇮🇹 IT | VLESS | @outline_ir #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇽🇽 XX | VLESS | @proxie #3",
@@ -101,15 +100,15 @@
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
+        "🇮🇹 IT | VLESS | @vmesc #1",
         "🇽🇽 XX | VLESS | @bored_vpn #2",
+        "🇳🇱 NL | VLESS | @free1_vpn #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇮🇹 IT | VLESS | @selinc #1",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #2",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
-        "🇳🇱 NL | VLESS | @vmesskhodam #2",
-        "🇳🇱 NL | VLESS | @vpn_ioss #1"
+        "🇳🇱 NL | VLESS | @vmesskhodam #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -126,7 +125,6 @@
         "🇽🇽 XX | VLESS | @evay_vpn #4",
         "🇫🇷 FR | VLESS | @flyv2ray #1",
         "🇺🇸 US | VLESS | @free4allvpn #1",
-        "🇮🇹 IT | VLESS | @outline_ir #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇽🇽 XX | VLESS | @proxie #3",
@@ -141,15 +139,15 @@
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
+        "🇮🇹 IT | VLESS | @vmesc #1",
         "🇽🇽 XX | VLESS | @bored_vpn #2",
+        "🇳🇱 NL | VLESS | @free1_vpn #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇮🇹 IT | VLESS | @selinc #1",
-        "🇩🇪 DE | VLESS | @v2ray_free_conf #2",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
-        "🇳🇱 NL | VLESS | @vmesskhodam #2",
-        "🇳🇱 NL | VLESS | @vpn_ioss #1"
+        "🇳🇱 NL | VLESS | @vmesskhodam #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -327,14 +325,6 @@
       "server": "151.101.25.242",
       "server_port": 80,
       "uuid": "02d87d00-c769-48d8-91cb-bd05e2f62790",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇹 IT | VLESS | @outline_ir #1",
-      "type": "vless",
-      "server": "57.131.42.58",
-      "server_port": 8008,
-      "uuid": "b91abe1a-80ca-417b-998b-2b542661c16f",
       "packet_encoding": "xudp"
     },
     {
@@ -549,11 +539,36 @@
       }
     },
     {
+      "tag": "🇮🇹 IT | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "57.131.42.58",
+      "server_port": 8008,
+      "uuid": "b91abe1a-80ca-417b-998b-2b542661c16f",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @bored_vpn #2",
       "type": "vless",
       "server": "www.speedtest.net",
       "server_port": 443,
       "uuid": "XpnTeam-28",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "dey.lnmarketplace.net",
+      "server_port": 443,
+      "uuid": "3536e1fa-0850-44d1-b123-925ce12476cf",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -607,14 +622,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #2",
-      "type": "vless",
-      "server": "at.sav-savteam.ir",
-      "server_port": 2007,
-      "uuid": "26bf95c1-b78c-40eb-b11e-b38b8962ddb2",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
       "type": "vless",
       "server": "ge.smartboti.ir",
@@ -624,23 +631,6 @@
     },
     {
       "tag": "🇳🇱 NL | VLESS | @vmesskhodam #2",
-      "type": "vless",
-      "server": "dey.lnmarketplace.net",
-      "server_port": 443,
-      "uuid": "3536e1fa-0850-44d1-b123-925ce12476cf",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @vpn_ioss #1",
       "type": "vless",
       "server": "dey.lnmarketplace.net",
       "server_port": 443,

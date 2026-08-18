@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇿🇦 ZA | SS | @free1_vpn #1"
+        "🇵🇱 PL | VLESS | @orange_vpns #1",
+        "🇵🇱 PL | SS | @outline_ir #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇿🇦 ZA | SS | @free1_vpn #1"
+        "🇵🇱 PL | VLESS | @orange_vpns #1",
+        "🇵🇱 PL | SS | @outline_ir #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,11 +103,19 @@
       "type": "direct"
     },
     {
-      "tag": "🇿🇦 ZA | SS | @free1_vpn #1",
+      "tag": "🇵🇱 PL | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "128.204.223.94",
+      "server_port": 9815,
+      "uuid": "37a0bd7c-8b9f-4693-8916-bd1e2da0a817",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇵🇱 PL | SS | @outline_ir #1",
       "type": "shadowsocks",
-      "server": "4.168.234.5",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpMWTk0Q0w4SG91VXdFUEYz",
+      "server": "92.118.205.211",
+      "server_port": 5600,
+      "method": "YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=",
       "password": null
     }
   ],
