@@ -77,10 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇹 IT | VLESS | @freeconfigsplus #1",
         "🇮🇹 IT | VLESS | @selinc #1",
         "🇮🇹 IT | VLESS | @vmesc #1",
-        "🇮🇹 IT | SS | @vmesskhodam #1",
         "🇮🇹 IT | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -89,10 +87,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇹 IT | VLESS | @freeconfigsplus #1",
         "🇮🇹 IT | VLESS | @selinc #1",
         "🇮🇹 IT | VLESS | @vmesc #1",
-        "🇮🇹 IT | SS | @vmesskhodam #1",
         "🇮🇹 IT | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -109,23 +105,6 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇹 IT | VLESS | @freeconfigsplus #1",
-      "type": "vless",
-      "server": "31.76.113.51",
-      "server_port": 443,
-      "uuid": "dfc0cb9d-f005-41b0-848c-7703bd39d0de",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇮🇹 IT | VLESS | @selinc #1",
       "type": "vless",
       "server": "it.feywebsite.ir",
@@ -140,14 +119,6 @@
       "server_port": 8008,
       "uuid": "b91abe1a-80ca-417b-998b-2b542661c16f",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇹 IT | SS | @vmesskhodam #1",
-      "type": "shadowsocks",
-      "server": "194.87.47.204",
-      "server_port": 10901,
-      "method": "YWVzLTI1Ni1nY206ZDFmYTJmNGI5OGEzOGJjOA==",
-      "password": null
     },
     {
       "tag": "🇮🇹 IT | VLESS | @vpn_ioss #1",
