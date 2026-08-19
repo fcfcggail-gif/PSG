@@ -107,17 +107,20 @@
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
-        "🇽🇽 XX | VLESS | @bored_vpn #1",
         "🇳🇱 NL | VLESS | @free1_vpn #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
+        "🇽🇽 XX | VLESS | @mehrosaboran #2",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇮🇹 IT | VLESS | @selinc #1",
+        "🇽🇽 XX | VLESS | @v2raych #2",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1"
       ],
@@ -144,17 +147,20 @@
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
-        "🇽🇽 XX | VLESS | @bored_vpn #1",
         "🇳🇱 NL | VLESS | @free1_vpn #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
+        "🇽🇽 XX | VLESS | @mehrosaboran #2",
         "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇮🇹 IT | VLESS | @selinc #1",
+        "🇽🇽 XX | VLESS | @v2raych #2",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1"
       ],
@@ -460,6 +466,31 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "31.76.80.69",
+      "server_port": 2083,
+      "uuid": "8975546a-375c-4966-8064-19fc0f66f30a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "69.46.46.107",
+      "server_port": 443,
+      "uuid": "b6fbfc7e-2ab5-c52d-a4ed-7d2b62c0eb8a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @v2ray_youtube #2",
       "type": "vless",
       "server": "104.26.14.137",
@@ -536,23 +567,6 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @bored_vpn #1",
-      "type": "vless",
-      "server": "www.speedtest.net",
-      "server_port": 443,
-      "uuid": "XpnTeam-28",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @free1_vpn #1",
       "type": "vless",
       "server": "dey.lnmarketplace.net",
@@ -576,6 +590,23 @@
       "server_port": 80,
       "uuid": "8e378a41-d5e1-427a-aaf8-30190d4be0a0",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @mehrosaboran #2",
+      "type": "vless",
+      "server": "www.speedtest.net",
+      "server_port": 443,
+      "uuid": "XpnTeam-28",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @nofilter_v2rayng #1",
@@ -608,6 +639,14 @@
       "server": "it.feywebsite.ir",
       "server_port": 8008,
       "uuid": "b91abe1a-80ca-417b-998b-2b542661c16f",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "cf2.coixconqwe1.ir",
+      "server_port": 2086,
+      "uuid": "d79e5263-aae8-4de4-a235-3edf9e3aa330",
       "packet_encoding": "xudp"
     },
     {

@@ -80,9 +80,10 @@
         "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇸🇨 SC | VLESS | @arv2ray #1",
         "🇸🇨 SC | VLESS | @ehsawn8 #1",
+        "🇸🇨 SC | VLESS | @free1_vpn #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
         "🇸🇨 SC | VLESS | @v2ray_youtube #1",
-        "🇸🇨 SC | VLESS | @v2raych #1",
+        "🇸🇨 SC | SS | @v2raych #1",
         "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "proxy",
@@ -94,9 +95,10 @@
         "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇸🇨 SC | VLESS | @arv2ray #1",
         "🇸🇨 SC | VLESS | @ehsawn8 #1",
+        "🇸🇨 SC | VLESS | @free1_vpn #1",
         "🇸🇨 SC | VLESS | @turboo_server #1",
         "🇸🇨 SC | VLESS | @v2ray_youtube #1",
-        "🇸🇨 SC | VLESS | @v2raych #1",
+        "🇸🇨 SC | SS | @v2raych #1",
         "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "auto",
@@ -155,6 +157,28 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇸🇨 SC | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "45.195.228.198",
+      "server_port": 443,
+      "uuid": "d5b44b89-ca73-4b82-a494-a72054c31df3",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇸🇨 SC | VLESS | @turboo_server #1",
       "type": "vless",
       "server": "45.130.125.76",
@@ -180,21 +204,12 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "45.195.228.198",
+      "tag": "🇸🇨 SC | SS | @v2raych #1",
+      "type": "shadowsocks",
+      "server": "45.207.207.25",
       "server_port": 443,
-      "uuid": "d5b44b89-ca73-4b82-a494-a72054c31df3",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "method": "YWVzLTI1Ni1nY206Z2oxK1hLdWxLVjBubXc2SVRoY2tPa2tKaDVEU003K0M=",
+      "password": null
     },
     {
       "tag": "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",

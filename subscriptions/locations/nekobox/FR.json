@@ -79,14 +79,15 @@
         "direct",
         "🇫🇷 FR | VLESS | @flyv2ray #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
+        "🇫🇷 FR | VLESS | @mimitdl #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mpproxy #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
         "🇫🇷 FR | VLESS | @privatevpns #1",
         "🇫🇷 FR | TROJAN | @prrofile_purple #1",
-        "🇫🇷 FR | TROJAN | @v2ray_collector #1",
-        "🇫🇷 FR | TROJAN | @v2raych #1"
+        "🇫🇷 FR | VLESS | @red2ray #1",
+        "🇫🇷 FR | TROJAN | @v2ray_collector #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -96,14 +97,15 @@
       "outbounds": [
         "🇫🇷 FR | VLESS | @flyv2ray #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
+        "🇫🇷 FR | VLESS | @mimitdl #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mpproxy #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
         "🇫🇷 FR | VLESS | @privatevpns #1",
         "🇫🇷 FR | TROJAN | @prrofile_purple #1",
-        "🇫🇷 FR | TROJAN | @v2ray_collector #1",
-        "🇫🇷 FR | TROJAN | @v2raych #1"
+        "🇫🇷 FR | VLESS | @red2ray #1",
+        "🇫🇷 FR | TROJAN | @v2ray_collector #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -144,6 +146,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇫🇷 FR | VLESS | @mimitdl #1",
+      "type": "vless",
+      "server": "188.130.207.202",
+      "server_port": 443,
+      "uuid": "_id_telegram_MimiTdi",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇫🇷 FR | VLESS | @minovpnch #1",
       "type": "vless",
       "server": "199.232.169.135",
@@ -179,9 +198,9 @@
     {
       "tag": "🇫🇷 FR | VLESS | @outline_ir #1",
       "type": "vless",
-      "server": "gr2.levikogjgfdd.ir",
+      "server": "node5.get-tres.ru",
       "server_port": 443,
-      "uuid": "25f3beef-a4b6-40bc-aa74-17a0f89f683c",
+      "uuid": "d67af820-f54c-48ab-862c-19086357f276",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -190,13 +209,18 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
     {
       "tag": "🇫🇷 FR | VLESS | @privatevpns #1",
       "type": "vless",
-      "server": "13.36.223.106",
+      "server": "15.236.25.194",
       "server_port": 22222,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "packet_encoding": "xudp"
@@ -218,6 +242,14 @@
       }
     },
     {
+      "tag": "🇫🇷 FR | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "news-blf.mobileahmad.ir",
+      "server_port": 9090,
+      "uuid": "10c651c8-aeca-4817-8d85-a01f104ff88f",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇫🇷 FR | TROJAN | @v2ray_collector #1",
       "type": "trojan",
       "server": "13.36.175.151",
@@ -226,22 +258,6 @@
       "tls": {
         "enabled": true,
         "server_name": "classic-gator.rooster465.autos",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 FR | TROJAN | @v2raych #1",
-      "type": "trojan",
-      "server": "moral-dolphin.rooster465.autos",
-      "server_port": 443,
-      "password": "PQ05174892",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,
