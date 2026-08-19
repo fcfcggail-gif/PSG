@@ -90,7 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇿 CZ | VMESS | @freev2rays #1"
+        "🇨🇿 CZ | VMESS | @freev2rays #1",
+        "🇨🇿 CZ | VLESS | @outlinereleasedkey #1",
+        "🇨🇿 CZ | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇿 CZ | VMESS | @freev2rays #1"
+        "🇨🇿 CZ | VMESS | @freev2rays #1",
+        "🇨🇿 CZ | VLESS | @outlinereleasedkey #1",
+        "🇨🇿 CZ | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -131,6 +135,45 @@
         "path": "/",
         "headers": {
           "Host": "shs111.kejixiaoqi666.store"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇿 CZ | VLESS | @outlinereleasedkey #1",
+      "type": "vless",
+      "server": "188.127.247.129",
+      "server_port": 443,
+      "uuid": "33aa2b47-484b-49f6-8f23-fb34602d221f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇿 CZ | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "85.137.25.49",
+      "server_port": 443,
+      "uuid": "04fbe278-69c4-4f31-991f-7bc1700758da",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

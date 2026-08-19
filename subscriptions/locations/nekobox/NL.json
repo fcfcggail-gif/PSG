@@ -77,17 +77,14 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇳🇱 NL | SS | @NamiraConfigs #1",
-        "🇳🇱 NL | SS | @NamiraConfigs #2",
-        "🇳🇱 NL | SS | @NamiraConfigs #3",
         "🇳🇱 NL | VLESS | @free1_vpn #1",
         "🇳🇱 NL | SS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @red2ray #1",
-        "🇳🇱 NL | SS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇳🇱 NL | SS | @v2rayng3 #1",
+        "🇳🇱 NL | VLESS | @v2rayopen #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1",
         "🇳🇱 NL | VLESS | @vpnowl #1"
       ],
@@ -97,17 +94,14 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇳🇱 NL | SS | @NamiraConfigs #1",
-        "🇳🇱 NL | SS | @NamiraConfigs #2",
-        "🇳🇱 NL | SS | @NamiraConfigs #3",
         "🇳🇱 NL | VLESS | @free1_vpn #1",
         "🇳🇱 NL | SS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @red2ray #1",
-        "🇳🇱 NL | SS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇳🇱 NL | SS | @v2rayng3 #1",
+        "🇳🇱 NL | VLESS | @v2rayopen #1",
         "🇳🇱 NL | VLESS | @vmesskhodam #1",
         "🇳🇱 NL | VLESS | @vpnowl #1"
       ],
@@ -123,30 +117,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇳🇱 NL | SS | @NamiraConfigs #1",
-      "type": "shadowsocks",
-      "server": "193.29.139.151",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
-      "password": null
-    },
-    {
-      "tag": "🇳🇱 NL | SS | @NamiraConfigs #2",
-      "type": "shadowsocks",
-      "server": "193.29.139.235",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
-      "password": null
-    },
-    {
-      "tag": "🇳🇱 NL | SS | @NamiraConfigs #3",
-      "type": "shadowsocks",
-      "server": "108.181.58.239",
-      "server_port": 8388,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDSm1UQ0N4N0x0dWQ=",
-      "password": null
     },
     {
       "tag": "🇳🇱 NL | VLESS | @free1_vpn #1",
@@ -215,18 +185,24 @@
     {
       "tag": "🇳🇱 NL | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "mypanel.unixzone.us",
-      "server_port": 12068,
-      "uuid": "05caca6c-9e97-4c0f-8edf-7b88a6e572c5",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇳🇱 NL | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "193.29.139.225",
-      "server_port": 8080,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
-      "password": null
+      "server": "195.184.247.223",
+      "server_port": 443,
+      "uuid": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @v2raying #1",
@@ -257,6 +233,28 @@
       "server_port": 443,
       "method": "YXV0bzo=",
       "password": null
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2rayopen #1",
+      "type": "vless",
+      "server": "72.56.81.165",
+      "server_port": 40443,
+      "uuid": "4bf5a71c-d726-4585-b095-7396675706d5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @vmesskhodam #1",
