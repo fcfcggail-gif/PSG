@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇮🇹 IT | VLESS | @freeconfigsplus #1",
         "🇮🇹 IT | VLESS | @selinc #1",
         "🇮🇹 IT | VLESS | @vmesc #1",
         "🇮🇹 IT | VLESS | @vpn_ioss #1"
@@ -100,6 +101,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇮🇹 IT | VLESS | @freeconfigsplus #1",
         "🇮🇹 IT | VLESS | @selinc #1",
         "🇮🇹 IT | VLESS | @vmesc #1",
         "🇮🇹 IT | VLESS | @vpn_ioss #1"
@@ -112,6 +114,23 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇮🇹 IT | VLESS | @freeconfigsplus #1",
+      "type": "vless",
+      "server": "31.76.113.51",
+      "server_port": 443,
+      "uuid": "dfc0cb9d-f005-41b0-848c-7703bd39d0de",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇮🇹 IT | VLESS | @selinc #1",
