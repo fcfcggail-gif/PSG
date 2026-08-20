@@ -83,8 +83,8 @@
         "🇷🇺 RU | VLESS | @mt_proxy #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
-        "🇩🇪 DE | VLESS | @orange_vpns #1",
-        "🇬🇧 GB | VLESS | @outline_ir #1",
+        "🇺🇸 US | VLESS | @outline_ir #1",
+        "🇩🇪 DE | VLESS | @red2ray #1",
         "🇷🇺 RU | VLESS | @selinc #1",
         "🇳🇱 NL | VLESS | @v2raying #1"
       ],
@@ -100,8 +100,8 @@
         "🇷🇺 RU | VLESS | @mt_proxy #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
-        "🇩🇪 DE | VLESS | @orange_vpns #1",
-        "🇬🇧 GB | VLESS | @outline_ir #1",
+        "🇺🇸 US | VLESS | @outline_ir #1",
+        "🇩🇪 DE | VLESS | @red2ray #1",
         "🇷🇺 RU | VLESS | @selinc #1",
         "🇳🇱 NL | VLESS | @v2raying #1"
       ],
@@ -257,19 +257,33 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @orange_vpns #1",
+      "tag": "🇺🇸 US | VLESS | @outline_ir #1",
       "type": "vless",
-      "server": "germany.panelbaz.com",
-      "server_port": 5000,
-      "uuid": "4907461d-bd34-418a-b4b9-6106f979c686",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @outline_ir #1",
-      "type": "vless",
-      "server": "au.trxlnsnet.ir",
+      "server": "us.trxlnsnet.ir",
       "server_port": 443,
       "uuid": "afd63042-1c62-472f-9b56-5904d71e44d1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "br1.levikogjgfdd.ir",
+      "server_port": 443,
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

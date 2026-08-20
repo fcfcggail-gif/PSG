@@ -9,13 +9,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇫🇷 FR | TROJAN | @prrofile_purple #1 = trojan, 13.38.35.46, 443, password = ON38567014, skip-cert-verify = true
 🇫🇷 FR | TROJAN | @v2ray_collector #1 = trojan, 13.36.175.151, 443, password = ND91608427, skip-cert-verify = true, sni = classic-gator.rooster465.autos
+🇫🇷 FR | TROJAN | @v2ray_collector #2 = trojan, distinct-quail.rooster465.autos, 443, password = AE62539071, skip-cert-verify = true, sni = distinct-quail.rooster465.autos
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇫🇷 FR | TROJAN | @prrofile_purple #1, 🇫🇷 FR | TROJAN | @v2ray_collector #1
-PSG-AUTO = url-test, 🇫🇷 FR | TROJAN | @prrofile_purple #1, 🇫🇷 FR | TROJAN | @v2ray_collector #1
-PSG-FALLBACK = fallback, 🇫🇷 FR | TROJAN | @prrofile_purple #1, 🇫🇷 FR | TROJAN | @v2ray_collector #1
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇫🇷 FR | TROJAN | @v2ray_collector #1, 🇫🇷 FR | TROJAN | @v2ray_collector #2
+PSG-AUTO = url-test, 🇫🇷 FR | TROJAN | @v2ray_collector #1, 🇫🇷 FR | TROJAN | @v2ray_collector #2
+PSG-FALLBACK = fallback, 🇫🇷 FR | TROJAN | @v2ray_collector #1, 🇫🇷 FR | TROJAN | @v2ray_collector #2
 
 [Rule]
 GEOIP,IR,DIRECT

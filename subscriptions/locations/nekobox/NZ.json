@@ -77,7 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇾 CY | VLESS | @outlinereleasedkey #1"
+        "🇳🇿 NZ | VLESS | @free1_vpn #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇾 CY | VLESS | @outlinereleasedkey #1"
+        "🇳🇿 NZ | VLESS | @free1_vpn #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,12 +101,21 @@
       "type": "direct"
     },
     {
-      "tag": "🇨🇾 CY | VLESS | @outlinereleasedkey #1",
+      "tag": "🇳🇿 NZ | VLESS | @free1_vpn #1",
       "type": "vless",
-      "server": "194.76.154.31",
-      "server_port": 40443,
-      "uuid": "9f0baff8-bdee-4de9-9515-bcc4932b41fa",
-      "packet_encoding": "xudp"
+      "server": "202.37.33.80",
+      "server_port": 443,
+      "uuid": "5aafc2be-9348-4dec-b896-f4a91253bbca",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
