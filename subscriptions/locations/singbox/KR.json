@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgTlo=
+//profile-title: base64:UFNHIHwgS1I=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇳🇿 NZ | VLESS | @free1_vpn #1"
+        "🇰🇷 KR | VLESS | @v2raych #1",
+        "🇰🇷 KR | VLESS | @v2raych #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇳🇿 NZ | VLESS | @free1_vpn #1"
+        "🇰🇷 KR | VLESS | @v2raych #1",
+        "🇰🇷 KR | VLESS | @v2raych #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,11 +112,28 @@
       "type": "direct"
     },
     {
-      "tag": "🇳🇿 NZ | VLESS | @free1_vpn #1",
+      "tag": "🇰🇷 KR | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "202.37.33.80",
+      "server": "130.94.29.60",
       "server_port": 443,
-      "uuid": "5aafc2be-9348-4dec-b896-f4a91253bbca",
+      "uuid": "3dfd4ca4-dd85-4ee0-96d7-fa2900d76f65",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇰🇷 KR | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "130.94.29.60",
+      "server_port": 443,
+      "uuid": "3dfd4ca4-dd85-4ee0-96d7-fa2900d76f65",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

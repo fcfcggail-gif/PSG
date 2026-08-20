@@ -93,7 +93,8 @@
         "🇯🇵 JP | VLESS | @free4allvpn #1",
         "🇯🇵 JP | VLESS | @megavpn_link #1",
         "🇯🇵 JP | TROJAN | @outlinereleasedkey #1",
-        "🇯🇵 JP | SS | @v2ray_free_conf #1"
+        "🇯🇵 JP | VLESS | @v2ray_free_conf #1",
+        "🇯🇵 JP | TROJAN | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -104,7 +105,8 @@
         "🇯🇵 JP | VLESS | @free4allvpn #1",
         "🇯🇵 JP | VLESS | @megavpn_link #1",
         "🇯🇵 JP | TROJAN | @outlinereleasedkey #1",
-        "🇯🇵 JP | SS | @v2ray_free_conf #1"
+        "🇯🇵 JP | VLESS | @v2ray_free_conf #1",
+        "🇯🇵 JP | TROJAN | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -171,12 +173,28 @@
       }
     },
     {
-      "tag": "🇯🇵 JP | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "176.97.73.215",
-      "server_port": 8388,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptYTZ6YzRKb0xSSkE=",
-      "password": null
+      "tag": "🇯🇵 JP | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "31.76.91.138",
+      "server_port": 2087,
+      "uuid": "309b0ce3-09a8-4883-bfe4-bd56e215be44",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇯🇵 JP | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "real-cardinal.rooster465.autos",
+      "server_port": 443,
+      "password": "AE62539071",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
