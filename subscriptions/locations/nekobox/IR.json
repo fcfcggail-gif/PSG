@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇷 IR | VLESS | @NamiraConfigs #1",
         "🇮🇷 IR | VLESS | @ai_duet #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
@@ -91,12 +90,11 @@
         "🇮🇷 IR | VLESS | @mpproxy #1",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
+        "🇮🇷 IR | SS | @sobi_vpn #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇮🇷 IR | SS | @v2raych #1",
         "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
-        "🇮🇷 IR | VLESS | @v_2rayngvpn #2",
-        "🇮🇷 IR | VLESS | @vmesc #1"
+        "🇮🇷 IR | VLESS | @v_2rayngvpn #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -104,7 +102,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇷 IR | VLESS | @NamiraConfigs #1",
         "🇮🇷 IR | VLESS | @ai_duet #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
@@ -118,12 +115,11 @@
         "🇮🇷 IR | VLESS | @mpproxy #1",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
+        "🇮🇷 IR | SS | @sobi_vpn #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇮🇷 IR | SS | @v2raych #1",
         "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
-        "🇮🇷 IR | VLESS | @v_2rayngvpn #2",
-        "🇮🇷 IR | VLESS | @vmesc #1"
+        "🇮🇷 IR | VLESS | @v_2rayngvpn #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -137,14 +133,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "95.38.184.199",
-      "server_port": 996,
-      "uuid": "36b78162-4e57-4e08-b3d0-ef13b788f7ec",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @ai_duet #1",
@@ -312,20 +300,20 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇮🇷 IR | SS | @sobi_vpn #1",
+      "type": "shadowsocks",
+      "server": "tt.hsrdnr.ir",
+      "server_port": 2044,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozcmZuajExcTV4dmc3Mnkx",
+      "password": null
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
       "type": "vless",
       "server": "185.143.233.120",
       "server_port": 2086,
       "uuid": "e9e437c2-1ee5-4f0d-ae09-4bfafc835e47",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | SS | @v2raych #1",
-      "type": "shadowsocks",
-      "server": "e2.cover20.ir",
-      "server_port": 30874,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCbFJ0anlZbGoxOGtZY3JFTC84d2NiU3lxTktTUEVTaXdTRER2aXN1OStvPQ==",
-      "password": null
     },
     {
       "tag": "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1",
@@ -367,28 +355,6 @@
       "server_port": 80,
       "uuid": "bfe63cc5-412d-4aa7-b04e-75c9d52b5831",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @vmesc #1",
-      "type": "vless",
-      "server": "free.soundfiy.ir",
-      "server_port": 4554,
-      "uuid": "682fdfcb-890c-4e1e-9050-f8331def3d03",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     }
   ],
   "route": {

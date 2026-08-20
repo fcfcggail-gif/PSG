@@ -23,7 +23,6 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇮🇷 IR | VLESS | @NamiraConfigs #1", "server": "95.38.184.199", "port": 996, "type": "vless", "skip-cert-verify": true, "uuid": "36b78162-4e57-4e08-b3d0-ef13b788f7ec", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇷 IR | VLESS | @ai_duet #1", "server": "tamin.ir", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "aa5e25fc-c7d7-4e6e-b7f7-105a35c0175a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇷 IR | VLESS | @config_proxy #1", "server": "185.143.233.235", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "22109ab6-bfdd-4062-ae1c-054c74353e39", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇷 IR | VLESS | @config_proxy #2", "server": "185.143.234.235", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "b8799fac-622a-4142-aab2-2aa862ad35f2", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
@@ -41,7 +40,6 @@ proxies:
   - {"name": "🇮🇷 IR | VMESS | @v2rayngvpn_1 #1", "server": "site.hooracoffee.ir", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "ed954dba-5ad5-4688-8174-247944361c38", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/www", "headers": {"Host": "site.hooracoffee.ir"}}}
   - {"name": "🇮🇷 IR | VLESS | @v_2rayngvpn #1", "server": "www.zula.ir", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "55737b22-c50a-491a-8cd3-69f84e67e3f7", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇷 IR | VLESS | @v_2rayngvpn #2", "server": "www.zula.ir", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "bfe63cc5-412d-4aa7-b04e-75c9d52b5831", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇮🇷 IR | VLESS | @vmesc #1", "server": "free.soundfiy.ir", "port": 4554, "type": "vless", "skip-cert-verify": true, "uuid": "682fdfcb-890c-4e1e-9050-f8331def3d03", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -55,7 +53,6 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇮🇷 IR | VLESS | @NamiraConfigs #1'
       - '🇮🇷 IR | VLESS | @ai_duet #1'
       - '🇮🇷 IR | VLESS | @config_proxy #1'
       - '🇮🇷 IR | VLESS | @config_proxy #2'
@@ -73,7 +70,6 @@ proxy-groups:
       - '🇮🇷 IR | VMESS | @v2rayngvpn_1 #1'
       - '🇮🇷 IR | VLESS | @v_2rayngvpn #1'
       - '🇮🇷 IR | VLESS | @v_2rayngvpn #2'
-      - '🇮🇷 IR | VLESS | @vmesc #1'
 
   - name: 🌍 Global Media
     type: select

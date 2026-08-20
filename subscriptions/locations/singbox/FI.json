@@ -90,7 +90,11 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @orange_vpns #1"
+        "🇫🇮 FI | VLESS | @orange_vpns #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @vmesc #1",
+        "🇫🇮 FI | VLESS | @vmesskhodam #1",
+        "🇫🇮 FI | VLESS | @vmesskhodam #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +102,11 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @orange_vpns #1"
+        "🇫🇮 FI | VLESS | @orange_vpns #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @vmesc #1",
+        "🇫🇮 FI | VLESS | @vmesskhodam #1",
+        "🇫🇮 FI | VLESS | @vmesskhodam #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -130,6 +138,75 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "85.192.49.151",
+      "server_port": 443,
+      "uuid": "bb05f9d7-a3d1-4b81-a790-f6dba0301907",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "72.35.246.31",
+      "server_port": 1244,
+      "uuid": "2d96d4d6-a276-4ab5-9f20-8dc5cbf6e902",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "83.143.112.146",
+      "server_port": 443,
+      "uuid": "423b1d79-08c4-403f-9d5e-c541f791b55f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vmesskhodam #2",
+      "type": "vless",
+      "server": "fia.mobileemdad.top",
+      "server_port": 42542,
+      "uuid": "7c64a80b-89cc-463e-9b38-60af239b1573",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

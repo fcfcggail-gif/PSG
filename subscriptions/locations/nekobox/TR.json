@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @netmellianti #1"
+        "🇹🇷 TR | VLESS | @netmellianti #1",
+        "🇹🇷 TR | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @netmellianti #1"
+        "🇹🇷 TR | VLESS | @netmellianti #1",
+        "🇹🇷 TR | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,6 +118,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "45.74.159.200",
+      "server_port": 10131,
+      "uuid": "745bac6d-e48d-4556-aa77-09b68743a9ce",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
