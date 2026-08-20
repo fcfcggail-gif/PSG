@@ -90,9 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇯🇵 JP | VLESS | @free1_vpn #1",
         "🇯🇵 JP | VLESS | @free4allvpn #1",
         "🇯🇵 JP | VLESS | @megavpn_link #1",
-        "🇯🇵 JP | TROJAN | @outlinereleasedkey #1"
+        "🇯🇵 JP | SS | @v2rayng3 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +101,10 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇯🇵 JP | VLESS | @free1_vpn #1",
         "🇯🇵 JP | VLESS | @free4allvpn #1",
         "🇯🇵 JP | VLESS | @megavpn_link #1",
-        "🇯🇵 JP | TROJAN | @outlinereleasedkey #1"
+        "🇯🇵 JP | SS | @v2rayng3 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,6 +114,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "31.76.91.138",
+      "server_port": 2087,
+      "uuid": "309b0ce3-09a8-4883-bfe4-bd56e215be44",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇯🇵 JP | VLESS | @free4allvpn #1",
@@ -153,20 +163,12 @@
       }
     },
     {
-      "tag": "🇯🇵 JP | TROJAN | @outlinereleasedkey #1",
-      "type": "trojan",
-      "server": "healthy-louse.rooster465.autos",
-      "server_port": 443,
-      "password": "ND91608427",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "tag": "🇯🇵 JP | SS | @v2rayng3 #1",
+      "type": "shadowsocks",
+      "server": "84.247.155.196",
+      "server_port": 80,
+      "method": "YXV0bzo=",
+      "password": null
     }
   ],
   "route": {

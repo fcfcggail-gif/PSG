@@ -96,9 +96,11 @@
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mpproxy #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
+        "🇫🇷 FR | SS | @outlinereleasedkey #1",
         "🇫🇷 FR | VLESS | @privatevpns #1",
         "🇫🇷 FR | VLESS | @prrofile_purple #1",
-        "🇫🇷 FR | TROJAN | @v2ray_collector #1"
+        "🇫🇷 FR | TROJAN | @v2ray_collector #1",
+        "🇫🇷 FR | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -112,9 +114,11 @@
         "🇫🇷 FR | VLESS | @minovpnch #2",
         "🇫🇷 FR | VLESS | @mpproxy #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
+        "🇫🇷 FR | SS | @outlinereleasedkey #1",
         "🇫🇷 FR | VLESS | @privatevpns #1",
         "🇫🇷 FR | VLESS | @prrofile_purple #1",
-        "🇫🇷 FR | TROJAN | @v2ray_collector #1"
+        "🇫🇷 FR | TROJAN | @v2ray_collector #1",
+        "🇫🇷 FR | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -206,9 +210,17 @@
       }
     },
     {
+      "tag": "🇫🇷 FR | SS | @outlinereleasedkey #1",
+      "type": "shadowsocks",
+      "server": "fr4.levikogjgfdd.ir",
+      "server_port": 8388,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp6UlpOQnN6WXlXbzU=",
+      "password": null
+    },
+    {
       "tag": "🇫🇷 FR | VLESS | @privatevpns #1",
       "type": "vless",
-      "server": "13.37.97.116",
+      "server": "35.180.217.128",
       "server_port": 22222,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "packet_encoding": "xudp"
@@ -239,6 +251,23 @@
       "tls": {
         "enabled": true,
         "server_name": "distinct-quail.rooster465.autos",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "gr2.levikogjgfdd.ir",
+      "server_port": 443,
+      "uuid": "25f3beef-a4b6-40bc-aa74-17a0f89f683c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,
