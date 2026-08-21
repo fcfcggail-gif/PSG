@@ -23,8 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇬🇧 GB | VMESS | @hope_net #1", "server": "172.67.171.43", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "b79a6959-6feb-43ba-b3c7-f1afae9ea32c", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "Uk2.vmess.site."}}}
   - {"name": "🇬🇧 GB | VLESS | @red2ray #1", "server": "23.81.34.120", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "bb05f9d7-a3d1-4b81-a790-f6dba0301907", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇬🇧 GB | VLESS | @v2ray_free_conf #1", "server": "213.193.255.206", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "be3960db-f339-0065-be7b-c1a130601141", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇬🇧 GB | VLESS | @v2raych #1", "server": "213.193.255.206", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "be3960db-f339-0065-be7b-c1a130601141", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VMESS | @vpn_ioss #1", "server": "66.163.117.58", "port": 22324, "type": "vmess", "skip-cert-verify": true, "uuid": "04621bae-ab36-11ec-b909-0242ac120002", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
 
 proxy-groups:
@@ -39,8 +40,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇬🇧 GB | VMESS | @hope_net #1'
       - '🇬🇧 GB | VLESS | @red2ray #1'
-      - '🇬🇧 GB | VLESS | @v2ray_free_conf #1'
+      - '🇬🇧 GB | VLESS | @v2raych #1'
       - '🇬🇧 GB | VMESS | @vpn_ioss #1'
 
   - name: 🌍 Global Media
