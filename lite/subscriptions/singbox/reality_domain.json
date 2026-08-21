@@ -95,13 +95,13 @@
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @mt_proxy #1",
         "🇨🇭 CH | VLESS | @mtproxy22_v2ray #1",
+        "🇺🇸 US | VLESS | @mtproxy22_v2ray #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇫🇷 FR | VLESS | @outline_ir #1",
         "🇷🇺 RU | VLESS | @selinc #1",
-        "🇮🇷 IR | VLESS | @v2raych #1",
-        "🇮🇷 IR | VLESS | @v2raych #2",
-        "🇳🇱 NL | VLESS | @v2raying #1"
+        "🇳🇱 NL | VLESS | @v2raying #1",
+        "🇫🇷 FR | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -114,13 +114,13 @@
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @mt_proxy #1",
         "🇨🇭 CH | VLESS | @mtproxy22_v2ray #1",
+        "🇺🇸 US | VLESS | @mtproxy22_v2ray #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇫🇷 FR | VLESS | @outline_ir #1",
         "🇷🇺 RU | VLESS | @selinc #1",
-        "🇮🇷 IR | VLESS | @v2raych #1",
-        "🇮🇷 IR | VLESS | @v2raych #2",
-        "🇳🇱 NL | VLESS | @v2raying #1"
+        "🇳🇱 NL | VLESS | @v2raying #1",
+        "🇫🇷 FR | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -248,6 +248,23 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VLESS | @mtproxy22_v2ray #1",
+      "type": "vless",
+      "server": "rssm-1btto92.joxenly.com",
+      "server_port": 443,
+      "uuid": "83c18ff2-0565-4b53-89ad-57357fef153b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇷🇺 RU | VLESS | @nofiltering2 #1",
       "type": "vless",
       "server": "qq.utiltools.ru",
@@ -336,27 +353,33 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "cedar.mcinet.shop",
-      "server_port": 2053,
-      "uuid": "5a044a11-9738-474c-8180-093821a70453",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "gale.mcinet.shop",
-      "server_port": 2083,
-      "uuid": "5a044a11-9738-474c-8180-093821a70453",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @v2raying #1",
       "type": "vless",
       "server": "netraidly.ru",
       "server_port": 40443,
       "uuid": "4480161e-2c59-4d37-8736-675c9af32bf1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "node5.get-tres.ru",
+      "server_port": 443,
+      "uuid": "d67af820-f54c-48ab-862c-19086357f276",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

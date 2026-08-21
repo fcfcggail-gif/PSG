@@ -91,7 +91,6 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @NamiraConfigs #1",
-        "🇷🇺 RU | VLESS | @free1_vpn #1",
         "🇷🇺 RU | VLESS | @jiedianf #1",
         "🇷🇺 RU | VLESS | @mt_proxy #1",
         "🇷🇺 RU | VLESS | @netfreedom0 #1",
@@ -101,10 +100,9 @@
         "🇷🇺 RU | VLESS | @nofiltering2 #4",
         "🇷🇺 RU | VLESS | @orange_vpns #1",
         "🇷🇺 RU | VLESS | @orange_vpns #2",
-        "🇷🇺 RU | VLESS | @orange_vpns #3",
         "🇷🇺 RU | VLESS | @outline_ir #1",
         "🇷🇺 RU | VLESS | @selinc #1",
-        "🇷🇺 RU | VLESS | @v2raych #1",
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
         "🇷🇺 RU | VLESS | @v2raytg #1"
       ],
       "tag": "proxy",
@@ -114,7 +112,6 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @NamiraConfigs #1",
-        "🇷🇺 RU | VLESS | @free1_vpn #1",
         "🇷🇺 RU | VLESS | @jiedianf #1",
         "🇷🇺 RU | VLESS | @mt_proxy #1",
         "🇷🇺 RU | VLESS | @netfreedom0 #1",
@@ -124,10 +121,9 @@
         "🇷🇺 RU | VLESS | @nofiltering2 #4",
         "🇷🇺 RU | VLESS | @orange_vpns #1",
         "🇷🇺 RU | VLESS | @orange_vpns #2",
-        "🇷🇺 RU | VLESS | @orange_vpns #3",
         "🇷🇺 RU | VLESS | @outline_ir #1",
         "🇷🇺 RU | VLESS | @selinc #1",
-        "🇷🇺 RU | VLESS | @v2raych #1",
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
         "🇷🇺 RU | VLESS | @v2raytg #1"
       ],
       "tag": "auto",
@@ -153,28 +149,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @free1_vpn #1",
-      "type": "vless",
-      "server": "80.66.78.227",
-      "server_port": 443,
-      "uuid": "76f6b7fe-5de8-4637-87a0-6ddd33d67b3e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
@@ -331,24 +305,6 @@
     {
       "tag": "🇷🇺 RU | VLESS | @orange_vpns #1",
       "type": "vless",
-      "server": "80.66.78.227",
-      "server_port": 443,
-      "uuid": "76f6b7fe-5de8-4637-87a0-6ddd33d67b3e",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @orange_vpns #2",
-      "type": "vless",
       "server": "185.147.26.175",
       "server_port": 443,
       "uuid": "7d2bac5e-6ff9-45c9-844e-6bfc5a384a42",
@@ -364,7 +320,7 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @orange_vpns #3",
+      "tag": "🇷🇺 RU | VLESS | @orange_vpns #2",
       "type": "vless",
       "server": "5.129.249.118",
       "server_port": 443,
@@ -430,12 +386,26 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
+      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "87.228.122.101",
-      "server_port": 2200,
-      "uuid": "155e8dd4-a559-407a-9ea8-13a5e829f066",
-      "packet_encoding": "xudp"
+      "server": "83.217.201.244",
+      "server_port": 445,
+      "uuid": "d01d5a74-09fb-4e9e-b0d9-38b5fd77ad70",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇷🇺 RU | VLESS | @v2raytg #1",

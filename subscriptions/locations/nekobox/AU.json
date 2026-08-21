@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇦🇺 AU | TROJAN | @outlinereleasedkey #1",
         "🇦🇺 AU | VMESS | @serverv2ray00 #1"
       ],
       "tag": "proxy",
@@ -85,6 +86,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇦🇺 AU | TROJAN | @outlinereleasedkey #1",
         "🇦🇺 AU | VMESS | @serverv2ray00 #1"
       ],
       "tag": "auto",
@@ -99,6 +101,22 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇦🇺 AU | TROJAN | @outlinereleasedkey #1",
+      "type": "trojan",
+      "server": "square-pheasant.rooster465.autos",
+      "server_port": 443,
+      "password": "FH72359861",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇦🇺 AU | VMESS | @serverv2ray00 #1",

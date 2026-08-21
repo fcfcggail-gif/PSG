@@ -90,13 +90,13 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇬🇧 GB | VLESS | @free1_vpn #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | VLESS | @mtproxy22_v2ray #1",
+        "🇬🇧 GB | VLESS | @mtproxy22_v2ray #2",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @netfreedom0 #2",
         "🇬🇧 GB | SS | @torang_vpn #1",
-        "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
-        "🇬🇧 GB | VLESS | @v2ray_free_conf #2",
         "🇬🇧 GB | SS | @v2rayng3 #1",
         "🇬🇧 GB | SS | @v2rayng3 #2",
         "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
@@ -108,13 +108,13 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇬🇧 GB | VLESS | @free1_vpn #1",
         "🇬🇧 GB | SS | @free4allvpn #1",
         "🇬🇧 GB | VLESS | @mtproxy22_v2ray #1",
+        "🇬🇧 GB | VLESS | @mtproxy22_v2ray #2",
         "🇬🇧 GB | SS | @netfreedom0 #1",
         "🇬🇧 GB | SS | @netfreedom0 #2",
         "🇬🇧 GB | SS | @torang_vpn #1",
-        "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
-        "🇬🇧 GB | VLESS | @v2ray_free_conf #2",
         "🇬🇧 GB | SS | @v2rayng3 #1",
         "🇬🇧 GB | SS | @v2rayng3 #2",
         "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
@@ -128,6 +128,28 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "213.193.255.206",
+      "server_port": 443,
+      "uuid": "be3960db-f339-0065-be7b-c1a130601141",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇬🇧 GB | SS | @free4allvpn #1",
@@ -144,6 +166,28 @@
       "server_port": 2053,
       "uuid": "c7e9c591-2764-423a-afca-efbd010fd396",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @mtproxy22_v2ray #2",
+      "type": "vless",
+      "server": "87.117.234.19",
+      "server_port": 443,
+      "uuid": "4d583b2c-2f5a-47d0-8181-e95217fe8cd9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇬🇧 GB | SS | @netfreedom0 #1",
@@ -168,45 +212,6 @@
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpXNzRYRkFMTEx1dzZtNUlB",
       "password": null
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "213.193.255.206",
-      "server_port": 443,
-      "uuid": "be3960db-f339-0065-be7b-c1a130601141",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @v2ray_free_conf #2",
-      "type": "vless",
-      "server": "213.193.255.206",
-      "server_port": 443,
-      "uuid": "be3960db-f339-0065-be7b-c1a130601141",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇬🇧 GB | SS | @v2rayng3 #1",
