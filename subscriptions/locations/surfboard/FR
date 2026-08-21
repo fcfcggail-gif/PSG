@@ -9,12 +9,13 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇫🇷 FR | TROJAN | @red2ray #1 = trojan, 13.38.66.171, 443, password = PQ05174892, skip-cert-verify = true
 🇫🇷 FR | TROJAN | @v2ray_collector #1 = trojan, distinct-quail.rooster465.autos, 443, password = AE62539071, skip-cert-verify = true, sni = distinct-quail.rooster465.autos
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇫🇷 FR | TROJAN | @v2ray_collector #1
-PSG-AUTO = url-test, 🇫🇷 FR | TROJAN | @v2ray_collector #1
-PSG-FALLBACK = fallback, 🇫🇷 FR | TROJAN | @v2ray_collector #1
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇫🇷 FR | TROJAN | @red2ray #1, 🇫🇷 FR | TROJAN | @v2ray_collector #1
+PSG-AUTO = url-test, 🇫🇷 FR | TROJAN | @red2ray #1, 🇫🇷 FR | TROJAN | @v2ray_collector #1
+PSG-FALLBACK = fallback, 🇫🇷 FR | TROJAN | @red2ray #1, 🇫🇷 FR | TROJAN | @v2ray_collector #1
 
 [Rule]
 GEOIP,IR,DIRECT

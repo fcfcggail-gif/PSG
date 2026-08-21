@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇹🇷 TR | VLESS | @NamiraConfigs #1",
         "🇹🇷 TR | VLESS | @netmellianti #1"
       ],
       "tag": "proxy",
@@ -85,6 +86,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇹🇷 TR | VLESS | @NamiraConfigs #1",
         "🇹🇷 TR | VLESS | @netmellianti #1"
       ],
       "tag": "auto",
@@ -99,6 +101,28 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "sos2.speedit.ir",
+      "server_port": 443,
+      "uuid": "bb65d1fa-f051-4e59-834c-92476bfb5e76",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇹🇷 TR | VLESS | @netmellianti #1",

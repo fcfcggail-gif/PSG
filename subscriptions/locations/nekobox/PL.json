@@ -77,9 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @NamiraConfigs #1",
         "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1",
         "🇵🇱 PL | VLESS | @orange_vpns #1",
+        "🇵🇱 PL | VLESS | @outline_ir #1",
         "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
         "🇵🇱 PL | VLESS | @v2raymelliii #1"
       ],
@@ -89,9 +89,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @NamiraConfigs #1",
         "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1",
         "🇵🇱 PL | VLESS | @orange_vpns #1",
+        "🇵🇱 PL | VLESS | @outline_ir #1",
         "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
         "🇵🇱 PL | VLESS | @v2raymelliii #1"
       ],
@@ -107,14 +107,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "128.204.223.94",
-      "server_port": 9815,
-      "uuid": "37a0bd7c-8b9f-4693-8916-bd1e2da0a817",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇵🇱 PL | VLESS | @mtproxy22_v2ray #1",
@@ -140,6 +132,28 @@
       "server_port": 9815,
       "uuid": "37a0bd7c-8b9f-4693-8916-bd1e2da0a817",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "193.34.213.38",
+      "server_port": 443,
+      "uuid": "7eb234e9-d47e-4dfe-bff3-a0d41a0c4e1d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
