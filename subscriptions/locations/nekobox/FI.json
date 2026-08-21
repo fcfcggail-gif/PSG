@@ -78,8 +78,11 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @orange_vpns #1",
+        "🇫🇮 FI | VLESS | @red2ray #1",
+        "🇫🇮 FI | SS | @v2raying #1",
         "🇫🇮 FI | VLESS | @vmesc #1",
-        "🇫🇮 FI | VLESS | @vmesskhodam #1"
+        "🇫🇮 FI | VLESS | @vmesskhodam #1",
+        "🇫🇮 FI | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,8 +91,11 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @orange_vpns #1",
+        "🇫🇮 FI | VLESS | @red2ray #1",
+        "🇫🇮 FI | SS | @v2raying #1",
         "🇫🇮 FI | VLESS | @vmesc #1",
-        "🇫🇮 FI | VLESS | @vmesskhodam #1"
+        "🇫🇮 FI | VLESS | @vmesskhodam #1",
+        "🇫🇮 FI | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -127,6 +133,36 @@
       }
     },
     {
+      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "node5.mxvpn.dev",
+      "server_port": 443,
+      "uuid": "564082ff-cf3c-48db-9e10-8ad2312847b4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | SS | @v2raying #1",
+      "type": "shadowsocks",
+      "server": "31.76.30.79",
+      "server_port": 10808,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpUbVhTcGNSQmJodkhEZzY2Ym8ydzg5YlRveFFzYk1vYQ==",
+      "password": null
+    },
+    {
       "tag": "🇫🇮 FI | VLESS | @vmesc #1",
       "type": "vless",
       "server": "72.35.246.31",
@@ -155,6 +191,28 @@
       "server_port": 42542,
       "uuid": "7c64a80b-89cc-463e-9b38-60af239b1573",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "185.79.138.71",
+      "server_port": 448,
+      "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

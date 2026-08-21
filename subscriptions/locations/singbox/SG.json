@@ -91,8 +91,9 @@
         "auto",
         "direct",
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
+        "🇸🇬 SG | VLESS | @red2ray #1",
         "🇸🇬 SG | VLESS | @v2ray_free_conf #1",
-        "🇸🇬 SG | VMESS | @v2raych #1",
+        "🇸🇬 SG | VMESS | @v2ray_free_conf #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1"
       ],
       "tag": "proxy",
@@ -102,8 +103,9 @@
       "interval": "10m",
       "outbounds": [
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
+        "🇸🇬 SG | VLESS | @red2ray #1",
         "🇸🇬 SG | VLESS | @v2ray_free_conf #1",
-        "🇸🇬 SG | VMESS | @v2raych #1",
+        "🇸🇬 SG | VMESS | @v2ray_free_conf #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1"
       ],
       "tag": "auto",
@@ -140,11 +142,33 @@
       }
     },
     {
+      "tag": "🇸🇬 SG | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "162.128.44.164",
+      "server_port": 443,
+      "uuid": "8d1e0577-bfcb-4cbd-91c0-1f8788d4ba44",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇸🇬 SG | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "5iehome.cc",
+      "server": "162.128.71.118",
       "server_port": 443,
-      "uuid": "d1153291-7d6f-4528-b8b1-a8a4920a1a8b",
+      "uuid": "690ad3be-991b-4a2c-b351-42dd06789d03",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -157,7 +181,7 @@
       }
     },
     {
-      "tag": "🇸🇬 SG | VMESS | @v2raych #1",
+      "tag": "🇸🇬 SG | VMESS | @v2ray_free_conf #1",
       "type": "vmess",
       "server": "43.228.126.187",
       "server_port": 47630,
