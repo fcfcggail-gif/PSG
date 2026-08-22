@@ -78,6 +78,8 @@
         "auto",
         "direct",
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
+        "🇸🇬 SG | VLESS | @hope_net #1",
+        "🇸🇬 SG | VLESS | @v2raych #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1"
       ],
       "tag": "proxy",
@@ -87,6 +89,8 @@
       "interval": "10m",
       "outbounds": [
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
+        "🇸🇬 SG | VLESS | @hope_net #1",
+        "🇸🇬 SG | VLESS | @v2raych #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1"
       ],
       "tag": "auto",
@@ -123,6 +127,40 @@
         "path": "/",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @hope_net #1",
+      "type": "vless",
+      "server": "206.238.236.84",
+      "server_port": 443,
+      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "162.128.87.50",
+      "server_port": 443,
+      "uuid": "be154d71-04ca-4389-8a89-d14219b25cd7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },

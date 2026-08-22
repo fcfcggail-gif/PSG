@@ -23,9 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇮 FI | VLESS | @orange_vpns #1", "server": "132.243.223.88", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "fbb74aa8-b89a-4f20-9504-6b25aadf6681", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇫🇮 FI | VLESS | @orange_vpns #2", "server": "85.192.49.151", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "bb05f9d7-a3d1-4b81-a790-f6dba0301907", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇮 FI | VLESS | @orange_vpns #1", "server": "85.192.49.151", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "bb05f9d7-a3d1-4b81-a790-f6dba0301907", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇮 FI | VLESS | @outlinereleasedkey #1", "server": "95.216.27.15", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "0fbff144-bbed-44c0-972b-3ecb0d5579d6", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇮 FI | VLESS | @v2raying #1", "server": "132.243.223.88", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "fbb74aa8-b89a-4f20-9504-6b25aadf6681", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇫🇮 FI | VLESS | @vmesc #1", "server": "72.35.246.31", "port": 1244, "type": "vless", "skip-cert-verify": true, "uuid": "2d96d4d6-a276-4ab5-9f20-8dc5cbf6e902", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -41,8 +41,8 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇫🇮 FI | VLESS | @orange_vpns #1'
-      - '🇫🇮 FI | VLESS | @orange_vpns #2'
       - '🇫🇮 FI | VLESS | @outlinereleasedkey #1'
+      - '🇫🇮 FI | VLESS | @v2raying #1'
       - '🇫🇮 FI | VLESS | @vmesc #1'
 
   - name: 🌍 Global Media
