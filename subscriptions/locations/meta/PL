@@ -23,10 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇵🇱 PL | VLESS | @NamiraConfigs #1", "server": "31.133.0.133", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "c7e9c591-2764-423a-afca-efbd010fd396", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇵🇱 PL | VLESS | @orange_vpns #1", "server": "tg.riotvpn.eu", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇵🇱 PL | VLESS | @v2raymelliii #1", "server": "plelahoa.horlutr.ir", "port": 2087, "type": "vless", "skip-cert-verify": true, "uuid": "a622acbf-6990-4669-b7aa-39e42620e9cd", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇵🇱 PL | VLESS | @v2rayopen #1", "server": "128.204.223.94", "port": 9815, "type": "vless", "skip-cert-verify": true, "uuid": "37a0bd7c-8b9f-4693-8916-bd1e2da0a817", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇵🇱 PL | VLESS | @vpn_ioss #1", "server": "83.168.71.216", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,10 +40,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇵🇱 PL | VLESS | @NamiraConfigs #1'
       - '🇵🇱 PL | VLESS | @orange_vpns #1'
       - '🇵🇱 PL | VLESS | @v2raymelliii #1'
       - '🇵🇱 PL | VLESS | @v2rayopen #1'
-      - '🇵🇱 PL | VLESS | @vpn_ioss #1'
 
   - name: 🌍 Global Media
     type: select

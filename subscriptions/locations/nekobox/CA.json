@@ -77,14 +77,13 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇨🇦 CA | VLESS | @NamiraConfigs #1",
         "🇨🇦 CA | VLESS | @free1_vpn #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
-        "🇨🇦 CA | SS | @outline_ir #1",
         "🇨🇦 CA | VLESS | @rez1vpn #1",
         "🇨🇦 CA | VLESS | @serverv2ray00 #1",
-        "🇨🇦 CA | VLESS | @v2ray_collector #1",
-        "🇨🇦 CA | SS | @v2rayopen #1"
+        "🇨🇦 CA | VLESS | @v2ray_collector #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -92,14 +91,13 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇨🇦 CA | VLESS | @NamiraConfigs #1",
         "🇨🇦 CA | VLESS | @free1_vpn #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
-        "🇨🇦 CA | SS | @outline_ir #1",
         "🇨🇦 CA | VLESS | @rez1vpn #1",
         "🇨🇦 CA | VLESS | @serverv2ray00 #1",
-        "🇨🇦 CA | VLESS | @v2ray_collector #1",
-        "🇨🇦 CA | SS | @v2rayopen #1"
+        "🇨🇦 CA | VLESS | @v2ray_collector #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -113,6 +111,23 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇨🇦 CA | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "lizca2.footballfantasyforum.com",
+      "server_port": 443,
+      "uuid": "716426fa-bcb7-4eb9-b460-36399ebf740d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇨🇦 CA | VLESS | @free1_vpn #1",
@@ -160,14 +175,6 @@
       }
     },
     {
-      "tag": "🇨🇦 CA | SS | @outline_ir #1",
-      "type": "shadowsocks",
-      "server": "ca4.levikogjgfdd.ir",
-      "server_port": 8388,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpGRDNyQ3VPc3hPYXk=",
-      "password": null
-    },
-    {
       "tag": "🇨🇦 CA | VLESS | @rez1vpn #1",
       "type": "vless",
       "server": "ov-canada1.09vpn.com",
@@ -209,14 +216,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇨🇦 CA | SS | @v2rayopen #1",
-      "type": "shadowsocks",
-      "server": "15.235.75.71",
-      "server_port": 8388,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpGRDNyQ3VPc3hPYXk=",
-      "password": null
     }
   ],
   "route": {
