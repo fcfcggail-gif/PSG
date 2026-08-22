@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @v2raych #1",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
         "🇹🇷 TR | TROJAN | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -99,7 +99,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @v2raych #1",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
         "🇹🇷 TR | TROJAN | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -112,12 +112,21 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
+      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "trp.soundfiy.ir",
-      "server_port": 61169,
-      "uuid": "cae7b931-eef6-4637-a782-5537bca137f1",
-      "packet_encoding": "xudp"
+      "server": "139.28.241.77",
+      "server_port": 443,
+      "uuid": "5d5c40b1-102c-4343-94cc-d5b794dbd0c6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇹🇷 TR | TROJAN | @vmesskhodam #1",

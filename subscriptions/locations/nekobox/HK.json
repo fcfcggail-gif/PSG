@@ -77,9 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | TROJAN | @outlinereleasedkey #1",
         "🇭🇰 HK | VLESS | @outlinereleasedkey #1",
-        "🇭🇰 HK | TROJAN | @v2ray_collector #1"
+        "🇭🇰 HK | TROJAN | @v2ray_collector #1",
+        "🇭🇰 HK | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | TROJAN | @outlinereleasedkey #1",
         "🇭🇰 HK | VLESS | @outlinereleasedkey #1",
-        "🇭🇰 HK | TROJAN | @v2ray_collector #1"
+        "🇭🇰 HK | TROJAN | @v2ray_collector #1",
+        "🇭🇰 HK | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,22 +103,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇭🇰 HK | TROJAN | @outlinereleasedkey #1",
-      "type": "trojan",
-      "server": "novel-mouse.rooster465.autos",
-      "server_port": 443,
-      "password": "AE62539071",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇭🇰 HK | VLESS | @outlinereleasedkey #1",
@@ -155,6 +139,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 HK | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "128.1.12.164",
+      "server_port": 443,
+      "uuid": "e01b5875-0b0b-4056-bbf5-0b0ecdc97937",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }
