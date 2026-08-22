@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇷 TR | TROJAN | @vmesskhodam #1", "server": "193.124.46.65", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "8bS8vVC5CQ2GsckhMh8IT1jv"}
+  - {"name": "🇧🇬 BG | VLESS | @outlinereleasedkey #1", "server": "195.123.226.21", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "33851d53-ede0-45f7-9eb8-9aa961f7d200", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "195.123.226.21"}}}
+  - {"name": "🇧🇬 BG | VLESS | @v2ray_free_conf #1", "server": "93.152.205.99", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "7e8825a4-86ac-486f-a06c-0917ced9dfcd", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇹🇷 TR | TROJAN | @vmesskhodam #1'
+      - '🇧🇬 BG | VLESS | @outlinereleasedkey #1'
+      - '🇧🇬 BG | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

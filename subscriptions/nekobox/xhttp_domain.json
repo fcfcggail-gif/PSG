@@ -85,8 +85,9 @@
         "🇺🇸 US | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇮🇹 IT | VLESS | @selinc #1",
-        "🇺🇸 US | VLESS | @v2raymelliii #3",
-        "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1"
+        "🇺🇸 US | VLESS | @v2raymelliii #2",
+        "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
+        "🇽🇽 XX | VLESS | @vmesc #3"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,8 +103,9 @@
         "🇺🇸 US | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇮🇹 IT | VLESS | @selinc #1",
-        "🇺🇸 US | VLESS | @v2raymelliii #3",
-        "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1"
+        "🇺🇸 US | VLESS | @v2raymelliii #2",
+        "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
+        "🇽🇽 XX | VLESS | @vmesc #3"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -240,7 +242,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2raymelliii #3",
+      "tag": "🇺🇸 US | VLESS | @v2raymelliii #2",
       "type": "vless",
       "server": "yesoip-production-ca83.up.railway.app",
       "server_port": 443,
@@ -263,6 +265,23 @@
       "server_port": 2082,
       "uuid": "9c99019f-d868-4c91-8afc-16f152f3c1a2",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @vmesc #3",
+      "type": "vless",
+      "server": "chatgpt-async-webps-prod-centralus-0.chatgpt.com",
+      "server_port": 443,
+      "uuid": "3666e25b-a1c2-48ec-b060-075392b1aa6e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

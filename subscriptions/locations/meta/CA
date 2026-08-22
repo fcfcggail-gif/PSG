@@ -23,13 +23,12 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇨🇦 CA | VLESS | @NamiraConfigs #1", "server": "lizca2.footballfantasyforum.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "716426fa-bcb7-4eb9-b460-36399ebf740d", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇨🇦 CA | VLESS | @free1_vpn #1", "server": "184.107.141.174", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "bb05f9d7-a3d1-4b81-a790-f6dba0301907", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇨🇦 CA | VLESS | @jokerv2ray #1", "server": "23.227.60.12", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "dd777f39-2996-4269-b88f-0b64436d0274", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇨🇦 CA | VLESS | @jokerv2ray #2", "server": "23.227.60.12", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "dd777f39-2996-4269-b88f-0b64436d0274", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "23.227.60.12"}}}
   - {"name": "🇨🇦 CA | VLESS | @rez1vpn #1", "server": "ov-canada1.09vpn.com", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "08f96221-9b7b-4e6f-8ffe-aee8b9c9b504", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇨🇦 CA | VLESS | @serverv2ray00 #1", "server": "23.227.60.7", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇨🇦 CA | VLESS | @v2ray_collector #1", "server": "216.152.147.28", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "d9e4721d-cdac-44c7-bc91-117367eac194", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
+  - {"name": "🇨🇦 CA | VLESS | @v2ray_free_conf #1", "server": "147.182.156.111", "port": 8039, "type": "vless", "skip-cert-verify": true, "uuid": "499286ae-51b4-c207-ca69-c80dd64fa2d0", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -43,13 +42,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇨🇦 CA | VLESS | @NamiraConfigs #1'
-      - '🇨🇦 CA | VLESS | @free1_vpn #1'
       - '🇨🇦 CA | VLESS | @jokerv2ray #1'
       - '🇨🇦 CA | VLESS | @jokerv2ray #2'
       - '🇨🇦 CA | VLESS | @rez1vpn #1'
       - '🇨🇦 CA | VLESS | @serverv2ray00 #1'
       - '🇨🇦 CA | VLESS | @v2ray_collector #1'
+      - '🇨🇦 CA | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

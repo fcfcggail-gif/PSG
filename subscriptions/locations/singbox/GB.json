@@ -97,10 +97,14 @@
         "🇬🇧 GB | SS | @netfreedom0 #2",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
         "🇬🇧 GB | SS | @torang_vpn #1",
+        "🇬🇧 GB | VLESS | @v2raych #1",
+        "🇬🇧 GB | VLESS | @v2raych #2",
+        "🇬🇧 GB | VLESS | @v2raying #1",
         "🇬🇧 GB | SS | @v2rayng3 #1",
         "🇬🇧 GB | SS | @v2rayng3 #2",
         "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
-        "🇬🇧 GB | VLESS | @vmesskhodam #1"
+        "🇬🇧 GB | VLESS | @vmesskhodam #1",
+        "🇬🇧 GB | VMESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -115,10 +119,14 @@
         "🇬🇧 GB | SS | @netfreedom0 #2",
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
         "🇬🇧 GB | SS | @torang_vpn #1",
+        "🇬🇧 GB | VLESS | @v2raych #1",
+        "🇬🇧 GB | VLESS | @v2raych #2",
+        "🇬🇧 GB | VLESS | @v2raying #1",
         "🇬🇧 GB | SS | @v2rayng3 #1",
         "🇬🇧 GB | SS | @v2rayng3 #2",
         "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
-        "🇬🇧 GB | VLESS | @vmesskhodam #1"
+        "🇬🇧 GB | VLESS | @vmesskhodam #1",
+        "🇬🇧 GB | VMESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -200,6 +208,58 @@
       "password": null
     },
     {
+      "tag": "🇬🇧 GB | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "213.193.255.206",
+      "server_port": 443,
+      "uuid": "be3960db-f339-0065-be7b-c1a130601141",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "95.154.196.61",
+      "server_port": 443,
+      "uuid": "e5d917f5-fc78-455e-bbb5-81d08715f3d6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2raying #1",
+      "type": "vless",
+      "server": "gb1.wba-pn.ru",
+      "server_port": 443,
+      "uuid": "4bc8ff7a-20b4-41b2-9751-dfca869f0553",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇬🇧 GB | SS | @v2rayng3 #1",
       "type": "shadowsocks",
       "server": "82.38.31.198",
@@ -244,6 +304,15 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇬🇧 GB | VMESS | @vpn_ioss #1",
+      "type": "vmess",
+      "server": "66.163.117.58",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto",
+      "alter_id": 0
     }
   ],
   "route": {
