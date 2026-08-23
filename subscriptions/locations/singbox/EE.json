@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇪 EE | TROJAN | @outlinereleasedkey #1"
+        "🇪🇪 EE | TROJAN | @outlinereleasedkey #1",
+        "🇪🇪 EE | VLESS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇪 EE | TROJAN | @outlinereleasedkey #1"
+        "🇪🇪 EE | TROJAN | @outlinereleasedkey #1",
+        "🇪🇪 EE | VLESS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -124,6 +126,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @outlinereleasedkey #1",
+      "type": "vless",
+      "server": "estproxy4.lockdwn.com",
+      "server_port": 8443,
+      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

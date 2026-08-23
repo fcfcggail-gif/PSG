@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇧🇬 BG | VLESS | @free1_vpn #1", "server": "universe.whit3.net", "port": 4443, "type": "vless", "skip-cert-verify": true, "uuid": "a6cf4b28-ba72-4e8c-90f8-6a884107ab3c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇧🇬 BG | VLESS | @outlinereleasedkey #1", "server": "195.123.226.21", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "33851d53-ede0-45f7-9eb8-9aa961f7d200", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "195.123.226.21"}}}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇧🇬 BG | VLESS | @free1_vpn #1'
       - '🇧🇬 BG | VLESS | @outlinereleasedkey #1'
 
   - name: 🌍 Global Media
