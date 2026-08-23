@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVFc=
+//profile-title: base64:UFNHIHwgS1I=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇼 TW | VLESS | @v2ray_free_conf #1"
+        "🇰🇷 KR | SS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇼 TW | VLESS | @v2ray_free_conf #1"
+        "🇰🇷 KR | SS | @NamiraConfigs #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,26 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇼 TW | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "92yqc126g8qwe6v23n01.haiyucloud.com",
-      "server_port": 50567,
-      "uuid": "485717cf-e96c-40db-9bc1-624060b89f20",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "tag": "🇰🇷 KR | SS | @NamiraConfigs #1",
+      "type": "shadowsocks",
+      "server": "141.164.45.187",
+      "server_port": 6679,
+      "method": "YWVzLTI1Ni1nY206VEV6amZBWXEySWp0dW9T",
+      "password": null
     }
   ],
   "route": {

@@ -90,9 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇦🇪 AE | VLESS | @free1_vpn #1",
         "🇦🇪 AE | SS | @free4allvpn #1",
-        "🇦🇪 AE | SS | @manstervpn #1",
-        "🇦🇪 AE | VLESS | @v2raych #1"
+        "🇦🇪 AE | SS | @manstervpn #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇦🇪 AE | VLESS | @free1_vpn #1",
         "🇦🇪 AE | SS | @free4allvpn #1",
-        "🇦🇪 AE | SS | @manstervpn #1",
-        "🇦🇪 AE | VLESS | @v2raych #1"
+        "🇦🇪 AE | SS | @manstervpn #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,6 +112,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "89.47.55.7",
+      "server_port": 8443,
+      "uuid": "28a53b24-f7cc-c55d-75d6-86dfff4e3a4c",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇦🇪 AE | SS | @free4allvpn #1",
@@ -128,14 +136,6 @@
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj",
       "password": null
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "89.47.55.7",
-      "server_port": 8443,
-      "uuid": "28a53b24-f7cc-c55d-75d6-86dfff4e3a4c",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {
