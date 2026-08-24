@@ -78,7 +78,7 @@
         "auto",
         "direct",
         "🇧🇬 BG | VLESS | @free1_vpn #1",
-        "🇧🇬 BG | VLESS | @red2ray #1"
+        "🇧🇬 BG | VLESS | @v2ray_collector #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +87,7 @@
       "interval": "10m",
       "outbounds": [
         "🇧🇬 BG | VLESS | @free1_vpn #1",
-        "🇧🇬 BG | VLESS | @red2ray #1"
+        "🇧🇬 BG | VLESS | @v2ray_collector #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -111,12 +111,22 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇧🇬 BG | VLESS | @red2ray #1",
+      "tag": "🇧🇬 BG | VLESS | @v2ray_collector #1",
       "type": "vless",
-      "server": "universe.whit3.net",
-      "server_port": 4443,
-      "uuid": "a6cf4b28-ba72-4e8c-90f8-6a884107ab3c",
-      "packet_encoding": "xudp"
+      "server": "82.118.18.202",
+      "server_port": 443,
+      "uuid": "316dda83-17f1-4f29-a05f-b84b7f991b82",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
