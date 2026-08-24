@@ -77,8 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇬 BG | VLESS | @free1_vpn #1",
-        "🇧🇬 BG | VLESS | @outlinereleasedkey #1"
+        "🇧🇬 BG | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇬 BG | VLESS | @free1_vpn #1",
-        "🇧🇬 BG | VLESS | @outlinereleasedkey #1"
+        "🇧🇬 BG | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,36 +101,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇧🇬 BG | VLESS | @free1_vpn #1",
+      "tag": "🇧🇬 BG | VLESS | @red2ray #1",
       "type": "vless",
       "server": "universe.whit3.net",
       "server_port": 4443,
       "uuid": "a6cf4b28-ba72-4e8c-90f8-6a884107ab3c",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇧🇬 BG | VLESS | @outlinereleasedkey #1",
-      "type": "vless",
-      "server": "195.123.226.21",
-      "server_port": 443,
-      "uuid": "33851d53-ede0-45f7-9eb8-9aa961f7d200",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
     }
   ],
   "route": {

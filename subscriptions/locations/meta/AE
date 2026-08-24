@@ -24,7 +24,8 @@ dns:
 
 proxies: 
   - {"name": "🇦🇪 AE | VLESS | @free1_vpn #1", "server": "89.47.55.7", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "28a53b24-f7cc-c55d-75d6-86dfff4e3a4c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇦🇪 AE | VLESS | @v2ray_free_conf #1", "server": "crm.3f6.ir", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "12fb098b-5b32-430c-909c-d82fe53a7e5c", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇦🇪 AE | VLESS | @v2ray_free_conf #1", "server": "130.185.120.239", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "dd5cba91-634a-4ca9-a52d-5294487a74cf", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇪 AE | VLESS | @v2ray_free_conf #2", "server": "crm.3f6.ir", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "f5770d2f-ffb1-4d4b-b51a-d545e78dc0cc", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,6 +41,7 @@ proxy-groups:
     proxies: 
       - '🇦🇪 AE | VLESS | @free1_vpn #1'
       - '🇦🇪 AE | VLESS | @v2ray_free_conf #1'
+      - '🇦🇪 AE | VLESS | @v2ray_free_conf #2'
 
   - name: 🌍 Global Media
     type: select

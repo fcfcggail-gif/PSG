@@ -90,9 +90,12 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇮 FI | VLESS | @NamiraConfigs #1",
+        "🇫🇮 FI | VLESS | @bored_vpn #1",
         "🇫🇮 FI | VLESS | @orange_vpns #1",
         "🇫🇮 FI | VLESS | @outline_ir #1",
         "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
+        "🇫🇮 FI | VLESS | @turboo_server #1",
         "🇫🇮 FI | SS | @v2raying #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
@@ -102,9 +105,12 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇮 FI | VLESS | @NamiraConfigs #1",
+        "🇫🇮 FI | VLESS | @bored_vpn #1",
         "🇫🇮 FI | VLESS | @orange_vpns #1",
         "🇫🇮 FI | VLESS | @outline_ir #1",
         "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
+        "🇫🇮 FI | VLESS | @turboo_server #1",
         "🇫🇮 FI | SS | @v2raying #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
@@ -116,6 +122,36 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "81.27.110.79",
+      "server_port": 8080,
+      "uuid": "cde8e374-bf71-4a1f-9386-db050bc46190",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @bored_vpn #1",
+      "type": "vless",
+      "server": "85.192.49.151",
+      "server_port": 443,
+      "uuid": "bb05f9d7-a3d1-4b81-a790-f6dba0301907",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇫🇮 FI | VLESS | @orange_vpns #1",
@@ -162,6 +198,14 @@
       "server": "95.216.27.15",
       "server_port": 2053,
       "uuid": "0fbff144-bbed-44c0-972b-3ecb0d5579d6",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @turboo_server #1",
+      "type": "vless",
+      "server": "212.147.246.134",
+      "server_port": 3389,
+      "uuid": "fc9bf9b8-06b5-4244-aea5-75a460ec5066",
       "packet_encoding": "xudp"
     },
     {
