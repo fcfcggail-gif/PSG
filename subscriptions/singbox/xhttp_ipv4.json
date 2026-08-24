@@ -112,7 +112,7 @@
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
-        "🇫🇮 FI | VLESS | @vmesskhodam #1"
+        "🇩🇪 DE | VLESS | @vmesskhodam #3"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -142,7 +142,7 @@
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
-        "🇫🇮 FI | VLESS | @vmesskhodam #1"
+        "🇩🇪 DE | VLESS | @vmesskhodam #3"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -513,12 +513,21 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",
+      "tag": "🇩🇪 DE | VLESS | @vmesskhodam #3",
       "type": "vless",
-      "server": "31.76.80.69",
-      "server_port": 2083,
-      "uuid": "8975546a-375c-4966-8064-19fc0f66f30a",
-      "packet_encoding": "xudp"
+      "server": "194.48.250.31",
+      "server_port": 443,
+      "uuid": "8c105407-82fb-4dd1-8df4-916d34a7d3fe",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
