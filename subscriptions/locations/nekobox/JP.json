@@ -79,7 +79,9 @@
         "direct",
         "🇯🇵 JP | VLESS | @free4allvpn #1",
         "🇯🇵 JP | VLESS | @megavpn_link #1",
-        "🇯🇵 JP | TROJAN | @v2raych #1",
+        "🇯🇵 JP | TROJAN | @outlinereleasedkey #1",
+        "🇯🇵 JP | VLESS | @red2ray #1",
+        "🇯🇵 JP | SS | @v2ray_free_conf #1",
         "🇯🇵 JP | SS | @v2rayng3 #1"
       ],
       "tag": "proxy",
@@ -90,7 +92,9 @@
       "outbounds": [
         "🇯🇵 JP | VLESS | @free4allvpn #1",
         "🇯🇵 JP | VLESS | @megavpn_link #1",
-        "🇯🇵 JP | TROJAN | @v2raych #1",
+        "🇯🇵 JP | TROJAN | @outlinereleasedkey #1",
+        "🇯🇵 JP | VLESS | @red2ray #1",
+        "🇯🇵 JP | SS | @v2ray_free_conf #1",
         "🇯🇵 JP | SS | @v2rayng3 #1"
       ],
       "tag": "auto",
@@ -146,11 +150,45 @@
       }
     },
     {
-      "tag": "🇯🇵 JP | TROJAN | @v2raych #1",
+      "tag": "🇯🇵 JP | TROJAN | @outlinereleasedkey #1",
       "type": "trojan",
-      "server": "18.181.83.46",
-      "server_port": 2944,
-      "password": "BxceQaOe"
+      "server": "lucky-marmot.rooster465.autos",
+      "server_port": 443,
+      "password": "PQ05174892",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "137.220.221.179",
+      "server_port": 443,
+      "uuid": "a16a3336-c9ab-489f-9b85-c973f5e2cfa4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 JP | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "84.247.155.196",
+      "server_port": 80,
+      "method": "YWVzLTI1Ni1nY206M2VPRmVOc3NkZTdQWVlNdg==",
+      "password": null
     },
     {
       "tag": "🇯🇵 JP | SS | @v2rayng3 #1",

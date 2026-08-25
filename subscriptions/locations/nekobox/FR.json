@@ -84,8 +84,8 @@
         "🇫🇷 FR | VLESS | @mpproxy #1",
         "🇫🇷 FR | SS | @netfreedom0 #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
-        "🇫🇷 FR | VLESS | @v2ray_collector #1",
-        "🇫🇷 FR | VLESS | @v2raych #1"
+        "🇫🇷 FR | VLESS | @privatevpns #1",
+        "🇫🇷 FR | VLESS | @v2ray_collector #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,8 +100,8 @@
         "🇫🇷 FR | VLESS | @mpproxy #1",
         "🇫🇷 FR | SS | @netfreedom0 #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
-        "🇫🇷 FR | VLESS | @v2ray_collector #1",
-        "🇫🇷 FR | VLESS | @v2raych #1"
+        "🇫🇷 FR | VLESS | @privatevpns #1",
+        "🇫🇷 FR | VLESS | @v2ray_collector #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -191,34 +191,20 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇫🇷 FR | VLESS | @privatevpns #1",
+      "type": "vless",
+      "server": "15.237.2.124",
+      "server_port": 22222,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇫🇷 FR | VLESS | @v2ray_collector #1",
       "type": "vless",
       "server": "164.68.127.108",
       "server_port": 24144,
       "uuid": "7e85ed3f-3829-45b1-8b1c-6a2e45ebc967",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "fr1.milkabebar.ir",
-      "server_port": 17780,
-      "uuid": "a06119a7-4f1a-4592-86d9-e050a332b2b3",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     }
   ],
   "route": {

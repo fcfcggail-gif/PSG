@@ -77,6 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇵🇱 PL | TROJAN | @v2ray_collector #1",
+        "🇵🇱 PL | VLESS | @v2ray_collector #1",
         "🇵🇱 PL | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
@@ -85,6 +87,8 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇵🇱 PL | TROJAN | @v2ray_collector #1",
+        "🇵🇱 PL | VLESS | @v2ray_collector #1",
         "🇵🇱 PL | VLESS | @vmesc #1"
       ],
       "tag": "auto",
@@ -99,6 +103,39 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇵🇱 PL | TROJAN | @v2ray_collector #1",
+      "type": "trojan",
+      "server": "202.78.163.19",
+      "server_port": 443,
+      "password": "FH72359861",
+      "tls": {
+        "enabled": true,
+        "server_name": "game-firefly.rooster465.autos",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2ray_collector #1",
+      "type": "vless",
+      "server": "2.26.255.36",
+      "server_port": 8443,
+      "uuid": "8787dd0a-095a-414e-804f-a7d16a1ae166",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇵🇱 PL | VLESS | @vmesc #1",
