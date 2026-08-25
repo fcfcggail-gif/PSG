@@ -80,8 +80,7 @@
         "🇫🇮 FI | VLESS | @NamiraConfigs #1",
         "🇫🇮 FI | VLESS | @bored_vpn #1",
         "🇫🇮 FI | VLESS | @orange_vpns #1",
-        "🇫🇮 FI | VLESS | @turboo_server #1",
-        "🇫🇮 FI | VLESS | @v2raych #1",
+        "🇫🇮 FI | VLESS | @red2ray #1",
         "🇫🇮 FI | SS | @v2raying #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
@@ -94,8 +93,7 @@
         "🇫🇮 FI | VLESS | @NamiraConfigs #1",
         "🇫🇮 FI | VLESS | @bored_vpn #1",
         "🇫🇮 FI | VLESS | @orange_vpns #1",
-        "🇫🇮 FI | VLESS | @turboo_server #1",
-        "🇫🇮 FI | VLESS | @v2raych #1",
+        "🇫🇮 FI | VLESS | @red2ray #1",
         "🇫🇮 FI | SS | @v2raying #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
@@ -151,20 +149,26 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @turboo_server #1",
-      "type": "vless",
-      "server": "212.147.246.134",
-      "server_port": 3389,
-      "uuid": "fc9bf9b8-06b5-4244-aea5-75a460ec5066",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
+      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
       "type": "vless",
       "server": "31.76.80.69",
-      "server_port": 2083,
+      "server_port": 443,
       "uuid": "8975546a-375c-4966-8064-19fc0f66f30a",
-      "packet_encoding": "xudp"
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇫🇮 FI | SS | @v2raying #1",

@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | VLESS | @free1_vpn #1",
-        "🇭🇰 HK | VMESS | @outlinereleasedkey #1"
+        "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
+        "🇭🇰 HK | SS | @v2raying #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | VLESS | @free1_vpn #1",
-        "🇭🇰 HK | VMESS | @outlinereleasedkey #1"
+        "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
+        "🇭🇰 HK | SS | @v2raying #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,28 +101,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇭🇰 HK | VLESS | @free1_vpn #1",
-      "type": "vless",
-      "server": "128.1.12.164",
-      "server_port": 443,
-      "uuid": "e01b5875-0b0b-4056-bbf5-0b0ecdc97937",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
@@ -148,6 +126,14 @@
           "Host": "DrBKg16eGf3FZlM3.v.3dns.vip"
         }
       }
+    },
+    {
+      "tag": "🇭🇰 HK | SS | @v2raying #1",
+      "type": "shadowsocks",
+      "server": "95.40.120.162",
+      "server_port": 8316,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsanFkYWx1MTMuLg==",
+      "password": null
     }
   ],
   "route": {
