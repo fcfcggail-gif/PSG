@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇦🇪 AE | VLESS | @free1_vpn #1", "server": "89.47.55.7", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "28a53b24-f7cc-c55d-75d6-86dfff4e3a4c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇪 AE | VLESS | @v2ray_free_conf #1", "server": "162.35.231.31", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "419f25c1-bc35-412e-93fb-258efee859b5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇦🇪 AE | VLESS | @free1_vpn #1'
+      - '🇦🇪 AE | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select
