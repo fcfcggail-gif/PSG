@@ -23,8 +23,12 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇬🇧 GB | VLESS | @hope_net #1", "server": "217.163.76.55", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VLESS | @hope_net #1", "server": "217.163.76.36", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @netfreedom0 #1", "server": "164.37.100.59", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "dcdf114b-e2db-4cc1-bfa4-f30a0a47da7a", "network": "grpc", "tls": false, "udp": true, "client-fingerprint": "chrome", "grpc-opts": {"grpc-service-name": ""}}
+  - {"name": "🇬🇧 GB | VLESS | @privatevpns #1", "server": "13.41.214.184", "port": 22222, "type": "vless", "skip-cert-verify": true, "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | TROJAN | @v2ray_free_conf #1", "server": "91.193.58.201", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "MiTiVPN"}
+  - {"name": "🇬🇧 GB | VLESS | @v2rayvpnchannel #1", "server": "13.41.214.184", "port": 22223, "type": "vless", "skip-cert-verify": true, "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VLESS | @vlessconfig #1", "server": "13.41.214.184", "port": 22224, "type": "vless", "skip-cert-verify": true, "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @vmesc #1", "server": "143.110.163.137", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "c7e9c591-2764-423a-afca-efbd010fd396", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VMESS | @vpn_ioss #1", "server": "66.163.117.58", "port": 22324, "type": "vmess", "skip-cert-verify": true, "uuid": "04621bae-ab36-11ec-b909-0242ac120002", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
 
@@ -42,6 +46,10 @@ proxy-groups:
     proxies: 
       - '🇬🇧 GB | VLESS | @hope_net #1'
       - '🇬🇧 GB | VLESS | @netfreedom0 #1'
+      - '🇬🇧 GB | VLESS | @privatevpns #1'
+      - '🇬🇧 GB | TROJAN | @v2ray_free_conf #1'
+      - '🇬🇧 GB | VLESS | @v2rayvpnchannel #1'
+      - '🇬🇧 GB | VLESS | @vlessconfig #1'
       - '🇬🇧 GB | VLESS | @vmesc #1'
       - '🇬🇧 GB | VMESS | @vpn_ioss #1'
 
