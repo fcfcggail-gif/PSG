@@ -77,11 +77,12 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇩🇪 DE | VLESS | @NamiraConfigs #1",
         "🇩🇪 DE | VLESS | @father_vpn #1",
         "🇩🇪 DE | VLESS | @father_vpn #2",
         "🇩🇪 DE | TROJAN | @father_vpn #1",
         "🇩🇪 DE | VLESS | @father_vpn #3",
+        "🇩🇪 DE | VLESS | @filtershekan_channel #1",
+        "🇩🇪 DE | VLESS | @free1_vpn #1",
         "🇩🇪 DE | VLESS | @free4allvpn #1",
         "🇩🇪 DE | VLESS | @freeconfigsplus #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
@@ -91,14 +92,14 @@
         "🇩🇪 DE | VLESS | @minovpnch #1",
         "🇩🇪 DE | VLESS | @mpproxy #1",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
-        "🇩🇪 DE | VLESS | @mtproxy22_v2ray #2",
         "🇩🇪 DE | VLESS | @netmellianti #1",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
+        "🇩🇪 DE | SS | @outlinereleasedkey #1",
         "🇩🇪 DE | VLESS | @proxy48 #1",
+        "🇩🇪 DE | VLESS | @red2ray #1",
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
-        "🇩🇪 DE | VLESS | @turboo_server #1",
         "🇩🇪 DE | VMESS | @v2ray_collector #1",
         "🇩🇪 DE | VLESS | @v2raych #1",
         "🇩🇪 DE | SS | @v2rayng3 #1",
@@ -113,11 +114,12 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇩🇪 DE | VLESS | @NamiraConfigs #1",
         "🇩🇪 DE | VLESS | @father_vpn #1",
         "🇩🇪 DE | VLESS | @father_vpn #2",
         "🇩🇪 DE | TROJAN | @father_vpn #1",
         "🇩🇪 DE | VLESS | @father_vpn #3",
+        "🇩🇪 DE | VLESS | @filtershekan_channel #1",
+        "🇩🇪 DE | VLESS | @free1_vpn #1",
         "🇩🇪 DE | VLESS | @free4allvpn #1",
         "🇩🇪 DE | VLESS | @freeconfigsplus #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
@@ -127,14 +129,14 @@
         "🇩🇪 DE | VLESS | @minovpnch #1",
         "🇩🇪 DE | VLESS | @mpproxy #1",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
-        "🇩🇪 DE | VLESS | @mtproxy22_v2ray #2",
         "🇩🇪 DE | VLESS | @netmellianti #1",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
+        "🇩🇪 DE | SS | @outlinereleasedkey #1",
         "🇩🇪 DE | VLESS | @proxy48 #1",
+        "🇩🇪 DE | VLESS | @red2ray #1",
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
-        "🇩🇪 DE | VLESS | @turboo_server #1",
         "🇩🇪 DE | VMESS | @v2ray_collector #1",
         "🇩🇪 DE | VLESS | @v2raych #1",
         "🇩🇪 DE | SS | @v2rayng3 #1",
@@ -155,14 +157,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "germanndnew.mamadhpbot.ir",
-      "server_port": 50118,
-      "uuid": "93ee032f-b67f-4cac-a239-da1295aec528",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇩🇪 DE | VLESS | @father_vpn #1",
@@ -220,6 +214,36 @@
       "server": "167.233.59.162",
       "server_port": 443,
       "uuid": "e2773031-7418-424e-ae49-99b4b474aeba",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @filtershekan_channel #1",
+      "type": "vless",
+      "server": "138.201.159.12",
+      "server_port": 28353,
+      "uuid": "ca09651d-fb31-437c-b356-84df10c1e97d",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "45.155.70.123",
+      "server_port": 8443,
+      "uuid": "f82332b2-dc8c-eac4-ac12-f276e37e278a",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -368,28 +392,6 @@
     {
       "tag": "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
       "type": "vless",
-      "server": "45.155.70.123",
-      "server_port": 8443,
-      "uuid": "f82332b2-dc8c-eac4-ac12-f276e37e278a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @mtproxy22_v2ray #2",
-      "type": "vless",
       "server": "node-fra01.rkitman.ru",
       "server_port": 443,
       "uuid": "64774bd8-3116-4eaa-a046-5ea4fc230b81",
@@ -440,11 +442,27 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | SS | @outlinereleasedkey #1",
+      "type": "shadowsocks",
+      "server": "144.31.168.176",
+      "server_port": 45640,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTplUXZLa3lrQkViQ2t5NXA0QlZnaE8w",
+      "password": null
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @proxy48 #1",
       "type": "vless",
       "server": "82.165.77.122",
       "server_port": 2083,
       "uuid": "f46ad8d7-f22c-40fc-d0b2-5db602a6d815",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "159.100.19.241",
+      "server_port": 8443,
+      "uuid": "9ce4c9e2-1dcc-abe8-9abf-9bf8bc1269f6",
       "packet_encoding": "xudp"
     },
     {
@@ -499,14 +517,6 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @turboo_server #1",
-      "type": "vless",
-      "server": "turboo-server.iranserver-local.ir",
-      "server_port": 80,
-      "uuid": "fc9bf9b8-06b5-4244-aea5-75a460ec5066",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇩🇪 DE | VMESS | @v2ray_collector #1",
       "type": "vmess",
       "server": "deapp.jisuyun.top",
@@ -534,7 +544,7 @@
     {
       "tag": "🇩🇪 DE | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "67.159.55.130",
+      "server": "de.convert-flow.net",
       "server_port": 443,
       "uuid": "defd7be5-3090-4f97-9d46-823087b2345d",
       "packet_encoding": "xudp",

@@ -77,7 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇬 BG | VLESS | @free1_vpn #1"
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇬 BG | VLESS | @free1_vpn #1"
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,12 +105,76 @@
       "type": "direct"
     },
     {
-      "tag": "🇧🇬 BG | VLESS | @free1_vpn #1",
+      "tag": "همکاری_ملی",
       "type": "vless",
-      "server": "universe.whit3.net",
-      "server_port": 4443,
-      "uuid": "a6cf4b28-ba72-4e8c-90f8-6a884107ab3c",
-      "packet_encoding": "xudp"
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "جاویدشاه",
+      "type": "vless",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "KingRezaPahlavi",
+      "type": "vless",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
     }
   ],
   "route": {

@@ -90,7 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+        "🇹🇷 TR | VLESS | @NamiraConfigs #1",
+        "🇹🇷 TR | VLESS | @free1_vpn #1",
+        "🇹🇷 TR | VLESS | @red2ray #1",
         "🇹🇷 TR | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
@@ -99,7 +101,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+        "🇹🇷 TR | VLESS | @NamiraConfigs #1",
+        "🇹🇷 TR | VLESS | @free1_vpn #1",
+        "🇹🇷 TR | VLESS | @red2ray #1",
         "🇹🇷 TR | VLESS | @v2raych #1"
       ],
       "tag": "auto",
@@ -112,43 +116,36 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇹🇷 TR | VLESS | @NamiraConfigs #1",
       "type": "vless",
-      "server": "tr.alertyagency.com",
-      "server_port": 443,
-      "uuid": "a704443d-655e-4d9f-8ce6-12eeb17a9a08",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "turk.mamadhpbot.ir",
+      "server_port": 50118,
+      "uuid": "93ee032f-b67f-4cac-a239-da1295aec528",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "93.114.98.84",
+      "server_port": 53147,
+      "uuid": "6110baf2-241e-4ba6-a2e1-6ffbacd903f9",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "test.soundfiy.ir",
+      "server_port": 31579,
+      "uuid": "b7f48f17-98db-4379-9b48-943ea54346b9",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇹🇷 TR | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "213.156.152.110",
-      "server_port": 443,
-      "uuid": "79c08658-753d-41f7-90af-dd03b0e68f75",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "sv2.helpower.ir",
+      "server_port": 2036,
+      "uuid": "c918759c-8017-43a7-91cd-d733f1b055b4",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

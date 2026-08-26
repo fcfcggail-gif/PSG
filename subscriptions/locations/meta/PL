@@ -23,8 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇵🇱 PL | VLESS | @outlinereleasedkey #1", "server": "145.239.85.117", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "c7e9c591-2764-423a-afca-efbd010fd396", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "/", "headers": {"Host": "145.239.85.117"}}}
   - {"name": "🇵🇱 PL | TROJAN | @v2ray_collector #1", "server": "202.78.163.19", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "FH72359861", "sni": "game-firefly.rooster465.autos"}
-  - {"name": "🇵🇱 PL | VLESS | @v2ray_collector #1", "server": "2.26.255.36", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "8787dd0a-095a-414e-804f-a7d16a1ae166", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇵🇱 PL | TROJAN | @v2ray_collector #2", "server": "enough-basilisk.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "AE62539071"}
 
 proxy-groups:
@@ -39,8 +39,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇵🇱 PL | VLESS | @outlinereleasedkey #1'
       - '🇵🇱 PL | TROJAN | @v2ray_collector #1'
-      - '🇵🇱 PL | VLESS | @v2ray_collector #1'
       - '🇵🇱 PL | TROJAN | @v2ray_collector #2'
 
   - name: 🌍 Global Media
