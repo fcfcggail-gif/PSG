@@ -92,6 +92,7 @@
         "🇺🇸 US | VMESS | @mi_pn_official #2",
         "🇽🇽 XX | VMESS | @mi_pn_official #1",
         "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
+        "🇭🇰 HK | VMESS | @outlinereleasedkey #2",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇽🇽 XX | VMESS | @serverv2ray00 #1",
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
@@ -106,8 +107,11 @@
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
+        "🇫🇮 FI | VMESS | @red2ray #1",
+        "🇺🇸 US | VMESS | @vpn_ioss #1",
+        "🇺🇸 US | VMESS | @vpn_ioss #2",
         "🇬🇧 GB | VMESS | @vpn_ioss #1",
-        "🇩🇪 DE | VMESS | @vpn_ioss #1"
+        "🇺🇸 US | VMESS | @vpn_ioss #3"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -130,6 +134,7 @@
         "🇺🇸 US | VMESS | @mi_pn_official #2",
         "🇽🇽 XX | VMESS | @mi_pn_official #1",
         "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
+        "🇭🇰 HK | VMESS | @outlinereleasedkey #2",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇽🇽 XX | VMESS | @serverv2ray00 #1",
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
@@ -144,8 +149,11 @@
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
+        "🇫🇮 FI | VMESS | @red2ray #1",
+        "🇺🇸 US | VMESS | @vpn_ioss #1",
+        "🇺🇸 US | VMESS | @vpn_ioss #2",
         "🇬🇧 GB | VMESS | @vpn_ioss #1",
-        "🇩🇪 DE | VMESS | @vpn_ioss #1"
+        "🇺🇸 US | VMESS | @vpn_ioss #3"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -501,6 +509,31 @@
       }
     },
     {
+      "tag": "🇭🇰 HK | VMESS | @outlinereleasedkey #2",
+      "type": "vmess",
+      "server": "47.83.19.148",
+      "server_port": 443,
+      "uuid": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "6JDvArazgU3qQR6Q.v.3dns.vip",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws-vmess",
+        "headers": {
+          "Host": "6JDvArazgU3qQR6Q.v.3dns.vip"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @proxy48 #1",
       "type": "vmess",
       "server": "188.114.97.3",
@@ -818,6 +851,51 @@
       }
     },
     {
+      "tag": "🇫🇮 FI | VMESS | @red2ray #1",
+      "type": "vmess",
+      "server": "65.109.211.136",
+      "server_port": 33120,
+      "uuid": "d9c919c2-872e-429d-a680-1e6c6bfe681b",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @vpn_ioss #1",
+      "type": "vmess",
+      "server": "165.140.216.141",
+      "server_port": 443,
+      "uuid": "e7d72a8d-26f2-4b54-b366-0c43e0bcba7d",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @vpn_ioss #2",
+      "type": "vmess",
+      "server": "165.140.216.142",
+      "server_port": 443,
+      "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇬🇧 GB | VMESS | @vpn_ioss #1",
       "type": "vmess",
       "server": "66.163.117.58",
@@ -827,13 +905,22 @@
       "alter_id": 0
     },
     {
-      "tag": "🇩🇪 DE | VMESS | @vpn_ioss #1",
+      "tag": "🇺🇸 US | VMESS | @vpn_ioss #3",
       "type": "vmess",
-      "server": "82.198.246.37",
-      "server_port": 180,
-      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
+      "server": "165.140.216.142",
+      "server_port": 443,
+      "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
       "security": "auto",
-      "alter_id": 0
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

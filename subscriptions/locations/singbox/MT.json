@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇲🇹 MT | VLESS | @netmellianti #1"
+        "🇲🇹 MT | VLESS | @netmellianti #1",
+        "🇲🇹 MT | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇲🇹 MT | VLESS | @netmellianti #1"
+        "🇲🇹 MT | VLESS | @netmellianti #1",
+        "🇲🇹 MT | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -115,6 +117,14 @@
       "server": "cdn.devmixa.ir",
       "server_port": 8880,
       "uuid": "6d4cce6a-dbc6-43af-9146-067847483fce",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇲🇹 MT | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "cdn.devmixa.ir",
+      "server_port": 80,
+      "uuid": "625bc320-a51c-446b-a006-ac1c1d8d507e",
       "packet_encoding": "xudp"
     }
   ],
