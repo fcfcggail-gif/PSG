@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
         "🇭🇰 HK | SS | @v2raying #1"
       ],
       "tag": "proxy",
@@ -98,6 +99,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
         "🇭🇰 HK | SS | @v2raying #1"
       ],
       "tag": "auto",
@@ -108,6 +110,31 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇭🇰 HK | VMESS | @outlinereleasedkey #1",
+      "type": "vmess",
+      "server": "drbkg16egf3fzlm3.v.3dns.vip",
+      "server_port": 443,
+      "uuid": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "drbkg16egf3fzlm3.v.3dns.vip",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws-vmess",
+        "headers": {
+          "Host": "DrBKg16eGf3FZlM3.v.3dns.vip"
+        }
+      }
     },
     {
       "tag": "🇭🇰 HK | SS | @v2raying #1",

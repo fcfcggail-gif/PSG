@@ -77,7 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇬🇷 GR | VLESS | @v2ray_free_conf #1"
+        "🇨🇾 CY | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇬🇷 GR | VLESS | @v2ray_free_conf #1"
+        "🇨🇾 CY | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,26 +101,13 @@
       "type": "direct"
     },
     {
-      "tag": "🇬🇷 GR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇨🇾 CY | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "swedenguy.pravio.ir",
-      "server_port": 7007,
-      "uuid": "6017b67c-5a4b-4299-84c6-909462508790",
+      "server": "5.253.42.164",
+      "server_port": 40443,
+      "uuid": "e99ba96d-dec8-42eb-be53-19e71eef7cab",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "flow": "xtls-rprx-vision"
     }
   ],
   "route": {

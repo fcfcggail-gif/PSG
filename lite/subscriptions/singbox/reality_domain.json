@@ -93,8 +93,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇷🇺 RU | VLESS | @orange_vpns #1",
         "🇮🇹 IT | VLESS | @selinc #1",
-        "🇳🇱 NL | VLESS | @v2ray_free_conf #1"
+        "🇬🇧 GB | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -105,8 +106,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇷🇺 RU | VLESS | @orange_vpns #1",
         "🇮🇹 IT | VLESS | @selinc #1",
-        "🇳🇱 NL | VLESS | @v2ray_free_conf #1"
+        "🇬🇧 GB | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -190,6 +192,28 @@
       }
     },
     {
+      "tag": "🇷🇺 RU | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "yt.orpheous.ru",
+      "server_port": 443,
+      "uuid": "00ca2ff9-c6a1-48e2-812d-2b15f7b6c3a5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇮🇹 IT | VLESS | @selinc #1",
       "type": "vless",
       "server": "it.feywebsite.ir",
@@ -198,12 +222,26 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+      "tag": "🇬🇧 GB | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "nl-ch.zephyrx.ir",
-      "server_port": 2496,
-      "uuid": "6b3887cb-6c6f-4c58-8033-1b80c1d60aa4",
-      "packet_encoding": "xudp"
+      "server": "node15.fastdatastream.com",
+      "server_port": 443,
+      "uuid": "c19313e8-7dca-41ce-978d-ca5a0c32b8ba",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
