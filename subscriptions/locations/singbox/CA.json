@@ -92,9 +92,9 @@
         "direct",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
-        "🇨🇦 CA | VLESS | @red2ray #1",
         "🇨🇦 CA | VLESS | @rez1vpn #1",
-        "🇨🇦 CA | VLESS | @serverv2ray00 #1"
+        "🇨🇦 CA | VLESS | @serverv2ray00 #1",
+        "🇨🇦 CA | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -104,9 +104,9 @@
       "outbounds": [
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
-        "🇨🇦 CA | VLESS | @red2ray #1",
         "🇨🇦 CA | VLESS | @rez1vpn #1",
-        "🇨🇦 CA | VLESS | @serverv2ray00 #1"
+        "🇨🇦 CA | VLESS | @serverv2ray00 #1",
+        "🇨🇦 CA | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -141,23 +141,6 @@
       }
     },
     {
-      "tag": "🇨🇦 CA | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "184.107.106.68",
-      "server_port": 443,
-      "uuid": "716426fa-bcb7-4eb9-b460-36399ebf740d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇨🇦 CA | VLESS | @rez1vpn #1",
       "type": "vless",
       "server": "ov-canada1.09vpn.com",
@@ -171,6 +154,23 @@
       "server": "23.227.60.7",
       "server_port": 443,
       "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇦 CA | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "184.107.106.68",
+      "server_port": 443,
+      "uuid": "716426fa-bcb7-4eb9-b460-36399ebf740d",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

@@ -77,7 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇾 CY | VLESS | @v2ray_free_conf #1"
+        "🇳🇴 NO | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇾 CY | VLESS | @v2ray_free_conf #1"
+        "🇳🇴 NO | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,13 +101,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇨🇾 CY | VLESS | @v2ray_free_conf #1",
+      "tag": "🇳🇴 NO | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "5.253.42.164",
-      "server_port": 40443,
-      "uuid": "e99ba96d-dec8-42eb-be53-19e71eef7cab",
+      "server": "185.243.218.182",
+      "server_port": 322,
+      "uuid": "20000024-8788-9182-f000-a35f2e23a020",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
