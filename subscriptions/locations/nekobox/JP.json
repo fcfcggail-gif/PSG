@@ -78,10 +78,8 @@
         "auto",
         "direct",
         "🇯🇵 JP | VLESS | @megavpn_link #1",
-        "🇯🇵 JP | VLESS | @red2ray #1",
         "🇯🇵 JP | SS | @v2rayng3 #1",
-        "🇯🇵 JP | TROJAN | @v2rayprotocol #1",
-        "🇯🇵 JP | VLESS | @vmesskhodam #1"
+        "🇯🇵 JP | TROJAN | @v2rayprotocol #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -90,10 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇯🇵 JP | VLESS | @megavpn_link #1",
-        "🇯🇵 JP | VLESS | @red2ray #1",
         "🇯🇵 JP | SS | @v2rayng3 #1",
-        "🇯🇵 JP | TROJAN | @v2rayprotocol #1",
-        "🇯🇵 JP | VLESS | @vmesskhodam #1"
+        "🇯🇵 JP | TROJAN | @v2rayprotocol #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -126,28 +122,6 @@
       }
     },
     {
-      "tag": "🇯🇵 JP | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "18.177.61.231",
-      "server_port": 30203,
-      "uuid": "0346a35f-8e11-4b33-852d-00fa9c642878",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇯🇵 JP | SS | @v2rayng3 #1",
       "type": "shadowsocks",
       "server": "84.247.155.196",
@@ -170,14 +144,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇯🇵 JP | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "43.163.241.110",
-      "server_port": 24477,
-      "uuid": "2bc72bec-0c2a-4c6b-aa9f-138bfce7ba0d",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

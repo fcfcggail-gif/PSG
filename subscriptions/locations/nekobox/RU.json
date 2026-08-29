@@ -77,11 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | VLESS | @jiedianf #1",
-        "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
         "🇷🇺 RU | VLESS | @netfreedom0 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
+        "🇷🇺 RU | VLESS | @orange_vpns #1",
         "🇷🇺 RU | VLESS | @outline_ir #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇷🇺 RU | VLESS | @vmesskhodam #1"
@@ -92,11 +91,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @jiedianf #1",
-        "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
         "🇷🇺 RU | VLESS | @netfreedom0 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
+        "🇷🇺 RU | VLESS | @orange_vpns #1",
         "🇷🇺 RU | VLESS | @outline_ir #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇷🇺 RU | VLESS | @vmesskhodam #1"
@@ -113,41 +111,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @jiedianf #1",
-      "type": "vless",
-      "server": "2.26.8.55",
-      "server_port": 443,
-      "uuid": "10ea33f2-1a66-4dec-99f2-8068a6b56a45",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
-      "type": "vless",
-      "server": "84.38.187.134",
-      "server_port": 443,
-      "uuid": "53ffd172-de4c-002f-aa77-1a6830a36cf8",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇷🇺 RU | VLESS | @netfreedom0 #1",
@@ -212,6 +175,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "84.38.187.134",
+      "server_port": 443,
+      "uuid": "53ffd172-de4c-002f-aa77-1a6830a36cf8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
