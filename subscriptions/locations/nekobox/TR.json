@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | SS | @free1_vpn #1",
-        "🇹🇷 TR | SS | @free1_vpn #2"
+        "🇹🇷 TR | VLESS | @free1_vpn #1",
+        "🇹🇷 TR | SS | @free1_vpn #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | SS | @free1_vpn #1",
-        "🇹🇷 TR | SS | @free1_vpn #2"
+        "🇹🇷 TR | VLESS | @free1_vpn #1",
+        "🇹🇷 TR | SS | @free1_vpn #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,19 +103,33 @@
       "type": "direct"
     },
     {
+      "tag": "🇹🇷 TR | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "tr.alertyagency.com",
+      "server_port": 443,
+      "uuid": "a704443d-655e-4d9f-8ce6-12eeb17a9a08",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇹🇷 TR | SS | @free1_vpn #1",
       "type": "shadowsocks",
       "server": "212.87.199.63",
       "server_port": 1080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpKRUFrRV9sQWgwY2VxSVByMml2XzA5OWFuQlFGZmpiQg==",
-      "password": null
-    },
-    {
-      "tag": "🇹🇷 TR | SS | @free1_vpn #2",
-      "type": "shadowsocks",
-      "server": "176.53.17.241",
-      "server_port": 1943,
-      "method": "MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206ZjJOcTVZTG55Y2xQYVdSOG15Ny9WZGQzWlg4VVJuY1haTmx5NStIY1VTcz06YUU2TXhCVGUrTVhIZDlIb0YyRkYvQnpLRnFHVFJlTXBNZXZsUWh2c3Uwcz0=",
       "password": null
     }
   ],
