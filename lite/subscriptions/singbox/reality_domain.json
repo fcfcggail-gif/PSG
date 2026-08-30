@@ -93,8 +93,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇷🇸 RS | VLESS | @v2raych #1",
-        "🇩🇪 DE | VLESS | @v2raych #1"
+        "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇲🇩 MD | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -105,8 +106,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇷🇸 RS | VLESS | @v2raych #1",
-        "🇩🇪 DE | VLESS | @v2raych #1"
+        "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇲🇩 MD | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -190,9 +192,31 @@
       }
     },
     {
-      "tag": "🇷🇸 RS | VLESS | @v2raych #1",
+      "tag": "🇩🇪 DE | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "rs2.univesalsrv.com",
+      "server": "shop.jarorobo.ir",
+      "server_port": 8443,
+      "uuid": "056fe52c-e28f-43fd-a1f5-e87b14b59d6b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇲🇩 MD | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "md1.univesalsrv.com",
       "server_port": 443,
       "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
       "packet_encoding": "xudp",
@@ -207,12 +231,26 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
+      "tag": "🇩🇪 DE | VLESS | @vmesskhodam #1",
       "type": "vless",
-      "server": "store.mehdi-cpp.ir",
-      "server_port": 8443,
-      "uuid": "5b17f173-e91b-418d-87db-242a971b3fc2",
-      "packet_encoding": "xudp"
+      "server": "gsv1.montago-shop.ir",
+      "server_port": 443,
+      "uuid": "914e1bad-ccd0-4f92-972d-3d12ccd99246",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

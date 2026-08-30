@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇨🇭 CH | TROJAN | @outlinereleasedkey #1", "server": "185.18.250.245", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
+  - {"name": "🇲🇩 MD | VLESS | @outline_ir #1", "server": "89.35.14.30", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇲🇩 MD | VLESS | @v2ray_free_conf #1", "server": "md1.univesalsrv.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇨🇭 CH | TROJAN | @outlinereleasedkey #1'
+      - '🇲🇩 MD | VLESS | @outline_ir #1'
+      - '🇲🇩 MD | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select
