@@ -93,17 +93,17 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇲🇩 MD | VLESS | @free1_vpn #1",
         "🇷🇸 RS | VLESS | @mtproxy22_v2ray #1",
         "🇩🇪 DE | VLESS | @outline_ir #1",
         "🇩🇪 DE | VLESS | @prrofile_purple #1",
-        "🇩🇪 DE | VLESS | @red2ray #1",
-        "🇲🇩 MD | VLESS | @v2ray_free_conf #1",
-        "🇫🇷 FR | VLESS | @v2raych #1",
+        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
+        "🇫🇷 FR | VLESS | @v2ray_free_conf #2",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
-        "🇩🇪 DE | VLESS | @vmesskhodam #1",
-        "🇺🇸 US | VLESS | @vmesskhodam #1",
-        "🇧🇬 BG | VLESS | @vmesskhodam #1"
+        "🇧🇬 BG | VLESS | @vmesskhodam #1",
+        "🇧🇬 BG | VLESS | @vmesskhodam #2",
+        "🇧🇬 BG | VLESS | @vmesskhodam #3"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -114,17 +114,17 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇲🇩 MD | VLESS | @free1_vpn #1",
         "🇷🇸 RS | VLESS | @mtproxy22_v2ray #1",
         "🇩🇪 DE | VLESS | @outline_ir #1",
         "🇩🇪 DE | VLESS | @prrofile_purple #1",
-        "🇩🇪 DE | VLESS | @red2ray #1",
-        "🇲🇩 MD | VLESS | @v2ray_free_conf #1",
-        "🇫🇷 FR | VLESS | @v2raych #1",
+        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
+        "🇫🇷 FR | VLESS | @v2ray_free_conf #2",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
-        "🇩🇪 DE | VLESS | @vmesskhodam #1",
-        "🇺🇸 US | VLESS | @vmesskhodam #1",
-        "🇧🇬 BG | VLESS | @vmesskhodam #1"
+        "🇧🇬 BG | VLESS | @vmesskhodam #1",
+        "🇧🇬 BG | VLESS | @vmesskhodam #2",
+        "🇧🇬 BG | VLESS | @vmesskhodam #3"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -208,6 +208,23 @@
       }
     },
     {
+      "tag": "🇲🇩 MD | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "md1.univesalsrv.com",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇷🇸 RS | VLESS | @mtproxy22_v2ray #1",
       "type": "vless",
       "server": "rs2.univesalsrv.com",
@@ -269,11 +286,19 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @red2ray #1",
+      "tag": "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "shop.jarorobo.ir",
-      "server_port": 8443,
-      "uuid": "056fe52c-e28f-43fd-a1f5-e87b14b59d6b",
+      "server": "parr.mechanicir.ir",
+      "server_port": 10694,
+      "uuid": "c100e5ba-1cf5-45ce-b491-5c2b02cdde5e",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "frssr.mechanicir.ir",
+      "server_port": 10694,
+      "uuid": "78c51f0e-9ec2-43f4-b3cb-487b9f758307",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -289,31 +314,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇲🇩 MD | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "md1.univesalsrv.com",
-      "server_port": 443,
-      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "parr.mechanicir.ir",
-      "server_port": 10694,
-      "uuid": "8c2d5e7e-116a-49c4-8437-937f4bfce346",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
@@ -346,53 +346,43 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "gsv1.montago-shop.ir",
-      "server_port": 443,
-      "uuid": "914e1bad-ccd0-4f92-972d-3d12ccd99246",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "usq.mobileemdad.top",
-      "server_port": 443,
-      "uuid": "914e1bad-ccd0-4f92-972d-3d12ccd99246",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇧🇬 BG | VLESS | @vmesskhodam #1",
       "type": "vless",
       "server": "bg5.univesalsrv.com",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇬 BG | VLESS | @vmesskhodam #2",
+      "type": "vless",
+      "server": "bg3.univesalsrv.com",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇬 BG | VLESS | @vmesskhodam #3",
+      "type": "vless",
+      "server": "bg1.univesalsrv.com",
       "server_port": 443,
       "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
       "packet_encoding": "xudp",

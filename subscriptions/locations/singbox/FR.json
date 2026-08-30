@@ -99,9 +99,9 @@
         "🇫🇷 FR | SS | @netfreedom0 #1",
         "🇫🇷 FR | VLESS | @orange_vpns #1",
         "🇫🇷 FR | SS | @outlinereleasedkey #1",
-        "🇫🇷 FR | VLESS | @v2raych #1",
-        "🇫🇷 FR | VLESS | @v2rayopen #1",
-        "🇫🇷 FR | VLESS | @vpn_ioss #1"
+        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
+        "🇫🇷 FR | VLESS | @v2ray_free_conf #2",
+        "🇫🇷 FR | VLESS | @v2rayopen #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -118,9 +118,9 @@
         "🇫🇷 FR | SS | @netfreedom0 #1",
         "🇫🇷 FR | VLESS | @orange_vpns #1",
         "🇫🇷 FR | SS | @outlinereleasedkey #1",
-        "🇫🇷 FR | VLESS | @v2raych #1",
-        "🇫🇷 FR | VLESS | @v2rayopen #1",
-        "🇫🇷 FR | VLESS | @vpn_ioss #1"
+        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
+        "🇫🇷 FR | VLESS | @v2ray_free_conf #2",
+        "🇫🇷 FR | VLESS | @v2rayopen #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -245,12 +245,34 @@
       "password": null
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @v2raych #1",
+      "tag": "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
       "server": "parr.mechanicir.ir",
       "server_port": 10694,
-      "uuid": "8c2d5e7e-116a-49c4-8437-937f4bfce346",
+      "uuid": "c100e5ba-1cf5-45ce-b491-5c2b02cdde5e",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "frssr.mechanicir.ir",
+      "server_port": 10694,
+      "uuid": "78c51f0e-9ec2-43f4-b3cb-487b9f758307",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇫🇷 FR | VLESS | @v2rayopen #1",
@@ -266,28 +288,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @vpn_ioss #1",
-      "type": "vless",
-      "server": "51.77.217.70",
-      "server_port": 2053,
-      "uuid": "fae272a6-a184-4c91-83ed-771abdcff404",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }
