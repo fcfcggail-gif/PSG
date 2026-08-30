@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | SS | @free1_vpn #1",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
+        "🇹🇷 TR | VLESS | @NamiraConfigs #1",
+        "🇹🇷 TR | SS | @free1_vpn #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | SS | @free1_vpn #1",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
+        "🇹🇷 TR | VLESS | @NamiraConfigs #1",
+        "🇹🇷 TR | SS | @free1_vpn #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,20 +103,20 @@
       "type": "direct"
     },
     {
+      "tag": "🇹🇷 TR | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "turk.mamadhpbot.ir",
+      "server_port": 50118,
+      "uuid": "93ee032f-b67f-4cac-a239-da1295aec528",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇹🇷 TR | SS | @free1_vpn #1",
       "type": "shadowsocks",
       "server": "176.53.17.241",
       "server_port": 1943,
       "method": "MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206ZjJOcTVZTG55Y2xQYVdSOG15Ny9WZGQzWlg4VVJuY1haTmx5NStIY1VTcz06YUU2TXhCVGUrTVhIZDlIb0YyRkYvQnpLRnFHVFJlTXBNZXZsUWh2c3Uwcz0=",
       "password": null
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "dl1.musicworldtg.com",
-      "server_port": 2018,
-      "uuid": "834e5553-d80e-4078-8d7e-482fafe9bbaf",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {
