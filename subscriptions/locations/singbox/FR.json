@@ -97,7 +97,8 @@
         "🇫🇷 FR | VLESS | @mpproxy #1",
         "🇫🇷 FR | SS | @netfreedom0 #1",
         "🇫🇷 FR | VLESS | @orange_vpns #1",
-        "🇫🇷 FR | VLESS | @outlinereleasedkey #1",
+        "🇫🇷 FR | SS | @outlinereleasedkey #1",
+        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
         "🇫🇷 FR | VLESS | @v2raych #1",
         "🇫🇷 FR | VLESS | @v2rayopen #1"
       ],
@@ -114,7 +115,8 @@
         "🇫🇷 FR | VLESS | @mpproxy #1",
         "🇫🇷 FR | SS | @netfreedom0 #1",
         "🇫🇷 FR | VLESS | @orange_vpns #1",
-        "🇫🇷 FR | VLESS | @outlinereleasedkey #1",
+        "🇫🇷 FR | SS | @outlinereleasedkey #1",
+        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
         "🇫🇷 FR | VLESS | @v2raych #1",
         "🇫🇷 FR | VLESS | @v2rayopen #1"
       ],
@@ -216,17 +218,34 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @outlinereleasedkey #1",
+      "tag": "🇫🇷 FR | SS | @outlinereleasedkey #1",
+      "type": "shadowsocks",
+      "server": "95.170.13.47",
+      "server_port": 65443,
+      "method": "YWVzLTI1Ni1jZmI6N2VhZGM2ZGJlMmFl",
+      "password": null
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "62.210.24.143",
-      "server_port": 32202,
-      "uuid": "28148be2-61a7-4f36-8adb-030cc9f82bd0",
-      "packet_encoding": "xudp"
+      "server": "213.130.137.180",
+      "server_port": 443,
+      "uuid": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇫🇷 FR | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "213.130.137.40",
+      "server": "213.130.137.80",
       "server_port": 443,
       "uuid": "b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb",
       "packet_encoding": "xudp",

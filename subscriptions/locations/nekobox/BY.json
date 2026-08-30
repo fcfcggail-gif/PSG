@@ -77,8 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇾 BY | VMESS | @ir_netproxy #1",
-        "🇧🇾 BY | VLESS | @outlinereleasedkey #1"
+        "🇧🇾 BY | VMESS | @ir_netproxy #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇾 BY | VMESS | @ir_netproxy #1",
-        "🇧🇾 BY | VLESS | @outlinereleasedkey #1"
+        "🇧🇾 BY | VMESS | @ir_netproxy #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -113,23 +111,6 @@
       "tls": {
         "enabled": true,
         "server_name": "internet.life.com.by",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇧🇾 BY | VLESS | @outlinereleasedkey #1",
-      "type": "vless",
-      "server": "by01.botovod.space",
-      "server_port": 443,
-      "uuid": "a817d012-0eeb-4b13-9f8e-0269e939d6f6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,
