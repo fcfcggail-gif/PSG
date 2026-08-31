@@ -96,6 +96,8 @@
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
+        "🇩🇪 DE | VMESS | @v2ray_collector #1",
+        "🇷🇺 RU | VMESS | @v2raych #1",
         "🇽🇽 XX | VMESS | @v2rayng3 #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
@@ -131,6 +133,8 @@
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
+        "🇩🇪 DE | VMESS | @v2ray_collector #1",
+        "🇷🇺 RU | VMESS | @v2raych #1",
         "🇽🇽 XX | VMESS | @v2rayng3 #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
@@ -591,6 +595,56 @@
         "path": "/api05",
         "headers": {
           "Host": "scherehtzflk01.schere.net"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VMESS | @v2ray_collector #1",
+      "type": "vmess",
+      "server": "172.238.96.215",
+      "server_port": 2053,
+      "uuid": "9a1a05d9-69be-45d3-e326-c6621edf7b31",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "deapp.jisuyun.top",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/devm",
+        "headers": {
+          "Host": "deapp.jisuyun.top"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VMESS | @v2raych #1",
+      "type": "vmess",
+      "server": "renderer-stream-2-62.mirra.now",
+      "server_port": 443,
+      "uuid": "db50a20e-7ff5-4e70-948f-17cc9ca7c154",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "renderer-stream-2-62.mirra.now",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/v1/gpu-stream/socket",
+        "headers": {
+          "Host": "renderer-stream-2-62.mirra.now"
         }
       }
     },

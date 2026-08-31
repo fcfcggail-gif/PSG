@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇪 EE | TROJAN | @v2ray_collector #1"
+        "🇪🇪 EE | TROJAN | @v2ray_collector #1",
+        "🇪🇪 EE | VLESS | @v2ray_collector #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇪 EE | TROJAN | @v2ray_collector #1"
+        "🇪🇪 EE | TROJAN | @v2ray_collector #1",
+        "🇪🇪 EE | VLESS | @v2ray_collector #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -115,6 +117,14 @@
       "server": "109.206.241.10",
       "server_port": 449,
       "password": "oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1"
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @v2ray_collector #1",
+      "type": "vless",
+      "server": "94.183.170.135",
+      "server_port": 8443,
+      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

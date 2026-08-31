@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @NamiraConfigs #1",
-        "🇹🇷 TR | VLESS | @red2ray #1"
+        "🇹🇷 TR | VLESS | @v2raych #1",
+        "🇹🇷 TR | VLESS | @v2raych #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @NamiraConfigs #1",
-        "🇹🇷 TR | VLESS | @red2ray #1"
+        "🇹🇷 TR | VLESS | @v2raych #1",
+        "🇹🇷 TR | VLESS | @v2raych #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -120,21 +122,20 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @red2ray #1",
+      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "91.228.227.172",
-      "server_port": 443,
-      "uuid": "96172b09-2ec8-418d-a539-7e9fb118caf8",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "direct-tr01.korvexe.ir",
+      "server_port": 21570,
+      "uuid": "c7a9c7f0-4a6b-414e-bdfc-8ad8980f858b",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "direct-tr01.korvexe.ir",
+      "server_port": 21570,
+      "uuid": "c7a9c7f0-4a6b-414e-bdfc-8ad8980f858b",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

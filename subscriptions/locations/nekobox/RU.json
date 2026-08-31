@@ -78,13 +78,12 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @bored_vpn #1",
-        "🇷🇺 RU | VLESS | @free1_vpn #1",
         "🇷🇺 RU | VLESS | @jiedianf #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
-        "🇷🇺 RU | VLESS | @orange_vpns #1",
         "🇷🇺 RU | VLESS | @outline_ir #1",
-        "🇷🇺 RU | VLESS | @prrofile_purple #1",
+        "🇷🇺 RU | VLESS | @red2ray #1",
+        "🇷🇺 RU | VMESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @v2raytg #1"
       ],
       "tag": "proxy",
@@ -94,13 +93,12 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @bored_vpn #1",
-        "🇷🇺 RU | VLESS | @free1_vpn #1",
         "🇷🇺 RU | VLESS | @jiedianf #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
-        "🇷🇺 RU | VLESS | @orange_vpns #1",
         "🇷🇺 RU | VLESS | @outline_ir #1",
-        "🇷🇺 RU | VLESS | @prrofile_purple #1",
+        "🇷🇺 RU | VLESS | @red2ray #1",
+        "🇷🇺 RU | VMESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @v2raytg #1"
       ],
       "tag": "auto",
@@ -132,14 +130,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @free1_vpn #1",
-      "type": "vless",
-      "server": "178.72.147.249",
-      "server_port": 4100,
-      "uuid": "7ee53e03-96ed-4121-9da2-62f3d3374506",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @jiedianf #1",
@@ -204,23 +194,6 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @orange_vpns #1",
-      "type": "vless",
-      "server": "84.38.187.134",
-      "server_port": 443,
-      "uuid": "53ffd172-de4c-002f-aa77-1a6830a36cf8",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇷🇺 RU | VLESS | @outline_ir #1",
       "type": "vless",
       "server": "135.106.142.209",
@@ -238,24 +211,35 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #1",
+      "tag": "🇷🇺 RU | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "qq.utiltools.ru",
+      "server": "168.222.194.138",
+      "server_port": 9880,
+      "uuid": "76186f1e-3062-4a2b-98c2-fab3c61a9511",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇷🇺 RU | VMESS | @v2raych #1",
+      "type": "vmess",
+      "server": "renderer-stream-2-62.mirra.now",
       "server_port": 443,
-      "uuid": "eb78e1f0-d921-4ca9-a889-261fcc5a0547",
-      "packet_encoding": "xudp",
+      "uuid": "db50a20e-7ff5-4e70-948f-17cc9ca7c154",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "renderer-stream-2-62.mirra.now",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/v1/gpu-stream/socket",
+        "headers": {
+          "Host": "renderer-stream-2-62.mirra.now"
         }
       }
     },

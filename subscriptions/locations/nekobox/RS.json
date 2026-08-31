@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇸 RS | VLESS | @v2ray_free_conf #1",
-        "🇷🇸 RS | VLESS | @v2ray_free_conf #2"
+        "🇷🇸 RS | VLESS | @free1_vpn #1",
+        "🇷🇸 RS | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇸 RS | VLESS | @v2ray_free_conf #1",
-        "🇷🇸 RS | VLESS | @v2ray_free_conf #2"
+        "🇷🇸 RS | VLESS | @free1_vpn #1",
+        "🇷🇸 RS | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,9 +103,17 @@
       "type": "direct"
     },
     {
+      "tag": "🇷🇸 RS | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "de1.cnyvpn.com",
+      "server_port": 2053,
+      "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇷🇸 RS | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "rs3.univesalsrv.com",
+      "server": "rs1.univesalsrv.com",
       "server_port": 443,
       "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
       "packet_encoding": "xudp",
@@ -118,14 +126,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇷🇸 RS | VLESS | @v2ray_free_conf #2",
-      "type": "vless",
-      "server": "81.18.48.97",
-      "server_port": 2053,
-      "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {
