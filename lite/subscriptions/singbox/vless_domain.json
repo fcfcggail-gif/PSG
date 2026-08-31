@@ -120,6 +120,7 @@
         "🇽🇽 XX | VLESS | @lockey_vpn #2",
         "🇺🇸 US | VLESS | @mrvpn1403 #1",
         "🇺🇸 US | VLESS | @mrvpn1403 #2",
+        "🇷🇸 RS | VLESS | @mtproxy22_v2ray #1",
         "🇩🇪 DE | VLESS | @netmellianti #1",
         "🇽🇽 XX | VLESS | @netmellianti #1",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
@@ -138,9 +139,9 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
+        "🇫🇷 FR | VLESS | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
@@ -153,6 +154,7 @@
         "🇽🇽 XX | VLESS | @vipnetmeli #2",
         "🇧🇬 BG | VLESS | @vmesskhodam #1",
         "🇦🇪 AE | VLESS | @vpnfree85 #1",
+        "🇮🇷 IR | VLESS | @vpnfree85 #1",
         "🇽🇽 XX | VLESS | @wbrovers #1"
       ],
       "tag": "proxy",
@@ -191,6 +193,7 @@
         "🇽🇽 XX | VLESS | @lockey_vpn #2",
         "🇺🇸 US | VLESS | @mrvpn1403 #1",
         "🇺🇸 US | VLESS | @mrvpn1403 #2",
+        "🇷🇸 RS | VLESS | @mtproxy22_v2ray #1",
         "🇩🇪 DE | VLESS | @netmellianti #1",
         "🇽🇽 XX | VLESS | @netmellianti #1",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
@@ -209,9 +212,9 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #1",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #2",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
+        "🇫🇷 FR | VLESS | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
@@ -224,6 +227,7 @@
         "🇽🇽 XX | VLESS | @vipnetmeli #2",
         "🇧🇬 BG | VLESS | @vmesskhodam #1",
         "🇦🇪 AE | VLESS | @vpnfree85 #1",
+        "🇮🇷 IR | VLESS | @vpnfree85 #1",
         "🇽🇽 XX | VLESS | @wbrovers #1"
       ],
       "tag": "auto",
@@ -635,6 +639,23 @@
       }
     },
     {
+      "tag": "🇷🇸 RS | VLESS | @mtproxy22_v2ray #1",
+      "type": "vless",
+      "server": "rs2.univesalsrv.com",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @netmellianti #1",
       "type": "vless",
       "server": "datisde2.datgame.ir",
@@ -851,14 +872,6 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "parr.mechanicir.ir",
-      "server_port": 10694,
-      "uuid": "c100e5ba-1cf5-45ce-b491-5c2b02cdde5e",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @v2raybe #1",
       "type": "vless",
       "server": "berovps.masoodbiranvand-230.workers.dev",
@@ -875,21 +888,20 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇫🇷 FR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "parr.mechanicir.ir",
+      "server_port": 10694,
+      "uuid": "8c2d5e7e-116a-49c4-8437-937f4bfce346",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "grok.com",
-      "server_port": 443,
-      "uuid": "e4827586-3061-4521-aeb1-5edb48aaaa23",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "fbi.gov",
+      "server_port": 8880,
+      "uuid": "caeaefa9-91fc-481a-8680-3479d5982042",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2raymelliii #1",
@@ -1048,6 +1060,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @vpnfree85 #1",
+      "type": "vless",
+      "server": "s4.tehranionliine.ir",
+      "server_port": 80,
+      "uuid": "937dde02-4ce6-4f0d-a3be-27aef7d3ef46",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @wbrovers #1",

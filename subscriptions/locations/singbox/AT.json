@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇹 AT | TROJAN | @mpproxy #1"
+        "🇦🇹 AT | TROJAN | @mpproxy #1",
+        "🇦🇹 AT | VLESS | @mtproxy22_v2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇹 AT | TROJAN | @mpproxy #1"
+        "🇦🇹 AT | TROJAN | @mpproxy #1",
+        "🇦🇹 AT | VLESS | @mtproxy22_v2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -122,6 +124,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇹 AT | VLESS | @mtproxy22_v2ray #1",
+      "type": "vless",
+      "server": "api-as.data-media-social.org",
+      "server_port": 443,
+      "uuid": "ef4f4c3d-0b16-48ad-a8d8-2d22512b3b36",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }
