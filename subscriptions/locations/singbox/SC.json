@@ -98,7 +98,7 @@
         "🇸🇨 SC | VLESS | @netmellianti #1",
         "🇸🇨 SC | VLESS | @outline_ir #1",
         "🇸🇨 SC | VLESS | @outlinereleasedkey #1",
-        "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+        "🇸🇨 SC | VLESS | @outlinereleasedkey #2",
         "🇸🇨 SC | VLESS | @v2ray_youtube #1",
         "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",
         "🇸🇨 SC | VLESS | @vmesc #1"
@@ -117,7 +117,7 @@
         "🇸🇨 SC | VLESS | @netmellianti #1",
         "🇸🇨 SC | VLESS | @outline_ir #1",
         "🇸🇨 SC | VLESS | @outlinereleasedkey #1",
-        "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+        "🇸🇨 SC | VLESS | @outlinereleasedkey #2",
         "🇸🇨 SC | VLESS | @v2ray_youtube #1",
         "🇸🇨 SC | VLESS | @v2rayngvpn_1 #1",
         "🇸🇨 SC | VLESS | @vmesc #1"
@@ -257,12 +257,22 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+      "tag": "🇸🇨 SC | VLESS | @outlinereleasedkey #2",
       "type": "vless",
-      "server": "45.130.125.162",
-      "server_port": 8443,
-      "uuid": "f106648e-0644-40bc-974c-6edc966fe18d",
-      "packet_encoding": "xudp"
+      "server": "45.196.193.100",
+      "server_port": 443,
+      "uuid": "219762a7-b918-4e2b-8a3d-d309ef98bb61",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇸🇨 SC | VLESS | @v2ray_youtube #1",

@@ -78,7 +78,7 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @NamiraConfigs #1",
-        "🇹🇷 TR | SS | @free1_vpn #1"
+        "🇹🇷 TR | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +87,7 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @NamiraConfigs #1",
-        "🇹🇷 TR | SS | @free1_vpn #1"
+        "🇹🇷 TR | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -111,12 +111,21 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇹🇷 TR | SS | @free1_vpn #1",
-      "type": "shadowsocks",
-      "server": "176.53.17.241",
-      "server_port": 1943,
-      "method": "MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206ZjJOcTVZTG55Y2xQYVdSOG15Ny9WZGQzWlg4VVJuY1haTmx5NStIY1VTcz06YUU2TXhCVGUrTVhIZDlIb0YyRkYvQnpLRnFHVFJlTXBNZXZsUWh2c3Uwcz0=",
-      "password": null
+      "tag": "🇹🇷 TR | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "91.228.227.172",
+      "server_port": 443,
+      "uuid": "96172b09-2ec8-418d-a539-7e9fb118caf8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
