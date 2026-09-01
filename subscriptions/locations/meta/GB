@@ -23,10 +23,12 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇬🇧 GB | VLESS | @free1_vpn #1", "server": "95.154.196.63", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "bae47c97-9bc1-48f6-a133-a383ee71c12e", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇬🇧 GB | VLESS | @netfreedom0 #1", "server": "164.37.100.59", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "dcdf114b-e2db-4cc1-bfa4-f30a0a47da7a", "network": "grpc", "tls": false, "udp": true, "client-fingerprint": "chrome", "grpc-opts": {"grpc-service-name": ""}}
+  - {"name": "🇬🇧 GB | VLESS | @outline_ir #1", "server": "129.121.95.159", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "f6190ff2-864c-46cf-ac16-93908c069b75", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇬🇧 GB | VLESS | @outlinereleasedkey #1", "server": "78.129.150.216", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "7ec31525-7ac3-4597-8f39-a2d4edc46342", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇬🇧 GB | VLESS | @v2raych #1", "server": "188.220.67.140", "port": 2087, "type": "vless", "skip-cert-verify": true, "uuid": "90da514d-8888-4a53-912e-ac2981c8c6ee", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇬🇧 GB | VLESS | @vlessconfig #1", "server": "51.24.3.30", "port": 22224, "type": "vless", "skip-cert-verify": true, "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VLESS | @privatevpns #1", "server": "13.135.142.182", "port": 22222, "type": "vless", "skip-cert-verify": true, "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VLESS | @red2ray #1", "server": "82.24.203.174", "port": 2083, "type": "vless", "skip-cert-verify": true, "uuid": "f2616bce-337a-4d13-8c58-1b5e71986569", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,10 +42,12 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇬🇧 GB | VLESS | @free1_vpn #1'
       - '🇬🇧 GB | VLESS | @netfreedom0 #1'
+      - '🇬🇧 GB | VLESS | @outline_ir #1'
       - '🇬🇧 GB | VLESS | @outlinereleasedkey #1'
-      - '🇬🇧 GB | VLESS | @v2raych #1'
-      - '🇬🇧 GB | VLESS | @vlessconfig #1'
+      - '🇬🇧 GB | VLESS | @privatevpns #1'
+      - '🇬🇧 GB | VLESS | @red2ray #1'
 
   - name: 🌍 Global Media
     type: select

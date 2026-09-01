@@ -90,10 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇨🇦 CA | SS | @NamiraConfigs #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
-        "🇨🇦 CA | VLESS | @serverv2ray00 #1",
-        "🇨🇦 CA | SS | @vmesc #1"
+        "🇨🇦 CA | VLESS | @serverv2ray00 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,10 +101,10 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇨🇦 CA | SS | @NamiraConfigs #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
-        "🇨🇦 CA | VLESS | @serverv2ray00 #1",
-        "🇨🇦 CA | SS | @vmesc #1"
+        "🇨🇦 CA | VLESS | @serverv2ray00 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,6 +114,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇨🇦 CA | SS | @NamiraConfigs #1",
+      "type": "shadowsocks",
+      "server": "51.222.12.127",
+      "server_port": 445,
+      "method": "YWVzLTI1Ni1nY206ekROVmVkUkZQUWV4Rzl2",
+      "password": null
     },
     {
       "tag": "🇨🇦 CA | VLESS | @jokerv2ray #1",
@@ -154,14 +162,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇨🇦 CA | SS | @vmesc #1",
-      "type": "shadowsocks",
-      "server": "15.235.75.71",
-      "server_port": 8388,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpGRDNyQ3VPc3hPYXk=",
-      "password": null
     }
   ],
   "route": {
