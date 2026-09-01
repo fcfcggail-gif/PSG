@@ -91,8 +91,7 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @NamiraConfigs #1",
-        "🇹🇷 TR | VLESS | @v2raych #1",
-        "🇹🇷 TR | VLESS | @v2raych #2"
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,8 +100,7 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @NamiraConfigs #1",
-        "🇹🇷 TR | VLESS | @v2raych #1",
-        "🇹🇷 TR | VLESS | @v2raych #2"
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -122,20 +120,21 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
+      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "direct-tr01.korvexe.ir",
-      "server_port": 21570,
-      "uuid": "c7a9c7f0-4a6b-414e-bdfc-8ad8980f858b",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "direct-tr01.korvexe.ir",
-      "server_port": 21570,
-      "uuid": "c7a9c7f0-4a6b-414e-bdfc-8ad8980f858b",
-      "packet_encoding": "xudp"
+      "server": "sspanel-dashboard.siramtopyo2.ir",
+      "server_port": 443,
+      "uuid": "dbd188e6-7cd7-4238-ad9f-970b9a43c560",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

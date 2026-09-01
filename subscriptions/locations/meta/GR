@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇷🇺 RU | VMESS | @v2raych #1", "server": "renderer-stream-2-62.mirra.now", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "db50a20e-7ff5-4e70-948f-17cc9ca7c154", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/api/v1/gpu-stream/socket", "headers": {"Host": "renderer-stream-2-62.mirra.now"}}}
+  - {"name": "🇬🇷 GR | VLESS | @red2ray #1", "server": "85.90.197.91", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇷🇺 RU | VMESS | @v2raych #1'
+      - '🇬🇷 GR | VLESS | @red2ray #1'
 
   - name: 🌍 Global Media
     type: select

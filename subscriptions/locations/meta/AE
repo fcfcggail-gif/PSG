@@ -23,6 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇦🇪 AE | VLESS | @mehrosaboran #1", "server": "162.35.231.31", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "419f25c1-bc35-412e-93fb-258efee859b5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇦🇪 AE | VLESS | @red2ray #1", "server": "pl5.lckdwn.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "98673856-cd6f-4aa0-b2c9-d2ec90c0f47b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇦🇪 AE | VLESS | @vpnfree85 #1", "server": "protectnet.cloudinohost.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ea470142-10c6-4b1f-a8e6-0ddcc78a4058", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -37,6 +39,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇦🇪 AE | VLESS | @mehrosaboran #1'
+      - '🇦🇪 AE | VLESS | @red2ray #1'
       - '🇦🇪 AE | VLESS | @vpnfree85 #1'
 
   - name: 🌍 Global Media
