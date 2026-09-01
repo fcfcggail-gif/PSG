@@ -105,10 +105,19 @@
     {
       "tag": "🇷🇸 RS | VLESS | @free1_vpn #1",
       "type": "vless",
-      "server": "de1.cnyvpn.com",
-      "server_port": 2053,
-      "uuid": "60e2a548-96aa-4850-a279-1edab743c39b",
-      "packet_encoding": "xudp"
+      "server": "150.40.126.19",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇷🇸 RS | VLESS | @vmesskhodam #1",

@@ -94,10 +94,10 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇫🇷 FR | VLESS | @mtproxy22_v2ray #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
-        "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1"
+        "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
+        "🇽🇽 XX | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -109,10 +109,10 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇫🇷 FR | VLESS | @mtproxy22_v2ray #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
-        "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1"
+        "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
+        "🇽🇽 XX | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -204,14 +204,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @mtproxy22_v2ray #1",
-      "type": "vless",
-      "server": "pasarguardpanel1.viramiq.ir",
-      "server_port": 21463,
-      "uuid": "c71e5acd-dd60-4239-963b-ceb978c36869",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @proxy_confiingir #2",
       "type": "vless",
       "server": "securitytrails.com",
@@ -242,6 +234,23 @@
       "server": "sitoman.info",
       "server_port": 443,
       "uuid": "bbab81f3-87a0-4e63-8b3b-010c645d8da7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "b2n.ir",
+      "server_port": 443,
+      "uuid": "d5af4dfe-eaf1-460c-87aa-fefe930db0ba",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

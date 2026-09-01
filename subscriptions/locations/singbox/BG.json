@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgRVM=
+//profile-title: base64:UFNHIHwgQkc=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇸 ES | TROJAN | @outlinereleasedkey #1"
+        "🇧🇬 BG | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇸 ES | TROJAN | @outlinereleasedkey #1"
+        "🇧🇬 BG | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,11 +110,21 @@
       "type": "direct"
     },
     {
-      "tag": "🇪🇸 ES | TROJAN | @outlinereleasedkey #1",
-      "type": "trojan",
-      "server": "185.114.72.31",
-      "server_port": 2053,
-      "password": "humanity"
+      "tag": "🇧🇬 BG | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "45.9.156.27",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
