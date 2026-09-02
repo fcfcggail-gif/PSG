@@ -78,7 +78,7 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @NamiraConfigs #1",
-        "🇹🇷 TR | VLESS | @v2raych #1"
+        "🇹🇷 TR | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +87,7 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @NamiraConfigs #1",
-        "🇹🇷 TR | VLESS | @v2raych #1"
+        "🇹🇷 TR | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -111,11 +111,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
+      "tag": "🇹🇷 TR | VLESS | @vmesc #1",
       "type": "vless",
-      "server": "139.28.241.77",
-      "server_port": 443,
-      "uuid": "5d5c40b1-102c-4343-94cc-d5b794dbd0c6",
+      "server": "185.123.100.56",
+      "server_port": 8443,
+      "uuid": "78eb4455-0d07-4bc2-93e3-7c8654f11d74",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -124,6 +124,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

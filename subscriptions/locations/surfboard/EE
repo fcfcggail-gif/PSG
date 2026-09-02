@@ -10,11 +10,12 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇪🇪 EE | TROJAN | @v2ray_collector #1 = trojan, 109.206.241.10, 449, password = oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1, skip-cert-verify = true, sni = russiapower.accesscam.org
+🇪🇪 EE | TROJAN | @v2ray_collector #2 = trojan, 109.206.241.10, 449, password = oiiaB38ywjEHCWRs_O_a_1113_Il_KeyyyHop_Bes1, skip-cert-verify = true
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇪🇪 EE | TROJAN | @v2ray_collector #1
-PSG-AUTO = url-test, 🇪🇪 EE | TROJAN | @v2ray_collector #1
-PSG-FALLBACK = fallback, 🇪🇪 EE | TROJAN | @v2ray_collector #1
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇪🇪 EE | TROJAN | @v2ray_collector #1, 🇪🇪 EE | TROJAN | @v2ray_collector #2
+PSG-AUTO = url-test, 🇪🇪 EE | TROJAN | @v2ray_collector #1, 🇪🇪 EE | TROJAN | @v2ray_collector #2
+PSG-FALLBACK = fallback, 🇪🇪 EE | TROJAN | @v2ray_collector #1, 🇪🇪 EE | TROJAN | @v2ray_collector #2
 
 [Rule]
 GEOIP,IR,DIRECT
