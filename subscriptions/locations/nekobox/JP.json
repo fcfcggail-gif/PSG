@@ -78,11 +78,9 @@
         "auto",
         "direct",
         "🇯🇵 JP | VLESS | @megavpn_link #1",
-        "🇯🇵 JP | VLESS | @v2raych #1",
-        "🇯🇵 JP | VLESS | @v2raych #2",
+        "🇯🇵 JP | VLESS | @v2ray_free_conf #1",
         "🇯🇵 JP | SS | @v2rayng3 #1",
-        "🇯🇵 JP | TROJAN | @v2rayprotocol #1",
-        "🇯🇵 JP | VLESS | @vmesskhodam #1"
+        "🇯🇵 JP | TROJAN | @v2rayprotocol #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -91,11 +89,9 @@
       "interval": "10m",
       "outbounds": [
         "🇯🇵 JP | VLESS | @megavpn_link #1",
-        "🇯🇵 JP | VLESS | @v2raych #1",
-        "🇯🇵 JP | VLESS | @v2raych #2",
+        "🇯🇵 JP | VLESS | @v2ray_free_conf #1",
         "🇯🇵 JP | SS | @v2rayng3 #1",
-        "🇯🇵 JP | TROJAN | @v2rayprotocol #1",
-        "🇯🇵 JP | VLESS | @vmesskhodam #1"
+        "🇯🇵 JP | TROJAN | @v2rayprotocol #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -128,22 +124,21 @@
       }
     },
     {
-      "tag": "🇯🇵 JP | VLESS | @v2raych #1",
+      "tag": "🇯🇵 JP | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "43.207.162.145",
-      "server_port": 32913,
-      "uuid": "15836880-212b-4690-b29c-1889a749bf72",
+      "server": "137.220.221.179",
+      "server_port": 443,
+      "uuid": "a16a3336-c9ab-489f-9b85-c973f5e2cfa4",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "tag": "🇯🇵 JP | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "43.207.162.145",
-      "server_port": 32913,
-      "uuid": "15836880-212b-4690-b29c-1889a749bf72",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇯🇵 JP | SS | @v2rayng3 #1",
@@ -166,28 +161,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇯🇵 JP | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "3.112.47.207",
-      "server_port": 29860,
-      "uuid": "7460547d-e83c-4843-b404-9142b22261a7",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

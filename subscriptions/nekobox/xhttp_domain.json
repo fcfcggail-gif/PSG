@@ -82,9 +82,11 @@
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇽🇽 XX | VLESS | @v2raych #2",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
-        "🇽🇽 XX | VLESS | @vmesc #1"
+        "🇽🇽 XX | VLESS | @vmesc #1",
+        "🇽🇽 XX | VLESS | @vmesc #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -97,9 +99,11 @@
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇽🇽 XX | VLESS | @v2raych #2",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
-        "🇽🇽 XX | VLESS | @vmesc #1"
+        "🇽🇽 XX | VLESS | @vmesc #1",
+        "🇽🇽 XX | VLESS | @vmesc #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -212,6 +216,14 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "dee338dd.localip.ir",
+      "server_port": 2087,
+      "uuid": "eaee9e29-336b-4aa1-bb7d-06928ed2ec54",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
       "type": "vless",
       "server": "ge.smartboti.ir",
@@ -238,6 +250,23 @@
     },
     {
       "tag": "🇽🇽 XX | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "b2n.ir",
+      "server_port": 443,
+      "uuid": "d5af4dfe-eaf1-460c-87aa-fefe930db0ba",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @vmesc #2",
       "type": "vless",
       "server": "b2n.ir",
       "server_port": 443,
