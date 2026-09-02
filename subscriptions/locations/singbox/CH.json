@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇭 CH | VLESS | @rez1vpn #1"
+        "🇨🇭 CH | VLESS | @rez1vpn #1",
+        "🇨🇭 CH | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇭 CH | VLESS | @rez1vpn #1"
+        "🇨🇭 CH | VLESS | @rez1vpn #1",
+        "🇨🇭 CH | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -125,6 +127,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "45.59.126.91",
+      "server_port": 110,
+      "uuid": "a4efbdb6-b72e-411d-b516-59919045957c",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
