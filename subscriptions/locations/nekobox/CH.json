@@ -78,10 +78,7 @@
         "auto",
         "direct",
         "🇨🇭 CH | VLESS | @rez1vpn #1",
-        "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
-        "🇨🇭 CH | VLESS | @v2ray_free_conf #2",
-        "🇨🇭 CH | VLESS | @vmesskhodam #1",
-        "🇨🇭 CH | VLESS | @vmesskhodam #2"
+        "🇨🇭 CH | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -90,10 +87,7 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇭 CH | VLESS | @rez1vpn #1",
-        "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
-        "🇨🇭 CH | VLESS | @v2ray_free_conf #2",
-        "🇨🇭 CH | VLESS | @vmesskhodam #1",
-        "🇨🇭 CH | VLESS | @vmesskhodam #2"
+        "🇨🇭 CH | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -126,11 +120,11 @@
       }
     },
     {
-      "tag": "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
+      "tag": "🇨🇭 CH | VLESS | @vmesskhodam #1",
       "type": "vless",
-      "server": "185.18.250.127",
-      "server_port": 2096,
-      "uuid": "2ee26119-94e5-40b4-ba3a-16354021b600",
+      "server": "89.127.196.238",
+      "server_port": 443,
+      "uuid": "ef4f4c3d-0b16-48ad-a8d8-2d22512b3b36",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -139,32 +133,13 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇨🇭 CH | VLESS | @v2ray_free_conf #2",
-      "type": "vless",
-      "server": "45.59.126.91",
-      "server_port": 8080,
-      "uuid": "c63d2c0f-786d-49ff-9891-f63bd1ac58d7",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇨🇭 CH | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "45.59.126.91",
-      "server_port": 110,
-      "uuid": "a4efbdb6-b72e-411d-b516-59919045957c",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇨🇭 CH | VLESS | @vmesskhodam #2",
-      "type": "vless",
-      "server": "45.59.126.91",
-      "server_port": 8080,
-      "uuid": "a4efbdb6-b72e-411d-b516-59919045957c",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

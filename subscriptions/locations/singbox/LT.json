@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgUk8=
+//profile-title: base64:UFNHIHwgTFQ=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇴 RO | VLESS | @mtproxy22_v2ray #1"
+        "🇱🇹 LT | SS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇴 RO | VLESS | @mtproxy22_v2ray #1"
+        "🇱🇹 LT | SS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,26 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇴 RO | VLESS | @mtproxy22_v2ray #1",
-      "type": "vless",
-      "server": "cdn722d3222.rucdn.pro",
-      "server_port": 443,
-      "uuid": "21672ca3-da3f-46cd-9b67-2b2d4cb0beb3",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "tag": "🇱🇹 LT | SS | @v2raych #1",
+      "type": "shadowsocks",
+      "server": "195.238.126.20",
+      "server_port": 9078,
+      "method": "YWVzLTI1Ni1jZmI6SkNKcGJSYlFaTnc5WEZaRw==",
+      "password": null
     }
   ],
   "route": {

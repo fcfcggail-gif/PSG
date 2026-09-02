@@ -24,6 +24,8 @@ dns:
 
 proxies: 
   - {"name": "🇵🇱 PL | VLESS | @outline_ir #1", "server": "83.168.71.216", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇵🇱 PL | VLESS | @red2ray #1", "server": "178.95.170.83", "port": 2087, "type": "vless", "skip-cert-verify": true, "uuid": "bf443e4a-aa9e-4509-abf0-d0f6828d57be", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇵🇱 PL | VLESS | @v2ray_free_conf #1", "server": "pl6.bexait.ir", "port": 2434, "type": "vless", "skip-cert-verify": true, "uuid": "24a3853d-01c7-4fae-a0cc-97ef0f25a455", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +40,8 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇵🇱 PL | VLESS | @outline_ir #1'
+      - '🇵🇱 PL | VLESS | @red2ray #1'
+      - '🇵🇱 PL | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

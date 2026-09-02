@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇳🇴 NO | VLESS | @vmesc #1"
+        "🇳🇴 NO | VLESS | @vmesc #1",
+        "🇳🇴 NO | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇳🇴 NO | VLESS | @vmesc #1"
+        "🇳🇴 NO | VLESS | @vmesc #1",
+        "🇳🇴 NO | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -115,6 +117,28 @@
       "server": "185.243.218.182",
       "server_port": 322,
       "uuid": "20000024-8788-9182-f000-a35f2e23a020",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇳🇴 NO | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "194.110.207.48",
+      "server_port": 443,
+      "uuid": "14eb2c19-89ba-4a10-bd52-cbf6a5f5cae0",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
