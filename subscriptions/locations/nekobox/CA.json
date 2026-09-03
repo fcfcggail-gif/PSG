@@ -77,10 +77,13 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇨🇦 CA | SS | @NamiraConfigs #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
         "🇨🇦 CA | VLESS | @rez1vpn #1",
-        "🇨🇦 CA | VLESS | @serverv2ray00 #1"
+        "🇨🇦 CA | VLESS | @serverv2ray00 #1",
+        "🇨🇦 CA | SS | @v2ray_free_conf #1",
+        "🇨🇦 CA | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,10 +91,13 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇨🇦 CA | SS | @NamiraConfigs #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
         "🇨🇦 CA | VLESS | @rez1vpn #1",
-        "🇨🇦 CA | VLESS | @serverv2ray00 #1"
+        "🇨🇦 CA | VLESS | @serverv2ray00 #1",
+        "🇨🇦 CA | SS | @v2ray_free_conf #1",
+        "🇨🇦 CA | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -105,6 +111,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇨🇦 CA | SS | @NamiraConfigs #1",
+      "type": "shadowsocks",
+      "server": "51.222.12.127",
+      "server_port": 445,
+      "method": "YWVzLTI1Ni1nY206ekROVmVkUkZQUWV4Rzl2",
+      "password": null
     },
     {
       "tag": "🇨🇦 CA | VLESS | @jokerv2ray #1",
@@ -153,6 +167,22 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇨🇦 CA | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "51.222.155.113",
+      "server_port": 5601,
+      "method": "YWVzLTI1Ni1nY206WTZSOXBBdHZ4eHptR0M=",
+      "password": null
+    },
+    {
+      "tag": "🇨🇦 CA | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "maple.adaspoloandco.com",
+      "server_port": 8443,
+      "uuid": "db3f09ae-23f2-42b8-abee-7b89fb392c5e",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
