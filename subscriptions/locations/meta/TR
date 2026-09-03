@@ -23,7 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇹🇷 TR | VLESS | @NamiraConfigs #1", "server": "germanndnew.mamadhpbot.ir", "port": 50118, "type": "vless", "skip-cert-verify": true, "uuid": "93ee032f-b67f-4cac-a239-da1295aec528", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇹🇷 TR | VLESS | @free1_vpn #1", "server": "185.123.100.56", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "78eb4455-0d07-4bc2-93e3-7c8654f11d74", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇹🇷 TR | VLESS | @red2ray #1", "server": "91.228.227.172", "port": 110, "type": "vless", "skip-cert-verify": true, "uuid": "1dd0ed41-4555-48f8-b3ae-5a5b37b261a3", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @red2ray #2", "server": "91.228.227.172", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "1dd0ed41-4555-48f8-b3ae-5a5b37b261a3", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @v2raych #1", "server": "91.228.227.172", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1b0a74e1-3c69-4386-ae77-9db408d0687f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +41,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇹🇷 TR | VLESS | @NamiraConfigs #1'
       - '🇹🇷 TR | VLESS | @free1_vpn #1'
+      - '🇹🇷 TR | VLESS | @red2ray #1'
+      - '🇹🇷 TR | VLESS | @red2ray #2'
+      - '🇹🇷 TR | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

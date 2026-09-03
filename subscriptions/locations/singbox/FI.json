@@ -92,6 +92,7 @@
         "direct",
         "🇫🇮 FI | VLESS | @NamiraConfigs #1",
         "🇫🇮 FI | VLESS | @selinc #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
         "🇫🇮 FI | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
@@ -102,6 +103,7 @@
       "outbounds": [
         "🇫🇮 FI | VLESS | @NamiraConfigs #1",
         "🇫🇮 FI | VLESS | @selinc #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
         "🇫🇮 FI | VLESS | @v2raych #1"
       ],
       "tag": "auto",
@@ -130,11 +132,28 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "144.31.183.177",
+      "server_port": 443,
+      "uuid": "06a70256-5acc-4a79-bd73-cc8e3c4c204b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇫🇮 FI | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "64.188.80.82",
+      "server": "185.246.191.243",
       "server_port": 443,
-      "uuid": "8c64cae9-a513-4e37-a68c-980bcaf2c591",
+      "uuid": "d7430ae7-320c-4658-808b-3006d0627d82",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
