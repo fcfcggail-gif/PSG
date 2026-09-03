@@ -78,9 +78,9 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @NamiraConfigs #1",
-        "🇫🇮 FI | VLESS | @ehsawn8 #1",
         "🇫🇮 FI | VLESS | @selinc #1",
-        "🇫🇮 FI | VLESS | @v2ray_collector #1"
+        "🇫🇮 FI | VLESS | @v2ray_collector #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,9 +89,9 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @NamiraConfigs #1",
-        "🇫🇮 FI | VLESS | @ehsawn8 #1",
         "🇫🇮 FI | VLESS | @selinc #1",
-        "🇫🇮 FI | VLESS | @v2ray_collector #1"
+        "🇫🇮 FI | VLESS | @v2ray_collector #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -115,14 +115,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @ehsawn8 #1",
-      "type": "vless",
-      "server": "132.243.223.227",
-      "server_port": 2101,
-      "uuid": "2edfd299-fd54-4056-9d79-3c99f19bdae1",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇫🇮 FI | VLESS | @selinc #1",
       "type": "vless",
       "server": "31.76.80.69",
@@ -137,6 +129,28 @@
       "server_port": 448,
       "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "andro.phoneshop98.ir",
+      "server_port": 2085,
+      "uuid": "3d8dcb15-e310-41bc-8d2d-a2ab323cfbb9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
