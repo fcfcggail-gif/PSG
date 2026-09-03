@@ -91,11 +91,9 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @bored_vpn #1",
-        "🇷🇺 RU | VLESS | @free1_vpn #1",
-        "🇷🇺 RU | VLESS | @hope_net #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
-        "🇷🇺 RU | VLESS | @orange_vpns #1",
-        "🇷🇺 RU | VLESS | @v2raytg #1"
+        "🇷🇺 RU | VLESS | @v2raytg #1",
+        "🇷🇺 RU | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -104,11 +102,9 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @bored_vpn #1",
-        "🇷🇺 RU | VLESS | @free1_vpn #1",
-        "🇷🇺 RU | VLESS | @hope_net #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
-        "🇷🇺 RU | VLESS | @orange_vpns #1",
-        "🇷🇺 RU | VLESS | @v2raytg #1"
+        "🇷🇺 RU | VLESS | @v2raytg #1",
+        "🇷🇺 RU | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -125,40 +121,6 @@
       "server": "84.38.187.134",
       "server_port": 443,
       "uuid": "53ffd172-de4c-0037-aa77-1a6830a36cf8",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @free1_vpn #1",
-      "type": "vless",
-      "server": "147.45.229.3",
-      "server_port": 443,
-      "uuid": "338efc17-02d7-433b-902a-e7d4771dc802",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @hope_net #1",
-      "type": "vless",
-      "server": "45.67.215.133",
-      "server_port": 443,
-      "uuid": "89b3cbba-e6ac-485a-9481-976a0415eab9",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -193,23 +155,6 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @orange_vpns #1",
-      "type": "vless",
-      "server": "46.19.69.201",
-      "server_port": 443,
-      "uuid": "053440e6-fc8d-48d9-bb4f-2675e367f64f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇷🇺 RU | VLESS | @v2raytg #1",
       "type": "vless",
       "server": "b02.connectv.net",
@@ -228,6 +173,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "147.45.229.3",
+      "server_port": 443,
+      "uuid": "338efc17-02d7-433b-902a-e7d4771dc802",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }

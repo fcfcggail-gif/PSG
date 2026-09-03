@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇬 BG | VLESS | @red2ray #1"
+        "🇧🇬 BG | VLESS | @free1_vpn #1",
+        "🇧🇬 BG | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇬 BG | VLESS | @red2ray #1"
+        "🇧🇬 BG | VLESS | @free1_vpn #1",
+        "🇧🇬 BG | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,12 +103,38 @@
       "type": "direct"
     },
     {
-      "tag": "🇧🇬 BG | VLESS | @red2ray #1",
+      "tag": "🇧🇬 BG | VLESS | @free1_vpn #1",
       "type": "vless",
-      "server": "b---u----l.cd2-ger1.ir",
-      "server_port": 2087,
-      "uuid": "2b9581e5-dc45-4ed6-90b2-6ec817f7dab5",
-      "packet_encoding": "xudp"
+      "server": "bg4.univesalsrv.com",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇬 BG | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "45.9.156.28",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
