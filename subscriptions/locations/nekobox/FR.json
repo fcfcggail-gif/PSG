@@ -86,7 +86,7 @@
         "🇫🇷 FR | VLESS | @orange_vpns #1",
         "🇫🇷 FR | SS | @outline_ir #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
-        "🇫🇷 FR | VLESS | @v2raych #1",
+        "🇫🇷 FR | VLESS | @red2ray #1",
         "🇫🇷 FR | VLESS | @v2rayopen #1"
       ],
       "tag": "proxy",
@@ -104,7 +104,7 @@
         "🇫🇷 FR | VLESS | @orange_vpns #1",
         "🇫🇷 FR | SS | @outline_ir #1",
         "🇫🇷 FR | VLESS | @outline_ir #1",
-        "🇫🇷 FR | VLESS | @v2raych #1",
+        "🇫🇷 FR | VLESS | @red2ray #1",
         "🇫🇷 FR | VLESS | @v2rayopen #1"
       ],
       "tag": "auto",
@@ -221,12 +221,21 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @v2raych #1",
+      "tag": "🇫🇷 FR | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "162.19.228.119",
-      "server_port": 80,
-      "uuid": "dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51",
-      "packet_encoding": "xudp"
+      "server": "panel.freesavesafe.com",
+      "server_port": 443,
+      "uuid": "39c42b0a-b823-4c93-bb99-74b4183e518d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇫🇷 FR | VLESS | @v2rayopen #1",
