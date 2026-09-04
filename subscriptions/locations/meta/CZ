@@ -24,6 +24,8 @@ dns:
 
 proxies: 
   - {"name": "🇨🇿 CZ | VMESS | @freev2rays #1", "server": "time.is", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "b526926d-1474-4f41-985e-8b877cb840cd", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "shs111.kejixiaoqi666.store"}}}
+  - {"name": "🇨🇿 CZ | VLESS | @v2raych #1", "server": "45.129.142.41", "port": 49325, "type": "vless", "skip-cert-verify": true, "uuid": "68f7465d-6edb-4317-a1a9-ffe87e3a7c38", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇨🇿 CZ | VLESS | @v2raych #2", "server": "45.129.142.41", "port": 49325, "type": "vless", "skip-cert-verify": true, "uuid": "68f7465d-6edb-4317-a1a9-ffe87e3a7c38", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +40,8 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇨🇿 CZ | VMESS | @freev2rays #1'
+      - '🇨🇿 CZ | VLESS | @v2raych #1'
+      - '🇨🇿 CZ | VLESS | @v2raych #2'
 
   - name: 🌍 Global Media
     type: select
