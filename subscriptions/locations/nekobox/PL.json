@@ -76,17 +76,14 @@
     {
       "outbounds": [
         "auto",
-        "direct",
-        "🇵🇱 PL | SS | @outline_ir #1"
+        "direct"
       ],
       "tag": "proxy",
       "type": "selector"
     },
     {
       "interval": "10m",
-      "outbounds": [
-        "🇵🇱 PL | SS | @outline_ir #1"
-      ],
+      "outbounds": [],
       "tag": "auto",
       "tolerance": 50,
       "type": "urltest",
@@ -99,14 +96,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇵🇱 PL | SS | @outline_ir #1",
-      "type": "shadowsocks",
-      "server": "194.61.121.93",
-      "server_port": 7538,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVOVlBb3FCZ2c1VnlHQmM2dlF2MXNO",
-      "password": null
     }
   ],
   "route": {
