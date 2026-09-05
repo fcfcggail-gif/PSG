@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇳🇴 NO | VLESS | @v2raych #1"
+        "🇭🇷 HR | VLESS | @v2raych #1",
+        "🇭🇷 HR | VLESS | @v2raych #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇳🇴 NO | VLESS | @v2raych #1"
+        "🇭🇷 HR | VLESS | @v2raych #1",
+        "🇭🇷 HR | VLESS | @v2raych #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,26 +103,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇳🇴 NO | VLESS | @v2raych #1",
+      "tag": "🇭🇷 HR | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "194.110.207.59",
-      "server_port": 443,
-      "uuid": "676e31b1-da5a-49ae-86d5-803031549189",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "cl.nigali.ir",
+      "server_port": 2087,
+      "uuid": "cf1d2ded-2472-483a-f2f2-12c83d1826dd",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇭🇷 HR | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "cl.nigali.ir",
+      "server_port": 2087,
+      "uuid": "cf1d2ded-2472-483a-f2f2-12c83d1826dd",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

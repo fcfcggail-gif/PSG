@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇳🇴 NO | VLESS | @v2raych #1", "server": "194.110.207.59", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "676e31b1-da5a-49ae-86d5-803031549189", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇭🇷 HR | VLESS | @v2raych #1", "server": "cl.nigali.ir", "port": 2087, "type": "vless", "skip-cert-verify": true, "uuid": "cf1d2ded-2472-483a-f2f2-12c83d1826dd", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇭🇷 HR | VLESS | @v2raych #2", "server": "cl.nigali.ir", "port": 2087, "type": "vless", "skip-cert-verify": true, "uuid": "cf1d2ded-2472-483a-f2f2-12c83d1826dd", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇳🇴 NO | VLESS | @v2raych #1'
+      - '🇭🇷 HR | VLESS | @v2raych #1'
+      - '🇭🇷 HR | VLESS | @v2raych #2'
 
   - name: 🌍 Global Media
     type: select

@@ -134,7 +134,7 @@
         "🇺🇸 US | VLESS | @public504 #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇺🇸 US | VLESS | @red2ray #1",
-        "🇺🇸 US | VLESS | @red2ray #2",
+        "🇺🇸 US | VMESS | @red2ray #1",
         "🇺🇸 US | TROJAN | @rez1vpn #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #2",
@@ -143,8 +143,10 @@
         "🇺🇸 US | VMESS | @v2ray4win #2",
         "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2raych #1",
+        "🇺🇸 US | VLESS | @v2raych #2",
         "🇺🇸 US | VLESS | @v2raying #1",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
+        "🇺🇸 US | VLESS | @v2raymelliii #2",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | TROJAN | @v2rayngvpn_1 #1",
         "🇺🇸 US | TROJAN | @v2rayopen #1",
@@ -211,7 +213,7 @@
         "🇺🇸 US | VLESS | @public504 #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇺🇸 US | VLESS | @red2ray #1",
-        "🇺🇸 US | VLESS | @red2ray #2",
+        "🇺🇸 US | VMESS | @red2ray #1",
         "🇺🇸 US | TROJAN | @rez1vpn #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #2",
@@ -220,8 +222,10 @@
         "🇺🇸 US | VMESS | @v2ray4win #2",
         "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇺🇸 US | VLESS | @v2raych #1",
+        "🇺🇸 US | VLESS | @v2raych #2",
         "🇺🇸 US | VLESS | @v2raying #1",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
+        "🇺🇸 US | VLESS | @v2raymelliii #2",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | TROJAN | @v2rayngvpn_1 #1",
         "🇺🇸 US | TROJAN | @v2rayopen #1",
@@ -857,9 +861,9 @@
     {
       "tag": "🇺🇸 US | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "199.232.78.159",
+      "server": "a2.arshia-nova.ir",
       "server_port": 443,
-      "uuid": "3f945d0c-0d5b-442e-aa10-7aced4c7ad9c",
+      "uuid": "607f4f6c-2a71-43aa-e047-1ff5b5c23f67",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -872,19 +876,18 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @red2ray #2",
-      "type": "vless",
-      "server": "a2.arshia-nova.ir",
-      "server_port": 443,
-      "uuid": "607f4f6c-2a71-43aa-e047-1ff5b5c23f67",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+      "tag": "🇺🇸 US | VMESS | @red2ray #1",
+      "type": "vmess",
+      "server": "57.129.132.223",
+      "server_port": 80,
+      "uuid": "a25cbf11-2908-4a1b-a3a8-9a571777dca3",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/vmess/",
+        "headers": {
+          "Host": "google.com"
         }
       }
     },
@@ -990,9 +993,9 @@
     {
       "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "x4g-production-a10a.up.railway.app",
+      "server": "144.31.50.236",
       "server_port": 443,
-      "uuid": "29e577fa-7019-0da3-520a-d845cf081c7c",
+      "uuid": "1c332eae-7e02-4acd-996d-4eb3e652401c",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -1007,10 +1010,27 @@
     {
       "tag": "🇺🇸 US | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "150.241.72.143",
-      "server_port": 12200,
-      "uuid": "af00e0c4-decf-48f2-9013-56abe9c9efcd",
+      "server": "193.42.39.10",
+      "server_port": 33743,
+      "uuid": "b3a11068-1a7e-4643-85de-7c82cce46943",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "railpanel-production-122c.up.railway.app",
+      "server_port": 443,
+      "uuid": "5be96da7-0961-45d2-9714-c86bc0549b48",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @v2raying #1",
@@ -1035,6 +1055,23 @@
       "server": "a2.arshia-nova.ir",
       "server_port": 443,
       "uuid": "08ffff12-93bb-42eb-8c83-6489644a1d04",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2raymelliii #2",
+      "type": "vless",
+      "server": "k2.cloud--vpn.site",
+      "server_port": 443,
+      "uuid": "95b5d1d0-a878-4a52-bf2a-c8e323457b02",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
