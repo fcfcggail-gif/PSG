@@ -91,7 +91,9 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @NamiraConfigs #1",
-        "🇫🇮 FI | VLESS | @ehsawn8 #1"
+        "🇫🇮 FI | VLESS | @ehsawn8 #1",
+        "🇫🇮 FI | VLESS | @red2ray #1",
+        "🇫🇮 FI | VLESS | @selinc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +102,9 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @NamiraConfigs #1",
-        "🇫🇮 FI | VLESS | @ehsawn8 #1"
+        "🇫🇮 FI | VLESS | @ehsawn8 #1",
+        "🇫🇮 FI | VLESS | @red2ray #1",
+        "🇫🇮 FI | VLESS | @selinc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -125,6 +129,36 @@
       "server": "132.243.223.227",
       "server_port": 2101,
       "uuid": "2edfd299-fd54-4056-9d79-3c99f19bdae1",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "98.ir-soft98.ir-m-m.serendpiti.ir",
+      "server_port": 9145,
+      "uuid": "fc554944-baaf-4311-b6e2-e49e71066658",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @selinc #1",
+      "type": "vless",
+      "server": "31.76.80.69",
+      "server_port": 2083,
+      "uuid": "8975546a-375c-4966-8064-19fc0f66f30a",
       "packet_encoding": "xudp"
     }
   ],

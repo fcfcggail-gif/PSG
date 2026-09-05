@@ -91,8 +91,9 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @bored_vpn #1",
-        "🇷🇺 RU | VLESS | @free1_vpn #1",
-        "🇷🇺 RU | VLESS | @v2raytg #1"
+        "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
+        "🇷🇺 RU | VLESS | @v2raytg #1",
+        "🇷🇺 RU | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,8 +102,9 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @bored_vpn #1",
-        "🇷🇺 RU | VLESS | @free1_vpn #1",
-        "🇷🇺 RU | VLESS | @v2raytg #1"
+        "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
+        "🇷🇺 RU | VLESS | @v2raytg #1",
+        "🇷🇺 RU | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -131,11 +133,11 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @free1_vpn #1",
+      "tag": "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
       "type": "vless",
-      "server": "147.45.229.3",
+      "server": "80.66.65.51",
       "server_port": 443,
-      "uuid": "338efc17-02d7-433b-902a-e7d4771dc802",
+      "uuid": "78eb4455-0d07-24b8-93e3-7c8654f11d74",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -166,6 +168,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "147.45.229.3",
+      "server_port": 443,
+      "uuid": "338efc17-02d7-433b-902a-e7d4771dc802",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }

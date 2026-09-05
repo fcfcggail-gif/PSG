@@ -91,7 +91,7 @@
         "auto",
         "direct",
         "🇧🇬 BG | VLESS | @free1_vpn #1",
-        "🇧🇬 BG | VLESS | @v2ray_free_conf #1"
+        "🇧🇬 BG | VLESS | @v2ray_collector #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +100,7 @@
       "interval": "10m",
       "outbounds": [
         "🇧🇬 BG | VLESS | @free1_vpn #1",
-        "🇧🇬 BG | VLESS | @v2ray_free_conf #1"
+        "🇧🇬 BG | VLESS | @v2ray_collector #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -129,11 +129,11 @@
       }
     },
     {
-      "tag": "🇧🇬 BG | VLESS | @v2ray_free_conf #1",
+      "tag": "🇧🇬 BG | VLESS | @v2ray_collector #1",
       "type": "vless",
-      "server": "bg5.univesalsrv.com",
+      "server": "193.148.59.178",
       "server_port": 443,
-      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "uuid": "20d7c485-5d24-49b5-a5cc-bb7a7daf9908",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -142,11 +142,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }
