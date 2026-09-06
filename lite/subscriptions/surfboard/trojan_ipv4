@@ -9,18 +9,20 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇺🇸 US | TROJAN | @bored_vpn #1 = trojan, 151.101.56.7, 443, password = MiTiVPN, skip-cert-verify = true
 🇦🇹 AT | TROJAN | @mpproxy #1 = trojan, 152.53.45.251, 8888, password = trojan, skip-cert-verify = true
 🇺🇸 US | TROJAN | @outline_ir #1 = trojan, 151.101.56.7, 443, password = MiTiVPN, skip-cert-verify = true
 🇽🇽 XX | TROJAN | @prrofile_purple #1 = trojan, 104.19.229.21, 443, password = MITIVPN, skip-cert-verify = true
 🇽🇽 XX | TROJAN | @spikevpn #1 = trojan, 104.16.7.70, 443, password = 8r%3C%5B9%27l6hAO%238ZQi, skip-cert-verify = true
 🇽🇽 XX | TROJAN | @spikevpn #2 = trojan, 104.18.109.147, 443, password = 8r%3C%5B9%27l6hAO%238ZQi, skip-cert-verify = true
 🇺🇸 US | TROJAN | @v2rayngvpn_1 #1 = trojan, 151.101.110.219, 443, password = Mitivpn, skip-cert-verify = true
+🇺🇸 US | TROJAN | @v2rayopen #1 = trojan, 151.101.56.230, 443, password = MiTiVPN, skip-cert-verify = true
 🇽🇽 XX | TROJAN | @vpnowl #1 = trojan, 104.17.177.143, 443, password = humanity, skip-cert-verify = true
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇦🇹 AT | TROJAN | @mpproxy #1, 🇺🇸 US | TROJAN | @outline_ir #1, 🇽🇽 XX | TROJAN | @prrofile_purple #1, 🇽🇽 XX | TROJAN | @spikevpn #1, 🇽🇽 XX | TROJAN | @spikevpn #2, 🇺🇸 US | TROJAN | @v2rayngvpn_1 #1, 🇽🇽 XX | TROJAN | @vpnowl #1
-PSG-AUTO = url-test, 🇦🇹 AT | TROJAN | @mpproxy #1, 🇺🇸 US | TROJAN | @outline_ir #1, 🇽🇽 XX | TROJAN | @prrofile_purple #1, 🇽🇽 XX | TROJAN | @spikevpn #1, 🇽🇽 XX | TROJAN | @spikevpn #2, 🇺🇸 US | TROJAN | @v2rayngvpn_1 #1, 🇽🇽 XX | TROJAN | @vpnowl #1
-PSG-FALLBACK = fallback, 🇦🇹 AT | TROJAN | @mpproxy #1, 🇺🇸 US | TROJAN | @outline_ir #1, 🇽🇽 XX | TROJAN | @prrofile_purple #1, 🇽🇽 XX | TROJAN | @spikevpn #1, 🇽🇽 XX | TROJAN | @spikevpn #2, 🇺🇸 US | TROJAN | @v2rayngvpn_1 #1, 🇽🇽 XX | TROJAN | @vpnowl #1
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | TROJAN | @bored_vpn #1, 🇦🇹 AT | TROJAN | @mpproxy #1, 🇺🇸 US | TROJAN | @outline_ir #1, 🇽🇽 XX | TROJAN | @prrofile_purple #1, 🇽🇽 XX | TROJAN | @spikevpn #1, 🇽🇽 XX | TROJAN | @spikevpn #2, 🇺🇸 US | TROJAN | @v2rayngvpn_1 #1, 🇺🇸 US | TROJAN | @v2rayopen #1, 🇽🇽 XX | TROJAN | @vpnowl #1
+PSG-AUTO = url-test, 🇺🇸 US | TROJAN | @bored_vpn #1, 🇦🇹 AT | TROJAN | @mpproxy #1, 🇺🇸 US | TROJAN | @outline_ir #1, 🇽🇽 XX | TROJAN | @prrofile_purple #1, 🇽🇽 XX | TROJAN | @spikevpn #1, 🇽🇽 XX | TROJAN | @spikevpn #2, 🇺🇸 US | TROJAN | @v2rayngvpn_1 #1, 🇺🇸 US | TROJAN | @v2rayopen #1, 🇽🇽 XX | TROJAN | @vpnowl #1
+PSG-FALLBACK = fallback, 🇺🇸 US | TROJAN | @bored_vpn #1, 🇦🇹 AT | TROJAN | @mpproxy #1, 🇺🇸 US | TROJAN | @outline_ir #1, 🇽🇽 XX | TROJAN | @prrofile_purple #1, 🇽🇽 XX | TROJAN | @spikevpn #1, 🇽🇽 XX | TROJAN | @spikevpn #2, 🇺🇸 US | TROJAN | @v2rayngvpn_1 #1, 🇺🇸 US | TROJAN | @v2rayopen #1, 🇽🇽 XX | TROJAN | @vpnowl #1
 
 [Rule]
 GEOIP,IR,DIRECT
