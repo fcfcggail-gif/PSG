@@ -89,17 +89,14 @@
     {
       "outbounds": [
         "auto",
-        "direct",
-        "🇵🇱 PL | VLESS | @v2ray_free_conf #1"
+        "direct"
       ],
       "tag": "proxy",
       "type": "selector"
     },
     {
       "interval": "10m",
-      "outbounds": [
-        "🇵🇱 PL | VLESS | @v2ray_free_conf #1"
-      ],
+      "outbounds": [],
       "tag": "auto",
       "tolerance": 50,
       "type": "urltest",
@@ -108,14 +105,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "138.124.242.252",
-      "server_port": 10443,
-      "uuid": "05249269-4695-4df8-8968-9cba7a3db33f",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {
