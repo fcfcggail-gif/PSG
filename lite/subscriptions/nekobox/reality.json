@@ -80,21 +80,22 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @bored_vpn #1",
+        "🇧🇬 BG | VLESS | @free1_vpn #1",
+        "🇷🇸 RS | VLESS | @free1_vpn #1",
+        "🇸🇪 SE | VLESS | @v2raych #1",
+        "🇷🇸 RS | VLESS | @vmesskhodam #1",
         "🇮🇹 IT | VLESS | @freeconfigsplus #1",
-        "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
+        "🇩🇪 DE | VLESS | @orange_vpns #2",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇩🇪 DE | VLESS | @prrofile_purple #1",
         "🇩🇪 DE | VLESS | @prrofile_purple #2",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
+        "🇬🇷 GR | VLESS | @red2ray #1",
         "🇫🇮 FI | VLESS | @selinc #1",
-        "🇦🇹 AT | VLESS | @v2ray_collector #1",
+        "🇬🇧 GB | VLESS | @v2ray_collector #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
-        "🇺🇸 US | VLESS | @vpnowl #1",
-        "🇧🇬 BG | VLESS | @free1_vpn #1",
-        "🇷🇸 RS | VLESS | @free1_vpn #1",
-        "🇫🇷 FR | VLESS | @v2ray_free_conf #1"
+        "🇺🇸 US | VLESS | @vpnowl #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -105,21 +106,22 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇩🇪 DE | VLESS | @bored_vpn #1",
+        "🇧🇬 BG | VLESS | @free1_vpn #1",
+        "🇷🇸 RS | VLESS | @free1_vpn #1",
+        "🇸🇪 SE | VLESS | @v2raych #1",
+        "🇷🇸 RS | VLESS | @vmesskhodam #1",
         "🇮🇹 IT | VLESS | @freeconfigsplus #1",
-        "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
+        "🇩🇪 DE | VLESS | @orange_vpns #2",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇩🇪 DE | VLESS | @prrofile_purple #1",
         "🇩🇪 DE | VLESS | @prrofile_purple #2",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
+        "🇬🇷 GR | VLESS | @red2ray #1",
         "🇫🇮 FI | VLESS | @selinc #1",
-        "🇦🇹 AT | VLESS | @v2ray_collector #1",
+        "🇬🇧 GB | VLESS | @v2ray_collector #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
         "🇩🇪 DE | VLESS | @vipv2rey #1",
-        "🇺🇸 US | VLESS | @vpnowl #1",
-        "🇧🇬 BG | VLESS | @free1_vpn #1",
-        "🇷🇸 RS | VLESS | @free1_vpn #1",
-        "🇫🇷 FR | VLESS | @v2ray_free_conf #1"
+        "🇺🇸 US | VLESS | @vpnowl #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -207,11 +209,45 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @bored_vpn #1",
+      "tag": "🇧🇬 BG | VLESS | @free1_vpn #1",
       "type": "vless",
-      "server": "203.23.179.147",
-      "server_port": 8443,
-      "uuid": "d53f098c-c146-4c16-b8fc-263743fdb6b3",
+      "server": "bg4.univesalsrv.com",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇸 RS | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "rs1.univesalsrv.com",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "sv14.betust.net",
+      "server_port": 443,
+      "uuid": "5d8cf280-e0f4-4539-b35c-7ff90659c0d0",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -225,6 +261,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇸 RS | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "rs4.univesalsrv.com",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -246,12 +299,21 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
+      "tag": "🇩🇪 DE | VLESS | @orange_vpns #2",
       "type": "vless",
-      "server": "217.69.167.135",
-      "server_port": 15392,
-      "uuid": "9e998501-eaae-4d7e-bbe5-6cecfaef8334",
-      "packet_encoding": "xudp"
+      "server": "80.76.43.245",
+      "server_port": 443,
+      "uuid": "8c105407-82fb-4dd1-8df4-916d34a7d3fe",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VLESS | @proxygrizzly #1",
@@ -332,19 +394,11 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @selinc #1",
+      "tag": "🇬🇷 GR | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "31.76.80.69",
-      "server_port": 2083,
-      "uuid": "8975546a-375c-4966-8064-19fc0f66f30a",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇦🇹 AT | VLESS | @v2ray_collector #1",
-      "type": "vless",
-      "server": "152.53.1.40",
+      "server": "85.90.197.91",
       "server_port": 443,
-      "uuid": "edde565e-41f5-400e-84ea-7b87a3e84488",
+      "uuid": "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -353,6 +407,41 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @selinc #1",
+      "type": "vless",
+      "server": "31.76.80.69",
+      "server_port": 2083,
+      "uuid": "8975546a-375c-4966-8064-19fc0f66f30a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2ray_collector #1",
+      "type": "vless",
+      "server": "87.117.234.19",
+      "server_port": 443,
+      "uuid": "4d583b2c-2f5a-47d0-8181-e95217fe8cd9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -414,62 +503,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇧🇬 BG | VLESS | @free1_vpn #1",
-      "type": "vless",
-      "server": "bg4.univesalsrv.com",
-      "server_port": 443,
-      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇸 RS | VLESS | @free1_vpn #1",
-      "type": "vless",
-      "server": "rs1.univesalsrv.com",
-      "server_port": 443,
-      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "fr2.janusgate.org",
-      "server_port": 443,
-      "uuid": "df880bf8-2635-4a83-a6bf-91bb36df284b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

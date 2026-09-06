@@ -82,7 +82,8 @@
         "KingRezaPahlavi",
         "🇧🇬 BG | VLESS | @free1_vpn #1",
         "🇷🇸 RS | VLESS | @free1_vpn #1",
-        "🇫🇷 FR | VLESS | @v2ray_free_conf #1"
+        "🇸🇪 SE | VLESS | @v2raych #1",
+        "🇷🇸 RS | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -95,7 +96,8 @@
         "KingRezaPahlavi",
         "🇧🇬 BG | VLESS | @free1_vpn #1",
         "🇷🇸 RS | VLESS | @free1_vpn #1",
-        "🇫🇷 FR | VLESS | @v2ray_free_conf #1"
+        "🇸🇪 SE | VLESS | @v2raych #1",
+        "🇷🇸 RS | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -217,11 +219,11 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇸🇪 SE | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "fr2.janusgate.org",
+      "server": "sv14.betust.net",
       "server_port": 443,
-      "uuid": "df880bf8-2635-4a83-a6bf-91bb36df284b",
+      "uuid": "5d8cf280-e0f4-4539-b35c-7ff90659c0d0",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -235,6 +237,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇸 RS | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "rs4.univesalsrv.com",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }
