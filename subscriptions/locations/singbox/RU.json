@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @free1_vpn #1",
-        "🇷🇺 RU | VLESS | @v2raytg #1"
+        "🇷🇺 RU | VLESS | @v2raytg #1",
+        "🇷🇺 RU | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @free1_vpn #1",
-        "🇷🇺 RU | VLESS | @v2raytg #1"
+        "🇷🇺 RU | VLESS | @v2raytg #1",
+        "🇷🇺 RU | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -139,6 +141,28 @@
       "server": "b02.connectv.net",
       "server_port": 443,
       "uuid": "c65ca957-329a-0001-8e62-eaaa48468833",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "yt-ads.adsmoba.com",
+      "server_port": 443,
+      "uuid": "ef4f4c3d-0b16-48ad-a8d8-2d22512b3b36",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

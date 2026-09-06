@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇬🇷 GR | VLESS | @red2ray #1", "server": "85.90.197.91", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇵🇱 PL | VLESS | @v2ray_collector #1", "server": "94.183.209.43", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "5e7ecc47-e424-4653-876e-c7515a2c82b4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇵🇱 PL | VLESS | @v2raych #1", "server": "150.251.113.34", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "d7d724b5-17ce-4f3c-877d-dfbf0f07afa1", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇬🇷 GR | VLESS | @red2ray #1'
+      - '🇵🇱 PL | VLESS | @v2ray_collector #1'
+      - '🇵🇱 PL | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

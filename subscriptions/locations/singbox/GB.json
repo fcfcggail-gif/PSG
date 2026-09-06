@@ -98,15 +98,15 @@
         "🇬🇧 GB | VLESS | @outline_ir #1",
         "🇬🇧 GB | VLESS | @red2ray #1",
         "🇬🇧 GB | VLESS | @red2ray #2",
+        "🇬🇧 GB | VLESS | @red2ray #3",
         "🇬🇧 GB | SS | @torang_vpn #1",
         "🇬🇧 GB | VLESS | @v2ray_collector #1",
-        "🇬🇧 GB | VLESS | @v2ray_collector #2",
         "🇬🇧 GB | SS | @v2rayng3 #1",
+        "🇬🇧 GB | SS | @v2rayng3 #2",
         "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
         "🇬🇧 GB | VLESS | @vmesc #1",
         "🇬🇧 GB | VLESS | @vpn_ioss #1",
-        "🇬🇧 GB | VLESS | @vpn_ioss #2",
-        "🇬🇧 GB | VLESS | @vpn_ioss #3"
+        "🇬🇧 GB | VLESS | @vpn_ioss #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -122,15 +122,15 @@
         "🇬🇧 GB | VLESS | @outline_ir #1",
         "🇬🇧 GB | VLESS | @red2ray #1",
         "🇬🇧 GB | VLESS | @red2ray #2",
+        "🇬🇧 GB | VLESS | @red2ray #3",
         "🇬🇧 GB | SS | @torang_vpn #1",
         "🇬🇧 GB | VLESS | @v2ray_collector #1",
-        "🇬🇧 GB | VLESS | @v2ray_collector #2",
         "🇬🇧 GB | SS | @v2rayng3 #1",
+        "🇬🇧 GB | SS | @v2rayng3 #2",
         "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
         "🇬🇧 GB | VLESS | @vmesc #1",
         "🇬🇧 GB | VLESS | @vpn_ioss #1",
-        "🇬🇧 GB | VLESS | @vpn_ioss #2",
-        "🇬🇧 GB | VLESS | @vpn_ioss #3"
+        "🇬🇧 GB | VLESS | @vpn_ioss #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -233,6 +233,14 @@
     {
       "tag": "🇬🇧 GB | VLESS | @red2ray #1",
       "type": "vless",
+      "server": "82.24.203.2",
+      "server_port": 2087,
+      "uuid": "3165b4d0-40f7-4df0-9f59-4c89ccdac92d",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @red2ray #2",
+      "type": "vless",
       "server": "51.38.70.192",
       "server_port": 443,
       "uuid": "9343f183-7a16-4bdd-9c65-b0c21feca40b",
@@ -253,12 +261,21 @@
       }
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @red2ray #2",
+      "tag": "🇬🇧 GB | VLESS | @red2ray #3",
       "type": "vless",
-      "server": "82.24.203.9",
-      "server_port": 2087,
-      "uuid": "3165b4d0-40f7-4df0-9f59-4c89ccdac92d",
-      "packet_encoding": "xudp"
+      "server": "fcs013.getdcz.me",
+      "server_port": 443,
+      "uuid": "f081b5e2-f3a0-4ef5-833b-1ea59e0797b6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇬🇧 GB | SS | @torang_vpn #1",
@@ -282,33 +299,19 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @v2ray_collector #2",
-      "type": "vless",
-      "server": "87.117.234.19",
-      "server_port": 443,
-      "uuid": "4d583b2c-2f5a-47d0-8181-e95217fe8cd9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },
     {
       "tag": "🇬🇧 GB | SS | @v2rayng3 #1",
+      "type": "shadowsocks",
+      "server": "82.38.31.198",
+      "server_port": 8080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTprMWRCT21PQjRvcWk3VW1wMzdhMWJR",
+      "password": null
+    },
+    {
+      "tag": "🇬🇧 GB | SS | @v2rayng3 #2",
       "type": "shadowsocks",
       "server": "82.38.31.162",
       "server_port": 443,
@@ -357,14 +360,6 @@
       "tag": "🇬🇧 GB | VLESS | @vpn_ioss #2",
       "type": "vless",
       "server": "82.24.203.15",
-      "server_port": 2083,
-      "uuid": "f2616bce-337a-4d13-8c58-1b5e71986569",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @vpn_ioss #3",
-      "type": "vless",
-      "server": "82.24.203.92",
       "server_port": 2083,
       "uuid": "f2616bce-337a-4d13-8c58-1b5e71986569",
       "packet_encoding": "xudp"
