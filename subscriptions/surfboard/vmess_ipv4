@@ -9,6 +9,7 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
+🇽🇽 XX | VMESS | @hope_net #1 = vmess, 104.19.21.240, 2052, username = d6b6d982-d52f-465a-b988-85670b23f64a, ws = true, tls = false, ws-path = /, ws-headers = Host:"104.19.21.240"
 🇩🇪 DE | VMESS | @khoneproxy #1 = vmess, 142.132.163.200, 80, username = 7f965e3e-b03f-455e-a96e-01b61f72537a, ws = true, tls = false, ws-path = /graphql, ws-headers = Host:"142.132.163.200"
 🇩🇪 DE | VMESS | @khoneproxy #2 = vmess, 5.75.150.23, 443, username = 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147, ws = false, tls = false
 🇩🇪 DE | VMESS | @khoneproxy #3 = vmess, 167.235.205.182, 443, username = 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147, ws = false, tls = false
@@ -19,9 +20,9 @@ DIRECT = direct
 🇹🇼 TW | VMESS | @vpn_ioss #1 = vmess, 165.154.195.38, 35034, username = 959a8caf-4cea-43d0-a548-3628e7ddfafc, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | VMESS | @khoneproxy #1, 🇩🇪 DE | VMESS | @khoneproxy #2, 🇩🇪 DE | VMESS | @khoneproxy #3, 🇩🇪 DE | VMESS | @magickey_shop #1, 🇽🇽 XX | VMESS | @proxy48 #1, 🇸🇬 SG | VMESS | @v2raying #1, 🇺🇸 US | VMESS | @vpn_ioss #1, 🇹🇼 TW | VMESS | @vpn_ioss #1
-PSG-AUTO = url-test, 🇩🇪 DE | VMESS | @khoneproxy #1, 🇩🇪 DE | VMESS | @khoneproxy #2, 🇩🇪 DE | VMESS | @khoneproxy #3, 🇩🇪 DE | VMESS | @magickey_shop #1, 🇽🇽 XX | VMESS | @proxy48 #1, 🇸🇬 SG | VMESS | @v2raying #1, 🇺🇸 US | VMESS | @vpn_ioss #1, 🇹🇼 TW | VMESS | @vpn_ioss #1
-PSG-FALLBACK = fallback, 🇩🇪 DE | VMESS | @khoneproxy #1, 🇩🇪 DE | VMESS | @khoneproxy #2, 🇩🇪 DE | VMESS | @khoneproxy #3, 🇩🇪 DE | VMESS | @magickey_shop #1, 🇽🇽 XX | VMESS | @proxy48 #1, 🇸🇬 SG | VMESS | @v2raying #1, 🇺🇸 US | VMESS | @vpn_ioss #1, 🇹🇼 TW | VMESS | @vpn_ioss #1
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇽🇽 XX | VMESS | @hope_net #1, 🇩🇪 DE | VMESS | @khoneproxy #1, 🇩🇪 DE | VMESS | @khoneproxy #2, 🇩🇪 DE | VMESS | @khoneproxy #3, 🇩🇪 DE | VMESS | @magickey_shop #1, 🇽🇽 XX | VMESS | @proxy48 #1, 🇸🇬 SG | VMESS | @v2raying #1, 🇺🇸 US | VMESS | @vpn_ioss #1, 🇹🇼 TW | VMESS | @vpn_ioss #1
+PSG-AUTO = url-test, 🇽🇽 XX | VMESS | @hope_net #1, 🇩🇪 DE | VMESS | @khoneproxy #1, 🇩🇪 DE | VMESS | @khoneproxy #2, 🇩🇪 DE | VMESS | @khoneproxy #3, 🇩🇪 DE | VMESS | @magickey_shop #1, 🇽🇽 XX | VMESS | @proxy48 #1, 🇸🇬 SG | VMESS | @v2raying #1, 🇺🇸 US | VMESS | @vpn_ioss #1, 🇹🇼 TW | VMESS | @vpn_ioss #1
+PSG-FALLBACK = fallback, 🇽🇽 XX | VMESS | @hope_net #1, 🇩🇪 DE | VMESS | @khoneproxy #1, 🇩🇪 DE | VMESS | @khoneproxy #2, 🇩🇪 DE | VMESS | @khoneproxy #3, 🇩🇪 DE | VMESS | @magickey_shop #1, 🇽🇽 XX | VMESS | @proxy48 #1, 🇸🇬 SG | VMESS | @v2raying #1, 🇺🇸 US | VMESS | @vpn_ioss #1, 🇹🇼 TW | VMESS | @vpn_ioss #1
 
 [Rule]
 GEOIP,IR,DIRECT

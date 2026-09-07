@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇸 RS | VLESS | @v2ray_free_conf #1"
+        "🇷🇸 RS | VLESS | @free1_vpn #1",
+        "🇷🇸 RS | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇸 RS | VLESS | @v2ray_free_conf #1"
+        "🇷🇸 RS | VLESS | @free1_vpn #1",
+        "🇷🇸 RS | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,9 +103,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇸 RS | VLESS | @v2ray_free_conf #1",
+      "tag": "🇷🇸 RS | VLESS | @free1_vpn #1",
       "type": "vless",
-      "server": "rs4.univesalsrv.com",
+      "server": "rs1.univesalsrv.com",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇸 RS | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "rs3.univesalsrv.com",
       "server_port": 443,
       "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
       "packet_encoding": "xudp",
