@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇳🇱 NL | VMESS | @mtproxy22_v2ray #1", "server": "104.248.80.136", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "df756db8-a7de-4ff9-a847-d2632bd021e2", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/graphql", "headers": {"Host": "104.248.80.136"}}}
   - {"name": "🇳🇱 NL | VLESS | @orange_vpns #1", "server": "axial.medic-ml.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "935ed92d-68c3-42c7-8c32-2db2595737e6", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇳🇱 NL | VLESS | @orange_vpns #2", "server": "72.56.92.177", "port": 40443, "type": "vless", "skip-cert-verify": true, "uuid": "4480161e-2c59-4d37-8736-675c9af32bf1", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇳🇱 NL | VLESS | @orange_vpns #3", "server": "sv13.betust.net", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "c6037cf7-d931-4027-af06-6bfb0f10684c", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
@@ -45,6 +46,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇳🇱 NL | VMESS | @mtproxy22_v2ray #1'
       - '🇳🇱 NL | VLESS | @orange_vpns #1'
       - '🇳🇱 NL | VLESS | @orange_vpns #2'
       - '🇳🇱 NL | VLESS | @orange_vpns #3'

@@ -80,7 +80,9 @@
         "🇲🇩 MD | VLESS | @bored_vpn #1",
         "🇲🇩 MD | VLESS | @nofiltering2 #1",
         "🇲🇩 MD | VLESS | @nofiltering2 #2",
-        "🇲🇩 MD | VLESS | @v2ray_free_conf #1"
+        "🇲🇩 MD | VLESS | @v2raych #1",
+        "🇲🇩 MD | VLESS | @v2raych #2",
+        "🇲🇩 MD | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -91,7 +93,9 @@
         "🇲🇩 MD | VLESS | @bored_vpn #1",
         "🇲🇩 MD | VLESS | @nofiltering2 #1",
         "🇲🇩 MD | VLESS | @nofiltering2 #2",
-        "🇲🇩 MD | VLESS | @v2ray_free_conf #1"
+        "🇲🇩 MD | VLESS | @v2raych #1",
+        "🇲🇩 MD | VLESS | @v2raych #2",
+        "🇲🇩 MD | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -158,7 +162,41 @@
       }
     },
     {
-      "tag": "🇲🇩 MD | VLESS | @v2ray_free_conf #1",
+      "tag": "🇲🇩 MD | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "md5.univesalsrv.com",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇲🇩 MD | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "md3.univesalsrv.com",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇲🇩 MD | VLESS | @vmesskhodam #1",
       "type": "vless",
       "server": "md1.univesalsrv.com",
       "server_port": 443,

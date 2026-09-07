@@ -77,13 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @NamiraConfigs #1",
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
         "🇫🇮 FI | VLESS | @outline_ir #1",
         "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
-        "🇫🇮 FI | VLESS | @red2ray #1",
-        "🇫🇮 FI | VLESS | @selinc #1",
-        "🇫🇮 FI | VLESS | @v2raych #1"
+        "🇫🇮 FI | VLESS | @selinc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -91,13 +88,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @NamiraConfigs #1",
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
         "🇫🇮 FI | VLESS | @outline_ir #1",
         "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
-        "🇫🇮 FI | VLESS | @red2ray #1",
-        "🇫🇮 FI | VLESS | @selinc #1",
-        "🇫🇮 FI | VLESS | @v2raych #1"
+        "🇫🇮 FI | VLESS | @selinc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -111,14 +105,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "81.27.110.79",
-      "server_port": 8080,
-      "uuid": "cde8e374-bf71-4a1f-9386-db050bc46190",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇮 FI | VLESS | @ehsawn8 #1",
@@ -154,51 +140,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "fi.horlutr.ir",
-      "server_port": 11437,
-      "uuid": "30980395-1884-483f-95d1-2b7c26928e3c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇫🇮 FI | VLESS | @selinc #1",
       "type": "vless",
       "server": "31.76.80.69",
       "server_port": 2083,
       "uuid": "8975546a-375c-4966-8064-19fc0f66f30a",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "65.109.238.140",
-      "server_port": 443,
-      "uuid": "05bfcbaa-cba0-4bce-9103-09fe3f5f0667",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     }
   ],
   "route": {

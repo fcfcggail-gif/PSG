@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇪🇸 ES | VLESS | @prrofile_purple #1", "server": "us.differentok.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "eb1c3a3c-c828-404d-bf98-b878c5435600", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇳🇱 NL | VMESS | @mtproxy22_v2ray #1", "server": "104.248.80.136", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "df756db8-a7de-4ff9-a847-d2632bd021e2", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/graphql", "headers": {"Host": "104.248.80.136"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇪🇸 ES | VLESS | @prrofile_purple #1'
+      - '🇳🇱 NL | VMESS | @mtproxy22_v2ray #1'
 
   - name: 🌍 Global Media
     type: select
