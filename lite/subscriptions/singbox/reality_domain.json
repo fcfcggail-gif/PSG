@@ -94,7 +94,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @free1_vpn #1",
-        "🇳🇱 NL | VLESS | @orange_vpns #1"
+        "🇳🇱 NL | VLESS | @orange_vpns #2",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇷🇸 RS | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -106,7 +108,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @free1_vpn #1",
-        "🇳🇱 NL | VLESS | @orange_vpns #1"
+        "🇳🇱 NL | VLESS | @orange_vpns #2",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇷🇸 RS | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -212,11 +216,50 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @orange_vpns #1",
+      "tag": "🇳🇱 NL | VLESS | @orange_vpns #2",
       "type": "vless",
-      "server": "axial.medic-ml.ru",
+      "server": "sv13.betust.net",
       "server_port": 443,
-      "uuid": "935ed92d-68c3-42c7-8c32-2db2595737e6",
+      "uuid": "c6037cf7-d931-4027-af06-6bfb0f10684c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "f.morexa.ir",
+      "server_port": 443,
+      "uuid": "171d0b5f-ed37-4007-9e81-e07f37454ae9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇸 RS | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "rs4.univesalsrv.com",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
