@@ -108,8 +108,8 @@
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇸🇬 SG | VMESS | @v2raying #1",
-        "🇬🇧 GB | VMESS | @vpn_ioss #1"
+        "🇳🇱 NL | VMESS | @mtproxy22_v2ray #1",
+        "🇸🇬 SG | VMESS | @v2raying #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -135,8 +135,8 @@
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇸🇬 SG | VMESS | @v2raying #1",
-        "🇬🇧 GB | VMESS | @vpn_ioss #1"
+        "🇳🇱 NL | VMESS | @mtproxy22_v2ray #1",
+        "🇸🇬 SG | VMESS | @v2raying #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -556,20 +556,27 @@
       }
     },
     {
+      "tag": "🇳🇱 NL | VMESS | @mtproxy22_v2ray #1",
+      "type": "vmess",
+      "server": "104.248.80.136",
+      "server_port": 80,
+      "uuid": "df756db8-a7de-4ff9-a847-d2632bd021e2",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/graphql",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
       "tag": "🇸🇬 SG | VMESS | @v2raying #1",
       "type": "vmess",
       "server": "149.88.23.207",
       "server_port": 18000,
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "tag": "🇬🇧 GB | VMESS | @vpn_ioss #1",
-      "type": "vmess",
-      "server": "66.163.117.58",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
       "security": "auto",
       "alter_id": 0
     }

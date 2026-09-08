@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgUEw=
+//profile-title: base64:UFNHIHwgWkE=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -89,14 +89,17 @@
     {
       "outbounds": [
         "auto",
-        "direct"
+        "direct",
+        "🇿🇦 ZA | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
     },
     {
       "interval": "10m",
-      "outbounds": [],
+      "outbounds": [
+        "🇿🇦 ZA | SS | @v2ray_free_conf #1"
+      ],
       "tag": "auto",
       "tolerance": 50,
       "type": "urltest",
@@ -105,6 +108,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇿🇦 ZA | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "20.164.211.25",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpCaFlNa0JwakFqRTZpeFN3",
+      "password": null
     }
   ],
   "route": {
