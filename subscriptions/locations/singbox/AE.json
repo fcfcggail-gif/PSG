@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇦🇪 AE | SS | @free4allvpn #1",
-        "🇦🇪 AE | SS | @manstervpn #1"
+        "🇦🇪 AE | SS | @manstervpn #1",
+        "🇦🇪 AE | VLESS | @outline_ir #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇦🇪 AE | SS | @free4allvpn #1",
-        "🇦🇪 AE | SS | @manstervpn #1"
+        "🇦🇪 AE | SS | @manstervpn #1",
+        "🇦🇪 AE | VLESS | @outline_ir #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -126,6 +128,28 @@
       "server_port": 443,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp1MTdUM0J2cFlhYWl1VzJj",
       "password": null
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "31.56.189.224",
+      "server_port": 3443,
+      "uuid": "92089155-6602-4122-86d4-fe6de20e8c4d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
