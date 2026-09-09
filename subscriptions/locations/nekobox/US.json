@@ -123,6 +123,7 @@
         "🇺🇸 US | VLESS | @public504 #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇺🇸 US | VLESS | @red2ray #1",
+        "🇺🇸 US | VLESS | @red2ray #2",
         "🇺🇸 US | TROJAN | @rez1vpn #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #2",
@@ -130,6 +131,8 @@
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #2",
         "🇺🇸 US | TROJAN | @v2raying #1",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
         "🇺🇸 US | VLESS | @v2raymelliii #2",
@@ -148,6 +151,7 @@
         "🇺🇸 US | TROJAN | @vmesc #1",
         "🇺🇸 US | TROJAN | @vmesc #2",
         "🇺🇸 US | TROJAN | @vmesskhodam #1",
+        "🇺🇸 US | TROJAN | @vmesskhodam #2",
         "🇺🇸 US | VLESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VLESS | @vpnowl #1"
@@ -204,6 +208,7 @@
         "🇺🇸 US | VLESS | @public504 #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇺🇸 US | VLESS | @red2ray #1",
+        "🇺🇸 US | VLESS | @red2ray #2",
         "🇺🇸 US | TROJAN | @rez1vpn #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #1",
         "🇺🇸 US | VLESS | @serverv2ray00 #2",
@@ -211,6 +216,8 @@
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #2",
         "🇺🇸 US | TROJAN | @v2raying #1",
         "🇺🇸 US | VLESS | @v2raymelliii #1",
         "🇺🇸 US | VLESS | @v2raymelliii #2",
@@ -229,6 +236,7 @@
         "🇺🇸 US | TROJAN | @vmesc #1",
         "🇺🇸 US | TROJAN | @vmesc #2",
         "🇺🇸 US | TROJAN | @vmesskhodam #1",
+        "🇺🇸 US | TROJAN | @vmesskhodam #2",
         "🇺🇸 US | VLESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇺🇸 US | VLESS | @vpnowl #1"
@@ -870,9 +878,17 @@
     {
       "tag": "🇺🇸 US | VLESS | @red2ray #1",
       "type": "vless",
+      "server": "autorack.proxy.rlwy.net",
+      "server_port": 35089,
+      "uuid": "60931614-967d-4efb-9533-4abea96bab45",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @red2ray #2",
+      "type": "vless",
       "server": "199.232.78.159",
       "server_port": 443,
-      "uuid": "816cc0a9-547a-4c09-b66b-3f491ca6f628",
+      "uuid": "602ba9cb-2071-4559-a0b6-47b6e7b56272",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -990,6 +1006,40 @@
       "server_port": 36925,
       "uuid": "c9fd0fb1-8251-4106-b09a-f4b426736f67",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "104.194.74.14",
+      "server_port": 443,
+      "uuid": "2f56719f-d1dd-442d-a13c-ddbea23f1ab1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "usa3.mobileemdad.top",
+      "server_port": 443,
+      "uuid": "ac9d1592-e589-4d52-886e-354bdaaf83d5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | TROJAN | @v2raying #1",
@@ -1278,6 +1328,22 @@
       "tag": "🇺🇸 US | TROJAN | @vmesskhodam #1",
       "type": "trojan",
       "server": "151.101.56.7",
+      "server_port": 443,
+      "password": "MiTiVPN",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | TROJAN | @vmesskhodam #2",
+      "type": "trojan",
+      "server": "199.232.78.160",
       "server_port": 443,
       "password": "MiTiVPN",
       "tls": {
