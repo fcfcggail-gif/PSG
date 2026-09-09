@@ -80,10 +80,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇳🇱 NL | VLESS | @red2ray #1",
-        "🇫🇮 FI | VLESS | @v2raych #1",
-        "🇩🇪 DE | VLESS | @v2raych #1",
-        "🇷🇸 RS | VLESS | @vmesskhodam #1"
+        "🇲🇩 MD | VLESS | @free1_vpn #1",
+        "🇧🇬 BG | VLESS | @free1_vpn #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -94,10 +92,8 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇳🇱 NL | VLESS | @red2ray #1",
-        "🇫🇮 FI | VLESS | @v2raych #1",
-        "🇩🇪 DE | VLESS | @v2raych #1",
-        "🇷🇸 RS | VLESS | @vmesskhodam #1"
+        "🇲🇩 MD | VLESS | @free1_vpn #1",
+        "🇧🇬 BG | VLESS | @free1_vpn #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -185,11 +181,28 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @red2ray #1",
+      "tag": "🇲🇩 MD | VLESS | @free1_vpn #1",
       "type": "vless",
-      "server": "nl6.mobileemdad.top",
+      "server": "md3.univesalsrv.com",
       "server_port": 443,
-      "uuid": "b560fbd2-b33d-43ae-930c-ed479758c518",
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇬 BG | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "bg3.univesalsrv.com",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -203,48 +216,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "f3.morexa.ir",
-      "server_port": 443,
-      "uuid": "171d0b5f-ed37-4007-9e81-e07f37454ae9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "p1real2.greewebservices.ir",
-      "server_port": 1240,
-      "uuid": "0c350e60-b7b4-4061-bd70-02280be45b09",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇷🇸 RS | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "rs4.univesalsrv.com",
-      "server_port": 443,
-      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     }
