@@ -90,9 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @netfreedom0 #1",
-        "🇹🇷 TR | VLESS | @orange_vpns #1",
-        "🇹🇷 TR | VLESS | @red2ray #1"
+        "🇹🇷 TR | VMESS | @NamiraConfigs #1",
+        "🇹🇷 TR | VLESS | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @netfreedom0 #1",
-        "🇹🇷 TR | VLESS | @orange_vpns #1",
-        "🇹🇷 TR | VLESS | @red2ray #1"
+        "🇹🇷 TR | VMESS | @NamiraConfigs #1",
+        "🇹🇷 TR | VLESS | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,6 +110,15 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇹🇷 TR | VMESS | @NamiraConfigs #1",
+      "type": "vmess",
+      "server": "188.132.232.85",
+      "server_port": 2086,
+      "uuid": "f6361af8-bb8f-4609-bf5d-3fc0f688f47b",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇹🇷 TR | VLESS | @netfreedom0 #1",
@@ -127,36 +134,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @orange_vpns #1",
-      "type": "vless",
-      "server": "static.onevanet.ir",
-      "server_port": 1128,
-      "uuid": "c9da5fd7-62bb-46c0-8006-f89a18e38f4b",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "cz.cloudtechone.org",
-      "server_port": 443,
-      "uuid": "2b2ea9d8-501e-4b79-8fd9-19bff6ed5cf5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

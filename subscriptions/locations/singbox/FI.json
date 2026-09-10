@@ -92,7 +92,7 @@
         "direct",
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
         "🇫🇮 FI | VLESS | @selinc #1",
-        "🇫🇮 FI | VLESS | @v2raych #1"
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,7 +102,7 @@
       "outbounds": [
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
         "🇫🇮 FI | VLESS | @selinc #1",
-        "🇫🇮 FI | VLESS | @v2raych #1"
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -130,12 +130,26 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "dashboard.xavino-shop.ir",
-      "server_port": 32630,
-      "uuid": "4f1fbb96-4978-4799-ba50-4add49819898",
-      "packet_encoding": "xudp"
+      "server": "185.79.138.71",
+      "server_port": 448,
+      "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

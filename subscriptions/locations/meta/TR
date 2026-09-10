@@ -23,9 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇹🇷 TR | VMESS | @NamiraConfigs #1", "server": "188.132.232.85", "port": 2086, "type": "vmess", "skip-cert-verify": true, "uuid": "f6361af8-bb8f-4609-bf5d-3fc0f688f47b", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇹🇷 TR | VLESS | @netfreedom0 #1", "server": "87.120.106.180", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0ed9a248-f693-46c1-ba1b-91d0a6dfa6a5", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇹🇷 TR | VLESS | @orange_vpns #1", "server": "static.onevanet.ir", "port": 1128, "type": "vless", "skip-cert-verify": true, "uuid": "c9da5fd7-62bb-46c0-8006-f89a18e38f4b", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇹🇷 TR | VLESS | @red2ray #1", "server": "cz.cloudtechone.org", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2b2ea9d8-501e-4b79-8fd9-19bff6ed5cf5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇹🇷 TR | VMESS | @NamiraConfigs #1'
       - '🇹🇷 TR | VLESS | @netfreedom0 #1'
-      - '🇹🇷 TR | VLESS | @orange_vpns #1'
-      - '🇹🇷 TR | VLESS | @red2ray #1'
 
   - name: 🌍 Global Media
     type: select

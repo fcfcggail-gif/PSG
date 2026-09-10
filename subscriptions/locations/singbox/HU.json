@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSUU=
+//profile-title: base64:UFNHIHwgSFU=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇪 IE | SS | @prrofile_purple #1"
+        "🇭🇺 HU | TROJAN | @v2ray_collector #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇪 IE | SS | @prrofile_purple #1"
+        "🇭🇺 HU | TROJAN | @v2ray_collector #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇪 IE | SS | @prrofile_purple #1",
-      "type": "shadowsocks",
-      "server": "20.123.9.48",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpiWDI5N0FzMzFiUU1Sc0xQ",
-      "password": null
+      "tag": "🇭🇺 HU | TROJAN | @v2ray_collector #1",
+      "type": "trojan",
+      "server": "46.29.142.57",
+      "server_port": 4443,
+      "password": "C0ldyfh-vpnjantit.com",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
