@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
-        "🇫🇮 FI | VLESS | @selinc #1"
+        "🇫🇮 FI | VLESS | @selinc #1",
+        "🇫🇮 FI | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
-        "🇫🇮 FI | VLESS | @selinc #1"
+        "🇫🇮 FI | VLESS | @selinc #1",
+        "🇫🇮 FI | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -126,6 +128,23 @@
       "server_port": 2083,
       "uuid": "8975546a-375c-4966-8064-19fc0f66f30a",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "65.109.238.140",
+      "server_port": 443,
+      "uuid": "05bfcbaa-cba0-4bce-9103-09fe3f5f0667",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

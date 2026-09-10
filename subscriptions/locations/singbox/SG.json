@@ -91,11 +91,9 @@
         "auto",
         "direct",
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
-        "🇸🇬 SG | VLESS | @hope_net #1",
         "🇸🇬 SG | VLESS | @orange_vpns #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
-        "🇸🇬 SG | VMESS | @v2raying #1",
-        "🇸🇬 SG | VMESS | @NamiraConfigs #1"
+        "🇸🇬 SG | VMESS | @v2raying #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -104,11 +102,9 @@
       "interval": "10m",
       "outbounds": [
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
-        "🇸🇬 SG | VLESS | @hope_net #1",
         "🇸🇬 SG | VLESS | @orange_vpns #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
-        "🇸🇬 SG | VMESS | @v2raying #1",
-        "🇸🇬 SG | VMESS | @NamiraConfigs #1"
+        "🇸🇬 SG | VMESS | @v2raying #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -140,23 +136,6 @@
         "path": "/",
         "headers": {
           "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 SG | VLESS | @hope_net #1",
-      "type": "vless",
-      "server": "206.238.237.119",
-      "server_port": 443,
-      "uuid": "a13df940-020c-465f-bc89-ee5279b5cd6a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },
@@ -201,15 +180,6 @@
     },
     {
       "tag": "🇸🇬 SG | VMESS | @v2raying #1",
-      "type": "vmess",
-      "server": "149.88.23.207",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "tag": "🇸🇬 SG | VMESS | @NamiraConfigs #1",
       "type": "vmess",
       "server": "149.88.23.207",
       "server_port": 18000,
