@@ -78,6 +78,7 @@
         "auto",
         "direct",
         "🇭🇰 HK | VMESS | @NamiraConfigs #1",
+        "🇭🇰 HK | VMESS | @NamiraConfigs #2",
         "🇭🇰 HK | TROJAN | @jiedianf #1"
       ],
       "tag": "proxy",
@@ -87,6 +88,7 @@
       "interval": "10m",
       "outbounds": [
         "🇭🇰 HK | VMESS | @NamiraConfigs #1",
+        "🇭🇰 HK | VMESS | @NamiraConfigs #2",
         "🇭🇰 HK | TROJAN | @jiedianf #1"
       ],
       "tag": "auto",
@@ -113,6 +115,22 @@
       "transport": {
         "type": "ws",
         "path": "/arki?ed=2048",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 HK | VMESS | @NamiraConfigs #2",
+      "type": "vmess",
+      "server": "47.244.120.197",
+      "server_port": 23026,
+      "uuid": "b9de1bc9-baa7-41ac-86f7-ccd59695cb21",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/arki",
         "headers": {
           "Host": ""
         }

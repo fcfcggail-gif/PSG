@@ -24,6 +24,8 @@ dns:
 
 proxies: 
   - {"name": "🇬🇧 GB | VLESS | @filtershekan_channel #1", "server": "3.9.135.156", "port": 51847, "type": "vless", "skip-cert-verify": true, "uuid": "391a01e9-b664-407b-9158-610fab3f5920", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇬🇧 GB | VLESS | @v2ray_collector #1", "server": "109.169.76.39", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0fcbc45d-acdc-40cf-9a66-961c00f5b4a5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇬🇧 GB | VLESS | @v2raych #1", "server": "109.169.85.137", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "91f66d6f-b64e-4d50-93e1-5e08ac568eca", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +40,8 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇬🇧 GB | VLESS | @filtershekan_channel #1'
+      - '🇬🇧 GB | VLESS | @v2ray_collector #1'
+      - '🇬🇧 GB | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select
