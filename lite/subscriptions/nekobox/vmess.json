@@ -81,11 +81,11 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇭🇰 HK | VMESS | @NamiraConfigs #1",
-        "🇭🇰 HK | VMESS | @NamiraConfigs #2",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇸🇬 SG | VMESS | @v2raying #1",
+        "🇷🇺 RU | VMESS | @NamiraConfigs #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇨🇿 CZ | VMESS | @freev2rays #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
@@ -109,11 +109,11 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇭🇰 HK | VMESS | @NamiraConfigs #1",
-        "🇭🇰 HK | VMESS | @NamiraConfigs #2",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
         "🇸🇬 SG | VMESS | @v2raying #1",
+        "🇷🇺 RU | VMESS | @NamiraConfigs #1",
         "🇺🇸 US | VMESS | @freev2rays #1",
         "🇨🇿 CZ | VMESS | @freev2rays #1",
         "🇧🇾 BY | VMESS | @ir_netproxy #1",
@@ -216,22 +216,6 @@
       "tag": "🇭🇰 HK | VMESS | @NamiraConfigs #1",
       "type": "vmess",
       "server": "47.244.120.197",
-      "server_port": 44867,
-      "uuid": "845e6b08-2919-4290-ade0-5dc7dcea59ca",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/arki?ed=2048",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇭🇰 HK | VMESS | @NamiraConfigs #2",
-      "type": "vmess",
-      "server": "47.244.120.197",
       "server_port": 23026,
       "uuid": "b9de1bc9-baa7-41ac-86f7-ccd59695cb21",
       "security": "auto",
@@ -304,6 +288,31 @@
       "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "security": "auto",
       "alter_id": 0
+    },
+    {
+      "tag": "🇷🇺 RU | VMESS | @NamiraConfigs #1",
+      "type": "vmess",
+      "server": "212.95.34.195",
+      "server_port": 443,
+      "uuid": "db50a20e-7ff5-4e70-948f-17cc9ca7c154",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "renderer-stream-2-62.mirra.now",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/api/v1/gpu-stream/socket",
+        "headers": {
+          "Host": "renderer-stream-2-62.mirra.now"
+        }
+      }
     },
     {
       "tag": "🇺🇸 US | VMESS | @freev2rays #1",
