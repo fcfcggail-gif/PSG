@@ -10,11 +10,12 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇷🇺 RU | VMESS | @NamiraConfigs #1 = vmess, renderer-stream-2-62.mirra.now, 443, username = db50a20e-7ff5-4e70-948f-17cc9ca7c154, ws = true, tls = true, ws-path = /api/v1/gpu-stream/socket, ws-headers = Host:"renderer-stream-2-62.mirra.now"
+🇷🇺 RU | VMESS | @NamiraConfigs #2 = vmess, 212.95.34.195, 443, username = db50a20e-7ff5-4e70-948f-17cc9ca7c154, ws = true, tls = true, ws-path = /api/v1/gpu-stream/socket, ws-headers = Host:"renderer-stream-2-62.mirra.now"
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇷🇺 RU | VMESS | @NamiraConfigs #1
-PSG-AUTO = url-test, 🇷🇺 RU | VMESS | @NamiraConfigs #1
-PSG-FALLBACK = fallback, 🇷🇺 RU | VMESS | @NamiraConfigs #1
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇷🇺 RU | VMESS | @NamiraConfigs #1, 🇷🇺 RU | VMESS | @NamiraConfigs #2
+PSG-AUTO = url-test, 🇷🇺 RU | VMESS | @NamiraConfigs #1, 🇷🇺 RU | VMESS | @NamiraConfigs #2
+PSG-FALLBACK = fallback, 🇷🇺 RU | VMESS | @NamiraConfigs #1, 🇷🇺 RU | VMESS | @NamiraConfigs #2
 
 [Rule]
 GEOIP,IR,DIRECT
