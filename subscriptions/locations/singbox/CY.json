@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇾 CY | VLESS | @mtproxy22_v2ray #1"
+        "🇨🇾 CY | VLESS | @mtproxy22_v2ray #1",
+        "🇨🇾 CY | VLESS | @mtproxy22_v2ray #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇾 CY | VLESS | @mtproxy22_v2ray #1"
+        "🇨🇾 CY | VLESS | @mtproxy22_v2ray #1",
+        "🇨🇾 CY | VLESS | @mtproxy22_v2ray #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -111,6 +113,28 @@
     },
     {
       "tag": "🇨🇾 CY | VLESS | @mtproxy22_v2ray #1",
+      "type": "vless",
+      "server": "5.253.42.164",
+      "server_port": 40443,
+      "uuid": "e99ba96d-dec8-42eb-be53-19e71eef7cab",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇨🇾 CY | VLESS | @mtproxy22_v2ray #2",
       "type": "vless",
       "server": "45.136.126.70",
       "server_port": 8443,

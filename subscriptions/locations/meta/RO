@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇷🇴 RO | VLESS | @orange_vpns #1", "server": "80.96.112.163", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "7bafeb9d-06ba-4c43-94f5-b8666354d1c6", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇴 RO | VLESS | @v2rayprotocol #1", "server": "pl.cloudtechone.org", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2b2ea9d8-501e-4b79-8fd9-19bff6ed5cf5", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇷🇴 RO | VLESS | @orange_vpns #1'
+      - '🇷🇴 RO | VLESS | @v2rayprotocol #1'
 
   - name: 🌍 Global Media
     type: select
