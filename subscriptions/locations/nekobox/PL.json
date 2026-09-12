@@ -79,9 +79,9 @@
         "direct",
         "🇵🇱 PL | VLESS | @NamiraConfigs #1",
         "🇵🇱 PL | VLESS | @outlinereleasedkey #1",
-        "🇵🇱 PL | VLESS | @prrofile_purple #1",
-        "🇵🇱 PL | VLESS | @vpn_ioss #1",
-        "🇵🇱 PL | VLESS | @vpn_ioss #2"
+        "🇵🇱 PL | SS | @outlinereleasedkey #1",
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+        "🇵🇱 PL | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -91,9 +91,9 @@
       "outbounds": [
         "🇵🇱 PL | VLESS | @NamiraConfigs #1",
         "🇵🇱 PL | VLESS | @outlinereleasedkey #1",
-        "🇵🇱 PL | VLESS | @prrofile_purple #1",
-        "🇵🇱 PL | VLESS | @vpn_ioss #1",
-        "🇵🇱 PL | VLESS | @vpn_ioss #2"
+        "🇵🇱 PL | SS | @outlinereleasedkey #1",
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+        "🇵🇱 PL | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -143,11 +143,19 @@
       }
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @prrofile_purple #1",
+      "tag": "🇵🇱 PL | SS | @outlinereleasedkey #1",
+      "type": "shadowsocks",
+      "server": "217.30.10.44",
+      "server_port": 9095,
+      "method": "YWVzLTI1Ni1jZmI6TjdqM3BkVFlrS21zeThDUg==",
+      "password": null
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "83.168.71.216",
+      "server": "94.249.180.6",
       "server_port": 443,
-      "uuid": "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a",
+      "uuid": "e9973ea4-3c6b-4d58-aa92-1c567a53c312",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -166,14 +174,6 @@
     },
     {
       "tag": "🇵🇱 PL | VLESS | @vpn_ioss #1",
-      "type": "vless",
-      "server": "178.95.170.98",
-      "server_port": 2087,
-      "uuid": "bf443e4a-aa9e-4509-abf0-d0f6828d57be",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @vpn_ioss #2",
       "type": "vless",
       "server": "83.168.71.216",
       "server_port": 443,
