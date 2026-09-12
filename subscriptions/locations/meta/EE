@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇪🇪 EE | VLESS | @v2ray_collector #1", "server": "94.183.170.135", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇪🇪 EE | VLESS | @v2ray_collector #2", "server": "94.183.170.135", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇪🇪 EE | VLESS | @v2ray_collector #1'
+      - '🇪🇪 EE | VLESS | @v2ray_collector #2'
 
   - name: 🌍 Global Media
     type: select

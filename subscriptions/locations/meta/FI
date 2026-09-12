@@ -23,10 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇫🇮 FI | VMESS | @NamiraConfigs #1", "server": "65.109.189.128", "port": 2086, "type": "vmess", "skip-cert-verify": true, "uuid": "f6361af8-bb8f-4609-bf5d-3fc0f688f47b", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇫🇮 FI | VLESS | @ehsawn8 #1", "server": "132.243.223.227", "port": 2101, "type": "vless", "skip-cert-verify": true, "uuid": "2edfd299-fd54-4056-9d79-3c99f19bdae1", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇮 FI | VLESS | @mimitdl #1", "server": "65.109.212.53", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "MIMITDL", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇫🇮 FI | VLESS | @selinc #1", "server": "31.76.80.69", "port": 2083, "type": "vless", "skip-cert-verify": true, "uuid": "8975546a-375c-4966-8064-19fc0f66f30a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇫🇮 FI | VLESS | @v2ray_free_conf #1", "server": "31.76.102.25", "port": 47010, "type": "vless", "skip-cert-verify": true, "uuid": "5ba7b2fe-8738-4dd9-b2f4-c3450b6f32fe", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,10 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇫🇮 FI | VMESS | @NamiraConfigs #1'
       - '🇫🇮 FI | VLESS | @ehsawn8 #1'
       - '🇫🇮 FI | VLESS | @mimitdl #1'
-      - '🇫🇮 FI | VLESS | @selinc #1'
-      - '🇫🇮 FI | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select
