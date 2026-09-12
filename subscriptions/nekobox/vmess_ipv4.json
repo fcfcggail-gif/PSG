@@ -80,13 +80,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇰🇷 KR | VMESS | @NamiraConfigs #1",
-        "🇺🇸 US | VMESS | @NamiraConfigs #1",
         "🇬🇧 GB | VMESS | @NamiraConfigs #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
+        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇸🇬 SG | VMESS | @v2raying #1"
       ],
@@ -99,13 +98,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇰🇷 KR | VMESS | @NamiraConfigs #1",
-        "🇺🇸 US | VMESS | @NamiraConfigs #1",
         "🇬🇧 GB | VMESS | @NamiraConfigs #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
+        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇸🇬 SG | VMESS | @v2raying #1"
       ],
@@ -195,33 +193,6 @@
       }
     },
     {
-      "tag": "🇰🇷 KR | VMESS | @NamiraConfigs #1",
-      "type": "vmess",
-      "server": "217.142.138.61",
-      "server_port": 80,
-      "uuid": "ac1b933d-afff-4487-93ef-f57130a55dff",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @NamiraConfigs #1",
-      "type": "vmess",
-      "server": "165.140.217.2",
-      "server_port": 443,
-      "uuid": "b65a2d69-5634-42a2-e4be-54e8a6176900",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇬🇧 GB | VMESS | @NamiraConfigs #1",
       "type": "vmess",
       "server": "66.163.117.58",
@@ -297,6 +268,31 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
+      "type": "vmess",
+      "server": "104.18.6.82",
+      "server_port": 443,
+      "uuid": "5ce9cb0d-6b12-4dbd-9114-74fd11dc6f35",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "jp.binghe.design",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
         }
       }
     },

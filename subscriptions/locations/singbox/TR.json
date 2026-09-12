@@ -90,6 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇹🇷 TR | VLESS | @NamiraConfigs #1",
+        "🇹🇷 TR | VLESS | @NamiraConfigs #2",
+        "🇹🇷 TR | VLESS | @free1_vpn #1",
         "🇹🇷 TR | VLESS | @netfreedom0 #1"
       ],
       "tag": "proxy",
@@ -98,6 +101,9 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇹🇷 TR | VLESS | @NamiraConfigs #1",
+        "🇹🇷 TR | VLESS | @NamiraConfigs #2",
+        "🇹🇷 TR | VLESS | @free1_vpn #1",
         "🇹🇷 TR | VLESS | @netfreedom0 #1"
       ],
       "tag": "auto",
@@ -108,6 +114,44 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "app.life-pro.ir",
+      "server_port": 8082,
+      "uuid": "79f98593-6a21-4783-a425-3d5609a79df1",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @NamiraConfigs #2",
+      "type": "vless",
+      "server": "app.life-pro.ir",
+      "server_port": 8082,
+      "uuid": "79f98593-6a21-4783-a425-3d5609a79df1",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "trn7.mobileemdad.top",
+      "server_port": 443,
+      "uuid": "ce89ab18-c812-4467-8cb2-122804cd51d8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇹🇷 TR | VLESS | @netfreedom0 #1",
