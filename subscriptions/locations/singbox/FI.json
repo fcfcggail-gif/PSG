@@ -90,9 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VMESS | @NamiraConfigs #1",
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
-        "🇫🇮 FI | VLESS | @mimitdl #1"
+        "🇫🇮 FI | VLESS | @mimitdl #1",
+        "🇫🇮 FI | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VMESS | @NamiraConfigs #1",
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
-        "🇫🇮 FI | VLESS | @mimitdl #1"
+        "🇫🇮 FI | VLESS | @mimitdl #1",
+        "🇫🇮 FI | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,15 +112,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇫🇮 FI | VMESS | @NamiraConfigs #1",
-      "type": "vmess",
-      "server": "65.109.189.128",
-      "server_port": 2086,
-      "uuid": "f6361af8-bb8f-4609-bf5d-3fc0f688f47b",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "tag": "🇫🇮 FI | VLESS | @ehsawn8 #1",
@@ -137,6 +128,28 @@
       "server_port": 80,
       "uuid": "MIMITDL",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "31.76.21.179",
+      "server_port": 443,
+      "uuid": "827a0eb0-21bf-4bce-96ef-0a7bac5d68f5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
