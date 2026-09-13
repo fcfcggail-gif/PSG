@@ -92,7 +92,9 @@
         "direct",
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
         "🇫🇮 FI | VLESS | @mimitdl #1",
+        "🇫🇮 FI | VLESS | @red2ray #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1",
+        "🇫🇮 FI | VLESS | @vmesskhodam #2",
         "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
@@ -103,7 +105,9 @@
       "outbounds": [
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
         "🇫🇮 FI | VLESS | @mimitdl #1",
+        "🇫🇮 FI | VLESS | @red2ray #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1",
+        "🇫🇮 FI | VLESS | @vmesskhodam #2",
         "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
@@ -132,6 +136,28 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "1cla9rpq6riwktu0yftq.gorvexo.ir",
+      "server_port": 443,
+      "uuid": "1a67126c-b9c4-4e78-b96e-eabd4002ab0c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",
       "type": "vless",
       "server": "31.76.102.25",
@@ -154,11 +180,11 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #1",
+      "tag": "🇫🇮 FI | VLESS | @vmesskhodam #2",
       "type": "vless",
-      "server": "31.76.8.192",
+      "server": "2.27.53.175",
       "server_port": 443,
-      "uuid": "b89196b1-7b72-4b81-83d0-e4d4df79f678",
+      "uuid": "e9973ea4-3c6b-4d58-aa92-1c567a53c312",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -172,6 +198,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "1cla9rpq6riwktu0yftq.gorvexo.ir",
+      "server_port": 443,
+      "uuid": "1a67126c-b9c4-4e78-b96e-eabd4002ab0c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }
