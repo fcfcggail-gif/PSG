@@ -23,8 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇹🇷 TR | VLESS | @free1_vpn #1", "server": "trn7.mobileemdad.top", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ce89ab18-c812-4467-8cb2-122804cd51d8", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇹🇷 TR | VLESS | @free1_vpn #1", "server": "connect3.nyxserver.ir", "port": 8444, "type": "vless", "skip-cert-verify": true, "uuid": "0b39a009-2a2a-4035-ba87-cc82894f8e21", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @free1_vpn #2", "server": "trn7.mobileemdad.top", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ce89ab18-c812-4467-8cb2-122804cd51d8", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇹🇷 TR | VLESS | @netfreedom0 #1", "server": "87.120.106.180", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0ed9a248-f693-46c1-ba1b-91d0a6dfa6a5", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @v2ray_free_conf #1", "server": "45.74.159.233", "port": 56659, "type": "vless", "skip-cert-verify": true, "uuid": "12af43c3-84b4-4248-878b-b75f35835487", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇹🇷 TR | VLESS | @vpnplusee_free #1", "server": "188.132.237.20", "port": 2095, "type": "vless", "skip-cert-verify": true, "uuid": "3b9e513e-30d9-4ca8-8340-8f33fc6710de", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,7 +42,10 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇹🇷 TR | VLESS | @free1_vpn #1'
+      - '🇹🇷 TR | VLESS | @free1_vpn #2'
       - '🇹🇷 TR | VLESS | @netfreedom0 #1'
+      - '🇹🇷 TR | VLESS | @v2ray_free_conf #1'
+      - '🇹🇷 TR | VLESS | @vpnplusee_free #1'
 
   - name: 🌍 Global Media
     type: select

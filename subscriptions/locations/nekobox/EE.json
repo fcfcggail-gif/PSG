@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇪🇪 EE | VLESS | @red2ray #1",
         "🇪🇪 EE | VLESS | @v2ray_collector #1",
         "🇪🇪 EE | VLESS | @v2ray_collector #2"
       ],
@@ -86,6 +87,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇪🇪 EE | VLESS | @red2ray #1",
         "🇪🇪 EE | VLESS | @v2ray_collector #1",
         "🇪🇪 EE | VLESS | @v2ray_collector #2"
       ],
@@ -101,6 +103,23 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "95.85.243.72",
+      "server_port": 443,
+      "uuid": "4cee7bf3-b928-4cd3-a230-3cef07a9468b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇪🇪 EE | VLESS | @v2ray_collector #1",

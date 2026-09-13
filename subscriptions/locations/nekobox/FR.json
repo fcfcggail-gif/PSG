@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇷 FR | VLESS | @mainmat #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @mimitdl #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
@@ -86,7 +87,8 @@
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #2",
         "🇫🇷 FR | VLESS | @v2ray_collector #3",
-        "🇫🇷 FR | VLESS | @v2rayvpnchannel #1"
+        "🇫🇷 FR | VLESS | @v2rayvpnchannel #1",
+        "🇫🇷 FR | VLESS | @vlessconfig #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -94,6 +96,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇷 FR | VLESS | @mainmat #1",
         "🇫🇷 FR | VLESS | @merdesert #1",
         "🇫🇷 FR | VLESS | @mimitdl #1",
         "🇫🇷 FR | VLESS | @minovpnch #1",
@@ -103,7 +106,8 @@
         "🇫🇷 FR | VLESS | @v2ray_collector #1",
         "🇫🇷 FR | VLESS | @v2ray_collector #2",
         "🇫🇷 FR | VLESS | @v2ray_collector #3",
-        "🇫🇷 FR | VLESS | @v2rayvpnchannel #1"
+        "🇫🇷 FR | VLESS | @v2rayvpnchannel #1",
+        "🇫🇷 FR | VLESS | @vlessconfig #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -117,6 +121,23 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @mainmat #1",
+      "type": "vless",
+      "server": "cf2.serikadeh.ir",
+      "server_port": 443,
+      "uuid": "26a271cd-9d3b-4620-8897-b4addd05b8a9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇫🇷 FR | VLESS | @merdesert #1",
@@ -179,7 +200,7 @@
     {
       "tag": "🇫🇷 FR | VLESS | @privatevpns #1",
       "type": "vless",
-      "server": "35.181.146.129",
+      "server": "15.188.183.186",
       "server_port": 22222,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "packet_encoding": "xudp"
@@ -226,8 +247,16 @@
     {
       "tag": "🇫🇷 FR | VLESS | @v2rayvpnchannel #1",
       "type": "vless",
-      "server": "35.181.146.129",
+      "server": "15.188.183.186",
       "server_port": 22223,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇷 FR | VLESS | @vlessconfig #1",
+      "type": "vless",
+      "server": "15.188.183.186",
+      "server_port": 22224,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "packet_encoding": "xudp"
     }

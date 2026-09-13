@@ -93,11 +93,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
-        "🇳🇱 NL | VLESS | @vpn_ioss #1"
+        "🇳🇱 NL | VLESS | @vpn_ioss #1",
+        "🇺🇸 US | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -108,11 +109,12 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | VLESS | @bored_vpn #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
-        "🇳🇱 NL | VLESS | @vpn_ioss #1"
+        "🇳🇱 NL | VLESS | @vpn_ioss #1",
+        "🇺🇸 US | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -196,14 +198,6 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @bored_vpn #1",
-      "type": "vless",
-      "server": "darsadgir.ir",
-      "server_port": 2087,
-      "uuid": "c75775e9-cf53-47b6-9d1d-29c3a46633fd",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @kafing_2 #1",
       "type": "vless",
       "server": "spd-mynames.global.ssl.fastly.net",
@@ -217,6 +211,23 @@
       "server": "securitytrails.com",
       "server_port": 443,
       "uuid": "90c09d42-c5f6-4602-bba8-957df1ed5598",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "thumbs.medic-ml.ru",
+      "server_port": 443,
+      "uuid": "7e083480-e6f2-44ef-bc3b-c254a7f8bb83",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -261,6 +272,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "https%3A",
+      "server_port": null,
+      "uuid": null,
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

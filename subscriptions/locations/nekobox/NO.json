@@ -77,7 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇶 IQ | VLESS | @v2ray_free_conf #1"
+        "🇳🇴 NO | VLESS | @orange_vpns #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇶 IQ | VLESS | @v2ray_free_conf #1"
+        "🇳🇴 NO | VLESS | @orange_vpns #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,12 +101,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇶 IQ | VLESS | @v2ray_free_conf #1",
+      "tag": "🇳🇴 NO | VLESS | @orange_vpns #1",
       "type": "vless",
-      "server": "81.90.25.123",
-      "server_port": 46908,
-      "uuid": "8b6aceff-1db9-4d5b-b4b2-d727d55b0f96",
-      "packet_encoding": "xudp"
+      "server": "194.110.207.48",
+      "server_port": 443,
+      "uuid": "14eb2c19-89ba-4a10-bd52-cbf6a5f5cae0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
