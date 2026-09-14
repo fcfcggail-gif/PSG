@@ -92,10 +92,10 @@
         "direct",
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
         "🇫🇮 FI | VLESS | @mimitdl #1",
+        "🇫🇮 FI | VLESS | @orange_vpns #1",
         "🇫🇮 FI | VLESS | @red2ray #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1",
-        "🇫🇮 FI | VLESS | @vmesskhodam #2",
-        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
+        "🇫🇮 FI | VLESS | @vmesskhodam #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -105,10 +105,10 @@
       "outbounds": [
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
         "🇫🇮 FI | VLESS | @mimitdl #1",
+        "🇫🇮 FI | VLESS | @orange_vpns #1",
         "🇫🇮 FI | VLESS | @red2ray #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1",
-        "🇫🇮 FI | VLESS | @vmesskhodam #2",
-        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
+        "🇫🇮 FI | VLESS | @vmesskhodam #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -136,11 +136,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
+      "tag": "🇫🇮 FI | VLESS | @orange_vpns #1",
       "type": "vless",
-      "server": "1cla9rpq6riwktu0yftq.gorvexo.ir",
+      "server": "65.109.181.138",
       "server_port": 443,
-      "uuid": "1a67126c-b9c4-4e78-b96e-eabd4002ab0c",
+      "uuid": "52f3a0cb-b0e6-4602-9692-6e328ade89a6",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -149,13 +149,16 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "freeman.cvbesty.ir",
+      "server_port": 10210,
+      "uuid": "80c17f6f-4fbb-4055-b2b5-9f46ce00dd80",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",
@@ -198,23 +201,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "1cla9rpq6riwktu0yftq.gorvexo.ir",
-      "server_port": 443,
-      "uuid": "1a67126c-b9c4-4e78-b96e-eabd4002ab0c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     }

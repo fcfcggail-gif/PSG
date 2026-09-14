@@ -91,6 +91,7 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @free1_vpn #1",
+        "🇹🇷 TR | VLESS | @free1_vpn #2",
         "🇹🇷 TR | VLESS | @netfreedom0 #1",
         "🇹🇷 TR | VLESS | @vpnplusee_free #1"
       ],
@@ -101,6 +102,7 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @free1_vpn #1",
+        "🇹🇷 TR | VLESS | @free1_vpn #2",
         "🇹🇷 TR | VLESS | @netfreedom0 #1",
         "🇹🇷 TR | VLESS | @vpnplusee_free #1"
       ],
@@ -115,6 +117,23 @@
     },
     {
       "tag": "🇹🇷 TR | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "connect3.nyxserver.ir",
+      "server_port": 8444,
+      "uuid": "0b39a009-2a2a-4035-ba87-cc82894f8e21",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @free1_vpn #2",
       "type": "vless",
       "server": "trn7.mobileemdad.top",
       "server_port": 443,
