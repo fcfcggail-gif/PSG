@@ -77,10 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇦 CA | VLESS | @hope_net #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
-        "🇨🇦 CA | VLESS | @red2ray #1",
         "🇨🇦 CA | VLESS | @serverv2ray00 #1"
       ],
       "tag": "proxy",
@@ -89,10 +87,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇦 CA | VLESS | @hope_net #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
-        "🇨🇦 CA | VLESS | @red2ray #1",
         "🇨🇦 CA | VLESS | @serverv2ray00 #1"
       ],
       "tag": "auto",
@@ -107,14 +103,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇨🇦 CA | VLESS | @hope_net #1",
-      "type": "vless",
-      "server": "23.227.60.186",
-      "server_port": 80,
-      "uuid": "435bda4c-fe5e-42c9-a3ad-15334943b38a",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇨🇦 CA | VLESS | @jokerv2ray #1",
@@ -136,28 +124,6 @@
         "path": "",
         "headers": {
           "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇨🇦 CA | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "x3rb0vl8uk.varfina.ir",
-      "server_port": 8443,
-      "uuid": "5a829c25-3056-4717-9ecd-a00a4bae823a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },

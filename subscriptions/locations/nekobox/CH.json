@@ -77,11 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
-        "🇳🇱 NL | SS | @orange_vpns #1",
-        "🇮🇷 IR | SS | @sobi_vpn #1"
+        "🇨🇭 CH | VLESS | @v2raych #1",
+        "🇨🇭 CH | VLESS | @v2raych #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,11 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "همکاری_ملی",
-        "جاویدشاه",
-        "KingRezaPahlavi",
-        "🇳🇱 NL | SS | @orange_vpns #1",
-        "🇮🇷 IR | SS | @sobi_vpn #1"
+        "🇨🇭 CH | VLESS | @v2raych #1",
+        "🇨🇭 CH | VLESS | @v2raych #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -109,11 +103,11 @@
       "type": "direct"
     },
     {
-      "tag": "همکاری_ملی",
+      "tag": "🇨🇭 CH | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "127.0.0.1",
+      "server": "31.76.4.75",
       "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
+      "uuid": "d6b59299-2f48-4e9b-9130-b9e9cb5d0a51",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -123,21 +117,14 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
       }
     },
     {
-      "tag": "جاویدشاه",
+      "tag": "🇨🇭 CH | VLESS | @v2raych #2",
       "type": "vless",
-      "server": "127.0.0.1",
+      "server": "31.76.4.75",
       "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
+      "uuid": "d6b59299-2f48-4e9b-9130-b9e9cb5d0a51",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -147,54 +134,7 @@
           "enabled": true,
           "fingerprint": "chrome"
         }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
       }
-    },
-    {
-      "tag": "KingRezaPahlavi",
-      "type": "vless",
-      "server": "127.0.0.1",
-      "server_port": 443,
-      "uuid": "00000000-0000-0000-0000-000000000000",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | SS | @orange_vpns #1",
-      "type": "shadowsocks",
-      "server": "switcher-nick-croquet.freesocks.work",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo5dHFoTWRJclRrZ1E0NlB2aHlBdE1I",
-      "password": null
-    },
-    {
-      "tag": "🇮🇷 IR | SS | @sobi_vpn #1",
-      "type": "shadowsocks",
-      "server": "tt.hsrdnr.ir",
-      "server_port": 2044,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTozcmZuajExcTV4dmc3Mnkx",
-      "password": null
     }
   ],
   "route": {

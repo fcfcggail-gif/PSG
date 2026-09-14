@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇪🇪 EE | VLESS | @netmellianti #1", "server": "185.155.55.10", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "42d932cb-8768-41de-b57b-299252a493d2", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇪🇪 EE | VLESS | @v2ray_collector #1", "server": "94.183.170.135", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇪🇪 EE | VLESS | @netmellianti #1'
       - '🇪🇪 EE | VLESS | @v2ray_collector #1'
 
   - name: 🌍 Global Media
