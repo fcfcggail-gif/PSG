@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇷🇴 RO | VLESS | @orange_vpns #1", "server": "80.96.112.163", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "7bafeb9d-06ba-4c43-94f5-b8666354d1c6", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇴 RO | VLESS | @v2ray_free_conf #1", "server": "85.90.196.203", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "d6b59299-2f48-4e9b-9130-b9e9cb5d0a51", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇴 RO | VLESS | @vmesskhodam #1", "server": "85.90.196.203", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "d6b59299-2f48-4e9b-9130-b9e9cb5d0a51", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇷🇴 RO | VLESS | @orange_vpns #1'
+      - '🇷🇴 RO | VLESS | @v2ray_free_conf #1'
+      - '🇷🇴 RO | VLESS | @vmesskhodam #1'
 
   - name: 🌍 Global Media
     type: select

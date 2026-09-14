@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇦🇪 AE | VLESS | @netmellianti #1", "server": "45.135.128.5", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "624208cf-54e0-4341-823b-1bee6595fce9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇦🇪 AE | VLESS | @vmesc #1", "server": "oneru1.gorecvpn.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "dde5fad9-b5df-4691-b68c-04bfbdb91f36", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇦🇪 AE | VLESS | @netmellianti #1'
+      - '🇦🇪 AE | VLESS | @vmesc #1'
 
   - name: 🌍 Global Media
     type: select

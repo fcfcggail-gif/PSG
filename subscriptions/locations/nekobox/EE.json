@@ -77,8 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇪🇪 EE | VLESS | @hope_net #1",
         "🇪🇪 EE | VLESS | @netmellianti #1",
-        "🇪🇪 EE | VLESS | @v2ray_collector #1"
+        "🇪🇪 EE | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇪🇪 EE | VLESS | @hope_net #1",
         "🇪🇪 EE | VLESS | @netmellianti #1",
-        "🇪🇪 EE | VLESS | @v2ray_collector #1"
+        "🇪🇪 EE | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,6 +103,23 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @hope_net #1",
+      "type": "vless",
+      "server": "45.80.110.200",
+      "server_port": 2053,
+      "uuid": "f775978b-6e22-41a8-ae5e-5f9779e6745f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇪🇪 EE | VLESS | @netmellianti #1",
@@ -125,11 +144,11 @@
       }
     },
     {
-      "tag": "🇪🇪 EE | VLESS | @v2ray_collector #1",
+      "tag": "🇪🇪 EE | VLESS | @vmesskhodam #1",
       "type": "vless",
-      "server": "94.183.170.135",
-      "server_port": 443,
-      "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9",
+      "server": "95.85.245.163",
+      "server_port": 442,
+      "uuid": "2c070f10-57e8-442b-b6cb-ff39b35d929d",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -138,6 +157,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

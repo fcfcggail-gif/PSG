@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇦🇪 AE | SS | @manstervpn #1",
-        "🇦🇪 AE | VLESS | @netmellianti #1"
+        "🇦🇪 AE | VLESS | @netmellianti #1",
+        "🇦🇪 AE | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇦🇪 AE | SS | @manstervpn #1",
-        "🇦🇪 AE | VLESS | @netmellianti #1"
+        "🇦🇪 AE | VLESS | @netmellianti #1",
+        "🇦🇪 AE | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -138,6 +140,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "oneru1.gorecvpn.ru",
+      "server_port": 443,
+      "uuid": "dde5fad9-b5df-4691-b68c-04bfbdb91f36",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }
