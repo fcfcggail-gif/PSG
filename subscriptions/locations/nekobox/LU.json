@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇱🇺 LU | TROJAN | @outline_ir #1",
         "🇱🇺 LU | TROJAN | @v2raying #1"
       ],
       "tag": "proxy",
@@ -85,6 +86,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇱🇺 LU | TROJAN | @outline_ir #1",
         "🇱🇺 LU | TROJAN | @v2raying #1"
       ],
       "tag": "auto",
@@ -99,6 +101,22 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇱🇺 LU | TROJAN | @outline_ir #1",
+      "type": "trojan",
+      "server": "188.42.145.180",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇱🇺 LU | TROJAN | @v2raying #1",

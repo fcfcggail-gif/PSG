@@ -90,14 +90,13 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
         "🇷🇺 RU | VLESS | @prrofile_purple #1",
         "🇷🇺 RU | VLESS | @red2ray #1",
         "🇷🇺 RU | VLESS | @red2ray #2",
-        "🇷🇺 RU | VLESS | @red2ray #3",
-        "🇷🇺 RU | VLESS | @red2ray #4",
         "🇷🇺 RU | VLESS | @v2raytg #1",
-        "🇷🇺 RU | VLESS | @vpn_ioss #1",
-        "🇷🇺 RU | VLESS | @vpn_ioss #2"
+        "🇷🇺 RU | VLESS | @vmesc #1",
+        "🇷🇺 RU | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -105,14 +104,13 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
         "🇷🇺 RU | VLESS | @prrofile_purple #1",
         "🇷🇺 RU | VLESS | @red2ray #1",
         "🇷🇺 RU | VLESS | @red2ray #2",
-        "🇷🇺 RU | VLESS | @red2ray #3",
-        "🇷🇺 RU | VLESS | @red2ray #4",
         "🇷🇺 RU | VLESS | @v2raytg #1",
-        "🇷🇺 RU | VLESS | @vpn_ioss #1",
-        "🇷🇺 RU | VLESS | @vpn_ioss #2"
+        "🇷🇺 RU | VLESS | @vmesc #1",
+        "🇷🇺 RU | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -122,6 +120,23 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
+      "type": "vless",
+      "server": "84.38.187.169",
+      "server_port": 443,
+      "uuid": "82282910-54a0-0032-b2df-86bfbce8ed36",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇷🇺 RU | VLESS | @prrofile_purple #1",
@@ -148,9 +163,9 @@
     {
       "tag": "🇷🇺 RU | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "app-ss-97.deep-aispb-analytics.com",
+      "server": "app4.betust.net",
       "server_port": 443,
-      "uuid": "a71ad164-3b29-4dbe-aa66-24d095ca7b6d",
+      "uuid": "01a21e01-6098-4c3b-a6fd-1a04d64d0c7f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -170,53 +185,9 @@
     {
       "tag": "🇷🇺 RU | VLESS | @red2ray #2",
       "type": "vless",
-      "server": "prime.betust.net",
+      "server": "31.130.155.114",
       "server_port": 443,
-      "uuid": "01a21e01-6098-4c3b-a6fd-1a04d64d0c7f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @red2ray #3",
-      "type": "vless",
-      "server": "api.betust.net",
-      "server_port": 443,
-      "uuid": "01a21e01-6098-4c3b-a6fd-1a04d64d0c7f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @red2ray #4",
-      "type": "vless",
-      "server": "app4.betust.net",
-      "server_port": 443,
-      "uuid": "01a21e01-6098-4c3b-a6fd-1a04d64d0c7f",
+      "uuid": "6ed6162d-fc15-447c-b04c-5d6975d2231d",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -256,9 +227,9 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @vpn_ioss #1",
+      "tag": "🇷🇺 RU | VLESS | @vmesc #1",
       "type": "vless",
-      "server": "tgfree.rush-server.com",
+      "server": "195.133.73.65",
       "server_port": 443,
       "uuid": "ebd1c0d6-7ff4-4b9f-8692-237517a27a64",
       "packet_encoding": "xudp",
@@ -278,9 +249,9 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @vpn_ioss #2",
+      "tag": "🇷🇺 RU | VLESS | @vpn_ioss #1",
       "type": "vless",
-      "server": "195.133.73.65",
+      "server": "tgfree.rush-server.com",
       "server_port": 443,
       "uuid": "ebd1c0d6-7ff4-4b9f-8692-237517a27a64",
       "packet_encoding": "xudp",
