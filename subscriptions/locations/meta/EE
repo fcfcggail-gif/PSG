@@ -23,7 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇪🇪 EE | VLESS | @prrofile_purple #1", "server": "188.255.236.213", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2a12bb81-f3a3-41bb-99ab-36febf676b4a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇪🇪 EE | VLESS | @outlinereleasedkey #1", "server": "94.183.170.135", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "06c4e938-2954-478f-a870-ca1b163e30e9", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇪🇪 EE | VLESS | @red2ray #1", "server": "185.174.135.250", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "b3a11068-1a7e-4643-85de-7c82cce46943", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇪🇪 EE | TROJAN | @red2ray #1", "server": "185.36.141.81", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇪🇪 EE | VLESS | @prrofile_purple #1'
+      - '🇪🇪 EE | VLESS | @outlinereleasedkey #1'
+      - '🇪🇪 EE | VLESS | @red2ray #1'
+      - '🇪🇪 EE | TROJAN | @red2ray #1'
 
   - name: 🌍 Global Media
     type: select
