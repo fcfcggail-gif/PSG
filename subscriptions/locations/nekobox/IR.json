@@ -79,6 +79,7 @@
         "direct",
         "🇮🇷 IR | VMESS | @NamiraConfigs #1",
         "🇮🇷 IR | VLESS | @NamiraConfigs #1",
+        "🇮🇷 IR | VLESS | @NamiraConfigs #2",
         "🇮🇷 IR | VLESS | @ai_duet #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
@@ -95,8 +96,6 @@
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
         "🇮🇷 IR | SS | @sobi_vpn #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇮🇷 IR | VLESS | @v2raych #1",
-        "🇮🇷 IR | VLESS | @v2raych #2",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #2",
         "🇮🇷 IR | VLESS | @vpnfree85 #1"
@@ -109,6 +108,7 @@
       "outbounds": [
         "🇮🇷 IR | VMESS | @NamiraConfigs #1",
         "🇮🇷 IR | VLESS | @NamiraConfigs #1",
+        "🇮🇷 IR | VLESS | @NamiraConfigs #2",
         "🇮🇷 IR | VLESS | @ai_duet #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
@@ -125,8 +125,6 @@
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
         "🇮🇷 IR | SS | @sobi_vpn #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
-        "🇮🇷 IR | VLESS | @v2raych #1",
-        "🇮🇷 IR | VLESS | @v2raych #2",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #2",
         "🇮🇷 IR | VLESS | @vpnfree85 #1"
@@ -159,6 +157,23 @@
       "server": "185.143.234.111",
       "server_port": 443,
       "uuid": "bc4d97ba-d54f-4555-ba71-f7421796d92c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @NamiraConfigs #2",
+      "type": "vless",
+      "server": "a.samrayan.ir",
+      "server_port": 443,
+      "uuid": "23d6295f-0337-438f-be52-388bbe321ae4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -334,40 +349,6 @@
       "server_port": 2086,
       "uuid": "e9e437c2-1ee5-4f0d-ae09-4bfafc835e47",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "t1dn.blazenetwork.ir",
-      "server_port": 443,
-      "uuid": "1b5a7a00-2bcf-463e-9f1f-c47756588fb5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "t1dn.blazenetwork.ir",
-      "server_port": 443,
-      "uuid": "1b5a7a00-2bcf-463e-9f1f-c47756588fb5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
