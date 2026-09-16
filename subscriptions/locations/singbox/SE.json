@@ -110,7 +110,10 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | TUIC | @vipv2rey #1"
+        "🇸🇪 SE | VLESS | @v2ray_collector #1",
+        "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
+        "🇸🇪 SE | TUIC | @vipv2rey #1",
+        "🇸🇪 SE | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -138,7 +141,10 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
-        "🇸🇪 SE | TUIC | @vipv2rey #1"
+        "🇸🇪 SE | VLESS | @v2ray_collector #1",
+        "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
+        "🇸🇪 SE | TUIC | @vipv2rey #1",
+        "🇸🇪 SE | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -373,6 +379,36 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇸🇪 SE | VLESS | @v2ray_collector #1",
+      "type": "vless",
+      "server": "79.141.174.147",
+      "server_port": 33743,
+      "uuid": "b3a11068-1a7e-4643-85de-7c82cce46943",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "we.trstcore.pro",
+      "server_port": 443,
+      "uuid": "a8f5e04b-be34-4b84-9359-684ad9c417b0",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇸🇪 SE | TUIC | @vipv2rey #1",
       "type": "tuic",
       "server": "70.34.197.98",
@@ -387,6 +423,14 @@
         "insecure": false,
         "alpn": null
       }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "sw63.marde-servatmand.ir",
+      "server_port": 4443,
+      "uuid": "78fc7728-bfc2-4b15-a011-aaf0f024b77e",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

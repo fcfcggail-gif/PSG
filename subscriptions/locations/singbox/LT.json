@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgRVM=
+//profile-title: base64:UFNHIHwgTFQ=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇸 ES | VLESS | @vpnplusee_free #1"
+        "🇱🇹 LT | VLESS | @netmellianti #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇸 ES | VLESS | @vpnplusee_free #1"
+        "🇱🇹 LT | VLESS | @netmellianti #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,21 @@
       "type": "direct"
     },
     {
-      "tag": "🇪🇸 ES | VLESS | @vpnplusee_free #1",
+      "tag": "🇱🇹 LT | VLESS | @netmellianti #1",
       "type": "vless",
-      "server": "apiam2.sorcepack.ir",
-      "server_port": 29774,
-      "uuid": "9a06775c-7fcd-48a1-8bb1-c99ab5719576",
-      "packet_encoding": "xudp"
+      "server": "88.216.66.250",
+      "server_port": 443,
+      "uuid": "50414e45-4c5f-5a45-5553-57040e30dda6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
