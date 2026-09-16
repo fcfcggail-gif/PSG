@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇲🇩 MD | VLESS | @free1_vpn #1",
         "🇲🇩 MD | VLESS | @mtproxy22_v2ray #1",
         "🇲🇩 MD | VLESS | @nofiltering2 #1",
         "🇲🇩 MD | VLESS | @nofiltering2 #2",
@@ -102,6 +103,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇲🇩 MD | VLESS | @free1_vpn #1",
         "🇲🇩 MD | VLESS | @mtproxy22_v2ray #1",
         "🇲🇩 MD | VLESS | @nofiltering2 #1",
         "🇲🇩 MD | VLESS | @nofiltering2 #2",
@@ -116,6 +118,28 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇲🇩 MD | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "94.103.2.251",
+      "server_port": 443,
+      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇲🇩 MD | VLESS | @mtproxy22_v2ray #1",
