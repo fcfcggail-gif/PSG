@@ -97,7 +97,8 @@
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1"
+        "🇽🇽 XX | VMESS | @proxy48 #1",
+        "🇺🇸 US | VMESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -112,7 +113,8 @@
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1"
+        "🇽🇽 XX | VMESS | @proxy48 #1",
+        "🇺🇸 US | VMESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -285,6 +287,22 @@
       "transport": {
         "type": "grpc",
         "service_name": "WgCmp8p80KDzo64uHE"
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @vpnplusee_free #1",
+      "type": "vmess",
+      "server": "129.146.77.248",
+      "server_port": 39495,
+      "uuid": "f836c736-87fc-4fde-aabc-00857ecdff3e",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/cctv13.m3u8",
+        "headers": {
+          "Host": "129.146.77.248"
+        }
       }
     }
   ],

@@ -78,7 +78,7 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
-        "🇷🇺 RU | VLESS | @red2ray #1",
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇷🇺 RU | VLESS | @vmesc #1",
         "🇷🇺 RU | VLESS | @vpn_ioss #1"
@@ -90,7 +90,7 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
-        "🇷🇺 RU | VLESS | @red2ray #1",
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇷🇺 RU | VLESS | @vmesc #1",
         "🇷🇺 RU | VLESS | @vpn_ioss #1"
@@ -126,12 +126,26 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @red2ray #1",
+      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
       "type": "vless",
       "server": "31.184.219.147",
       "server_port": 9894,
       "uuid": "5d16ac22-6eea-426f-b778-6f4c2961faef",
-      "packet_encoding": "xudp"
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇷🇺 RU | VLESS | @v2raytg #1",

@@ -89,15 +89,16 @@
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayprotocol #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇽🇽 XX | VLESS | @red2ray #1",
         "🇦🇪 AE | VLESS | @vmesc #1",
-        "🇳🇱 NL | VLESS | @vpn_ioss #1"
+        "🇳🇱 NL | VLESS | @vpn_ioss #1",
+        "🇹🇷 TR | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -117,15 +118,16 @@
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayprotocol #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇽🇽 XX | VLESS | @red2ray #1",
         "🇦🇪 AE | VLESS | @vmesc #1",
-        "🇳🇱 NL | VLESS | @vpn_ioss #1"
+        "🇳🇱 NL | VLESS | @vpn_ioss #1",
+        "🇹🇷 TR | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -357,23 +359,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "140.235.168.4",
-      "server_port": 443,
-      "uuid": "0ab925b6-35f7-6e27-e713-925bea65455e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "104.20.46.193",
@@ -467,6 +452,14 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "de.ehsanazizi-speed-server.com",
+      "server_port": 2087,
+      "uuid": "2e87e644-ab8f-48ba-a7b9-08288a8a81c7",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇦🇪 AE | VLESS | @vmesc #1",
       "type": "vless",
       "server": "oneru1.gorecvpn.ru",
@@ -499,6 +492,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "tr.koomeh.net",
+      "server_port": 80,
+      "uuid": "3cb32fe3-7807-4191-b5f3-7243a768c77c",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
