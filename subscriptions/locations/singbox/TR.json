@@ -92,9 +92,10 @@
         "direct",
         "🇹🇷 TR | VLESS | @netfreedom0 #1",
         "🇹🇷 TR | VLESS | @netmellianti #1",
-        "🇹🇷 TR | VLESS | @vmesskhodam #1",
-        "🇹🇷 TR | VLESS | @vpnplusee_free #1",
-        "🇹🇷 TR | VLESS | @vpnplusee_free #2"
+        "🇹🇷 TR | VLESS | @netmellianti #2",
+        "🇹🇷 TR | VLESS | @netmellianti #3",
+        "🇹🇷 TR | VLESS | @v2raych #1",
+        "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -104,9 +105,10 @@
       "outbounds": [
         "🇹🇷 TR | VLESS | @netfreedom0 #1",
         "🇹🇷 TR | VLESS | @netmellianti #1",
-        "🇹🇷 TR | VLESS | @vmesskhodam #1",
-        "🇹🇷 TR | VLESS | @vpnplusee_free #1",
-        "🇹🇷 TR | VLESS | @vpnplusee_free #2"
+        "🇹🇷 TR | VLESS | @netmellianti #2",
+        "🇹🇷 TR | VLESS | @netmellianti #3",
+        "🇹🇷 TR | VLESS | @v2raych #1",
+        "🇹🇷 TR | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -143,6 +145,44 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇹🇷 TR | VLESS | @netmellianti #2",
+      "type": "vless",
+      "server": "turkyea.vanguardia.ir",
+      "server_port": 57579,
+      "uuid": "960e6852-9d2b-48bb-b1cf-5cb27ec27473",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @netmellianti #3",
+      "type": "vless",
+      "server": "tr.godnet20.ir",
+      "server_port": 19000,
+      "uuid": "9bbe5565-56fa-4935-940d-1442f443fcc8",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "194.93.63.246",
+      "server_port": 443,
+      "uuid": "c5694dc5-39fd-4a92-8430-3837baa522a3",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇹🇷 TR | VLESS | @vmesskhodam #1",
       "type": "vless",
       "server": "pl.bubahero.com",
@@ -163,22 +203,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "wepod.irsoft98.ir.horlutr.ir",
-      "server_port": 2087,
-      "uuid": "c04bfdea-a7e5-4a23-87d9-425151c140cc",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @vpnplusee_free #2",
-      "type": "vless",
-      "server": "update.download.pass.mycarservhpdd10.ir",
-      "server_port": 55805,
-      "uuid": "527462f9-95a9-4470-ba22-ba1c45903954",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

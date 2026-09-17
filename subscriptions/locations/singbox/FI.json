@@ -91,10 +91,7 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
-        "🇫🇮 FI | VLESS | @mimitdl #1",
-        "🇫🇮 FI | VLESS | @netmellianti #1",
-        "🇫🇮 FI | VLESS | @v2raych #1",
-        "🇫🇮 FI | VLESS | @v2raych #2"
+        "🇫🇮 FI | VLESS | @flyv2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -103,10 +100,7 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
-        "🇫🇮 FI | VLESS | @mimitdl #1",
-        "🇫🇮 FI | VLESS | @netmellianti #1",
-        "🇫🇮 FI | VLESS | @v2raych #1",
-        "🇫🇮 FI | VLESS | @v2raych #2"
+        "🇫🇮 FI | VLESS | @flyv2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -126,19 +120,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @mimitdl #1",
+      "tag": "🇫🇮 FI | VLESS | @flyv2ray #1",
       "type": "vless",
-      "server": "65.109.212.53",
-      "server_port": 80,
-      "uuid": "MIMITDL",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @netmellianti #1",
-      "type": "vless",
-      "server": "2.29.22.151",
+      "server": "ai.trstcore.pro",
       "server_port": 443,
-      "uuid": "1a67126c-b9c4-4e78-b96e-eabd4002ab0c",
+      "uuid": "a8f5e04b-be34-4b84-9359-684ad9c417b0",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -147,24 +133,13 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "65.109.193.102",
-      "server_port": 9090,
-      "uuid": "Tl",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "65.109.193.102",
-      "server_port": 9090,
-      "uuid": "Tlegram",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

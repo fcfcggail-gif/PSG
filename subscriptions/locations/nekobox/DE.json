@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇩🇪 DE | VLESS | @ai_duet #1",
         "🇩🇪 DE | VLESS | @father_vpn #1",
         "🇩🇪 DE | VLESS | @father_vpn #2",
         "🇩🇪 DE | TROJAN | @father_vpn #1",
@@ -90,17 +91,16 @@
         "🇩🇪 DE | VLESS | @mpproxy #1",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
         "🇩🇪 DE | VLESS | @nepo_v2ray #1",
+        "🇩🇪 DE | VLESS | @netmellianti #1",
         "🇩🇪 DE | VLESS | @nofiltering2 #1",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
         "🇩🇪 DE | VLESS | @outline_ir #1",
-        "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
         "🇩🇪 DE | VLESS | @proxy48 #1",
         "🇩🇪 DE | VLESS | @red2ray #1",
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
         "🇩🇪 DE | VLESS | @turboo_server #1",
-        "🇩🇪 DE | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
@@ -115,6 +115,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇩🇪 DE | VLESS | @ai_duet #1",
         "🇩🇪 DE | VLESS | @father_vpn #1",
         "🇩🇪 DE | VLESS | @father_vpn #2",
         "🇩🇪 DE | TROJAN | @father_vpn #1",
@@ -128,17 +129,16 @@
         "🇩🇪 DE | VLESS | @mpproxy #1",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
         "🇩🇪 DE | VLESS | @nepo_v2ray #1",
+        "🇩🇪 DE | VLESS | @netmellianti #1",
         "🇩🇪 DE | VLESS | @nofiltering2 #1",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
         "🇩🇪 DE | VLESS | @outline_ir #1",
-        "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
         "🇩🇪 DE | VLESS | @proxy48 #1",
         "🇩🇪 DE | VLESS | @red2ray #1",
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
         "🇩🇪 DE | VLESS | @turboo_server #1",
-        "🇩🇪 DE | VLESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇩🇪 DE | VLESS | @v2rayngconfiig #1",
         "🇩🇪 DE | VLESS | @v2rayngvpn_1 #1",
@@ -159,6 +159,23 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @ai_duet #1",
+      "type": "vless",
+      "server": "3.126.31.60",
+      "server_port": 443,
+      "uuid": "fa12c1f5-24be-4119-8506-aad16f3bcd35",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @father_vpn #1",
@@ -365,6 +382,14 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @netmellianti #1",
+      "type": "vless",
+      "server": "31.77.156.137",
+      "server_port": 19000,
+      "uuid": "9bbe5565-56fa-4935-940d-1442f443fcc8",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @nofiltering2 #1",
       "type": "vless",
       "server": "95.179.169.44",
@@ -375,9 +400,9 @@
     {
       "tag": "🇩🇪 DE | VLESS | @orange_vpns #1",
       "type": "vless",
-      "server": "134.122.86.165",
-      "server_port": 440,
-      "uuid": "59906cb2-a61b-4cf3-b77b-5762ef61d2b0",
+      "server": "77.110.117.199",
+      "server_port": 9443,
+      "uuid": "d9d0f208-d582-41d5-bb7b-742671402810",
       "packet_encoding": "xudp"
     },
     {
@@ -386,14 +411,6 @@
       "server": "37.46.199.240",
       "server_port": 8443,
       "uuid": "aa6f8aaf-d7ff-46f8-a9a0-d143d7e71f71",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @outlinereleasedkey #1",
-      "type": "vless",
-      "server": "178.105.61.61",
-      "server_port": 2083,
-      "uuid": "cb077bf2-70b7-457b-af42-27cdc3e0e544",
       "packet_encoding": "xudp"
     },
     {
@@ -470,28 +487,6 @@
       "server_port": 8443,
       "uuid": "turboo-server",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "arcturus.yokkastars.com",
-      "server_port": 40443,
-      "uuid": "bb0f1ed0-0298-40a1-adb1-1f5d6ab33d54",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @v2raymelliii #1",

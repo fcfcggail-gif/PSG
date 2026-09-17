@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVFc=
+//profile-title: base64:UFNHIHwgVk4=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇼 TW | VLESS | @v2ray_free_conf #1"
+        "🇻🇳 VN | VMESS | @mtproxy22_v2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇼 TW | VLESS | @v2ray_free_conf #1"
+        "🇻🇳 VN | VMESS | @mtproxy22_v2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,24 +110,18 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇼 TW | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "118.167.212.163",
-      "server_port": 24215,
-      "uuid": "19d5a678-8396-4e3b-93da-ece618d0e83a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
+      "tag": "🇻🇳 VN | VMESS | @mtproxy22_v2ray #1",
+      "type": "vmess",
+      "server": "103.56.160.184",
+      "server_port": 80,
+      "uuid": "ef919c67-6638-4416-91af-9a13ffe5b9ca",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/tandung288.click",
+        "headers": {
+          "Host": ""
         }
       }
     }
