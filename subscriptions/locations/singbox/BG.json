@@ -91,6 +91,8 @@
         "auto",
         "direct",
         "🇧🇬 BG | VLESS | @orange_vpns #1",
+        "🇧🇬 BG | VLESS | @outline_ir #1",
+        "🇧🇬 BG | VLESS | @outline_ir #2",
         "🇧🇬 BG | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -100,6 +102,8 @@
       "interval": "10m",
       "outbounds": [
         "🇧🇬 BG | VLESS | @orange_vpns #1",
+        "🇧🇬 BG | VLESS | @outline_ir #1",
+        "🇧🇬 BG | VLESS | @outline_ir #2",
         "🇧🇬 BG | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -117,6 +121,40 @@
       "server": "195.123.226.22",
       "server_port": 443,
       "uuid": "d6b59299-2f48-4e9b-9130-b9e9cb5d0a51",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇬 BG | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "45.9.156.42",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇬 BG | VLESS | @outline_ir #2",
+      "type": "vless",
+      "server": "bg5.univesalsrv.com",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
