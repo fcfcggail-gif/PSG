@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇹 LT | SS | @netfreedom0 #1",
-        "🇱🇹 LT | VLESS | @netmellianti #1"
+        "🇱🇹 LT | VLESS | @hope_net #1",
+        "🇱🇹 LT | SS | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇹 LT | SS | @netfreedom0 #1",
-        "🇱🇹 LT | VLESS | @netmellianti #1"
+        "🇱🇹 LT | VLESS | @hope_net #1",
+        "🇱🇹 LT | SS | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,19 +103,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇱🇹 LT | SS | @netfreedom0 #1",
-      "type": "shadowsocks",
-      "server": "195.238.126.20",
-      "server_port": 9008,
-      "method": "YWVzLTI1Ni1jZmI6eTlWVVJ5TnpKV05SWUVHUQ==",
-      "password": null
-    },
-    {
-      "tag": "🇱🇹 LT | VLESS | @netmellianti #1",
+      "tag": "🇱🇹 LT | VLESS | @hope_net #1",
       "type": "vless",
-      "server": "88.216.66.250",
+      "server": "86.38.214.26",
       "server_port": 443,
-      "uuid": "50414e45-4c5f-5a45-5553-57040e30dda6",
+      "uuid": "0f3408b6-5db9-4a9b-9579-e978961d32b4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -126,6 +118,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇱🇹 LT | SS | @netfreedom0 #1",
+      "type": "shadowsocks",
+      "server": "195.238.126.20",
+      "server_port": 9008,
+      "method": "YWVzLTI1Ni1jZmI6eTlWVVJ5TnpKV05SWUVHUQ==",
+      "password": null
     }
   ],
   "route": {
