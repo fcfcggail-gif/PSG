@@ -94,12 +94,13 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇽🇽 XX | VLESS | @free1_vpn #1",
-        "🇳🇱 NL | VLESS | @free1_vpn #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇳🇱 NL | VLESS | @prrofile_purple #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
-        "🇽🇽 XX | VLESS | @vmesc #1"
+        "🇽🇽 XX | VLESS | @vmesc #1",
+        "🇳🇱 NL | VLESS | @vpn_ioss #1",
+        "🇹🇷 TR | VLESS | @vpnplusee_free #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -111,12 +112,13 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇽🇽 XX | VLESS | @free1_vpn #1",
-        "🇳🇱 NL | VLESS | @free1_vpn #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇳🇱 NL | VLESS | @prrofile_purple #1",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
-        "🇽🇽 XX | VLESS | @vmesc #1"
+        "🇽🇽 XX | VLESS | @vmesc #1",
+        "🇳🇱 NL | VLESS | @vpn_ioss #1",
+        "🇹🇷 TR | VLESS | @vpnplusee_free #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -208,23 +210,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @free1_vpn #1",
-      "type": "vless",
-      "server": "dey.lnmarketplace.net",
-      "server_port": 443,
-      "uuid": "3536e1fa-0850-44d1-b123-925ce12476cf",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇺🇸 US | VLESS | @kafing_2 #1",
       "type": "vless",
       "server": "spd-mynames.global.ssl.fastly.net",
@@ -299,6 +284,31 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "dey.lnmarketplace.net",
+      "server_port": 443,
+      "uuid": "3536e1fa-0850-44d1-b123-925ce12476cf",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @vpnplusee_free #2",
+      "type": "vless",
+      "server": "update.download.pass.mycarservhpdd10.ir",
+      "server_port": 55805,
+      "uuid": "527462f9-95a9-4470-ba22-ba1c45903954",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
