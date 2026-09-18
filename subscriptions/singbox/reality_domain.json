@@ -94,19 +94,19 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇫🇮 FI | VLESS | @flyv2ray #1",
+        "🇷🇺 RU | VLESS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇸🇨 SC | VLESS | @orange_vpns #1",
         "🇧🇬 BG | VLESS | @outline_ir #2",
-        "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
+        "🇳🇴 NO | VLESS | @outlinereleasedkey #1",
+        "🇺🇸 US | VLESS | @red2ray #3",
+        "🇷🇴 RO | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2rayopen #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇳🇱 NL | VLESS | @vmesc #1",
         "🇷🇺 RU | VLESS | @vmesc #2",
-        "🇳🇱 NL | VLESS | @vmesskhodam #1",
-        "🇫🇮 FI | VLESS | @vpnplusee_free #1",
-        "🇮🇷 IR | VLESS | @vpnplusee_free #1",
-        "🇮🇷 IR | VLESS | @vpnplusee_free #2"
+        "🇳🇱 NL | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -118,19 +118,19 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇫🇮 FI | VLESS | @flyv2ray #1",
+        "🇷🇺 RU | VLESS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇸🇨 SC | VLESS | @orange_vpns #1",
         "🇧🇬 BG | VLESS | @outline_ir #2",
-        "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
+        "🇳🇴 NO | VLESS | @outlinereleasedkey #1",
+        "🇺🇸 US | VLESS | @red2ray #3",
+        "🇷🇴 RO | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2rayopen #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇳🇱 NL | VLESS | @vmesc #1",
         "🇷🇺 RU | VLESS | @vmesc #2",
-        "🇳🇱 NL | VLESS | @vmesskhodam #1",
-        "🇫🇮 FI | VLESS | @vpnplusee_free #1",
-        "🇮🇷 IR | VLESS | @vpnplusee_free #1",
-        "🇮🇷 IR | VLESS | @vpnplusee_free #2"
+        "🇳🇱 NL | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -236,6 +236,28 @@
       }
     },
     {
+      "tag": "🇷🇺 RU | VLESS | @flyv2ray #1",
+      "type": "vless",
+      "server": "tgfree.rush-server.com",
+      "server_port": 443,
+      "uuid": "ebd1c0d6-7ff4-4b9f-8692-237517a27a64",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇷🇺 RU | VLESS | @nofiltering2 #1",
       "type": "vless",
       "server": "tgfree.rush-server.com",
@@ -297,11 +319,19 @@
       }
     },
     {
-      "tag": "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
+      "tag": "🇳🇴 NO | VLESS | @outlinereleasedkey #1",
       "type": "vless",
-      "server": "jap2.mguard-pro.com",
+      "server": "oslomeow.nethcloud.top",
+      "server_port": 8443,
+      "uuid": "a34b5e88-cf0d-4c01-8199-2d1002d3c787",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @red2ray #3",
+      "type": "vless",
+      "server": "jsv-us1.jmovies.ir",
       "server_port": 443,
-      "uuid": "ef805ed2-2a94-4a8c-878c-18fb8a51f4ed",
+      "uuid": "c26fe2f0-5c69-001F-8a1a-bf116ceb9215",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -317,6 +347,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇷🇴 RO | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "ro-xh02.tcp-reset-club.net",
+      "server_port": 8443,
+      "uuid": "4fb82973-a7f1-4fc2-9958-cb21f5162f06",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇳🇱 NL | VLESS | @v2rayopen #1",
@@ -444,34 +482,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "freeman.cvbesty.ir",
-      "server_port": 10210,
-      "uuid": "d65a82af-a403-405e-8b7b-27a68b830511",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "grpc",
-        "service_name": ""
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "g1.haxat.bestvbest.ir",
-      "server_port": 20610,
-      "uuid": "d65a82af-a403-405e-8b7b-27a68b830511",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @vpnplusee_free #2",
-      "type": "vless",
-      "server": "g1.kxpqus.bestxau.ir",
-      "server_port": 36171,
-      "uuid": "d65a82af-a403-405e-8b7b-27a68b830511",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {
