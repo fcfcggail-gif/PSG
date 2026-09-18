@@ -215,7 +215,6 @@
         "🇽🇽 XX | VLESS | @novinology #4",
         "🇽🇽 XX | VLESS | @novinology #6",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
-        "🇽🇽 XX | VLESS | @outline_ir #1",
         "🇽🇽 XX | VLESS | @pro_chaneel #1",
         "🇽🇽 XX | VLESS | @prooxyk #1",
         "🇽🇽 XX | VLESS | @proxie #1",
@@ -269,6 +268,8 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇽🇽 XX | TROJAN | @v2ray_collector #1",
+        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
@@ -311,7 +312,9 @@
         "🇽🇽 XX | VLESS | @vipnetmeli #1",
         "🇽🇽 XX | VLESS | @vipnetmeli #2",
         "🇽🇽 XX | VLESS | @vipnetmeli #3",
+        "🇽🇽 XX | VLESS | @vmesc #1",
         "🇽🇽 XX | VLESS | @vmesskhodam #1",
+        "🇽🇽 XX | VLESS | @vmesskhodam #2",
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
         "🇽🇽 XX | TROJAN | @vpnowl #1",
@@ -448,7 +451,6 @@
         "🇽🇽 XX | VLESS | @novinology #4",
         "🇽🇽 XX | VLESS | @novinology #6",
         "🇽🇽 XX | VLESS | @orange_vpns #1",
-        "🇽🇽 XX | VLESS | @outline_ir #1",
         "🇽🇽 XX | VLESS | @pro_chaneel #1",
         "🇽🇽 XX | VLESS | @prooxyk #1",
         "🇽🇽 XX | VLESS | @proxie #1",
@@ -502,6 +504,8 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇽🇽 XX | TROJAN | @v2ray_collector #1",
+        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
@@ -544,7 +548,9 @@
         "🇽🇽 XX | VLESS | @vipnetmeli #1",
         "🇽🇽 XX | VLESS | @vipnetmeli #2",
         "🇽🇽 XX | VLESS | @vipnetmeli #3",
+        "🇽🇽 XX | VLESS | @vmesc #1",
         "🇽🇽 XX | VLESS | @vmesskhodam #1",
+        "🇽🇽 XX | VLESS | @vmesskhodam #2",
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
         "🇽🇽 XX | TROJAN | @vpnowl #1",
@@ -2151,14 +2157,6 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @outline_ir #1",
-      "type": "vless",
-      "server": "freesocks.work",
-      "server_port": 2052,
-      "uuid": "c2e317b0-0847-4579-9b78-7b678634ffc4",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @pro_chaneel #1",
       "type": "vless",
       "server": "104.18.12.126",
@@ -2817,19 +2815,44 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "104.21.88.129",
-      "server_port": 8880,
-      "uuid": "70c16ec7-13f7-473b-b97d-06399f1481e3",
-      "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
+      "tag": "🇽🇽 XX | TROJAN | @v2ray_collector #1",
+      "type": "trojan",
+      "server": "104.17.121.71",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
+      "type": "trojan",
+      "server": "104.18.152.246",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "104.21.70.21",
+      "server_port": 8080,
+      "uuid": "93fa8bdb-9cca-4a3e-8355-b7c12e4f595e",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_youtube #1",
@@ -3374,9 +3397,34 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "lord.ehsanazizi-speed-server.com",
+      "server_port": 8880,
+      "uuid": "7286f5d1-b802-4de6-9aac-a51520cc7575",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @vmesskhodam #1",
       "type": "vless",
       "server": "104.21.60.109",
+      "server_port": 443,
+      "uuid": "44eae030-290b-4083-8102-6f8bab05701b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @vmesskhodam #2",
+      "type": "vless",
+      "server": "188.114.97.6",
       "server_port": 443,
       "uuid": "44eae030-290b-4083-8102-6f8bab05701b",
       "packet_encoding": "xudp",
