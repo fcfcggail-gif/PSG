@@ -97,14 +97,16 @@
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇸🇨 SC | VLESS | @orange_vpns #1",
         "🇧🇬 BG | VLESS | @outline_ir #2",
-        "🇸🇨 SC | VLESS | @v2raych #1",
+        "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2rayopen #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇳🇱 NL | VLESS | @vmesc #1",
         "🇷🇺 RU | VLESS | @vmesc #2",
         "🇳🇱 NL | VLESS | @vmesskhodam #1",
-        "🇫🇷 FR | VLESS | @vpnplusee_free #1"
+        "🇫🇮 FI | VLESS | @vpnplusee_free #1",
+        "🇮🇷 IR | VLESS | @vpnplusee_free #1",
+        "🇮🇷 IR | VLESS | @vpnplusee_free #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -119,14 +121,16 @@
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇸🇨 SC | VLESS | @orange_vpns #1",
         "🇧🇬 BG | VLESS | @outline_ir #2",
-        "🇸🇨 SC | VLESS | @v2raych #1",
+        "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2rayopen #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇳🇱 NL | VLESS | @vmesc #1",
         "🇷🇺 RU | VLESS | @vmesc #2",
         "🇳🇱 NL | VLESS | @vmesskhodam #1",
-        "🇫🇷 FR | VLESS | @vpnplusee_free #1"
+        "🇫🇮 FI | VLESS | @vpnplusee_free #1",
+        "🇮🇷 IR | VLESS | @vpnplusee_free #1",
+        "🇮🇷 IR | VLESS | @vpnplusee_free #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -293,11 +297,11 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @v2raych #1",
+      "tag": "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "cdn6.goonars.com",
+      "server": "jap2.mguard-pro.com",
       "server_port": 443,
-      "uuid": "e580c6ba-f942-49d2-a224-bf07fbff9b96",
+      "uuid": "ef805ed2-2a94-4a8c-878c-18fb8a51f4ed",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -442,26 +446,32 @@
       }
     },
     {
-      "tag": "🇫🇷 FR | VLESS | @vpnplusee_free #1",
+      "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #1",
       "type": "vless",
-      "server": "f1.lion-lion.ir",
-      "server_port": 8014,
-      "uuid": "0db80a8e-e61f-4a50-9b69-1955d0c3f99a",
+      "server": "freeman.cvbesty.ir",
+      "server_port": 10210,
+      "uuid": "d65a82af-a403-405e-8b7b-27a68b830511",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
       }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "g1.haxat.bestvbest.ir",
+      "server_port": 20610,
+      "uuid": "d65a82af-a403-405e-8b7b-27a68b830511",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @vpnplusee_free #2",
+      "type": "vless",
+      "server": "g1.kxpqus.bestxau.ir",
+      "server_port": 36171,
+      "uuid": "d65a82af-a403-405e-8b7b-27a68b830511",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
