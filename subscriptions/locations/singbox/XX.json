@@ -269,13 +269,15 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | TROJAN | @v2ray_collector #1",
-        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
+        "🇽🇽 XX | VLESS | @v2raych #1",
+        "🇽🇽 XX | TROJAN | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
@@ -505,13 +507,15 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | TROJAN | @v2ray_collector #1",
-        "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
+        "🇽🇽 XX | VLESS | @v2raych #1",
+        "🇽🇽 XX | TROJAN | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #2",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
@@ -903,15 +907,24 @@
     {
       "tag": "🇽🇽 XX | VLESS | @free1_vpn #1",
       "type": "vless",
-      "server": "xnforo.ir",
-      "server_port": 2087,
-      "uuid": "c75775e9-cf53-47b6-9d1d-29c3a46633fd",
-      "packet_encoding": "xudp"
+      "server": "104.21.63.28",
+      "server_port": 443,
+      "uuid": "44eae030-290b-4083-8102-6f8bab05701b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @free1_vpn #2",
       "type": "vless",
-      "server": "104.21.63.28",
+      "server": "188.114.97.6",
       "server_port": 443,
       "uuid": "44eae030-290b-4083-8102-6f8bab05701b",
       "packet_encoding": "xudp",
@@ -2829,27 +2842,19 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | TROJAN | @v2ray_free_conf #1",
-      "type": "trojan",
-      "server": "104.18.152.246",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "188.114.97.6",
+      "server_port": 8080,
+      "uuid": "e1bd06de-a075-4ad5-b73f-b54587368cc7",
+      "packet_encoding": "xudp"
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
       "type": "vless",
       "server": "104.21.70.21",
       "server_port": 8080,
-      "uuid": "93fa8bdb-9cca-4a3e-8355-b7c12e4f595e",
+      "uuid": "33918b20-9e02-4dc6-8b30-79b2d4b2e0e6",
       "packet_encoding": "xudp"
     },
     {
@@ -2900,6 +2905,30 @@
       "server_port": 2083,
       "uuid": "266169d9-665f-4fed-b1a8-da29794ee3cd",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "any.zavqeron.ir",
+      "server_port": 2053,
+      "uuid": "2fa4235a-51a7-452b-a760-498951646043",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "104.17.111.3",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2rayngalpha #1",
