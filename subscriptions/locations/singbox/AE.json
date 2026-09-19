@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇪 AE | VLESS | @red2ray #1"
+        "🇦🇪 AE | VLESS | @red2ray #1",
+        "🇦🇪 AE | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇪 AE | VLESS | @red2ray #1"
+        "🇦🇪 AE | VLESS | @red2ray #1",
+        "🇦🇪 AE | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,7 +114,29 @@
     {
       "tag": "🇦🇪 AE | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "srv-waw.kintecolas.com",
+      "server": "31.57.18.59",
+      "server_port": 443,
+      "uuid": "4f8a1d19-4d21-47f5-816e-a8f475fbd3f7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "core-data.gorekmas.online",
       "server_port": 443,
       "uuid": "4f8a1d19-4d21-47f5-816e-a8f475fbd3f7",
       "packet_encoding": "xudp",
