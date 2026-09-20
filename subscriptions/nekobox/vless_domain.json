@@ -159,6 +159,8 @@
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇺🇸 US | VLESS | @public504 #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
+        "🇺🇸 US | VLESS | @red2ray #1",
+        "🇦🇱 AL | VLESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @selinc #1",
         "🇽🇽 XX | VLESS | @selinc #2",
         "🇽🇽 XX | VLESS | @selinc #3",
@@ -180,7 +182,6 @@
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇩🇪 DE | VLESS | @v2ray_collector #1",
         "🇽🇽 XX | VLESS | @v2ray_collector #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇺🇸 US | VLESS | @v2raymelliii #2",
@@ -207,11 +208,11 @@
         "🇽🇽 XX | VLESS | @vipnetmeli #2",
         "🇽🇽 XX | VLESS | @vipnetmeli #3",
         "🇽🇽 XX | VLESS | @vmesc #1",
+        "🇩🇪 DE | VLESS | @vmesc #1",
+        "🇩🇪 DE | VLESS | @vmesc #2",
         "🇫🇷 FR | VLESS | @vmesskhodam #1",
         "🇹🇷 TR | VLESS | @vmesskhodam #1",
         "🇮🇷 IR | VLESS | @vpnfree85 #1",
-        "🇺🇸 US | VLESS | @vpnplusee_free #1",
-        "🇵🇱 PL | VLESS | @vpnplusee_free #1",
         "🇽🇽 XX | VLESS | @wbrovers #1"
       ],
       "tag": "proxy",
@@ -302,6 +303,8 @@
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇺🇸 US | VLESS | @public504 #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
+        "🇺🇸 US | VLESS | @red2ray #1",
+        "🇦🇱 AL | VLESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @selinc #1",
         "🇽🇽 XX | VLESS | @selinc #2",
         "🇽🇽 XX | VLESS | @selinc #3",
@@ -323,7 +326,6 @@
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇩🇪 DE | VLESS | @v2ray_collector #1",
         "🇽🇽 XX | VLESS | @v2ray_collector #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇺🇸 US | VLESS | @v2raymelliii #2",
@@ -350,11 +352,11 @@
         "🇽🇽 XX | VLESS | @vipnetmeli #2",
         "🇽🇽 XX | VLESS | @vipnetmeli #3",
         "🇽🇽 XX | VLESS | @vmesc #1",
+        "🇩🇪 DE | VLESS | @vmesc #1",
+        "🇩🇪 DE | VLESS | @vmesc #2",
         "🇫🇷 FR | VLESS | @vmesskhodam #1",
         "🇹🇷 TR | VLESS | @vmesskhodam #1",
         "🇮🇷 IR | VLESS | @vpnfree85 #1",
-        "🇺🇸 US | VLESS | @vpnplusee_free #1",
-        "🇵🇱 PL | VLESS | @vpnplusee_free #1",
         "🇽🇽 XX | VLESS | @wbrovers #1"
       ],
       "tag": "auto",
@@ -1441,6 +1443,36 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇺🇸 US | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "dl-cf.f8r.ir",
+      "server_port": 80,
+      "uuid": "010bf7ad-b6ec-482b-8392-ae038f466a0a",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇦🇱 AL | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "al.xelnivo.ir",
+      "server_port": 7535,
+      "uuid": "38535888-4cc0-4823-9006-e48e1a045c7d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @selinc #1",
       "type": "vless",
       "server": "go.lumen.com",
@@ -1646,14 +1678,6 @@
       "server": "darsadgir.ir",
       "server_port": 8443,
       "uuid": "d85711cf-c5f5-4166-8000-25958322b13f",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "varzesh3.com",
-      "server_port": 2095,
-      "uuid": "801b75cb-3998-44ab-8552-62bd1438aaff",
       "packet_encoding": "xudp"
     },
     {
@@ -1999,6 +2023,50 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "mnbvxzqweiopmmmoo.admni.ir",
+      "server_port": 16249,
+      "uuid": "85e7a60d-9be7-4072-a4b4-31eb6926f066",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @vmesc #2",
+      "type": "vless",
+      "server": "mnbvxzqweiopmmmoo.admni.ir",
+      "server_port": 34604,
+      "uuid": "85e7a60d-9be7-4072-a4b4-31eb6926f066",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇫🇷 FR | VLESS | @vmesskhodam #1",
       "type": "vless",
       "server": "fr13.mobileemdad.top",
@@ -2049,45 +2117,6 @@
       "server_port": 80,
       "uuid": "937dde02-4ce6-4f0d-a3be-27aef7d3ef46",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "cassiopeia.yokkastars.com",
-      "server_port": 40443,
-      "uuid": "e4371581-c418-4770-b09a-d630f18290a6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "pl6.moritech.net",
-      "server_port": 443,
-      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @wbrovers #1",

@@ -24,8 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇦🇹 AT | TROJAN | @mpproxy #1", "server": "152.53.45.251", "port": 8888, "type": "trojan", "skip-cert-verify": false, "password": "trojan"}
-  - {"name": "🇦🇹 AT | VLESS | @v2ray_free_conf #1", "server": "67.159.17.62", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "1e6fed5b-5edc-4ddb-a268-79d7fae4365c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "firefox"}
-  - {"name": "🇦🇹 AT | TROJAN | @vpnplusee_free #1", "server": "212.183.88.136", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
+  - {"name": "🇦🇹 AT | VLESS | @red2ray #1", "server": "193.8.215.116", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "2308b549-764d-4abe-ac74-c22b97f3dc0a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,8 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇦🇹 AT | TROJAN | @mpproxy #1'
-      - '🇦🇹 AT | VLESS | @v2ray_free_conf #1'
-      - '🇦🇹 AT | TROJAN | @vpnplusee_free #1'
+      - '🇦🇹 AT | VLESS | @red2ray #1'
 
   - name: 🌍 Global Media
     type: select

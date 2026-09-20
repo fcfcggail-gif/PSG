@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇻 LV | VLESS | @free4allvpn #1"
+        "🇱🇻 LV | VLESS | @free4allvpn #1",
+        "🇱🇻 LV | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇻 LV | VLESS | @free4allvpn #1"
+        "🇱🇻 LV | VLESS | @free4allvpn #1",
+        "🇱🇻 LV | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -121,6 +123,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇱🇻 LV | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "31.56.196.143",
+      "server_port": 30368,
+      "uuid": "839d9c63-da17-4a72-86b5-bfc01ba29a59",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

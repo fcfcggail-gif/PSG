@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇪 EE | VLESS | @free1_vpn #1"
+        "🇪🇪 EE | VLESS | @free1_vpn #1",
+        "🇪🇪 EE | VLESS | @prrofile_purple #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇪 EE | VLESS | @free1_vpn #1"
+        "🇪🇪 EE | VLESS | @free1_vpn #1",
+        "🇪🇪 EE | VLESS | @prrofile_purple #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -106,6 +108,28 @@
       "server": "132.243.65.161",
       "server_port": 443,
       "uuid": "4d08aa81-f729-4857-a2e9-06e48b8b9556",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "188.255.236.213",
+      "server_port": 443,
+      "uuid": "2a12bb81-f3a3-41bb-99ab-36febf676b4a",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

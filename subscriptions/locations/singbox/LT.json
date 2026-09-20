@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇹 LT | SS | @netfreedom0 #1"
+        "🇱🇹 LT | SS | @netfreedom0 #1",
+        "🇱🇹 LT | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇹 LT | SS | @netfreedom0 #1"
+        "🇱🇹 LT | SS | @netfreedom0 #1",
+        "🇱🇹 LT | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,6 +118,28 @@
       "server_port": 9008,
       "method": "YWVzLTI1Ni1jZmI6eTlWVVJ5TnpKV05SWUVHUQ==",
       "password": null
+    },
+    {
+      "tag": "🇱🇹 LT | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "5.199.169.162",
+      "server_port": 443,
+      "uuid": "05e54129-c3c6-4735-a66a-bebefa96ee38",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
