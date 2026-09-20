@@ -23,9 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇱🇹 LT | VLESS | @red2ray #1", "server": "103.139.51.21", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "71b91642-93ed-4923-8cab-877e19bfc2d6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇱🇹 LT | VLESS | @red2ray #2", "server": "cloud.figmafound.org", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "71b91642-93ed-4923-8cab-877e19bfc2d6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇱🇹 LT | VLESS | @red2ray #3", "server": "auth.figmafound.org", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "71b91642-93ed-4923-8cab-877e19bfc2d6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇱🇹 LT | VLESS | @red2ray #1", "server": "auth.figmafound.org", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "71b91642-93ed-4923-8cab-877e19bfc2d6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,8 +38,6 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇱🇹 LT | VLESS | @red2ray #1'
-      - '🇱🇹 LT | VLESS | @red2ray #2'
-      - '🇱🇹 LT | VLESS | @red2ray #3'
 
   - name: 🌍 Global Media
     type: select
