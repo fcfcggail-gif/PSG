@@ -77,8 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇹 AT | TROJAN | @mpproxy #1",
-        "🇦🇹 AT | VLESS | @v2ray_free_conf #1"
+        "🇦🇹 AT | TROJAN | @mpproxy #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇹 AT | TROJAN | @mpproxy #1",
-        "🇦🇹 AT | VLESS | @v2ray_free_conf #1"
+        "🇦🇹 AT | TROJAN | @mpproxy #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -115,28 +113,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇦🇹 AT | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "152.53.102.127",
-      "server_port": 443,
-      "uuid": "950beaff-a665-4b36-baad-2251ba6bbd6a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

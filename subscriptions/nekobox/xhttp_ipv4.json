@@ -85,7 +85,6 @@
         "🇽🇽 XX | VLESS | @evay_vpn #2",
         "🇽🇽 XX | VLESS | @evay_vpn #3",
         "🇺🇸 US | VLESS | @free4allvpn #1",
-        "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
         "🇮🇷 IR | VLESS | @netmellianti #1",
         "🇮🇷 IR | VLESS | @netmellianti #2",
@@ -98,13 +97,14 @@
         "🇽🇽 XX | VLESS | @proxie #6",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
+        "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
         "🇺🇸 US | VLESS | @v2rayprotocol #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
-        "🇺🇸 US | VLESS | @vmesskhodam #1",
-        "🇬🇧 GB | VLESS | @vpnplusee_free #1"
+        "🇺🇸 US | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -120,7 +120,6 @@
         "🇽🇽 XX | VLESS | @evay_vpn #2",
         "🇽🇽 XX | VLESS | @evay_vpn #3",
         "🇺🇸 US | VLESS | @free4allvpn #1",
-        "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
         "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
         "🇮🇷 IR | VLESS | @netmellianti #1",
         "🇮🇷 IR | VLESS | @netmellianti #2",
@@ -133,13 +132,14 @@
         "🇽🇽 XX | VLESS | @proxie #6",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
+        "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
         "🇺🇸 US | VLESS | @v2rayprotocol #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
-        "🇺🇸 US | VLESS | @vmesskhodam #1",
-        "🇬🇧 GB | VLESS | @vpnplusee_free #1"
+        "🇺🇸 US | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -301,23 +301,6 @@
       "server_port": 80,
       "uuid": "02d87d00-c769-48d8-91cb-bd05e2f62790",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
-      "type": "vless",
-      "server": "84.38.187.169",
-      "server_port": 443,
-      "uuid": "82282910-54a0-0032-b2df-86bfbce8ed36",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇩🇪 DE | VLESS | @mtproxy22_v2ray #1",
@@ -488,6 +471,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "147.78.182.5",
+      "server_port": 443,
+      "uuid": "f0e0d780-a43b-98ef-d7fe-f628cfb1a606",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "104.20.46.193",
@@ -520,6 +520,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
+      "type": "vless",
+      "server": "66.33.22.222",
+      "server_port": 56858,
+      "uuid": "d51a5e3c-7779-43a4-a980-89a652653788",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇺🇸 US | VLESS | @v2rayprotocol #1",
@@ -578,14 +586,6 @@
       "server": "66.33.22.232",
       "server_port": 34118,
       "uuid": "12148993-e326-4061-809d-d2a24a42bcb8",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "217.163.76.118",
-      "server_port": 2086,
-      "uuid": "b7977b65-cfd8-4db9-a029-6ef014a4ae4a",
       "packet_encoding": "xudp"
     }
   ],
