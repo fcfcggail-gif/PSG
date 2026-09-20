@@ -90,7 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇹 AT | TROJAN | @mpproxy #1"
+        "🇦🇹 AT | TROJAN | @mpproxy #1",
+        "🇦🇹 AT | VLESS | @v2ray_free_conf #1",
+        "🇦🇹 AT | TROJAN | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇹 AT | TROJAN | @mpproxy #1"
+        "🇦🇹 AT | TROJAN | @mpproxy #1",
+        "🇦🇹 AT | VLESS | @v2ray_free_conf #1",
+        "🇦🇹 AT | TROJAN | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -115,6 +119,39 @@
       "server": "152.53.45.251",
       "server_port": 8888,
       "password": "trojan",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇹 AT | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "67.159.17.62",
+      "server_port": 443,
+      "uuid": "1e6fed5b-5edc-4ddb-a268-79d7fae4365c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇹 AT | TROJAN | @vpnplusee_free #1",
+      "type": "trojan",
+      "server": "212.183.88.136",
+      "server_port": 443,
+      "password": "humanity",
       "tls": {
         "enabled": true,
         "server_name": "",
