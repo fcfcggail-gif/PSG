@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇺🇿 UZ | VLESS | @vpn_ioss #1"
+        "🇹🇼 TW | VLESS | @v2ray_free_conf #1",
+        "🇹🇼 TW | VMESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇺🇿 UZ | VLESS | @vpn_ioss #1"
+        "🇹🇼 TW | VLESS | @v2ray_free_conf #1",
+        "🇹🇼 TW | VMESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,12 +103,35 @@
       "type": "direct"
     },
     {
-      "tag": "🇺🇿 UZ | VLESS | @vpn_ioss #1",
+      "tag": "🇹🇼 TW | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "189.74.97.43",
-      "server_port": 2087,
-      "uuid": "10f7eb2d-d96d-4778-9d36-aff11e9d6629",
-      "packet_encoding": "xudp"
+      "server": "45.64.74.100",
+      "server_port": 15570,
+      "uuid": "931220c8-15ac-41f4-ba7b-8736a82a3ba2",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇹🇼 TW | VMESS | @vpn_ioss #1",
+      "type": "vmess",
+      "server": "165.154.195.38",
+      "server_port": 35034,
+      "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
+      "security": "auto",
+      "alter_id": 0
     }
   ],
   "route": {
