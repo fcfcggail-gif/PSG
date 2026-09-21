@@ -92,11 +92,13 @@
         "direct",
         "🇷🇺 RU | SS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @flyv2ray #1",
-        "🇷🇺 RU | VLESS | @free1_vpn #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @orange_vpns #1",
+        "🇷🇺 RU | VLESS | @red2ray #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
-        "🇷🇺 RU | VLESS | @vmesc #1"
+        "🇷🇺 RU | VLESS | @vmesskhodam #1",
+        "🇷🇺 RU | VLESS | @vpnplusee_free #1",
+        "🇷🇺 RU | VLESS | @vpnplusee_free #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -106,11 +108,13 @@
       "outbounds": [
         "🇷🇺 RU | SS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @flyv2ray #1",
-        "🇷🇺 RU | VLESS | @free1_vpn #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @orange_vpns #1",
+        "🇷🇺 RU | VLESS | @red2ray #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
-        "🇷🇺 RU | VLESS | @vmesc #1"
+        "🇷🇺 RU | VLESS | @vmesskhodam #1",
+        "🇷🇺 RU | VLESS | @vpnplusee_free #1",
+        "🇷🇺 RU | VLESS | @vpnplusee_free #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -135,28 +139,6 @@
       "server": "tgfree.rush-server.com",
       "server_port": 443,
       "uuid": "ebd1c0d6-7ff4-4b9f-8692-237517a27a64",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @free1_vpn #1",
-      "type": "vless",
-      "server": "193.233.91.200",
-      "server_port": 443,
-      "uuid": "f211f0aa-db73-49f2-b2cd-5be20c034f36",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -204,6 +186,28 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇷🇺 RU | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "159.194.217.26",
+      "server_port": 443,
+      "uuid": "e48e4377-1f29-485b-80d4-85fd4fa27bfa",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇷🇺 RU | VLESS | @v2raytg #1",
       "type": "vless",
       "server": "b02.connectv.net",
@@ -226,11 +230,36 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @vmesc #1",
+      "tag": "🇷🇺 RU | VLESS | @vmesskhodam #1",
       "type": "vless",
-      "server": "195.133.73.65",
+      "server": "193.233.223.87",
+      "server_port": 7443,
+      "uuid": "541b92a5-7a97-4b6b-a6be-bd4f5a5b0911",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "91.215.40.6",
       "server_port": 443,
-      "uuid": "ebd1c0d6-7ff4-4b9f-8692-237517a27a64",
+      "uuid": "e3c3b722-1264-4cdc-a97c-b0a1bb73cd67",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @vpnplusee_free #2",
+      "type": "vless",
+      "server": "5.181.171.2",
+      "server_port": 443,
+      "uuid": "a87bf8a2-17a4-3054-b51e-876b5f1d0f24",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

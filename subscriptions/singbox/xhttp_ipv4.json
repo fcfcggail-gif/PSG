@@ -100,6 +100,7 @@
         "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇺🇸 US | VLESS | @netmellianti #2",
         "🇺🇸 US | VLESS | @netmellianti #3",
+        "🇩🇪 DE | VLESS | @outline_ir #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇽🇽 XX | VLESS | @proxie #3",
@@ -113,8 +114,7 @@
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
-        "🇺🇸 US | VLESS | @v_2rayng0 #2",
-        "🇺🇸 US | VLESS | @vpnplusee_free #2"
+        "🇺🇸 US | VLESS | @v_2rayng0 #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -132,6 +132,7 @@
         "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇺🇸 US | VLESS | @netmellianti #2",
         "🇺🇸 US | VLESS | @netmellianti #3",
+        "🇩🇪 DE | VLESS | @outline_ir #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇽🇽 XX | VLESS | @proxie #3",
@@ -145,8 +146,7 @@
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
-        "🇺🇸 US | VLESS | @v_2rayng0 #2",
-        "🇺🇸 US | VLESS | @vpnplusee_free #2"
+        "🇺🇸 US | VLESS | @v_2rayng0 #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -320,6 +320,23 @@
       "server_port": 80,
       "uuid": "b742d8e7-ed7d-4f7d-bb16-bf49bdb4cb44",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "31.185.108.84",
+      "server_port": 443,
+      "uuid": "JoinShin-_-%3ADaredevil_404",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @proxie #1",
@@ -540,14 +557,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @vpnplusee_free #2",
-      "type": "vless",
-      "server": "31.57.46.193",
-      "server_port": 44119,
-      "uuid": "6112679e-7c59-43ca-af39-cdeeb59093a6",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

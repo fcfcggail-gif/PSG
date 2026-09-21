@@ -23,9 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇵🇱 PL | VLESS | @outline_ir #1", "server": "83.168.111.58", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "dabb9a19-03ab-4cdf-8963-d3c45eb0f80d", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇵🇱 PL | VLESS | @outlinereleasedkey #1", "server": "185.223.57.10", "port": 33743, "type": "vless", "skip-cert-verify": true, "uuid": "b3a11068-1a7e-4643-85de-7c82cce46943", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇵🇱 PL | VLESS | @red2ray #1", "server": "pl6.moritech.net", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇵🇱 PL | VLESS | @v2ray_collector #1", "server": "95.85.253.208", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "568addfa-796a-40f8-820d-a071ee2ca50a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇵🇱 PL | VLESS | @v2rayopen #1", "server": "pl6.moritech.net", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +39,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇵🇱 PL | VLESS | @outline_ir #1'
-      - '🇵🇱 PL | VLESS | @outlinereleasedkey #1'
+      - '🇵🇱 PL | VLESS | @red2ray #1'
       - '🇵🇱 PL | VLESS | @v2ray_collector #1'
+      - '🇵🇱 PL | VLESS | @v2rayopen #1'
 
   - name: 🌍 Global Media
     type: select

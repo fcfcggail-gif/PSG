@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQVo=
+//profile-title: base64:UFNHIHwgUk8=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇿 AZ | VLESS | @v2raych #1"
+        "🇷🇴 RO | VLESS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇿 AZ | VLESS | @v2raych #1"
+        "🇷🇴 RO | VLESS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,21 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇿 AZ | VLESS | @v2raych #1",
+      "tag": "🇷🇴 RO | VLESS | @outlinereleasedkey #1",
       "type": "vless",
-      "server": "azerieyxo.quickpl.ir",
-      "server_port": 9095,
-      "uuid": "9af3f593-e81b-46a2-a49d-ec108fe95c8f",
-      "packet_encoding": "xudp"
+      "server": "46.28.67.55",
+      "server_port": 443,
+      "uuid": "d1a6a033-fdbd-46a6-a177-3370ba042b9f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
