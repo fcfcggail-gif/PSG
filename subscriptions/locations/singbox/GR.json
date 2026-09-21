@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇬🇷 GR | VLESS | @outline_ir #1"
+        "🇬🇷 GR | VLESS | @v2ray_collector #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇬🇷 GR | VLESS | @outline_ir #1"
+        "🇬🇷 GR | VLESS | @v2ray_collector #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,26 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇬🇷 GR | VLESS | @outline_ir #1",
+      "tag": "🇬🇷 GR | VLESS | @v2ray_collector #1",
       "type": "vless",
-      "server": "91.186.216.100",
-      "server_port": 7005,
-      "uuid": "ac64aec6-85ee-4fc7-b34b-60a7bcf236ec",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "185.126.238.87",
+      "server_port": 2083,
+      "uuid": "7668f678-faee-40cc-9b56-9c39dc773388",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

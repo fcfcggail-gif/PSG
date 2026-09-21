@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVEg=
+//profile-title: base64:UFNHIHwgQ0g=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇭 TH | VLESS | @vpn_ioss #1"
+        "🇨🇭 CH | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇭 TH | VLESS | @vpn_ioss #1"
+        "🇨🇭 CH | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,19 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇭 TH | VLESS | @vpn_ioss #1",
+      "tag": "🇨🇭 CH | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "103.86.49.57",
-      "server_port": 80,
-      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
-      "packet_encoding": "xudp"
+      "server": "194.154.29.139",
+      "server_port": 8443,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
+        }
+      }
     }
   ],
   "route": {
