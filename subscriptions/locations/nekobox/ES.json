@@ -77,7 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇳🇴 NO | VLESS | @vpnplusee_free #1"
+        "🇪🇸 ES | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇳🇴 NO | VLESS | @vpnplusee_free #1"
+        "🇪🇸 ES | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,12 +101,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇳🇴 NO | VLESS | @vpnplusee_free #1",
+      "tag": "🇪🇸 ES | VLESS | @vmesskhodam #1",
       "type": "vless",
-      "server": "n4.steptofsvo.com",
-      "server_port": 11443,
-      "uuid": "ab6a5359-0edf-41c3-8dfd-e4b005e80820",
-      "packet_encoding": "xudp"
+      "server": "spz2.plasmoon.ir",
+      "server_port": 56562,
+      "uuid": "485b37ba-110f-4062-8b6c-2e4bf9a31fb3",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
