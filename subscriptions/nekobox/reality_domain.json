@@ -82,10 +82,14 @@
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
-        "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇱🇻 LV | VLESS | @v2ray_free_conf #1",
+        "🇹🇷 TR | VLESS | @v2raych #1",
+        "🇩🇪 DE | VLESS | @v2raych #2",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
-        "🇩🇪 DE | VLESS | @vmesc #1"
+        "🇩🇪 DE | VLESS | @vmesc #1",
+        "🇫🇮 FI | VLESS | @vpnplusee_free #1",
+        "🇩🇪 DE | VLESS | @vpnplusee_free #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,10 +102,14 @@
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
-        "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇱🇻 LV | VLESS | @v2ray_free_conf #1",
+        "🇹🇷 TR | VLESS | @v2raych #1",
+        "🇩🇪 DE | VLESS | @v2raych #2",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
-        "🇩🇪 DE | VLESS | @vmesc #1"
+        "🇩🇪 DE | VLESS | @vmesc #1",
+        "🇫🇮 FI | VLESS | @vpnplusee_free #1",
+        "🇩🇪 DE | VLESS | @vpnplusee_free #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -233,11 +241,27 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @red2ray #1",
+      "tag": "🇱🇻 LV | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "donttrust.quickpl.ir",
-      "server_port": 56910,
-      "uuid": "9af3f593-e81b-46a2-a49d-ec108fe95c8f",
+      "server": "finaland.ark-cloudservice.ir",
+      "server_port": 52531,
+      "uuid": "6f8aae62-3b39-4abb-8e03-30ea5ff5fbbc",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "tr.melo.nexmelpor.ir",
+      "server_port": 8080,
+      "uuid": "19f4ff28-df2d-44a2-8113-675b333a87b4",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "nbg.edgeptr.org",
+      "server_port": 443,
+      "uuid": "d5b0046a-1b5d-41fc-b499-442e651518b2",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -319,6 +343,36 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "fl.rushoppingforwomen.com",
+      "server_port": 443,
+      "uuid": "5cdfb212-6257-42a7-8185-8b33f0d23bc6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @vpnplusee_free #2",
+      "type": "vless",
+      "server": "sub.skyshopnet.ir",
+      "server_port": 8443,
+      "uuid": "fb807e29-4d00-4951-ac5c-a0de36dbc56e",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

@@ -91,7 +91,9 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
-        "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
+        "🇫🇮 FI | VLESS | @netmellianti #1",
+        "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
+        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +102,9 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
-        "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
+        "🇫🇮 FI | VLESS | @netmellianti #1",
+        "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
+        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -120,12 +124,56 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇫🇮 FI | VLESS | @netmellianti #1",
+      "type": "vless",
+      "server": "95.217.24.119",
+      "server_port": 2087,
+      "uuid": "ddc0bc7e-04c6-4ff9-9adb-c68c71606e8f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "65.109.181.18",
       "server_port": 27014,
       "uuid": "a42fdac4-53c7-4a5d-8655-4168eecbe43d",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "fl.rushoppingforwomen.com",
+      "server_port": 443,
+      "uuid": "5cdfb212-6257-42a7-8185-8b33f0d23bc6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

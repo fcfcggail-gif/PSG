@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇻 LV | VLESS | @free4allvpn #1"
+        "🇱🇻 LV | VLESS | @free4allvpn #1",
+        "🇱🇻 LV | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇻 LV | VLESS | @free4allvpn #1"
+        "🇱🇻 LV | VLESS | @free4allvpn #1",
+        "🇱🇻 LV | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -130,6 +132,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇱🇻 LV | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "finaland.ark-cloudservice.ir",
+      "server_port": 52531,
+      "uuid": "6f8aae62-3b39-4abb-8e03-30ea5ff5fbbc",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
