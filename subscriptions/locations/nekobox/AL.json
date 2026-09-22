@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇱 AL | VLESS | @orange_vpns #1"
+        "🇦🇱 AL | VLESS | @orange_vpns #1",
+        "🇦🇱 AL | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇱 AL | VLESS | @orange_vpns #1"
+        "🇦🇱 AL | VLESS | @orange_vpns #1",
+        "🇦🇱 AL | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -106,6 +108,28 @@
       "server": "144.31.131.38",
       "server_port": 443,
       "uuid": "adc11f30-e4cb-4985-bf5e-f9ded69c019f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇦🇱 AL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "gyh.manliclouc.ir",
+      "server_port": 44811,
+      "uuid": "89418511-64f9-4e74-ac6b-ffc1b828106f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

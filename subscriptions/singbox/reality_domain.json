@@ -95,10 +95,13 @@
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
+        "🇫🇷 FR | VLESS | @red2ray #1",
+        "🇦🇱 AL | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇩🇪 DE | VLESS | @vmesc #1",
-        "🇪🇸 ES | VLESS | @vmesskhodam #1"
+        "🇪🇸 ES | VLESS | @vmesskhodam #1",
+        "🇳🇱 NL | VLESS | @vpnplusee_free #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -111,10 +114,13 @@
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
+        "🇫🇷 FR | VLESS | @red2ray #1",
+        "🇦🇱 AL | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇩🇪 DE | VLESS | @vmesc #1",
-        "🇪🇸 ES | VLESS | @vmesskhodam #1"
+        "🇪🇸 ES | VLESS | @vmesskhodam #1",
+        "🇳🇱 NL | VLESS | @vpnplusee_free #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -242,6 +248,36 @@
       }
     },
     {
+      "tag": "🇫🇷 FR | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "loc1-cdn.mycarservhpdd10.ir",
+      "server_port": 43054,
+      "uuid": "527462f9-95a9-4470-ba22-ba1c45903954",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇦🇱 AL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "gyh.manliclouc.ir",
+      "server_port": 44811,
+      "uuid": "89418511-64f9-4e74-ac6b-ffc1b828106f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇳🇱 NL | VLESS | @v2rayprotocol #1",
       "type": "vless",
       "server": "pl.cloudtechone.org",
@@ -328,6 +364,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @vpnplusee_free #2",
+      "type": "vless",
+      "server": "nl-xh02.tcp-reset-club.net",
+      "server_port": 8443,
+      "uuid": "721bacfe-ff09-4e63-a735-686015bc1351",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
