@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @v2rayopen #1"
+        "🇵🇱 PL | VLESS | @orange_vpns #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @v2rayopen #1"
+        "🇵🇱 PL | VLESS | @orange_vpns #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,11 +110,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @v2rayopen #1",
+      "tag": "🇵🇱 PL | VLESS | @orange_vpns #1",
       "type": "vless",
-      "server": "pl6.moritech.net",
+      "server": "82.40.62.92",
       "server_port": 443,
-      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+      "uuid": "521b29e7-8ce0-0012-a210-79069f701464",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -123,6 +123,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }
