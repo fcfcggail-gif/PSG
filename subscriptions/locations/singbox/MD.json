@@ -90,9 +90,11 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇲🇩 MD | VLESS | @flyv2ray #1",
         "🇲🇩 MD | VLESS | @nofiltering2 #1",
         "🇲🇩 MD | VLESS | @nofiltering2 #2",
-        "🇲🇩 MD | VLESS | @v2ray_youtube #1"
+        "🇲🇩 MD | VLESS | @v2ray_youtube #1",
+        "🇲🇩 MD | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +102,11 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇲🇩 MD | VLESS | @flyv2ray #1",
         "🇲🇩 MD | VLESS | @nofiltering2 #1",
         "🇲🇩 MD | VLESS | @nofiltering2 #2",
-        "🇲🇩 MD | VLESS | @v2ray_youtube #1"
+        "🇲🇩 MD | VLESS | @v2ray_youtube #1",
+        "🇲🇩 MD | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,6 +116,28 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇲🇩 MD | VLESS | @flyv2ray #1",
+      "type": "vless",
+      "server": "moldova.cdn-europe.org",
+      "server_port": 4443,
+      "uuid": "d7c94b82-657a-4bb7-9b24-2ae566669835",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇲🇩 MD | VLESS | @nofiltering2 #1",
@@ -151,6 +177,23 @@
       "tag": "🇲🇩 MD | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "89.35.14.32",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇲🇩 MD | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "89.35.14.33",
       "server_port": 443,
       "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
       "packet_encoding": "xudp",
