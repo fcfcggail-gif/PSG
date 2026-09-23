@@ -25,6 +25,7 @@ dns:
 proxies: 
   - {"name": "🇮🇹 IT | VLESS | @NamiraConfigs #1", "server": "204.216.216.23", "port": 10086, "type": "vless", "skip-cert-verify": true, "uuid": "9f0285ee-20ca-4953-bcdb-86a920652923", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇮🇹 IT | VLESS | @freeconfigsplus #1", "server": "31.76.113.51", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "dfc0cb9d-f005-41b0-848c-7703bd39d0de", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇹 IT | VMESS | @vpnplusee_free #1", "server": "89.41.172.85", "port": 22324, "type": "vmess", "skip-cert-verify": true, "uuid": "04621bae-ab36-11ec-b909-0242ac120002", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,6 +41,7 @@ proxy-groups:
     proxies: 
       - '🇮🇹 IT | VLESS | @NamiraConfigs #1'
       - '🇮🇹 IT | VLESS | @freeconfigsplus #1'
+      - '🇮🇹 IT | VMESS | @vpnplusee_free #1'
 
   - name: 🌍 Global Media
     type: select

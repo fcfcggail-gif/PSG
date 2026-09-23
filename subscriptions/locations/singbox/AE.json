@@ -91,7 +91,7 @@
         "auto",
         "direct",
         "🇦🇪 AE | VLESS | @outline_ir #1",
-        "🇦🇪 AE | VLESS | @v2ray_free_conf #1"
+        "🇦🇪 AE | VLESS | @vpnfree85 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +100,7 @@
       "interval": "10m",
       "outbounds": [
         "🇦🇪 AE | VLESS | @outline_ir #1",
-        "🇦🇪 AE | VLESS | @v2ray_free_conf #1"
+        "🇦🇪 AE | VLESS | @vpnfree85 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -134,12 +134,21 @@
       }
     },
     {
-      "tag": "🇦🇪 AE | VLESS | @v2ray_free_conf #1",
+      "tag": "🇦🇪 AE | VLESS | @vpnfree85 #1",
       "type": "vless",
-      "server": "45.88.13.6",
-      "server_port": 8443,
-      "uuid": "f0e0d780-a43b-98ef-d7fe-f628cfb1a606",
-      "packet_encoding": "xudp"
+      "server": "protectnet.cloudinohost.com",
+      "server_port": 443,
+      "uuid": "ea470142-10c6-4b1f-a8e6-0ddcc78a4058",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
