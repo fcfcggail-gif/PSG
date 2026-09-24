@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @vmesskhodam #1",
-        "🇹🇷 TR | VMESS | @vpnplusee_free #1"
+        "🇹🇷 TR | VMESS | @vpnplusee_free #1",
+        "🇹🇷 TR | VMESS | @vpnplusee_free #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @vmesskhodam #1",
-        "🇹🇷 TR | VMESS | @vpnplusee_free #1"
+        "🇹🇷 TR | VMESS | @vpnplusee_free #1",
+        "🇹🇷 TR | VMESS | @vpnplusee_free #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,15 +112,16 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "trk2.chaqalli.com",
-      "server_port": 8080,
-      "uuid": "560ecca1-7e20-4b41-b4d6-781fb3bc179d",
-      "packet_encoding": "xudp"
+      "tag": "🇹🇷 TR | VMESS | @vpnplusee_free #1",
+      "type": "vmess",
+      "server": "103.215.218.158",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto",
+      "alter_id": 0
     },
     {
-      "tag": "🇹🇷 TR | VMESS | @vpnplusee_free #1",
+      "tag": "🇹🇷 TR | VMESS | @vpnplusee_free #2",
       "type": "vmess",
       "server": "103.215.218.158",
       "server_port": 22324,

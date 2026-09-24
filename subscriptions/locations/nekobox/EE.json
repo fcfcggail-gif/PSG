@@ -78,6 +78,7 @@
         "auto",
         "direct",
         "🇪🇪 EE | VLESS | @free1_vpn #1",
+        "🇪🇪 EE | VLESS | @outlinereleasedkey #1",
         "🇪🇪 EE | VLESS | @v2ray_collector #1"
       ],
       "tag": "proxy",
@@ -87,6 +88,7 @@
       "interval": "10m",
       "outbounds": [
         "🇪🇪 EE | VLESS | @free1_vpn #1",
+        "🇪🇪 EE | VLESS | @outlinereleasedkey #1",
         "🇪🇪 EE | VLESS | @v2ray_collector #1"
       ],
       "tag": "auto",
@@ -125,12 +127,24 @@
       }
     },
     {
-      "tag": "🇪🇪 EE | VLESS | @v2ray_collector #1",
+      "tag": "🇪🇪 EE | VLESS | @outlinereleasedkey #1",
       "type": "vless",
       "server": "94.183.170.147",
       "server_port": 8443,
       "uuid": "66ac188b-bd8d-4218-b9ba-0bad0e152cd0",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @v2ray_collector #1",
+      "type": "vless",
+      "server": "94.183.170.147",
+      "server_port": 8443,
+      "uuid": "66ac188b-bd8d-4218-b9ba-0bad0e152cd0",
+      "packet_encoding": "xudp",
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      }
     }
   ],
   "route": {

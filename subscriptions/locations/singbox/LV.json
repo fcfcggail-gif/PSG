@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇻 LV | VLESS | @free4allvpn #1"
+        "🇱🇻 LV | VLESS | @free4allvpn #1",
+        "🇱🇻 LV | SS | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇻 LV | VLESS | @free4allvpn #1"
+        "🇱🇻 LV | VLESS | @free4allvpn #1",
+        "🇱🇻 LV | SS | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -130,6 +132,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇱🇻 LV | SS | @netfreedom0 #1",
+      "type": "shadowsocks",
+      "server": "185.135.86.175",
+      "server_port": 9034,
+      "method": "YWVzLTI1Ni1jZmI6WWc0TWJkWEZROUhGRlZZNg==",
+      "password": null
     }
   ],
   "route": {
