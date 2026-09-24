@@ -91,7 +91,9 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
-        "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
+        "🇫🇮 FI | VLESS | @red2ray #1",
+        "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
+        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +102,9 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
-        "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
+        "🇫🇮 FI | VLESS | @red2ray #1",
+        "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
+        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -120,12 +124,56 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "c5b47b423412e973.fn-1.globalmymusic.com",
+      "server_port": 443,
+      "uuid": "fcc64e6f-bdcd-471a-a2d4-27c757578070",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "65.109.181.18",
       "server_port": 27014,
       "uuid": "a42fdac4-53c7-4a5d-8655-4168eecbe43d",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "150.241.71.245",
+      "server_port": 443,
+      "uuid": "c795bdd5-0460-42bd-927b-fbff154d2ab5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

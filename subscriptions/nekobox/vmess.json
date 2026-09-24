@@ -101,6 +101,7 @@
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
+        "🇫🇷 FR | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇽🇽 XX | VMESS | @hope_net #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
@@ -111,8 +112,7 @@
         "🇬🇧 GB | VMESS | @vpn_ioss #1",
         "🇲🇾 MY | VMESS | @vpn_ioss #1",
         "🇹🇼 TW | VMESS | @vpn_ioss #1",
-        "🇩🇪 DE | VMESS | @vpn_ioss #1",
-        "🇮🇹 IT | VMESS | @vpnplusee_free #1"
+        "🇩🇪 DE | VMESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -144,6 +144,7 @@
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
+        "🇫🇷 FR | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇽🇽 XX | VMESS | @hope_net #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
@@ -154,8 +155,7 @@
         "🇬🇧 GB | VMESS | @vpn_ioss #1",
         "🇲🇾 MY | VMESS | @vpn_ioss #1",
         "🇹🇼 TW | VMESS | @vpn_ioss #1",
-        "🇩🇪 DE | VMESS | @vpn_ioss #1",
-        "🇮🇹 IT | VMESS | @vpnplusee_free #1"
+        "🇩🇪 DE | VMESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -711,6 +711,22 @@
       }
     },
     {
+      "tag": "🇫🇷 FR | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "188.114.96.19",
+      "server_port": 80,
+      "uuid": "479526cd-5011-43cf-a788-504da95e07c2",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "google.whatsapp.snapp.torob.basalam.fortresshost.ir."
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @vpngate_config #1",
       "type": "vmess",
       "server": "cold-dawn-9246.fly.dev",
@@ -876,15 +892,6 @@
       "server": "82.198.246.37",
       "server_port": 180,
       "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "tag": "🇮🇹 IT | VMESS | @vpnplusee_free #1",
-      "type": "vmess",
-      "server": "89.41.172.85",
-      "server_port": 22324,
-      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
       "security": "auto",
       "alter_id": 0
     }

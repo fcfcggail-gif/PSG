@@ -78,8 +78,7 @@
         "auto",
         "direct",
         "🇵🇱 PL | VLESS | @orange_vpns #1",
-        "🇵🇱 PL | VLESS | @red2ray #1",
-        "🇵🇱 PL | VLESS | @v2ray_free_conf #1"
+        "🇵🇱 PL | TROJAN | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,8 +87,7 @@
       "interval": "10m",
       "outbounds": [
         "🇵🇱 PL | VLESS | @orange_vpns #1",
-        "🇵🇱 PL | VLESS | @red2ray #1",
-        "🇵🇱 PL | VLESS | @v2ray_free_conf #1"
+        "🇵🇱 PL | TROJAN | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -127,20 +125,20 @@
       }
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "201.10.90.24",
-      "server_port": 2027,
-      "uuid": "a6b29052-e9ba-4714-a43c-4a660f452c44",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "31.76.251.123",
-      "server_port": 8443,
-      "uuid": "4cbefb4d-328c-411d-bf76-780df1082df8",
-      "packet_encoding": "xudp"
+      "tag": "🇵🇱 PL | TROJAN | @v2ray_free_conf #1",
+      "type": "trojan",
+      "server": "191.44.113.95",
+      "server_port": 443,
+      "password": "pkj3BBnG2NE4wD-72SwgzNcfaHSes-dr",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

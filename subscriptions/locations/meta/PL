@@ -24,8 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇵🇱 PL | VLESS | @orange_vpns #1", "server": "82.40.62.92", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "521b29e7-8ce0-0012-a210-79069f701464", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇵🇱 PL | VLESS | @red2ray #1", "server": "201.10.90.24", "port": 2027, "type": "vless", "skip-cert-verify": true, "uuid": "a6b29052-e9ba-4714-a43c-4a660f452c44", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇵🇱 PL | VLESS | @v2ray_free_conf #1", "server": "31.76.251.123", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "4cbefb4d-328c-411d-bf76-780df1082df8", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇵🇱 PL | TROJAN | @v2ray_free_conf #1", "server": "191.44.113.95", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "pkj3BBnG2NE4wD-72SwgzNcfaHSes-dr"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,8 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇵🇱 PL | VLESS | @orange_vpns #1'
-      - '🇵🇱 PL | VLESS | @red2ray #1'
-      - '🇵🇱 PL | VLESS | @v2ray_free_conf #1'
+      - '🇵🇱 PL | TROJAN | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select
