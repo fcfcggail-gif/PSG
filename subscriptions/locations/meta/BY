@@ -24,6 +24,8 @@ dns:
 
 proxies: 
   - {"name": "🇧🇾 BY | VMESS | @ir_netproxy #1", "server": "5.161.156.196", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d20e38ef-1a4d-4009-a00d-2f0d44e3c65a", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇧🇾 BY | VLESS | @v2raych #1", "server": "144.31.129.19", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "e950cb84-4d46-44f8-ba9a-e6064e7ec2a4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
+  - {"name": "🇧🇾 BY | VLESS | @v2raych #2", "server": "144.31.129.19", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "e950cb84-4d46-44f8-ba9a-e6064e7ec2a4", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +40,8 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇧🇾 BY | VMESS | @ir_netproxy #1'
+      - '🇧🇾 BY | VLESS | @v2raych #1'
+      - '🇧🇾 BY | VLESS | @v2raych #2'
 
   - name: 🌍 Global Media
     type: select

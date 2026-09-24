@@ -24,6 +24,8 @@ dns:
 
 proxies: 
   - {"name": "🇸🇬 SG | VLESS | @freeconfigsplus #1", "server": "www.lianchuang123.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2c473bc0-484c-49d5-8cf3-c89d26b724fe", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "/", "headers": {"Host": "www.lianchuang123.com"}}}
+  - {"name": "🇸🇬 SG | TROJAN | @mtproxy22_v2ray #1", "server": "united-molly.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "CF68213490"}
+  - {"name": "🇸🇬 SG | VLESS | @netmellianti #1", "server": "5.223.74.174", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "29b81e1a-1989-4778-b0cb-a7223730f59d", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇸🇬 SG | VLESS | @v2rayexpress #1", "server": "5.223.42.211", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "9d33dc91-fb84-4f96-d9b1-fe28a230a94f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -39,6 +41,8 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇸🇬 SG | VLESS | @freeconfigsplus #1'
+      - '🇸🇬 SG | TROJAN | @mtproxy22_v2ray #1'
+      - '🇸🇬 SG | VLESS | @netmellianti #1'
       - '🇸🇬 SG | VLESS | @v2rayexpress #1'
 
   - name: 🌍 Global Media

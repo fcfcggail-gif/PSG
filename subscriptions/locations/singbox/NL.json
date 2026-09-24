@@ -93,14 +93,15 @@
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1",
         "🇳🇱 NL | VLESS | @filtershekan_channel #2",
-        "🇳🇱 NL | VLESS | @flyv2ray #1",
         "🇳🇱 NL | SS | @mtproxy22_v2ray #1",
-        "🇳🇱 NL | SS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
+        "🇳🇱 NL | VLESS | @red2ray #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇳🇱 NL | SS | @v2rayng3 #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
+        "🇳🇱 NL | VLESS | @vmesc #1",
+        "🇳🇱 NL | VLESS | @vmesc #2",
         "🇳🇱 NL | VLESS | @vpn_ioss #1",
         "🇳🇱 NL | VLESS | @vpnowl #1"
       ],
@@ -113,14 +114,15 @@
         "🇳🇱 NL | SS | @easy_free_vpn #1",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1",
         "🇳🇱 NL | VLESS | @filtershekan_channel #2",
-        "🇳🇱 NL | VLESS | @flyv2ray #1",
         "🇳🇱 NL | SS | @mtproxy22_v2ray #1",
-        "🇳🇱 NL | SS | @netfreedom0 #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
+        "🇳🇱 NL | VLESS | @red2ray #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇳🇱 NL | SS | @v2rayng3 #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
+        "🇳🇱 NL | VLESS | @vmesc #1",
+        "🇳🇱 NL | VLESS | @vmesc #2",
         "🇳🇱 NL | VLESS | @vpn_ioss #1",
         "🇳🇱 NL | VLESS | @vpnowl #1"
       ],
@@ -172,27 +174,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @flyv2ray #1",
-      "type": "vless",
-      "server": "31.56.184.132",
-      "server_port": 8443,
-      "uuid": "11f21602-47aa-42e2-9149-69120f2e6df6",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇳🇱 NL | SS | @mtproxy22_v2ray #1",
       "type": "shadowsocks",
       "server": "193.29.139.204",
       "server_port": 8080,
       "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
-      "password": null
-    },
-    {
-      "tag": "🇳🇱 NL | SS | @netfreedom0 #1",
-      "type": "shadowsocks",
-      "server": "109.201.152.181",
-      "server_port": 443,
-      "method": "YWVzLTEyOC1jZmI6c2hhZG93c29ja3M=",
       "password": null
     },
     {
@@ -209,6 +195,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "212.46.33.90",
+      "server_port": 443,
+      "uuid": "dac0bd30-008f-42c9-b377-bfc0dcfa6f0b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -270,6 +278,45 @@
       "server": "pl.cloudtechone.org",
       "server_port": 443,
       "uuid": "2b2ea9d8-501e-4b79-8fd9-19bff6ed5cf5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "ndi.lavivas.org",
+      "server_port": 2096,
+      "uuid": "44e1105d-b46e-402f-933b-eaa136fcbb24",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @vmesc #2",
+      "type": "vless",
+      "server": "slowkd.sadiepinki.com",
+      "server_port": 443,
+      "uuid": "71091100-c6ed-41fa-84ac-acf7ff9eeb7f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

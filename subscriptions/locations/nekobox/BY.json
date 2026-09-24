@@ -77,7 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇾 BY | VMESS | @ir_netproxy #1"
+        "🇧🇾 BY | VMESS | @ir_netproxy #1",
+        "🇧🇾 BY | VLESS | @v2raych #1",
+        "🇧🇾 BY | VLESS | @v2raych #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇾 BY | VMESS | @ir_netproxy #1"
+        "🇧🇾 BY | VMESS | @ir_netproxy #1",
+        "🇧🇾 BY | VLESS | @v2raych #1",
+        "🇧🇾 BY | VLESS | @v2raych #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -111,6 +115,42 @@
       "tls": {
         "enabled": true,
         "server_name": "internet.life.com.by",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇾 BY | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "144.31.129.19",
+      "server_port": 443,
+      "uuid": "e950cb84-4d46-44f8-ba9a-e6064e7ec2a4",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇾 BY | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "144.31.129.19",
+      "server_port": 443,
+      "uuid": "e950cb84-4d46-44f8-ba9a-e6064e7ec2a4",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,

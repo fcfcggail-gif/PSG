@@ -90,8 +90,11 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇵🇱 PL | SS | @netfreedom0 #1",
         "🇵🇱 PL | VLESS | @orange_vpns #1",
-        "🇵🇱 PL | TROJAN | @v2ray_free_conf #1"
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+        "🇵🇱 PL | VLESS | @vmesc #1",
+        "🇵🇱 PL | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +102,11 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇵🇱 PL | SS | @netfreedom0 #1",
         "🇵🇱 PL | VLESS | @orange_vpns #1",
-        "🇵🇱 PL | TROJAN | @v2ray_free_conf #1"
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+        "🇵🇱 PL | VLESS | @vmesc #1",
+        "🇵🇱 PL | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,6 +116,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇵🇱 PL | SS | @netfreedom0 #1",
+      "type": "shadowsocks",
+      "server": "217.30.10.44",
+      "server_port": 9076,
+      "method": "YWVzLTI1Ni1jZmI6UzJ6RHl5UGNtWk4yaDhFQw==",
+      "password": null
     },
     {
       "tag": "🇵🇱 PL | VLESS | @orange_vpns #1",
@@ -134,11 +148,51 @@
       }
     },
     {
-      "tag": "🇵🇱 PL | TROJAN | @v2ray_free_conf #1",
-      "type": "trojan",
-      "server": "191.44.113.95",
+      "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "31.77.56.233",
+      "server_port": 12443,
+      "uuid": "55061827-d64c-415f-9055-c01a66218a3e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "pl4.moritech.net",
       "server_port": 443,
-      "password": "pkj3BBnG2NE4wD-72SwgzNcfaHSes-dr",
+      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "pl3.moritech.net",
+      "server_port": 443,
+      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
