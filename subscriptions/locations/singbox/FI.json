@@ -91,9 +91,8 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
-        "🇫🇮 FI | VLESS | @red2ray #1",
-        "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
-        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
+        "🇫🇮 FI | VLESS | @v2ray_collector #1",
+        "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,9 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
-        "🇫🇮 FI | VLESS | @red2ray #1",
-        "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
-        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
+        "🇫🇮 FI | VLESS | @v2ray_collector #1",
+        "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -124,26 +122,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
+      "tag": "🇫🇮 FI | VLESS | @v2ray_collector #1",
       "type": "vless",
-      "server": "196.196.206.37",
-      "server_port": 2053,
-      "uuid": "f495298f-2bdb-4fd8-9ac9-5dd33d1b482a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "185.79.138.71",
+      "server_port": 448,
+      "uuid": "0b0915d7-6800-4580-a44b-77d84f105e6a",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
@@ -152,28 +136,6 @@
       "server_port": 27014,
       "uuid": "a42fdac4-53c7-4a5d-8655-4168eecbe43d",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "194.77.71.152",
-      "server_port": 443,
-      "uuid": "8f67e374-53d9-43bb-85c9-a459a959cd1b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     }
   ],
   "route": {

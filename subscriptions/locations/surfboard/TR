@@ -9,13 +9,12 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇹🇷 TR | VMESS | @vpnplusee_free #1 = vmess, 103.215.218.158, 22324, username = 04621bae-ab36-11ec-b909-0242ac120002, ws = false, tls = false
-🇹🇷 TR | VMESS | @vpnplusee_free #2 = vmess, 103.215.218.158, 22324, username = 04621bae-ab36-11ec-b909-0242ac120002, ws = false, tls = false
+🇹🇷 TR | VMESS | @free1_vpn #1 = vmess, 103.215.218.158, 22324, username = 04621bae-ab36-11ec-b909-0242ac120002, ws = false, tls = false
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇹🇷 TR | VMESS | @vpnplusee_free #1, 🇹🇷 TR | VMESS | @vpnplusee_free #2
-PSG-AUTO = url-test, 🇹🇷 TR | VMESS | @vpnplusee_free #1, 🇹🇷 TR | VMESS | @vpnplusee_free #2
-PSG-FALLBACK = fallback, 🇹🇷 TR | VMESS | @vpnplusee_free #1, 🇹🇷 TR | VMESS | @vpnplusee_free #2
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇹🇷 TR | VMESS | @free1_vpn #1
+PSG-AUTO = url-test, 🇹🇷 TR | VMESS | @free1_vpn #1
+PSG-FALLBACK = fallback, 🇹🇷 TR | VMESS | @free1_vpn #1
 
 [Rule]
 GEOIP,IR,DIRECT
