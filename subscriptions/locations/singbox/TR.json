@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VMESS | @free1_vpn #1"
+        "🇹🇷 TR | VMESS | @free1_vpn #1",
+        "🇹🇷 TR | VLESS | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VMESS | @free1_vpn #1"
+        "🇹🇷 TR | VMESS | @free1_vpn #1",
+        "🇹🇷 TR | VLESS | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -117,6 +119,23 @@
       "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
       "security": "auto",
       "alter_id": 0
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @netfreedom0 #1",
+      "type": "vless",
+      "server": "87.120.106.180",
+      "server_port": 443,
+      "uuid": "0ed9a248-f693-46c1-ba1b-91d0a6dfa6a5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
