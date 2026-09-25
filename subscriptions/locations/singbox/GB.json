@@ -97,13 +97,14 @@
         "🇬🇧 GB | VLESS | @outlinereleasedkey #1",
         "🇬🇧 GB | VLESS | @privatevpns #1",
         "🇬🇧 GB | VLESS | @privatevpns #2",
-        "🇬🇧 GB | VLESS | @v2raych #1",
-        "🇬🇧 GB | VLESS | @v2raych #2",
         "🇬🇧 GB | SS | @v2rayng3 #1",
         "🇬🇧 GB | SS | @v2rayng3 #2",
         "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
-        "🇬🇧 GB | VMESS | @vpn_ioss #1",
-        "🇬🇧 GB | VLESS | @vpnplusee_free #1"
+        "🇬🇧 GB | VLESS | @v2rayvpnchannel #1",
+        "🇬🇧 GB | VLESS | @v2rayvpnchannel #2",
+        "🇬🇧 GB | VLESS | @vlessconfig #1",
+        "🇬🇧 GB | VLESS | @vlessconfig #2",
+        "🇬🇧 GB | VMESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -118,13 +119,14 @@
         "🇬🇧 GB | VLESS | @outlinereleasedkey #1",
         "🇬🇧 GB | VLESS | @privatevpns #1",
         "🇬🇧 GB | VLESS | @privatevpns #2",
-        "🇬🇧 GB | VLESS | @v2raych #1",
-        "🇬🇧 GB | VLESS | @v2raych #2",
         "🇬🇧 GB | SS | @v2rayng3 #1",
         "🇬🇧 GB | SS | @v2rayng3 #2",
         "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
-        "🇬🇧 GB | VMESS | @vpn_ioss #1",
-        "🇬🇧 GB | VLESS | @vpnplusee_free #1"
+        "🇬🇧 GB | VLESS | @v2rayvpnchannel #1",
+        "🇬🇧 GB | VLESS | @v2rayvpnchannel #2",
+        "🇬🇧 GB | VLESS | @vlessconfig #1",
+        "🇬🇧 GB | VLESS | @vlessconfig #2",
+        "🇬🇧 GB | VMESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -215,22 +217,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "18.169.126.60",
-      "server_port": 22223,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "18.169.126.60",
-      "server_port": 22224,
-      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇬🇧 GB | SS | @v2rayng3 #1",
       "type": "shadowsocks",
       "server": "82.38.31.198",
@@ -255,6 +241,38 @@
       "password": null
     },
     {
+      "tag": "🇬🇧 GB | VLESS | @v2rayvpnchannel #1",
+      "type": "vless",
+      "server": "18.169.126.60",
+      "server_port": 22223,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @v2rayvpnchannel #2",
+      "type": "vless",
+      "server": "35.176.47.30",
+      "server_port": 22223,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @vlessconfig #1",
+      "type": "vless",
+      "server": "18.169.126.60",
+      "server_port": 22224,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VLESS | @vlessconfig #2",
+      "type": "vless",
+      "server": "35.176.47.30",
+      "server_port": 22224,
+      "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇬🇧 GB | VMESS | @vpn_ioss #1",
       "type": "vmess",
       "server": "66.163.117.58",
@@ -262,28 +280,6 @@
       "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
       "security": "auto",
       "alter_id": 0
-    },
-    {
-      "tag": "🇬🇧 GB | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "82.39.171.142",
-      "server_port": 443,
-      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     }
   ],
   "route": {

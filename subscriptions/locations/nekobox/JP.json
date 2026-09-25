@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇯🇵 JP | VLESS | @megavpn_link #1",
-        "🇯🇵 JP | VLESS | @v2raych #1",
+        "🇯🇵 JP | TROJAN | @mtproxy22_v2ray #1",
+        "🇯🇵 JP | VLESS | @red2ray #1",
         "🇯🇵 JP | SS | @v2rayng3 #1"
       ],
       "tag": "proxy",
@@ -88,7 +89,8 @@
       "interval": "10m",
       "outbounds": [
         "🇯🇵 JP | VLESS | @megavpn_link #1",
-        "🇯🇵 JP | VLESS | @v2raych #1",
+        "🇯🇵 JP | TROJAN | @mtproxy22_v2ray #1",
+        "🇯🇵 JP | VLESS | @red2ray #1",
         "🇯🇵 JP | SS | @v2rayng3 #1"
       ],
       "tag": "auto",
@@ -122,11 +124,27 @@
       }
     },
     {
-      "tag": "🇯🇵 JP | VLESS | @v2raych #1",
+      "tag": "🇯🇵 JP | TROJAN | @mtproxy22_v2ray #1",
+      "type": "trojan",
+      "server": "v2jp.k1.ssnss.live",
+      "server_port": 44184,
+      "password": "d050aca3-9df2-4461-90ec-92373c1d7636",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "20.78.4.41",
-      "server_port": 443,
-      "uuid": "8dc3a9ee-51a6-4737-c40a-472246303713",
+      "server": "124.156.230.31",
+      "server_port": 48795,
+      "uuid": "44557727-e197-45c5-9637-d8455491fa9a",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -135,6 +153,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
