@@ -90,10 +90,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | SS | @netfreedom0 #1",
-        "🇵🇱 PL | VLESS | @orange_vpns #1",
+        "🇵🇱 PL | VLESS | @outline_ir #1",
         "🇵🇱 PL | VLESS | @red2ray #1",
         "🇵🇱 PL | VLESS | @v2ray_collector #1",
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
         "🇵🇱 PL | VLESS | @vmesc #1",
         "🇵🇱 PL | VLESS | @vmesskhodam #1"
       ],
@@ -103,10 +103,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | SS | @netfreedom0 #1",
-        "🇵🇱 PL | VLESS | @orange_vpns #1",
+        "🇵🇱 PL | VLESS | @outline_ir #1",
         "🇵🇱 PL | VLESS | @red2ray #1",
         "🇵🇱 PL | VLESS | @v2ray_collector #1",
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
         "🇵🇱 PL | VLESS | @vmesc #1",
         "🇵🇱 PL | VLESS | @vmesskhodam #1"
       ],
@@ -120,19 +120,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | SS | @netfreedom0 #1",
-      "type": "shadowsocks",
-      "server": "217.30.10.44",
-      "server_port": 9076,
-      "method": "YWVzLTI1Ni1jZmI6UzJ6RHl5UGNtWk4yaDhFQw==",
-      "password": null
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @orange_vpns #1",
+      "tag": "🇵🇱 PL | VLESS | @outline_ir #1",
       "type": "vless",
-      "server": "82.40.62.92",
+      "server": "144.31.5.64",
       "server_port": 443,
-      "uuid": "521b29e7-8ce0-0012-a210-79069f701464",
+      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -141,11 +133,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
@@ -178,6 +165,28 @@
       "server_port": 33743,
       "uuid": "b3a11068-1a7e-4643-85de-7c82cce46943",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "94.249.180.45",
+      "server_port": 443,
+      "uuid": "fed5c436-f9aa-4a60-b25f-876052fdf578",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇵🇱 PL | VLESS | @vmesc #1",

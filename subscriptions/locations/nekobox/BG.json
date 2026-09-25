@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇧🇬 BG | VLESS | @outline_ir #1",
         "🇧🇬 BG | VLESS | @v2ray_collector #1"
       ],
       "tag": "proxy",
@@ -85,6 +86,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇧🇬 BG | VLESS | @outline_ir #1",
         "🇧🇬 BG | VLESS | @v2ray_collector #1"
       ],
       "tag": "auto",
@@ -99,6 +101,28 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇧🇬 BG | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "87.120.216.144",
+      "server_port": 443,
+      "uuid": "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇧🇬 BG | VLESS | @v2ray_collector #1",
