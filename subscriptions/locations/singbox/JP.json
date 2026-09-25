@@ -91,7 +91,7 @@
         "auto",
         "direct",
         "🇯🇵 JP | VLESS | @megavpn_link #1",
-        "🇯🇵 JP | SS | @red2ray #1",
+        "🇯🇵 JP | VLESS | @v2ray_free_conf #1",
         "🇯🇵 JP | SS | @v2rayng3 #1"
       ],
       "tag": "proxy",
@@ -101,7 +101,7 @@
       "interval": "10m",
       "outbounds": [
         "🇯🇵 JP | VLESS | @megavpn_link #1",
-        "🇯🇵 JP | SS | @red2ray #1",
+        "🇯🇵 JP | VLESS | @v2ray_free_conf #1",
         "🇯🇵 JP | SS | @v2rayng3 #1"
       ],
       "tag": "auto",
@@ -131,12 +131,26 @@
       }
     },
     {
-      "tag": "🇯🇵 JP | SS | @red2ray #1",
-      "type": "shadowsocks",
-      "server": "74.222.12.141",
-      "server_port": 2087,
-      "method": "YWVzLTI1Ni1nY206NjY1ZTAwMzM1YmIyZmI1ZjdlZTgyNDM5NTIyMDVlNWU=",
-      "password": null
+      "tag": "🇯🇵 JP | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "38.47.52.179",
+      "server_port": 15309,
+      "uuid": "1432611c-5ccd-44a3-b2bb-e1da0d9131b5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇯🇵 JP | SS | @v2rayng3 #1",
