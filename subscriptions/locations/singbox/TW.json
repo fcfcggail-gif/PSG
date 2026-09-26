@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇹🇼 TW | VLESS | @v2raych #1",
         "🇹🇼 TW | VMESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -98,6 +99,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇹🇼 TW | VLESS | @v2raych #1",
         "🇹🇼 TW | VMESS | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -108,6 +110,23 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇹🇼 TW | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "tw999.zhujue.us",
+      "server_port": 443,
+      "uuid": "4bf974c5-35f1-4673-8acb-4d66b678c749",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇹🇼 TW | VMESS | @vpn_ioss #1",

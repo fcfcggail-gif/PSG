@@ -78,10 +78,8 @@
         "auto",
         "direct",
         "🇮🇹 IT | VLESS | @NamiraConfigs #1",
-        "🇮🇹 IT | VLESS | @freeconfigsplus #1",
         "🇮🇹 IT | SS | @netfreedom0 #1",
-        "🇮🇹 IT | SS | @netfreedom0 #2",
-        "🇮🇹 IT | VLESS | @red2ray #1"
+        "🇮🇹 IT | SS | @netfreedom0 #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -90,10 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇮🇹 IT | VLESS | @NamiraConfigs #1",
-        "🇮🇹 IT | VLESS | @freeconfigsplus #1",
         "🇮🇹 IT | SS | @netfreedom0 #1",
-        "🇮🇹 IT | SS | @netfreedom0 #2",
-        "🇮🇹 IT | VLESS | @red2ray #1"
+        "🇮🇹 IT | SS | @netfreedom0 #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -117,23 +113,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇹 IT | VLESS | @freeconfigsplus #1",
-      "type": "vless",
-      "server": "31.76.113.51",
-      "server_port": 443,
-      "uuid": "dfc0cb9d-f005-41b0-848c-7703bd39d0de",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇮🇹 IT | SS | @netfreedom0 #1",
       "type": "shadowsocks",
       "server": "91.201.65.122",
@@ -148,14 +127,6 @@
       "server_port": 9092,
       "method": "YWVzLTI1Ni1jZmI6VHlOa0dtcDloczZlR3BESw==",
       "password": null
-    },
-    {
-      "tag": "🇮🇹 IT | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "151.101.240.148",
-      "server_port": 80,
-      "uuid": "cd1956d7-f803-4e5a-b8a4-f1540bd103d1",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {
