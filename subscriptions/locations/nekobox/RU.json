@@ -79,9 +79,9 @@
         "direct",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
-        "🇷🇺 RU | VLESS | @orange_vpns #1",
         "🇷🇺 RU | VLESS | @outline_ir #1",
         "🇷🇺 RU | VLESS | @outline_ir #2",
+        "🇷🇺 RU | VLESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @v2raytg #1"
       ],
       "tag": "proxy",
@@ -92,9 +92,9 @@
       "outbounds": [
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
-        "🇷🇺 RU | VLESS | @orange_vpns #1",
         "🇷🇺 RU | VLESS | @outline_ir #1",
         "🇷🇺 RU | VLESS | @outline_ir #2",
+        "🇷🇺 RU | VLESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @v2raytg #1"
       ],
       "tag": "auto",
@@ -155,7 +155,7 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @orange_vpns #1",
+      "tag": "🇷🇺 RU | VLESS | @outline_ir #1",
       "type": "vless",
       "server": "185.141.227.180",
       "server_port": 2053,
@@ -163,11 +163,33 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @outline_ir #1",
+      "tag": "🇷🇺 RU | VLESS | @outline_ir #2",
       "type": "vless",
-      "server": "91.210.169.181",
+      "server": "188.225.58.238",
       "server_port": 443,
-      "uuid": "ff0b6ba8-bed0-4c4d-bbc9-23af47582615",
+      "uuid": "7cde4592-4758-415f-8b97-c188faa4d1c9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "46.8.200.91",
+      "server_port": 443,
+      "uuid": "0a2dde28-70da-4863-a06f-35d007d94d35",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -178,14 +200,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @outline_ir #2",
-      "type": "vless",
-      "server": "185.141.227.180",
-      "server_port": 2053,
-      "uuid": "2c634977-584e-4e1f-b501-1b70c77a6743",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @v2raytg #1",

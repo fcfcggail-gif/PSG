@@ -77,8 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇱 IL | VLESS | @v2raych #1",
-        "🇮🇱 IL | VLESS | @v2raych #2"
+        "🇷🇴 RO | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇱 IL | VLESS | @v2raych #1",
-        "🇮🇱 IL | VLESS | @v2raych #2"
+        "🇷🇴 RO | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,20 +101,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇱 IL | VLESS | @v2raych #1",
+      "tag": "🇷🇴 RO | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "de2.dzvn.space",
-      "server_port": 2291,
-      "uuid": "25284368-40d5-4abe-9f56-54a07e88a7af",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇱 IL | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "de2.dzvn.space",
-      "server_port": 2291,
-      "uuid": "25284368-40d5-4abe-9f56-54a07e88a7af",
-      "packet_encoding": "xudp"
+      "server": "85.90.196.203",
+      "server_port": 443,
+      "uuid": "d6b59299-2f48-4e9b-9130-b9e9cb5d0a51",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

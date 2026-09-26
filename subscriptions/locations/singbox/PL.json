@@ -90,10 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @v2ray_collector #1",
         "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
-        "🇵🇱 PL | VLESS | @vmesc #1",
-        "🇵🇱 PL | VLESS | @vmesskhodam #1"
+        "🇵🇱 PL | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,10 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @v2ray_collector #1",
         "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
-        "🇵🇱 PL | VLESS | @vmesc #1",
-        "🇵🇱 PL | VLESS | @vmesskhodam #1"
+        "🇵🇱 PL | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,19 +112,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @v2ray_collector #1",
-      "type": "vless",
-      "server": "185.223.57.16",
-      "server_port": 33743,
-      "uuid": "b3a11068-1a7e-4643-85de-7c82cce46943",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "80.47.6.12",
+      "server": "s2.dipvpn.ru",
       "server_port": 443,
-      "uuid": "4bdeee92-97e8-414d-bef6-ec1d5e2ab73b",
+      "uuid": "3559f1f7-7d70-46c9-82db-d2b46269300b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -161,14 +149,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "201.10.90.24",
-      "server_port": 2027,
-      "uuid": "a6b29052-e9ba-4714-a43c-4a660f452c44",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {
