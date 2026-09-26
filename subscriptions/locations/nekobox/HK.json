@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | TROJAN | @jiedianf #1"
+        "🇭🇰 HK | TROJAN | @jiedianf #1",
+        "🇭🇰 HK | VMESS | @v2ray_collector #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | TROJAN | @jiedianf #1"
+        "🇭🇰 HK | TROJAN | @jiedianf #1",
+        "🇭🇰 HK | VMESS | @v2ray_collector #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -113,6 +115,31 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇭🇰 HK | VMESS | @v2ray_collector #1",
+      "type": "vmess",
+      "server": "nycqg19zkwacpm1b.v.3dns.vip",
+      "server_port": 443,
+      "uuid": "f23bb427-c1f9-4373-876c-2f43e9f790f3",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "nycqg19zkwacpm1b.v.3dns.vip",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws-vmess",
+        "headers": {
+          "Host": "nycqg19zkwacpm1b.v.3dns.vip"
         }
       }
     }

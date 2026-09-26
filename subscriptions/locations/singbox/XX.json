@@ -92,6 +92,7 @@
         "direct",
         "🇽🇽 XX | VLESS | @Fr33C0nfig #1",
         "🇽🇽 XX | VLESS | @NamiraConfigs #1",
+        "🇽🇽 XX | VLESS | @NamiraConfigs #2",
         "🇽🇽 XX | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @ai_duet #2",
         "🇽🇽 XX | VLESS | @ai_duet #3",
@@ -196,7 +197,6 @@
         "🇽🇽 XX | VMESS | @mi_pn_official #1",
         "🇽🇽 XX | VLESS | @miov2ray #1",
         "🇽🇽 XX | VLESS | @miov2ray #2",
-        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
         "🇽🇽 XX | TROJAN | @mtproxy22_v2ray #1",
         "🇽🇽 XX | VLESS | @nepo_v2ray #1",
         "🇽🇽 XX | VLESS | @nepo_v2ray #2",
@@ -236,9 +236,6 @@
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇽🇽 XX | VLESS | @prrofile_purple #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #2",
-        "🇽🇽 XX | VLESS | @prrofile_purple #3",
-        "🇽🇽 XX | VLESS | @prrofile_purple #4",
-        "🇽🇽 XX | VLESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @renetvpn #1",
         "🇽🇽 XX | VLESS | @renetvpn #2",
         "🇽🇽 XX | VLESS | @renetvpn #3",
@@ -268,6 +265,8 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
@@ -326,6 +325,7 @@
       "outbounds": [
         "🇽🇽 XX | VLESS | @Fr33C0nfig #1",
         "🇽🇽 XX | VLESS | @NamiraConfigs #1",
+        "🇽🇽 XX | VLESS | @NamiraConfigs #2",
         "🇽🇽 XX | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @ai_duet #2",
         "🇽🇽 XX | VLESS | @ai_duet #3",
@@ -430,7 +430,6 @@
         "🇽🇽 XX | VMESS | @mi_pn_official #1",
         "🇽🇽 XX | VLESS | @miov2ray #1",
         "🇽🇽 XX | VLESS | @miov2ray #2",
-        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
         "🇽🇽 XX | TROJAN | @mtproxy22_v2ray #1",
         "🇽🇽 XX | VLESS | @nepo_v2ray #1",
         "🇽🇽 XX | VLESS | @nepo_v2ray #2",
@@ -470,9 +469,6 @@
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇽🇽 XX | VLESS | @prrofile_purple #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #2",
-        "🇽🇽 XX | VLESS | @prrofile_purple #3",
-        "🇽🇽 XX | VLESS | @prrofile_purple #4",
-        "🇽🇽 XX | VLESS | @red2ray #1",
         "🇽🇽 XX | VLESS | @renetvpn #1",
         "🇽🇽 XX | VLESS | @renetvpn #2",
         "🇽🇽 XX | VLESS | @renetvpn #3",
@@ -502,6 +498,8 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #2",
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
@@ -575,6 +573,23 @@
       "server": "104.21.65.150",
       "server_port": 443,
       "uuid": "c854ace9-1dc7-4fc4-b87b-6b00db3cc4ed",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @NamiraConfigs #2",
+      "type": "vless",
+      "server": "172.64.149.54",
+      "server_port": 443,
+      "uuid": "fe34b5df-e634-4c83-a057-e53f41ce8e27",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -1896,31 +1911,6 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
-      "type": "vmess",
-      "server": "workers.dev",
-      "server_port": 443,
-      "uuid": "7a70e0f7-170d-4ab0-82a0-c40554bfb320",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "workers.dev",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/111111.online",
-        "headers": {
-          "Host": "workers.dev"
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | TROJAN | @mtproxy22_v2ray #1",
       "type": "trojan",
       "server": "www.speedtest.org",
@@ -2382,7 +2372,7 @@
     {
       "tag": "🇽🇽 XX | VLESS | @prrofile_purple #1",
       "type": "vless",
-      "server": "104.18.37.228",
+      "server": "104.16.79.73",
       "server_port": 443,
       "uuid": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
       "packet_encoding": "xudp",
@@ -2399,61 +2389,10 @@
     {
       "tag": "🇽🇽 XX | VLESS | @prrofile_purple #2",
       "type": "vless",
-      "server": "104.18.37.228",
-      "server_port": 443,
-      "uuid": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @prrofile_purple #3",
-      "type": "vless",
-      "server": "104.16.79.73",
-      "server_port": 443,
-      "uuid": "83afd88f-200f-4d89-bfc7-66eff160c1d8",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @prrofile_purple #4",
-      "type": "vless",
       "server": "172.66.213.38",
       "server_port": 2096,
       "uuid": "35d2a009-4f71-4b99-85ef-369bb75908e1",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "172.64.150.217",
-      "server_port": 443,
-      "uuid": "a8c56cf4-6a1e-4f0f-a36a-20ed76d54056",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @renetvpn #1",
@@ -2801,6 +2740,22 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "cctvhikvision.center",
+      "server_port": 2052,
+      "uuid": "1f61ccc1-cd38-49cd-97aa-a71771433976",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "188.114.97.6",
+      "server_port": 80,
+      "uuid": "213d9ee6-a066-4477-b1f7-110055529d6c",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "104.21.89.181",
@@ -2851,15 +2806,17 @@
     {
       "tag": "🇽🇽 XX | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "172.67.209.127",
-      "server_port": 8880,
-      "uuid": "1b3ad465-d37e-48a2-bb53-d7fddfc97b11",
+      "server": "104.21.43.13",
+      "server_port": 443,
+      "uuid": "62e499fe-458e-47da-a0c8-cae69144ebe9",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
