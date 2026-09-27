@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇳 CN | VLESS | @v2raych #1"
+        "🇨🇳 CN | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇳 CN | VLESS | @v2raych #1"
+        "🇨🇳 CN | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,21 @@
       "type": "direct"
     },
     {
-      "tag": "🇨🇳 CN | VLESS | @v2raych #1",
+      "tag": "🇨🇳 CN | VLESS | @v2ray_free_conf #1",
       "type": "vless",
       "server": "122.8.45.2",
-      "server_port": 8443,
+      "server_port": 443,
       "uuid": "3ae00194-1bc0-0bf4-9564-3c55b1c6d485",
-      "packet_encoding": "xudp"
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
