@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇵🇱 PL | VLESS | @vmesc #1", "server": "pl4.moritech.net", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇵🇱 PL | VLESS | @vpnplusee_free #1", "server": "201.7.25.126", "port": 24446, "type": "vless", "skip-cert-verify": true, "uuid": "b229d38c-35ec-4a0b-9c86-8fceba243d6c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇵🇱 PL | VLESS | @vmesc #1'
+      - '🇵🇱 PL | VLESS | @vpnplusee_free #1'
 
   - name: 🌍 Global Media
     type: select

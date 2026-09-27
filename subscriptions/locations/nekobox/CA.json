@@ -79,7 +79,9 @@
         "direct",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
+        "🇨🇦 CA | VMESS | @mtproxy22_v2ray #1",
         "🇨🇦 CA | VLESS | @serverv2ray00 #1",
+        "🇨🇦 CA | VLESS | @v2raych #1",
         "🇨🇦 CA | SS | @vmesc #1"
       ],
       "tag": "proxy",
@@ -90,7 +92,9 @@
       "outbounds": [
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
+        "🇨🇦 CA | VMESS | @mtproxy22_v2ray #1",
         "🇨🇦 CA | VLESS | @serverv2ray00 #1",
+        "🇨🇦 CA | VLESS | @v2raych #1",
         "🇨🇦 CA | SS | @vmesc #1"
       ],
       "tag": "auto",
@@ -130,11 +134,44 @@
       }
     },
     {
+      "tag": "🇨🇦 CA | VMESS | @mtproxy22_v2ray #1",
+      "type": "vmess",
+      "server": "137.184.164.233",
+      "server_port": 80,
+      "uuid": "5cee90e3-b915-4f1e-bb8d-efadad0c6feb",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/vmess",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
       "tag": "🇨🇦 CA | VLESS | @serverv2ray00 #1",
       "type": "vless",
       "server": "23.227.60.7",
       "server_port": 443,
       "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇨🇦 CA | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "209.200.246.148",
+      "server_port": 443,
+      "uuid": "ca52e2b6-fb9f-4dac-b6dc-49da9923f251",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
