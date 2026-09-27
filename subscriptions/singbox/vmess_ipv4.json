@@ -99,10 +99,10 @@
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
+        "🇧🇿 BZ | VMESS | @mtproxy22_v2ray #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇬🇧 GB | VMESS | @vpn_ioss #1",
-        "🇹🇼 TW | VMESS | @vpn_ioss #1",
-        "🇩🇪 DE | VMESS | @vpn_ioss #1"
+        "🇹🇼 TW | VMESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -119,10 +119,10 @@
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
+        "🇧🇿 BZ | VMESS | @mtproxy22_v2ray #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇬🇧 GB | VMESS | @vpn_ioss #1",
-        "🇹🇼 TW | VMESS | @vpn_ioss #1",
-        "🇩🇪 DE | VMESS | @vpn_ioss #1"
+        "🇹🇼 TW | VMESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -301,6 +301,31 @@
       }
     },
     {
+      "tag": "🇧🇿 BZ | VMESS | @mtproxy22_v2ray #1",
+      "type": "vmess",
+      "server": "203.30.188.190",
+      "server_port": 443,
+      "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/A2DJOPFT",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VMESS | @proxy48 #1",
       "type": "vmess",
       "server": "172.66.213.38",
@@ -337,15 +362,6 @@
       "server": "165.154.195.38",
       "server_port": 35034,
       "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "tag": "🇩🇪 DE | VMESS | @vpn_ioss #1",
-      "type": "vmess",
-      "server": "82.198.246.37",
-      "server_port": 180,
-      "uuid": "d13fc2f5-3e05-4795-81eb-44143a09e552",
       "security": "auto",
       "alter_id": 0
     }

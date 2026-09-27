@@ -89,14 +89,17 @@
     {
       "outbounds": [
         "auto",
-        "direct"
+        "direct",
+        "🇪🇪 EE | VLESS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
       "type": "selector"
     },
     {
       "interval": "10m",
-      "outbounds": [],
+      "outbounds": [
+        "🇪🇪 EE | VLESS | @outlinereleasedkey #1"
+      ],
       "tag": "auto",
       "tolerance": 50,
       "type": "urltest",
@@ -105,6 +108,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @outlinereleasedkey #1",
+      "type": "vless",
+      "server": "94.183.170.147",
+      "server_port": 8443,
+      "uuid": "66ac188b-bd8d-4218-b9ba-0bad0e152cd0",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
