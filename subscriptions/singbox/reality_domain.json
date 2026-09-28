@@ -99,12 +99,13 @@
         "🇩🇪 DE | VLESS | @nofiltering2 #2",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
         "🇮🇷 IR | VLESS | @orange_vpns #1",
-        "🇸🇪 SE | VLESS | @red2ray #1",
+        "🇩🇪 DE | VLESS | @orange_vpns #2",
+        "🇸🇨 SC | VLESS | @v2ray_collector #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇳🇱 NL | VLESS | @vmesc #1",
         "🇮🇷 IR | VLESS | @vmesc #1",
-        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
+        "🇩🇪 DE | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -121,12 +122,13 @@
         "🇩🇪 DE | VLESS | @nofiltering2 #2",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
         "🇮🇷 IR | VLESS | @orange_vpns #1",
-        "🇸🇪 SE | VLESS | @red2ray #1",
+        "🇩🇪 DE | VLESS | @orange_vpns #2",
+        "🇸🇨 SC | VLESS | @v2ray_collector #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇳🇱 NL | VLESS | @vmesc #1",
         "🇮🇷 IR | VLESS | @vmesc #1",
-        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
+        "🇩🇪 DE | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -304,11 +306,11 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇸🇪 SE | VLESS | @red2ray #1",
+      "tag": "🇩🇪 DE | VLESS | @orange_vpns #2",
       "type": "vless",
-      "server": "sw.bmbrvpn.cc",
+      "server": "files.noneok.com",
       "server_port": 443,
-      "uuid": "aded9f36-430b-46de-9e66-fdf2d88464c7",
+      "uuid": "a8e3155b-ceb1-4fcb-bc0c-2e77ec005401",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -317,11 +319,23 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @v2ray_collector #1",
+      "type": "vless",
+      "server": "gesmankos.sadiepinki.com",
+      "server_port": 443,
+      "uuid": "c5694dc5-39fd-4a92-8430-3837baa522a3",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -414,12 +428,26 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #1",
+      "tag": "🇩🇪 DE | VLESS | @vpnplusee_free #1",
       "type": "vless",
-      "server": "meow-fin.nethcloud.top",
+      "server": "shop.jarorobo.ir",
       "server_port": 8443,
-      "uuid": "4cbefb4d-328c-411d-bf76-780df1082df8",
-      "packet_encoding": "xudp"
+      "uuid": "0ce9e6d8-fa4f-4746-8d8a-1da5c46c964f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

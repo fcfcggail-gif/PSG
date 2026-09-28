@@ -83,7 +83,8 @@
         "🇽🇽 XX | VLESS | @flyv2ray #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
+        "🇽🇽 XX | VLESS | @red2ray #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -97,7 +98,8 @@
         "🇽🇽 XX | VLESS | @flyv2ray #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
-        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
+        "🇽🇽 XX | VLESS | @red2ray #1",
+        "🇮🇷 IR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -227,11 +229,28 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #1",
+      "tag": "🇽🇽 XX | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "meow-fin.nethcloud.top",
-      "server_port": 8443,
-      "uuid": "4cbefb4d-328c-411d-bf76-780df1082df8",
+      "server": "b2n.ir",
+      "server_port": 443,
+      "uuid": "7907dd24-e3f8-4151-a1b2-2608ac4b322e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "de1.masterpgd.com",
+      "server_port": 6013,
+      "uuid": "d207c6c8-a278-487c-b06e-f1fc89304e6d",
       "packet_encoding": "xudp"
     }
   ],
