@@ -97,6 +97,7 @@
         "🇽🇽 XX | VLESS | @evay_vpn #1",
         "🇽🇽 XX | VLESS | @evay_vpn #2",
         "🇺🇸 US | VLESS | @netmellianti #1",
+        "🇺🇸 US | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
@@ -104,7 +105,7 @@
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
-        "🇸🇨 SC | VLESS | @vpnplusee_free #1"
+        "🇪🇪 EE | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -119,6 +120,7 @@
         "🇽🇽 XX | VLESS | @evay_vpn #1",
         "🇽🇽 XX | VLESS | @evay_vpn #2",
         "🇺🇸 US | VLESS | @netmellianti #1",
+        "🇺🇸 US | VLESS | @orange_vpns #1",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
@@ -126,7 +128,7 @@
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #1",
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
-        "🇸🇨 SC | VLESS | @vpnplusee_free #1"
+        "🇪🇪 EE | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -269,6 +271,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇺🇸 US | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "151.101.1.194",
+      "server_port": 443,
+      "uuid": "371fa59f-e622-4776-af66-7f72c84f2dce",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @proxie #1",
       "type": "vless",
       "server": "104.21.62.144",
@@ -379,12 +398,21 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @vpnplusee_free #1",
+      "tag": "🇪🇪 EE | VLESS | @vmesskhodam #1",
       "type": "vless",
-      "server": "45.130.125.194",
-      "server_port": 8443,
-      "uuid": "2d11f9a7-5cb9-4a76-acbe-0064305b570a",
-      "packet_encoding": "xudp"
+      "server": "143.246.41.23",
+      "server_port": 443,
+      "uuid": "56c31489-bb78-472d-afcc-47aa475b99e4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

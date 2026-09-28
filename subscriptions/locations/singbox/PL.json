@@ -90,9 +90,11 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇵🇱 PL | VLESS | @mehrosaboran #1",
         "🇵🇱 PL | SS | @netfreedom0 #1",
         "🇵🇱 PL | VLESS | @outlinereleasedkey #1",
-        "🇵🇱 PL | VLESS | @vmesc #1"
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+        "🇵🇱 PL | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +102,11 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇵🇱 PL | VLESS | @mehrosaboran #1",
         "🇵🇱 PL | SS | @netfreedom0 #1",
         "🇵🇱 PL | VLESS | @outlinereleasedkey #1",
-        "🇵🇱 PL | VLESS | @vmesc #1"
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+        "🇵🇱 PL | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,6 +116,28 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @mehrosaboran #1",
+      "type": "vless",
+      "server": "193.34.213.10",
+      "server_port": 443,
+      "uuid": "8d2341a3-13b8-4e5e-84e1-da1c4923149a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇵🇱 PL | SS | @netfreedom0 #1",
@@ -130,11 +156,19 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @vmesc #1",
+      "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "pl4.moritech.net",
+      "server": "83.168.89.185",
+      "server_port": 9443,
+      "uuid": "e60bc99b-6630-4799-af84-f90ebdc643b6",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "193.34.213.10",
       "server_port": 443,
-      "uuid": "cd3bb7d9-7df3-4644-ac05-c260990ac277",
+      "uuid": "8d2341a3-13b8-4e5e-84e1-da1c4923149a",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -143,6 +177,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

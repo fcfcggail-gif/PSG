@@ -99,7 +99,8 @@
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
-        "🇬🇧 GB | VMESS | @v2ray_collector #1",
+        "🇳🇱 NL | VMESS | @v2ray_collector #1",
+        "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "proxy",
@@ -130,7 +131,8 @@
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
-        "🇬🇧 GB | VMESS | @v2ray_collector #1",
+        "🇳🇱 NL | VMESS | @v2ray_collector #1",
+        "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "auto",
@@ -637,7 +639,7 @@
       }
     },
     {
-      "tag": "🇬🇧 GB | VMESS | @v2ray_collector #1",
+      "tag": "🇳🇱 NL | VMESS | @v2ray_collector #1",
       "type": "vmess",
       "server": "pahobac.org",
       "server_port": 443,
@@ -658,6 +660,31 @@
         "path": "/linkvws",
         "headers": {
           "Host": "pahobac.org"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @v2ray_collector #1",
+      "type": "vmess",
+      "server": "aidrivercat.org",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {
+          "Host": ""
         }
       }
     },

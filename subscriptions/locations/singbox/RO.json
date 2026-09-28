@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgS1I=
+//profile-title: base64:UFNHIHwgUk8=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇰🇷 KR | TROJAN | @mtproxy22_v2ray #1"
+        "🇷🇴 RO | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇰🇷 KR | TROJAN | @mtproxy22_v2ray #1"
+        "🇷🇴 RO | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,20 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇰🇷 KR | TROJAN | @mtproxy22_v2ray #1",
-      "type": "trojan",
-      "server": "caring-wallaby.rooster465.autos",
-      "server_port": 443,
-      "password": "CF68213490",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "tag": "🇷🇴 RO | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "ro-xh02.tcp-reset-club.net",
+      "server_port": 8443,
+      "uuid": "4fb82973-a7f1-4fc2-9958-cb21f5162f06",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
