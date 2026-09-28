@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇨🇦 CA | VMESS | @mtproxy22_v2ray #1", "server": "137.184.164.233", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "5cee90e3-b915-4f1e-bb8d-efadad0c6feb", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/vmess", "headers": {"Host": "137.184.164.233"}}}
+  - {"name": "🇨🇦 CA | VMESS | @v2raych #1", "server": "134.195.198.214", "port": 22324, "type": "vmess", "skip-cert-verify": true, "uuid": "04621bae-ab36-11ec-b909-0242ac120002", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇨🇦 CA | VMESS | @mtproxy22_v2ray #1'
+      - '🇨🇦 CA | VMESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select
