@@ -84,6 +84,7 @@
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
         "🇬🇧 GB | VLESS | @privatevpns #1",
         "🇬🇧 GB | VLESS | @privatevpns #2",
+        "🇬🇧 GB | VMESS | @v2ray_collector #1",
         "🇬🇧 GB | SS | @v2rayng3 #1",
         "🇬🇧 GB | SS | @v2rayng3 #2",
         "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
@@ -107,6 +108,7 @@
         "🇬🇧 GB | SS | @outlinereleasedkey #1",
         "🇬🇧 GB | VLESS | @privatevpns #1",
         "🇬🇧 GB | VLESS | @privatevpns #2",
+        "🇬🇧 GB | VMESS | @v2ray_collector #1",
         "🇬🇧 GB | SS | @v2rayng3 #1",
         "🇬🇧 GB | SS | @v2rayng3 #2",
         "🇬🇧 GB | SS | @v2rayngvpn_1 #1",
@@ -199,6 +201,31 @@
       "server_port": 22222,
       "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇬🇧 GB | VMESS | @v2ray_collector #1",
+      "type": "vmess",
+      "server": "pahobac.org",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "pahobac.org",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {
+          "Host": "pahobac.org"
+        }
+      }
     },
     {
       "tag": "🇬🇧 GB | SS | @v2rayng3 #1",
