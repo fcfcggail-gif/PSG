@@ -91,8 +91,9 @@
         "auto",
         "direct",
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
-        "🇸🇬 SG | VLESS | @v2raych #1",
-        "🇸🇬 SG | VLESS | @v2rayexpress #1"
+        "🇸🇬 SG | VLESS | @red2ray #1",
+        "🇸🇬 SG | VLESS | @v2rayexpress #1",
+        "🇸🇬 SG | VLESS | @v2raying #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,8 +102,9 @@
       "interval": "10m",
       "outbounds": [
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
-        "🇸🇬 SG | VLESS | @v2raych #1",
-        "🇸🇬 SG | VLESS | @v2rayexpress #1"
+        "🇸🇬 SG | VLESS | @red2ray #1",
+        "🇸🇬 SG | VLESS | @v2rayexpress #1",
+        "🇸🇬 SG | VLESS | @v2raying #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -138,12 +140,26 @@
       }
     },
     {
-      "tag": "🇸🇬 SG | VLESS | @v2raych #1",
+      "tag": "🇸🇬 SG | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "3.0.111.82",
-      "server_port": 10574,
-      "uuid": "814bd064-544d-4255-a070-5705c03f6da9",
-      "packet_encoding": "xudp"
+      "server": "sg-1.gsafevpnapi.com",
+      "server_port": 20270,
+      "uuid": "e3a14b3d-8995-4031-a207-32ba5707c1ba",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇸🇬 SG | VLESS | @v2rayexpress #1",
@@ -166,6 +182,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @v2raying #1",
+      "type": "vless",
+      "server": "18.139.227.162",
+      "server_port": 28243,
+      "uuid": "d00d9d18-20cf-4191-be76-6f73d43a27ec",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

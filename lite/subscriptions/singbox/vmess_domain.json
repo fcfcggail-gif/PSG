@@ -103,9 +103,10 @@
         "🇩🇪 DE | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
+        "🇺🇸 US | VMESS | @mtproxy22_v2ray #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
-        "🇬🇧 GB | VMESS | @v2ray_collector #1",
+        "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "proxy",
@@ -127,9 +128,10 @@
         "🇩🇪 DE | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
+        "🇺🇸 US | VMESS | @mtproxy22_v2ray #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
-        "🇬🇧 GB | VMESS | @v2ray_collector #1",
+        "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "auto",
@@ -432,6 +434,31 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VMESS | @mtproxy22_v2ray #1",
+      "type": "vmess",
+      "server": "141.101.114.32",
+      "server_port": 443,
+      "uuid": "17b2a313-37a0-4945-a8e4-e63375506b4a",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "lg10.cfcdn1.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/A2DJOPFT",
+        "headers": {
+          "Host": "lg10.cfcdn1.xyz"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @proxy48 #1",
       "type": "vmess",
       "server": "188.114.97.3",
@@ -482,16 +509,16 @@
       }
     },
     {
-      "tag": "🇬🇧 GB | VMESS | @v2ray_collector #1",
+      "tag": "🇺🇸 US | VMESS | @v2ray_collector #1",
       "type": "vmess",
-      "server": "pahobac.org",
+      "server": "aidrivercat.org",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "pahobac.org",
+        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -502,7 +529,7 @@
         "type": "ws",
         "path": "/linkvws",
         "headers": {
-          "Host": "pahobac.org"
+          "Host": ""
         }
       }
     },
