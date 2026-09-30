@@ -103,15 +103,14 @@
         "🇩🇪 DE | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
+        "🇬🇧 GB | VMESS | @outlinereleasedkey #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
-        "🇹🇼 TW | VMESS | @vpn_ioss #1",
-        "🇨🇦 CA | VMESS | @vpnplusee_free #1"
+        "🇹🇼 TW | VMESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -132,15 +131,14 @@
         "🇩🇪 DE | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
+        "🇬🇧 GB | VMESS | @outlinereleasedkey #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
-        "🇹🇼 TW | VMESS | @vpn_ioss #1",
-        "🇨🇦 CA | VMESS | @vpnplusee_free #1"
+        "🇹🇼 TW | VMESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -442,6 +440,31 @@
       }
     },
     {
+      "tag": "🇬🇧 GB | VMESS | @outlinereleasedkey #1",
+      "type": "vmess",
+      "server": "139.64.166.25",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "pahobac.org",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {
+          "Host": "pahobac.org"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @proxy48 #1",
       "type": "vmess",
       "server": "188.114.97.3",
@@ -569,45 +592,11 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
-      "type": "vmess",
-      "server": "172.67.135.195",
-      "server_port": 443,
-      "uuid": "b3a21def-5fcc-47a8-a6a0-a34e29d5288a",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/wss51068",
-        "headers": {
-          "Host": ""
-        }
-      }
-    },
-    {
       "tag": "🇹🇼 TW | VMESS | @vpn_ioss #1",
       "type": "vmess",
       "server": "165.154.195.38",
       "server_port": 35034,
       "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "tag": "🇨🇦 CA | VMESS | @vpnplusee_free #1",
-      "type": "vmess",
-      "server": "23.162.200.198",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
       "security": "auto",
       "alter_id": 0
     }

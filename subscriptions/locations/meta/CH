@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇨🇦 CA | VMESS | @vpnplusee_free #1", "server": "23.162.200.198", "port": 18000, "type": "vmess", "skip-cert-verify": true, "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
+  - {"name": "🇨🇭 CH | VLESS | @v2ray_free_conf #1", "server": "185.18.250.127", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "2ee26119-94e5-40b4-ba3a-16354021b600", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇨🇭 CH | VLESS | @v2raych #1", "server": "areal5.greewebservices.ir", "port": 5455, "type": "vless", "skip-cert-verify": true, "uuid": "da803bc9-ec45-4c72-b81f-15ad8dd02eaa", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇨🇦 CA | VMESS | @vpnplusee_free #1'
+      - '🇨🇭 CH | VLESS | @v2ray_free_conf #1'
+      - '🇨🇭 CH | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

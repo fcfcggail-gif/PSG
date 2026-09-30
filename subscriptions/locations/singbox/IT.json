@@ -91,8 +91,8 @@
         "auto",
         "direct",
         "🇮🇹 IT | VLESS | @NamiraConfigs #1",
-        "🇮🇹 IT | SS | @netfreedom0 #1",
-        "🇮🇹 IT | VLESS | @v2ray_free_conf #1"
+        "🇮🇹 IT | VMESS | @free1_vpn #1",
+        "🇮🇹 IT | SS | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,8 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇮🇹 IT | VLESS | @NamiraConfigs #1",
-        "🇮🇹 IT | SS | @netfreedom0 #1",
-        "🇮🇹 IT | VLESS | @v2ray_free_conf #1"
+        "🇮🇹 IT | VMESS | @free1_vpn #1",
+        "🇮🇹 IT | SS | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -122,34 +122,21 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇮🇹 IT | VMESS | @free1_vpn #1",
+      "type": "vmess",
+      "server": "89.41.172.85",
+      "server_port": 22324,
+      "uuid": "04621bae-ab36-11ec-b909-0242ac120002",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
       "tag": "🇮🇹 IT | SS | @netfreedom0 #1",
       "type": "shadowsocks",
       "server": "91.201.65.122",
       "server_port": 9092,
       "method": "YWVzLTI1Ni1jZmI6VHlOa0dtcDloczZlR3BESw==",
       "password": null
-    },
-    {
-      "tag": "🇮🇹 IT | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "31.76.113.240",
-      "server_port": 443,
-      "uuid": "adc11f30-e4cb-4985-bf5e-f9ded69c019f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
     }
   ],
   "route": {
