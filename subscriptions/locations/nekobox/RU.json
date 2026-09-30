@@ -77,13 +77,13 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | VLESS | @free1_vpn #1",
+        "🇷🇺 RU | VLESS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇷🇺 RU | VLESS | @outline_ir #1",
         "🇷🇺 RU | VLESS | @red2ray #1",
+        "🇷🇺 RU | VLESS | @red2ray #2",
         "🇷🇺 RU | VLESS | @v2raytg #1",
-        "🇷🇺 RU | VLESS | @vmesc #1",
         "🇷🇺 RU | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
@@ -92,13 +92,13 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @free1_vpn #1",
+        "🇷🇺 RU | VLESS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
         "🇷🇺 RU | VLESS | @outline_ir #1",
         "🇷🇺 RU | VLESS | @red2ray #1",
+        "🇷🇺 RU | VLESS | @red2ray #2",
         "🇷🇺 RU | VLESS | @v2raytg #1",
-        "🇷🇺 RU | VLESS | @vmesc #1",
         "🇷🇺 RU | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
@@ -115,10 +115,10 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @free1_vpn #1",
+      "tag": "🇷🇺 RU | VLESS | @flyv2ray #1",
       "type": "vless",
-      "server": "176.108.247.104",
-      "server_port": 9881,
+      "server": "176.109.111.152",
+      "server_port": 9894,
       "uuid": "5d16ac22-6eea-426f-b778-6f4c2961faef",
       "packet_encoding": "xudp"
     },
@@ -197,6 +197,28 @@
       }
     },
     {
+      "tag": "🇷🇺 RU | VLESS | @red2ray #2",
+      "type": "vless",
+      "server": "ru-test.omuservice.tech",
+      "server_port": 8443,
+      "uuid": "6db7ea14-ed33-4591-a9b1-f1e91b1c0ff5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇷🇺 RU | VLESS | @v2raytg #1",
       "type": "vless",
       "server": "b02.connectv.net",
@@ -217,14 +239,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @vmesc #1",
-      "type": "vless",
-      "server": "176.108.244.38",
-      "server_port": 9881,
-      "uuid": "5d16ac22-6eea-426f-b778-6f4c2961faef",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @vpnplusee_free #1",
