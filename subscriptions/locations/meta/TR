@@ -23,8 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇳🇱 NL | VMESS | @outlinereleasedkey #1", "server": "139.64.166.25", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkvws", "headers": {"Host": "pahobac.org"}}}
-  - {"name": "🇳🇱 NL | VMESS | @vpnplusee_free #1", "server": "139.64.166.25", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkvws", "headers": {"Host": "pahobac.org"}}}
+  - {"name": "🇹🇷 TR | VLESS | @vmesc #1", "server": "83.217.9.140", "port": 43000, "type": "vless", "skip-cert-verify": true, "uuid": "85163fd9-6f73-4eea-b1df-3b327dacbabf", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇳🇱 NL | VMESS | @outlinereleasedkey #1'
-      - '🇳🇱 NL | VMESS | @vpnplusee_free #1'
+      - '🇹🇷 TR | VLESS | @vmesc #1'
 
   - name: 🌍 Global Media
     type: select

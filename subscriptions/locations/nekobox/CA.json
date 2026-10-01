@@ -79,6 +79,7 @@
         "direct",
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
+        "🇨🇦 CA | VMESS | @mtproxy22_v2ray #1",
         "🇨🇦 CA | SS | @outline_ir #1",
         "🇨🇦 CA | VLESS | @serverv2ray00 #1"
       ],
@@ -90,6 +91,7 @@
       "outbounds": [
         "🇨🇦 CA | VLESS | @jokerv2ray #1",
         "🇨🇦 CA | VLESS | @jokerv2ray #2",
+        "🇨🇦 CA | VMESS | @mtproxy22_v2ray #1",
         "🇨🇦 CA | SS | @outline_ir #1",
         "🇨🇦 CA | VLESS | @serverv2ray00 #1"
       ],
@@ -124,6 +126,31 @@
       "transport": {
         "type": "ws",
         "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇨🇦 CA | VMESS | @mtproxy22_v2ray #1",
+      "type": "vmess",
+      "server": "23.227.38.39",
+      "server_port": 443,
+      "uuid": "56a2188b-2ab7-402c-b9b8-34847fdf0958",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/5QNROSRV",
         "headers": {
           "Host": ""
         }

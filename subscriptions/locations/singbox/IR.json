@@ -320,10 +320,19 @@
     {
       "tag": "🇮🇷 IR | VLESS | @orange_vpns #1",
       "type": "vless",
-      "server": "psde.ramcalshoping.ir",
-      "server_port": 11706,
-      "uuid": "ef54f383-0fce-4bc2-ab9c-a687bdd106d0",
-      "packet_encoding": "xudp"
+      "server": "de-emergency-service.relqino.ir",
+      "server_port": 443,
+      "uuid": "dabb5d60-4ac7-4982-bb01-11502e85b192",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @realvpnmaster #1",
