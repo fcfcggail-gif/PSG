@@ -77,7 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @v2rayopen #1"
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @v2rayopen #1"
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,12 +101,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @v2rayopen #1",
+      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "turkii2.henlo.ir",
-      "server_port": 25920,
-      "uuid": "dc01beee-1a43-4378-91a4-666eb027f664",
-      "packet_encoding": "xudp"
+      "server": "83.217.9.140",
+      "server_port": 43000,
+      "uuid": "85163fd9-6f73-4eea-b1df-3b327dacbabf",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

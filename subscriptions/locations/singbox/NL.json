@@ -96,11 +96,10 @@
         "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1",
         "🇳🇱 NL | VLESS | @mtproxy22_v2ray #2",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
-        "🇳🇱 NL | VLESS | @orange_vpns #2",
+        "🇳🇱 NL | VMESS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @red2ray #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
-        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇳🇱 NL | SS | @v2rayng3 #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
@@ -118,11 +117,10 @@
         "🇳🇱 NL | VLESS | @mtproxy22_v2ray #1",
         "🇳🇱 NL | VLESS | @mtproxy22_v2ray #2",
         "🇳🇱 NL | VLESS | @orange_vpns #1",
-        "🇳🇱 NL | VLESS | @orange_vpns #2",
+        "🇳🇱 NL | VMESS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @red2ray #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
-        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇳🇱 NL | SS | @v2rayng3 #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
@@ -217,33 +215,36 @@
     {
       "tag": "🇳🇱 NL | VLESS | @orange_vpns #1",
       "type": "vless",
-      "server": "129.101.120.5",
-      "server_port": 37951,
-      "uuid": "25284368-40d5-4abe-9f56-54a07e88a7af",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @orange_vpns #2",
-      "type": "vless",
       "server": "31.77.13.19",
       "server_port": 2063,
       "uuid": "b18d5990-96eb-4587-a386-7f8ef7591e6a",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision"
+    },
+    {
+      "tag": "🇳🇱 NL | VMESS | @outlinereleasedkey #1",
+      "type": "vmess",
+      "server": "139.64.166.25",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "pahobac.org",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {
+          "Host": "pahobac.org"
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @qeshmserver #1",
@@ -265,35 +266,9 @@
     {
       "tag": "🇳🇱 NL | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "217.149.26.11",
+      "server": "87.58.201.67",
       "server_port": 443,
-      "uuid": "4abdfe42-aec7-4b66-974d-3f891e2e8184",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @v2ray_collector #1",
-      "type": "vless",
-      "server": "51.158.206.80",
-      "server_port": 23576,
-      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "slowkd.sadiepinki.com",
-      "server_port": 443,
-      "uuid": "71091100-c6ed-41fa-84ac-acf7ff9eeb7f",
+      "uuid": "6e38d9f6-0c9d-437b-8135-20f93f94c572",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -309,6 +284,15 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2ray_collector #1",
+      "type": "vless",
+      "server": "51.158.206.80",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision"
     },
     {
       "tag": "🇳🇱 NL | VLESS | @v2ray_youtube #1",

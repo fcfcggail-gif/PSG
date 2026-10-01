@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇦🇪 AE | SS | @free4allvpn #1",
-        "🇦🇪 AE | VLESS | @vpnfree85 #1"
+        "🇦🇪 AE | VLESS | @vpnfree85 #1",
+        "🇦🇪 AE | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇦🇪 AE | SS | @free4allvpn #1",
-        "🇦🇪 AE | VLESS | @vpnfree85 #1"
+        "🇦🇪 AE | VLESS | @vpnfree85 #1",
+        "🇦🇪 AE | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -133,6 +135,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "157.228.155.198",
+      "server_port": 443,
+      "uuid": "06d44c57-8e1a-41f4-b9c4-65d35869e078",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }
