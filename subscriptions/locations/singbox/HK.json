@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | TROJAN | @jiedianf #1"
+        "🇭🇰 HK | TROJAN | @jiedianf #1",
+        "🇭🇰 HK | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | TROJAN | @jiedianf #1"
+        "🇭🇰 HK | TROJAN | @jiedianf #1",
+        "🇭🇰 HK | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -124,6 +126,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇭🇰 HK | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "54.46.72.234",
+      "server_port": 8030,
+      "uuid": "37665857-8b6e-4daa-8231-3e2927221558",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

@@ -93,8 +93,9 @@
         "🇳🇱 NL | VMESS | @outlinereleasedkey #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
-        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
+        "🇳🇱 NL | VMESS | @vpnplusee_free #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
@@ -122,8 +123,9 @@
         "🇳🇱 NL | VMESS | @outlinereleasedkey #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
-        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
+        "🇳🇱 NL | VMESS | @vpnplusee_free #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
@@ -508,20 +510,27 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+      "tag": "🇺🇸 US | VMESS | @v2ray_collector #1",
       "type": "vmess",
-      "server": "151.101.56.90",
+      "server": "vspeedfast.org",
       "server_port": 443,
-      "uuid": "6ba68c69-e108-502d-7b1c-e806fbc3cccd",
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "default.ssl.fastly.net",
+        "server_name": "vspeedfast.org",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {
+          "Host": "vspeedfast.org"
         }
       }
     },
@@ -547,6 +556,31 @@
         "path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
         "headers": {
           "Host": "cold-dawn-9246.fly.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VMESS | @vpnplusee_free #1",
+      "type": "vmess",
+      "server": "139.64.166.25",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "pahobac.org",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {
+          "Host": "pahobac.org"
         }
       }
     },
