@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇭🇰 HK | TROJAN | @jiedianf #1", "server": "upright-hamster.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "ND91608427"}
+  - {"name": "🇭🇰 HK | VMESS | @outlinereleasedkey #1", "server": "aksai.org", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkvws", "headers": {"Host": "aksai.org"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇭🇰 HK | TROJAN | @jiedianf #1'
+      - '🇭🇰 HK | VMESS | @outlinereleasedkey #1'
 
   - name: 🌍 Global Media
     type: select

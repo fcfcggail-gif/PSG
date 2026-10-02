@@ -77,7 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇷 BR | VMESS | @outlinereleasedkey #1"
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi",
+        "🇮🇷 IR | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +88,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇷 BR | VMESS | @outlinereleasedkey #1"
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi",
+        "🇮🇷 IR | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,16 +107,15 @@
       "type": "direct"
     },
     {
-      "tag": "🇧🇷 BR | VMESS | @outlinereleasedkey #1",
-      "type": "vmess",
-      "server": "aksai.org",
+      "tag": "همکاری_ملی",
+      "type": "vless",
+      "server": "127.0.0.1",
       "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "aksai.org",
+        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -119,11 +124,67 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/linkvws",
+        "path": "",
         "headers": {
-          "Host": "aksai.org"
+          "Host": ""
         }
       }
+    },
+    {
+      "tag": "جاویدشاه",
+      "type": "vless",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "KingRezaPahlavi",
+      "type": "vless",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "p2tun2.greewebservices.ir",
+      "server_port": 1020,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpNMW1saWJMMUxuQnNuNldyOHM0clZn",
+      "password": null
     }
   ],
   "route": {

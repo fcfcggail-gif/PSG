@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQlI=
+//profile-title: base64:UFNHIHwgQkc=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇷 BR | VMESS | @outlinereleasedkey #1"
+        "🇧🇬 BG | VLESS | @free1_vpn #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇷 BR | VMESS | @outlinereleasedkey #1"
+        "🇧🇬 BG | VLESS | @free1_vpn #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,27 +110,24 @@
       "type": "direct"
     },
     {
-      "tag": "🇧🇷 BR | VMESS | @outlinereleasedkey #1",
-      "type": "vmess",
-      "server": "aksai.org",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
+      "tag": "🇧🇬 BG | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "p2real22.greewebservices.ir",
+      "server_port": 1320,
+      "uuid": "179a88d7-9ddb-4d48-ac6c-0f208cf030bc",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "aksai.org",
+        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/linkvws",
-        "headers": {
-          "Host": "aksai.org"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }
