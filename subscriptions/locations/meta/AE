@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇦🇪 AE | VLESS | @red2ray #1", "server": "94.183.154.216", "port": 1001, "type": "vless", "skip-cert-verify": true, "uuid": "3b6c404c-c544-4a9f-bd1f-48542839e5c1", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇦🇪 AE | VLESS | @vpnfree85 #1", "server": "protectnet.cloudinohost.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ea470142-10c6-4b1f-a8e6-0ddcc78a4058", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇦🇪 AE | VLESS | @red2ray #1'
       - '🇦🇪 AE | VLESS | @vpnfree85 #1'
 
   - name: 🌍 Global Media
