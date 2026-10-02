@@ -79,7 +79,7 @@
         "direct",
         "🇵🇱 PL | VLESS | @mehrosaboran #1",
         "🇵🇱 PL | SS | @netfreedom0 #1",
-        "🇵🇱 PL | SS | @netfreedom0 #2",
+        "🇵🇱 PL | VLESS | @v2raych #1",
         "🇵🇱 PL | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
@@ -90,7 +90,7 @@
       "outbounds": [
         "🇵🇱 PL | VLESS | @mehrosaboran #1",
         "🇵🇱 PL | SS | @netfreedom0 #1",
-        "🇵🇱 PL | SS | @netfreedom0 #2",
+        "🇵🇱 PL | VLESS | @v2raych #1",
         "🇵🇱 PL | VLESS | @vmesc #1"
       ],
       "tag": "auto",
@@ -132,17 +132,31 @@
       "tag": "🇵🇱 PL | SS | @netfreedom0 #1",
       "type": "shadowsocks",
       "server": "217.30.10.44",
-      "server_port": 9076,
-      "method": "YWVzLTI1Ni1jZmI6UzJ6RHl5UGNtWk4yaDhFQw==",
-      "password": null
-    },
-    {
-      "tag": "🇵🇱 PL | SS | @netfreedom0 #2",
-      "type": "shadowsocks",
-      "server": "217.30.10.44",
       "server_port": 9052,
       "method": "YWVzLTI1Ni1jZmI6anQyZWtCTmM5SHVWdG0yYQ==",
       "password": null
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "83.168.95.145",
+      "server_port": 443,
+      "uuid": "82f37352-85e5-49bb-9edc-a80997065659",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇵🇱 PL | VLESS | @vmesc #1",

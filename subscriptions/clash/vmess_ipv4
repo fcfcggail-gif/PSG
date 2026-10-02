@@ -23,13 +23,13 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇮🇹 IT | VMESS | @free1_vpn #1", "server": "89.41.172.85", "port": 22324, "type": "vmess", "skip-cert-verify": true, "uuid": "04621bae-ab36-11ec-b909-0242ac120002", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇽🇽 XX | VMESS | @hope_net #1", "server": "104.16.61.8", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "104.16.61.8"}}}
   - {"name": "🇩🇪 DE | VMESS | @khoneproxy #1", "server": "142.132.163.200", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "7f965e3e-b03f-455e-a96e-01b61f72537a", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/graphql", "headers": {"Host": "142.132.163.200"}}}
   - {"name": "🇩🇪 DE | VMESS | @khoneproxy #2", "server": "5.75.150.23", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇩🇪 DE | VMESS | @khoneproxy #3", "server": "167.235.205.182", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇩🇪 DE | VMESS | @magickey_shop #1", "server": "168.119.174.229", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
   - {"name": "🇨🇦 CA | VMESS | @mtproxy22_v2ray #1", "server": "23.227.38.39", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "56a2188b-2ab7-402c-b9b8-34847fdf0958", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/5QNROSRV", "headers": {"Host": "23.227.38.39"}}}
+  - {"name": "🇩🇪 DE | VMESS | @mtproxy22_v2ray #1", "server": "45.80.111.169", "port": 8880, "type": "vmess", "skip-cert-verify": true, "uuid": "e3dba91f-b31c-473a-8f17-92e1dedda38f", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "/", "headers": {"Host": "45.80.111.169"}}}
   - {"name": "🇽🇽 XX | VMESS | @proxy48 #1", "server": "172.66.213.38", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "dfbbc8de-8a4f-407d-8069-6de38d83c4e1", "alterId": 0, "cipher": "chacha20-poly1305", "network": "grpc", "tls": true, "grpc-opts": {"grpc-service-name": "WgCmp8p80KDzo64uHE"}}
   - {"name": "🇹🇼 TW | VMESS | @vpn_ioss #1", "server": "165.154.195.38", "port": 35034, "type": "vmess", "skip-cert-verify": true, "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc", "alterId": 0, "cipher": "auto", "network": "tcp", "tls": false}
 
@@ -45,13 +45,13 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇮🇹 IT | VMESS | @free1_vpn #1'
       - '🇽🇽 XX | VMESS | @hope_net #1'
       - '🇩🇪 DE | VMESS | @khoneproxy #1'
       - '🇩🇪 DE | VMESS | @khoneproxy #2'
       - '🇩🇪 DE | VMESS | @khoneproxy #3'
       - '🇩🇪 DE | VMESS | @magickey_shop #1'
       - '🇨🇦 CA | VMESS | @mtproxy22_v2ray #1'
+      - '🇩🇪 DE | VMESS | @mtproxy22_v2ray #1'
       - '🇽🇽 XX | VMESS | @proxy48 #1'
       - '🇹🇼 TW | VMESS | @vpn_ioss #1'
 
