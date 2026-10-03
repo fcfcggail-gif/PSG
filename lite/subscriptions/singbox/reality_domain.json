@@ -94,7 +94,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇧🇬 BG | VLESS | @free1_vpn #1",
-        "🇷🇺 RU | VLESS | @nofiltering2 #1"
+        "🇷🇺 RU | VLESS | @nofiltering2 #1",
+        "🇩🇪 DE | VLESS | @orange_vpns #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -106,7 +108,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇧🇬 BG | VLESS | @free1_vpn #1",
-        "🇷🇺 RU | VLESS | @nofiltering2 #1"
+        "🇷🇺 RU | VLESS | @nofiltering2 #1",
+        "🇩🇪 DE | VLESS | @orange_vpns #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -217,6 +221,50 @@
       "server": "tgfree.rush-server.com",
       "server_port": 443,
       "uuid": "ebd1c0d6-7ff4-4b9f-8692-237517a27a64",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "arcturus.yokkastars.com",
+      "server_port": 40443,
+      "uuid": "bb0f1ed0-0298-40a1-adb1-1f5d6ab33d54",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "rag2.hopexy.com",
+      "server_port": 443,
+      "uuid": "e23fe496-5947-4538-924a-c04962b2420d",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
