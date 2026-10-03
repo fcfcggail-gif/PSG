@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇬 BG | VLESS | @free1_vpn #1"
+        "🇧🇬 BG | VLESS | @free1_vpn #1",
+        "🇧🇬 BG | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇬 BG | VLESS | @free1_vpn #1"
+        "🇧🇬 BG | VLESS | @free1_vpn #1",
+        "🇧🇬 BG | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -115,6 +117,28 @@
       "server": "p2real22.greewebservices.ir",
       "server_port": 1320,
       "uuid": "179a88d7-9ddb-4d48-ac6c-0f208cf030bc",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇧🇬 BG | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "194.110.87.8",
+      "server_port": 443,
+      "uuid": "63be0412-a17e-456a-9908-0984fce65b83",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

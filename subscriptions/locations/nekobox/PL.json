@@ -79,7 +79,10 @@
         "direct",
         "🇵🇱 PL | VLESS | @mehrosaboran #1",
         "🇵🇱 PL | SS | @netfreedom0 #1",
-        "🇵🇱 PL | VLESS | @vmesc #1"
+        "🇵🇱 PL | SS | @netfreedom0 #2",
+        "🇵🇱 PL | SS | @netfreedom0 #3",
+        "🇵🇱 PL | VLESS | @vmesc #1",
+        "🇵🇱 PL | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,7 +92,10 @@
       "outbounds": [
         "🇵🇱 PL | VLESS | @mehrosaboran #1",
         "🇵🇱 PL | SS | @netfreedom0 #1",
-        "🇵🇱 PL | VLESS | @vmesc #1"
+        "🇵🇱 PL | SS | @netfreedom0 #2",
+        "🇵🇱 PL | SS | @netfreedom0 #3",
+        "🇵🇱 PL | VLESS | @vmesc #1",
+        "🇵🇱 PL | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -130,8 +136,24 @@
       "tag": "🇵🇱 PL | SS | @netfreedom0 #1",
       "type": "shadowsocks",
       "server": "217.30.10.44",
+      "server_port": 9076,
+      "method": "YWVzLTI1Ni1jZmI6UzJ6RHl5UGNtWk4yaDhFQw==",
+      "password": null
+    },
+    {
+      "tag": "🇵🇱 PL | SS | @netfreedom0 #2",
+      "type": "shadowsocks",
+      "server": "217.30.10.44",
       "server_port": 9052,
       "method": "YWVzLTI1Ni1jZmI6anQyZWtCTmM5SHVWdG0yYQ==",
+      "password": null
+    },
+    {
+      "tag": "🇵🇱 PL | SS | @netfreedom0 #3",
+      "type": "shadowsocks",
+      "server": "217.30.10.44",
+      "server_port": 9099,
+      "method": "YWVzLTI1Ni1jZmI6N2hlUnFrUEczaGc0VW5SbQ==",
       "password": null
     },
     {
@@ -155,6 +177,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "pl.srv.vbuste-bot.com",
+      "server_port": 444,
+      "uuid": "318c935d-c195-41d3-99ad-9bbcfdab3386",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
