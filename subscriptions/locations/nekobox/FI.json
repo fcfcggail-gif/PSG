@@ -79,6 +79,9 @@
         "direct",
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
         "🇫🇮 FI | SS | @outlinereleasedkey #1",
+        "🇫🇮 FI | VLESS | @v2ray_collector #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @v2raych #1",
         "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "proxy",
@@ -89,6 +92,9 @@
       "outbounds": [
         "🇫🇮 FI | VLESS | @ehsawn8 #1",
         "🇫🇮 FI | SS | @outlinereleasedkey #1",
+        "🇫🇮 FI | VLESS | @v2ray_collector #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @v2raych #1",
         "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "auto",
@@ -119,6 +125,57 @@
       "server_port": 18285,
       "method": "YWVzLTEyOC1nY206ZjkzMDBhOWJmMzlhZTAzNDdjM2EzYmZiYzRkZDc3NTQ=",
       "password": null
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_collector #1",
+      "type": "vless",
+      "server": "fi.astrafic.ru",
+      "server_port": 443,
+      "uuid": "3d9daa27-6283-406d-a2d4-c6f22c635a14",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "179.254.109.69",
+      "server_port": 443,
+      "uuid": "61bd5829-a243-4548-97f0-a210c2069fec",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "fin1.povrak.ir",
+      "server_port": 28095,
+      "uuid": "fcb9ce0f-c8e4-4b51-afeb-0135029a70e1",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇮 FI | VLESS | @v2rayngconfiig #1",

@@ -79,7 +79,7 @@
         "direct",
         "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇸🇨 SC | VLESS | @ehsawn8 #1",
-        "🇸🇨 SC | TROJAN | @v2raych #1"
+        "🇸🇨 SC | VLESS | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,7 +89,7 @@
       "outbounds": [
         "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇸🇨 SC | VLESS | @ehsawn8 #1",
-        "🇸🇨 SC | TROJAN | @v2raych #1"
+        "🇸🇨 SC | VLESS | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -130,11 +130,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇸🇨 SC | TROJAN | @v2raych #1",
-      "type": "trojan",
-      "server": "45.130.125.112",
+      "tag": "🇸🇨 SC | VLESS | @netfreedom0 #1",
+      "type": "vless",
+      "server": "45.95.96.236",
       "server_port": 443,
-      "password": "humanity",
+      "uuid": "c5694dc5-39fd-4a92-8430-3837baa522a3",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -142,6 +143,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

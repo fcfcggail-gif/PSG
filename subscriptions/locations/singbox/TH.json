@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVFI=
+//profile-title: base64:UFNHIHwgVEg=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
+        "🇹🇭 TH | VLESS | @vpn_ioss #1",
+        "🇹🇭 TH | VLESS | @vpn_ioss #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1"
+        "🇹🇭 TH | VLESS | @vpn_ioss #1",
+        "🇹🇭 TH | VLESS | @vpn_ioss #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,21 +112,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇹🇭 TH | VLESS | @vpn_ioss #1",
       "type": "vless",
-      "server": "tg2.iramssmoth.ir",
-      "server_port": 443,
-      "uuid": "351253fd-52bd-4607-a677-c3daa623df73",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "server": "103.86.49.57",
+      "server_port": 80,
+      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇭 TH | VLESS | @vpn_ioss #2",
+      "type": "vless",
+      "server": "103.86.49.57",
+      "server_port": 80,
+      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

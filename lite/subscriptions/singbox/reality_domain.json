@@ -93,7 +93,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇷🇺 RU | VLESS | @nofiltering2 #1"
+        "🇩🇪 DE | VLESS | @free1_vpn #1",
+        "🇷🇺 RU | VLESS | @nofiltering2 #1",
+        "🇮🇹 IT | VLESS | @red2ray #1",
+        "🇵🇱 PL | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -104,7 +107,10 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇷🇺 RU | VLESS | @nofiltering2 #1"
+        "🇩🇪 DE | VLESS | @free1_vpn #1",
+        "🇷🇺 RU | VLESS | @nofiltering2 #1",
+        "🇮🇹 IT | VLESS | @red2ray #1",
+        "🇵🇱 PL | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -188,6 +194,28 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "id-nl-01.mintrocket.org",
+      "server_port": 443,
+      "uuid": "f0a52dd3-4377-4402-a450-210bc81bcf25",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇷🇺 RU | VLESS | @nofiltering2 #1",
       "type": "vless",
       "server": "tgfree.rush-server.com",
@@ -208,6 +236,36 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇮🇹 IT | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "it.monkora.org",
+      "server_port": 443,
+      "uuid": "454431fc-71e2-42b1-b375-5b55dd06666a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "pl.srv.vbuste-bot.com",
+      "server_port": 444,
+      "uuid": "318c935d-c195-41d3-99ad-9bbcfdab3386",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
