@@ -94,13 +94,15 @@
         "🇺🇸 US | VMESS | @mi_pn_official #2",
         "🇽🇽 XX | VMESS | @mi_pn_official #1",
         "🇽🇽 XX | VMESS | @mtproxy22_v2ray #3",
+        "🇸🇬 SG | VMESS | @mtproxy22_v2ray #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇩🇪 DE | VMESS | @serverv2ray00 #1",
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
-        "🇺🇸 US | VMESS | @v2ray_collector #1",
-        "🇺🇸 US | VMESS | @vpngate_config #1"
+        "🇩🇪 DE | VMESS | @v2ray_collector #1",
+        "🇺🇸 US | VMESS | @vpngate_config #1",
+        "🇫🇷 FR | VMESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -125,13 +127,15 @@
         "🇺🇸 US | VMESS | @mi_pn_official #2",
         "🇽🇽 XX | VMESS | @mi_pn_official #1",
         "🇽🇽 XX | VMESS | @mtproxy22_v2ray #3",
+        "🇸🇬 SG | VMESS | @mtproxy22_v2ray #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇩🇪 DE | VMESS | @serverv2ray00 #1",
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
-        "🇺🇸 US | VMESS | @v2ray_collector #1",
-        "🇺🇸 US | VMESS | @vpngate_config #1"
+        "🇩🇪 DE | VMESS | @v2ray_collector #1",
+        "🇺🇸 US | VMESS | @vpngate_config #1",
+        "🇫🇷 FR | VMESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -512,6 +516,22 @@
       }
     },
     {
+      "tag": "🇸🇬 SG | VMESS | @mtproxy22_v2ray #1",
+      "type": "vmess",
+      "server": "104.16.85.20",
+      "server_port": 80,
+      "uuid": "c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sg4-v2ray.sshkit.org"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @proxy48 #1",
       "type": "vmess",
       "server": "188.114.97.3",
@@ -637,7 +657,7 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @v2ray_collector #1",
+      "tag": "🇩🇪 DE | VMESS | @v2ray_collector #1",
       "type": "vmess",
       "server": "193.108.117.54",
       "server_port": 443,
@@ -683,6 +703,22 @@
         "path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
         "headers": {
           "Host": "cold-dawn-9246.fly.dev"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VMESS | @vpnplusee_free #1",
+      "type": "vmess",
+      "server": "google.whatsapp.snapp.torob.basalam.fortresshost.ir.",
+      "server_port": 80,
+      "uuid": "479526cd-5011-43cf-a788-504da95e07c2",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
         }
       }
     }
