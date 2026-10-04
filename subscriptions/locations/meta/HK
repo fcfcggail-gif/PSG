@@ -24,6 +24,8 @@ dns:
 
 proxies: 
   - {"name": "🇭🇰 HK | TROJAN | @jiedianf #1", "server": "upright-hamster.rooster465.autos", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "ND91608427"}
+  - {"name": "🇭🇰 HK | VLESS | @red2ray #1", "server": "216.38.170.8", "port": 26506, "type": "vless", "skip-cert-verify": true, "uuid": "593c2ff4-f051-4859-8449-b0130e2991df", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇭🇰 HK | VLESS | @v2ray_free_conf #1", "server": "43.255.156.101", "port": 21263, "type": "vless", "skip-cert-verify": true, "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +40,8 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇭🇰 HK | TROJAN | @jiedianf #1'
+      - '🇭🇰 HK | VLESS | @red2ray #1'
+      - '🇭🇰 HK | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

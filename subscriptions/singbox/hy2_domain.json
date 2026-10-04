@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVEg=
+//profile-title: base64:UFNHIHwgSFkyX0RPTUFJTg==
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇭 TH | VLESS | @vpn_ioss #1",
-        "🇹🇭 TH | VLESS | @vpn_ioss #2"
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇭 TH | VLESS | @vpn_ioss #1",
-        "🇹🇭 TH | VLESS | @vpn_ioss #2"
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,20 +114,76 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇭 TH | VLESS | @vpn_ioss #1",
+      "tag": "همکاری_ملی",
       "type": "vless",
-      "server": "103.86.49.57",
-      "server_port": 80,
-      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
-      "packet_encoding": "xudp"
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
     },
     {
-      "tag": "🇹🇭 TH | VLESS | @vpn_ioss #2",
+      "tag": "جاویدشاه",
       "type": "vless",
-      "server": "103.86.49.57",
-      "server_port": 80,
-      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
-      "packet_encoding": "xudp"
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "KingRezaPahlavi",
+      "type": "vless",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
     }
   ],
   "route": {

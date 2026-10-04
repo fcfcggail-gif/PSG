@@ -78,8 +78,11 @@
         "auto",
         "direct",
         "🇫🇮 FI | SS | @outlinereleasedkey #1",
+        "🇫🇮 FI | VLESS | @red2ray #1",
         "🇫🇮 FI | VLESS | @v2ray_collector #1",
-        "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
+        "🇫🇮 FI | SS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
+        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,8 +91,11 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | SS | @outlinereleasedkey #1",
+        "🇫🇮 FI | VLESS | @red2ray #1",
         "🇫🇮 FI | VLESS | @v2ray_collector #1",
-        "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
+        "🇫🇮 FI | SS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
+        "🇫🇮 FI | VLESS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -113,6 +119,28 @@
       "password": null
     },
     {
+      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "193.23.201.172",
+      "server_port": 443,
+      "uuid": "c47b421f-65f1-4190-b7ba-bd2045086fe4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇫🇮 FI | VLESS | @v2ray_collector #1",
       "type": "vless",
       "server": "fi.astrafic.ru",
@@ -134,12 +162,37 @@
       }
     },
     {
+      "tag": "🇫🇮 FI | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "185.103.110.68",
+      "server_port": 18283,
+      "method": "YWVzLTEyOC1nY206ZjkzMDBhOWJmMzlhZTAzNDdjM2EzYmZiYzRkZDc3NTQ=",
+      "password": null
+    },
+    {
       "tag": "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "65.109.181.18",
       "server_port": 27014,
       "uuid": "a42fdac4-53c7-4a5d-8655-4168eecbe43d",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vpnplusee_free #1",
+      "type": "vless",
+      "server": "179.254.109.69",
+      "server_port": 443,
+      "uuid": "61bd5829-a243-4548-97f0-a210c2069fec",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

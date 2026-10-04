@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇮🇹 IT | VLESS | @NamiraConfigs #1", "server": "204.216.216.23", "port": 10086, "type": "vless", "skip-cert-verify": true, "uuid": "9f0285ee-20ca-4953-bcdb-86a920652923", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇹 IT | VLESS | @v2ray_free_conf #1", "server": "82.118.16.245", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "d6bd3ec0-84f5-4df3-bd5a-ef69469ce642", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇮🇹 IT | VLESS | @NamiraConfigs #1'
+      - '🇮🇹 IT | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

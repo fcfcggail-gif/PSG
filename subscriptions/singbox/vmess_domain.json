@@ -106,12 +106,13 @@
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
         "🇽🇽 XX | VMESS | @mi_pn_official #1",
+        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #3",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇩🇪 DE | VMESS | @serverv2ray00 #1",
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
-        "🇳🇱 NL | VMESS | @v2raych #1",
+        "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "proxy",
@@ -136,12 +137,13 @@
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
         "🇽🇽 XX | VMESS | @mi_pn_official #1",
+        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #3",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇩🇪 DE | VMESS | @serverv2ray00 #1",
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
-        "🇳🇱 NL | VMESS | @v2raych #1",
+        "🇺🇸 US | VMESS | @v2ray_collector #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "auto",
@@ -494,6 +496,31 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VMESS | @mtproxy22_v2ray #3",
+      "type": "vmess",
+      "server": "cdn.sfacg.uk",
+      "server_port": 2083,
+      "uuid": "ac251237-576f-40c8-a543-554960c958b1",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "or3.sfacg.uk",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "or3.sfacg.uk"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @proxy48 #1",
       "type": "vmess",
       "server": "188.114.97.3",
@@ -619,16 +646,16 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VMESS | @v2raych #1",
+      "tag": "🇺🇸 US | VMESS | @v2ray_collector #1",
       "type": "vmess",
-      "server": "186.190.211.67",
+      "server": "193.108.117.54",
       "server_port": 443,
       "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "pahobac.org",
+        "server_name": "aidrivercat.org",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -639,7 +666,7 @@
         "type": "ws",
         "path": "/linkvws",
         "headers": {
-          "Host": "pahobac.org"
+          "Host": "aidrivercat.org"
         }
       }
     },
