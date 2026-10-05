@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇭🇰 HK | VLESS | @vpnplusee_free #1", "server": "45.153.130.43", "port": 21263, "type": "vless", "skip-cert-verify": true, "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇧🇷 BR | VMESS | @v2ray_collector #1", "server": "aksai.org", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkvws", "headers": {"Host": "aksai.org"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇭🇰 HK | VLESS | @vpnplusee_free #1'
+      - '🇧🇷 BR | VMESS | @v2ray_collector #1'
 
   - name: 🌍 Global Media
     type: select

@@ -90,9 +90,11 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇮 FI | VLESS | @red2ray #1",
         "🇫🇮 FI | VLESS | @v2ray_collector #1",
         "🇫🇮 FI | VLESS | @v2ray_collector #2",
-        "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
+        "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
+        "🇫🇮 FI | SS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +102,11 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇮 FI | VLESS | @red2ray #1",
         "🇫🇮 FI | VLESS | @v2ray_collector #1",
         "🇫🇮 FI | VLESS | @v2ray_collector #2",
-        "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
+        "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
+        "🇫🇮 FI | SS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,6 +116,28 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "131.123.13.93",
+      "server_port": 443,
+      "uuid": "55ccbeb5-0bf4-4e4d-afcb-23c038e73e00",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇫🇮 FI | VLESS | @v2ray_collector #1",
@@ -145,6 +171,14 @@
       "server_port": 27014,
       "uuid": "a42fdac4-53c7-4a5d-8655-4168eecbe43d",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | SS | @vpnplusee_free #1",
+      "type": "shadowsocks",
+      "server": "vinted.zedmobile.org",
+      "server_port": 8443,
+      "method": "YXV0bzo=",
+      "password": null
     }
   ],
   "route": {

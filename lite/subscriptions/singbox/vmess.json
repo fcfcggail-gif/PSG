@@ -103,15 +103,14 @@
         "🇩🇪 DE | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
-        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #2",
+        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
+        "🇸🇬 SG | VMESS | @mtproxy22_v2ray #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
-        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
         "🇹🇼 TW | VMESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -133,15 +132,14 @@
         "🇩🇪 DE | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
-        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #2",
+        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
+        "🇸🇬 SG | VMESS | @mtproxy22_v2ray #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
-        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
         "🇹🇼 TW | VMESS | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -444,7 +442,7 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VMESS | @mtproxy22_v2ray #2",
+      "tag": "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
       "type": "vmess",
       "server": "cdn.sfacg.uk",
       "server_port": 2083,
@@ -465,6 +463,22 @@
         "path": "/",
         "headers": {
           "Host": "or3.sfacg.uk"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 SG | VMESS | @mtproxy22_v2ray #1",
+      "type": "vmess",
+      "server": "104.16.85.20",
+      "server_port": 80,
+      "uuid": "c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "sg4-v2ray.sshkit.org"
         }
       }
     },
@@ -515,24 +529,6 @@
         "path": "/aidapp.lifevws",
         "headers": {
           "Host": "hstr1675520106270.aidapp.life"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "151.101.56.90",
-      "server_port": 443,
-      "uuid": "6ba68c69-e108-502d-7b1c-e806fbc3cccd",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "default.ssl.fastly.net",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },
@@ -610,31 +606,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
-      "type": "vmess",
-      "server": "104.17.77.77",
-      "server_port": 8443,
-      "uuid": "60441548-b68e-43b2-8191-e3b884be4b3c",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "v2ray1.dozapp.xyz",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/lMnsZUN4/",
-        "headers": {
-          "Host": ""
         }
       }
     },

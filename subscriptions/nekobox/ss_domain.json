@@ -77,7 +77,12 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇾 CY | VLESS | @vpnplusee_free #1"
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi",
+        "🇮🇷 IR | SS | @v2ray_free_conf #1",
+        "🇮🇷 IR | SS | @v2raych #1",
+        "🇫🇮 FI | SS | @vpnplusee_free #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +90,12 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇾 CY | VLESS | @vpnplusee_free #1"
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi",
+        "🇮🇷 IR | SS | @v2ray_free_conf #1",
+        "🇮🇷 IR | SS | @v2raych #1",
+        "🇫🇮 FI | SS | @vpnplusee_free #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,11 +111,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇨🇾 CY | VLESS | @vpnplusee_free #1",
+      "tag": "همکاری_ملی",
       "type": "vless",
-      "server": "dorado.yokkastars.com",
-      "server_port": 40443,
-      "uuid": "af5eac96-e478-488a-bc8c-45269d7e8847",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -114,13 +124,87 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
         }
       }
+    },
+    {
+      "tag": "جاویدشاه",
+      "type": "vless",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "KingRezaPahlavi",
+      "type": "vless",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "p2tun1.greewebservices.ir",
+      "server_port": 1010,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpySDdzS2UtZHRRX3BjMlZXY2p1NGp3",
+      "password": null
+    },
+    {
+      "tag": "🇮🇷 IR | SS | @v2raych #1",
+      "type": "shadowsocks",
+      "server": "n1.cover20.ir",
+      "server_port": 38760,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpQakZwaTNPTHpkV2hDMC9WZzhPVzhUeUxmdThFbDZSM3NsQTdMRzAzaVU4PQ==",
+      "password": null
+    },
+    {
+      "tag": "🇫🇮 FI | SS | @vpnplusee_free #1",
+      "type": "shadowsocks",
+      "server": "vinted.zedmobile.org",
+      "server_port": 8443,
+      "method": "YXV0bzo=",
+      "password": null
     }
   ],
   "route": {
