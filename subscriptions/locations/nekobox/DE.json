@@ -100,13 +100,14 @@
         "🇩🇪 DE | TROJAN | @outlinereleasedkey #1",
         "🇩🇪 DE | VLESS | @proxy48 #1",
         "🇩🇪 DE | VLESS | @prrofile_purple #1",
+        "🇩🇪 DE | VLESS | @red2ray #1",
         "🇩🇪 DE | VMESS | @serverv2ray00 #1",
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
         "🇩🇪 DE | VMESS | @v2ray_collector #1",
-        "🇩🇪 DE | VLESS | @v2raych #1",
-        "🇩🇪 DE | VLESS | @v2raych #2",
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VMESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇩🇪 DE | SS | @v2rayng3 #1",
         "🇩🇪 DE | SS | @v2rayng3 #2",
@@ -148,13 +149,14 @@
         "🇩🇪 DE | TROJAN | @outlinereleasedkey #1",
         "🇩🇪 DE | VLESS | @proxy48 #1",
         "🇩🇪 DE | VLESS | @prrofile_purple #1",
+        "🇩🇪 DE | VLESS | @red2ray #1",
         "🇩🇪 DE | VMESS | @serverv2ray00 #1",
         "🇩🇪 DE | VLESS | @tobevasl #1",
         "🇩🇪 DE | VLESS | @tobevasl #2",
         "🇩🇪 DE | VLESS | @tobevasl #3",
         "🇩🇪 DE | VMESS | @v2ray_collector #1",
-        "🇩🇪 DE | VLESS | @v2raych #1",
-        "🇩🇪 DE | VLESS | @v2raych #2",
+        "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
+        "🇩🇪 DE | VMESS | @v2raych #1",
         "🇩🇪 DE | VLESS | @v2raymelliii #1",
         "🇩🇪 DE | SS | @v2rayng3 #1",
         "🇩🇪 DE | SS | @v2rayng3 #2",
@@ -255,9 +257,9 @@
     {
       "tag": "🇩🇪 DE | VLESS | @free1_vpn #1",
       "type": "vless",
-      "server": "id-nl-01.mintrocket.org",
+      "server": "169.40.42.184",
       "server_port": 443,
-      "uuid": "f0a52dd3-4377-4402-a450-210bc81bcf25",
+      "uuid": "d65cc14c-f53f-4fe2-b262-97856601319c",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -277,9 +279,9 @@
     {
       "tag": "🇩🇪 DE | VLESS | @free1_vpn #2",
       "type": "vless",
-      "server": "arcturus.yokkastars.com",
-      "server_port": 40443,
-      "uuid": "bb0f1ed0-0298-40a1-adb1-1f5d6ab33d54",
+      "server": "id-nl-01.mintrocket.org",
+      "server_port": 443,
+      "uuid": "f0a52dd3-4377-4402-a450-210bc81bcf25",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -572,6 +574,28 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "de-2.srv.dvzh.net",
+      "server_port": 443,
+      "uuid": "91344c03-b37f-42c5-90f1-cbb95c5cf256",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇩🇪 DE | VMESS | @serverv2ray00 #1",
       "type": "vmess",
       "server": "104.21.4.6",
@@ -673,11 +697,11 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2raych #1",
+      "tag": "🇩🇪 DE | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "150.241.64.105",
+      "server": "2.27.69.157",
       "server_port": 443,
-      "uuid": "9a1b2785-6baf-455c-9f75-80157ee7f7c5",
+      "uuid": "df53b6c2-8005-475c-9eb9-74e1be785dc8",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -686,21 +710,17 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "150.241.64.105",
+      "tag": "🇩🇪 DE | VMESS | @v2raych #1",
+      "type": "vmess",
+      "server": "5.75.201.2",
       "server_port": 443,
-      "uuid": "9a1b2785-6baf-455c-9f75-80157ee7f7c5",
-      "packet_encoding": "xudp",
+      "uuid": "c44c4ee0-6294-45b5-8a34-98e19f92e92a",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -708,11 +728,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
