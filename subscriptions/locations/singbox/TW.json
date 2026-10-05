@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVEg=
+//profile-title: base64:UFNHIHwgVFc=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇭 TH | VLESS | @vpn_ioss #1",
-        "🇹🇭 TH | VLESS | @vpn_ioss #2"
+        "🇹🇼 TW | VMESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇭 TH | VLESS | @vpn_ioss #1",
-        "🇹🇭 TH | VLESS | @vpn_ioss #2"
+        "🇹🇼 TW | VMESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,20 +110,13 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇭 TH | VLESS | @vpn_ioss #1",
-      "type": "vless",
-      "server": "103.86.49.57",
-      "server_port": 80,
-      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇭 TH | VLESS | @vpn_ioss #2",
-      "type": "vless",
-      "server": "103.86.49.57",
-      "server_port": 80,
-      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
-      "packet_encoding": "xudp"
+      "tag": "🇹🇼 TW | VMESS | @vpn_ioss #1",
+      "type": "vmess",
+      "server": "165.154.195.38",
+      "server_port": 35034,
+      "uuid": "959a8caf-4cea-43d0-a548-3628e7ddfafc",
+      "security": "auto",
+      "alter_id": 0
     }
   ],
   "route": {
