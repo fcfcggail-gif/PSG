@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇱🇹 LT | VLESS | @bored_vpn #1",
         "🇱🇹 LT | SS | @netfreedom0 #1"
       ],
       "tag": "proxy",
@@ -98,6 +99,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇱🇹 LT | VLESS | @bored_vpn #1",
         "🇱🇹 LT | SS | @netfreedom0 #1"
       ],
       "tag": "auto",
@@ -108,6 +110,28 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇱🇹 LT | VLESS | @bored_vpn #1",
+      "type": "vless",
+      "server": "88.119.165.131",
+      "server_port": 443,
+      "uuid": "790910c3-9a97-4375-998a-fcc36b0a2902",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇱🇹 LT | SS | @netfreedom0 #1",
