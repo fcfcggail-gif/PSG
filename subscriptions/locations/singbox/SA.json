@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇦 SA | VLESS | @v2rayprotocol #1"
+        "🇸🇦 SA | VLESS | @v2rayprotocol #1",
+        "🇸🇦 SA | VLESS | @v2rayprotocol #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇦 SA | VLESS | @v2rayprotocol #1"
+        "🇸🇦 SA | VLESS | @v2rayprotocol #1",
+        "🇸🇦 SA | VLESS | @v2rayprotocol #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -113,6 +115,23 @@
       "tag": "🇸🇦 SA | VLESS | @v2rayprotocol #1",
       "type": "vless",
       "server": "91.209.253.250",
+      "server_port": 443,
+      "uuid": "b09dfed1-90fa-4353-8bdf-de1edb2e2d79",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇦 SA | VLESS | @v2rayprotocol #2",
+      "type": "vless",
+      "server": "91.209.253.243",
       "server_port": 443,
       "uuid": "b09dfed1-90fa-4353-8bdf-de1edb2e2d79",
       "packet_encoding": "xudp",

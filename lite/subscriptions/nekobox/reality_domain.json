@@ -82,7 +82,8 @@
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
-        "🇳🇱 NL | VLESS | @outline_ir #1"
+        "🇹🇷 TR | VLESS | @orange_vpns #1",
+        "🇩🇪 DE | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -95,7 +96,8 @@
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
-        "🇳🇱 NL | VLESS | @outline_ir #1"
+        "🇹🇷 TR | VLESS | @orange_vpns #1",
+        "🇩🇪 DE | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -227,11 +229,33 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @outline_ir #1",
+      "tag": "🇹🇷 TR | VLESS | @orange_vpns #1",
       "type": "vless",
-      "server": "ljbzb288i.paslanmaz.ir",
-      "server_port": 15329,
-      "uuid": "ebaac78a-64f7-4d6a-8897-a4b420069378",
+      "server": "tr.xelnivo.ir",
+      "server_port": 5589,
+      "uuid": "bf155a74-0560-46ff-ba40-9c8d34917f0e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "ger1.trufflevpn.fun",
+      "server_port": 443,
+      "uuid": "579b72a5-785a-4fb6-ac64-1de2f8c49601",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

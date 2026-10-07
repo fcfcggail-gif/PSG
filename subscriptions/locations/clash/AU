@@ -25,6 +25,7 @@ dns:
 proxies: 
   - {"name": "🇦🇺 AU | TROJAN | @mtproxy22_v2ray #1", "server": "us2.trojanvh.xyz", "port": 80, "type": "trojan", "skip-cert-verify": false, "password": "255c924c-1314-4084-9a9e-1d1a82a5cf49"}
   - {"name": "🇦🇺 AU | VMESS | @serverv2ray00 #1", "server": "162.159.135.79", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkvws", "headers": {"Host": "janett.click"}}}
+  - {"name": "🇦🇺 AU | VMESS | @v2ray_collector #1", "server": "aksai.org", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkvws", "headers": {"Host": "aksai.org"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,6 +41,7 @@ proxy-groups:
     proxies: 
       - '🇦🇺 AU | TROJAN | @mtproxy22_v2ray #1'
       - '🇦🇺 AU | VMESS | @serverv2ray00 #1'
+      - '🇦🇺 AU | VMESS | @v2ray_collector #1'
 
   - name: 🌍 Global Media
     type: select

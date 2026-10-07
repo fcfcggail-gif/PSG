@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQ1k=
+//profile-title: base64:UFNHIHwgQ0g=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇾 CY | VLESS | @v2raych #1"
+        "🇨🇭 CH | VLESS | @orange_vpns #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇾 CY | VLESS | @v2raych #1"
+        "🇨🇭 CH | VLESS | @orange_vpns #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇨🇾 CY | VLESS | @v2raych #1",
+      "tag": "🇨🇭 CH | VLESS | @orange_vpns #1",
       "type": "vless",
-      "server": "gallery.mv-video.cloud",
-      "server_port": 8443,
-      "uuid": "c1c95983-50a7-44b1-99ac-a062284939d0",
-      "packet_encoding": "xudp"
+      "server": "areal5.greewebservices.ir",
+      "server_port": 5455,
+      "uuid": "97b236b9-47ba-4c9a-ae0d-3ddfff5acadf",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
