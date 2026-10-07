@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇮🇪 IE | SS | @free1_vpn #1",
         "🇮🇪 IE | TROJAN | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
@@ -85,6 +86,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇮🇪 IE | SS | @free1_vpn #1",
         "🇮🇪 IE | TROJAN | @outlinereleasedkey #1"
       ],
       "tag": "auto",
@@ -101,6 +103,14 @@
       "type": "direct"
     },
     {
+      "tag": "🇮🇪 IE | SS | @free1_vpn #1",
+      "type": "shadowsocks",
+      "server": "20.223.236.165",
+      "server_port": 443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpDTkwzbXhkZlpLaVBLaXpM",
+      "password": null
+    },
+    {
       "tag": "🇮🇪 IE | TROJAN | @outlinereleasedkey #1",
       "type": "trojan",
       "server": "ie.tronsg.com",
@@ -108,7 +118,7 @@
       "password": "Trojan%4082164024",
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "ie.tronsg.com",
         "insecure": true,
         "utls": {
           "enabled": true,

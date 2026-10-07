@@ -103,7 +103,9 @@
         "🇩🇪 DE | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
+        "🇩🇪 DE | VMESS | @outlinereleasedkey #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
+        "🇫🇷 FR | VMESS | @red2ray #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
@@ -126,7 +128,9 @@
         "🇩🇪 DE | VMESS | @manstervpn #1",
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
+        "🇩🇪 DE | VMESS | @outlinereleasedkey #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
+        "🇫🇷 FR | VMESS | @red2ray #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
@@ -430,6 +434,31 @@
       }
     },
     {
+      "tag": "🇩🇪 DE | VMESS | @outlinereleasedkey #1",
+      "type": "vmess",
+      "server": "aidrivercat.org",
+      "server_port": 443,
+      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "aidrivercat.org",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/linkvws",
+        "headers": {
+          "Host": "aidrivercat.org"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @proxy48 #1",
       "type": "vmess",
       "server": "188.114.97.3",
@@ -451,6 +480,22 @@
         "path": "/linkws",
         "headers": {
           "Host": "afrhms16v.bestxray.buzz"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇷 FR | VMESS | @red2ray #1",
+      "type": "vmess",
+      "server": "145.239.55.210",
+      "server_port": 80,
+      "uuid": "479526cd-5011-43cf-a788-504da95e07c2",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": "google.whatsapp.snapp.torob.basalam.fortresshost.ir."
         }
       }
     },
