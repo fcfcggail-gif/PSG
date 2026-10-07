@@ -106,7 +106,10 @@
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇩🇪 DE | VLESS | @free1_vpn #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇽🇽 XX | VLESS | @proxy_confiingir #2"
+        "🇮🇷 IR | VLESS | @outline_ir #1",
+        "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -130,7 +133,10 @@
         "🇺🇸 US | VLESS | @v_2rayng0 #2",
         "🇩🇪 DE | VLESS | @free1_vpn #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇽🇽 XX | VLESS | @proxy_confiingir #2"
+        "🇮🇷 IR | VLESS | @outline_ir #1",
+        "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+        "🇺🇸 US | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -399,11 +405,53 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇮🇷 IR | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "www.gameturk.bestvnxv.org",
+      "server_port": 21710,
+      "uuid": "ce4b2104-f1fe-4216-ad67-8c21869b9118",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @proxy_confiingir #2",
       "type": "vless",
       "server": "securitytrails.com",
       "server_port": 443,
       "uuid": "90c09d42-c5f6-4602-bba8-957df1ed5598",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "nice.iranapplecenter.com",
+      "server_port": 443,
+      "uuid": "6ba68c69-e108-502d-7b1c-e806fbc3cccd",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "fs.koomeh.net",
+      "server_port": 443,
+      "uuid": "c0558486-2512-4c89-bf5c-592a7fc52197",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

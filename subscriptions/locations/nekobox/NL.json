@@ -83,12 +83,11 @@
         "🇳🇱 NL | VLESS | @prrofile_purple #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
-        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | SS | @v2rayng3 #1",
         "🇳🇱 NL | VLESS | @v2rayngvpn_1 #1",
-        "🇳🇱 NL | VLESS | @v2rayprotocol #1",
-        "🇳🇱 NL | VLESS | @vpnplusee_free #1"
+        "🇳🇱 NL | VLESS | @v2rayprotocol #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,12 +101,11 @@
         "🇳🇱 NL | VLESS | @prrofile_purple #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
-        "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | SS | @v2rayng3 #1",
         "🇳🇱 NL | VLESS | @v2rayngvpn_1 #1",
-        "🇳🇱 NL | VLESS | @v2rayprotocol #1",
-        "🇳🇱 NL | VLESS | @vpnplusee_free #1"
+        "🇳🇱 NL | VLESS | @v2rayprotocol #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -223,19 +221,11 @@
       "flow": "xtls-rprx-vision"
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+      "tag": "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "89.124.69.148",
-      "server_port": 8443,
-      "uuid": "ff6d2dda-7b90-404e-9951-34b3124bfdfa",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "104.245.103.36",
+      "server": "slowkd.sadiepinki.com",
       "server_port": 443,
-      "uuid": "30141a8e-1b78-4f4b-88d3-1b0c90042256",
+      "uuid": "d4cae7df-50a1-428c-bd62-881c8f3bbd90",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -251,6 +241,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2ray_youtube #1",
+      "type": "vless",
+      "server": "89.124.69.148",
+      "server_port": 8443,
+      "uuid": "ff6d2dda-7b90-404e-9951-34b3124bfdfa",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇳🇱 NL | SS | @v2rayng3 #1",
@@ -288,28 +286,6 @@
       "server": "pl.cloudtechone.org",
       "server_port": 443,
       "uuid": "2b2ea9d8-501e-4b79-8fd9-19bff6ed5cf5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @vpnplusee_free #1",
-      "type": "vless",
-      "server": "152.53.106.47",
-      "server_port": 443,
-      "uuid": "c0f08edc-395b-4163-92aa-87772605e331",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

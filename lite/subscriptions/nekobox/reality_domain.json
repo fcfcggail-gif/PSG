@@ -82,7 +82,9 @@
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
-        "🇩🇪 DE | VLESS | @red2ray #1"
+        "🇮🇷 IR | VLESS | @outline_ir #1",
+        "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -95,7 +97,9 @@
         "KingRezaPahlavi",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #2",
-        "🇩🇪 DE | VLESS | @red2ray #1"
+        "🇮🇷 IR | VLESS | @outline_ir #1",
+        "🇩🇪 DE | VLESS | @red2ray #1",
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -227,11 +231,41 @@
       }
     },
     {
+      "tag": "🇮🇷 IR | VLESS | @outline_ir #1",
+      "type": "vless",
+      "server": "www.gameturk.bestvnxv.org",
+      "server_port": 21710,
+      "uuid": "ce4b2104-f1fe-4216-ad67-8c21869b9118",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇩🇪 DE | VLESS | @red2ray #1",
       "type": "vless",
       "server": "sr3.tovra.fun",
       "server_port": 8443,
       "uuid": "64608677-3eb3-46ab-a3f9-4b08dfa00f0d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "slowkd.sadiepinki.com",
+      "server_port": 443,
+      "uuid": "d4cae7df-50a1-428c-bd62-881c8f3bbd90",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

@@ -90,9 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @v2raych #1",
-        "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
-        "🇫🇮 FI | SS | @vpnplusee_free #1"
+        "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
+        "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @v2raych #1",
-        "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
-        "🇫🇮 FI | SS | @vpnplusee_free #1"
+        "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
+        "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,26 +112,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
+      "tag": "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
       "type": "vless",
-      "server": "2.26.228.218",
-      "server_port": 2083,
-      "uuid": "47e8985a-317e-4ece-b283-61330bb27474",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "95.216.27.15",
+      "server_port": 2053,
+      "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
@@ -142,14 +126,6 @@
       "server_port": 27014,
       "uuid": "a42fdac4-53c7-4a5d-8655-4168eecbe43d",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇮 FI | SS | @vpnplusee_free #1",
-      "type": "shadowsocks",
-      "server": "vinted.zedmobile.org",
-      "server_port": 8443,
-      "method": "YXV0bzo=",
-      "password": null
     }
   ],
   "route": {
