@@ -126,7 +126,6 @@
         "🇺🇸 US | VLESS | @mrvpn1403 #4",
         "🇺🇸 US | VLESS | @msv2raynp #1",
         "🇺🇸 US | VLESS | @msv2raynp #2",
-        "🇺🇸 US | SS | @mtproxy22_v2ray #1",
         "🇺🇸 US | TROJAN | @netfreedom0 #1",
         "🇺🇸 US | VLESS | @netmellianti #1",
         "🇺🇸 US | VLESS | @nofiltering2 #1",
@@ -150,6 +149,7 @@
         "🇺🇸 US | VMESS | @v2ray4win #2",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @v2ray_free_conf #1",
+        "🇺🇸 US | TROJAN | @v2ray_free_conf #2",
         "🇺🇸 US | TROJAN | @v2raying #1",
         "🇺🇸 US | TROJAN | @v2raying #2",
         "🇺🇸 US | VLESS | @v2raying #1",
@@ -172,7 +172,6 @@
         "🇺🇸 US | VLESS | @vmesc #1",
         "🇺🇸 US | VLESS | @vmesc #2",
         "🇺🇸 US | TROJAN | @vmesc #2",
-        "🇺🇸 US | VLESS | @vmesc #3",
         "🇺🇸 US | VLESS | @vmesskhodam #1",
         "🇺🇸 US | VLESS | @vmesskhodam #2",
         "🇺🇸 US | VMESS | @vpngate_config #1",
@@ -220,7 +219,6 @@
         "🇺🇸 US | VLESS | @mrvpn1403 #4",
         "🇺🇸 US | VLESS | @msv2raynp #1",
         "🇺🇸 US | VLESS | @msv2raynp #2",
-        "🇺🇸 US | SS | @mtproxy22_v2ray #1",
         "🇺🇸 US | TROJAN | @netfreedom0 #1",
         "🇺🇸 US | VLESS | @netmellianti #1",
         "🇺🇸 US | VLESS | @nofiltering2 #1",
@@ -244,6 +242,7 @@
         "🇺🇸 US | VMESS | @v2ray4win #2",
         "🇺🇸 US | VLESS | @v2ray_collector #1",
         "🇺🇸 US | TROJAN | @v2ray_free_conf #1",
+        "🇺🇸 US | TROJAN | @v2ray_free_conf #2",
         "🇺🇸 US | TROJAN | @v2raying #1",
         "🇺🇸 US | TROJAN | @v2raying #2",
         "🇺🇸 US | VLESS | @v2raying #1",
@@ -266,7 +265,6 @@
         "🇺🇸 US | VLESS | @vmesc #1",
         "🇺🇸 US | VLESS | @vmesc #2",
         "🇺🇸 US | TROJAN | @vmesc #2",
-        "🇺🇸 US | VLESS | @vmesc #3",
         "🇺🇸 US | VLESS | @vmesskhodam #1",
         "🇺🇸 US | VLESS | @vmesskhodam #2",
         "🇺🇸 US | VMESS | @vpngate_config #1",
@@ -816,14 +814,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇺🇸 US | SS | @mtproxy22_v2ray #1",
-      "type": "shadowsocks",
-      "server": "167.88.62.62",
-      "server_port": 8080,
-      "method": "YWVzLTI1Ni1nY206S2l4THZLendqZWtHMDBybQ==",
-      "password": null
-    },
-    {
       "tag": "🇺🇸 US | TROJAN | @netfreedom0 #1",
       "type": "trojan",
       "server": "199.232.78.101",
@@ -1178,9 +1168,25 @@
     {
       "tag": "🇺🇸 US | TROJAN | @v2ray_free_conf #1",
       "type": "trojan",
-      "server": "199.232.78.101",
+      "server": "167.82.76.7",
       "server_port": 443,
       "password": "mitivpn",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | TROJAN | @v2ray_free_conf #2",
+      "type": "trojan",
+      "server": "199.232.78.160",
+      "server_port": 443,
+      "password": "MiTiVPN",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -1549,23 +1555,6 @@
       "server": "199.232.78.160",
       "server_port": 443,
       "password": "mitivpn",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VLESS | @vmesc #3",
-      "type": "vless",
-      "server": "199.232.78.159",
-      "server_port": 443,
-      "uuid": "6ead3f4c-023f-4322-b5c4-ac4e327d259d",
-      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",

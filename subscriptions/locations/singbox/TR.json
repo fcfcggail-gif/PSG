@@ -90,9 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @orange_vpns #1",
         "🇹🇷 TR | TROJAN | @red2ray #1",
-        "🇹🇷 TR | VLESS | @red2ray #1"
+        "🇹🇷 TR | TROJAN | @red2ray #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @orange_vpns #1",
         "🇹🇷 TR | TROJAN | @red2ray #1",
-        "🇹🇷 TR | VLESS | @red2ray #1"
+        "🇹🇷 TR | TROJAN | @red2ray #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,31 +112,9 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @orange_vpns #1",
-      "type": "vless",
-      "server": "tr.xelnivo.ir",
-      "server_port": 5589,
-      "uuid": "bf155a74-0560-46ff-ba40-9c8d34917f0e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇹🇷 TR | TROJAN | @red2ray #1",
       "type": "trojan",
-      "server": "155.103.71.159",
+      "server": "203.202.232.211",
       "server_port": 443,
       "password": "humanity",
       "tls": {
@@ -152,12 +128,11 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @red2ray #1",
-      "type": "vless",
+      "tag": "🇹🇷 TR | TROJAN | @red2ray #2",
+      "type": "trojan",
       "server": "155.103.71.159",
       "server_port": 443,
-      "uuid": "495c7195-85b8-498a-bf20-2ea9ce9175b5",
-      "packet_encoding": "xudp",
+      "password": "humanity",
       "tls": {
         "enabled": true,
         "server_name": "",
