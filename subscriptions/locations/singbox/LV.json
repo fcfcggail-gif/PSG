@@ -91,7 +91,7 @@
         "auto",
         "direct",
         "🇱🇻 LV | VLESS | @free4allvpn #1",
-        "🇱🇻 LV | SS | @netfreedom0 #1"
+        "🇱🇻 LV | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +100,7 @@
       "interval": "10m",
       "outbounds": [
         "🇱🇻 LV | VLESS | @free4allvpn #1",
-        "🇱🇻 LV | SS | @netfreedom0 #1"
+        "🇱🇻 LV | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -134,12 +134,26 @@
       }
     },
     {
-      "tag": "🇱🇻 LV | SS | @netfreedom0 #1",
-      "type": "shadowsocks",
-      "server": "185.135.86.175",
-      "server_port": 9034,
-      "method": "YWVzLTI1Ni1jZmI6WWc0TWJkWEZROUhGRlZZNg==",
-      "password": null
+      "tag": "🇱🇻 LV | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "www.asamping.ir",
+      "server_port": 20901,
+      "uuid": "ac9d915e-343c-4d6a-8d80-be975c1cefde",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
