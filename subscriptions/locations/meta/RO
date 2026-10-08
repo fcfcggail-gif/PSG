@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇷🇴 RO | VLESS | @free1_vpn #1", "server": "205.237.110.254", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "e75ad2eb-6c1f-45ce-8023-f5f10875df66", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇴 RO | VLESS | @v2ray_free_conf #1", "server": "87.58.205.88", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "d49e6f64-2a62-4fc6-8dde-9ab1bdf12c02", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇷🇴 RO | VLESS | @free1_vpn #1'
+      - '🇷🇴 RO | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇭 TH | VLESS | @vpn_ioss #1",
-        "🇹🇭 TH | VLESS | @vpn_ioss #2"
+        "🇮🇸 IS | VLESS | @v2ray_free_conf #1",
+        "🇮🇸 IS | SS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇭 TH | VLESS | @vpn_ioss #1",
-        "🇹🇭 TH | VLESS | @vpn_ioss #2"
+        "🇮🇸 IS | VLESS | @v2ray_free_conf #1",
+        "🇮🇸 IS | SS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,20 +103,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇭 TH | VLESS | @vpn_ioss #1",
+      "tag": "🇮🇸 IS | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "103.86.49.57",
-      "server_port": 80,
-      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
+      "server": "6492.noirex.ir",
+      "server_port": 34602,
+      "uuid": "2879a248-579e-46e4-a210-8fda76958bec",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇹🇭 TH | VLESS | @vpn_ioss #2",
-      "type": "vless",
-      "server": "103.86.49.57",
-      "server_port": 80,
-      "uuid": "3c52e091-6714-4915-949f-2149fe69951b",
-      "packet_encoding": "xudp"
+      "tag": "🇮🇸 IS | SS | @v2raych #1",
+      "type": "shadowsocks",
+      "server": "a344.noirex.ir",
+      "server_port": 34614,
+      "method": "YWVzLTI1Ni1nY206SkM3eFFlckMyNGJ4ZXZwRVBTc0FUWjVNUXRxbld5WjI=",
+      "password": null
     }
   ],
   "route": {

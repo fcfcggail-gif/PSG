@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇮🇳 IN | VLESS | @hope_net #1", "server": "172.105.252.35", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "99de7aac-d2a5-48fd-92cb-d1e6c3c719a4", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇮🇳 IN | VMESS | @v2ray_collector #1", "server": "aksai.org", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkvws", "headers": {"Host": "aksai.org"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇮🇳 IN | VLESS | @hope_net #1'
+      - '🇮🇳 IN | VMESS | @v2ray_collector #1'
 
   - name: 🌍 Global Media
     type: select
