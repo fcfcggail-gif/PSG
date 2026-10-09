@@ -77,8 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇻🇳 VN | VLESS | @v2ray_free_conf #1",
-        "🇻🇳 VN | VLESS | @v2raych #1"
+        "🇧🇬 BG | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇻🇳 VN | VLESS | @v2ray_free_conf #1",
-        "🇻🇳 VN | VLESS | @v2raych #1"
+        "🇧🇬 BG | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,20 +101,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇻🇳 VN | VLESS | @v2ray_free_conf #1",
+      "tag": "🇧🇬 BG | VLESS | @vmesskhodam #1",
       "type": "vless",
-      "server": "157.10.201.93",
-      "server_port": 14789,
-      "uuid": "45ea5597-150e-4e3b-b1f1-bba1d82dac86",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇻🇳 VN | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "157.10.201.93",
-      "server_port": 14789,
-      "uuid": "45ea5597-150e-4e3b-b1f1-bba1d82dac86",
-      "packet_encoding": "xudp"
+      "server": "areal1.greewebservices.ir",
+      "server_port": 2425,
+      "uuid": "59ba16fb-d83e-4a1a-9c7c-6c2764a98284",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

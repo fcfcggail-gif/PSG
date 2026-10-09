@@ -77,8 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | VLESS | @red2ray #1",
-        "🇭🇰 HK | VLESS | @red2ray #2"
+        "🇰🇿 KZ | SS | @configv2rayforfree #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | VLESS | @red2ray #1",
-        "🇭🇰 HK | VLESS | @red2ray #2"
+        "🇰🇿 KZ | SS | @configv2rayforfree #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,48 +101,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇭🇰 HK | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "103.30.76.197",
-      "server_port": 44988,
-      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇭🇰 HK | VLESS | @red2ray #2",
-      "type": "vless",
-      "server": "45.153.130.119",
-      "server_port": 21263,
-      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "tag": "🇰🇿 KZ | SS | @configv2rayforfree #1",
+      "type": "shadowsocks",
+      "server": "77.240.38.27",
+      "server_port": 8443,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpma1h0dkNFUTFaVTFyekYzZklLMGZ3PT0=",
+      "password": null
     }
   ],
   "route": {
