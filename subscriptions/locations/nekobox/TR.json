@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇴 RO | VLESS | @free1_vpn #1"
+        "🇹🇷 TR | VLESS | @free1_vpn #1",
+        "🇹🇷 TR | VLESS | @orange_vpns #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇴 RO | VLESS | @free1_vpn #1"
+        "🇹🇷 TR | VLESS | @free1_vpn #1",
+        "🇹🇷 TR | VLESS | @orange_vpns #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,11 +103,28 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇴 RO | VLESS | @free1_vpn #1",
+      "tag": "🇹🇷 TR | VLESS | @free1_vpn #1",
       "type": "vless",
-      "server": "205.237.110.254",
+      "server": "31.40.204.131",
       "server_port": 443,
-      "uuid": "e75ad2eb-6c1f-45ce-8023-f5f10875df66",
+      "uuid": "86b6c7ba-d613-4567-962a-acfdad5c22db",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "docs.n9ne.com.tr",
+      "server_port": 8444,
+      "uuid": "e81e1114-99b5-4fea-aafc-84426e845a14",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

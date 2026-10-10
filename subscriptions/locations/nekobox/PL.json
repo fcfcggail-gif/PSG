@@ -77,10 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | SS | @netfreedom0 #1",
         "🇵🇱 PL | VLESS | @outline_ir #1",
-        "🇵🇱 PL | TROJAN | @v2ray_collector #1",
-        "🇵🇱 PL | VLESS | @vpn_ioss #1"
+        "🇵🇱 PL | TROJAN | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,10 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | SS | @netfreedom0 #1",
         "🇵🇱 PL | VLESS | @outline_ir #1",
-        "🇵🇱 PL | TROJAN | @v2ray_collector #1",
-        "🇵🇱 PL | VLESS | @vpn_ioss #1"
+        "🇵🇱 PL | TROJAN | @outlinereleasedkey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -105,14 +101,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇵🇱 PL | SS | @netfreedom0 #1",
-      "type": "shadowsocks",
-      "server": "217.30.10.44",
-      "server_port": 9076,
-      "method": "YWVzLTI1Ni1jZmI6UzJ6RHl5UGNtWk4yaDhFQw==",
-      "password": null
     },
     {
       "tag": "🇵🇱 PL | VLESS | @outline_ir #1",
@@ -137,28 +125,11 @@
       }
     },
     {
-      "tag": "🇵🇱 PL | TROJAN | @v2ray_collector #1",
+      "tag": "🇵🇱 PL | TROJAN | @outlinereleasedkey #1",
       "type": "trojan",
-      "server": "202.78.163.237",
+      "server": "cheerful-swan.rooster465.autos",
       "server_port": 443,
       "password": "UX82473651",
-      "tls": {
-        "enabled": true,
-        "server_name": "cheerful-swan.rooster465.autos",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @vpn_ioss #1",
-      "type": "vless",
-      "server": "177.1.192.72",
-      "server_port": 443,
-      "uuid": "4d852af3-a121-41aa-9aed-4ca40a6f7b4d",
-      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -166,11 +137,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }
