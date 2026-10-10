@@ -94,7 +94,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇽🇽 XX | VLESS | @proxy_confiingir #2"
+        "🇩🇪 DE | VLESS | @orange_vpns #1",
+        "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇺🇸 US | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -106,7 +108,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇽🇽 XX | VLESS | @proxy_confiingir #2"
+        "🇩🇪 DE | VLESS | @orange_vpns #1",
+        "🇽🇽 XX | VLESS | @proxy_confiingir #2",
+        "🇺🇸 US | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -198,11 +202,36 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇩🇪 DE | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "host.taghvimtime.ir",
+      "server_port": 8443,
+      "uuid": "9f44d517-29f2-4c6d-cc06-a1268f13da58",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @proxy_confiingir #2",
       "type": "vless",
       "server": "securitytrails.com",
       "server_port": 443,
       "uuid": "90c09d42-c5f6-4602-bba8-957df1ed5598",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "f1.greewebservices.ir",
+      "server_port": 443,
+      "uuid": "59ba16fb-d83e-4a1a-9c7c-6c2764a98284",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

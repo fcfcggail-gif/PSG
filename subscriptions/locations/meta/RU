@@ -23,8 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇷🇺 RU | VLESS | @v2ray_free_conf #1", "server": "37.9.15.129", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "56ff50da-a238-0003-95ab-dd159634bd87", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @nofiltering2 #1", "server": "tgfree.rush-server.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ebd1c0d6-7ff4-4b9f-8692-237517a27a64", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @nofiltering2 #2", "server": "tgfree.rush-server.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ebd1c0d6-7ff4-4b9f-8692-237517a27a64", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @outline_ir #1", "server": "217.26.30.125", "port": 7443, "type": "vless", "skip-cert-verify": true, "uuid": "4f466863-b6c5-4fdc-955e-7a601c18d89a", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇷🇺 RU | VLESS | @v2raytg #1", "server": "b02.connectv.net", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "c65ca957-329a-0001-8e62-eaaa48468833", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @vmesskhodam #1", "server": "83.217.195.128", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "186a7d6f-e360-4c5f-bafb-a816f79e231b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +41,11 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇷🇺 RU | VLESS | @v2ray_free_conf #1'
+      - '🇷🇺 RU | VLESS | @nofiltering2 #1'
+      - '🇷🇺 RU | VLESS | @nofiltering2 #2'
+      - '🇷🇺 RU | VLESS | @outline_ir #1'
       - '🇷🇺 RU | VLESS | @v2raytg #1'
+      - '🇷🇺 RU | VLESS | @vmesskhodam #1'
 
   - name: 🌍 Global Media
     type: select

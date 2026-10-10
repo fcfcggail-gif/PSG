@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇱🇺 LU | TROJAN | @red2ray #1", "server": "188.42.145.180", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
   - {"name": "🇱🇺 LU | VLESS | @v2ray_collector #1", "server": "lbeiggdz.smart-cats.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "8325bd97-b77c-4917-acaa-2446e9e8cc03", "network": "grpc", "tls": false, "udp": true, "client-fingerprint": "chrome", "grpc-opts": {"grpc-service-name": ""}}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇱🇺 LU | TROJAN | @red2ray #1'
       - '🇱🇺 LU | VLESS | @v2ray_collector #1'
 
   - name: 🌍 Global Media

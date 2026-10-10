@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇧🇬 BG | VLESS | @v2ray_free_conf #1",
         "🇧🇬 BG | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -98,6 +99,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇧🇬 BG | VLESS | @v2ray_free_conf #1",
         "🇧🇬 BG | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -108,6 +110,28 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇧🇬 BG | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "p2real22.greewebservices.ir",
+      "server_port": 1320,
+      "uuid": "a4ce8be3-7f19-488d-8930-10f050c2c673",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇧🇬 BG | VLESS | @vmesskhodam #1",

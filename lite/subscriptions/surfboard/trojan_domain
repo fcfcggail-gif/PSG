@@ -9,16 +9,14 @@ enhanced-mode-by-rule = true
 
 [Proxy]
 DIRECT = direct
-🇯🇵 JP | TROJAN | @mtproxy22_v2ray #1 = trojan, sharing-duck.rooster465.autos, 443, password = AE62539071, skip-cert-verify = true
-🇽🇽 XX | TROJAN | @mtproxy22_v2ray #1 = trojan, zi.you.usdtvfk.top, 443, password = 4d048fc6-d944-41dd-b327-10856adcc82d, skip-cert-verify = true
+🇺🇸 US | TROJAN | @red2ray #1 = trojan, editmamad.ddns.ge, 443, password = zVRXW3D8AeATFRTnUt2CWqqGaQfI68nw, skip-cert-verify = true
 🇽🇽 XX | TROJAN | @teamvpnpro #1 = trojan, chatbuzzteambhm.chatbuzzt7150.workers.dev, 443, password = 22f86840-bcac-11ee-abea-1239d0255272, skip-cert-verify = true
 🇽🇽 XX | TROJAN | @teamvpnpro #2 = trojan, chatbuzzteambhm.chatbuzzt7150.workers.dev, 443, password = c7f9b8f0-bfdb-11ee-a15c-1239d0255272, skip-cert-verify = true
-🇺🇸 US | TROJAN | @v2raying #1 = trojan, render.com, 443, password = humanity, skip-cert-verify = true
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇯🇵 JP | TROJAN | @mtproxy22_v2ray #1, 🇽🇽 XX | TROJAN | @mtproxy22_v2ray #1, 🇽🇽 XX | TROJAN | @teamvpnpro #1, 🇽🇽 XX | TROJAN | @teamvpnpro #2, 🇺🇸 US | TROJAN | @v2raying #1
-PSG-AUTO = url-test, 🇯🇵 JP | TROJAN | @mtproxy22_v2ray #1, 🇽🇽 XX | TROJAN | @mtproxy22_v2ray #1, 🇽🇽 XX | TROJAN | @teamvpnpro #1, 🇽🇽 XX | TROJAN | @teamvpnpro #2, 🇺🇸 US | TROJAN | @v2raying #1
-PSG-FALLBACK = fallback, 🇯🇵 JP | TROJAN | @mtproxy22_v2ray #1, 🇽🇽 XX | TROJAN | @mtproxy22_v2ray #1, 🇽🇽 XX | TROJAN | @teamvpnpro #1, 🇽🇽 XX | TROJAN | @teamvpnpro #2, 🇺🇸 US | TROJAN | @v2raying #1
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇺🇸 US | TROJAN | @red2ray #1, 🇽🇽 XX | TROJAN | @teamvpnpro #1, 🇽🇽 XX | TROJAN | @teamvpnpro #2
+PSG-AUTO = url-test, 🇺🇸 US | TROJAN | @red2ray #1, 🇽🇽 XX | TROJAN | @teamvpnpro #1, 🇽🇽 XX | TROJAN | @teamvpnpro #2
+PSG-FALLBACK = fallback, 🇺🇸 US | TROJAN | @red2ray #1, 🇽🇽 XX | TROJAN | @teamvpnpro #1, 🇽🇽 XX | TROJAN | @teamvpnpro #2
 
 [Rule]
 GEOIP,IR,DIRECT
