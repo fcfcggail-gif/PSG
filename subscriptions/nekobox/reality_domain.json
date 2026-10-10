@@ -81,16 +81,15 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @free1_vpn #1",
-        "🇩🇪 DE | VLESS | @nofiltering2 #1",
         "🇨🇭 CH | VLESS | @orange_vpns #1",
         "🇱🇺 LU | VLESS | @v2ray_collector #1",
-        "🇨🇿 CZ | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2raych #2",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
-        "🇮🇷 IR | VLESS | @vmesskhodam #1"
+        "🇮🇷 IR | VLESS | @vmesskhodam #1",
+        "🇧🇬 BG | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,16 +101,15 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @free1_vpn #1",
-        "🇩🇪 DE | VLESS | @nofiltering2 #1",
         "🇨🇭 CH | VLESS | @orange_vpns #1",
         "🇱🇺 LU | VLESS | @v2ray_collector #1",
-        "🇨🇿 CZ | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2raych #1",
         "🇳🇱 NL | VLESS | @v2raych #2",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇳🇱 NL | VLESS | @v2rayprotocol #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
-        "🇮🇷 IR | VLESS | @vmesskhodam #1"
+        "🇮🇷 IR | VLESS | @vmesskhodam #1",
+        "🇧🇬 BG | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -221,23 +219,6 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VLESS | @nofiltering2 #1",
-      "type": "vless",
-      "server": "de-2.starsping.com",
-      "server_port": 443,
-      "uuid": "1577b744-8004-4eef-862c-8cae0cd27ab9",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇨🇭 CH | VLESS | @orange_vpns #1",
       "type": "vless",
       "server": "areal5.greewebservices.ir",
@@ -281,27 +262,33 @@
       }
     },
     {
-      "tag": "🇨🇿 CZ | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "ger6.fytpn.com",
-      "server_port": 56789,
-      "uuid": "a889fba5-5472-4022-a6b4-9710157fda2f",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "dns4.m3hrzd.ir",
-      "server_port": 8030,
-      "uuid": "3661f782-96ab-43f1-ba97-847195fc2ecb",
-      "packet_encoding": "xudp"
+      "server": "varzesh.com.tiket.paxaro.ir",
+      "server_port": 443,
+      "uuid": "ea611ed3-29b1-4d8c-bad6-27fa3cbbe0be",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @v2raych #2",
       "type": "vless",
-      "server": "pl-waw.dontblockmepls.com",
-      "server_port": 2063,
-      "uuid": "b18d5990-96eb-4587-a386-7f8ef7591e6a",
+      "server": "varzesh.com.tiket.paxaro.ir",
+      "server_port": 443,
+      "uuid": "ea611ed3-29b1-4d8c-bad6-27fa3cbbe0be",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -389,6 +376,28 @@
       "type": "vless",
       "server": "p2tun01.greewebservices.ir",
       "server_port": 28830,
+      "uuid": "59ba16fb-d83e-4a1a-9c7c-6c2764a98284",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇧🇬 BG | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "areal1.greewebservices.ir",
+      "server_port": 2425,
       "uuid": "59ba16fb-d83e-4a1a-9c7c-6c2764a98284",
       "packet_encoding": "xudp",
       "tls": {

@@ -101,14 +101,14 @@
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
         "🇩🇪 DE | VMESS | @v2ray_collector #1",
+        "🇽🇽 XX | VMESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇽🇽 XX | VMESS | @hope_net #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇩🇪 DE | VMESS | @v2raych #1"
+        "🇽🇽 XX | VMESS | @proxy48 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -140,14 +140,14 @@
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
         "🇩🇪 DE | VMESS | @v2ray_collector #1",
+        "🇽🇽 XX | VMESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇽🇽 XX | VMESS | @hope_net #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇩🇪 DE | VMESS | @v2raych #1"
+        "🇽🇽 XX | VMESS | @proxy48 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -687,6 +687,22 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VMESS | @vpn_ioss #1",
+      "type": "vmess",
+      "server": "57.128.164.21",
+      "server_port": 80,
+      "uuid": "10029c03-5d2f-4185-aab2-cbf91eef7361",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560",
+        "headers": {
+          "Host": "https.http.www.net.com.ramseyv2.ir."
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @vpngate_config #1",
       "type": "vmess",
       "server": "cold-dawn-9246.fly.dev",
@@ -818,15 +834,6 @@
         "type": "grpc",
         "service_name": "WgCmp8p80KDzo64uHE"
       }
-    },
-    {
-      "tag": "🇩🇪 DE | VMESS | @v2raych #1",
-      "type": "vmess",
-      "server": "95.179.166.22",
-      "server_port": 40405,
-      "uuid": "ebf18c2b-acba-42a1-9fc5-a017af88cccd",
-      "security": "auto",
-      "alter_id": 0
     }
   ],
   "route": {
