@@ -77,8 +77,11 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇵🇱 PL | SS | @netfreedom0 #1",
         "🇵🇱 PL | VLESS | @outline_ir #1",
-        "🇵🇱 PL | TROJAN | @outlinereleasedkey #1"
+        "🇵🇱 PL | TROJAN | @outlinereleasedkey #1",
+        "🇵🇱 PL | VLESS | @v2raych #1",
+        "🇵🇱 PL | VLESS | @v2raych #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +89,11 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇵🇱 PL | SS | @netfreedom0 #1",
         "🇵🇱 PL | VLESS | @outline_ir #1",
-        "🇵🇱 PL | TROJAN | @outlinereleasedkey #1"
+        "🇵🇱 PL | TROJAN | @outlinereleasedkey #1",
+        "🇵🇱 PL | VLESS | @v2raych #1",
+        "🇵🇱 PL | VLESS | @v2raych #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,6 +107,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇵🇱 PL | SS | @netfreedom0 #1",
+      "type": "shadowsocks",
+      "server": "217.30.10.44",
+      "server_port": 9099,
+      "method": "YWVzLTI1Ni1jZmI6N2hlUnFrUEczaGc0VW5SbQ==",
+      "password": null
     },
     {
       "tag": "🇵🇱 PL | VLESS | @outline_ir #1",
@@ -130,6 +144,40 @@
       "server": "cheerful-swan.rooster465.autos",
       "server_port": 443,
       "password": "UX82473651",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "213.21.232.230",
+      "server_port": 443,
+      "uuid": "616c7b3b-41f4-4038-88c6-d6fedd0ae4a7",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "213.21.232.230",
+      "server_port": 443,
+      "uuid": "616c7b3b-41f4-4038-88c6-d6fedd0ae4a7",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
