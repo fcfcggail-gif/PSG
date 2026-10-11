@@ -90,9 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @free1_vpn #1",
-        "🇹🇷 TR | VLESS | @orange_vpns #1",
-        "🇹🇷 TR | SS | @v2ray_free_conf #1"
+        "🇹🇷 TR | VLESS | @orange_vpns #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @free1_vpn #1",
-        "🇹🇷 TR | VLESS | @orange_vpns #1",
-        "🇹🇷 TR | SS | @v2ray_free_conf #1"
+        "🇹🇷 TR | VLESS | @orange_vpns #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,23 +108,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @free1_vpn #1",
-      "type": "vless",
-      "server": "31.40.204.131",
-      "server_port": 443,
-      "uuid": "86b6c7ba-d613-4567-962a-acfdad5c22db",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     },
     {
       "tag": "🇹🇷 TR | VLESS | @orange_vpns #1",
@@ -151,14 +130,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇹🇷 TR | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "tumspr.azad0namah.ir",
-      "server_port": 5566,
-      "method": "MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206OE53YWJkV0JYSzFxMVFhQmhGNjlydz09Okx6dmc3bnVHRE9JcXNvNjg1NTNlTlE9PQ==",
-      "password": null
     }
   ],
   "route": {

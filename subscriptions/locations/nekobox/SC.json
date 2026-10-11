@@ -78,10 +78,11 @@
         "auto",
         "direct",
         "🇸🇨 SC | VLESS | @ai_duet #1",
-        "🇸🇨 SC | VLESS | @bored_vpn #1",
         "🇸🇨 SC | VLESS | @ehsawn8 #1",
         "🇸🇨 SC | VLESS | @mtproxy22_v2ray #1",
-        "🇸🇨 SC | VLESS | @netfreedom0 #1"
+        "🇸🇨 SC | VLESS | @netfreedom0 #1",
+        "🇸🇨 SC | VLESS | @red2ray #1",
+        "🇸🇨 SC | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -90,10 +91,11 @@
       "interval": "10m",
       "outbounds": [
         "🇸🇨 SC | VLESS | @ai_duet #1",
-        "🇸🇨 SC | VLESS | @bored_vpn #1",
         "🇸🇨 SC | VLESS | @ehsawn8 #1",
         "🇸🇨 SC | VLESS | @mtproxy22_v2ray #1",
-        "🇸🇨 SC | VLESS | @netfreedom0 #1"
+        "🇸🇨 SC | VLESS | @netfreedom0 #1",
+        "🇸🇨 SC | VLESS | @red2ray #1",
+        "🇸🇨 SC | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,23 +116,6 @@
       "server": "45.130.125.160",
       "server_port": 443,
       "uuid": "406d8436-0eb9-4eb2-84fb-960e076ffba6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @bored_vpn #1",
-      "type": "vless",
-      "server": "165.231.177.50",
-      "server_port": 443,
-      "uuid": "70ad3e9c-89e6-4ee3-91c3-7cb10a4e483a",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -164,6 +149,36 @@
       "server": "45.95.96.236",
       "server_port": 443,
       "uuid": "c5694dc5-39fd-4a92-8430-3837baa522a3",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "nlhy2.richforever.ru",
+      "server_port": 9443,
+      "uuid": "7918e6f6-df8f-4a20-9c1d-59dbd1f22770",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "nlhy2.richforever.ru",
+      "server_port": 8443,
+      "uuid": "7918e6f6-df8f-4a20-9c1d-59dbd1f22770",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
