@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
         "🇵🇱 PL | VLESS | @vpn_ioss #1",
         "🇵🇱 PL | VLESS | @vpn_ioss #2"
       ],
@@ -99,6 +100,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
         "🇵🇱 PL | VLESS | @vpn_ioss #1",
         "🇵🇱 PL | VLESS | @vpn_ioss #2"
       ],
@@ -110,6 +112,28 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "polnbl1.top",
+      "server_port": 443,
+      "uuid": "87939c49-07d0-4bfb-8612-5a0380eddebe",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇵🇱 PL | VLESS | @vpn_ioss #1",

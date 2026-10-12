@@ -77,7 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇭 CH | VLESS | @v2raying #1"
+        "🇷🇸 RS | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇭 CH | VLESS | @v2raying #1"
+        "🇷🇸 RS | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,12 +101,21 @@
       "type": "direct"
     },
     {
-      "tag": "🇨🇭 CH | VLESS | @v2raying #1",
+      "tag": "🇷🇸 RS | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "p2real5.greewebservices.ir",
-      "server_port": 1350,
-      "uuid": "6b4a0e0d-35b1-4934-8376-a19cb81fca31",
-      "packet_encoding": "xudp"
+      "server": "150.40.126.24",
+      "server_port": 443,
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | TROJAN | @v2raych #1",
+        "🇫🇮 FI | TROJAN | @v2raych #2",
         "🇫🇮 FI | VLESS | @v2raymelliii #1",
         "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
       ],
@@ -102,7 +103,8 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | TROJAN | @v2raych #1",
+        "🇫🇮 FI | TROJAN | @v2raych #2",
         "🇫🇮 FI | VLESS | @v2raymelliii #1",
         "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
       ],
@@ -138,12 +140,11 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "f541.donyumvps.tr",
-      "server_port": 34113,
-      "uuid": "6adfde3e-4c12-47ee-9f4a-319411b7bdd6",
-      "packet_encoding": "xudp",
+      "tag": "🇫🇮 FI | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "46.62.204.134",
+      "server_port": 443,
+      "password": "humanity",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -151,11 +152,22 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | TROJAN | @v2raych #2",
+      "type": "trojan",
+      "server": "46.62.204.134",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
