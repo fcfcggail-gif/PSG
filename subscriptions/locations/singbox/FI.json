@@ -90,9 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
-        "🇫🇮 FI | TROJAN | @v2raych #1",
-        "🇫🇮 FI | TROJAN | @v2raych #2",
+        "🇫🇮 FI | SS | @outlinereleasedkey #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #2",
         "🇫🇮 FI | VLESS | @v2raymelliii #1",
         "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
       ],
@@ -102,9 +102,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
-        "🇫🇮 FI | TROJAN | @v2raych #1",
-        "🇫🇮 FI | TROJAN | @v2raych #2",
+        "🇫🇮 FI | SS | @outlinereleasedkey #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #2",
         "🇫🇮 FI | VLESS | @v2raymelliii #1",
         "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
       ],
@@ -118,11 +118,27 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
+      "tag": "🇫🇮 FI | SS | @outlinereleasedkey #1",
+      "type": "shadowsocks",
+      "server": "185.103.110.66",
+      "server_port": 18280,
+      "method": "YWVzLTEyOC1nY206ZjkzMDBhOWJmMzlhZTAzNDdjM2EzYmZiYzRkZDc3NTQ=",
+      "password": null
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "65.108.3.59",
-      "server_port": 443,
-      "uuid": "8df2e661-6f46-471b-9133-7fc13a0daa35",
+      "server": "senfi.animereze.site",
+      "server_port": 1443,
+      "uuid": "bffafdda-4515-41f3-8744-82a94de32c6f",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "95.85.251.93",
+      "server_port": 8443,
+      "uuid": "fd1d80da-3b27-457a-810b-2b28a309edc1",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -136,38 +152,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI | TROJAN | @v2raych #1",
-      "type": "trojan",
-      "server": "46.62.204.134",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI | TROJAN | @v2raych #2",
-      "type": "trojan",
-      "server": "46.62.204.134",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },
