@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇸🇦 SA | VLESS | @red2ray #1",
         "🇸🇦 SA | VLESS | @v2rayprotocol #1",
         "🇸🇦 SA | VLESS | @v2rayprotocol #2"
       ],
@@ -99,6 +100,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇸🇦 SA | VLESS | @red2ray #1",
         "🇸🇦 SA | VLESS | @v2rayprotocol #1",
         "🇸🇦 SA | VLESS | @v2rayprotocol #2"
       ],
@@ -110,6 +112,28 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇸🇦 SA | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "213.165.56.102",
+      "server_port": 443,
+      "uuid": "6338c01a-310e-42c3-bf4f-2a20e161054b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇸🇦 SA | VLESS | @v2rayprotocol #1",

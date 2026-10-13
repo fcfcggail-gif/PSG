@@ -77,11 +77,12 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @outline_ir #1",
-        "🇫🇮 FI | SS | @outlinereleasedkey #1",
+        "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
         "🇫🇮 FI | VLESS | @v2raymelliii #1",
         "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
-        "🇫🇮 FI | VLESS | @vmesskhodam #1"
+        "🇫🇮 FI | VLESS | @vmesskhodam #1",
+        "🇫🇮 FI | VLESS | @vmesskhodam #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,11 +90,12 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @outline_ir #1",
-        "🇫🇮 FI | SS | @outlinereleasedkey #1",
+        "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
         "🇫🇮 FI | VLESS | @v2raymelliii #1",
         "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
-        "🇫🇮 FI | VLESS | @vmesskhodam #1"
+        "🇫🇮 FI | VLESS | @vmesskhodam #1",
+        "🇫🇮 FI | VLESS | @vmesskhodam #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -109,11 +111,28 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @outline_ir #1",
+      "tag": "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
       "type": "vless",
-      "server": "65.108.3.59",
+      "server": "ijug.jffq.electrocitymarket.ru",
       "server_port": 443,
-      "uuid": "8df2e661-6f46-471b-9133-7fc13a0daa35",
+      "uuid": "d2519b5e-495e-462e-9703-bbf68011d2f3",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "152.233.71.81",
+      "server_port": 443,
+      "uuid": "741809be-e44e-000b-b411-bf66f0ae3860",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -129,14 +148,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇫🇮 FI | SS | @outlinereleasedkey #1",
-      "type": "shadowsocks",
-      "server": "185.103.110.66",
-      "server_port": 18280,
-      "method": "YWVzLTEyOC1nY206ZjkzMDBhOWJmMzlhZTAzNDdjM2EzYmZiYzRkZDc3NTQ=",
-      "password": null
     },
     {
       "tag": "🇫🇮 FI | VLESS | @v2raymelliii #1",
@@ -168,6 +179,28 @@
       "type": "vless",
       "server": "219f.donyumvps.tr",
       "server_port": 34109,
+      "uuid": "6adfde3e-4c12-47ee-9f4a-319411b7bdd6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vmesskhodam #2",
+      "type": "vless",
+      "server": "f541.donyumvps.tr",
+      "server_port": 34113,
       "uuid": "6adfde3e-4c12-47ee-9f4a-319411b7bdd6",
       "packet_encoding": "xudp",
       "tls": {
