@@ -77,9 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
-        "🇫🇮 FI | VLESS | @v2raymelliii #1",
         "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
+        "🇫🇮 FI | VLESS | @vmesc #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #2"
       ],
@@ -89,9 +88,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
-        "🇫🇮 FI | VLESS | @v2raymelliii #1",
         "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
+        "🇫🇮 FI | VLESS | @vmesc #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #2"
       ],
@@ -109,46 +107,34 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
-      "type": "vless",
-      "server": "ijug.jffq.electrocitymarket.ru",
-      "server_port": 443,
-      "uuid": "d2519b5e-495e-462e-9703-bbf68011d2f3",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2raymelliii #1",
-      "type": "vless",
-      "server": "193.35.17.179",
-      "server_port": 443,
-      "uuid": "6cd40a62-e648-4529-a034-0b40cf01b067",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "65.109.181.18",
       "server_port": 27014,
       "uuid": "a42fdac4-53c7-4a5d-8655-4168eecbe43d",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "31.76.102.60",
+      "server_port": 443,
+      "uuid": "ee18d188-14cc-417e-beb1-70e4add6d023",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",
