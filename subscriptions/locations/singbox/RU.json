@@ -90,12 +90,12 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇷🇺 RU | VLESS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @prrofile_purple #1",
         "🇷🇺 RU | VLESS | @prrofile_purple #2",
         "🇷🇺 RU | VLESS | @prrofile_purple #3",
-        "🇷🇺 RU | VLESS | @red2ray #1",
-        "🇷🇺 RU | VLESS | @v2raych #1",
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇷🇺 RU | VLESS | @vmesc #1",
         "🇷🇺 RU | VLESS | @vmesskhodam #1"
@@ -106,12 +106,12 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇷🇺 RU | VLESS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @nofiltering2 #1",
         "🇷🇺 RU | VLESS | @prrofile_purple #1",
         "🇷🇺 RU | VLESS | @prrofile_purple #2",
         "🇷🇺 RU | VLESS | @prrofile_purple #3",
-        "🇷🇺 RU | VLESS | @red2ray #1",
-        "🇷🇺 RU | VLESS | @v2raych #1",
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
         "🇷🇺 RU | VLESS | @v2raytg #1",
         "🇷🇺 RU | VLESS | @vmesc #1",
         "🇷🇺 RU | VLESS | @vmesskhodam #1"
@@ -124,6 +124,28 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @flyv2ray #1",
+      "type": "vless",
+      "server": "87.242.127.113",
+      "server_port": 4510,
+      "uuid": "c3db7657-88ce-42a6-b998-1e0364b277ac",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇷🇺 RU | VLESS | @nofiltering2 #1",
@@ -199,11 +221,11 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @red2ray #1",
+      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "109.248.169.195",
-      "server_port": 43000,
-      "uuid": "caed9423-a900-4704-9045-d207a8d4697b",
+      "server": "95.181.170.27",
+      "server_port": 8443,
+      "uuid": "c96f941e-dd8a-0096-89d5-740b79202ed0",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -217,23 +239,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "co-a.speedtec.ru",
-      "server_port": 443,
-      "uuid": "019fbe0f-2d9f-4b89-9f81-e1e36129892a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     },
