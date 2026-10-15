@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇪🇸 ES | TROJAN | @mtproxy22_v2ray #1", "server": "212.227.144.37", "port": 8443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
+  - {"name": "🇪🇸 ES | VLESS | @v2ray_free_conf #1", "server": "213.182.201.130", "port": 3090, "type": "vless", "skip-cert-verify": true, "uuid": "a256aa26-c6ae-4abe-8594-6ed98b18bf27", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇪🇸 ES | TROJAN | @mtproxy22_v2ray #1'
+      - '🇪🇸 ES | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select
