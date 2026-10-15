@@ -82,18 +82,21 @@
         "🇮🇷 IR | VLESS | @NamiraConfigs #2",
         "🇮🇷 IR | SS | @ai_duet #1",
         "🇮🇷 IR | VLESS | @ai_duet #1",
+        "🇮🇷 IR | VLESS | @bored_vpn #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @lemonshopvpn #1",
+        "🇮🇷 IR | VLESS | @mimitdl #1",
         "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | VLESS | @mpproxy #1",
         "🇮🇷 IR | VLESS | @netmellianti #1",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @prooxyk #1",
-        "🇮🇷 IR | VLESS | @red2ray #1",
+        "🇮🇷 IR | VLESS | @realvpnmaster #1",
+        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇮🇷 IR | VLESS | @v2raymelliii #2",
@@ -111,18 +114,21 @@
         "🇮🇷 IR | VLESS | @NamiraConfigs #2",
         "🇮🇷 IR | SS | @ai_duet #1",
         "🇮🇷 IR | VLESS | @ai_duet #1",
+        "🇮🇷 IR | VLESS | @bored_vpn #1",
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lax_vpn #1",
         "🇮🇷 IR | VLESS | @lemonshopvpn #1",
+        "🇮🇷 IR | VLESS | @mimitdl #1",
         "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | VLESS | @mpproxy #1",
         "🇮🇷 IR | VLESS | @netmellianti #1",
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @prooxyk #1",
-        "🇮🇷 IR | VLESS | @red2ray #1",
+        "🇮🇷 IR | VLESS | @realvpnmaster #1",
+        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇮🇷 IR | VLESS | @v2raymelliii #2",
@@ -202,6 +208,28 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇮🇷 IR | VLESS | @bored_vpn #1",
+      "type": "vless",
+      "server": "a0148fb3cf1be85d.tunvi.w-ert.org",
+      "server_port": 442,
+      "uuid": "2ffa3b9b-7700-472d-99c1-25155b054fff",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @config_proxy #1",
       "type": "vless",
       "server": "185.143.233.235",
@@ -257,6 +285,23 @@
       "server": "www.zula.ir",
       "server_port": 443,
       "uuid": "2b5e2b86-55b6-4571-abc1-c1dec8605725",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @mimitdl #1",
+      "type": "vless",
+      "server": "62.60.222.174",
+      "server_port": 443,
+      "uuid": "MiMiTdL",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -327,12 +372,21 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @red2ray #1",
+      "tag": "🇮🇷 IR | VLESS | @realvpnmaster #1",
       "type": "vless",
-      "server": "cplus.nimhubnet.ir",
-      "server_port": 1018,
-      "uuid": "e399faac-f600-4df6-9426-6aadf5170c57",
+      "server": "zula.ir",
+      "server_port": 80,
+      "uuid": "19f935c2-4c92-4b8a-b024-3e378f396255",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "ir.yzcq.ir",
+      "server_port": 2080,
+      "uuid": "f23401fb-f4a8-4d45-80b7-cfd44b70308a",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
