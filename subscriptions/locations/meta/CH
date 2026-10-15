@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇨🇭 CH | VLESS | @v2ray_collector #1", "server": "138.124.63.224", "port": 8444, "type": "vless", "skip-cert-verify": true, "uuid": "f55e9aba-7b14-4f6f-b59a-d5b3d45c9309", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇨🇭 CH | VLESS | @v2raying #1", "server": "p2real5.greewebservices.ir", "port": 1350, "type": "vless", "skip-cert-verify": true, "uuid": "6b4a0e0d-35b1-4934-8376-a19cb81fca31", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇨🇭 CH | VLESS | @v2ray_collector #1'
       - '🇨🇭 CH | VLESS | @v2raying #1'
 
   - name: 🌍 Global Media
