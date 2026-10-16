@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgUk8=
+//profile-title: base64:UFNHIHwgSVM=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇴 RO | VLESS | @red2ray #1"
+        "🇮🇸 IS | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇴 RO | VLESS | @red2ray #1"
+        "🇮🇸 IS | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,26 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇴 RO | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "205.237.110.254",
-      "server_port": 443,
-      "uuid": "e75ad2eb-6c1f-45ce-8023-f5f10875df66",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "tag": "🇮🇸 IS | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "4d87.donyumvps.tr",
+      "server_port": 32119,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTptbF9wUVVrandvSjI2MlpTZUk2ZzBB",
+      "password": null
     }
   ],
   "route": {
