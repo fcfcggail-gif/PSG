@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇻 LV | VLESS | @free4allvpn #1"
+        "🇱🇻 LV | VLESS | @free4allvpn #1",
+        "🇱🇻 LV | TROJAN | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇻 LV | VLESS | @free4allvpn #1"
+        "🇱🇻 LV | VLESS | @free4allvpn #1",
+        "🇱🇻 LV | TROJAN | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -128,6 +130,22 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇱🇻 LV | TROJAN | @red2ray #1",
+      "type": "trojan",
+      "server": "91.197.3.7",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }
