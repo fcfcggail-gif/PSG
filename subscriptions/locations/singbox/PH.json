@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVFI=
+//profile-title: base64:UFNHIHwgUEg=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,9 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @v2ray_collector #1",
-        "🇹🇷 TR | VLESS | @v2raych #1",
-        "🇹🇷 TR | VLESS | @v2raych #2"
+        "🇵🇭 PH | VLESS | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @v2ray_collector #1",
-        "🇹🇷 TR | VLESS | @v2raych #1",
-        "🇹🇷 TR | VLESS | @v2raych #2"
+        "🇵🇭 PH | VLESS | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,54 +110,17 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @v2ray_collector #1",
+      "tag": "🇵🇭 PH | VLESS | @netfreedom0 #1",
       "type": "vless",
-      "server": "193.223.106.13",
-      "server_port": 33742,
-      "uuid": "b3a11068-1a7e-4643-85de-7c82cce46943",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "83.217.9.254",
-      "server_port": 443,
-      "uuid": "0011d187-d066-48f6-957c-a6983dd63a77",
+      "server": "platform109.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "83.217.9.254",
-      "server_port": 443,
-      "uuid": "0011d187-d066-48f6-957c-a6983dd63a77",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
         }
       }
     }
