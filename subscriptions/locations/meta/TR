@@ -24,6 +24,8 @@ dns:
 
 proxies: 
   - {"name": "🇹🇷 TR | VLESS | @v2ray_collector #1", "server": "193.223.106.13", "port": 33742, "type": "vless", "skip-cert-verify": true, "uuid": "b3a11068-1a7e-4643-85de-7c82cce46943", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇹🇷 TR | VLESS | @v2raych #1", "server": "83.217.9.254", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0011d187-d066-48f6-957c-a6983dd63a77", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇹🇷 TR | VLESS | @v2raych #2", "server": "83.217.9.254", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "0011d187-d066-48f6-957c-a6983dd63a77", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +40,8 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇹🇷 TR | VLESS | @v2ray_collector #1'
+      - '🇹🇷 TR | VLESS | @v2raych #1'
+      - '🇹🇷 TR | VLESS | @v2raych #2'
 
   - name: 🌍 Global Media
     type: select

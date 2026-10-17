@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | VLESS | @netfreedom0 #1",
-        "🇭🇰 HK | VLESS | @red2ray #1"
+        "🇦🇿 AZ | VLESS | @v2raych #1",
+        "🇦🇿 AZ | VLESS | @v2raych #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | VLESS | @netfreedom0 #1",
-        "🇭🇰 HK | VLESS | @red2ray #1"
+        "🇦🇿 AZ | VLESS | @v2raych #1",
+        "🇦🇿 AZ | VLESS | @v2raych #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,19 +103,33 @@
       "type": "direct"
     },
     {
-      "tag": "🇭🇰 HK | VLESS | @netfreedom0 #1",
+      "tag": "🇦🇿 AZ | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "3696b38bsg.murphyweb.sbs",
-      "server_port": 32134,
-      "uuid": "5b01dc2d-6892-49b8-8289-3f73a32e00e4",
-      "packet_encoding": "xudp"
+      "server": "az.sparxiecn.com",
+      "server_port": 443,
+      "uuid": "71c8d2c6-a7f1-4c74-b37d-d7f06fef9c04",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
-      "tag": "🇭🇰 HK | VLESS | @red2ray #1",
+      "tag": "🇦🇿 AZ | VLESS | @v2raych #2",
       "type": "vless",
-      "server": "hk03.ccdn3.work",
-      "server_port": 795,
-      "uuid": "fc12fb20-4380-11ec-8c97-d707e267af0b",
+      "server": "az.sparxiecn.com",
+      "server_port": 443,
+      "uuid": "71c8d2c6-a7f1-4c74-b37d-d7f06fef9c04",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

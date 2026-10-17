@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇩🇰 DK | VLESS | @mtproxy22_v2ray #1", "server": "1bccfbc69597.salzivo.ir", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "410bc842-c3df-4fc5-9e11-0feab5c97d64", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇿 AZ | VLESS | @v2raych #1", "server": "az.sparxiecn.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "71c8d2c6-a7f1-4c74-b37d-d7f06fef9c04", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇦🇿 AZ | VLESS | @v2raych #2", "server": "az.sparxiecn.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "71c8d2c6-a7f1-4c74-b37d-d7f06fef9c04", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇩🇰 DK | VLESS | @mtproxy22_v2ray #1'
+      - '🇦🇿 AZ | VLESS | @v2raych #1'
+      - '🇦🇿 AZ | VLESS | @v2raych #2'
 
   - name: 🌍 Global Media
     type: select

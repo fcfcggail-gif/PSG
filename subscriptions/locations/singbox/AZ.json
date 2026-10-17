@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgWkE=
+//profile-title: base64:UFNHIHwgQVo=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇿🇦 ZA | SS | @netfreedom0 #1"
+        "🇦🇿 AZ | VLESS | @v2raych #1",
+        "🇦🇿 AZ | VLESS | @v2raych #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇿🇦 ZA | SS | @netfreedom0 #1"
+        "🇦🇿 AZ | VLESS | @v2raych #1",
+        "🇦🇿 AZ | VLESS | @v2raych #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +112,48 @@
       "type": "direct"
     },
     {
-      "tag": "🇿🇦 ZA | SS | @netfreedom0 #1",
-      "type": "shadowsocks",
-      "server": "102.37.156.224",
+      "tag": "🇦🇿 AZ | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "az.sparxiecn.com",
       "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphZHVCOUhHeFFIakEyU0JNUmprSFg2",
-      "password": null
+      "uuid": "71c8d2c6-a7f1-4c74-b37d-d7f06fef9c04",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇦🇿 AZ | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "az.sparxiecn.com",
+      "server_port": 443,
+      "uuid": "71c8d2c6-a7f1-4c74-b37d-d7f06fef9c04",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

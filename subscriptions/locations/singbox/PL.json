@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇵🇱 PL | TROJAN | @mtproxy22_v2ray #1",
         "🇵🇱 PL | VLESS | @prrofile_purple #1"
       ],
       "tag": "proxy",
@@ -98,6 +99,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇵🇱 PL | TROJAN | @mtproxy22_v2ray #1",
         "🇵🇱 PL | VLESS | @prrofile_purple #1"
       ],
       "tag": "auto",
@@ -108,6 +110,22 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇵🇱 PL | TROJAN | @mtproxy22_v2ray #1",
+      "type": "trojan",
+      "server": "92.118.150.146",
+      "server_port": 443,
+      "password": "Trojan%4082164024",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇵🇱 PL | VLESS | @prrofile_purple #1",
