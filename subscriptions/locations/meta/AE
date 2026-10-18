@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇦🇪 AE | VLESS | @v2ray_free_conf #1", "server": "asp.aloamin99.ir", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "75ea0f06-c69f-41ed-8376-7382d0f2634f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇪 AE | VLESS | @v2ray_collector #1", "server": "157.228.155.185", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "df53b6c2-8005-475c-9eb9-74e1be785dc8", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇦🇪 AE | VLESS | @vpnfree85 #1", "server": "protectnet.cloudinohost.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "ea470142-10c6-4b1f-a8e6-0ddcc78a4058", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -38,7 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇦🇪 AE | VLESS | @v2ray_free_conf #1'
+      - '🇦🇪 AE | VLESS | @v2ray_collector #1'
       - '🇦🇪 AE | VLESS | @vpnfree85 #1'
 
   - name: 🌍 Global Media
