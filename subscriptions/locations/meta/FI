@@ -23,7 +23,9 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇮 FI | VLESS | @v2ray_free_conf #1", "server": "9a19.donyumvps.tr", "port": 30111, "type": "vless", "skip-cert-verify": true, "uuid": "6adfde3e-4c12-47ee-9f4a-319411b7bdd6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇫🇮 FI | VLESS | @outlinereleasedkey #1", "server": "152.233.71.81", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "741809be-e44e-000b-b411-bf66f0ae3860", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇫🇮 FI | VLESS | @v2ray_collector #1", "server": "152.233.71.81", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "741809be-e44e-000b-b411-bf66f0ae3860", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇫🇮 FI | VLESS | @v2ray_collector #2", "server": "152.233.71.81", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "741809be-e44e-000b-b411-bf66f0ae3860", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇫🇮 FI | VLESS | @v2rayngconfiig #1", "server": "65.109.181.18", "port": 27014, "type": "vless", "skip-cert-verify": true, "uuid": "a42fdac4-53c7-4a5d-8655-4168eecbe43d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -38,7 +40,9 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇮 FI | VLESS | @v2ray_free_conf #1'
+      - '🇫🇮 FI | VLESS | @outlinereleasedkey #1'
+      - '🇫🇮 FI | VLESS | @v2ray_collector #1'
+      - '🇫🇮 FI | VLESS | @v2ray_collector #2'
       - '🇫🇮 FI | VLESS | @v2rayngconfiig #1'
 
   - name: 🌍 Global Media
