@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇪 IE | SS | @outline_ir #1",
-        "🇮🇪 IE | SS | @v2ray_free_conf #1"
+        "🇷🇸 RS | VLESS | @prrofile_purple #1",
+        "🇷🇸 RS | VLESS | @prrofile_purple #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇪 IE | SS | @outline_ir #1",
-        "🇮🇪 IE | SS | @v2ray_free_conf #1"
+        "🇷🇸 RS | VLESS | @prrofile_purple #1",
+        "🇷🇸 RS | VLESS | @prrofile_purple #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,20 +103,38 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇪 IE | SS | @outline_ir #1",
-      "type": "shadowsocks",
-      "server": "20.123.1.55",
+      "tag": "🇷🇸 RS | VLESS | @prrofile_purple #1",
+      "type": "vless",
+      "server": "150.40.126.22",
       "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpZRjMyOUtOR1ZUVVoxcXJI",
-      "password": null
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
-      "tag": "🇮🇪 IE | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "20.223.172.81",
+      "tag": "🇷🇸 RS | VLESS | @prrofile_purple #2",
+      "type": "vless",
+      "server": "150.40.126.21",
       "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpVVWpwaGtRQWg1QmtPZGJm",
-      "password": null
+      "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
