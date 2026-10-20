@@ -121,6 +121,7 @@
         "🇽🇽 XX | VLESS | @filtershekan_channel #1",
         "🇽🇽 XX | TROJAN | @filtershekan_channel #1",
         "🇽🇽 XX | VLESS | @free1_vpn #1",
+        "🇺🇸 US | VLESS | @free1_vpn #1",
         "🇽🇽 XX | VLESS | @free1_vpn #2",
         "🇽🇽 XX | VLESS | @free1_vpn #3",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
@@ -257,6 +258,7 @@
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
+        "🇽🇽 XX | TROJAN | @v2raych #2",
         "🇽🇽 XX | VLESS | @v2raying #1",
         "🇽🇽 XX | VLESS | @v2raying #2",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
@@ -299,6 +301,7 @@
         "🇽🇽 XX | VLESS | @vmesc #1",
         "🇽🇽 XX | TROJAN | @vmesskhodam #1",
         "🇽🇽 XX | TROJAN | @vmesskhodam #2",
+        "🇽🇽 XX | TROJAN | @vmesskhodam #3",
         "🇽🇽 XX | VMESS | @vpn_ioss #1",
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
@@ -342,6 +345,7 @@
         "🇽🇽 XX | VLESS | @filtershekan_channel #1",
         "🇽🇽 XX | TROJAN | @filtershekan_channel #1",
         "🇽🇽 XX | VLESS | @free1_vpn #1",
+        "🇺🇸 US | VLESS | @free1_vpn #1",
         "🇽🇽 XX | VLESS | @free1_vpn #2",
         "🇽🇽 XX | VLESS | @free1_vpn #3",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
@@ -478,6 +482,7 @@
         "🇽🇽 XX | VLESS | @v2ray_youtube #3",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
+        "🇽🇽 XX | TROJAN | @v2raych #2",
         "🇽🇽 XX | VLESS | @v2raying #1",
         "🇽🇽 XX | VLESS | @v2raying #2",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
@@ -520,6 +525,7 @@
         "🇽🇽 XX | VLESS | @vmesc #1",
         "🇽🇽 XX | TROJAN | @vmesskhodam #1",
         "🇽🇽 XX | TROJAN | @vmesskhodam #2",
+        "🇽🇽 XX | TROJAN | @vmesskhodam #3",
         "🇽🇽 XX | VMESS | @vpn_ioss #1",
         "🇽🇽 XX | VLESS | @vpn_ocean #1",
         "🇽🇽 XX | TROJAN | @vpnfree85 #1",
@@ -837,19 +843,18 @@
     {
       "tag": "🇽🇽 XX | VLESS | @free1_vpn #1",
       "type": "vless",
-      "server": "188.114.97.6",
-      "server_port": 443,
+      "server": "172.67.155.65",
+      "server_port": 8443,
       "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "162.159.152.4",
+      "server_port": 2052,
+      "uuid": "16a74c64-15bf-4fea-89e1-0a33ca535cc9",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @free1_vpn #2",
@@ -871,10 +876,19 @@
     {
       "tag": "🇽🇽 XX | VLESS | @free1_vpn #3",
       "type": "vless",
-      "server": "172.67.155.65",
-      "server_port": 8443,
+      "server": "188.114.97.6",
+      "server_port": 443,
       "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
-      "packet_encoding": "xudp"
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @free4allvpn #1",
@@ -2549,6 +2563,22 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇽🇽 XX | TROJAN | @v2raych #2",
+      "type": "trojan",
+      "server": "188.114.98.0",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @v2raying #1",
       "type": "vless",
       "server": "188.114.97.6",
@@ -3102,6 +3132,22 @@
       "tag": "🇽🇽 XX | TROJAN | @vmesskhodam #2",
       "type": "trojan",
       "server": "188.114.98.0",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | TROJAN | @vmesskhodam #3",
+      "type": "trojan",
+      "server": "188.114.97.6",
       "server_port": 443,
       "password": "humanity",
       "tls": {
