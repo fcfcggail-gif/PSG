@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇨🇭 CH | VLESS | @outlinereleasedkey #1", "server": "ch.srv.vbuste.ru", "port": 444, "type": "vless", "skip-cert-verify": true, "uuid": "318c935d-c195-41d3-99ad-9bbcfdab3386", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇹 AT | VLESS | @vmesc #1", "server": "at-3.wizard.select", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "074b00de-c4d0-11f1-9902-a337233c6cda", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇨🇭 CH | VLESS | @outlinereleasedkey #1'
+      - '🇦🇹 AT | VLESS | @vmesc #1'
 
   - name: 🌍 Global Media
     type: select
