@@ -85,6 +85,7 @@
         "🇮🇷 IR | VLESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
+        "🇮🇷 IR | VLESS | @lemonshopvpn #1",
         "🇮🇷 IR | VLESS | @luckyvpn #1",
         "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | VLESS | @mpproxy #1",
@@ -92,14 +93,14 @@
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @orange_vpns #1",
         "🇮🇷 IR | VLESS | @prooxyk #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
+        "🇮🇷 IR | VLESS | @realvpnmaster #1",
+        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
-        "🇮🇷 IR | VLESS | @v2raych #1",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇮🇷 IR | VLESS | @v2raymelliii #2",
-        "🇮🇷 IR | VLESS | @v2raymelliii #3"
+        "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
+        "🇮🇷 IR | VLESS | @v_2rayngvpn #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -115,6 +116,7 @@
         "🇮🇷 IR | VLESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @father_vpn #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
+        "🇮🇷 IR | VLESS | @lemonshopvpn #1",
         "🇮🇷 IR | VLESS | @luckyvpn #1",
         "🇮🇷 IR | VLESS | @miov2ray #1",
         "🇮🇷 IR | VLESS | @mpproxy #1",
@@ -122,14 +124,14 @@
         "🇮🇷 IR | VLESS | @nn_vpn #1",
         "🇮🇷 IR | VLESS | @orange_vpns #1",
         "🇮🇷 IR | VLESS | @prooxyk #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
+        "🇮🇷 IR | VLESS | @realvpnmaster #1",
+        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
-        "🇮🇷 IR | VLESS | @v2raych #1",
         "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇮🇷 IR | VLESS | @v2raymelliii #2",
-        "🇮🇷 IR | VLESS | @v2raymelliii #3"
+        "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
+        "🇮🇷 IR | VLESS | @v_2rayngvpn #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -229,6 +231,23 @@
       "alter_id": 0
     },
     {
+      "tag": "🇮🇷 IR | VLESS | @lemonshopvpn #1",
+      "type": "vless",
+      "server": "www.zula.ir",
+      "server_port": 443,
+      "uuid": "2b5e2b86-55b6-4571-abc1-c1dec8605725",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @luckyvpn #1",
       "type": "vless",
       "server": "green.starboy.ir",
@@ -303,48 +322,21 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇮🇷 IR | VLESS | @realvpnmaster #1",
       "type": "vless",
-      "server": "tun2.w-ert.org",
-      "server_port": 447,
-      "uuid": "a9aed6a7-0295-4df4-8d29-c66677d7ea08",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "server": "zula.ir",
+      "server_port": 80,
+      "uuid": "19f935c2-4c92-4b8a-b024-3e378f396255",
+      "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #2",
-      "type": "vless",
-      "server": "0cae56a01fd4600c.tunvi.w-ert.org",
-      "server_port": 448,
-      "uuid": "f2dd86a4-03eb-4dc6-850d-6fbefc303613",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "tag": "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "dashboard.ojeshop.top",
+      "server_port": 5380,
+      "uuid": "63ad66f6-b7a6-4df0-bf15-0c82a047b7e3",
+      "security": "auto",
+      "alter_id": 0
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
@@ -363,46 +355,7 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "tun2.w-ert.org",
-      "server_port": 44512,
-      "uuid": "2a1acb4b-fe6e-487c-ac63-c83b84c657ac",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇮🇷 IR | VLESS | @v2raymelliii #1",
-      "type": "vless",
-      "server": "nexall.cloudvipgamefall.ir",
-      "server_port": 8080,
-      "uuid": "3fd888a5-9356-4a5e-b161-b87338cc5f32",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2raymelliii #2",
       "type": "vless",
       "server": "nexall.cloudvipgamefall.ir",
       "server_port": 8080,
@@ -419,11 +372,27 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @v2raymelliii #3",
+      "tag": "🇮🇷 IR | VLESS | @v2raymelliii #2",
       "type": "vless",
       "server": "tr1-tun.dnetopps.ir",
       "server_port": 10050,
       "uuid": "9feaea01-f52a-b0bb-0142-35233d391d0c",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
+      "type": "vless",
+      "server": "www.zula.ir",
+      "server_port": 80,
+      "uuid": "55737b22-c50a-491a-8cd3-69f84e67e3f7",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v_2rayngvpn #2",
+      "type": "vless",
+      "server": "www.zula.ir",
+      "server_port": 80,
+      "uuid": "bfe63cc5-412d-4aa7-b04e-75c9d52b5831",
       "packet_encoding": "xudp"
     }
   ],
