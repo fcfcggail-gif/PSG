@@ -23,7 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇬🇧 GB | VLESS | @privatevpns #1", "server": "51.24.15.27", "port": 22222, "type": "vless", "skip-cert-verify": true, "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VLESS | @privatevpns #1", "server": "16.60.128.74", "port": 22222, "type": "vless", "skip-cert-verify": true, "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VLESS | @privatevpns #2", "server": "18.169.214.179", "port": 22222, "type": "vless", "skip-cert-verify": true, "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VLESS | @privatevpns #3", "server": "3.11.145.4", "port": 22222, "type": "vless", "skip-cert-verify": true, "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VLESS | @vlessconfig #1", "server": "18.169.214.179", "port": 22224, "type": "vless", "skip-cert-verify": true, "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +41,9 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇬🇧 GB | VLESS | @privatevpns #1'
+      - '🇬🇧 GB | VLESS | @privatevpns #2'
+      - '🇬🇧 GB | VLESS | @privatevpns #3'
+      - '🇬🇧 GB | VLESS | @vlessconfig #1'
 
   - name: 🌍 Global Media
     type: select

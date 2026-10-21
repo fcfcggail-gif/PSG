@@ -77,8 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇯🇵 JP | VLESS | @lemonshopvpn #1",
         "🇯🇵 JP | VLESS | @outline_ir #1",
-        "🇯🇵 JP | VLESS | @v2ray_free_conf #1",
+        "🇯🇵 JP | VLESS | @red2ray #1",
         "🇯🇵 JP | VLESS | @v2raych #1",
         "🇯🇵 JP | SS | @v2rayng3 #1"
       ],
@@ -88,8 +89,9 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇯🇵 JP | VLESS | @lemonshopvpn #1",
         "🇯🇵 JP | VLESS | @outline_ir #1",
-        "🇯🇵 JP | VLESS | @v2ray_free_conf #1",
+        "🇯🇵 JP | VLESS | @red2ray #1",
         "🇯🇵 JP | VLESS | @v2raych #1",
         "🇯🇵 JP | SS | @v2rayng3 #1"
       ],
@@ -105,6 +107,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @lemonshopvpn #1",
+      "type": "vless",
+      "server": "ubia2-join.outline-vpn.cloud",
+      "server_port": 80,
+      "uuid": "48bd4d22-e42f-4749-af6a-85ecf716c823",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇯🇵 JP | VLESS | @outline_ir #1",
@@ -129,10 +139,10 @@
       }
     },
     {
-      "tag": "🇯🇵 JP | VLESS | @v2ray_free_conf #1",
+      "tag": "🇯🇵 JP | VLESS | @red2ray #1",
       "type": "vless",
       "server": "funagfrdfs.alixxplay.com",
-      "server_port": 56656,
+      "server_port": 35544,
       "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
       "packet_encoding": "xudp",
       "tls": {
@@ -153,9 +163,9 @@
     {
       "tag": "🇯🇵 JP | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "pq.aws51.yydjc.top",
-      "server_port": 443,
-      "uuid": "0cf7bb7c-cf49-4e1c-aa98-f33cbe3cb156",
+      "server": "funagfrdfs.alixxplay.com",
+      "server_port": 34379,
+      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -164,6 +174,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
