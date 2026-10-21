@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQUw=
+//profile-title: base64:UFNHIHwgQ0w=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇱 AL | VLESS | @red2ray #1"
+        "🇨🇱 CL | VLESS | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇱 AL | VLESS | @red2ray #1"
+        "🇨🇱 CL | VLESS | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,24 +110,17 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇱 AL | VLESS | @red2ray #1",
+      "tag": "🇨🇱 CL | VLESS | @netfreedom0 #1",
       "type": "vless",
-      "server": "151.123.187.198",
-      "server_port": 443,
-      "uuid": "b24ad12f-f6ce-4f0b-a264-d58a76104026",
+      "server": "platform109.golnamakcert.top",
+      "server_port": 80,
+      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
+      "transport": {
+        "type": "ws",
+        "path": "/",
+        "headers": {
+          "Host": ""
         }
       }
     }
