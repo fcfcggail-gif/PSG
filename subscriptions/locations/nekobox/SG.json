@@ -78,9 +78,8 @@
         "auto",
         "direct",
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
-        "🇸🇬 SG | VLESS | @v2rayexpress #1",
-        "🇸🇬 SG | VLESS | @vmesskhodam #1",
-        "🇸🇬 SG | VLESS | @vpn_ioss #1"
+        "🇸🇬 SG | VLESS | @netfreedom0 #1",
+        "🇸🇬 SG | VLESS | @v2rayexpress #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,9 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
-        "🇸🇬 SG | VLESS | @v2rayexpress #1",
-        "🇸🇬 SG | VLESS | @vmesskhodam #1",
-        "🇸🇬 SG | VLESS | @vpn_ioss #1"
+        "🇸🇬 SG | VLESS | @netfreedom0 #1",
+        "🇸🇬 SG | VLESS | @v2rayexpress #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -131,55 +129,19 @@
       }
     },
     {
+      "tag": "🇸🇬 SG | VLESS | @netfreedom0 #1",
+      "type": "vless",
+      "server": "3696b38bsg.murphyweb.sbs",
+      "server_port": 32134,
+      "uuid": "5b01dc2d-6892-49b8-8289-3f73a32e00e4",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇸🇬 SG | VLESS | @v2rayexpress #1",
       "type": "vless",
       "server": "5.223.42.211",
       "server_port": 443,
       "uuid": "9d33dc91-fb84-4f96-d9b1-fe28a230a94f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 SG | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "funagfrdfs.alixxplay.com",
-      "server_port": 35544,
-      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇸🇬 SG | VLESS | @vpn_ioss #1",
-      "type": "vless",
-      "server": "funagfrdfs.alixxplay.com",
-      "server_port": 30892,
-      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
