@@ -77,7 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇱 CL | VLESS | @netfreedom0 #1"
+        "🇷🇴 RO | VLESS | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇱 CL | VLESS | @netfreedom0 #1"
+        "🇷🇴 RO | VLESS | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,17 +101,19 @@
       "type": "direct"
     },
     {
-      "tag": "🇨🇱 CL | VLESS | @netfreedom0 #1",
+      "tag": "🇷🇴 RO | VLESS | @netfreedom0 #1",
       "type": "vless",
-      "server": "platform109.golnamakcert.top",
-      "server_port": 80,
-      "uuid": "e13cf851-b4fd-413b-8d49-146e6eb8e5d4",
+      "server": "103.126.51.58",
+      "server_port": 995,
+      "uuid": "1fc575d3-81bb-44d5-9efa-4131c7cc677a",
       "packet_encoding": "xudp",
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": ""
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }
