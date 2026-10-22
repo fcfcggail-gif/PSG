@@ -23,10 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇬🇧 GB | VLESS | @netfreedom0 #1", "server": "milo.rubinaz.xyz", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇬🇧 GB | VLESS | @privatevpns #1", "server": "18.168.90.187", "port": 22222, "type": "vless", "skip-cert-verify": true, "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇬🇧 GB | VLESS | @privatevpns #2", "server": "13.134.125.31", "port": 22222, "type": "vless", "skip-cert-verify": true, "uuid": "e4514801-0d5a-42ba-869f-39bd605aef9e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇬🇧 GB | VLESS | @v2ray_collector #1", "server": "edge10.cyrionflare.com", "port": 2052, "type": "vless", "skip-cert-verify": true, "uuid": "1a8ecc41-6e62-431b-8eca-87c2fa4dc286", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇬🇧 GB | VLESS | @red2ray #1", "server": "gb.srv.dvzh.net", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "9ab3a362-1518-496d-b08d-eced45cec936", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,10 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇬🇧 GB | VLESS | @netfreedom0 #1'
-      - '🇬🇧 GB | VLESS | @privatevpns #1'
-      - '🇬🇧 GB | VLESS | @privatevpns #2'
-      - '🇬🇧 GB | VLESS | @v2ray_collector #1'
+      - '🇬🇧 GB | VLESS | @red2ray #1'
 
   - name: 🌍 Global Media
     type: select
