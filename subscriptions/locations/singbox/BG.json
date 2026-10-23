@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇧🇬 BG | SS | @netfreedom0 #1",
-        "🇧🇬 BG | VLESS | @outline_ir #1"
+        "🇧🇬 BG | VLESS | @outline_ir #1",
+        "🇧🇬 BG | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇧🇬 BG | SS | @netfreedom0 #1",
-        "🇧🇬 BG | VLESS | @outline_ir #1"
+        "🇧🇬 BG | VLESS | @outline_ir #1",
+        "🇧🇬 BG | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -133,6 +135,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇬 BG | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "p2real22.greewebservices.ir",
+      "server_port": 1320,
+      "uuid": "2582857a-632b-4c4e-9b67-96213cbaf58c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }
