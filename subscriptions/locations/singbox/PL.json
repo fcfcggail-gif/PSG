@@ -90,7 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @orange_vpns #1"
+        "🇵🇱 PL | VLESS | @orange_vpns #1",
+        "🇵🇱 PL | TROJAN | @orange_vpns #1",
+        "🇵🇱 PL | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @orange_vpns #1"
+        "🇵🇱 PL | VLESS | @orange_vpns #1",
+        "🇵🇱 PL | TROJAN | @orange_vpns #1",
+        "🇵🇱 PL | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -123,6 +127,44 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | TROJAN | @orange_vpns #1",
+      "type": "trojan",
+      "server": "pl2.dedushka.top",
+      "server_port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "83.168.69.15",
+      "server_port": 56229,
+      "uuid": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

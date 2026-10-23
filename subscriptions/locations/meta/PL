@@ -24,6 +24,8 @@ dns:
 
 proxies: 
   - {"name": "🇵🇱 PL | VLESS | @orange_vpns #1", "server": "2.26.225.89", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "51a1fd52-fd88-4905-a976-35e44be28e4b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇵🇱 PL | TROJAN | @orange_vpns #1", "server": "pl2.dedushka.top", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA"}
+  - {"name": "🇵🇱 PL | VLESS | @v2raych #1", "server": "83.168.69.15", "port": 56229, "type": "vless", "skip-cert-verify": true, "uuid": "30572b57-f5ab-4eb8-82d4-a24d399b99f6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +40,8 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇵🇱 PL | VLESS | @orange_vpns #1'
+      - '🇵🇱 PL | TROJAN | @orange_vpns #1'
+      - '🇵🇱 PL | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

@@ -91,7 +91,7 @@
         "auto",
         "direct",
         "🇷🇴 RO | VLESS | @netfreedom0 #1",
-        "🇷🇴 RO | VLESS | @v2raych #1"
+        "🇷🇴 RO | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +100,7 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇴 RO | VLESS | @netfreedom0 #1",
-        "🇷🇴 RO | VLESS | @v2raych #1"
+        "🇷🇴 RO | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -129,12 +129,21 @@
       }
     },
     {
-      "tag": "🇷🇴 RO | VLESS | @v2raych #1",
+      "tag": "🇷🇴 RO | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "rom.color-shop.ir",
-      "server_port": 8080,
-      "uuid": "6e74e8ba-9f93-4229-8c3a-8132992948c9",
-      "packet_encoding": "xudp"
+      "server": "87.58.205.88",
+      "server_port": 443,
+      "uuid": "d49e6f64-2a62-4fc6-8dde-9ab1bdf12c02",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
