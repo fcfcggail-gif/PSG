@@ -107,6 +107,7 @@
         "🇽🇽 XX | VLESS | @father_vpn #1",
         "🇽🇽 XX | VLESS | @filtershekan_channel #1",
         "🇽🇽 XX | TROJAN | @filtershekan_channel #1",
+        "🇽🇽 XX | VLESS | @free1_vpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #2",
         "🇽🇽 XX | VLESS | @freev2flyng #1",
@@ -166,7 +167,6 @@
         "🇽🇽 XX | VLESS | @manstervpn #1",
         "🇽🇽 XX | VLESS | @manstervpn #2",
         "🇽🇽 XX | TROJAN | @manstervpn #1",
-        "🇽🇽 XX | TROJAN | @manstervpn #2",
         "🇽🇽 XX | VLESS | @mastervpnshop1 #1",
         "🇽🇽 XX | VLESS | @mehrosaboran #1",
         "🇽🇽 XX | TROJAN | @mehrosaboran #1",
@@ -220,7 +220,6 @@
         "🇽🇽 XX | VLESS | @renetvpn #4",
         "🇽🇽 XX | VLESS | @selinc #1",
         "🇽🇽 XX | TROJAN | @selinc #1",
-        "🇽🇽 XX | VMESS | @serverv2ray00 #1",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
@@ -331,6 +330,7 @@
         "🇽🇽 XX | VLESS | @father_vpn #1",
         "🇽🇽 XX | VLESS | @filtershekan_channel #1",
         "🇽🇽 XX | TROJAN | @filtershekan_channel #1",
+        "🇽🇽 XX | VLESS | @free1_vpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #1",
         "🇽🇽 XX | VLESS | @free4allvpn #2",
         "🇽🇽 XX | VLESS | @freev2flyng #1",
@@ -390,7 +390,6 @@
         "🇽🇽 XX | VLESS | @manstervpn #1",
         "🇽🇽 XX | VLESS | @manstervpn #2",
         "🇽🇽 XX | TROJAN | @manstervpn #1",
-        "🇽🇽 XX | TROJAN | @manstervpn #2",
         "🇽🇽 XX | VLESS | @mastervpnshop1 #1",
         "🇽🇽 XX | VLESS | @mehrosaboran #1",
         "🇽🇽 XX | TROJAN | @mehrosaboran #1",
@@ -444,7 +443,6 @@
         "🇽🇽 XX | VLESS | @renetvpn #4",
         "🇽🇽 XX | VLESS | @selinc #1",
         "🇽🇽 XX | TROJAN | @selinc #1",
-        "🇽🇽 XX | VMESS | @serverv2ray00 #1",
         "🇽🇽 XX | VLESS | @shadowsocksshop #1",
         "🇽🇽 XX | TROJAN | @spikevpn #1",
         "🇽🇽 XX | TROJAN | @spikevpn #2",
@@ -839,6 +837,23 @@
       "server": "104.19.229.21",
       "server_port": 443,
       "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "188.114.97.6",
+      "server_port": 443,
+      "uuid": "e6df2095-a73c-4043-8693-8d5a03686870",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -1581,22 +1596,6 @@
       "password": "bpb-trojan"
     },
     {
-      "tag": "🇽🇽 XX | TROJAN | @manstervpn #2",
-      "type": "trojan",
-      "server": "104.18.37.111",
-      "server_port": 443,
-      "password": "bpb-trojan",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VLESS | @mastervpnshop1 #1",
       "type": "vless",
       "server": "104.31.16.65",
@@ -2303,31 +2302,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @serverv2ray00 #1",
-      "type": "vmess",
-      "server": "172.67.152.214",
-      "server_port": 443,
-      "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "meroiy.icu",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/linkvws",
-        "headers": {
-          "Host": "meroiy.icu"
         }
       }
     },
