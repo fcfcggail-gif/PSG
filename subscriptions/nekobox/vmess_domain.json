@@ -100,6 +100,7 @@
         "🇽🇽 XX | VMESS | @v2ray4win #1",
         "🇽🇽 XX | VMESS | @v2ray4win #2",
         "🇽🇽 XX | VMESS | @v2ray_collector #1",
+        "🇽🇽 XX | VMESS | @v2ray_collector #2",
         "🇽🇽 XX | VMESS | @vpn_ioss #1",
         "🇽🇽 XX | VMESS | @vpngate_config #1"
       ],
@@ -132,6 +133,7 @@
         "🇽🇽 XX | VMESS | @v2ray4win #1",
         "🇽🇽 XX | VMESS | @v2ray4win #2",
         "🇽🇽 XX | VMESS | @v2ray_collector #1",
+        "🇽🇽 XX | VMESS | @v2ray_collector #2",
         "🇽🇽 XX | VMESS | @vpn_ioss #1",
         "🇽🇽 XX | VMESS | @vpngate_config #1"
       ],
@@ -660,6 +662,31 @@
         "path": "/aiaiai",
         "headers": {
           "Host": "server40.9966338.xyz"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @v2ray_collector #2",
+      "type": "vmess",
+      "server": "104.17.136.198",
+      "server_port": 443,
+      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "vmess.lbw666.dpdns.org",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "vmess.lbw666.dpdns.org"
         }
       }
     },

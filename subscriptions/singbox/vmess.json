@@ -113,6 +113,7 @@
         "🇽🇽 XX | VMESS | @v2ray4win #1",
         "🇽🇽 XX | VMESS | @v2ray4win #2",
         "🇽🇽 XX | VMESS | @v2ray_collector #1",
+        "🇽🇽 XX | VMESS | @v2ray_collector #2",
         "🇽🇽 XX | VMESS | @vpn_ioss #1",
         "🇽🇽 XX | VMESS | @vpngate_config #1",
         "🇽🇽 XX | VMESS | @hope_net #1",
@@ -120,8 +121,7 @@
         "🇽🇽 XX | VMESS | @khoneproxy #2",
         "🇽🇽 XX | VMESS | @khoneproxy #3",
         "🇽🇽 XX | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #2",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf #1"
+        "🇽🇽 XX | VMESS | @proxy48 #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -152,6 +152,7 @@
         "🇽🇽 XX | VMESS | @v2ray4win #1",
         "🇽🇽 XX | VMESS | @v2ray4win #2",
         "🇽🇽 XX | VMESS | @v2ray_collector #1",
+        "🇽🇽 XX | VMESS | @v2ray_collector #2",
         "🇽🇽 XX | VMESS | @vpn_ioss #1",
         "🇽🇽 XX | VMESS | @vpngate_config #1",
         "🇽🇽 XX | VMESS | @hope_net #1",
@@ -159,8 +160,7 @@
         "🇽🇽 XX | VMESS | @khoneproxy #2",
         "🇽🇽 XX | VMESS | @khoneproxy #3",
         "🇽🇽 XX | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #2",
-        "🇽🇽 XX | VMESS | @v2ray_free_conf #1"
+        "🇽🇽 XX | VMESS | @proxy48 #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -687,6 +687,31 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VMESS | @v2ray_collector #2",
+      "type": "vmess",
+      "server": "104.17.136.198",
+      "server_port": 443,
+      "uuid": "0cf6d970-3f1d-4aae-a989-92a8f76ae3db",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "vmess.lbw666.dpdns.org",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/ws",
+        "headers": {
+          "Host": "vmess.lbw666.dpdns.org"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VMESS | @vpn_ioss #1",
       "type": "vmess",
       "server": "145.239.55.210",
@@ -833,22 +858,6 @@
       "transport": {
         "type": "grpc",
         "service_name": "WgCmp8p80KDzo64uHE"
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "us-23.hihu.net",
-      "server_port": 80,
-      "uuid": "8a9aaa70-ced9-11f1-b934-205c6d5f5d78",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/870ao26f",
-        "headers": {
-          "Host": "172.66.0.251"
-        }
       }
     }
   ],
