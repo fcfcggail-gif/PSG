@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇯🇵 JP | VLESS | @free4allvpn #1", "server": "15.168.173.144", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "e0306a33-9971-4b75-a5e0-a176a5a48a2e", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇯🇵 JP | VLESS | @lemonshopvpn #1", "server": "ubia2-join.outline-vpn.cloud", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "48bd4d22-e42f-4749-af6a-85ecf716c823", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇯🇵 JP | VLESS | @free4allvpn #1'
       - '🇯🇵 JP | VLESS | @lemonshopvpn #1'
 
   - name: 🌍 Global Media
