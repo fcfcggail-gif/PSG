@@ -77,10 +77,14 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇸🇬 SG | VLESS | @free1_vpn #1",
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
         "🇸🇬 SG | SS | @mtproxy22_v2ray #1",
-        "🇸🇬 SG | VLESS | @netfreedom0 #1",
-        "🇸🇬 SG | VLESS | @v2rayexpress #1"
+        "🇸🇬 SG | VLESS | @red2ray #1",
+        "🇸🇬 SG | VLESS | @v2ray_youtube #1",
+        "🇸🇬 SG | VLESS | @v2rayexpress #1",
+        "🇸🇬 SG | VLESS | @v2raying #1",
+        "🇸🇬 SG | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,10 +92,14 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇸🇬 SG | VLESS | @free1_vpn #1",
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
         "🇸🇬 SG | SS | @mtproxy22_v2ray #1",
-        "🇸🇬 SG | VLESS | @netfreedom0 #1",
-        "🇸🇬 SG | VLESS | @v2rayexpress #1"
+        "🇸🇬 SG | VLESS | @red2ray #1",
+        "🇸🇬 SG | VLESS | @v2ray_youtube #1",
+        "🇸🇬 SG | VLESS | @v2rayexpress #1",
+        "🇸🇬 SG | VLESS | @v2raying #1",
+        "🇸🇬 SG | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -105,6 +113,28 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "funagfrdfs.alixxplay.com",
+      "server_port": 54528,
+      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇸🇬 SG | VLESS | @freeconfigsplus #1",
@@ -139,11 +169,11 @@
       "password": null
     },
     {
-      "tag": "🇸🇬 SG | VLESS | @netfreedom0 #1",
+      "tag": "🇸🇬 SG | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "45.132.75.213",
-      "server_port": 2053,
-      "uuid": "f46182d1-e13b-47d3-97e2-fa5426a93e7c",
+      "server": "funagfrdfs.alixxplay.com",
+      "server_port": 30892,
+      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -161,11 +191,49 @@
       }
     },
     {
+      "tag": "🇸🇬 SG | VLESS | @v2ray_youtube #1",
+      "type": "vless",
+      "server": "funagfrdfs.alixxplay.com",
+      "server_port": 47672,
+      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇸🇬 SG | VLESS | @v2rayexpress #1",
       "type": "vless",
       "server": "5.223.42.211",
       "server_port": 443,
       "uuid": "9d33dc91-fb84-4f96-d9b1-fe28a230a94f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @v2raying #1",
+      "type": "vless",
+      "server": "funagfrdfs.alixxplay.com",
+      "server_port": 35544,
+      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "funagfrdfs.alixxplay.com",
+      "server_port": 34379,
+      "uuid": "57beeeb0-03fc-4fc9-94da-7604488a7134",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
