@@ -90,9 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @netfreedom0 #1",
-        "🇵🇱 PL | VLESS | @netfreedom0 #2",
-        "🇵🇱 PL | TROJAN | @orange_vpns #1"
+        "🇵🇱 PL | VLESS | @netfreedom0 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @netfreedom0 #1",
-        "🇵🇱 PL | VLESS | @netfreedom0 #2",
-        "🇵🇱 PL | TROJAN | @orange_vpns #1"
+        "🇵🇱 PL | VLESS | @netfreedom0 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,34 +112,10 @@
     {
       "tag": "🇵🇱 PL | VLESS | @netfreedom0 #1",
       "type": "vless",
-      "server": "milo.rubinaz.xyz",
-      "server_port": 8080,
-      "uuid": "6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @netfreedom0 #2",
-      "type": "vless",
       "server": "2.59.253.251",
       "server_port": 443,
       "uuid": "adc11f30-e4cb-4985-bf5e-f9ded69c019f",
       "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL | TROJAN | @orange_vpns #1",
-      "type": "trojan",
-      "server": "pl2.dedushka.top",
-      "server_port": 443,
-      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
       "tls": {
         "enabled": true,
         "server_name": "",

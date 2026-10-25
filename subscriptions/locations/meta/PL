@@ -23,9 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇵🇱 PL | VLESS | @netfreedom0 #1", "server": "milo.rubinaz.xyz", "port": 8080, "type": "vless", "skip-cert-verify": true, "uuid": "6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇵🇱 PL | VLESS | @netfreedom0 #2", "server": "2.59.253.251", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "adc11f30-e4cb-4985-bf5e-f9ded69c019f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇵🇱 PL | TROJAN | @orange_vpns #1", "server": "pl2.dedushka.top", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA"}
+  - {"name": "🇵🇱 PL | VLESS | @netfreedom0 #1", "server": "2.59.253.251", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "adc11f30-e4cb-4985-bf5e-f9ded69c019f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,8 +38,6 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇵🇱 PL | VLESS | @netfreedom0 #1'
-      - '🇵🇱 PL | VLESS | @netfreedom0 #2'
-      - '🇵🇱 PL | TROJAN | @orange_vpns #1'
 
   - name: 🌍 Global Media
     type: select

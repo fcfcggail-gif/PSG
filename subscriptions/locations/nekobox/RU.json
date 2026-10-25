@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
         "🇷🇺 RU | VLESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @v2raych #2",
         "🇷🇺 RU | VLESS | @vmesc #1"
@@ -87,6 +88,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
         "🇷🇺 RU | VLESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @v2raych #2",
         "🇷🇺 RU | VLESS | @vmesc #1"
@@ -105,11 +107,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
+      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "188.225.27.229",
-      "server_port": 443,
-      "uuid": "66dc1927-8528-4f1e-bb74-5a9c7aa8ea8c",
+      "server": "185.211.170.72",
+      "server_port": 8444,
+      "uuid": "5d233135-d747-42cf-9d3a-64529b18549f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -118,15 +120,42 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "45.151.71.142",
+      "server_port": 443,
+      "uuid": "8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
     {
       "tag": "🇷🇺 RU | VLESS | @v2raych #2",
       "type": "vless",
-      "server": "app-ms-33.ecom-ai-search.com",
+      "server": "45.151.71.142",
       "server_port": 443,
-      "uuid": "05c8eabe-96af-4db2-bb2f-a24fa84344ba",
+      "uuid": "8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

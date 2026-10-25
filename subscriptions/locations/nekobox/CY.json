@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇪🇸 ES | SS | @netfreedom0 #1"
+        "🇨🇾 CY | VLESS | @v2raych #1",
+        "🇨🇾 CY | VLESS | @v2raych #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇪🇸 ES | SS | @netfreedom0 #1"
+        "🇨🇾 CY | VLESS | @v2raych #1",
+        "🇨🇾 CY | VLESS | @v2raych #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,12 +103,48 @@
       "type": "direct"
     },
     {
-      "tag": "🇪🇸 ES | SS | @netfreedom0 #1",
-      "type": "shadowsocks",
-      "server": "5.188.181.201",
-      "server_port": 9014,
-      "method": "YWVzLTI1Ni1jZmI6S25KR2FkM0ZxVHZqcWJhWA==",
-      "password": null
+      "tag": "🇨🇾 CY | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "hydra.yokkastars.com",
+      "server_port": 2443,
+      "uuid": "5e679ccd-1586-4d5f-b87b-48251046cad8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇨🇾 CY | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "hydra.yokkastars.com",
+      "server_port": 2443,
+      "uuid": "5e679ccd-1586-4d5f-b87b-48251046cad8",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

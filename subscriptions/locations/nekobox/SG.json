@@ -78,6 +78,8 @@
         "auto",
         "direct",
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
+        "🇸🇬 SG | SS | @mtproxy22_v2ray #1",
+        "🇸🇬 SG | VLESS | @netfreedom0 #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1"
       ],
       "tag": "proxy",
@@ -87,6 +89,8 @@
       "interval": "10m",
       "outbounds": [
         "🇸🇬 SG | VLESS | @freeconfigsplus #1",
+        "🇸🇬 SG | SS | @mtproxy22_v2ray #1",
+        "🇸🇬 SG | VLESS | @netfreedom0 #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1"
       ],
       "tag": "auto",
@@ -123,6 +127,36 @@
         "path": "/",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇸🇬 SG | SS | @mtproxy22_v2ray #1",
+      "type": "shadowsocks",
+      "server": "139.180.220.175",
+      "server_port": 8388,
+      "method": "YWVzLTI1Ni1nY206cXBTZXZLYVVYWVFLdlNqcA==",
+      "password": null
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @netfreedom0 #1",
+      "type": "vless",
+      "server": "45.132.75.213",
+      "server_port": 2053,
+      "uuid": "f46182d1-e13b-47d3-97e2-fa5426a93e7c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
