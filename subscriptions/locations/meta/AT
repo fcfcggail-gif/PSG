@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇦🇹 AT | VLESS | @vmesc #1", "server": "at-3.wizard.select", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "074b00de-c4d0-11f1-9902-a337233c6cda", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇦🇹 AT | VLESS | @vpn_ioss #1", "server": "au6.pad-sservice.lat", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "2b0e5676-fb62-4bf0-9607-6e7818421e8e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇦🇹 AT | VLESS | @vmesc #1'
+      - '🇦🇹 AT | VLESS | @vpn_ioss #1'
 
   - name: 🌍 Global Media
     type: select

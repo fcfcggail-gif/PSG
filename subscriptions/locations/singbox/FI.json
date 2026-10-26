@@ -91,6 +91,8 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @v2ray_collector #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | SS | @v2ray_free_conf #1",
         "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "proxy",
@@ -100,6 +102,8 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @v2ray_collector #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | SS | @v2ray_free_conf #1",
         "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "auto",
@@ -125,6 +129,22 @@
           "Host": ""
         }
       }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "65.109.185.243",
+      "server_port": 58495,
+      "uuid": "3912d56a-effa-4aa3-b4f8-874a3a3ab085",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "193.233.136.157",
+      "server_port": 1080,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp2dmpDWExDNmh5OC1FU3A4MldZcGpfTUNOWXB5SXRhRQ==",
+      "password": null
     },
     {
       "tag": "🇫🇮 FI | VLESS | @v2rayngconfiig #1",

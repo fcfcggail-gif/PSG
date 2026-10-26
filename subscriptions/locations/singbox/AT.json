@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇹 AT | VLESS | @vmesc #1"
+        "🇦🇹 AT | VLESS | @vmesc #1",
+        "🇦🇹 AT | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇹 AT | VLESS | @vmesc #1"
+        "🇦🇹 AT | VLESS | @vmesc #1",
+        "🇦🇹 AT | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -130,6 +132,14 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇦🇹 AT | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "au6.pad-sservice.lat",
+      "server_port": 8443,
+      "uuid": "2b0e5676-fb62-4bf0-9607-6e7818421e8e",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
