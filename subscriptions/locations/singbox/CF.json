@@ -91,6 +91,7 @@
         "auto",
         "direct",
         "🇽🇽 XX | VLESS | @NamiraConfigs #1",
+        "🇽🇽 XX | VLESS | @NamiraConfigs #2",
         "🇽🇽 XX | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @ai_duet #2",
         "🇽🇽 XX | VLESS | @ai_duet #3",
@@ -251,14 +252,13 @@
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | TROJAN | @v2ray_collector #1",
         "🇽🇽 XX | TROJAN | @v2ray_collector #2",
-        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2raying #1",
         "🇽🇽 XX | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
-        "🇽🇽 XX | VLESS | @v2rayngalpha #2",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #2",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
@@ -302,6 +302,7 @@
       "interval": "10m",
       "outbounds": [
         "🇽🇽 XX | VLESS | @NamiraConfigs #1",
+        "🇽🇽 XX | VLESS | @NamiraConfigs #2",
         "🇽🇽 XX | VLESS | @ai_duet #1",
         "🇽🇽 XX | VLESS | @ai_duet #2",
         "🇽🇽 XX | VLESS | @ai_duet #3",
@@ -462,14 +463,13 @@
         "🇽🇽 XX | VLESS | @v2ray4win #1",
         "🇽🇽 XX | TROJAN | @v2ray_collector #1",
         "🇽🇽 XX | TROJAN | @v2ray_collector #2",
-        "🇺🇸 US | VMESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
         "🇽🇽 XX | VLESS | @v2raying #1",
         "🇽🇽 XX | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
-        "🇽🇽 XX | VLESS | @v2rayngalpha #2",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #2",
         "🇽🇽 XX | VLESS | @v2rayngvpn_1 #1",
@@ -521,6 +521,23 @@
       "server": "104.21.65.150",
       "server_port": 443,
       "uuid": "c854ace9-1dc7-4fc4-b87b-6b00db3cc4ed",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @NamiraConfigs #2",
+      "type": "vless",
+      "server": "172.64.149.54",
+      "server_port": 443,
+      "uuid": "fe34b5df-e634-4c83-a057-e53f41ce8e27",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -2502,18 +2519,19 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "us-23.hihu.net",
-      "server_port": 80,
-      "uuid": "8a9aaa70-ced9-11f1-b934-205c6d5f5d78",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/870ao26f",
-        "headers": {
-          "Host": "172.66.0.251"
+      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "104.16.7.70",
+      "server_port": 443,
+      "uuid": "406d8436-0eb9-4eb2-84fb-960e076ffba6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     },
@@ -2582,14 +2600,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2rayngalpha #2",
-      "type": "vless",
-      "server": "tgju.org",
-      "server_port": 80,
-      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
