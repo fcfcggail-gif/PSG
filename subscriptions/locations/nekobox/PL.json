@@ -78,9 +78,9 @@
         "auto",
         "direct",
         "🇵🇱 PL | VLESS | @netfreedom0 #1",
-        "🇵🇱 PL | VLESS | @netfreedom0 #2",
-        "🇵🇱 PL | VLESS | @v2ray_collector #1",
-        "🇵🇱 PL | VLESS | @v2ray_youtube #1",
+        "🇵🇱 PL | TROJAN | @outlinereleasedkey #1",
+        "🇵🇱 PL | VLESS | @red2ray #1",
+        "🇵🇱 PL | VLESS | @red2ray #2",
         "🇵🇱 PL | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
@@ -90,9 +90,9 @@
       "interval": "10m",
       "outbounds": [
         "🇵🇱 PL | VLESS | @netfreedom0 #1",
-        "🇵🇱 PL | VLESS | @netfreedom0 #2",
-        "🇵🇱 PL | VLESS | @v2ray_collector #1",
-        "🇵🇱 PL | VLESS | @v2ray_youtube #1",
+        "🇵🇱 PL | TROJAN | @outlinereleasedkey #1",
+        "🇵🇱 PL | VLESS | @red2ray #1",
+        "🇵🇱 PL | VLESS | @red2ray #2",
         "🇵🇱 PL | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
@@ -111,14 +111,6 @@
     {
       "tag": "🇵🇱 PL | VLESS | @netfreedom0 #1",
       "type": "vless",
-      "server": "milo.rubinaz.xyz",
-      "server_port": 8080,
-      "uuid": "6bceb548-d9b6-461f-8e37-a5a7fbcdc2c8",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @netfreedom0 #2",
-      "type": "vless",
       "server": "2.59.253.251",
       "server_port": 443,
       "uuid": "adc11f30-e4cb-4985-bf5e-f9ded69c019f",
@@ -134,19 +126,35 @@
       }
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @v2ray_collector #1",
+      "tag": "🇵🇱 PL | TROJAN | @outlinereleasedkey #1",
+      "type": "trojan",
+      "server": "pl2.dedushka.top",
+      "server_port": 443,
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
+      "tls": {
+        "enabled": true,
+        "server_name": "pl2.dedushka.top",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "connect.hondamotor.site",
-      "server_port": 10002,
-      "uuid": "c6362720-0931-4b91-b187-d8ecf3149734",
+      "server": "31.59.143.242",
+      "server_port": 34451,
+      "uuid": "f259a2e5-fd8d-4db9-a3ac-6b26322cffa9",
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @v2ray_youtube #1",
+      "tag": "🇵🇱 PL | VLESS | @red2ray #2",
       "type": "vless",
-      "server": "connect.wecantos.site",
-      "server_port": 10000,
-      "uuid": "a05ecf37-c661-4247-ab09-4432cf0f3cc1",
+      "server": "pl-cfe6b10b7f.shamanapp.online",
+      "server_port": 34451,
+      "uuid": "f259a2e5-fd8d-4db9-a3ac-6b26322cffa9",
       "packet_encoding": "xudp"
     },
     {

@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgVUE=
+//profile-title: base64:UFNHIHwgVFI=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇺🇦 UA | SS | @v2ray_free_conf #1"
+        "🇹🇷 TR | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇺🇦 UA | SS | @v2ray_free_conf #1"
+        "🇹🇷 TR | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇺🇦 UA | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "kyiv02.npvnot.com",
-      "server_port": 443,
-      "method": "YWVzLTI1Ni1nY206TXpSbFl6QTBaR1kwTmpjMlpqUTJZVFJpTVRnMllUa3pOak00T0dJMQ==",
-      "password": null
+      "tag": "🇹🇷 TR | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "185.98.63.6",
+      "server_port": 8443,
+      "uuid": "6845a59f-970b-4e1e-8e26-06a34ee663d6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
