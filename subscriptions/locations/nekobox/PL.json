@@ -78,7 +78,7 @@
         "auto",
         "direct",
         "🇵🇱 PL | VLESS | @netfreedom0 #1",
-        "🇵🇱 PL | VLESS | @v2raych #1"
+        "🇵🇱 PL | TROJAN | @v2ray_collector #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +87,7 @@
       "interval": "10m",
       "outbounds": [
         "🇵🇱 PL | VLESS | @netfreedom0 #1",
-        "🇵🇱 PL | VLESS | @v2raych #1"
+        "🇵🇱 PL | TROJAN | @v2ray_collector #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -120,15 +120,14 @@
       }
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "103.167.234.26",
+      "tag": "🇵🇱 PL | TROJAN | @v2ray_collector #1",
+      "type": "trojan",
+      "server": "pl2.dedushka.top",
       "server_port": 443,
-      "uuid": "c18b978e-1c4e-415c-8bea-07942b563a64",
-      "packet_encoding": "xudp",
+      "password": "4_VfP9fKaM-3LpSVvoZuc_WUzLoCdHaA",
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "pl2.dedushka.top",
         "insecure": true,
         "utls": {
           "enabled": true,

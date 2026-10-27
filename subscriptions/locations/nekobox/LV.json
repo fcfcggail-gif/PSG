@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇱🇻 LV | VLESS | @free4allvpn #1",
-        "🇱🇻 LV | TROJAN | @v2ray_collector #1"
+        "🇱🇻 LV | TROJAN | @v2ray_collector #1",
+        "🇱🇻 LV | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇱🇻 LV | VLESS | @free4allvpn #1",
-        "🇱🇻 LV | TROJAN | @v2ray_collector #1"
+        "🇱🇻 LV | TROJAN | @v2ray_collector #1",
+        "🇱🇻 LV | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -137,6 +139,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇱🇻 LV | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "195.123.208.32",
+      "server_port": 443,
+      "uuid": "1ebcb694-875c-4be7-b6a2-d53c8208991b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }
