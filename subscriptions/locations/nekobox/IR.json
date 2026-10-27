@@ -84,7 +84,6 @@
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @father_vpn #1",
-        "🇮🇷 IR | VLESS | @free1_vpn #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lemonshopvpn #1",
         "🇮🇷 IR | VLESS | @miov2ray #1",
@@ -94,6 +93,7 @@
         "🇮🇷 IR | VLESS | @prooxyk #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
         "🇮🇷 IR | VLESS | @v2ray1_ng #1",
+        "🇮🇷 IR | SS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
@@ -115,7 +115,6 @@
         "🇮🇷 IR | VLESS | @config_proxy #1",
         "🇮🇷 IR | VLESS | @config_proxy #2",
         "🇮🇷 IR | VLESS | @father_vpn #1",
-        "🇮🇷 IR | VLESS | @free1_vpn #1",
         "🇮🇷 IR | VMESS | @khoneproxy #1",
         "🇮🇷 IR | VLESS | @lemonshopvpn #1",
         "🇮🇷 IR | VLESS | @miov2ray #1",
@@ -125,6 +124,7 @@
         "🇮🇷 IR | VLESS | @prooxyk #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
         "🇮🇷 IR | VLESS | @v2ray1_ng #1",
+        "🇮🇷 IR | SS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
@@ -219,14 +219,6 @@
       "server": "snapp.ir",
       "server_port": 2052,
       "uuid": "7b81a350-89c3-47da-a3a9-5f2b65313d03",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @free1_vpn #1",
-      "type": "vless",
-      "server": "mojigr.fusetea.ir",
-      "server_port": 1102,
-      "uuid": "1a62ce14-2bac-4a56-98a8-851841b41df6",
       "packet_encoding": "xudp"
     },
     {
@@ -344,11 +336,19 @@
       }
     },
     {
+      "tag": "🇮🇷 IR | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "188.121.123.142",
+      "server_port": 11109,
+      "method": "YWVzLTI1Ni1nY206WVRJd1lqSTJNMk0yTkRVeE16WTNNVEJoT0RCaE0yVmtNakV6TWpRMg==",
+      "password": null
+    },
+    {
       "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "p1tun0.greewebservices.ir",
-      "server_port": 38820,
-      "uuid": "f234330e-f9df-46e3-8f60-b2af5173c147",
+      "server": "varzesh3.com",
+      "server_port": 443,
+      "uuid": "c387b0f2-5d9e-4c95-882d-1d5eeb443ce2",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -357,11 +357,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },

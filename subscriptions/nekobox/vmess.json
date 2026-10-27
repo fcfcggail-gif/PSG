@@ -99,14 +99,14 @@
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
+        "🇽🇽 XX | VMESS | @v2ray_collector #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇽🇽 XX | VMESS | @hope_net #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇳🇱 NL | VMESS | @v2ray_free_conf #1"
+        "🇽🇽 XX | VMESS | @proxy48 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -136,14 +136,14 @@
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
+        "🇽🇽 XX | VMESS | @v2ray_collector #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇽🇽 XX | VMESS | @hope_net #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇩🇪 DE | VMESS | @magickey_shop #1",
-        "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇳🇱 NL | VMESS | @v2ray_free_conf #1"
+        "🇽🇽 XX | VMESS | @proxy48 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -649,6 +649,31 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VMESS | @v2ray_collector #1",
+      "type": "vmess",
+      "server": "mix2.998998.best",
+      "server_port": 443,
+      "uuid": "5504eaa8-1395-402f-8e0e-75ecd762e627",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "server10.9966338.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/rthiugoyretdsuigg",
+        "headers": {
+          "Host": "server10.9966338.xyz"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @vpngate_config #1",
       "type": "vmess",
       "server": "cold-dawn-9246.fly.dev",
@@ -780,15 +805,6 @@
         "type": "grpc",
         "service_name": "WgCmp8p80KDzo64uHE"
       }
-    },
-    {
-      "tag": "🇳🇱 NL | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "185.19.33.155",
-      "server_port": 19402,
-      "uuid": "02892cba-0cdb-489e-bde4-54978385a911",
-      "security": "auto",
-      "alter_id": 0
     }
   ],
   "route": {
