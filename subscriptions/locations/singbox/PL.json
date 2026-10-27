@@ -91,8 +91,7 @@
         "auto",
         "direct",
         "🇵🇱 PL | VLESS | @netfreedom0 #1",
-        "🇵🇱 PL | VLESS | @red2ray #1",
-        "🇵🇱 PL | VLESS | @red2ray #2"
+        "🇵🇱 PL | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,8 +100,7 @@
       "interval": "10m",
       "outbounds": [
         "🇵🇱 PL | VLESS | @netfreedom0 #1",
-        "🇵🇱 PL | VLESS | @red2ray #1",
-        "🇵🇱 PL | VLESS | @red2ray #2"
+        "🇵🇱 PL | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -131,20 +129,21 @@
       }
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @red2ray #1",
+      "tag": "🇵🇱 PL | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "31.59.143.242",
-      "server_port": 34451,
-      "uuid": "f259a2e5-fd8d-4db9-a3ac-6b26322cffa9",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @red2ray #2",
-      "type": "vless",
-      "server": "pl-cfe6b10b7f.shamanapp.online",
-      "server_port": 34451,
-      "uuid": "f259a2e5-fd8d-4db9-a3ac-6b26322cffa9",
-      "packet_encoding": "xudp"
+      "server": "103.167.234.26",
+      "server_port": 443,
+      "uuid": "c18b978e-1c4e-415c-8bea-07942b563a64",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

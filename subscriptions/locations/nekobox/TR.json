@@ -77,7 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @netfreedom0 #1"
+        "🇹🇷 TR | VLESS | @netfreedom0 #1",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+        "🇹🇷 TR | VLESS | @v2rayza #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @netfreedom0 #1"
+        "🇹🇷 TR | VLESS | @netfreedom0 #1",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+        "🇹🇷 TR | VLESS | @v2rayza #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -121,6 +125,22 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "game.celvixo.ir",
+      "server_port": 2087,
+      "uuid": "74dc8608-7dad-4087-8873-92ff58ec61b0",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2rayza #1",
+      "type": "vless",
+      "server": "185.98.63.6",
+      "server_port": 8443,
+      "uuid": "6845a59f-970b-4e1e-8e26-06a34ee663d6",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
