@@ -23,10 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇮 FI | VLESS | @v2ray_collector #1", "server": "95.216.27.15", "port": 2053, "type": "vless", "skip-cert-verify": true, "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇫🇮 FI | VLESS | @v2raych #1", "server": "hw3.divarkhaghazi.com", "port": 465, "type": "vless", "skip-cert-verify": true, "uuid": "924e20da-fcad-4e7e-8113-c62d27a0d01e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "servername": "hw3.divarkhaghazi.com."}
+  - {"name": "🇫🇮 FI | VLESS | @orange_vpns #1", "server": "assets.halyvanedorogo.ru", "port": 11515, "type": "vless", "skip-cert-verify": true, "uuid": "cb8fbad5-4f14-55bc-a24a-3510f47f4b1b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇫🇮 FI | VLESS | @v2rayngconfiig #1", "server": "65.109.181.18", "port": 27014, "type": "vless", "skip-cert-verify": true, "uuid": "a42fdac4-53c7-4a5d-8655-4168eecbe43d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇫🇮 FI | VLESS | @vpn_ioss #1", "server": "hw3.divarkhaghazi.com", "port": 465, "type": "vless", "skip-cert-verify": true, "uuid": "924e20da-fcad-4e7e-8113-c62d27a0d01e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,10 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇮 FI | VLESS | @v2ray_collector #1'
-      - '🇫🇮 FI | VLESS | @v2raych #1'
+      - '🇫🇮 FI | VLESS | @orange_vpns #1'
       - '🇫🇮 FI | VLESS | @v2rayngconfiig #1'
-      - '🇫🇮 FI | VLESS | @vpn_ioss #1'
 
   - name: 🌍 Global Media
     type: select

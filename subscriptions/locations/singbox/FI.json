@@ -90,10 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @v2ray_collector #1",
-        "🇫🇮 FI | VLESS | @v2raych #1",
-        "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
-        "🇫🇮 FI | VLESS | @vpn_ioss #1"
+        "🇫🇮 FI | VLESS | @orange_vpns #1",
+        "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,10 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @v2ray_collector #1",
-        "🇫🇮 FI | VLESS | @v2raych #1",
-        "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
-        "🇫🇮 FI | VLESS | @vpn_ioss #1"
+        "🇫🇮 FI | VLESS | @orange_vpns #1",
+        "🇫🇮 FI | VLESS | @v2rayngconfiig #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,20 +112,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @v2ray_collector #1",
+      "tag": "🇫🇮 FI | VLESS | @orange_vpns #1",
       "type": "vless",
-      "server": "95.216.27.15",
-      "server_port": 2053,
-      "uuid": "1c81f6d3-5771-4c5d-9fdd-1655eff50634",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "hw3.divarkhaghazi.com",
-      "server_port": 465,
-      "uuid": "924e20da-fcad-4e7e-8113-c62d27a0d01e",
-      "packet_encoding": "xudp"
+      "server": "assets.halyvanedorogo.ru",
+      "server_port": 11515,
+      "uuid": "cb8fbad5-4f14-55bc-a24a-3510f47f4b1b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
@@ -137,14 +139,6 @@
       "server": "65.109.181.18",
       "server_port": 27014,
       "uuid": "a42fdac4-53c7-4a5d-8655-4168eecbe43d",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @vpn_ioss #1",
-      "type": "vless",
-      "server": "hw3.divarkhaghazi.com",
-      "server_port": 465,
-      "uuid": "924e20da-fcad-4e7e-8113-c62d27a0d01e",
       "packet_encoding": "xudp"
     }
   ],
