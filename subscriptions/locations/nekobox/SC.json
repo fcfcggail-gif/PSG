@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇸🇨 SC | VLESS | @ai_duet #1",
-        "🇸🇨 SC | VLESS | @v2ray_free_conf #1"
+        "🇸🇨 SC | VLESS | @red2ray #1",
+        "🇸🇨 SC | TROJAN | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇸🇨 SC | VLESS | @ai_duet #1",
-        "🇸🇨 SC | VLESS | @v2ray_free_conf #1"
+        "🇸🇨 SC | VLESS | @red2ray #1",
+        "🇸🇨 SC | TROJAN | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -120,12 +122,42 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+      "tag": "🇸🇨 SC | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "45.130.125.162",
+      "server": "156.252.229.11",
       "server_port": 8443,
-      "uuid": "f106648e-0644-40bc-974c-6edc966fe18d",
-      "packet_encoding": "xudp"
+      "uuid": "3e21e3d3-6d26-4155-b851-764dd8e8c6b5",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "45.128.76.242",
+      "server_port": 443,
+      "password": "humanity",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

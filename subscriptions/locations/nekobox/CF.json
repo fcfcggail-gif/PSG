@@ -208,7 +208,8 @@
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇽🇽 XX | VLESS | @prrofile_purple #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #2",
-        "🇽🇽 XX | VLESS | @red2ray #1",
+        "🇽🇽 XX | VLESS | @prrofile_purple #3",
+        "🇽🇽 XX | VLESS | @prrofile_purple #4",
         "🇽🇽 XX | VLESS | @renetvpn #1",
         "🇽🇽 XX | VLESS | @renetvpn #2",
         "🇽🇽 XX | VLESS | @renetvpn #3",
@@ -237,14 +238,11 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇽🇽 XX | TROJAN | @v2ray_collector #1",
         "🇽🇽 XX | VMESS | @v2ray_collector #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | TROJAN | @v2ray_collector #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
-        "🇽🇽 XX | TROJAN | @v2raych #1",
-        "🇽🇽 XX | VMESS | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
@@ -420,7 +418,8 @@
         "🇽🇽 XX | VLESS | @proxy_confiingir #2",
         "🇽🇽 XX | VLESS | @prrofile_purple #1",
         "🇽🇽 XX | VLESS | @prrofile_purple #2",
-        "🇽🇽 XX | VLESS | @red2ray #1",
+        "🇽🇽 XX | VLESS | @prrofile_purple #3",
+        "🇽🇽 XX | VLESS | @prrofile_purple #4",
         "🇽🇽 XX | VLESS | @renetvpn #1",
         "🇽🇽 XX | VLESS | @renetvpn #2",
         "🇽🇽 XX | VLESS | @renetvpn #3",
@@ -449,14 +448,11 @@
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #5",
         "🇽🇽 XX | VLESS | @v2ra_ng_iran #6",
         "🇽🇽 XX | VLESS | @v2ray4win #1",
-        "🇽🇽 XX | TROJAN | @v2ray_collector #1",
         "🇽🇽 XX | VMESS | @v2ray_collector #1",
-        "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
+        "🇽🇽 XX | TROJAN | @v2ray_collector #1",
         "🇽🇽 XX | VLESS | @v2ray_youtube #1",
         "🇽🇽 XX | VLESS | @v2raybe #1",
         "🇽🇽 XX | VLESS | @v2raybe #2",
-        "🇽🇽 XX | TROJAN | @v2raych #1",
-        "🇽🇽 XX | VMESS | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2raymelliii #1",
         "🇽🇽 XX | VLESS | @v2rayngalpha #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
@@ -2137,11 +2133,28 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @red2ray #1",
+      "tag": "🇽🇽 XX | VLESS | @prrofile_purple #3",
       "type": "vless",
-      "server": "www.speedtest.net",
+      "server": "188.114.97.6",
       "server_port": 443,
-      "uuid": "53fa8faf-ba4b-4322-9c69-a3e5b1555049",
+      "uuid": "0f0b7f69-78e1-4e9e-8b35-0986444613e4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇽🇽 XX | VLESS | @prrofile_purple #4",
+      "type": "vless",
+      "server": "188.114.97.6",
+      "server_port": 443,
+      "uuid": "0f0b7f69-78e1-4e9e-8b35-0986444613e4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -2490,6 +2503,31 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VMESS | @v2ray_collector #1",
+      "type": "vmess",
+      "server": "eu3.998998.best",
+      "server_port": 443,
+      "uuid": "5504eaa8-1395-402f-8e0e-75ecd762e627",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "server40.9966338.xyz",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/aiaiai",
+        "headers": {
+          "Host": "server40.9966338.xyz"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | TROJAN | @v2ray_collector #1",
       "type": "trojan",
       "server": "188.114.97.6",
@@ -2504,39 +2542,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @v2ray_collector #1",
-      "type": "vmess",
-      "server": "mix2.998998.best",
-      "server_port": 443,
-      "uuid": "5504eaa8-1395-402f-8e0e-75ecd762e627",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "server10.9966338.xyz",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/rthiugoyretdsuigg",
-        "headers": {
-          "Host": "server10.9966338.xyz"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "cctvhikvision.center",
-      "server_port": 2052,
-      "uuid": "1f61ccc1-cd38-49cd-97aa-a71771433976",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2ray_youtube #1",
@@ -2561,47 +2566,6 @@
       "server_port": 2083,
       "uuid": "266169d9-665f-4fed-b1a8-da29794ee3cd",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇽🇽 XX | TROJAN | @v2raych #1",
-      "type": "trojan",
-      "server": "188.114.98.0",
-      "server_port": 443,
-      "password": "humanity",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @v2raych #1",
-      "type": "vmess",
-      "server": "www.gptcloudai.com",
-      "server_port": 443,
-      "uuid": "e70a5b70-f63c-4450-af8b-94990cdf80c0",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "www.gptcloudai.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/truth",
-        "headers": {
-          "Host": ""
-        }
-      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @v2raymelliii #1",
