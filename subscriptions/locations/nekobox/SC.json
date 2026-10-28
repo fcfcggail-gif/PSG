@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇨 SC | VLESS | @ai_duet #1"
+        "🇸🇨 SC | VLESS | @ai_duet #1",
+        "🇸🇨 SC | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇨 SC | VLESS | @ai_duet #1"
+        "🇸🇨 SC | VLESS | @ai_duet #1",
+        "🇸🇨 SC | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,6 +118,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "45.130.125.162",
+      "server_port": 8443,
+      "uuid": "f106648e-0644-40bc-974c-6edc966fe18d",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
