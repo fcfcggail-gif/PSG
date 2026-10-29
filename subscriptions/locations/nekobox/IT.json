@@ -78,8 +78,9 @@
         "auto",
         "direct",
         "🇮🇹 IT | VLESS | @freeconfigsplus #1",
-        "🇮🇹 IT | SS | @orange_vpns #1",
-        "🇮🇹 IT | SS | @outlinereleasedkey #1"
+        "🇮🇹 IT | SS | @outlinereleasedkey #1",
+        "🇮🇹 IT | SS | @v2ray_free_conf #1",
+        "🇮🇹 IT | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,8 +89,9 @@
       "interval": "10m",
       "outbounds": [
         "🇮🇹 IT | VLESS | @freeconfigsplus #1",
-        "🇮🇹 IT | SS | @orange_vpns #1",
-        "🇮🇹 IT | SS | @outlinereleasedkey #1"
+        "🇮🇹 IT | SS | @outlinereleasedkey #1",
+        "🇮🇹 IT | SS | @v2ray_free_conf #1",
+        "🇮🇹 IT | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -122,20 +124,42 @@
       }
     },
     {
-      "tag": "🇮🇹 IT | SS | @orange_vpns #1",
-      "type": "shadowsocks",
-      "server": "202.50.253.36",
-      "server_port": 19999,
-      "method": "YXV0bzo=",
-      "password": null
-    },
-    {
       "tag": "🇮🇹 IT | SS | @outlinereleasedkey #1",
       "type": "shadowsocks",
       "server": "202.50.253.45",
       "server_port": 19999,
       "method": "YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=",
       "password": null
+    },
+    {
+      "tag": "🇮🇹 IT | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "202.50.253.18",
+      "server_port": 19999,
+      "method": "YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=",
+      "password": null
+    },
+    {
+      "tag": "🇮🇹 IT | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "57.131.38.163",
+      "server_port": 2053,
+      "uuid": "d4b08cd6-0903-411a-9dac-45dbdf5c9712",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

@@ -78,10 +78,11 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @orange_vpns #1",
-        "🇫🇮 FI | VLESS | @red2ray #1",
         "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
         "🇫🇮 FI | VLESS | @v2rayza #1",
-        "🇫🇮 FI | VLESS | @vpn_ioss #1"
+        "🇫🇮 FI | VLESS | @v2rayza #2",
+        "🇫🇮 FI | VLESS | @vpn_ioss #1",
+        "🇫🇮 FI | VLESS | @vpn_ioss #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -90,10 +91,11 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @orange_vpns #1",
-        "🇫🇮 FI | VLESS | @red2ray #1",
         "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
         "🇫🇮 FI | VLESS | @v2rayza #1",
-        "🇫🇮 FI | VLESS | @vpn_ioss #1"
+        "🇫🇮 FI | VLESS | @v2rayza #2",
+        "🇫🇮 FI | VLESS | @vpn_ioss #1",
+        "🇫🇮 FI | VLESS | @vpn_ioss #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -131,14 +133,6 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "45.144.234.157",
-      "server_port": 14430,
-      "uuid": "59b0d30e-9b29-4fda-a35c-b2901ec32db7",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇫🇮 FI | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "65.109.181.18",
@@ -155,7 +149,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇫🇮 FI | VLESS | @v2rayza #2",
+      "type": "vless",
+      "server": "hw3.divarkhaghazi.com",
+      "server_port": 465,
+      "uuid": "924e20da-fcad-4e7e-8113-c62d27a0d01e",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇫🇮 FI | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "hw6.divarkhaghazi.com",
+      "server_port": 465,
+      "uuid": "09f30c46-3964-41ce-882a-72aee83ddd42",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vpn_ioss #2",
       "type": "vless",
       "server": "hw3.divarkhaghazi.com",
       "server_port": 465,
