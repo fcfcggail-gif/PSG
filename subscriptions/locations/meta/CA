@@ -26,6 +26,7 @@ proxies:
   - {"name": "🇨🇦 CA | VLESS | @jokerv2ray #1", "server": "23.227.60.12", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "dd777f39-2996-4269-b88f-0b64436d0274", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇨🇦 CA | VLESS | @jokerv2ray #2", "server": "23.227.60.12", "port": 2096, "type": "vless", "skip-cert-verify": true, "uuid": "dd777f39-2996-4269-b88f-0b64436d0274", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "23.227.60.12"}}}
   - {"name": "🇨🇦 CA | VLESS | @serverv2ray00 #1", "server": "23.227.60.7", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "d672ec4f-afba-4f61-af09-eec872f97e99", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇨🇦 CA | VLESS | @v2ray_free_conf #1", "server": "45.81.154.16", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "684bf9c1-c40a-42cb-b982-623982fc2732", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -42,6 +43,7 @@ proxy-groups:
       - '🇨🇦 CA | VLESS | @jokerv2ray #1'
       - '🇨🇦 CA | VLESS | @jokerv2ray #2'
       - '🇨🇦 CA | VLESS | @serverv2ray00 #1'
+      - '🇨🇦 CA | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select
