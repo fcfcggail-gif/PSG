@@ -90,10 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇷🇺 RU | VLESS | @netfreedom0 #1",
         "🇷🇺 RU | VLESS | @prrofile_purple #1",
         "🇷🇺 RU | VLESS | @prrofile_purple #2",
-        "🇷🇺 RU | VLESS | @prrofile_purple #3",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
         "🇷🇺 RU | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
@@ -102,10 +101,9 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇷🇺 RU | VLESS | @netfreedom0 #1",
         "🇷🇺 RU | VLESS | @prrofile_purple #1",
         "🇷🇺 RU | VLESS | @prrofile_purple #2",
-        "🇷🇺 RU | VLESS | @prrofile_purple #3",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
         "🇷🇺 RU | VLESS | @vmesc #1"
       ],
       "tag": "auto",
@@ -116,6 +114,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @netfreedom0 #1",
+      "type": "vless",
+      "server": "nl2.h1cloud.net",
+      "server_port": 25452,
+      "uuid": "68c3d665-b2b5-4ffb-9f37-9f3d8c47324d",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @prrofile_purple #1",
@@ -140,45 +146,6 @@
       "server": "84.38.187.169",
       "server_port": 443,
       "uuid": "82282910-54a0-0032-b2df-86bfbce8ed36",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #3",
-      "type": "vless",
-      "server": "200.165.235.78",
-      "server_port": 443,
-      "uuid": "238e492b-bc20-4380-92b6-135d39112ca4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "tg1.cdnphotos.org",
-      "server_port": 443,
-      "uuid": "f04cc810-aaf2-4a7b-8cad-356cdd30d394",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
