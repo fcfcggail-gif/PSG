@@ -23,7 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇭🇰 HK | VLESS | @vpn_ioss #1", "server": "103.238.227.211", "port": 21003, "type": "vless", "skip-cert-verify": true, "uuid": "52d2187c-34e1-40fd-a6f5-0a74ff7d3e9a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇭🇰 HK | VMESS | @mtproxy22_v2ray #1", "server": "euu1yalfmcqvljex.v.3dns.vip", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d237ab38-1974-4b36-94a3-0665ce8587b9", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/ws-vmess", "headers": {"Host": "euu1yalfmcqvljex.v.3dns.vip"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇭🇰 HK | VLESS | @vpn_ioss #1'
+      - '🇭🇰 HK | VMESS | @mtproxy22_v2ray #1'
 
   - name: 🌍 Global Media
     type: select

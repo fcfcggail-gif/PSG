@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇦🇹 AT | VLESS | @v2raych #1", "server": "av.neuroniko.com", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "69158986-cfae-4567-8391-0f96d9d985bd", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "firefox"}
   - {"name": "🇦🇹 AT | VLESS | @vmesc #1", "server": "at-3.wizard.select", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "074b00de-c4d0-11f1-9902-a337233c6cda", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇦🇹 AT | VLESS | @v2raych #1'
       - '🇦🇹 AT | VLESS | @vmesc #1'
 
   - name: 🌍 Global Media
