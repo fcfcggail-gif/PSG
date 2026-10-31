@@ -23,10 +23,11 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇮 FI | VLESS | @v2ray_collector #1", "server": "hw3.divarkhaghazi.com.", "port": 465, "type": "vless", "skip-cert-verify": true, "uuid": "924e20da-fcad-4e7e-8113-c62d27a0d01e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇫🇮 FI | VLESS | @v2ray_collector #2", "server": "hw3.divarkhaghazi.com", "port": 465, "type": "vless", "skip-cert-verify": true, "uuid": "924e20da-fcad-4e7e-8113-c62d27a0d01e", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "hw3.divarkhaghazi.com"}}}
+  - {"name": "🇫🇮 FI | VLESS | @v2ray_collector #1", "server": "hw3.divarkhaghazi.com", "port": 465, "type": "vless", "skip-cert-verify": true, "uuid": "924e20da-fcad-4e7e-8113-c62d27a0d01e", "network": "ws", "tls": false, "udp": true, "client-fingerprint": "chrome", "ws-opts": {"path": "", "headers": {"Host": "hw3.divarkhaghazi.com"}}}
   - {"name": "🇫🇮 FI | VLESS | @v2rayngconfiig #1", "server": "65.109.181.18", "port": 27014, "type": "vless", "skip-cert-verify": true, "uuid": "a42fdac4-53c7-4a5d-8655-4168eecbe43d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇮 FI | VLESS | @v2rayopen #1", "server": "assets.halyvanedorogo.ru", "port": 11515, "type": "vless", "skip-cert-verify": true, "uuid": "cb8fbad5-4f14-55bc-a24a-3510f47f4b1b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇫🇮 FI | VLESS | @vpn_ioss #1", "server": "hw6.divarkhaghazi.com", "port": 465, "type": "vless", "skip-cert-verify": true, "uuid": "09f30c46-3964-41ce-882a-72aee83ddd42", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇮 FI | VLESS | @vpn_ioss #2", "server": "hw3.divarkhaghazi.com", "port": 465, "type": "vless", "skip-cert-verify": true, "uuid": "924e20da-fcad-4e7e-8113-c62d27a0d01e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,9 +42,10 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇫🇮 FI | VLESS | @v2ray_collector #1'
-      - '🇫🇮 FI | VLESS | @v2ray_collector #2'
       - '🇫🇮 FI | VLESS | @v2rayngconfiig #1'
       - '🇫🇮 FI | VLESS | @v2rayopen #1'
+      - '🇫🇮 FI | VLESS | @vpn_ioss #1'
+      - '🇫🇮 FI | VLESS | @vpn_ioss #2'
 
   - name: 🌍 Global Media
     type: select

@@ -93,7 +93,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | VLESS | @kafing_2 #3"
+        "🇽🇽 XX | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -104,7 +104,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇽🇽 XX | VLESS | @kafing_2 #3"
+        "🇽🇽 XX | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -188,12 +188,21 @@
       }
     },
     {
-      "tag": "🇽🇽 XX | VLESS | @kafing_2 #3",
+      "tag": "🇽🇽 XX | VLESS | @vmesskhodam #1",
       "type": "vless",
       "server": "chatgpt.com",
-      "server_port": 2096,
-      "uuid": "686c62d9-17a7-43c9-a40a-f6747df60a9f",
-      "packet_encoding": "xudp"
+      "server_port": 443,
+      "uuid": "d342d11e-d224-4463-b982-532309285094",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {
