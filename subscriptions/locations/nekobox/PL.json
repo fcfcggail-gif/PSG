@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇭 CH | TROJAN | @red2ray #1"
+        "🇵🇱 PL | VLESS | @v2ray_collector #1",
+        "🇵🇱 PL | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇭 CH | TROJAN | @red2ray #1"
+        "🇵🇱 PL | VLESS | @v2ray_collector #1",
+        "🇵🇱 PL | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,11 +103,21 @@
       "type": "direct"
     },
     {
-      "tag": "🇨🇭 CH | TROJAN | @red2ray #1",
-      "type": "trojan",
-      "server": "208.69.78.29",
+      "tag": "🇵🇱 PL | VLESS | @v2ray_collector #1",
+      "type": "vless",
+      "server": "pl-cfe6b10b7f.shamanapp.online",
+      "server_port": 34451,
+      "uuid": "f259a2e5-fd8d-4db9-a3ac-6b26322cffa9",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "45.198.0.88",
       "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "uuid": "8263aa5b-601d-4e05-b61d-a70e15d97869",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "",

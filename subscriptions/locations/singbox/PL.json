@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgS1o=
+//profile-title: base64:UFNHIHwgUEw=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇰🇿 KZ | VLESS | @v2ray_free_conf #1"
+        "🇵🇱 PL | VLESS | @v2ray_collector #1",
+        "🇵🇱 PL | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇰🇿 KZ | VLESS | @v2ray_free_conf #1"
+        "🇵🇱 PL | VLESS | @v2ray_collector #1",
+        "🇵🇱 PL | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +112,21 @@
       "type": "direct"
     },
     {
-      "tag": "🇰🇿 KZ | VLESS | @v2ray_free_conf #1",
+      "tag": "🇵🇱 PL | VLESS | @v2ray_collector #1",
       "type": "vless",
-      "server": "45.136.59.28",
-      "server_port": 43000,
-      "uuid": "a8b8b21e-1f31-4e4d-a639-efb2de0d577e",
+      "server": "pl-cfe6b10b7f.shamanapp.online",
+      "server_port": 34451,
+      "uuid": "f259a2e5-fd8d-4db9-a3ac-6b26322cffa9",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "45.198.0.88",
+      "server_port": 443,
+      "uuid": "8263aa5b-601d-4e05-b61d-a70e15d97869",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -123,11 +134,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }
