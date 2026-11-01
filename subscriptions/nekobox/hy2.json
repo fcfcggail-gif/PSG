@@ -77,8 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @v2ray_collector #1",
-        "🇫🇮 FI | VLESS | @vpn_ioss #1"
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @v2ray_collector #1",
-        "🇫🇮 FI | VLESS | @vpn_ioss #1"
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,12 +105,21 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @v2ray_collector #1",
+      "tag": "همکاری_ملی",
       "type": "vless",
-      "server": "hw3.divarkhaghazi.com",
-      "server_port": 465,
-      "uuid": "924e20da-fcad-4e7e-8113-c62d27a0d01e",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
       "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
       "transport": {
         "type": "ws",
         "path": "",
@@ -118,12 +129,52 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @vpn_ioss #1",
+      "tag": "جاویدشاه",
       "type": "vless",
-      "server": "hw6.divarkhaghazi.com",
-      "server_port": 465,
-      "uuid": "09f30c46-3964-41ce-882a-72aee83ddd42",
-      "packet_encoding": "xudp"
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "KingRezaPahlavi",
+      "type": "vless",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
     }
   ],
   "route": {
