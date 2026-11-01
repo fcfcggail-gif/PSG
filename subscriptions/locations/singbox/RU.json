@@ -90,7 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+        "🇷🇺 RU | VLESS | @prrofile_purple #1",
+        "🇷🇺 RU | VLESS | @prrofile_purple #2",
+        "🇷🇺 RU | VLESS | @prrofile_purple #3",
         "🇷🇺 RU | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
@@ -99,7 +101,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+        "🇷🇺 RU | VLESS | @prrofile_purple #1",
+        "🇷🇺 RU | VLESS | @prrofile_purple #2",
+        "🇷🇺 RU | VLESS | @prrofile_purple #3",
         "🇷🇺 RU | VLESS | @vmesc #1"
       ],
       "tag": "auto",
@@ -112,11 +116,45 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #1",
       "type": "vless",
-      "server": "130.49.177.193",
+      "server": "84.38.187.169",
       "server_port": 443,
-      "uuid": "727a9178-d7f0-4142-8205-b0d19959ded0",
+      "uuid": "82282910-54a0-0032-b2df-86bfbce8ed36",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #2",
+      "type": "vless",
+      "server": "84.38.187.169",
+      "server_port": 443,
+      "uuid": "82282910-54a0-0032-b2df-86bfbce8ed36",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #3",
+      "type": "vless",
+      "server": "200.165.235.78",
+      "server_port": 443,
+      "uuid": "238e492b-bc20-4380-92b6-135d39112ca4",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
