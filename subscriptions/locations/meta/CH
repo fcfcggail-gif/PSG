@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇨🇭 CH | TROJAN | @v2raych #1", "server": "208.69.78.19", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"}
   - {"name": "🇨🇭 CH | VLESS | @v2raymelliii #1", "server": "138.124.39.251", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "5254c281-3bc1-40ee-ba89-1aaf8c251402", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇨🇭 CH | TROJAN | @v2raych #1'
       - '🇨🇭 CH | VLESS | @v2raymelliii #1'
 
   - name: 🌍 Global Media
