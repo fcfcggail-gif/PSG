@@ -25,6 +25,7 @@ dns:
 proxies: 
   - {"name": "🇱🇻 LV | VLESS | @free4allvpn #1", "server": "195.135.252.28", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "099dbf2d-a8e0-406e-a85f-eba0ac9a68aa", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇱🇻 LV | VLESS | @v2ray_collector #1", "server": "45.43.79.92", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "042b12d8-bac4-4b3a-b661-79e333f08e4e", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision"}
+  - {"name": "🇱🇻 LV | VLESS | @v2ray_free_conf #1", "server": "ch.zoroem.opik.net", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "98a0fab4-3be2-48ae-a99e-3d812315e11b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -40,6 +41,7 @@ proxy-groups:
     proxies: 
       - '🇱🇻 LV | VLESS | @free4allvpn #1'
       - '🇱🇻 LV | VLESS | @v2ray_collector #1'
+      - '🇱🇻 LV | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select
