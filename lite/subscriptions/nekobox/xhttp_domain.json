@@ -82,9 +82,9 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇮🇷 IR | VLESS | @luckyvpn #1",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1"
+        "🇩🇪 DE | VLESS | @v2rayza #1",
+        "🇩🇪 DE | VLESS | @v2rayza #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -97,9 +97,9 @@
         "KingRezaPahlavi",
         "🇩🇪 DE | VLESS | @configv2rayforfree #1",
         "🇺🇸 US | VLESS | @kafing_2 #1",
-        "🇮🇷 IR | VLESS | @luckyvpn #1",
         "🇩🇪 DE | VLESS | @orange_vpns #1",
-        "🇺🇸 US | VLESS | @v2ray_free_conf #1"
+        "🇩🇪 DE | VLESS | @v2rayza #1",
+        "🇩🇪 DE | VLESS | @v2rayza #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -212,23 +212,6 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @luckyvpn #1",
-      "type": "vless",
-      "server": "blue.rodya.ir",
-      "server_port": 443,
-      "uuid": "e0fa5345-c640-4458-8049-42ed926d3b2c",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @orange_vpns #1",
       "type": "vless",
       "server": "kala.fortresshost.ir",
@@ -246,15 +229,32 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VLESS | @v2ray_free_conf #1",
+      "tag": "🇩🇪 DE | VLESS | @v2rayza #1",
       "type": "vless",
-      "server": "fastly.videobazi.com",
+      "server": "kala.fortresshost.ir",
       "server_port": 443,
-      "uuid": "3b715892-8610-4fdc-9086-647b36af5443",
+      "uuid": "c60cd62f-8dc5-415f-826b-abb7856027d1",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇩🇪 DE | VLESS | @v2rayza #2",
+      "type": "vless",
+      "server": "kala.fortresshost.ir",
+      "server_port": 443,
+      "uuid": "c60cd62f-8dc5-415f-826b-abb7856027d1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "kala.fortresshost.ir",
         "insecure": true,
         "utls": {
           "enabled": true,
