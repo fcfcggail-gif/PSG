@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSEs=
+//profile-title: base64:UFNHIHwgSFky
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,9 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇭🇰 HK | VMESS | @mtproxy22_v2ray #1",
-        "🇭🇰 HK | VLESS | @red2ray #1",
-        "🇭🇰 HK | VMESS | @v2raych #1"
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇭🇰 HK | VMESS | @mtproxy22_v2ray #1",
-        "🇭🇰 HK | VLESS | @red2ray #1",
-        "🇭🇰 HK | VMESS | @v2raych #1"
+        "همکاری_ملی",
+        "جاویدشاه",
+        "KingRezaPahlavi"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -114,36 +114,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇭🇰 HK | VMESS | @mtproxy22_v2ray #1",
-      "type": "vmess",
-      "server": "euu1yalfmcqvljex.v.3dns.vip",
-      "server_port": 443,
-      "uuid": "d237ab38-1974-4b36-94a3-0665ce8587b9",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "euu1yalfmcqvljex.v.3dns.vip",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ws-vmess",
-        "headers": {
-          "Host": "euu1yalfmcqvljex.v.3dns.vip"
-        }
-      }
-    },
-    {
-      "tag": "🇭🇰 HK | VLESS | @red2ray #1",
+      "tag": "همکاری_ملی",
       "type": "vless",
-      "server": "165.154.63.139",
+      "server": "127.0.0.1",
       "server_port": 443,
-      "uuid": "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a",
+      "uuid": "00000000-0000-0000-0000-000000000000",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -152,25 +127,26 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
         }
       }
     },
     {
-      "tag": "🇭🇰 HK | VMESS | @v2raych #1",
-      "type": "vmess",
-      "server": "rhhierkwrf6fhs2h.v.3dns.vip",
+      "tag": "جاویدشاه",
+      "type": "vless",
+      "server": "127.0.0.1",
       "server_port": 443,
-      "uuid": "78b3f149-f037-465d-b2fb-11adb6f73ff8",
-      "security": "auto",
-      "alter_id": 0,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "rhhierkwrf6fhs2h.v.3dns.vip",
+        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -179,9 +155,33 @@
       },
       "transport": {
         "type": "ws",
-        "path": "/ws-vmess",
+        "path": "",
         "headers": {
-          "Host": "rhhierkwrf6fhs2h.v.3dns.vip"
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "KingRezaPahlavi",
+      "type": "vless",
+      "server": "127.0.0.1",
+      "server_port": 443,
+      "uuid": "00000000-0000-0000-0000-000000000000",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
         }
       }
     }

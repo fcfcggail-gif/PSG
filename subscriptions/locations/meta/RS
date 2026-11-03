@@ -23,9 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇭🇰 HK | VMESS | @mtproxy22_v2ray #1", "server": "euu1yalfmcqvljex.v.3dns.vip", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "d237ab38-1974-4b36-94a3-0665ce8587b9", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/ws-vmess", "headers": {"Host": "euu1yalfmcqvljex.v.3dns.vip"}}}
-  - {"name": "🇭🇰 HK | VLESS | @red2ray #1", "server": "165.154.63.139", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "91ad30e9-ab06-4b4c-9fb9-1c2aa97d8b3a", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇭🇰 HK | VMESS | @v2raych #1", "server": "rhhierkwrf6fhs2h.v.3dns.vip", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "78b3f149-f037-465d-b2fb-11adb6f73ff8", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/ws-vmess", "headers": {"Host": "rhhierkwrf6fhs2h.v.3dns.vip"}}}
+  - {"name": "🇷🇸 RS | VLESS | @red2ray #1", "server": "rs3.univesalsrv.com", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "2f35965a-9a9b-45fd-ba32-987296dfb6be", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,9 +37,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇭🇰 HK | VMESS | @mtproxy22_v2ray #1'
-      - '🇭🇰 HK | VLESS | @red2ray #1'
-      - '🇭🇰 HK | VMESS | @v2raych #1'
+      - '🇷🇸 RS | VLESS | @red2ray #1'
 
   - name: 🌍 Global Media
     type: select
