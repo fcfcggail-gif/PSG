@@ -77,10 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇹 IT | VLESS | @freeconfigsplus #1",
+        "🇮🇹 IT | SS | @netfreedom0 #1",
         "🇮🇹 IT | SS | @outlinereleasedkey #1",
         "🇮🇹 IT | SS | @v2rayza #1",
-        "🇮🇹 IT | VLESS | @vpn_ioss #1"
+        "🇮🇹 IT | SS | @v2rayza #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,10 +88,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇹 IT | VLESS | @freeconfigsplus #1",
+        "🇮🇹 IT | SS | @netfreedom0 #1",
         "🇮🇹 IT | SS | @outlinereleasedkey #1",
         "🇮🇹 IT | SS | @v2rayza #1",
-        "🇮🇹 IT | VLESS | @vpn_ioss #1"
+        "🇮🇹 IT | SS | @v2rayza #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -107,21 +107,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇹 IT | VLESS | @freeconfigsplus #1",
-      "type": "vless",
-      "server": "31.76.113.51",
-      "server_port": 443,
-      "uuid": "dfc0cb9d-f005-41b0-848c-7703bd39d0de",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "tag": "🇮🇹 IT | SS | @netfreedom0 #1",
+      "type": "shadowsocks",
+      "server": "202.50.253.72",
+      "server_port": 19999,
+      "method": "YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=",
+      "password": null
     },
     {
       "tag": "🇮🇹 IT | SS | @outlinereleasedkey #1",
@@ -140,26 +131,12 @@
       "password": null
     },
     {
-      "tag": "🇮🇹 IT | VLESS | @vpn_ioss #1",
-      "type": "vless",
-      "server": "2.59.21.188",
-      "server_port": 443,
-      "uuid": "2c114179-04b4-4958-b260-7030d12887de",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "tag": "🇮🇹 IT | SS | @v2rayza #2",
+      "type": "shadowsocks",
+      "server": "202.50.253.63",
+      "server_port": 19999,
+      "method": "YXV0bzo=",
+      "password": null
     }
   ],
   "route": {

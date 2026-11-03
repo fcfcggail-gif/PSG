@@ -90,7 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇬 SG | VLESS | @freeconfigsplus #1",
+        "🇸🇬 SG | VLESS | @outlinereleasedkey #1",
+        "🇸🇬 SG | VLESS | @v2ray_collector #1",
+        "🇸🇬 SG | VLESS | @v2ray_free_conf #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
         "🇸🇬 SG | VLESS | @v2raymelliii #1"
       ],
@@ -100,7 +102,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇬 SG | VLESS | @freeconfigsplus #1",
+        "🇸🇬 SG | VLESS | @outlinereleasedkey #1",
+        "🇸🇬 SG | VLESS | @v2ray_collector #1",
+        "🇸🇬 SG | VLESS | @v2ray_free_conf #1",
         "🇸🇬 SG | VLESS | @v2rayexpress #1",
         "🇸🇬 SG | VLESS | @v2raymelliii #1"
       ],
@@ -114,11 +118,27 @@
       "type": "direct"
     },
     {
-      "tag": "🇸🇬 SG | VLESS | @freeconfigsplus #1",
+      "tag": "🇸🇬 SG | VLESS | @outlinereleasedkey #1",
       "type": "vless",
-      "server": "www.lianchuang123.com",
+      "server": "hw3.divarkhaghazi.com",
+      "server_port": 465,
+      "uuid": "924e20da-fcad-4e7e-8113-c62d27a0d01e",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @v2ray_collector #1",
+      "type": "vless",
+      "server": "hw3.divarkhaghazi.com.",
+      "server_port": 465,
+      "uuid": "924e20da-fcad-4e7e-8113-c62d27a0d01e",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇸🇬 SG | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "172.237.88.103",
       "server_port": 443,
-      "uuid": "2c473bc0-484c-49d5-8cf3-c89d26b724fe",
+      "uuid": "efd11a89-7506-44ce-95b6-6654859f155b",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -127,13 +147,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/",
-        "headers": {
-          "Host": ""
         }
       }
     },
