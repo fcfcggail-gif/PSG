@@ -93,9 +93,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇲🇩 MD | VLESS | @red2ray #2",
-        "🇳🇱 NL | VLESS | @v2rayprotocol #1",
-        "🇩🇪 DE | VLESS | @v2rayza #1"
+        "🇳🇱 NL | VLESS | @v2rayprotocol #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -106,9 +106,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇺🇸 US | VLESS | @flyv2ray #1",
         "🇲🇩 MD | VLESS | @red2ray #2",
-        "🇳🇱 NL | VLESS | @v2rayprotocol #1",
-        "🇩🇪 DE | VLESS | @v2rayza #1"
+        "🇳🇱 NL | VLESS | @v2rayprotocol #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -192,6 +192,28 @@
       }
     },
     {
+      "tag": "🇺🇸 US | VLESS | @flyv2ray #1",
+      "type": "vless",
+      "server": "gb.puflino.com",
+      "server_port": 443,
+      "uuid": "c7270753-bd18-4696-956d-57dbde1183fe",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇲🇩 MD | VLESS | @red2ray #2",
       "type": "vless",
       "server": "md2.univesalsrv.com",
@@ -229,14 +251,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @v2rayza #1",
-      "type": "vless",
-      "server": "bigshagy.zqpm.ir",
-      "server_port": 5780,
-      "uuid": "996f6fed-a94e-4e9d-b876-82bc4ad02847",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {
