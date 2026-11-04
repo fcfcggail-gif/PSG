@@ -83,6 +83,7 @@
         "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇺🇸 US | VLESS | @netmellianti #1",
+        "🇺🇸 US | VLESS | @orange_vpns #2",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇽🇽 XX | VLESS | @proxie #3",
@@ -90,14 +91,13 @@
         "🇽🇽 XX | VLESS | @proxie #5",
         "🇽🇽 XX | VLESS | @proxie #6",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
-        "🇷🇺 RU | VLESS | @prrofile_purple #1",
-        "🇷🇺 RU | VLESS | @prrofile_purple #2",
+        "🇪🇸 ES | VLESS | @prrofile_purple #1",
+        "🇪🇸 ES | VLESS | @prrofile_purple #2",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
-        "🇷🇺 RU | VLESS | @v2rayopen #1",
-        "🇷🇺 RU | VLESS | @vmesc #1"
+        "🇷🇺 RU | VLESS | @v2rayopen #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -111,6 +111,7 @@
         "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇺🇸 US | VLESS | @free4allvpn #1",
         "🇺🇸 US | VLESS | @netmellianti #1",
+        "🇺🇸 US | VLESS | @orange_vpns #2",
         "🇽🇽 XX | VLESS | @proxie #1",
         "🇽🇽 XX | VLESS | @proxie #2",
         "🇽🇽 XX | VLESS | @proxie #3",
@@ -118,14 +119,13 @@
         "🇽🇽 XX | VLESS | @proxie #5",
         "🇽🇽 XX | VLESS | @proxie #6",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
-        "🇷🇺 RU | VLESS | @prrofile_purple #1",
-        "🇷🇺 RU | VLESS | @prrofile_purple #2",
+        "🇪🇸 ES | VLESS | @prrofile_purple #1",
+        "🇪🇸 ES | VLESS | @prrofile_purple #2",
         "🇺🇸 US | VLESS | @qeshmserver #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
-        "🇷🇺 RU | VLESS | @v2rayopen #1",
-        "🇷🇺 RU | VLESS | @vmesc #1"
+        "🇷🇺 RU | VLESS | @v2rayopen #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -244,6 +244,23 @@
       "server_port": 80,
       "uuid": "b742d8e7-ed7d-4f7d-bb16-bf49bdb4cb44",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇺🇸 US | VLESS | @orange_vpns #2",
+      "type": "vless",
+      "server": "151.101.36.99",
+      "server_port": 443,
+      "uuid": "b466269b-9b08-4ae9-8d3d-988e3ed7d42e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇽🇽 XX | VLESS | @proxie #1",
@@ -365,11 +382,11 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #1",
+      "tag": "🇪🇸 ES | VLESS | @prrofile_purple #1",
       "type": "vless",
-      "server": "84.38.187.169",
+      "server": "170.168.97.6",
       "server_port": 443,
-      "uuid": "82282910-54a0-0032-b2df-86bfbce8ed36",
+      "uuid": "1e4668ca-6526-84ac-2a53-28bbc209da13",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -382,11 +399,11 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @prrofile_purple #2",
+      "tag": "🇪🇸 ES | VLESS | @prrofile_purple #2",
       "type": "vless",
-      "server": "84.38.187.169",
+      "server": "170.168.97.6",
       "server_port": 443,
-      "uuid": "82282910-54a0-0032-b2df-86bfbce8ed36",
+      "uuid": "1e4668ca-6526-84ac-2a53-28bbc209da13",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -454,23 +471,6 @@
       "server": "185.126.93.226",
       "server_port": 443,
       "uuid": "f04cc810-aaf2-4a7b-8cad-356cdd30d394",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @vmesc #1",
-      "type": "vless",
-      "server": "79.174.92.207",
-      "server_port": 443,
-      "uuid": "d1004cfe-c279-e865-d865-71964dbdf85d",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
