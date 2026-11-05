@@ -78,7 +78,8 @@
         "auto",
         "direct",
         "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
-        "🇫🇮 FI | VLESS | @vmesc #1"
+        "🇫🇮 FI | VLESS | @vmesc #1",
+        "🇫🇮 FI | VLESS | @vmesc #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
-        "🇫🇮 FI | VLESS | @vmesc #1"
+        "🇫🇮 FI | VLESS | @vmesc #1",
+        "🇫🇮 FI | VLESS | @vmesc #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -143,6 +145,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vmesc #2",
+      "type": "vless",
+      "server": "static.207.81.180.157.clients.your-server.de",
+      "server_port": 443,
+      "uuid": "fe1cfc86-a077-403f-afc7-b97cee3f15e1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }

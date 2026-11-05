@@ -77,7 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇹 LT | VLESS | @free1_vpn #1"
+        "🇮🇪 IE | SS | @orange_vpns #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇹 LT | VLESS | @free1_vpn #1"
+        "🇮🇪 IE | SS | @orange_vpns #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,21 +101,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇱🇹 LT | VLESS | @free1_vpn #1",
-      "type": "vless",
-      "server": "88.216.69.253",
+      "tag": "🇮🇪 IE | SS | @orange_vpns #1",
+      "type": "shadowsocks",
+      "server": "52.138.233.48",
       "server_port": 443,
-      "uuid": "d342d11e-d224-4463-b982-532309285094",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTo0aXZoNkY2WEZCRDEyZ0Vn",
+      "password": null
     }
   ],
   "route": {

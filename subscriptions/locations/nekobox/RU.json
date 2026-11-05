@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+        "🇷🇺 RU | VLESS | @outline_ir #1",
+        "🇷🇺 RU | SS | @outlinereleasedkey #1",
         "🇷🇺 RU | VLESS | @v2rayopen #1"
       ],
       "tag": "proxy",
@@ -86,7 +87,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+        "🇷🇺 RU | VLESS | @outline_ir #1",
+        "🇷🇺 RU | SS | @outlinereleasedkey #1",
         "🇷🇺 RU | VLESS | @v2rayopen #1"
       ],
       "tag": "auto",
@@ -103,12 +105,34 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+      "tag": "🇷🇺 RU | VLESS | @outline_ir #1",
       "type": "vless",
-      "server": "176.123.160.193",
-      "server_port": 176,
-      "uuid": "ecf12398-8689-4c8d-91e2-8f1aeb8bd556",
-      "packet_encoding": "xudp"
+      "server": "104.171.133.209",
+      "server_port": 443,
+      "uuid": "ebd1c0d6-7ff4-4b9f-8692-237517a27a64",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | SS | @outlinereleasedkey #1",
+      "type": "shadowsocks",
+      "server": "130.49.189.158",
+      "server_port": 43558,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpsc3Uxdi8zaU5FUndERFZ3eEN1NTAzM0tDVXFRT29FbFlRdWw2M2ttcUo4PQ==",
+      "password": null
     },
     {
       "tag": "🇷🇺 RU | VLESS | @v2rayopen #1",

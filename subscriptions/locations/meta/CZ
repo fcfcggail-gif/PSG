@@ -24,6 +24,8 @@ dns:
 
 proxies: 
   - {"name": "🇨🇿 CZ | VMESS | @freev2rays #1", "server": "time.is", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "b526926d-1474-4f41-985e-8b877cb840cd", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/", "headers": {"Host": "shs111.kejixiaoqi666.store"}}}
+  - {"name": "🇨🇿 CZ | VLESS | @v2ray_collector #1", "server": "212.102.38.25", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "b34a52cb-cd52-49a8-9362-b8e97c151d49", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇨🇿 CZ | VLESS | @vpn_ioss #1", "server": "153.76.190.31", "port": 2083, "type": "vless", "skip-cert-verify": true, "uuid": "d6eb8a46-e6a4-4891-b22e-dfaa609c6afd", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +40,8 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇨🇿 CZ | VMESS | @freev2rays #1'
+      - '🇨🇿 CZ | VLESS | @v2ray_collector #1'
+      - '🇨🇿 CZ | VLESS | @vpn_ioss #1'
 
   - name: 🌍 Global Media
     type: select
