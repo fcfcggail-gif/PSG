@@ -90,7 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇬 BG | SS | @filtershekan_channel #1"
+        "🇧🇬 BG | SS | @filtershekan_channel #1",
+        "🇧🇬 BG | VLESS | @v2ray_free_conf #1",
+        "🇧🇬 BG | VLESS | @v2ray_free_conf #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇬 BG | SS | @filtershekan_channel #1"
+        "🇧🇬 BG | SS | @filtershekan_channel #1",
+        "🇧🇬 BG | VLESS | @v2ray_free_conf #1",
+        "🇧🇬 BG | VLESS | @v2ray_free_conf #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,6 +120,50 @@
       "server_port": 35176,
       "method": "MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206TmpjeU5tVmpNVFUxWldVNU5EQTVaRGswT0RnMU5XTTFNekpqWlRFM05Eaz06WWpZMFpERmtNbU0wTVRnMk5ESTJOV0UzWVRZek5qZGpZMlJtWm1aa056UT0=",
       "password": null
+    },
+    {
+      "tag": "🇧🇬 BG | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "6.bmi.ir.asopardaz.ir",
+      "server_port": 8443,
+      "uuid": "b64d1d2c-4186-4265-a7a6-367ccdfffd74",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇧🇬 BG | VLESS | @v2ray_free_conf #2",
+      "type": "vless",
+      "server": "6.bmi.ir.asopardaz.ir",
+      "server_port": 8443,
+      "uuid": "b64d1d2c-4186-4265-a7a6-367ccdfffd74",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
