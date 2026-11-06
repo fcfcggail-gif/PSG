@@ -91,8 +91,10 @@
         "auto",
         "direct",
         "🇸🇨 SC | VLESS | @ai_duet #1",
+        "🇸🇨 SC | VLESS | @orange_vpns #1",
         "🇸🇨 SC | TROJAN | @selinc #1",
         "🇸🇨 SC | TROJAN | @v2ray_collector #1",
+        "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
         "🇸🇨 SC | SS | @v2rayopen #1"
       ],
       "tag": "proxy",
@@ -102,8 +104,10 @@
       "interval": "10m",
       "outbounds": [
         "🇸🇨 SC | VLESS | @ai_duet #1",
+        "🇸🇨 SC | VLESS | @orange_vpns #1",
         "🇸🇨 SC | TROJAN | @selinc #1",
         "🇸🇨 SC | TROJAN | @v2ray_collector #1",
+        "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
         "🇸🇨 SC | SS | @v2rayopen #1"
       ],
       "tag": "auto",
@@ -129,6 +133,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "46.29.255.123",
+      "server_port": 59539,
+      "uuid": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -163,6 +189,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "45.130.125.69",
+      "server_port": 2096,
+      "uuid": "a9160eba-23cd-407d-8cb3-39a2bc43148c",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇸🇨 SC | SS | @v2rayopen #1",

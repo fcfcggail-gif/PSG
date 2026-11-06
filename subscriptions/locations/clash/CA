@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇨🇦 CA | TROJAN | @orange_vpns #1", "server": "216.152.147.85", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"}
   - {"name": "🇨🇦 CA | TROJAN | @v2rayopen #1", "server": "216.152.147.74", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇨🇦 CA | TROJAN | @orange_vpns #1'
       - '🇨🇦 CA | TROJAN | @v2rayopen #1'
 
   - name: 🌍 Global Media
