@@ -26,7 +26,7 @@ proxies:
   - {"name": "🇸🇨 SC | VLESS | @ai_duet #1", "server": "45.130.125.160", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "406d8436-0eb9-4eb2-84fb-960e076ffba6", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇸🇨 SC | VLESS | @orange_vpns #1", "server": "46.29.255.123", "port": 59539, "type": "vless", "skip-cert-verify": true, "uuid": "30572b57-f5ab-4eb8-82d4-a24d399b99f6", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇸🇨 SC | TROJAN | @selinc #1", "server": "45.128.76.242", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
-  - {"name": "🇸🇨 SC | TROJAN | @v2ray_collector #1", "server": "45.128.76.242", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "humanity"}
+  - {"name": "🇸🇨 SC | VLESS | @v2ray_free_conf #1", "server": "45.130.125.160", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "536d0d54-53a5-455a-ad7c-a525d8ff629f", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -43,7 +43,7 @@ proxy-groups:
       - '🇸🇨 SC | VLESS | @ai_duet #1'
       - '🇸🇨 SC | VLESS | @orange_vpns #1'
       - '🇸🇨 SC | TROJAN | @selinc #1'
-      - '🇸🇨 SC | TROJAN | @v2ray_collector #1'
+      - '🇸🇨 SC | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select
