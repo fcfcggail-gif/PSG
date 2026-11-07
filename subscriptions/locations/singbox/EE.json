@@ -92,7 +92,9 @@
         "direct",
         "🇪🇪 EE | VLESS | @flyv2ray #1",
         "🇪🇪 EE | VLESS | @flyv2ray #2",
-        "🇪🇪 EE | VLESS | @mtproxy22_v2ray #1"
+        "🇪🇪 EE | VLESS | @mtproxy22_v2ray #1",
+        "🇪🇪 EE | VLESS | @orange_vpns #1",
+        "🇪🇪 EE | VLESS | @orange_vpns #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,7 +104,9 @@
       "outbounds": [
         "🇪🇪 EE | VLESS | @flyv2ray #1",
         "🇪🇪 EE | VLESS | @flyv2ray #2",
-        "🇪🇪 EE | VLESS | @mtproxy22_v2ray #1"
+        "🇪🇪 EE | VLESS | @mtproxy22_v2ray #1",
+        "🇪🇪 EE | VLESS | @orange_vpns #1",
+        "🇪🇪 EE | VLESS | @orange_vpns #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -163,6 +167,50 @@
       "server": "178.214.109.1",
       "server_port": 443,
       "uuid": "40a86b1b-239d-455e-b53f-4c270788ba6e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "178.214.109.1",
+      "server_port": 443,
+      "uuid": "40a86b1b-239d-455e-b53f-4c270788ba6e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇪🇪 EE | VLESS | @orange_vpns #2",
+      "type": "vless",
+      "server": "185.215.184.85",
+      "server_port": 443,
+      "uuid": "90157e25-cee1-4217-921e-91f300bc1a24",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

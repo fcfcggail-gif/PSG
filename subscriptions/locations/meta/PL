@@ -24,7 +24,6 @@ dns:
 
 proxies: 
   - {"name": "🇵🇱 PL | VLESS | @outline_ir #1", "server": "poland.starlink6.us", "port": 46940, "type": "vless", "skip-cert-verify": true, "uuid": "331855d9-b6fb-468c-bf93-a5712d1fdfa0", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇵🇱 PL | VLESS | @outlinereleasedkey #1", "server": "2.26.255.215", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "69e41e64-a832-471a-b740-94577ca85520", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇵🇱 PL | TROJAN | @outlinereleasedkey #1", "server": "70.34.252.255", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"}
 
 proxy-groups:
@@ -40,7 +39,6 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇵🇱 PL | VLESS | @outline_ir #1'
-      - '🇵🇱 PL | VLESS | @outlinereleasedkey #1'
       - '🇵🇱 PL | TROJAN | @outlinereleasedkey #1'
 
   - name: 🌍 Global Media
