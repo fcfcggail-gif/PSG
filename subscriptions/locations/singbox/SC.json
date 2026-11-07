@@ -92,7 +92,8 @@
         "direct",
         "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇸🇨 SC | VLESS | @orange_vpns #1",
-        "🇸🇨 SC | TROJAN | @selinc #1"
+        "🇸🇨 SC | TROJAN | @selinc #1",
+        "🇸🇨 SC | VLESS | @v2ray_collector #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,7 +103,8 @@
       "outbounds": [
         "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇸🇨 SC | VLESS | @orange_vpns #1",
-        "🇸🇨 SC | TROJAN | @selinc #1"
+        "🇸🇨 SC | TROJAN | @selinc #1",
+        "🇸🇨 SC | VLESS | @v2ray_collector #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -167,6 +169,15 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @v2ray_collector #1",
+      "type": "vless",
+      "server": "46.29.255.123",
+      "server_port": 59539,
+      "uuid": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision"
     }
   ],
   "route": {

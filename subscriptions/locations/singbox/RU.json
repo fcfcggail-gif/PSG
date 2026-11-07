@@ -90,11 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇷🇺 RU | VLESS | @free1_vpn #1",
         "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
-        "🇷🇺 RU | VLESS | @v2raych #1",
-        "🇷🇺 RU | VLESS | @v2raych #2",
-        "🇷🇺 RU | VLESS | @v2raych #3",
-        "🇷🇺 RU | VLESS | @v2rayopen #1"
+        "🇷🇺 RU | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,11 +100,9 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇷🇺 RU | VLESS | @free1_vpn #1",
         "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
-        "🇷🇺 RU | VLESS | @v2raych #1",
-        "🇷🇺 RU | VLESS | @v2raych #2",
-        "🇷🇺 RU | VLESS | @v2raych #3",
-        "🇷🇺 RU | VLESS | @v2rayopen #1"
+        "🇷🇺 RU | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -116,6 +112,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @free1_vpn #1",
+      "type": "vless",
+      "server": "95.129.234.108",
+      "server_port": 8443,
+      "uuid": "b229d38c-35ec-4a0b-9c86-8fceba243d6c",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇷🇺 RU | VLESS | @mtproxy22_v2ray #1",
@@ -142,42 +146,9 @@
     {
       "tag": "🇷🇺 RU | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "fr1.robotodata.ru",
-      "server_port": 7443,
-      "uuid": "6116f0f3-15eb-4217-b38e-16514dc00ba1",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "95.129.234.108",
-      "server_port": 8443,
-      "uuid": "b229d38c-35ec-4a0b-9c86-8fceba243d6c",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #3",
-      "type": "vless",
-      "server": "95.129.234.108",
-      "server_port": 8443,
-      "uuid": "b229d38c-35ec-4a0b-9c86-8fceba243d6c",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2rayopen #1",
-      "type": "vless",
-      "server": "185.126.93.226",
+      "server": "91.215.43.80",
       "server_port": 443,
-      "uuid": "f04cc810-aaf2-4a7b-8cad-356cdd30d394",
+      "uuid": "e9b117e4-8be9-4105-9354-a5e0663294f0",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
