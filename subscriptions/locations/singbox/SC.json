@@ -91,9 +91,7 @@
         "auto",
         "direct",
         "🇸🇨 SC | VLESS | @ai_duet #1",
-        "🇸🇨 SC | VLESS | @orange_vpns #1",
-        "🇸🇨 SC | TROJAN | @selinc #1",
-        "🇸🇨 SC | VLESS | @v2ray_collector #1"
+        "🇸🇨 SC | TROJAN | @selinc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,9 +100,7 @@
       "interval": "10m",
       "outbounds": [
         "🇸🇨 SC | VLESS | @ai_duet #1",
-        "🇸🇨 SC | VLESS | @orange_vpns #1",
-        "🇸🇨 SC | TROJAN | @selinc #1",
-        "🇸🇨 SC | VLESS | @v2ray_collector #1"
+        "🇸🇨 SC | TROJAN | @selinc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -133,28 +129,6 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @orange_vpns #1",
-      "type": "vless",
-      "server": "46.29.255.123",
-      "server_port": 59539,
-      "uuid": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇸🇨 SC | TROJAN | @selinc #1",
       "type": "trojan",
       "server": "45.128.76.242",
@@ -169,15 +143,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇸🇨 SC | VLESS | @v2ray_collector #1",
-      "type": "vless",
-      "server": "46.29.255.123",
-      "server_port": 59539,
-      "uuid": "30572b57-f5ab-4eb8-82d4-a24d399b99f6",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision"
     }
   ],
   "route": {

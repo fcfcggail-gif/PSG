@@ -78,15 +78,15 @@
         "auto",
         "direct",
         "🇳🇱 NL | VLESS | @filtershekan_channel #1",
-        "🇳🇱 NL | VLESS | @free1_vpn #1",
         "🇳🇱 NL | VLESS | @mimitdl #1",
+        "🇳🇱 NL | VLESS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇳🇱 NL | SS | @v2rayng3 #1",
         "🇳🇱 NL | VLESS | @v2rayopen #1",
-        "🇳🇱 NL | VLESS | @v2rayopen #2",
         "🇳🇱 NL | VLESS | @v2rayza #1",
         "🇳🇱 NL | VLESS | @v2rayza #2",
         "🇳🇱 NL | VLESS | @v2rayza #3",
@@ -102,15 +102,15 @@
       "interval": "10m",
       "outbounds": [
         "🇳🇱 NL | VLESS | @filtershekan_channel #1",
-        "🇳🇱 NL | VLESS | @free1_vpn #1",
         "🇳🇱 NL | VLESS | @mimitdl #1",
+        "🇳🇱 NL | VLESS | @outlinereleasedkey #1",
         "🇳🇱 NL | VLESS | @qeshmserver #1",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇳🇱 NL | SS | @v2rayng3 #1",
         "🇳🇱 NL | VLESS | @v2rayopen #1",
-        "🇳🇱 NL | VLESS | @v2rayopen #2",
         "🇳🇱 NL | VLESS | @v2rayza #1",
         "🇳🇱 NL | VLESS | @v2rayza #2",
         "🇳🇱 NL | VLESS | @v2rayza #3",
@@ -155,28 +155,6 @@
       }
     },
     {
-      "tag": "🇳🇱 NL | VLESS | @free1_vpn #1",
-      "type": "vless",
-      "server": "lava.r6j.ir",
-      "server_port": 8111,
-      "uuid": "7ff79f4e-e902-4308-91db-410c6db1310a",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @mimitdl #1",
       "type": "vless",
       "server": "31.57.250.65",
@@ -190,6 +168,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @outlinereleasedkey #1",
+      "type": "vless",
+      "server": "130.12.242.106",
+      "server_port": 443,
+      "uuid": "bc058e69-0444-4c7b-98da-bd67f0b143da",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -217,6 +217,23 @@
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "45.141.202.69",
+      "server_port": 443,
+      "uuid": "5c32201a-6c0e-451b-8f0a-24b4bd40df59",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        }
+      }
     },
     {
       "tag": "🇳🇱 NL | VLESS | @v2ray_youtube #1",
@@ -248,23 +265,6 @@
       "server": "papad1.vethilis.ru",
       "server_port": 443,
       "uuid": "5fb552a8-9c41-4031-86f5-ca10fc802da5",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @v2rayopen #2",
-      "type": "vless",
-      "server": "5.149.248.151",
-      "server_port": 443,
-      "uuid": "a1195f62-7dc3-48c0-8d65-7eeaf3c2df40",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -312,9 +312,9 @@
     {
       "tag": "🇳🇱 NL | VLESS | @v2rayza #4",
       "type": "vless",
-      "server": "app.betust.net",
+      "server": "80.71.227.102",
       "server_port": 443,
-      "uuid": "2232d904-8e6a-4202-8240-6efd8aec02e9",
+      "uuid": "db80088c-32a1-4cb8-a907-0f3cb7844152",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

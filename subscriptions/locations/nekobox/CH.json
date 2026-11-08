@@ -77,8 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇨🇭 CH | TROJAN | @v2ray_collector #1",
         "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
+        "🇨🇭 CH | SS | @v2raych #1",
         "🇨🇭 CH | TROJAN | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -87,8 +89,10 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇨🇭 CH | TROJAN | @v2ray_collector #1",
         "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
+        "🇨🇭 CH | SS | @v2raych #1",
         "🇨🇭 CH | TROJAN | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -103,6 +107,28 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @filtershekan_channel #1",
+      "type": "vless",
+      "server": "prvtch.titun.su",
+      "server_port": 443,
+      "uuid": "90157e25-cee1-4217-921e-91f300bc1a24",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇨🇭 CH | TROJAN | @v2ray_collector #1",
@@ -123,7 +149,7 @@
     {
       "tag": "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "prvtch.titun.su",
+      "server": "179.43.166.190",
       "server_port": 443,
       "uuid": "90157e25-cee1-4217-921e-91f300bc1a24",
       "packet_encoding": "xudp",
@@ -136,6 +162,14 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇨🇭 CH | SS | @v2raych #1",
+      "type": "shadowsocks",
+      "server": "79.127.184.104",
+      "server_port": 19999,
+      "method": "YXV0bzo=",
+      "password": null
     },
     {
       "tag": "🇨🇭 CH | TROJAN | @vpn_ioss #1",
