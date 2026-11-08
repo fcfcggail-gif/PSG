@@ -77,7 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | VLESS | @free1_vpn #1"
+        "🇷🇺 RU | VLESS | @flyv2ray #1",
+        "🇷🇺 RU | VLESS | @free1_vpn #1",
+        "🇷🇺 RU | SS | @mtproxy22_v2ray #1",
+        "🇷🇺 RU | SS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +88,10 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @free1_vpn #1"
+        "🇷🇺 RU | VLESS | @flyv2ray #1",
+        "🇷🇺 RU | VLESS | @free1_vpn #1",
+        "🇷🇺 RU | SS | @mtproxy22_v2ray #1",
+        "🇷🇺 RU | SS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,12 +107,45 @@
       "type": "direct"
     },
     {
+      "tag": "🇷🇺 RU | VLESS | @flyv2ray #1",
+      "type": "vless",
+      "server": "cdn.oldertown.ru",
+      "server_port": 443,
+      "uuid": "29777784-b5ad-4e2a-be7b-335f033ab97c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇷🇺 RU | VLESS | @free1_vpn #1",
       "type": "vless",
       "server": "95.129.234.108",
       "server_port": 8443,
       "uuid": "b229d38c-35ec-4a0b-9c86-8fceba243d6c",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇷🇺 RU | SS | @mtproxy22_v2ray #1",
+      "type": "shadowsocks",
+      "server": "130.49.189.158",
+      "server_port": 43558,
+      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTp5WmlQcnI0ODRPZFNZY2l2RFV2K1VJeWd3dnlXK0hRWXl0S3NJZ1R3OXRVPQ==",
+      "password": null
+    },
+    {
+      "tag": "🇷🇺 RU | SS | @vmesskhodam #1",
+      "type": "shadowsocks",
+      "server": "46.17.47.58",
+      "server_port": 18443,
+      "method": "YWVzLTI1Ni1nY206Y0NNSmdKVEEzQkE0ODlZVVlyRnE3WEhYU2lTcFdsTGE=",
+      "password": null
     }
   ],
   "route": {

@@ -95,8 +95,8 @@
         "KingRezaPahlavi",
         "🇪🇪 EE | VLESS | @flyv2ray #2",
         "🇮🇷 IR | VLESS | @orange_vpns #1",
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
-        "🇩🇪 DE | VLESS | @v2raymelliii #1"
+        "🇩🇪 DE | VLESS | @v2raymelliii #1",
+        "🇳🇱 NL | VLESS | @v2rayza #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -109,8 +109,8 @@
         "KingRezaPahlavi",
         "🇪🇪 EE | VLESS | @flyv2ray #2",
         "🇮🇷 IR | VLESS | @orange_vpns #1",
-        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
-        "🇩🇪 DE | VLESS | @v2raymelliii #1"
+        "🇩🇪 DE | VLESS | @v2raymelliii #1",
+        "🇳🇱 NL | VLESS | @v2rayza #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -238,14 +238,6 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "svrty.fars-remen.ir",
-      "server_port": 8080,
-      "uuid": "db56fe57-a0b9-4456-a5d4-8c49247ae65e",
-      "packet_encoding": "xudp"
-    },
-    {
       "tag": "🇩🇪 DE | VLESS | @v2raymelliii #1",
       "type": "vless",
       "server": "s1-api.denmexa.ir",
@@ -264,6 +256,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @v2rayza #2",
+      "type": "vless",
+      "server": "book.jarbook.net",
+      "server_port": 443,
+      "uuid": "95d0e214-eab0-4701-93ed-fea4f1b56062",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }
