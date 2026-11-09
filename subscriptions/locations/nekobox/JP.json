@@ -77,9 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇯🇵 JP | VLESS | @lemonshopvpn #1",
         "🇯🇵 JP | VLESS | @netfreedom0 #1",
-        "🇯🇵 JP | SS | @v2rayng3 #1",
-        "🇯🇵 JP | TROJAN | @vpn_ioss #1"
+        "🇯🇵 JP | SS | @v2rayng3 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇯🇵 JP | VLESS | @lemonshopvpn #1",
         "🇯🇵 JP | VLESS | @netfreedom0 #1",
-        "🇯🇵 JP | SS | @v2rayng3 #1",
-        "🇯🇵 JP | TROJAN | @vpn_ioss #1"
+        "🇯🇵 JP | SS | @v2rayng3 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,6 +103,14 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇯🇵 JP | VLESS | @lemonshopvpn #1",
+      "type": "vless",
+      "server": "ubia2-join.outline-vpn.cloud",
+      "server_port": 80,
+      "uuid": "48bd4d22-e42f-4749-af6a-85ecf716c823",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇯🇵 JP | VLESS | @netfreedom0 #1",
@@ -119,22 +127,6 @@
       "server_port": 80,
       "method": "YXV0bzo=",
       "password": null
-    },
-    {
-      "tag": "🇯🇵 JP | TROJAN | @vpn_ioss #1",
-      "type": "trojan",
-      "server": "167.179.108.225",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     }
   ],
   "route": {
