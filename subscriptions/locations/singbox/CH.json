@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
-        "🇨🇭 CH | TROJAN | @red2ray #1"
+        "🇨🇭 CH | SS | @outlinereleasedkey #1",
+        "🇨🇭 CH | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
-        "🇨🇭 CH | TROJAN | @red2ray #1"
+        "🇨🇭 CH | SS | @outlinereleasedkey #1",
+        "🇨🇭 CH | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -134,11 +136,20 @@
       }
     },
     {
-      "tag": "🇨🇭 CH | TROJAN | @red2ray #1",
-      "type": "trojan",
-      "server": "208.69.78.222",
+      "tag": "🇨🇭 CH | SS | @outlinereleasedkey #1",
+      "type": "shadowsocks",
+      "server": "79.127.184.104",
+      "server_port": 19999,
+      "method": "YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=",
+      "password": null
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "46.19.138.214",
       "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "uuid": "90157e25-cee1-4217-921e-91f300bc1a24",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -146,6 +157,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

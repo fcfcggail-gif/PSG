@@ -105,15 +105,17 @@
         "🇮🇷 IR | VLESS | @nofiltering2 #1",
         "🇮🇷 IR | VLESS | @prooxyk #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
-        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
-        "🇮🇷 IR | SS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VLESS | @red2ray #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
-        "🇮🇷 IR | SS | @v2raych #1",
+        "🇮🇷 IR | VLESS | @v2raych #1",
+        "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇮🇷 IR | VLESS | @v2rayngalpha #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #2",
-        "🇮🇷 IR | VLESS | @vmesc #1"
+        "🇮🇷 IR | VLESS | @vmesc #1",
+        "🇮🇷 IR | VMESS | @vpn_ioss #1",
+        "🇮🇷 IR | VLESS | @vpnfree85 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -136,15 +138,17 @@
         "🇮🇷 IR | VLESS | @nofiltering2 #1",
         "🇮🇷 IR | VLESS | @prooxyk #1",
         "🇮🇷 IR | VLESS | @realvpnmaster #1",
-        "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
-        "🇮🇷 IR | SS | @v2ray_free_conf #1",
+        "🇮🇷 IR | VLESS | @red2ray #1",
         "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
         "🇮🇷 IR | VLESS | @v2ray_youtube #1",
-        "🇮🇷 IR | SS | @v2raych #1",
+        "🇮🇷 IR | VLESS | @v2raych #1",
+        "🇮🇷 IR | VLESS | @v2raymelliii #1",
         "🇮🇷 IR | VLESS | @v2rayngalpha #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #1",
         "🇮🇷 IR | VLESS | @v_2rayngvpn #2",
-        "🇮🇷 IR | VLESS | @vmesc #1"
+        "🇮🇷 IR | VLESS | @vmesc #1",
+        "🇮🇷 IR | VMESS | @vpn_ioss #1",
+        "🇮🇷 IR | VLESS | @vpnfree85 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -323,21 +327,12 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "Mobin1.hormozmobile10.ir",
-      "server_port": 38435,
-      "uuid": "cdee4bd3-7e46-4699-988d-cdb12f4a452b",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "tag": "🇮🇷 IR | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "81.12.33.25",
-      "server_port": 8443,
-      "method": "MjAyMi1ibGFrZTMtYWVzLTEyOC1nY206TEQ5eEEwSTVOckUvYVBLdm1YTjBrUT09OlpuUGFHTUMwK2pNOVl3U2MxaUREM3c9PQ==",
-      "password": null
+      "tag": "🇮🇷 IR | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "palangsorati.buxtep.ir",
+      "server_port": 28443,
+      "uuid": "ab671d2b-1969-a168-c2fa-2cf714b44828",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2ray_iran88 #1",
@@ -356,12 +351,38 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇮🇷 IR | SS | @v2raych #1",
-      "type": "shadowsocks",
-      "server": "payin.ishizaki.ir",
-      "server_port": 4443,
-      "method": "MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206Qk1Ra0s2aWN3YTd2Z21qcGNSYWxaS0NIcWVzOExaV2xLTGZVQTBWc0EvMD06TEYzYkIvcUFtd3pRelhiMXhpMjVEamltdGx2dityN1B3Y3RXZ2dEMHhoMD0=",
-      "password": null
+      "tag": "🇮🇷 IR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "base.hosamobenl.co.uk",
+      "server_port": 443,
+      "uuid": "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @v2raymelliii #1",
+      "type": "vless",
+      "server": "base.hosamobenl.co.uk",
+      "server_port": 443,
+      "uuid": "667016ca-f02e-4b5f-bfc3-3d8ed81e9bec",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇮🇷 IR | VLESS | @v2rayngalpha #1",
@@ -403,6 +424,23 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇮🇷 IR | VMESS | @vpn_ioss #1",
+      "type": "vmess",
+      "server": "94.184.18.130",
+      "server_port": 44580,
+      "uuid": "45dc5086-f30d-4b34-aac4-612c074243c8",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
+      "tag": "🇮🇷 IR | VLESS | @vpnfree85 #1",
+      "type": "vless",
+      "server": "s4.tehranionliine.ir",
+      "server_port": 80,
+      "uuid": "937dde02-4ce6-4f0d-a3be-27aef7d3ef46",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
