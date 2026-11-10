@@ -77,7 +77,13 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇺 AU | VMESS | @serverv2ray00 #1"
+        "🇦🇺 AU | VLESS | @custom_14 #1",
+        "🇦🇺 AU | VLESS | @lemonshopvpn #1",
+        "🇦🇺 AU | VLESS | @lemonshopvpn #2",
+        "🇦🇺 AU | VLESS | @proxy_confiingir #1",
+        "🇦🇺 AU | VLESS | @proxy_confiingir #2",
+        "🇦🇺 AU | VMESS | @serverv2ray00 #1",
+        "🇦🇺 AU | VLESS | @vboxpanel #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +91,13 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇺 AU | VMESS | @serverv2ray00 #1"
+        "🇦🇺 AU | VLESS | @custom_14 #1",
+        "🇦🇺 AU | VLESS | @lemonshopvpn #1",
+        "🇦🇺 AU | VLESS | @lemonshopvpn #2",
+        "🇦🇺 AU | VLESS | @proxy_confiingir #1",
+        "🇦🇺 AU | VLESS | @proxy_confiingir #2",
+        "🇦🇺 AU | VMESS | @serverv2ray00 #1",
+        "🇦🇺 AU | VLESS | @vboxpanel #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -99,6 +111,82 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇦🇺 AU | VLESS | @custom_14 #1",
+      "type": "vless",
+      "server": "melo-mtn.outline-vpn.cloud",
+      "server_port": 443,
+      "uuid": "a3e76574-9458-4783-905b-970cf0ccdcd1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇺 AU | VLESS | @lemonshopvpn #1",
+      "type": "vless",
+      "server": "ubia2-join.outline-vpn.cloud",
+      "server_port": 80,
+      "uuid": "48bd4d22-e42f-4749-af6a-85ecf716c823",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇦🇺 AU | VLESS | @lemonshopvpn #2",
+      "type": "vless",
+      "server": "cxc--join.outline-vpn.cloud",
+      "server_port": 443,
+      "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇺 AU | VLESS | @proxy_confiingir #1",
+      "type": "vless",
+      "server": "542.outline-vpn.cloud",
+      "server_port": 443,
+      "uuid": "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇺 AU | VLESS | @proxy_confiingir #2",
+      "type": "vless",
+      "server": "bia2.outline-vpn.cloud",
+      "server_port": 443,
+      "uuid": "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇦🇺 AU | VMESS | @serverv2ray00 #1",
@@ -122,6 +210,23 @@
         "path": "/linkvws",
         "headers": {
           "Host": "janett.click"
+        }
+      }
+    },
+    {
+      "tag": "🇦🇺 AU | VLESS | @vboxpanel #1",
+      "type": "vless",
+      "server": "ejoin-to.outline-vpn.cloud",
+      "server_port": 443,
+      "uuid": "c17ee8d1-c7a3-4666-83da-d923ae45c31d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }

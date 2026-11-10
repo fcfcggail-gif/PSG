@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇺🇦 UA | VLESS | @v2ray_youtube #1", "server": "g01tig3hasus3.dnetsolutions.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "e08d9bc5-6832-4dd4-bd44-d9bbe61e5817", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇺🇦 UA | VLESS | @vpn_ioss #1", "server": "194.150.220.179", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "db80088c-32a1-4cb8-a907-0f3cb7844152", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇺🇦 UA | VLESS | @v2ray_youtube #1'
+      - '🇺🇦 UA | VLESS | @vpn_ioss #1'
 
   - name: 🌍 Global Media
     type: select

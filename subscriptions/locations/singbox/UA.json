@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇺🇦 UA | VLESS | @v2ray_youtube #1"
+        "🇺🇦 UA | VLESS | @v2ray_youtube #1",
+        "🇺🇦 UA | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇺🇦 UA | VLESS | @v2ray_youtube #1"
+        "🇺🇦 UA | VLESS | @v2ray_youtube #1",
+        "🇺🇦 UA | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -123,6 +125,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇺🇦 UA | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "194.150.220.179",
+      "server_port": 443,
+      "uuid": "db80088c-32a1-4cb8-a907-0f3cb7844152",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

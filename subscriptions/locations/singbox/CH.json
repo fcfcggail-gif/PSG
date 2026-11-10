@@ -92,7 +92,7 @@
         "direct",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇨🇭 CH | SS | @outlinereleasedkey #1",
-        "🇨🇭 CH | VLESS | @vpn_ioss #1"
+        "🇨🇭 CH | SS | @v2rayza #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,7 +102,7 @@
       "outbounds": [
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇨🇭 CH | SS | @outlinereleasedkey #1",
-        "🇨🇭 CH | VLESS | @vpn_ioss #1"
+        "🇨🇭 CH | SS | @v2rayza #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -144,26 +144,12 @@
       "password": null
     },
     {
-      "tag": "🇨🇭 CH | VLESS | @vpn_ioss #1",
-      "type": "vless",
-      "server": "46.19.138.214",
-      "server_port": 443,
-      "uuid": "90157e25-cee1-4217-921e-91f300bc1a24",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
+      "tag": "🇨🇭 CH | SS | @v2rayza #1",
+      "type": "shadowsocks",
+      "server": "79.127.184.104",
+      "server_port": 19999,
+      "method": "YXV0bzo=",
+      "password": null
     }
   ],
   "route": {

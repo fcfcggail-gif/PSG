@@ -23,7 +23,13 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇦🇺 AU | VLESS | @custom_14 #1", "server": "melo-mtn.outline-vpn.cloud", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "a3e76574-9458-4783-905b-970cf0ccdcd1", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇺 AU | VLESS | @lemonshopvpn #1", "server": "ubia2-join.outline-vpn.cloud", "port": 80, "type": "vless", "skip-cert-verify": true, "uuid": "48bd4d22-e42f-4749-af6a-85ecf716c823", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇺 AU | VLESS | @lemonshopvpn #2", "server": "cxc--join.outline-vpn.cloud", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "b75b3034-36ab-4979-beae-3d02db1b11ec", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇺 AU | VLESS | @proxy_confiingir #1", "server": "542.outline-vpn.cloud", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇺 AU | VLESS | @proxy_confiingir #2", "server": "bia2.outline-vpn.cloud", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "884f9b2c-f0c5-44dd-a68e-3e39ce93bb39", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇦🇺 AU | VMESS | @serverv2ray00 #1", "server": "162.159.135.79", "port": 443, "type": "vmess", "skip-cert-verify": true, "uuid": "03fcc618-b93d-6796-6aed-8a38c975d581", "alterId": 0, "cipher": "auto", "network": "ws", "tls": true, "ws-opts": {"path": "/linkvws", "headers": {"Host": "janett.click"}}}
+  - {"name": "🇦🇺 AU | VLESS | @vboxpanel #1", "server": "ejoin-to.outline-vpn.cloud", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "c17ee8d1-c7a3-4666-83da-d923ae45c31d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,7 +43,13 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇦🇺 AU | VLESS | @custom_14 #1'
+      - '🇦🇺 AU | VLESS | @lemonshopvpn #1'
+      - '🇦🇺 AU | VLESS | @lemonshopvpn #2'
+      - '🇦🇺 AU | VLESS | @proxy_confiingir #1'
+      - '🇦🇺 AU | VLESS | @proxy_confiingir #2'
       - '🇦🇺 AU | VMESS | @serverv2ray00 #1'
+      - '🇦🇺 AU | VLESS | @vboxpanel #1'
 
   - name: 🌍 Global Media
     type: select

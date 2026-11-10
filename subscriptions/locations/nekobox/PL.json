@@ -78,7 +78,7 @@
         "auto",
         "direct",
         "🇵🇱 PL | VLESS | @free1_vpn #1",
-        "🇵🇱 PL | TROJAN | @v2ray_collector #1",
+        "🇵🇱 PL | VLESS | @free1_vpn #2",
         "🇵🇱 PL | VLESS | @v2rayopen #1"
       ],
       "tag": "proxy",
@@ -88,7 +88,7 @@
       "interval": "10m",
       "outbounds": [
         "🇵🇱 PL | VLESS | @free1_vpn #1",
-        "🇵🇱 PL | TROJAN | @v2ray_collector #1",
+        "🇵🇱 PL | VLESS | @free1_vpn #2",
         "🇵🇱 PL | VLESS | @v2rayopen #1"
       ],
       "tag": "auto",
@@ -127,18 +127,24 @@
       }
     },
     {
-      "tag": "🇵🇱 PL | TROJAN | @v2ray_collector #1",
-      "type": "trojan",
-      "server": "70.34.252.255",
+      "tag": "🇵🇱 PL | VLESS | @free1_vpn #2",
+      "type": "vless",
+      "server": "tg.riotvpn.eu",
       "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "uuid": "a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "browseexecutivejobopeningsandenhanceleadershipcareer.com",
+        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
