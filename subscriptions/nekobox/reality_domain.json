@@ -91,10 +91,8 @@
         "🇹🇷 TR | VLESS | @selinc #1",
         "🇬🇧 GB | VLESS | @v2ray_collector #1",
         "🇺🇦 UA | VLESS | @v2ray_youtube #1",
-        "🇧🇬 BG | VLESS | @v2raych #1",
-        "🇧🇬 BG | VLESS | @v2raych #2",
-        "🇩🇪 DE | VLESS | @v2raymelliii #1",
-        "🇪🇪 EE | VLESS | @v2rayza #1"
+        "🇪🇪 EE | VLESS | @v2rayza #1",
+        "🇧🇬 BG | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -116,10 +114,8 @@
         "🇹🇷 TR | VLESS | @selinc #1",
         "🇬🇧 GB | VLESS | @v2ray_collector #1",
         "🇺🇦 UA | VLESS | @v2ray_youtube #1",
-        "🇧🇬 BG | VLESS | @v2raych #1",
-        "🇧🇬 BG | VLESS | @v2raych #2",
-        "🇩🇪 DE | VLESS | @v2raymelliii #1",
-        "🇪🇪 EE | VLESS | @v2rayza #1"
+        "🇪🇪 EE | VLESS | @v2rayza #1",
+        "🇧🇬 BG | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -439,7 +435,24 @@
       }
     },
     {
-      "tag": "🇧🇬 BG | VLESS | @v2raych #1",
+      "tag": "🇪🇪 EE | VLESS | @v2rayza #1",
+      "type": "vless",
+      "server": "ee.subv.ru",
+      "server_port": 443,
+      "uuid": "90157e25-cee1-4217-921e-91f300bc1a24",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇧🇬 BG | VLESS | @vmesskhodam #1",
       "type": "vless",
       "server": "p1real3.greewebservices.ir",
       "server_port": 1250,
@@ -457,67 +470,6 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇧🇬 BG | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "66.bmi.ir.asopardaz.ir",
-      "server_port": 8443,
-      "uuid": "2abea121-e682-4e1a-9812-bae5cd64e071",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇩🇪 DE | VLESS | @v2raymelliii #1",
-      "type": "vless",
-      "server": "s1-api.denmexa.ir",
-      "server_port": 2789,
-      "uuid": "804eafbf-e793-461e-bc2b-ac8bf9a12091",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇪🇪 EE | VLESS | @v2rayza #1",
-      "type": "vless",
-      "server": "ee.subv.ru",
-      "server_port": 443,
-      "uuid": "90157e25-cee1-4217-921e-91f300bc1a24",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
         }
       }
     }

@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇹 IT | VMESS | @v2ray_collector #1"
+        "🇮🇹 IT | VLESS | @outlinereleasedkey #1",
+        "🇮🇹 IT | SS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇹 IT | VMESS | @v2ray_collector #1"
+        "🇮🇹 IT | VLESS | @outlinereleasedkey #1",
+        "🇮🇹 IT | SS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,22 +103,29 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇹 IT | VMESS | @v2ray_collector #1",
-      "type": "vmess",
-      "server": "149.22.91.20",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "alter_id": 0,
+      "tag": "🇮🇹 IT | VLESS | @outlinereleasedkey #1",
+      "type": "vless",
+      "server": "91.201.67.245",
+      "server_port": 443,
+      "uuid": "5c32201a-6c0e-451b-8f0a-24b4bd40df59",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "xmfhlpy.com",
+        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇮🇹 IT | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "202.50.253.18",
+      "server_port": 19999,
+      "method": "YXV0bzo=",
+      "password": null
     }
   ],
   "route": {
