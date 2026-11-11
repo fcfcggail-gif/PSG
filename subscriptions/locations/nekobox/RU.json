@@ -78,7 +78,10 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @flyv2ray #1",
-        "🇷🇺 RU | SS | @v2rayza #1"
+        "🇷🇺 RU | SS | @red2ray #1",
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+        "🇷🇺 RU | SS | @v2rayza #1",
+        "🇷🇺 RU | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,7 +90,10 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @flyv2ray #1",
-        "🇷🇺 RU | SS | @v2rayza #1"
+        "🇷🇺 RU | SS | @red2ray #1",
+        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+        "🇷🇺 RU | SS | @v2rayza #1",
+        "🇷🇺 RU | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -120,12 +126,64 @@
       }
     },
     {
+      "tag": "🇷🇺 RU | SS | @red2ray #1",
+      "type": "shadowsocks",
+      "server": "185.22.153.117",
+      "server_port": 18443,
+      "method": "YWVzLTI1Ni1nY206TlRpSEJnNjRmc1k4dThEYkdydHlwRDlnUEdTTDM4NnA=",
+      "password": null
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "109.172.114.57",
+      "server_port": 2058,
+      "uuid": "4ad9f982-b56a-444a-9684-35ce51307a36",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇷🇺 RU | SS | @v2rayza #1",
       "type": "shadowsocks",
       "server": "46.17.47.58",
       "server_port": 18443,
       "method": "YXV0bzo=",
       "password": null
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @vmesskhodam #1",
+      "type": "vless",
+      "server": "185.147.27.23",
+      "server_port": 2083,
+      "uuid": "7592ca5c-b352-4562-8856-a9c936a3331b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
