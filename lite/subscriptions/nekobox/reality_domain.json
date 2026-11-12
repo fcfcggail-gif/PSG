@@ -84,8 +84,7 @@
         "🇪🇪 EE | VLESS | @flyv2ray #1",
         "🇵🇱 PL | VLESS | @free1_vpn #1",
         "🇧🇬 BG | VLESS | @hope_net #1",
-        "🇬🇧 GB | VLESS | @v2ray_collector #1",
-        "🇪🇪 EE | VLESS | @v2rayza #1"
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,8 +99,7 @@
         "🇪🇪 EE | VLESS | @flyv2ray #1",
         "🇵🇱 PL | VLESS | @free1_vpn #1",
         "🇧🇬 BG | VLESS | @hope_net #1",
-        "🇬🇧 GB | VLESS | @v2ray_collector #1",
-        "🇪🇪 EE | VLESS | @v2rayza #1"
+        "🇳🇱 NL | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -277,11 +275,11 @@
       }
     },
     {
-      "tag": "🇬🇧 GB | VLESS | @v2ray_collector #1",
+      "tag": "🇳🇱 NL | VLESS | @v2ray_free_conf #1",
       "type": "vless",
-      "server": "gb1.japancase.site",
-      "server_port": 443,
-      "uuid": "db80088c-32a1-4cb8-a907-0f3cb7844152",
+      "server": "nexianetwork.anymor.org",
+      "server_port": 7080,
+      "uuid": "43bc91fd-82af-4e83-b6c8-dc90c8df0706",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -290,23 +288,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇪🇪 EE | VLESS | @v2rayza #1",
-      "type": "vless",
-      "server": "ee.subv.ru",
-      "server_port": 443,
-      "uuid": "90157e25-cee1-4217-921e-91f300bc1a24",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }

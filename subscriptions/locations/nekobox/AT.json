@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇹 IT | VLESS | @outlinereleasedkey #1",
-        "🇮🇹 IT | SS | @v2ray_free_conf #1"
+        "🇦🇹 AT | VMESS | @outlinereleasedkey #1",
+        "🇦🇹 AT | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇹 IT | VLESS | @outlinereleasedkey #1",
-        "🇮🇹 IT | SS | @v2ray_free_conf #1"
+        "🇦🇹 AT | VMESS | @outlinereleasedkey #1",
+        "🇦🇹 AT | VLESS | @v2ray_free_conf #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,15 +103,16 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇹 IT | VLESS | @outlinereleasedkey #1",
-      "type": "vless",
-      "server": "91.201.67.245",
-      "server_port": 443,
-      "uuid": "5c32201a-6c0e-451b-8f0a-24b4bd40df59",
-      "packet_encoding": "xudp",
+      "tag": "🇦🇹 AT | VMESS | @outlinereleasedkey #1",
+      "type": "vmess",
+      "server": "154.47.19.225",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "xmfhlpy.com",
         "insecure": true,
         "utls": {
           "enabled": true,
@@ -120,12 +121,26 @@
       }
     },
     {
-      "tag": "🇮🇹 IT | SS | @v2ray_free_conf #1",
-      "type": "shadowsocks",
-      "server": "202.50.253.18",
-      "server_port": 19999,
-      "method": "YXV0bzo=",
-      "password": null
+      "tag": "🇦🇹 AT | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "157.173.30.204",
+      "server_port": 8443,
+      "uuid": "65f66da5-79fc-44cd-9c61-f09e12b13353",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

@@ -92,8 +92,8 @@
         "direct",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇨🇭 CH | TROJAN | @v2ray_collector #1",
-        "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
-        "🇨🇭 CH | SS | @v2rayza #1"
+        "🇨🇭 CH | SS | @v2rayza #1",
+        "🇨🇭 CH | VLESS | @vmesskhodam #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -103,8 +103,8 @@
       "outbounds": [
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇨🇭 CH | TROJAN | @v2ray_collector #1",
-        "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
-        "🇨🇭 CH | SS | @v2rayza #1"
+        "🇨🇭 CH | SS | @v2rayza #1",
+        "🇨🇭 CH | VLESS | @vmesskhodam #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -154,7 +154,15 @@
       }
     },
     {
-      "tag": "🇨🇭 CH | VLESS | @v2ray_free_conf #1",
+      "tag": "🇨🇭 CH | SS | @v2rayza #1",
+      "type": "shadowsocks",
+      "server": "79.127.184.104",
+      "server_port": 19999,
+      "method": "YXV0bzo=",
+      "password": null
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @vmesskhodam #1",
       "type": "vless",
       "server": "74.161.152.237",
       "server_port": 2083,
@@ -174,14 +182,6 @@
           "enabled": true
         }
       }
-    },
-    {
-      "tag": "🇨🇭 CH | SS | @v2rayza #1",
-      "type": "shadowsocks",
-      "server": "79.127.184.104",
-      "server_port": 19999,
-      "method": "YXV0bzo=",
-      "password": null
     }
   ],
   "route": {
