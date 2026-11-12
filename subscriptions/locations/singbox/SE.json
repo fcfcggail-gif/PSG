@@ -115,8 +115,8 @@
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
         "🇸🇪 SE | TROJAN | @v2ray_collector #1",
-        "🇸🇪 SE | TUIC | @vipv2rey #1",
-        "🇸🇪 SE | TROJAN | @vpn_ioss #1"
+        "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
+        "🇸🇪 SE | TUIC | @vipv2rey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -149,8 +149,8 @@
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
         "🇸🇪 SE | TROJAN | @v2ray_collector #1",
-        "🇸🇪 SE | TUIC | @vipv2rey #1",
-        "🇸🇪 SE | TROJAN | @vpn_ioss #1"
+        "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
+        "🇸🇪 SE | TUIC | @vipv2rey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -471,6 +471,23 @@
       }
     },
     {
+      "tag": "🇸🇪 SE | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "192.71.82.2",
+      "server_port": 443,
+      "uuid": "a5c05c1e-aa68-443f-8598-09800244bd4b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇸🇪 SE | TUIC | @vipv2rey #1",
       "type": "tuic",
       "server": "70.34.197.98",
@@ -484,22 +501,6 @@
         "server_name": "",
         "insecure": false,
         "alpn": null
-      }
-    },
-    {
-      "tag": "🇸🇪 SE | TROJAN | @vpn_ioss #1",
-      "type": "trojan",
-      "server": "95.143.196.97",
-      "server_port": 443,
-      "password": "FkQH0Q5EFneySv20Qj3yoArD2GSb2XZF",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
       }
     }
   ],

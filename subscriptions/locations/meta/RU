@@ -24,7 +24,9 @@ dns:
 
 proxies: 
   - {"name": "🇷🇺 RU | VLESS | @flyv2ray #1", "server": "cdn.oldertown.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "29777784-b5ad-4e2a-be7b-335f033ab97c", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇷🇺 RU | VLESS | @vmesskhodam #1", "server": "185.147.27.23", "port": 2083, "type": "vless", "skip-cert-verify": true, "uuid": "7592ca5c-b352-4562-8856-a9c936a3331b", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @netfreedom0 #1", "server": "147.45.104.86", "port": 7443, "type": "vless", "skip-cert-verify": true, "uuid": "af185070-7170-46a8-b1e9-d61a035f4691", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇷🇺 RU | VLESS | @red2ray #1", "server": "176.108.245.237", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "87c35d3a-36f1-fade-90b7-af60506efbb8", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇷🇺 RU | VLESS | @red2ray #2", "server": "188.120.242.196", "port": 2058, "type": "vless", "skip-cert-verify": true, "uuid": "4ad9f982-b56a-444a-9684-35ce51307a36", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -39,7 +41,9 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇷🇺 RU | VLESS | @flyv2ray #1'
-      - '🇷🇺 RU | VLESS | @vmesskhodam #1'
+      - '🇷🇺 RU | VLESS | @netfreedom0 #1'
+      - '🇷🇺 RU | VLESS | @red2ray #1'
+      - '🇷🇺 RU | VLESS | @red2ray #2'
 
   - name: 🌍 Global Media
     type: select
