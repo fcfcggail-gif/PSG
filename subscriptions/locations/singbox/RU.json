@@ -91,6 +91,7 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @flyv2ray #1",
+        "🇷🇺 RU | SS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @netfreedom0 #1",
         "🇷🇺 RU | VLESS | @red2ray #1",
         "🇷🇺 RU | VLESS | @red2ray #2"
@@ -102,6 +103,7 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @flyv2ray #1",
+        "🇷🇺 RU | SS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @netfreedom0 #1",
         "🇷🇺 RU | VLESS | @red2ray #1",
         "🇷🇺 RU | VLESS | @red2ray #2"
@@ -133,11 +135,36 @@
       }
     },
     {
+      "tag": "🇷🇺 RU | SS | @flyv2ray #1",
+      "type": "shadowsocks",
+      "server": "185.22.153.117",
+      "server_port": 18443,
+      "method": "YWVzLTI1Ni1nY206TlRpSEJnNjRmc1k4dThEYkdydHlwRDlnUEdTTDM4NnA=",
+      "password": null
+    },
+    {
       "tag": "🇷🇺 RU | VLESS | @netfreedom0 #1",
       "type": "vless",
-      "server": "147.45.104.86",
-      "server_port": 7443,
-      "uuid": "af185070-7170-46a8-b1e9-d61a035f4691",
+      "server": "193.233.127.149",
+      "server_port": 443,
+      "uuid": "3c4aa500-e3ae-4778-837b-f02dfea8c85f",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "188.120.242.196",
+      "server_port": 2058,
+      "uuid": "4ad9f982-b56a-444a-9684-35ce51307a36",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -155,28 +182,11 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @red2ray #1",
-      "type": "vless",
-      "server": "176.108.245.237",
-      "server_port": 443,
-      "uuid": "87c35d3a-36f1-fade-90b7-af60506efbb8",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇷🇺 RU | VLESS | @red2ray #2",
       "type": "vless",
-      "server": "188.120.242.196",
-      "server_port": 2058,
-      "uuid": "4ad9f982-b56a-444a-9684-35ce51307a36",
+      "server": "92.243.66.79",
+      "server_port": 443,
+      "uuid": "c5f59ef3-9540-49fa-bd1e-c6c2f79df49a",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

@@ -94,7 +94,8 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
-        "🇩🇪 DE | VMESS | @khoneproxy #2"
+        "🇮🇷 IR | VMESS | @khoneproxy #1",
+        "🇸🇪 SE | VMESS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -106,7 +107,8 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
-        "🇩🇪 DE | VMESS | @khoneproxy #2"
+        "🇮🇷 IR | VMESS | @khoneproxy #1",
+        "🇸🇪 SE | VMESS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -206,16 +208,41 @@
       }
     },
     {
-      "tag": "🇩🇪 DE | VMESS | @khoneproxy #2",
+      "tag": "🇮🇷 IR | VMESS | @khoneproxy #1",
       "type": "vmess",
-      "server": "5.75.150.23",
+      "server": "37.32.23.122",
       "server_port": 443,
-      "uuid": "6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147",
+      "uuid": "d12bc882-43c7-415e-87c5-2a7fdc8371c0",
       "security": "auto",
       "alter_id": 0,
       "tls": {
         "enabled": true,
         "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/websocket/",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | VMESS | @outlinereleasedkey #1",
+      "type": "vmess",
+      "server": "62.93.166.184",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
         "insecure": true,
         "utls": {
           "enabled": true,
