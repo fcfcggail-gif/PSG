@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgQUU=
+//profile-title: base64:UFNHIHwgQlI=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇪 AE | SS | @outlinereleasedkey #1",
-        "🇦🇪 AE | VLESS | @vpnfree85 #1"
+        "🇧🇷 BR | VMESS | @v2ray_collector #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇪 AE | SS | @outlinereleasedkey #1",
-        "🇦🇪 AE | VLESS | @vpnfree85 #1"
+        "🇧🇷 BR | VMESS | @v2ray_collector #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,23 +110,16 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇪 AE | SS | @outlinereleasedkey #1",
-      "type": "shadowsocks",
-      "server": "151.241.19.29",
-      "server_port": 19999,
-      "method": "YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=",
-      "password": null
-    },
-    {
-      "tag": "🇦🇪 AE | VLESS | @vpnfree85 #1",
-      "type": "vless",
-      "server": "protectnet.cloudinohost.com",
-      "server_port": 443,
-      "uuid": "ea470142-10c6-4b1f-a8e6-0ddcc78a4058",
-      "packet_encoding": "xudp",
+      "tag": "🇧🇷 BR | VMESS | @v2ray_collector #1",
+      "type": "vmess",
+      "server": "103.88.232.55",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "alter_id": 0,
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "xmfhlpy.com",
         "insecure": true,
         "utls": {
           "enabled": true,

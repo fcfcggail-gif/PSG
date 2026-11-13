@@ -90,9 +90,12 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇷🇺 RU | SS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @netfreedom0 #1",
         "🇷🇺 RU | VLESS | @red2ray #1",
-        "🇷🇺 RU | VLESS | @red2ray #2"
+        "🇷🇺 RU | VLESS | @red2ray #2",
+        "🇷🇺 RU | VLESS | @v2raych #1",
+        "🇷🇺 RU | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +103,12 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇷🇺 RU | SS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @netfreedom0 #1",
         "🇷🇺 RU | VLESS | @red2ray #1",
-        "🇷🇺 RU | VLESS | @red2ray #2"
+        "🇷🇺 RU | VLESS | @red2ray #2",
+        "🇷🇺 RU | VLESS | @v2raych #1",
+        "🇷🇺 RU | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,6 +118,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇷🇺 RU | SS | @flyv2ray #1",
+      "type": "shadowsocks",
+      "server": "185.22.153.117",
+      "server_port": 18443,
+      "method": "YWVzLTI1Ni1nY206TlRpSEJnNjRmc1k4dThEYkdydHlwRDlnUEdTTDM4NnA=",
+      "password": null
     },
     {
       "tag": "🇷🇺 RU | VLESS | @netfreedom0 #1",
@@ -173,6 +187,22 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "95.129.234.108",
+      "server_port": 8443,
+      "uuid": "b229d38c-35ec-4a0b-9c86-8fceba243d6c",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "95.129.234.113",
+      "server_port": 8443,
+      "uuid": "88281d02-b387-4fe3-918e-26ed331e6d08",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {

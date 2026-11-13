@@ -77,8 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @free1_vpn #1",
-        "🇫🇮 FI | SS | @mtproxy22_v2ray #1",
+        "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @v2rayngalpha #1",
         "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
@@ -88,8 +89,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @free1_vpn #1",
-        "🇫🇮 FI | SS | @mtproxy22_v2ray #1",
+        "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @v2rayngalpha #1",
         "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
         "🇫🇮 FI | VLESS | @vmesskhodam #1"
       ],
@@ -107,11 +109,19 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @free1_vpn #1",
+      "tag": "🇫🇮 FI | VLESS | @outlinereleasedkey #1",
       "type": "vless",
-      "server": "169.40.34.41",
+      "server": "95.216.27.15",
+      "server_port": 2053,
+      "uuid": "b79d736d-0f10-4169-b626-362059d18204",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "mx.bexumconnect.ltd",
       "server_port": 443,
-      "uuid": "622654a4-b666-000b-9260-fb717e05154f",
+      "uuid": "1e06c388-d31c-420e-916a-94a990648e34",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -120,21 +130,16 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     },
     {
-      "tag": "🇫🇮 FI | SS | @mtproxy22_v2ray #1",
-      "type": "shadowsocks",
-      "server": "oztq9osla2ad.dop15.com",
-      "server_port": 26412,
-      "method": "MjAyMi1ibGFrZTMtYWVzLTI1Ni1nY206TDlGMkdqWWJ5azZnSUN1THAyTEZtSEMwbEthRVc3SE9BMzJYVGYyOUM2WT06T3ZmeFBWQkNBc1pGcE4wcEl4OUF3Z3h3eFYrVTNBN1h0UmFnZFV3aW8rVT0=",
-      "password": null
+      "tag": "🇫🇮 FI | VLESS | @v2rayngalpha #1",
+      "type": "vless",
+      "server": "tgju.org",
+      "server_port": 80,
+      "uuid": "d342d11e-d424-4583-b36e-524ab1f0afa4",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",

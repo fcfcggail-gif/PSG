@@ -79,7 +79,8 @@
         "direct",
         "🇧🇬 BG | SS | @filtershekan_channel #1",
         "🇧🇬 BG | VLESS | @hope_net #1",
-        "🇧🇬 BG | VLESS | @vmesskhodam #1"
+        "🇧🇬 BG | VLESS | @vmesskhodam #1",
+        "🇧🇬 BG | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,7 +90,8 @@
       "outbounds": [
         "🇧🇬 BG | SS | @filtershekan_channel #1",
         "🇧🇬 BG | VLESS | @hope_net #1",
-        "🇧🇬 BG | VLESS | @vmesskhodam #1"
+        "🇧🇬 BG | VLESS | @vmesskhodam #1",
+        "🇧🇬 BG | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -153,6 +155,23 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇧🇬 BG | VLESS | @vpn_ioss #1",
+      "type": "vless",
+      "server": "88.80.150.15",
+      "server_port": 443,
+      "uuid": "1d46250c-f015-439d-a7fd-c4d9e2a4c63d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }

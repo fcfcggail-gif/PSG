@@ -77,8 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇼 TW | VLESS | @hope_net #1",
-        "🇹🇼 TW | VLESS | @vpn_ioss #1"
+        "🇺🇦 UA | VLESS | @v2ray_youtube #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇼 TW | VLESS | @hope_net #1",
-        "🇹🇼 TW | VLESS | @vpn_ioss #1"
+        "🇺🇦 UA | VLESS | @v2ray_youtube #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,11 +101,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇹🇼 TW | VLESS | @hope_net #1",
+      "tag": "🇺🇦 UA | VLESS | @v2ray_youtube #1",
       "type": "vless",
-      "server": "83.147.13.74",
-      "server_port": 8443,
-      "uuid": "eb8c97f7-a154-4442-91b0-54c0d055ad0b",
+      "server": "g01tig3hasus3.dnetsolutions.ru",
+      "server_port": 443,
+      "uuid": "e08d9bc5-6832-4dd4-bd44-d9bbe61e5817",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -116,33 +114,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇹🇼 TW | VLESS | @vpn_ioss #1",
-      "type": "vless",
-      "server": "83.147.13.74",
-      "server_port": 8443,
-      "uuid": "eb8c97f7-a154-4442-91b0-54c0d055ad0b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
         }
       }
     }
