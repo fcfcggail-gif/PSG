@@ -23,8 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇫🇮 FI | VMESS | @v2raych #1", "server": "bmi.ir.kolman.com.de", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "581cab3e-5641-46f4-b460-3dd3cd254146", "alterId": 0, "cipher": "auto", "network": "httpupgrade", "tls": false}
   - {"name": "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1", "server": "213.108.23.184", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "5cd8e5fe-7595-4387-95f9-79b0f18eb125", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇫🇮 FI | VLESS | @vmesskhodam #1", "server": "169.40.34.41", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "622654a4-b666-000b-9260-fb717e05154f", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇫🇮 FI | VMESS | @v2raych #1'
       - '🇫🇮 FI | VLESS | @v2rayngvpn_1 #1'
-      - '🇫🇮 FI | VLESS | @vmesskhodam #1'
 
   - name: 🌍 Global Media
     type: select

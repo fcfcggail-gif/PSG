@@ -90,8 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
-        "🇫🇮 FI | VLESS | @vmesskhodam #1"
+        "🇫🇮 FI | VMESS | @v2raych #1",
+        "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
-        "🇫🇮 FI | VLESS | @vmesskhodam #1"
+        "🇫🇮 FI | VMESS | @v2raych #1",
+        "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,33 +112,20 @@
       "type": "direct"
     },
     {
+      "tag": "🇫🇮 FI | VMESS | @v2raych #1",
+      "type": "vmess",
+      "server": "bmi.ir.kolman.com.de",
+      "server_port": 80,
+      "uuid": "581cab3e-5641-46f4-b460-3dd3cd254146",
+      "security": "auto",
+      "alter_id": 0
+    },
+    {
       "tag": "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
       "type": "vless",
       "server": "213.108.23.184",
       "server_port": 443,
       "uuid": "5cd8e5fe-7595-4387-95f9-79b0f18eb125",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @vmesskhodam #1",
-      "type": "vless",
-      "server": "169.40.34.41",
-      "server_port": 443,
-      "uuid": "622654a4-b666-000b-9260-fb717e05154f",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

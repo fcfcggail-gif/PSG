@@ -77,8 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | VLESS | @outlinereleasedkey #1",
-        "🇹🇷 TR | VLESS | @selinc #1"
+        "🇹🇷 TR | VLESS | @selinc #1",
+        "🇹🇷 TR | VLESS | @v2raych #1",
+        "🇹🇷 TR | VLESS | @v2raytg #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | VLESS | @outlinereleasedkey #1",
-        "🇹🇷 TR | VLESS | @selinc #1"
+        "🇹🇷 TR | VLESS | @selinc #1",
+        "🇹🇷 TR | VLESS | @v2raych #1",
+        "🇹🇷 TR | VLESS | @v2raytg #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,14 +103,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @outlinereleasedkey #1",
-      "type": "vless",
-      "server": "62.133.63.45",
-      "server_port": 8444,
-      "uuid": "a346c521-7a7f-452b-9356-a4893feb5982",
-      "packet_encoding": "xudp"
     },
     {
       "tag": "🇹🇷 TR | VLESS | @selinc #1",
@@ -131,6 +125,31 @@
           "enabled": true
         }
       }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "homestead-walloping.sports-streams.org",
+      "server_port": 443,
+      "uuid": "1d681e3e-ea7a-42dd-8e91-1b0795135cd3",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2raytg #1",
+      "type": "vless",
+      "server": "sibilgg.opik.net",
+      "server_port": 8080,
+      "uuid": "b0e1b204-31b5-40df-b800-169ada16fdb9",
+      "packet_encoding": "xudp"
     }
   ],
   "route": {
