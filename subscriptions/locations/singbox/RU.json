@@ -93,7 +93,7 @@
         "🇷🇺 RU | SS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @red2ray #1",
         "🇷🇺 RU | VLESS | @red2ray #2",
-        "🇷🇺 RU | VLESS | @vpn_ioss #1"
+        "🇷🇺 RU | VLESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -104,7 +104,7 @@
         "🇷🇺 RU | SS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @red2ray #1",
         "🇷🇺 RU | VLESS | @red2ray #2",
-        "🇷🇺 RU | VLESS | @vpn_ioss #1"
+        "🇷🇺 RU | VLESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -168,12 +168,21 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @vpn_ioss #1",
+      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "95.129.234.113",
-      "server_port": 8443,
-      "uuid": "88281d02-b387-4fe3-918e-26ed331e6d08",
-      "packet_encoding": "xudp"
+      "server": "201.24.116.192",
+      "server_port": 443,
+      "uuid": "38308ff1-5aa9-494f-a25a-0f2870d56b3e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "vps3.nemnogogo.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

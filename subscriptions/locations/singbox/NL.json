@@ -103,13 +103,19 @@
         "🇳🇱 NL | VLESS | @red2ray #3",
         "🇳🇱 NL | VLESS | @red2ray #4",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
+        "🇳🇱 NL | SS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇳🇱 NL | SS | @v2rayng3 #1",
-        "🇳🇱 NL | SS | @v2rayza #1",
         "🇳🇱 NL | VLESS | @v2rayza #1",
         "🇳🇱 NL | VLESS | @v2rayza #2",
-        "🇳🇱 NL | VLESS | @vmesc #1"
+        "🇳🇱 NL | VLESS | @v2rayza #3",
+        "🇳🇱 NL | VLESS | @vmesc #1",
+        "🇳🇱 NL | TROJAN | @NamiraConfigs #1",
+        "🇳🇱 NL | VLESS | @NamiraConfigs #2",
+        "🇳🇱 NL | TROJAN | @NamiraConfigs #2",
+        "🇳🇱 NL | TROJAN | @NamiraConfigs #3",
+        "🇳🇱 NL | VLESS | @NamiraConfigs #3"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -130,13 +136,19 @@
         "🇳🇱 NL | VLESS | @red2ray #3",
         "🇳🇱 NL | VLESS | @red2ray #4",
         "🇳🇱 NL | VLESS | @v2ray_collector #1",
+        "🇳🇱 NL | SS | @v2ray_free_conf #1",
         "🇳🇱 NL | VLESS | @v2ray_youtube #1",
         "🇳🇱 NL | VLESS | @v2raying #1",
         "🇳🇱 NL | SS | @v2rayng3 #1",
-        "🇳🇱 NL | SS | @v2rayza #1",
         "🇳🇱 NL | VLESS | @v2rayza #1",
         "🇳🇱 NL | VLESS | @v2rayza #2",
-        "🇳🇱 NL | VLESS | @vmesc #1"
+        "🇳🇱 NL | VLESS | @v2rayza #3",
+        "🇳🇱 NL | VLESS | @vmesc #1",
+        "🇳🇱 NL | TROJAN | @NamiraConfigs #1",
+        "🇳🇱 NL | VLESS | @NamiraConfigs #2",
+        "🇳🇱 NL | TROJAN | @NamiraConfigs #2",
+        "🇳🇱 NL | TROJAN | @NamiraConfigs #3",
+        "🇳🇱 NL | VLESS | @NamiraConfigs #3"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -189,7 +201,7 @@
     {
       "tag": "🇳🇱 NL | VLESS | @free1_vpn #1",
       "type": "vless",
-      "server": "51.158.206.29",
+      "server": "51.158.206.103",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "packet_encoding": "xudp",
@@ -211,7 +223,7 @@
     {
       "tag": "🇳🇱 NL | VLESS | @free1_vpn #2",
       "type": "vless",
-      "server": "51.158.206.103",
+      "server": "51.158.206.34",
       "server_port": 23576,
       "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
       "packet_encoding": "xudp",
@@ -371,6 +383,14 @@
       }
     },
     {
+      "tag": "🇳🇱 NL | SS | @v2ray_free_conf #1",
+      "type": "shadowsocks",
+      "server": "45.146.4.50",
+      "server_port": 443,
+      "method": "YWVzLTI1Ni1nY206WDVRMmwtNXc4OTg2LUhqeFlPQzh4VV8xbV9vMDNZcjQ=",
+      "password": null
+    },
+    {
       "tag": "🇳🇱 NL | VLESS | @v2ray_youtube #1",
       "type": "vless",
       "server": "51.158.206.29",
@@ -404,14 +424,6 @@
       "password": null
     },
     {
-      "tag": "🇳🇱 NL | SS | @v2rayza #1",
-      "type": "shadowsocks",
-      "server": "193.29.139.235",
-      "server_port": 443,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTpvWklvQTY5UTh5aGNRVjhrYTNQYTNB",
-      "password": null
-    },
-    {
       "tag": "🇳🇱 NL | VLESS | @v2rayza #1",
       "type": "vless",
       "server": "51.158.206.8",
@@ -438,6 +450,23 @@
       }
     },
     {
+      "tag": "🇳🇱 NL | VLESS | @v2rayza #3",
+      "type": "vless",
+      "server": "novonl.subv.ru",
+      "server_port": 443,
+      "uuid": "90157e25-cee1-4217-921e-91f300bc1a24",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        }
+      }
+    },
+    {
       "tag": "🇳🇱 NL | VLESS | @vmesc #1",
       "type": "vless",
       "server": "177.177.215.45",
@@ -451,6 +480,100 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | TROJAN | @NamiraConfigs #1",
+      "type": "trojan",
+      "server": "66.163.127.155",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "indyourperfectremotetechjobfromthecomfortofhome.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @NamiraConfigs #2",
+      "type": "vless",
+      "server": "51.158.206.93",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fuck.rkn",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | TROJAN | @NamiraConfigs #2",
+      "type": "trojan",
+      "server": "66.163.127.154",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.indyourperfectremotetechjobfromthecomfortofhome.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | TROJAN | @NamiraConfigs #3",
+      "type": "trojan",
+      "server": "66.163.127.225",
+      "server_port": 443,
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tls": {
+        "enabled": true,
+        "server_name": "cdn.indyourperfectremotetechjobfromthecomfortofhome.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇳🇱 NL | VLESS | @NamiraConfigs #3",
+      "type": "vless",
+      "server": "51.158.206.97",
+      "server_port": 23576,
+      "uuid": "48ff2b70-e180-582f-8866-d9a2edeed5f5",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "fuck.rkn",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s",
+          "short_id": "01",
+          "enabled": true
         }
       }
     }
