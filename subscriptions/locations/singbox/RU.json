@@ -92,7 +92,9 @@
         "direct",
         "🇷🇺 RU | SS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @red2ray #1",
-        "🇷🇺 RU | VLESS | @red2ray #2"
+        "🇷🇺 RU | VLESS | @red2ray #2",
+        "🇷🇺 RU | VLESS | @v2raych #1",
+        "🇷🇺 RU | VLESS | @v2rayopen #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,7 +104,9 @@
       "outbounds": [
         "🇷🇺 RU | SS | @flyv2ray #1",
         "🇷🇺 RU | VLESS | @red2ray #1",
-        "🇷🇺 RU | VLESS | @red2ray #2"
+        "🇷🇺 RU | VLESS | @red2ray #2",
+        "🇷🇺 RU | VLESS | @v2raych #1",
+        "🇷🇺 RU | VLESS | @v2rayopen #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -162,6 +166,44 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "961ec0g.nl17.h1clayd.click",
+      "server_port": 443,
+      "uuid": "cda0862a-0f87-4be9-8ed8-1d0c9e382839",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      }
+    },
+    {
+      "tag": "🇷🇺 RU | VLESS | @v2rayopen #1",
+      "type": "vless",
+      "server": "vps3.nemnogogo.com",
+      "server_port": 443,
+      "uuid": "38308ff1-5aa9-494f-a25a-0f2870d56b3e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
         }
       }
     }

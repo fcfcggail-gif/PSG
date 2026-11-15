@@ -79,7 +79,8 @@
         "direct",
         "🇨🇿 CZ | VMESS | @freev2rays #1",
         "🇨🇿 CZ | SS | @mtproxy22_v2ray #1",
-        "🇨🇿 CZ | VLESS | @v2rayza #1"
+        "🇨🇿 CZ | VLESS | @v2rayza #1",
+        "🇨🇿 CZ | VLESS | @v2rayza #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,7 +90,8 @@
       "outbounds": [
         "🇨🇿 CZ | VMESS | @freev2rays #1",
         "🇨🇿 CZ | SS | @mtproxy22_v2ray #1",
-        "🇨🇿 CZ | VLESS | @v2rayza #1"
+        "🇨🇿 CZ | VLESS | @v2rayza #1",
+        "🇨🇿 CZ | VLESS | @v2rayza #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -144,6 +146,23 @@
       "server_port": 2087,
       "uuid": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇨🇿 CZ | VLESS | @v2rayza #2",
+      "type": "vless",
+      "server": "194.87.109.106",
+      "server_port": 443,
+      "uuid": "d9274255-edf4-4944-bc62-6ef35cd2de40",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     }
   ],
   "route": {

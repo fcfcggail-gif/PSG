@@ -91,6 +91,7 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @selinc #1",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
         "🇹🇷 TR | VLESS | @v2raytg #1"
       ],
       "tag": "proxy",
@@ -100,6 +101,7 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @selinc #1",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
         "🇹🇷 TR | VLESS | @v2raytg #1"
       ],
       "tag": "auto",
@@ -117,6 +119,28 @@
       "server": "tr.0a0.uk",
       "server_port": 443,
       "uuid": "4a414062-e1b2-496a-bf50-d447e786f3f4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "185.71.216.177",
+      "server_port": 2195,
+      "uuid": "9654f1a9-8dbc-4897-85ea-c077a52b3857",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
