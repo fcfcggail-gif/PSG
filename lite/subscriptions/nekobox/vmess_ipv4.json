@@ -81,7 +81,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
-        "🇩🇪 DE | VMESS | @khoneproxy #2"
+        "🇩🇪 DE | VMESS | @khoneproxy #2",
+        "🇽🇽 XX | VMESS | @proxy48 #1",
+        "🇺🇸 US | VMESS | @v2rayopen #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -93,7 +95,9 @@
         "جاویدشاه",
         "KingRezaPahlavi",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
-        "🇩🇪 DE | VMESS | @khoneproxy #2"
+        "🇩🇪 DE | VMESS | @khoneproxy #2",
+        "🇽🇽 XX | VMESS | @proxy48 #1",
+        "🇺🇸 US | VMESS | @v2rayopen #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -213,6 +217,37 @@
           "fingerprint": "chrome"
         }
       }
+    },
+    {
+      "tag": "🇽🇽 XX | VMESS | @proxy48 #1",
+      "type": "vmess",
+      "server": "172.66.213.38",
+      "server_port": 443,
+      "uuid": "dfbbc8de-8a4f-407d-8069-6de38d83c4e1",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "hdfy4c1.iraniancpi.uk",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": "WgCmp8p80KDzo64uHE"
+      }
+    },
+    {
+      "tag": "🇺🇸 US | VMESS | @v2rayopen #1",
+      "type": "vmess",
+      "server": "67.220.95.3",
+      "server_port": 18000,
+      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
+      "security": "auto",
+      "alter_id": 0
     }
   ],
   "route": {
