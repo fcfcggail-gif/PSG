@@ -92,7 +92,7 @@
         "direct",
         "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇸🇨 SC | TROJAN | @selinc #1",
-        "🇸🇨 SC | VLESS | @v2ray_free_conf #1"
+        "🇸🇨 SC | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,7 +102,7 @@
       "outbounds": [
         "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇸🇨 SC | TROJAN | @selinc #1",
-        "🇸🇨 SC | VLESS | @v2ray_free_conf #1"
+        "🇸🇨 SC | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -147,11 +147,11 @@
       }
     },
     {
-      "tag": "🇸🇨 SC | VLESS | @v2ray_free_conf #1",
+      "tag": "🇸🇨 SC | VLESS | @vpn_ioss #1",
       "type": "vless",
-      "server": "45.130.125.76",
-      "server_port": 443,
-      "uuid": "1f9d104e-ca0e-4202-ba4b-a0afb969c747",
+      "server": "156.226.168.221",
+      "server_port": 35193,
+      "uuid": "35cbae61-ee10-4cb9-abb8-4950b35e9851",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -160,6 +160,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }
