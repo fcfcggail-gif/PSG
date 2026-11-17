@@ -78,8 +78,8 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @selinc #1",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
-        "🇹🇷 TR | VLESS | @v2raytg #1"
+        "🇹🇷 TR | VLESS | @v2raytg #1",
+        "🇹🇷 TR | VLESS | @v2rayza #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,8 +88,8 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @selinc #1",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
-        "🇹🇷 TR | VLESS | @v2raytg #1"
+        "🇹🇷 TR | VLESS | @v2raytg #1",
+        "🇹🇷 TR | VLESS | @v2rayza #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -127,11 +127,19 @@
       }
     },
     {
-      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "tag": "🇹🇷 TR | VLESS | @v2raytg #1",
       "type": "vless",
-      "server": "45.144.214.102",
+      "server": "sibilgg.opik.net",
+      "server_port": 8080,
+      "uuid": "b0e1b204-31b5-40df-b800-169ada16fdb9",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2rayza #1",
+      "type": "vless",
+      "server": "212.98.224.35",
       "server_port": 443,
-      "uuid": "128ce9ab-63bc-48dc-92ca-1b5426a9eb46",
+      "uuid": "8197b9b9-8945-460f-99c9-325ef8a8a7c3",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -142,14 +150,6 @@
           "fingerprint": "chrome"
         }
       }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @v2raytg #1",
-      "type": "vless",
-      "server": "sibilgg.opik.net",
-      "server_port": 8080,
-      "uuid": "b0e1b204-31b5-40df-b800-169ada16fdb9",
-      "packet_encoding": "xudp"
     }
   ],
   "route": {

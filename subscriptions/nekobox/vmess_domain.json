@@ -94,11 +94,11 @@
         "🇺🇸 US | VMESS | @mi_pn_official #3",
         "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
+        "🇽🇽 XX | VMESS | @red2ray #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
-        "🇽🇽 XX | VMESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "proxy",
@@ -124,11 +124,11 @@
         "🇺🇸 US | VMESS | @mi_pn_official #3",
         "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
+        "🇽🇽 XX | VMESS | @red2ray #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
-        "🇽🇽 XX | VMESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpngate_config #1"
       ],
       "tag": "auto",
@@ -535,6 +535,31 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VMESS | @red2ray #1",
+      "type": "vmess",
+      "server": "www.gptcloudai.com",
+      "server_port": 443,
+      "uuid": "e70a5b70-f63c-4450-af8b-94990cdf80c0",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/truth",
+        "headers": {
+          "Host": ""
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @serverv2ray00 #1",
       "type": "vmess",
       "server": "104.21.4.6",
@@ -631,31 +656,6 @@
         "path": "/api05",
         "headers": {
           "Host": "scherehtzflk01.schere.net"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @vpn_ioss #1",
-      "type": "vmess",
-      "server": "www.windowssearchtools.com",
-      "server_port": 443,
-      "uuid": "ba1116e2-8c2f-4e3d-8e50-c954360cf970",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "www.windowssearchtools.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/truth",
-        "headers": {
-          "Host": "www.windowssearchtools.com"
         }
       }
     },
