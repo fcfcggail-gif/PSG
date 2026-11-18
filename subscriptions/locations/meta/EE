@@ -23,7 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇪🇪 EE | VLESS | @v2ray_free_conf #1", "server": "185.155.55.2", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "5c09e56b-f97f-4360-8f01-eb4d39202095", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇪🇪 EE | VLESS | @v2ray_collector #1", "server": "ee.subv.ru", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "90157e25-cee1-4217-921e-91f300bc1a24", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
+  - {"name": "🇪🇪 EE | VLESS | @v2ray_free_conf #1", "server": "4935e4t.de25.h1clayd.click", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "4201786b-d99b-4147-a5f0-20d47acddb81", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇪🇪 EE | VLESS | @v2ray_collector #1'
       - '🇪🇪 EE | VLESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media

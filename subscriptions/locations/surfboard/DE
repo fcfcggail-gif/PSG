@@ -15,12 +15,16 @@ DIRECT = direct
 🇩🇪 DE | VMESS | @khoneproxy #3 = vmess, 167.235.205.182, 443, username = 6b7cbc41-fb80-41a8-8eb6-b5bdb0e86147, ws = false, tls = false
 🇩🇪 DE | TROJAN | @netfreedom0 #1 = trojan, 193.108.119.29, 443, password = 0ab6c98dae3b48e8b9c4a776b6c9c19a, skip-cert-verify = true
 🇩🇪 DE | VMESS | @v2ray_collector #1 = vmess, 185.177.229.95, 1270, username = 5c040f1d-45db-43bd-8d46-e4950e433735, ws = false, tls = true
+🇩🇪 DE | TROJAN | @v2ray_collector #1 = trojan, 193.108.119.134, 443, password = 0ab6c98dae3b48e8b9c4a776b6c9c19a, skip-cert-verify = true
+🇩🇪 DE | TROJAN | @v2raych #1 = trojan, alireza.karamoz1.ir, 443, password = poimnap, skip-cert-verify = true
+🇩🇪 DE | TROJAN | @v2raych #2 = trojan, alireza.karamoz1.ir, 443, password = poimnap, skip-cert-verify = true
 🇩🇪 DE | TROJAN | @vpn_ioss #1 = trojan, 193.108.119.78, 443, password = 0ab6c98dae3b48e8b9c4a776b6c9c19a, skip-cert-verify = true
+🇩🇪 DE | TROJAN | @NamiraConfigs #1 = trojan, alireza.karamoz1.ir, 443, password = poimnap, skip-cert-verify = true, sni = alireza.karamoz1.ir
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | TROJAN | @father_vpn #1, 🇩🇪 DE | VMESS | @khoneproxy #1, 🇩🇪 DE | VMESS | @khoneproxy #2, 🇩🇪 DE | VMESS | @khoneproxy #3, 🇩🇪 DE | TROJAN | @netfreedom0 #1, 🇩🇪 DE | VMESS | @v2ray_collector #1, 🇩🇪 DE | TROJAN | @vpn_ioss #1
-PSG-AUTO = url-test, 🇩🇪 DE | TROJAN | @father_vpn #1, 🇩🇪 DE | VMESS | @khoneproxy #1, 🇩🇪 DE | VMESS | @khoneproxy #2, 🇩🇪 DE | VMESS | @khoneproxy #3, 🇩🇪 DE | TROJAN | @netfreedom0 #1, 🇩🇪 DE | VMESS | @v2ray_collector #1, 🇩🇪 DE | TROJAN | @vpn_ioss #1
-PSG-FALLBACK = fallback, 🇩🇪 DE | TROJAN | @father_vpn #1, 🇩🇪 DE | VMESS | @khoneproxy #1, 🇩🇪 DE | VMESS | @khoneproxy #2, 🇩🇪 DE | VMESS | @khoneproxy #3, 🇩🇪 DE | TROJAN | @netfreedom0 #1, 🇩🇪 DE | VMESS | @v2ray_collector #1, 🇩🇪 DE | TROJAN | @vpn_ioss #1
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇩🇪 DE | TROJAN | @father_vpn #1, 🇩🇪 DE | VMESS | @khoneproxy #1, 🇩🇪 DE | VMESS | @khoneproxy #2, 🇩🇪 DE | VMESS | @khoneproxy #3, 🇩🇪 DE | TROJAN | @netfreedom0 #1, 🇩🇪 DE | VMESS | @v2ray_collector #1, 🇩🇪 DE | TROJAN | @v2ray_collector #1, 🇩🇪 DE | TROJAN | @v2raych #1, 🇩🇪 DE | TROJAN | @v2raych #2, 🇩🇪 DE | TROJAN | @vpn_ioss #1, 🇩🇪 DE | TROJAN | @NamiraConfigs #1
+PSG-AUTO = url-test, 🇩🇪 DE | TROJAN | @father_vpn #1, 🇩🇪 DE | VMESS | @khoneproxy #1, 🇩🇪 DE | VMESS | @khoneproxy #2, 🇩🇪 DE | VMESS | @khoneproxy #3, 🇩🇪 DE | TROJAN | @netfreedom0 #1, 🇩🇪 DE | VMESS | @v2ray_collector #1, 🇩🇪 DE | TROJAN | @v2ray_collector #1, 🇩🇪 DE | TROJAN | @v2raych #1, 🇩🇪 DE | TROJAN | @v2raych #2, 🇩🇪 DE | TROJAN | @vpn_ioss #1, 🇩🇪 DE | TROJAN | @NamiraConfigs #1
+PSG-FALLBACK = fallback, 🇩🇪 DE | TROJAN | @father_vpn #1, 🇩🇪 DE | VMESS | @khoneproxy #1, 🇩🇪 DE | VMESS | @khoneproxy #2, 🇩🇪 DE | VMESS | @khoneproxy #3, 🇩🇪 DE | TROJAN | @netfreedom0 #1, 🇩🇪 DE | VMESS | @v2ray_collector #1, 🇩🇪 DE | TROJAN | @v2ray_collector #1, 🇩🇪 DE | TROJAN | @v2raych #1, 🇩🇪 DE | TROJAN | @v2raych #2, 🇩🇪 DE | TROJAN | @vpn_ioss #1, 🇩🇪 DE | TROJAN | @NamiraConfigs #1
 
 [Rule]
 GEOIP,IR,DIRECT
