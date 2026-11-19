@@ -90,9 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇹🇷 TR | VLESS | @nofiltering2 #1",
         "🇹🇷 TR | VLESS | @selinc #1",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
-        "🇹🇷 TR | VLESS | @v2raych #1",
         "🇹🇷 TR | VLESS | @v2raytg #1",
         "🇹🇷 TR | VLESS | @v2rayza #1",
         "🇹🇷 TR | VLESS | @v2rayza #2",
@@ -104,9 +103,8 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇹🇷 TR | VLESS | @nofiltering2 #1",
         "🇹🇷 TR | VLESS | @selinc #1",
-        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
-        "🇹🇷 TR | VLESS | @v2raych #1",
         "🇹🇷 TR | VLESS | @v2raytg #1",
         "🇹🇷 TR | VLESS | @v2rayza #1",
         "🇹🇷 TR | VLESS | @v2rayza #2",
@@ -122,55 +120,33 @@
       "type": "direct"
     },
     {
+      "tag": "🇹🇷 TR | VLESS | @nofiltering2 #1",
+      "type": "vless",
+      "server": "45.144.214.102",
+      "server_port": 443,
+      "uuid": "128ce9ab-63bc-48dc-92ca-1b5426a9eb46",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇹🇷 TR | VLESS | @selinc #1",
       "type": "vless",
       "server": "tr.0a0.uk",
       "server_port": 443,
       "uuid": "4a414062-e1b2-496a-bf50-d447e786f3f4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "77.92.151.69",
-      "server_port": 24872,
-      "uuid": "6189e901-5f8f-472f-8350-ca19e911ea2d",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "brooded-plod.sports-streams.org",
-      "server_port": 443,
-      "uuid": "76de14e7-5efb-4b05-aba7-477f59c78e7c",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

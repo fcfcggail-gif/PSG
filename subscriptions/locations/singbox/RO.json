@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgUEw=
+//profile-title: base64:UFNHIHwgUk8=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,11 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | VLESS | @NamiraConfigs #1",
-        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
-        "🇵🇱 PL | VLESS | @v2raych #1",
-        "🇵🇱 PL | VLESS | @v2raych #2",
-        "🇵🇱 PL | VLESS | @NamiraConfigs #2"
+        "🇷🇴 RO | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -102,11 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | VLESS | @NamiraConfigs #1",
-        "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
-        "🇵🇱 PL | VLESS | @v2raych #1",
-        "🇵🇱 PL | VLESS | @v2raych #2",
-        "🇵🇱 PL | VLESS | @NamiraConfigs #2"
+        "🇷🇴 RO | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -118,11 +110,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | VLESS | @NamiraConfigs #1",
+      "tag": "🇷🇴 RO | VLESS | @red2ray #1",
       "type": "vless",
-      "server": "documentnest.website",
-      "server_port": 443,
-      "uuid": "17c068a5-97cb-40a2-bf60-215b749c0508",
+      "server": "cdn4.velmoradigital.store",
+      "server_port": 2443,
+      "uuid": "32ea050a-1981-4ed2-b63f-77e0f53c4b65",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -131,100 +123,6 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "187.54.1.75",
-      "server_port": 3738,
-      "uuid": "e0decac3-1b3e-4ab1-a2a8-860a8aca76f6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "digitalrepository.online",
-      "server_port": 443,
-      "uuid": "17c068a5-97cb-40a2-bf60-215b749c0508",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "digitalrepository.online",
-      "server_port": 443,
-      "uuid": "17c068a5-97cb-40a2-bf60-215b749c0508",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @NamiraConfigs #2",
-      "type": "vless",
-      "server": "honeycombnode.website",
-      "server_port": 443,
-      "uuid": "17c068a5-97cb-40a2-bf60-215b749c0508",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "honeycombnode.website",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "public_key": "7EY13JUT6TfZc9Jnk-SiZL3foUw6PA56byhCQi1szxs",
-          "short_id": "be5f517e33cb153f",
-          "enabled": true
         }
       }
     }

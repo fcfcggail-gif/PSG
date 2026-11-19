@@ -76,17 +76,14 @@
     {
       "outbounds": [
         "auto",
-        "direct",
-        "🇨🇾 CY | VLESS | @NamiraConfigs #1"
+        "direct"
       ],
       "tag": "proxy",
       "type": "selector"
     },
     {
       "interval": "10m",
-      "outbounds": [
-        "🇨🇾 CY | VLESS | @NamiraConfigs #1"
-      ],
+      "outbounds": [],
       "tag": "auto",
       "tolerance": 50,
       "type": "urltest",
@@ -99,29 +96,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇨🇾 CY | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "recordchest.website",
-      "server_port": 443,
-      "uuid": "17c068a5-97cb-40a2-bf60-215b749c0508",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "recordchest.website",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "qq"
-        },
-        "reality": {
-          "public_key": "k3h9swGvyZR8abQmsoW9Ui_Y429zy1A0H5xuv3UmbiI",
-          "short_id": "4c80bd61285e9f5a",
-          "enabled": true
-        }
-      }
     }
   ],
   "route": {
