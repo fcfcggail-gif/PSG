@@ -77,9 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇨🇿 CZ | VMESS | @freev2rays #1",
-        "🇨🇿 CZ | VLESS | @NamiraConfigs #1",
-        "🇨🇿 CZ | VLESS | @NamiraConfigs #2"
+        "🇨🇿 CZ | VMESS | @freev2rays #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -87,9 +85,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇨🇿 CZ | VMESS | @freev2rays #1",
-        "🇨🇿 CZ | VLESS | @NamiraConfigs #1",
-        "🇨🇿 CZ | VLESS | @NamiraConfigs #2"
+        "🇨🇿 CZ | VMESS | @freev2rays #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -126,52 +122,6 @@
         "path": "/",
         "headers": {
           "Host": "shs111.kejixiaoqi666.store"
-        }
-      }
-    },
-    {
-      "tag": "🇨🇿 CZ | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "95.85.231.28",
-      "server_port": 443,
-      "uuid": "955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "gshhb.wey-land.net",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "public_key": "dSUceIeRRCE33JdDdXik0dQfU60cEc6P1FUqdTVh5FQ",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇨🇿 CZ | VLESS | @NamiraConfigs #2",
-      "type": "vless",
-      "server": "95.85.232.23",
-      "server_port": 443,
-      "uuid": "955d8dc7-5e3b-40ac-b2bb-bd8aa20fc7e6",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
-      "tls": {
-        "enabled": true,
-        "server_name": "gsghhb.wey-land.net",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "public_key": "WZami4D42ZojJikzQgAGY73KHXrq9DuIxuS04PWGylk",
-          "short_id": "",
-          "enabled": true
         }
       }
     }

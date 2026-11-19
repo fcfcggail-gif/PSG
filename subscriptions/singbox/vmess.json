@@ -105,6 +105,7 @@
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
         "🇺🇸 US | VMESS | @mi_pn_official #3",
+        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
@@ -117,7 +118,6 @@
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇸🇪 SE | VMESS | @outlinereleasedkey #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇺🇸 US | VMESS | @v2rayopen #1",
         "🇺🇸 US | VMESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpn_ioss #2"
       ],
@@ -142,6 +142,7 @@
         "🇺🇸 US | VMESS | @mi_pn_official #1",
         "🇺🇸 US | VMESS | @mi_pn_official #2",
         "🇺🇸 US | VMESS | @mi_pn_official #3",
+        "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
         "🇺🇸 US | VMESS | @proxy48 #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
@@ -154,7 +155,6 @@
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇸🇪 SE | VMESS | @outlinereleasedkey #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
-        "🇺🇸 US | VMESS | @v2rayopen #1",
         "🇺🇸 US | VMESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpn_ioss #2"
       ],
@@ -508,6 +508,31 @@
       }
     },
     {
+      "tag": "🇽🇽 XX | VMESS | @mtproxy22_v2ray #1",
+      "type": "vmess",
+      "server": "US122207.ssgreen.org",
+      "server_port": 443,
+      "uuid": "74d216a3-fdb8-4774-a9c3-35f9e5a46819",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "US122207.ssgreen.org",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "/wes",
+        "headers": {
+          "Host": "US122207.ssgreen.org"
+        }
+      }
+    },
+    {
       "tag": "🇺🇸 US | VMESS | @proxy48 #1",
       "type": "vmess",
       "server": "188.114.97.3",
@@ -773,15 +798,6 @@
         "type": "grpc",
         "service_name": "WgCmp8p80KDzo64uHE"
       }
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @v2rayopen #1",
-      "type": "vmess",
-      "server": "169.197.142.22",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto",
-      "alter_id": 0
     },
     {
       "tag": "🇺🇸 US | VMESS | @vpn_ioss #1",

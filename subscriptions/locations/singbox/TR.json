@@ -91,8 +91,12 @@
         "auto",
         "direct",
         "🇹🇷 TR | VLESS | @selinc #1",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+        "🇹🇷 TR | VLESS | @v2raych #1",
         "🇹🇷 TR | VLESS | @v2raytg #1",
-        "🇹🇷 TR | VLESS | @v2rayza #1"
+        "🇹🇷 TR | VLESS | @v2rayza #1",
+        "🇹🇷 TR | VLESS | @v2rayza #2",
+        "🇹🇷 TR | VLESS | @v2rayza #3"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -101,8 +105,12 @@
       "interval": "10m",
       "outbounds": [
         "🇹🇷 TR | VLESS | @selinc #1",
+        "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+        "🇹🇷 TR | VLESS | @v2raych #1",
         "🇹🇷 TR | VLESS | @v2raytg #1",
-        "🇹🇷 TR | VLESS | @v2rayza #1"
+        "🇹🇷 TR | VLESS | @v2rayza #1",
+        "🇹🇷 TR | VLESS | @v2rayza #2",
+        "🇹🇷 TR | VLESS | @v2rayza #3"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -136,6 +144,50 @@
       }
     },
     {
+      "tag": "🇹🇷 TR | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "77.92.151.69",
+      "server_port": 24872,
+      "uuid": "6189e901-5f8f-472f-8350-ca19e911ea2d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "brooded-plod.sports-streams.org",
+      "server_port": 443,
+      "uuid": "76de14e7-5efb-4b05-aba7-477f59c78e7c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
       "tag": "🇹🇷 TR | VLESS | @v2raytg #1",
       "type": "vless",
       "server": "sibilgg.opik.net",
@@ -145,6 +197,40 @@
     },
     {
       "tag": "🇹🇷 TR | VLESS | @v2rayza #1",
+      "type": "vless",
+      "server": "45.144.214.102",
+      "server_port": 443,
+      "uuid": "128ce9ab-63bc-48dc-92ca-1b5426a9eb46",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2rayza #2",
+      "type": "vless",
+      "server": "212.98.224.35",
+      "server_port": 443,
+      "uuid": "8197b9b9-8945-460f-99c9-325ef8a8a7c3",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VLESS | @v2rayza #3",
       "type": "vless",
       "server": "212.98.224.35",
       "server_port": 443,
