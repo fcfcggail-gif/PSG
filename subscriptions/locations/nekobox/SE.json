@@ -77,7 +77,6 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇸🇪 SE | VLESS | @NamiraConfigs #1",
         "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -98,12 +97,14 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
+        "🇸🇪 SE | VLESS | @v2raych #1",
         "🇸🇪 SE | VLESS | @v2raymelliii #1",
         "🇸🇪 SE | VLESS | @v2rayopen #1",
         "🇸🇪 SE | VLESS | @v2rayza #1",
         "🇸🇪 SE | TUIC | @vipv2rey #1",
         "🇸🇪 SE | TUIC | @vipv2rey #2",
-        "🇸🇪 SE | VMESS | @vpn_ioss #1"
+        "🇸🇪 SE | VMESS | @vpn_ioss #1",
+        "🇸🇪 SE | VLESS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -111,7 +112,6 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇸🇪 SE | VLESS | @NamiraConfigs #1",
         "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -132,12 +132,14 @@
         "🇸🇪 SE | VLESS | @v2logy #1",
         "🇸🇪 SE | VLESS | @v2logy #2",
         "🇸🇪 SE | VLESS | @v2logy #3",
+        "🇸🇪 SE | VLESS | @v2raych #1",
         "🇸🇪 SE | VLESS | @v2raymelliii #1",
         "🇸🇪 SE | VLESS | @v2rayopen #1",
         "🇸🇪 SE | VLESS | @v2rayza #1",
         "🇸🇪 SE | TUIC | @vipv2rey #1",
         "🇸🇪 SE | TUIC | @vipv2rey #2",
-        "🇸🇪 SE | VMESS | @vpn_ioss #1"
+        "🇸🇪 SE | VMESS | @vpn_ioss #1",
+        "🇸🇪 SE | VLESS | @NamiraConfigs #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -151,30 +153,6 @@
     {
       "tag": "bypass",
       "type": "direct"
-    },
-    {
-      "tag": "🇸🇪 SE | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "sajed.kdns.fr",
-      "server_port": 443,
-      "uuid": "cffa0e31-7cce-4541-8a2e-4e115873090b",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "",
-        "headers": {
-          "Host": ""
-        }
-      }
     },
     {
       "tag": "🇸🇪 SE | VLESS | @deli_servers #1",
@@ -400,6 +378,23 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇸🇪 SE | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "sajed.kdns.fr",
+      "server_port": 443,
+      "uuid": "cffa0e31-7cce-4541-8a2e-4e115873090b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇸🇪 SE | VLESS | @v2raymelliii #1",
       "type": "vless",
       "server": "leviko-se9938.shopingggg.ir",
@@ -497,6 +492,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "se2.h1cloud.net",
+      "server_port": 25191,
+      "uuid": "62995b2a-8f82-41f8-ac80-dfdfc1253e76",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "a8687er.se2.h1clayd.click",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "_Cb2FzFDVi9blwCb_5V0NZue6wt-U6GL0N_-OX8NGGA",
+          "short_id": "55328e423218ee9b",
+          "enabled": true
         }
       }
     }

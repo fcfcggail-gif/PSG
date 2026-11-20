@@ -92,7 +92,6 @@
         "direct",
         "🇷🇺 RU | VLESS | @netfreedom0 #1",
         "🇷🇺 RU | VLESS | @v2raych #1",
-        "🇷🇺 RU | VLESS | @v2raych #2",
         "🇷🇺 RU | VLESS | @v2rayopen #1",
         "🇷🇺 RU | VLESS | @vpn_ioss #1"
       ],
@@ -104,7 +103,6 @@
       "outbounds": [
         "🇷🇺 RU | VLESS | @netfreedom0 #1",
         "🇷🇺 RU | VLESS | @v2raych #1",
-        "🇷🇺 RU | VLESS | @v2raych #2",
         "🇷🇺 RU | VLESS | @v2rayopen #1",
         "🇷🇺 RU | VLESS | @vpn_ioss #1"
       ],
@@ -137,18 +135,20 @@
     {
       "tag": "🇷🇺 RU | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "84.23.52.104",
-      "server_port": 9009,
-      "uuid": "6a5b48fe-9a99-4509-9bad-8ad9b44bd56e",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #2",
-      "type": "vless",
-      "server": "84.23.52.104",
-      "server_port": 9009,
-      "uuid": "6a5b48fe-9a99-4509-9bad-8ad9b44bd56e",
-      "packet_encoding": "xudp"
+      "server": "189.74.117.6",
+      "server_port": 443,
+      "uuid": "31d0f8a6-3dac-4f89-b2f1-aca50f293f70",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇷🇺 RU | VLESS | @v2rayopen #1",

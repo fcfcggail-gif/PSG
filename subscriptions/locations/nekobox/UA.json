@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇿🇦 ZA | TROJAN | @outlinereleasedkey #1"
+        "🇺🇦 UA | SS | @orange_vpns #1",
+        "🇺🇦 UA | SS | @v2rayopen #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇿🇦 ZA | TROJAN | @outlinereleasedkey #1"
+        "🇺🇦 UA | SS | @orange_vpns #1",
+        "🇺🇦 UA | SS | @v2rayopen #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,20 +103,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇿🇦 ZA | TROJAN | @outlinereleasedkey #1",
-      "type": "trojan",
-      "server": "139.84.231.142",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
+      "tag": "🇺🇦 UA | SS | @orange_vpns #1",
+      "type": "shadowsocks",
+      "server": "185.164.175.81",
+      "server_port": 19999,
+      "method": "YXV0bzo=",
+      "password": null
+    },
+    {
+      "tag": "🇺🇦 UA | SS | @v2rayopen #1",
+      "type": "shadowsocks",
+      "server": "185.164.175.81",
+      "server_port": 19999,
+      "method": "YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=",
+      "password": null
     }
   ],
   "route": {
