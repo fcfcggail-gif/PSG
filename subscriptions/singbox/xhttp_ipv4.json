@@ -112,14 +112,14 @@
         "🇽🇽 XX | VLESS | @proxie #6",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
+        "🇧🇬 BG | VLESS | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
         "🇺🇸 US | VLESS | @vmesskhodam #1",
         "🇺🇸 US | VLESS | @vmesskhodam #2",
         "🇺🇸 US | VLESS | @vmesskhodam #3",
-        "🇷🇺 RU | VLESS | @vpn_ioss #1",
-        "🇳🇱 NL | VLESS | @NamiraConfigs #2"
+        "🇷🇺 RU | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -149,14 +149,14 @@
         "🇽🇽 XX | VLESS | @proxie #6",
         "🇺🇸 US | VLESS | @proxygrizzly #1",
         "🇺🇸 US | VLESS | @qeshmserver #1",
+        "🇧🇬 BG | VLESS | @v2raych #1",
         "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngconfiig #1",
         "🇺🇸 US | VLESS | @v2rayngvpn_1 #1",
         "🇺🇸 US | VLESS | @vmesskhodam #1",
         "🇺🇸 US | VLESS | @vmesskhodam #2",
         "🇺🇸 US | VLESS | @vmesskhodam #3",
-        "🇷🇺 RU | VLESS | @vpn_ioss #1",
-        "🇳🇱 NL | VLESS | @NamiraConfigs #2"
+        "🇷🇺 RU | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -536,6 +536,14 @@
       "packet_encoding": "xudp"
     },
     {
+      "tag": "🇧🇬 BG | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "87.120.92.186",
+      "server_port": 2087,
+      "uuid": "549766c3-fa5f-471e-8031-ffc1f8d5064f",
+      "packet_encoding": "xudp"
+    },
+    {
       "tag": "🇽🇽 XX | VLESS | @v2rayngconfiig #1",
       "type": "vless",
       "server": "104.20.46.193",
@@ -635,28 +643,6 @@
       "server_port": 8443,
       "uuid": "88281d02-b387-4fe3-918e-26ed331e6d08",
       "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇳🇱 NL | VLESS | @NamiraConfigs #2",
-      "type": "vless",
-      "server": "37.49.229.121",
-      "server_port": 8443,
-      "uuid": "2cbba076-cadf-4f45-9335-ab1dc46c8d04",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "www.philips.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "rhvTcrJkW1TxzOqzmoy7c1CDIvuQO7sVXJJljUSn_jU",
-          "short_id": "d42040f1d42dde98",
-          "enabled": true
-        }
-      }
     }
   ],
   "route": {

@@ -77,6 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇸🇪 SE | VLESS | @NamiraConfigs #1",
         "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -101,6 +102,7 @@
         "🇸🇪 SE | VLESS | @v2rayopen #1",
         "🇸🇪 SE | VLESS | @v2rayza #1",
         "🇸🇪 SE | TUIC | @vipv2rey #1",
+        "🇸🇪 SE | TUIC | @vipv2rey #2",
         "🇸🇪 SE | VMESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -109,6 +111,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇸🇪 SE | VLESS | @NamiraConfigs #1",
         "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -133,6 +136,7 @@
         "🇸🇪 SE | VLESS | @v2rayopen #1",
         "🇸🇪 SE | VLESS | @v2rayza #1",
         "🇸🇪 SE | TUIC | @vipv2rey #1",
+        "🇸🇪 SE | TUIC | @vipv2rey #2",
         "🇸🇪 SE | VMESS | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -147,6 +151,30 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "sajed.kdns.fr",
+      "server_port": 443,
+      "uuid": "cffa0e31-7cce-4541-8a2e-4e115873090b",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      },
+      "transport": {
+        "type": "ws",
+        "path": "",
+        "headers": {
+          "Host": ""
+        }
+      }
     },
     {
       "tag": "🇸🇪 SE | VLESS | @deli_servers #1",
@@ -426,6 +454,22 @@
       "tag": "🇸🇪 SE | TUIC | @vipv2rey #1",
       "type": "tuic",
       "server": "70.34.197.98",
+      "server_port": 443,
+      "uuid": "87bc1693-8860-41d7-acf4-e6edf49abbbb",
+      "password": "87bc1693-8860-41d7-acf4-e6edf49abbbb",
+      "congestion_control": "bbr",
+      "udp_relay_mode": "native",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": false,
+        "alpn": null
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | TUIC | @vipv2rey #2",
+      "type": "tuic",
+      "server": "70.34.208.3",
       "server_port": 443,
       "uuid": "87bc1693-8860-41d7-acf4-e6edf49abbbb",
       "password": "87bc1693-8860-41d7-acf4-e6edf49abbbb",
