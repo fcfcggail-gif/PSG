@@ -91,7 +91,8 @@
         "auto",
         "direct",
         "🇧🇬 BG | SS | @filtershekan_channel #1",
-        "🇧🇬 BG | VLESS | @hope_net #1"
+        "🇧🇬 BG | VLESS | @hope_net #1",
+        "🇧🇬 BG | VLESS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +101,8 @@
       "interval": "10m",
       "outbounds": [
         "🇧🇬 BG | SS | @filtershekan_channel #1",
-        "🇧🇬 BG | VLESS | @hope_net #1"
+        "🇧🇬 BG | VLESS | @hope_net #1",
+        "🇧🇬 BG | VLESS | @NamiraConfigs #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -137,6 +139,28 @@
         "reality": {
           "public_key": "",
           "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇧🇬 BG | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "p2real4.greewebservices.ir",
+      "server_port": 1340,
+      "uuid": "bee52362-4183-42c5-b065-d3a3f344d00c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "play.googleapis.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "ios"
+        },
+        "reality": {
+          "public_key": "xQnXh5EfPDhcEBB7rRiLca33GYrMEeUa35domLL_yA8",
+          "short_id": "9b60d3",
           "enabled": true
         }
       }

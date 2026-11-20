@@ -89,17 +89,14 @@
     {
       "outbounds": [
         "auto",
-        "direct",
-        "🇷🇸 RS | TROJAN | @outlinereleasedkey #1"
+        "direct"
       ],
       "tag": "proxy",
       "type": "selector"
     },
     {
       "interval": "10m",
-      "outbounds": [
-        "🇷🇸 RS | TROJAN | @outlinereleasedkey #1"
-      ],
+      "outbounds": [],
       "tag": "auto",
       "tolerance": 50,
       "type": "urltest",
@@ -108,22 +105,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇷🇸 RS | TROJAN | @outlinereleasedkey #1",
-      "type": "trojan",
-      "server": "38.180.101.235",
-      "server_port": 5443,
-      "password": "X00HagvwL8gQXNDAnsxsN8dv1_VdneEo",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
     }
   ],
   "route": {
