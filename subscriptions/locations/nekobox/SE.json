@@ -100,7 +100,8 @@
         "🇸🇪 SE | VLESS | @v2rayza #1",
         "🇸🇪 SE | TUIC | @vipv2rey #1",
         "🇸🇪 SE | TUIC | @vipv2rey #2",
-        "🇸🇪 SE | VMESS | @vpn_ioss #1"
+        "🇸🇪 SE | VMESS | @vpn_ioss #1",
+        "🇸🇪 SE | VLESS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -131,7 +132,8 @@
         "🇸🇪 SE | VLESS | @v2rayza #1",
         "🇸🇪 SE | TUIC | @vipv2rey #1",
         "🇸🇪 SE | TUIC | @vipv2rey #2",
-        "🇸🇪 SE | VMESS | @vpn_ioss #1"
+        "🇸🇪 SE | VMESS | @vpn_ioss #1",
+        "🇸🇪 SE | VLESS | @NamiraConfigs #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -433,6 +435,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "sonau.yaremonta.loc.cc",
+      "server_port": 443,
+      "uuid": "c5468915-f60c-4134-b4d3-eb24501d7c65",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "dl.google.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "firefox"
+        },
+        "reality": {
+          "public_key": "_DS81HrngZsd_laYN5H0ZLvrqWhiW2DgMP2ea8KQkBc",
+          "short_id": "abcd1234",
+          "enabled": true
         }
       }
     }

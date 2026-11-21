@@ -77,11 +77,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇷🇺 RU | VLESS | @netfreedom0 #1",
-        "🇷🇺 RU | VLESS | @v2rayopen #1",
+        "🇷🇺 RU | VLESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @vpn_ioss #1",
-        "🇷🇺 RU | VLESS | @NamiraConfigs #1",
-        "🇷🇺 RU | VLESS | @NamiraConfigs #2"
+        "🇷🇺 RU | VLESS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -89,11 +87,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇷🇺 RU | VLESS | @netfreedom0 #1",
-        "🇷🇺 RU | VLESS | @v2rayopen #1",
+        "🇷🇺 RU | VLESS | @v2raych #1",
         "🇷🇺 RU | VLESS | @vpn_ioss #1",
-        "🇷🇺 RU | VLESS | @NamiraConfigs #1",
-        "🇷🇺 RU | VLESS | @NamiraConfigs #2"
+        "🇷🇺 RU | VLESS | @NamiraConfigs #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -109,28 +105,11 @@
       "type": "direct"
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @netfreedom0 #1",
+      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
       "type": "vless",
-      "server": "193.233.127.149",
+      "server": "178.130.46.188",
       "server_port": 443,
-      "uuid": "3c4aa500-e3ae-4778-837b-f02dfea8c85f",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2rayopen #1",
-      "type": "vless",
-      "server": "194.55.239.195",
-      "server_port": 443,
-      "uuid": "75a8cc15-fa52-4067-949f-42a89859b54f",
+      "uuid": "a346c521-7a7f-452b-9356-a4893feb5982",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
@@ -158,48 +137,22 @@
     {
       "tag": "🇷🇺 RU | VLESS | @NamiraConfigs #1",
       "type": "vless",
-      "server": "62.233.39.5",
-      "server_port": 8443,
-      "uuid": "4fabeed0-790e-9724-8f12-138ed31ac60e",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "download.nvidia.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "lDi6FDdd5qUFMjjR1JDidfUU2qE_U1L90VjNTzPyQhs",
-          "short_id": "",
-          "enabled": true
-        }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "TunService"
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @NamiraConfigs #2",
-      "type": "vless",
-      "server": "72.56.38.83",
+      "server": "153.80.22.106",
       "server_port": 443,
-      "uuid": "Fluffy_VPN-zKZUa4Ie",
+      "uuid": "ef5a57c7-84d5-4f86-b99c-875a16da485f",
       "packet_encoding": "xudp",
       "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "absolute-disaster.org",
+        "server_name": "rusbox729.alexdjane.am",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
-          "public_key": "ZzIetLcQtENjIXQ9XZqFo8p3J81p8Emj0wi51Uy07n8",
-          "short_id": "",
+          "public_key": "IU5C8_llRrimMDeJDPc3XM256DZOWIYblUdDYilAcFM",
+          "short_id": "686f7ed96ec0227d",
           "enabled": true
         }
       }
