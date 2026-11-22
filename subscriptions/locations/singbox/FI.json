@@ -90,9 +90,11 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇮 FI | VLESS | @NamiraConfigs #1",
         "🇫🇮 FI | VLESS | @v2ray_collector #1",
         "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
-        "🇫🇮 FI | VLESS | @vmesc #1"
+        "🇫🇮 FI | VLESS | @vmesc #1",
+        "🇫🇮 FI | VLESS | @NamiraConfigs #2"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,9 +102,11 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇮 FI | VLESS | @NamiraConfigs #1",
         "🇫🇮 FI | VLESS | @v2ray_collector #1",
         "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
-        "🇫🇮 FI | VLESS | @vmesc #1"
+        "🇫🇮 FI | VLESS | @vmesc #1",
+        "🇫🇮 FI | VLESS | @NamiraConfigs #2"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,6 +116,14 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "panel.jorvexo.ir",
+      "server_port": 1152,
+      "uuid": "bb16f226-09a8-43ee-a412-0dbaa72dc999",
+      "packet_encoding": "xudp"
     },
     {
       "tag": "🇫🇮 FI | VLESS | @v2ray_collector #1",
@@ -157,6 +169,28 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @NamiraConfigs #2",
+      "type": "vless",
+      "server": "panel.jorvexo.ir",
+      "server_port": 1152,
+      "uuid": "bb16f226-09a8-43ee-a412-0dbaa72dc999",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "in.tradingview.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE",
+          "short_id": "ead6bdba606219a2",
+          "enabled": true
         }
       }
     }

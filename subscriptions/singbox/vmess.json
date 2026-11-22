@@ -111,13 +111,14 @@
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
+        "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VMESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @khoneproxy #3",
-        "🇦🇹 AT | VMESS | @outlinereleasedkey #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
+        "🇧🇷 BR | VMESS | @v2ray_collector #1",
         "🇸🇪 SE | VMESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpn_ioss #2"
@@ -149,13 +150,14 @@
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
         "🇺🇸 US | VMESS | @v2ray4win #1",
         "🇺🇸 US | VMESS | @v2ray4win #2",
+        "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
         "🇽🇽 XX | VMESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @khoneproxy #3",
-        "🇦🇹 AT | VMESS | @outlinereleasedkey #1",
         "🇽🇽 XX | VMESS | @proxy48 #1",
+        "🇧🇷 BR | VMESS | @v2ray_collector #1",
         "🇸🇪 SE | VMESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpn_ioss #1",
         "🇺🇸 US | VMESS | @vpn_ioss #2"
@@ -660,6 +662,22 @@
       }
     },
     {
+      "tag": "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "tr-tls.drhomes.ir",
+      "server_port": 8080,
+      "uuid": "e4f17f20-49a1-43b3-83fc-29b2ed37055a",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/turky-test",
+        "headers": {
+          "Host": "tr-tls.drhomes.ir"
+        }
+      }
+    },
+    {
       "tag": "🇽🇽 XX | VMESS | @vpn_ioss #1",
       "type": "vmess",
       "server": "www.windowssearchtools.com",
@@ -762,24 +780,6 @@
       }
     },
     {
-      "tag": "🇦🇹 AT | VMESS | @outlinereleasedkey #1",
-      "type": "vmess",
-      "server": "154.47.19.225",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇽🇽 XX | VMESS | @proxy48 #1",
       "type": "vmess",
       "server": "172.66.213.38",
@@ -799,6 +799,24 @@
       "transport": {
         "type": "grpc",
         "service_name": "WgCmp8p80KDzo64uHE"
+      }
+    },
+    {
+      "tag": "🇧🇷 BR | VMESS | @v2ray_collector #1",
+      "type": "vmess",
+      "server": "103.88.232.55",
+      "server_port": 1270,
+      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
+      "security": "auto",
+      "alter_id": 0,
+      "tls": {
+        "enabled": true,
+        "server_name": "xmfhlpy.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
       }
     },
     {

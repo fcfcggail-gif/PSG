@@ -77,7 +77,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇯🇵 JP | TROJAN | @v2raych #1",
+        "🇯🇵 JP | TROJAN | @mtproxy22_v2ray #1",
         "🇯🇵 JP | SS | @v2rayng3 #1"
       ],
       "tag": "proxy",
@@ -86,7 +86,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇯🇵 JP | TROJAN | @v2raych #1",
+        "🇯🇵 JP | TROJAN | @mtproxy22_v2ray #1",
         "🇯🇵 JP | SS | @v2rayng3 #1"
       ],
       "tag": "auto",
@@ -103,11 +103,20 @@
       "type": "direct"
     },
     {
-      "tag": "🇯🇵 JP | TROJAN | @v2raych #1",
+      "tag": "🇯🇵 JP | TROJAN | @mtproxy22_v2ray #1",
       "type": "trojan",
       "server": "156.246.93.237",
       "server_port": 17443,
-      "password": "LDSLDq9XlM4-92pvTPOUuklMb99BLOCrdyejsupEca4"
+      "password": "LDSLDq9XlM4-92pvTPOUuklMb99BLOCrdyejsupEca4",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇯🇵 JP | SS | @v2rayng3 #1",

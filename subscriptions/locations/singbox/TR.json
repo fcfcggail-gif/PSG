@@ -90,9 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇹🇷 TR | SS | @free1_vpn #1",
         "🇹🇷 TR | VLESS | @nofiltering2 #1",
         "🇹🇷 TR | VLESS | @selinc #1",
+        "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
         "🇹🇷 TR | VLESS | @v2raytg #1",
         "🇹🇷 TR | VLESS | @v2rayza #1",
         "🇹🇷 TR | VLESS | @v2rayza #2",
@@ -104,9 +104,9 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇹🇷 TR | SS | @free1_vpn #1",
         "🇹🇷 TR | VLESS | @nofiltering2 #1",
         "🇹🇷 TR | VLESS | @selinc #1",
+        "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
         "🇹🇷 TR | VLESS | @v2raytg #1",
         "🇹🇷 TR | VLESS | @v2rayza #1",
         "🇹🇷 TR | VLESS | @v2rayza #2",
@@ -120,14 +120,6 @@
     {
       "tag": "direct",
       "type": "direct"
-    },
-    {
-      "tag": "🇹🇷 TR | SS | @free1_vpn #1",
-      "type": "shadowsocks",
-      "server": "tr.subscriptionservice.ir",
-      "server_port": 2089,
-      "method": "Y2hhY2hhMjAtaWV0Zi1wb2x5MTMwNTphNkZQeDliajdnZWwwUEdadEdJWUlMRzFYaVhWblEzNw==",
-      "password": null
     },
     {
       "tag": "🇹🇷 TR | VLESS | @nofiltering2 #1",
@@ -170,6 +162,22 @@
           "public_key": "",
           "short_id": "",
           "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
+      "type": "vmess",
+      "server": "tr-tls.drhomes.ir",
+      "server_port": 8080,
+      "uuid": "e4f17f20-49a1-43b3-83fc-29b2ed37055a",
+      "security": "auto",
+      "alter_id": 0,
+      "transport": {
+        "type": "ws",
+        "path": "/turky-test",
+        "headers": {
+          "Host": "tr-tls.drhomes.ir"
         }
       }
     },
