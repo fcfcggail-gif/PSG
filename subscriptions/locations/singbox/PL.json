@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgSVQ=
+//profile-title: base64:UFNHIHwgUEw=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇮🇹 IT | SS | @outlinereleasedkey #1"
+        "🇵🇱 PL | VLESS | @v2raych #1",
+        "🇵🇱 PL | VLESS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +99,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇮🇹 IT | SS | @outlinereleasedkey #1"
+        "🇵🇱 PL | VLESS | @v2raych #1",
+        "🇵🇱 PL | VLESS | @NamiraConfigs #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +112,49 @@
       "type": "direct"
     },
     {
-      "tag": "🇮🇹 IT | SS | @outlinereleasedkey #1",
-      "type": "shadowsocks",
-      "server": "202.50.253.72",
-      "server_port": 19999,
-      "method": "YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=",
-      "password": null
+      "tag": "🇵🇱 PL | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "144.31.5.137",
+      "server_port": 443,
+      "uuid": "78a2cdf1-22e5-4ad7-bf89-91aa13d8b76c",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "poland.biznes.lol",
+      "server_port": 443,
+      "uuid": "7d43670b-6b08-45b9-8a24-8f3971abc132",
+      "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
+      "tls": {
+        "enabled": true,
+        "server_name": "poland.biznes.lol",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "j4Uc6ljg9by_VKYywo5h2N-eh3kpUbFL5Bsp8-AX4Qk",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

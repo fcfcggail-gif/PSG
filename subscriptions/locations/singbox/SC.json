@@ -90,6 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇸🇨 SC | VLESS | @NamiraConfigs #1",
         "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇸🇨 SC | TROJAN | @selinc #1"
       ],
@@ -99,6 +100,7 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇸🇨 SC | VLESS | @NamiraConfigs #1",
         "🇸🇨 SC | VLESS | @ai_duet #1",
         "🇸🇨 SC | TROJAN | @selinc #1"
       ],
@@ -110,6 +112,23 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇸🇨 SC | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "api.ferrin.uk",
+      "server_port": 443,
+      "uuid": "7d1a74fd-8a38-4a29-863f-5da53a9e557e",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
     },
     {
       "tag": "🇸🇨 SC | VLESS | @ai_duet #1",
