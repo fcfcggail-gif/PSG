@@ -23,6 +23,7 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇪🇸 ES | VLESS | @NamiraConfigs #1", "server": "esrr.milkabebar.ir", "port": 40118, "type": "vless", "skip-cert-verify": true, "uuid": "4e932df2-a06a-4043-861c-87fe8d217aae", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇪🇸 ES | TROJAN | @red2ray #1", "server": "66.163.118.203", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"}
 
 proxy-groups:
@@ -37,6 +38,7 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇪🇸 ES | VLESS | @NamiraConfigs #1'
       - '🇪🇸 ES | TROJAN | @red2ray #1'
 
   - name: 🌍 Global Media

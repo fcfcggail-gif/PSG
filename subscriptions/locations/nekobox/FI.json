@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇫🇮 FI | VLESS | @v2ray_collector #1",
-        "🇫🇮 FI | VLESS | @NamiraConfigs #1"
+        "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
+        "🇫🇮 FI | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇫🇮 FI | VLESS | @v2ray_collector #1",
-        "🇫🇮 FI | VLESS | @NamiraConfigs #1"
+        "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
+        "🇫🇮 FI | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,24 +103,37 @@
       "type": "direct"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @v2ray_collector #1",
+      "tag": "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
       "type": "vless",
-      "server": "157.180.98.124",
-      "server_port": 49659,
-      "uuid": "88a558b1-9645-42f3-89e5-341570d8486d",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇫🇮 FI | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "static.167.125.29.2.clients.your-server.de",
-      "server_port": 8443,
-      "uuid": "071c751b-aadb-4cdf-8e2a-077e797afbee",
+      "server": "213.108.23.184",
+      "server_port": 443,
+      "uuid": "5cd8e5fe-7595-4387-95f9-79b0f18eb125",
       "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "static.162.97.119.168.clients.your-server.de",
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "static.207.81.180.157.clients.your-server.de",
+      "server_port": 443,
+      "uuid": "fe1cfc86-a077-403f-afc7-b97cee3f15e1",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,

@@ -90,8 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇯🇵 JP | TROJAN | @mtproxy22_v2ray #1",
-        "🇯🇵 JP | VLESS | @v2raych #1"
+        "🇯🇵 JP | SS | @v2rayng3 #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -99,8 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇯🇵 JP | TROJAN | @mtproxy22_v2ray #1",
-        "🇯🇵 JP | VLESS | @v2raych #1"
+        "🇯🇵 JP | SS | @v2rayng3 #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -112,28 +110,12 @@
       "type": "direct"
     },
     {
-      "tag": "🇯🇵 JP | TROJAN | @mtproxy22_v2ray #1",
-      "type": "trojan",
-      "server": "156.246.93.237",
-      "server_port": 17443,
-      "password": "LDSLDq9XlM4-92pvTPOUuklMb99BLOCrdyejsupEca4",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇯🇵 JP | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "155.248.175.201",
-      "server_port": 23169,
-      "uuid": "7318caa1-93d1-4a9d-c481-504599902700",
-      "packet_encoding": "xudp"
+      "tag": "🇯🇵 JP | SS | @v2rayng3 #1",
+      "type": "shadowsocks",
+      "server": "84.247.155.196",
+      "server_port": 80,
+      "method": "YXV0bzo=",
+      "password": null
     }
   ],
   "route": {
