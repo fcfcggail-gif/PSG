@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇯🇵 JP | TROJAN | @mtproxy22_v2ray #1", "server": "156.246.93.237", "port": 17443, "type": "trojan", "skip-cert-verify": false, "password": "LDSLDq9XlM4-92pvTPOUuklMb99BLOCrdyejsupEca4"}
+  - {"name": "🇯🇵 JP | VLESS | @v2raych #1", "server": "155.248.175.201", "port": 23169, "type": "vless", "skip-cert-verify": true, "uuid": "7318caa1-93d1-4a9d-c481-504599902700", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome", "servername": "djj.zjlo.top"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇯🇵 JP | TROJAN | @mtproxy22_v2ray #1'
+      - '🇯🇵 JP | VLESS | @v2raych #1'
 
   - name: 🌍 Global Media
     type: select

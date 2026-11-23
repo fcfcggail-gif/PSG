@@ -23,11 +23,8 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
-  - {"name": "🇫🇮 FI | VLESS | @NamiraConfigs #1", "server": "panel.jorvexo.ir", "port": 1152, "type": "vless", "skip-cert-verify": true, "uuid": "bb16f226-09a8-43ee-a412-0dbaa72dc999", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇮 FI | VLESS | @v2ray_collector #1", "server": "157.180.98.124", "port": 49659, "type": "vless", "skip-cert-verify": true, "uuid": "88a558b1-9645-42f3-89e5-341570d8486d", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1", "server": "213.108.23.184", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "5cd8e5fe-7595-4387-95f9-79b0f18eb125", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
-  - {"name": "🇫🇮 FI | VLESS | @vmesc #1", "server": "static.207.81.180.157.clients.your-server.de", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "fe1cfc86-a077-403f-afc7-b97cee3f15e1", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
-  - {"name": "🇫🇮 FI | VLESS | @NamiraConfigs #2", "server": "panel.jorvexo.ir", "port": 1152, "type": "vless", "skip-cert-verify": true, "uuid": "bb16f226-09a8-43ee-a412-0dbaa72dc999", "network": "xhttp", "tls": true, "udp": true, "client-fingerprint": "chrome", "servername": "in.tradingview.com", "reality-opts": {"public-key": "Fmhl6wGywDftzMcxYFyzGrlHvP-XCwujzo_ULibHfHE", "short-id": "ead6bdba606219a2"}}
+  - {"name": "🇫🇮 FI | VLESS | @NamiraConfigs #1", "server": "static.167.125.29.2.clients.your-server.de", "port": 8443, "type": "vless", "skip-cert-verify": true, "uuid": "071c751b-aadb-4cdf-8e2a-077e797afbee", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "flow": "xtls-rprx-vision", "servername": "static.162.97.119.168.clients.your-server.de"}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -41,11 +38,8 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
-      - '🇫🇮 FI | VLESS | @NamiraConfigs #1'
       - '🇫🇮 FI | VLESS | @v2ray_collector #1'
-      - '🇫🇮 FI | VLESS | @v2rayngvpn_1 #1'
-      - '🇫🇮 FI | VLESS | @vmesc #1'
-      - '🇫🇮 FI | VLESS | @NamiraConfigs #2'
+      - '🇫🇮 FI | VLESS | @NamiraConfigs #1'
 
   - name: 🌍 Global Media
     type: select

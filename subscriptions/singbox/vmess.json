@@ -109,19 +109,12 @@
         "🇽🇽 XX | VMESS | @red2ray #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
-        "🇺🇸 US | VMESS | @v2ray4win #1",
-        "🇺🇸 US | VMESS | @v2ray4win #2",
-        "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
-        "🇽🇽 XX | VMESS | @vpn_ioss #1",
-        "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇧🇷 BR | VMESS | @v2ray_collector #1",
-        "🇸🇪 SE | VMESS | @vpn_ioss #1",
-        "🇺🇸 US | VMESS | @vpn_ioss #1",
-        "🇺🇸 US | VMESS | @vpn_ioss #2"
+        "🇺🇸 US | VMESS | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -148,19 +141,12 @@
         "🇽🇽 XX | VMESS | @red2ray #1",
         "🇺🇸 US | VMESS | @serverv2ray00 #1",
         "🇦🇺 AU | VMESS | @serverv2ray00 #1",
-        "🇺🇸 US | VMESS | @v2ray4win #1",
-        "🇺🇸 US | VMESS | @v2ray4win #2",
-        "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
-        "🇽🇽 XX | VMESS | @vpn_ioss #1",
-        "🇺🇸 US | VMESS | @vpngate_config #1",
         "🇩🇪 DE | VMESS | @khoneproxy #1",
         "🇩🇪 DE | VMESS | @khoneproxy #2",
         "🇩🇪 DE | VMESS | @khoneproxy #3",
         "🇽🇽 XX | VMESS | @proxy48 #1",
         "🇧🇷 BR | VMESS | @v2ray_collector #1",
-        "🇸🇪 SE | VMESS | @vpn_ioss #1",
-        "🇺🇸 US | VMESS | @vpn_ioss #1",
-        "🇺🇸 US | VMESS | @vpn_ioss #2"
+        "🇺🇸 US | VMESS | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -612,122 +598,6 @@
       }
     },
     {
-      "tag": "🇺🇸 US | VMESS | @v2ray4win #1",
-      "type": "vmess",
-      "server": "45.85.118.88",
-      "server_port": 443,
-      "uuid": "ee30d3ff-da14-4ea8-bcd2-02e8ee3667de",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "hstr1675520106270.aidapp.life",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/aidapp.lifevws",
-        "headers": {
-          "Host": "hstr1675520106270.aidapp.life"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @v2ray4win #2",
-      "type": "vmess",
-      "server": "cf.sudoer.net",
-      "server_port": 443,
-      "uuid": "c11357eb-a34e-5acb-a309-f8af8082855c",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "801e2436-ae96-11ed-861a-17254ac8cccc.schere.net",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/api05",
-        "headers": {
-          "Host": "scherehtzflk01.schere.net"
-        }
-      }
-    },
-    {
-      "tag": "🇹🇷 TR | VMESS | @v2ray_free_conf #1",
-      "type": "vmess",
-      "server": "tr-tls.drhomes.ir",
-      "server_port": 8080,
-      "uuid": "e4f17f20-49a1-43b3-83fc-29b2ed37055a",
-      "security": "auto",
-      "alter_id": 0,
-      "transport": {
-        "type": "ws",
-        "path": "/turky-test",
-        "headers": {
-          "Host": "tr-tls.drhomes.ir"
-        }
-      }
-    },
-    {
-      "tag": "🇽🇽 XX | VMESS | @vpn_ioss #1",
-      "type": "vmess",
-      "server": "www.windowssearchtools.com",
-      "server_port": 443,
-      "uuid": "ba1116e2-8c2f-4e3d-8e50-c954360cf970",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "www.windowssearchtools.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/truth",
-        "headers": {
-          "Host": "www.windowssearchtools.com"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @vpngate_config #1",
-      "type": "vmess",
-      "server": "cold-dawn-9246.fly.dev",
-      "server_port": 443,
-      "uuid": "ea4909ef-7ca6-4b46-bf2e-6c07896ef338",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "cold-dawn-9246.fly.dev",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      },
-      "transport": {
-        "type": "ws",
-        "path": "/ea4909ef-7ca6-4b46-bf2e-6c07896ef338-vm",
-        "headers": {
-          "Host": "cold-dawn-9246.fly.dev"
-        }
-      }
-    },
-    {
       "tag": "🇩🇪 DE | VMESS | @khoneproxy #1",
       "type": "vmess",
       "server": "142.132.163.200",
@@ -820,34 +690,7 @@
       }
     },
     {
-      "tag": "🇸🇪 SE | VMESS | @vpn_ioss #1",
-      "type": "vmess",
-      "server": "62.93.166.184",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "alter_id": 0,
-      "tls": {
-        "enabled": true,
-        "server_name": "xmfhlpy.com",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @vpn_ioss #1",
-      "type": "vmess",
-      "server": "67.220.95.3",
-      "server_port": 18000,
-      "uuid": "f8c8dc3d-0d37-46b0-8b34-a7232882fcfe",
-      "security": "auto",
-      "alter_id": 0
-    },
-    {
-      "tag": "🇺🇸 US | VMESS | @vpn_ioss #2",
+      "tag": "🇺🇸 US | VMESS | @v2raych #1",
       "type": "vmess",
       "server": "67.220.95.3",
       "server_port": 18000,

@@ -80,13 +80,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇫🇮 FI | VLESS | @NamiraConfigs #1",
-        "🇵🇱 PL | VLESS | @NamiraConfigs #1",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇧🇬 BG | VLESS | @hope_net #1",
-        "🇮🇷 IR | VLESS | @orange_vpns #1",
-        "🇹🇷 TR | VLESS | @selinc #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1"
+        "🇳🇱 NL | VLESS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -97,13 +93,9 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
-        "🇫🇮 FI | VLESS | @NamiraConfigs #1",
-        "🇵🇱 PL | VLESS | @NamiraConfigs #1",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇧🇬 BG | VLESS | @hope_net #1",
-        "🇮🇷 IR | VLESS | @orange_vpns #1",
-        "🇹🇷 TR | VLESS | @selinc #1",
-        "🇮🇷 IR | VLESS | @v2ray_free_conf #1"
+        "🇳🇱 NL | VLESS | @NamiraConfigs #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -191,31 +183,6 @@
       }
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "panel.jorvexo.ir",
-      "server_port": 1152,
-      "uuid": "bb16f226-09a8-43ee-a412-0dbaa72dc999",
-      "packet_encoding": "xudp"
-    },
-    {
-      "tag": "🇵🇱 PL | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "hammer.676767676767.ru",
-      "server_port": 443,
-      "uuid": "d8c6c5bc-66ee-45c6-94fd-fa16f486e771",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
       "tag": "🇨🇭 CH | VLESS | @filtershekan_channel #1",
       "type": "vless",
       "server": "prvtch.titun.su",
@@ -260,67 +227,24 @@
       }
     },
     {
-      "tag": "🇮🇷 IR | VLESS | @orange_vpns #1",
+      "tag": "🇳🇱 NL | VLESS | @NamiraConfigs #1",
       "type": "vless",
-      "server": "ir.g-boot.ir",
+      "server": "nl-06.neverspy.tech",
       "server_port": 443,
-      "uuid": "a6cfc07b-964a-4737-a089-69abefcdb509",
+      "uuid": "03786aa4-21a5-4e7c-83d6-873aafc41217",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "",
+        "server_name": "nl-06.neverspy.tech",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
         },
         "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇹🇷 TR | VLESS | @selinc #1",
-      "type": "vless",
-      "server": "tr.0a0.uk",
-      "server_port": 443,
-      "uuid": "4a414062-e1b2-496a-bf50-d447e786f3f4",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
-          "enabled": true
-        }
-      }
-    },
-    {
-      "tag": "🇮🇷 IR | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "turk.soft98ver2.com",
-      "server_port": 302,
-      "uuid": "24abae59-cde5-4ad2-bac0-5fd80be14cc2",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        },
-        "reality": {
-          "public_key": "",
-          "short_id": "",
+          "public_key": "sZXAejndrxL9cgna_fPXmbSB28y8yAJ9Ln6hRzy5TV0",
+          "short_id": "86af85a72387ef02",
           "enabled": true
         }
       }
