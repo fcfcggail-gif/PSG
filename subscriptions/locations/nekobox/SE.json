@@ -77,6 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇸🇪 SE | VLESS | @NamiraConfigs #1",
+        "🇸🇪 SE | TROJAN | @NamiraConfigs #1",
         "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -109,6 +111,8 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇸🇪 SE | VLESS | @NamiraConfigs #1",
+        "🇸🇪 SE | TROJAN | @NamiraConfigs #1",
         "🇸🇪 SE | VLESS | @deli_servers #1",
         "🇸🇪 SE | VLESS | @free_vip3 #1",
         "🇸🇪 SE | VLESS | @free_vip3 #2",
@@ -147,6 +151,35 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "shop.raadshop.bond",
+      "server_port": 443,
+      "uuid": "1376fec0-9f73-40b7-bcab-dc313371cee4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | TROJAN | @NamiraConfigs #1",
+      "type": "trojan",
+      "server": "shop.raadshop.bond",
+      "server_port": 8447,
+      "password": "erqdvpg95no9i4ox"
     },
     {
       "tag": "🇸🇪 SE | VLESS | @deli_servers #1",

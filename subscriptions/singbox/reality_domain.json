@@ -93,6 +93,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇸🇪 SE | VLESS | @NamiraConfigs #1",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇩🇪 DE | VLESS | @free1_vpn #1",
         "🇧🇬 BG | VLESS | @hope_net #1",
@@ -101,7 +102,7 @@
         "🇺🇸 US | VLESS | @red2ray #2",
         "🇹🇷 TR | VLESS | @selinc #1",
         "🇨🇿 CZ | VLESS | @v2rayza #1",
-        "🇫🇮 FI | VLESS | @NamiraConfigs #1"
+        "🇩🇪 DE | VLESS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -112,6 +113,7 @@
         "همکاری_ملی",
         "جاویدشاه",
         "KingRezaPahlavi",
+        "🇸🇪 SE | VLESS | @NamiraConfigs #1",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇩🇪 DE | VLESS | @free1_vpn #1",
         "🇧🇬 BG | VLESS | @hope_net #1",
@@ -120,7 +122,7 @@
         "🇺🇸 US | VLESS | @red2ray #2",
         "🇹🇷 TR | VLESS | @selinc #1",
         "🇨🇿 CZ | VLESS | @v2rayza #1",
-        "🇫🇮 FI | VLESS | @NamiraConfigs #1"
+        "🇩🇪 DE | VLESS | @NamiraConfigs #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -200,6 +202,28 @@
         "path": "",
         "headers": {
           "Host": ""
+        }
+      }
+    },
+    {
+      "tag": "🇸🇪 SE | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "shop.raadshop.bond",
+      "server_port": 443,
+      "uuid": "1376fec0-9f73-40b7-bcab-dc313371cee4",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     },
@@ -366,29 +390,26 @@
       "packet_encoding": "xudp"
     },
     {
-      "tag": "🇫🇮 FI | VLESS | @NamiraConfigs #1",
+      "tag": "🇩🇪 DE | VLESS | @NamiraConfigs #1",
       "type": "vless",
-      "server": "pl.extremumnews.com",
-      "server_port": 6443,
-      "uuid": "391a32c6-084c-4d61-8e8d-472678021dac",
+      "server": "mepladu.klyck.online",
+      "server_port": 443,
+      "uuid": "de32225b-374c-4a6a-830e-7c4e367fcfb5",
       "packet_encoding": "xudp",
+      "flow": "xtls-rprx-vision",
       "tls": {
         "enabled": true,
-        "server_name": "adaptivesupport.amd.com",
+        "server_name": "mepladu.klyck.online",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "firefox"
         },
         "reality": {
-          "public_key": "incJdGcSQObiuBxmGneu0LFLO4MnjEnx5MX6e1q98k8",
-          "short_id": "ffd956560a594225",
+          "public_key": "Es-vDVGU36WaD2qXnoxHV_nCLfo6I2mUCB4WDcSCBXE",
+          "short_id": "f5a3723f6b3bf8f0",
           "enabled": true
         }
-      },
-      "transport": {
-        "type": "grpc",
-        "service_name": "/api/v1/update"
       }
     }
   ],

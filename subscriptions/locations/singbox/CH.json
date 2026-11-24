@@ -92,8 +92,7 @@
         "direct",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇨🇭 CH | VLESS | @mehrosaboran #1",
-        "🇨🇭 CH | SS | @outlinereleasedkey #1",
-        "🇨🇭 CH | VLESS | @NamiraConfigs #1"
+        "🇨🇭 CH | TROJAN | @v2ray_collector #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -103,8 +102,7 @@
       "outbounds": [
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇨🇭 CH | VLESS | @mehrosaboran #1",
-        "🇨🇭 CH | SS | @outlinereleasedkey #1",
-        "🇨🇭 CH | VLESS | @NamiraConfigs #1"
+        "🇨🇭 CH | TROJAN | @v2ray_collector #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -160,33 +158,18 @@
       }
     },
     {
-      "tag": "🇨🇭 CH | SS | @outlinereleasedkey #1",
-      "type": "shadowsocks",
-      "server": "79.127.184.104",
-      "server_port": 19999,
-      "method": "YWVzLTI1Ni1nY206WlJwZ2FCZUd4dEVOSVhndmhwa1pCS3o5R25XUlMyZFljeDlPK2EyaXdOND0=",
-      "password": null
-    },
-    {
-      "tag": "🇨🇭 CH | VLESS | @NamiraConfigs #1",
-      "type": "vless",
-      "server": "138.124.37.196",
+      "tag": "🇨🇭 CH | TROJAN | @v2ray_collector #1",
+      "type": "trojan",
+      "server": "208.69.78.158",
       "server_port": 443,
-      "uuid": "97daeafa-0744-38a0-9441-74d6cdb63e80",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
+      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
         "enabled": true,
-        "server_name": "lg.hel.play2go.cloud",
+        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,
-          "fingerprint": "firefox"
-        },
-        "reality": {
-          "public_key": "r7gK1xDtZl5wDL59Teyw--KXacW1EjOT2mm0MdwY7gM",
-          "short_id": "39b7084197ed8260",
-          "enabled": true
+          "fingerprint": "chrome"
         }
       }
     }
