@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇦🇪 AE | VLESS | @red2ray #1", "server": "189.30.65.203", "port": 2083, "type": "vless", "skip-cert-verify": true, "uuid": "490dc3b4-8d1d-49fd-840e-bd5277b41557", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇦🇪 AE | VLESS | @NamiraConfigs #1", "server": "191.101.189.138", "port": 52104, "type": "vless", "skip-cert-verify": true, "uuid": "d174d9a4-9dc6-4f0e-969f-33daa1d39bef", "network": "grpc", "tls": true, "udp": true, "client-fingerprint": "chrome", "servername": "www.nvidia.com", "grpc-opts": {"grpc-service-name": ""}, "reality-opts": {"public-key": "_Rab11RrGPieWCWiQogxLveCXsEa7iSSoT6m8y7MXhc", "short-id": "6b675719"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇦🇪 AE | VLESS | @red2ray #1'
+      - '🇦🇪 AE | VLESS | @NamiraConfigs #1'
 
   - name: 🌍 Global Media
     type: select

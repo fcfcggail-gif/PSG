@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇪 AE | VLESS | @red2ray #1"
+        "🇦🇪 AE | VLESS | @red2ray #1",
+        "🇦🇪 AE | VLESS | @NamiraConfigs #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇪 AE | VLESS | @red2ray #1"
+        "🇦🇪 AE | VLESS | @red2ray #1",
+        "🇦🇪 AE | VLESS | @NamiraConfigs #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -107,6 +109,32 @@
       "server_port": 2083,
       "uuid": "490dc3b4-8d1d-49fd-840e-bd5277b41557",
       "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇦🇪 AE | VLESS | @NamiraConfigs #1",
+      "type": "vless",
+      "server": "191.101.189.138",
+      "server_port": 52104,
+      "uuid": "d174d9a4-9dc6-4f0e-969f-33daa1d39bef",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "www.nvidia.com",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "_Rab11RrGPieWCWiQogxLveCXsEa7iSSoT6m8y7MXhc",
+          "short_id": "6b675719",
+          "enabled": true
+        }
+      },
+      "transport": {
+        "type": "grpc",
+        "service_name": ""
+      }
     }
   ],
   "route": {

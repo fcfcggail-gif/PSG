@@ -23,8 +23,10 @@ dns:
     - '+.pool.ntp.org'
 
 proxies: 
+  - {"name": "🇫🇮 FI | VLESS | @v2ray_free_conf #1", "server": "178.17.53.154", "port": 48982, "type": "vless", "skip-cert-verify": true, "uuid": "ea1bee20-9217-42c0-acee-d12bf0c42602", "network": "tcp", "tls": false, "udp": true, "client-fingerprint": "chrome"}
   - {"name": "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1", "server": "213.108.23.184", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "5cd8e5fe-7595-4387-95f9-79b0f18eb125", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome", "reality-opts": {"public-key": "", "short-id": ""}}
   - {"name": "🇫🇮 FI | VLESS | @vmesc #1", "server": "static.207.81.180.157.clients.your-server.de", "port": 443, "type": "vless", "skip-cert-verify": true, "uuid": "fe1cfc86-a077-403f-afc7-b97cee3f15e1", "network": "tcp", "tls": true, "udp": true, "client-fingerprint": "chrome"}
+  - {"name": "🇫🇮 FI | VLESS | @NamiraConfigs #1", "server": "pl.extremumnews.com", "port": 6443, "type": "vless", "skip-cert-verify": true, "uuid": "391a32c6-084c-4d61-8e8d-472678021dac", "network": "grpc", "tls": true, "udp": true, "client-fingerprint": "firefox", "servername": "adaptivesupport.amd.com", "grpc-opts": {"grpc-service-name": "/api/v1/update"}, "reality-opts": {"public-key": "incJdGcSQObiuBxmGneu0LFLO4MnjEnx5MX6e1q98k8", "short-id": "ffd956560a594225"}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,8 +40,10 @@ proxy-groups:
     url: http://www.gstatic.com/generate_204
     interval: 300
     proxies: 
+      - '🇫🇮 FI | VLESS | @v2ray_free_conf #1'
       - '🇫🇮 FI | VLESS | @v2rayngvpn_1 #1'
       - '🇫🇮 FI | VLESS | @vmesc #1'
+      - '🇫🇮 FI | VLESS | @NamiraConfigs #1'
 
   - name: 🌍 Global Media
     type: select
