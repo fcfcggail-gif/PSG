@@ -77,8 +77,10 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇨🇭 CH | VLESS | @bored_vpn #1",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇨🇭 CH | VLESS | @mehrosaboran #1",
+        "🇨🇭 CH | VLESS | @orange_vpns #1",
         "🇨🇭 CH | TROJAN | @v2ray_collector #1"
       ],
       "tag": "proxy",
@@ -87,8 +89,10 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇨🇭 CH | VLESS | @bored_vpn #1",
         "🇨🇭 CH | VLESS | @filtershekan_channel #1",
         "🇨🇭 CH | VLESS | @mehrosaboran #1",
+        "🇨🇭 CH | VLESS | @orange_vpns #1",
         "🇨🇭 CH | TROJAN | @v2ray_collector #1"
       ],
       "tag": "auto",
@@ -103,6 +107,28 @@
     {
       "tag": "bypass",
       "type": "direct"
+    },
+    {
+      "tag": "🇨🇭 CH | VLESS | @bored_vpn #1",
+      "type": "vless",
+      "server": "195.15.207.252",
+      "server_port": 443,
+      "uuid": "65b6bc06-44c9-4b21-8dc0-bdf1d688c0e6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇨🇭 CH | VLESS | @filtershekan_channel #1",
@@ -149,9 +175,26 @@
       }
     },
     {
+      "tag": "🇨🇭 CH | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "45.90.59.15",
+      "server_port": 443,
+      "uuid": "3950b45e-740d-4dca-ac95-505ec8534592",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        }
+      }
+    },
+    {
       "tag": "🇨🇭 CH | TROJAN | @v2ray_collector #1",
       "type": "trojan",
-      "server": "208.69.78.158",
+      "server": "208.69.78.208",
       "server_port": 443,
       "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
       "tls": {
