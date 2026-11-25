@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇧🇬 BG | VLESS | @hope_net #1"
+        "🇧🇬 BG | VLESS | @hope_net #1",
+        "🇧🇬 BG | VLESS | @vmesc #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇧🇬 BG | VLESS | @hope_net #1"
+        "🇧🇬 BG | VLESS | @hope_net #1",
+        "🇧🇬 BG | VLESS | @vmesc #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -106,6 +108,28 @@
       "server": "p11real3.greewebservices.ir",
       "server_port": 1040,
       "uuid": "1ca12389-0d86-4197-a79a-49d24539ce05",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇧🇬 BG | VLESS | @vmesc #1",
+      "type": "vless",
+      "server": "87.120.92.68",
+      "server_port": 443,
+      "uuid": "d596f92b-a7ce-47d2-8392-a274d9f57bec",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
