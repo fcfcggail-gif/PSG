@@ -78,8 +78,7 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @flyv2ray #1",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
-        "🇷🇺 RU | VLESS | @v2raych #1"
+        "🇷🇺 RU | TROJAN | @v2raych #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -88,8 +87,7 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @flyv2ray #1",
-        "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
-        "🇷🇺 RU | VLESS | @v2raych #1"
+        "🇷🇺 RU | TROJAN | @v2raych #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -122,30 +120,11 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | VLESS | @v2ray_free_conf #1",
-      "type": "vless",
-      "server": "176.114.95.245",
-      "server_port": 443,
-      "uuid": "9a591702-24c7-4abf-9f14-ac59438a64e6",
-      "packet_encoding": "xudp",
-      "tls": {
-        "enabled": true,
-        "server_name": "",
-        "insecure": true,
-        "utls": {
-          "enabled": true,
-          "fingerprint": "chrome"
-        }
-      }
-    },
-    {
-      "tag": "🇷🇺 RU | VLESS | @v2raych #1",
-      "type": "vless",
-      "server": "84.54.58.149",
-      "server_port": 443,
-      "uuid": "ef5a57c7-84d5-4f86-b99c-875a16da485f",
-      "packet_encoding": "xudp",
-      "flow": "xtls-rprx-vision",
+      "tag": "🇷🇺 RU | TROJAN | @v2raych #1",
+      "type": "trojan",
+      "server": "ru-1.krugvpn.me",
+      "server_port": 2095,
+      "password": "cWM5aWtWR9",
       "tls": {
         "enabled": true,
         "server_name": "",

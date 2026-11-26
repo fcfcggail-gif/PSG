@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇹 AT | VMESS | @outlinereleasedkey #1"
+        "🇦🇹 AT | TROJAN | @mpproxy #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇹 AT | VMESS | @outlinereleasedkey #1"
+        "🇦🇹 AT | TROJAN | @mpproxy #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,16 +110,14 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇹 AT | VMESS | @outlinereleasedkey #1",
-      "type": "vmess",
-      "server": "154.47.19.225",
-      "server_port": 1270,
-      "uuid": "5c040f1d-45db-43bd-8d46-e4950e433735",
-      "security": "auto",
-      "alter_id": 0,
+      "tag": "🇦🇹 AT | TROJAN | @mpproxy #1",
+      "type": "trojan",
+      "server": "152.53.45.251",
+      "server_port": 8888,
+      "password": "trojan",
       "tls": {
         "enabled": true,
-        "server_name": "xmfhlpy.com",
+        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,

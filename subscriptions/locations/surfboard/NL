@@ -10,12 +10,12 @@ enhanced-mode-by-rule = true
 [Proxy]
 DIRECT = direct
 🇳🇱 NL | TROJAN | @flyv2ray #1 = trojan, 66.163.127.44, 443, password = 0ab6c98dae3b48e8b9c4a776b6c9c19a, skip-cert-verify = true
-🇳🇱 NL | VMESS | @v2ray_free_conf #1 = vmess, vmnl30-multi.multiserver-adelshoop.com, 80, username = 91917e63-75c3-4b9f-9721-ea0916919b49, ws = true, tls = false, ws-path = , ws-headers = Host:"vmnl30-multi.multiserver-adelshoop.com"
+🇳🇱 NL | TROJAN | @vpn_ioss #1 = trojan, 66.163.127.155, 443, password = 0ab6c98dae3b48e8b9c4a776b6c9c19a, skip-cert-verify = true
 
 [Proxy Group]
-PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇳🇱 NL | TROJAN | @flyv2ray #1, 🇳🇱 NL | VMESS | @v2ray_free_conf #1
-PSG-AUTO = url-test, 🇳🇱 NL | TROJAN | @flyv2ray #1, 🇳🇱 NL | VMESS | @v2ray_free_conf #1
-PSG-FALLBACK = fallback, 🇳🇱 NL | TROJAN | @flyv2ray #1, 🇳🇱 NL | VMESS | @v2ray_free_conf #1
+PSG-MANUAL = select, PSG-AUTO, PSG-FALLBACK, 🇳🇱 NL | TROJAN | @flyv2ray #1, 🇳🇱 NL | TROJAN | @vpn_ioss #1
+PSG-AUTO = url-test, 🇳🇱 NL | TROJAN | @flyv2ray #1, 🇳🇱 NL | TROJAN | @vpn_ioss #1
+PSG-FALLBACK = fallback, 🇳🇱 NL | TROJAN | @flyv2ray #1, 🇳🇱 NL | TROJAN | @vpn_ioss #1
 
 [Rule]
 GEOIP,IR,DIRECT
