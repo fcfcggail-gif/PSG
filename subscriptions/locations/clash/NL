@@ -24,6 +24,7 @@ dns:
 
 proxies: 
   - {"name": "🇳🇱 NL | TROJAN | @flyv2ray #1", "server": "66.163.127.44", "port": 443, "type": "trojan", "skip-cert-verify": false, "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a"}
+  - {"name": "🇳🇱 NL | VMESS | @v2ray_free_conf #1", "server": "vmnl30-multi.multiserver-adelshoop.com", "port": 80, "type": "vmess", "skip-cert-verify": true, "uuid": "91917e63-75c3-4b9f-9721-ea0916919b49", "alterId": 0, "cipher": "auto", "network": "ws", "tls": false, "ws-opts": {"path": "", "headers": {"Host": "vmnl30-multi.multiserver-adelshoop.com"}}}
 
 proxy-groups:
   - name: 🚀 Proxy
@@ -38,6 +39,7 @@ proxy-groups:
     interval: 300
     proxies: 
       - '🇳🇱 NL | TROJAN | @flyv2ray #1'
+      - '🇳🇱 NL | VMESS | @v2ray_free_conf #1'
 
   - name: 🌍 Global Media
     type: select

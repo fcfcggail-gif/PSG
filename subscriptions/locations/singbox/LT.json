@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇱🇹 LT | SS | @netfreedom0 #1"
+        "🇱🇹 LT | VLESS | @mtproxy22_v2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇱🇹 LT | SS | @netfreedom0 #1"
+        "🇱🇹 LT | VLESS | @mtproxy22_v2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,12 +110,26 @@
       "type": "direct"
     },
     {
-      "tag": "🇱🇹 LT | SS | @netfreedom0 #1",
-      "type": "shadowsocks",
-      "server": "195.238.126.20",
-      "server_port": 9068,
-      "method": "YWVzLTI1Ni1jZmI6bXdnUmc5aFJxM2I0UW53Yg==",
-      "password": null
+      "tag": "🇱🇹 LT | VLESS | @mtproxy22_v2ray #1",
+      "type": "vless",
+      "server": "84.32.209.54",
+      "server_port": 443,
+      "uuid": "f69e272f-e0e5-4e9d-b180-5be63930cde9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {
