@@ -90,6 +90,9 @@
       "outbounds": [
         "auto",
         "direct",
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @v2raych #1",
+        "🇫🇮 FI | VLESS | @v2raych #2",
         "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
         "🇫🇮 FI | VLESS | @vmesc #1"
       ],
@@ -99,6 +102,9 @@
     {
       "interval": "10m",
       "outbounds": [
+        "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+        "🇫🇮 FI | VLESS | @v2raych #1",
+        "🇫🇮 FI | VLESS | @v2raych #2",
         "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",
         "🇫🇮 FI | VLESS | @vmesc #1"
       ],
@@ -110,6 +116,58 @@
     {
       "tag": "direct",
       "type": "direct"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2ray_free_conf #1",
+      "type": "vless",
+      "server": "48.102.138.175",
+      "server_port": 8443,
+      "uuid": "e894c08a-fecc-46f5-bf03-c95d0274c79d",
+      "packet_encoding": "xudp"
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2raych #1",
+      "type": "vless",
+      "server": "48.102.138.175",
+      "server_port": 8443,
+      "uuid": "e894c08a-fecc-46f5-bf03-c95d0274c79d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇫🇮 FI | VLESS | @v2raych #2",
+      "type": "vless",
+      "server": "48.102.138.175",
+      "server_port": 8443,
+      "uuid": "e894c08a-fecc-46f5-bf03-c95d0274c79d",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
       "tag": "🇫🇮 FI | VLESS | @v2rayngvpn_1 #1",

@@ -91,7 +91,7 @@
         "auto",
         "direct",
         "🇷🇺 RU | VLESS | @flyv2ray #1",
-        "🇷🇺 RU | TROJAN | @v2raych #1"
+        "🇷🇺 RU | VLESS | @v2ray_youtube #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -100,7 +100,7 @@
       "interval": "10m",
       "outbounds": [
         "🇷🇺 RU | VLESS | @flyv2ray #1",
-        "🇷🇺 RU | TROJAN | @v2raych #1"
+        "🇷🇺 RU | VLESS | @v2ray_youtube #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -129,11 +129,12 @@
       }
     },
     {
-      "tag": "🇷🇺 RU | TROJAN | @v2raych #1",
-      "type": "trojan",
-      "server": "ru-1.krugvpn.me",
-      "server_port": 2095,
-      "password": "cWM5aWtWR9",
+      "tag": "🇷🇺 RU | VLESS | @v2ray_youtube #1",
+      "type": "vless",
+      "server": "157.22.185.60",
+      "server_port": 2058,
+      "uuid": "4ad9f982-b56a-444a-9684-35ce51307a36",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
         "server_name": "",
@@ -141,6 +142,11 @@
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }
