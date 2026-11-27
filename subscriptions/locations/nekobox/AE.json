@@ -77,8 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇦🇪 AE | VLESS | @red2ray #1",
-        "🇦🇪 AE | VLESS | @red2ray #2"
+        "🇦🇪 AE | VLESS | @bored_vpn #1",
+        "🇦🇪 AE | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -86,8 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇦🇪 AE | VLESS | @red2ray #1",
-        "🇦🇪 AE | VLESS | @red2ray #2"
+        "🇦🇪 AE | VLESS | @bored_vpn #1",
+        "🇦🇪 AE | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -103,15 +103,29 @@
       "type": "direct"
     },
     {
-      "tag": "🇦🇪 AE | VLESS | @red2ray #1",
+      "tag": "🇦🇪 AE | VLESS | @bored_vpn #1",
       "type": "vless",
-      "server": "189.30.65.203",
-      "server_port": 2083,
-      "uuid": "490dc3b4-8d1d-49fd-840e-bd5277b41557",
-      "packet_encoding": "xudp"
+      "server": "212.192.3.113",
+      "server_port": 9543,
+      "uuid": "920b3cd9-4f82-4669-bbd2-d4a28b9052c6",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     },
     {
-      "tag": "🇦🇪 AE | VLESS | @red2ray #2",
+      "tag": "🇦🇪 AE | VLESS | @red2ray #1",
       "type": "vless",
       "server": "212.192.3.63",
       "server_port": 9543,

@@ -77,7 +77,8 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇵🇱 PL | SS | @netfreedom0 #1"
+        "🇵🇱 PL | SS | @hope_net #1",
+        "🇵🇱 PL | VLESS | @red2ray #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -85,7 +86,8 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇵🇱 PL | SS | @netfreedom0 #1"
+        "🇵🇱 PL | SS | @hope_net #1",
+        "🇵🇱 PL | VLESS | @red2ray #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -101,12 +103,34 @@
       "type": "direct"
     },
     {
-      "tag": "🇵🇱 PL | SS | @netfreedom0 #1",
+      "tag": "🇵🇱 PL | SS | @hope_net #1",
       "type": "shadowsocks",
       "server": "217.30.10.44",
       "server_port": 9095,
       "method": "YWVzLTI1Ni1jZmI6TjdqM3BkVFlrS21zeThDUg==",
       "password": null
+    },
+    {
+      "tag": "🇵🇱 PL | VLESS | @red2ray #1",
+      "type": "vless",
+      "server": "45.142.212.191",
+      "server_port": 443,
+      "uuid": "148917bd-0b37-42b8-98f4-aa94ca73e75a",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
     }
   ],
   "route": {

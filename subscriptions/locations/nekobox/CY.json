@@ -78,6 +78,7 @@
         "auto",
         "direct",
         "🇨🇾 CY | VLESS | @bored_vpn #1",
+        "🇨🇾 CY | VLESS | @orange_vpns #1",
         "🇨🇾 CY | VLESS | @vpn_ioss #1"
       ],
       "tag": "proxy",
@@ -87,6 +88,7 @@
       "interval": "10m",
       "outbounds": [
         "🇨🇾 CY | VLESS | @bored_vpn #1",
+        "🇨🇾 CY | VLESS | @orange_vpns #1",
         "🇨🇾 CY | VLESS | @vpn_ioss #1"
       ],
       "tag": "auto",
@@ -108,6 +110,28 @@
       "server": "mirror.embrofree.org",
       "server_port": 443,
       "uuid": "713142c9-ad09-4894-b35c-645423f3f6c9",
+      "packet_encoding": "xudp",
+      "tls": {
+        "enabled": true,
+        "server_name": "",
+        "insecure": true,
+        "utls": {
+          "enabled": true,
+          "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
+        }
+      }
+    },
+    {
+      "tag": "🇨🇾 CY | VLESS | @orange_vpns #1",
+      "type": "vless",
+      "server": "132.243.242.244",
+      "server_port": 9543,
+      "uuid": "920b3cd9-4f82-4669-bbd2-d4a28b9052c6",
       "packet_encoding": "xudp",
       "tls": {
         "enabled": true,

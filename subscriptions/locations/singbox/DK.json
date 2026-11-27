@@ -1,4 +1,4 @@
-//profile-title: base64:UFNHIHwgWkE=
+//profile-title: base64:UFNHIHwgREs=
 //profile-update-interval: 1
 //subscription-userinfo: upload=0; download=0; total=10737418240000000; expire=2546249531
 //support-url: https://t.me/yebekhe
@@ -90,7 +90,7 @@
       "outbounds": [
         "auto",
         "direct",
-        "🇿🇦 ZA | TROJAN | @outlinereleasedkey #1"
+        "🇩🇰 DK | VLESS | @outlinereleasedkey #1"
       ],
       "tag": "proxy",
       "type": "selector"
@@ -98,7 +98,7 @@
     {
       "interval": "10m",
       "outbounds": [
-        "🇿🇦 ZA | TROJAN | @outlinereleasedkey #1"
+        "🇩🇰 DK | VLESS | @outlinereleasedkey #1"
       ],
       "tag": "auto",
       "tolerance": 50,
@@ -110,18 +110,24 @@
       "type": "direct"
     },
     {
-      "tag": "🇿🇦 ZA | TROJAN | @outlinereleasedkey #1",
-      "type": "trojan",
-      "server": "139.84.231.142",
-      "server_port": 443,
-      "password": "0ab6c98dae3b48e8b9c4a776b6c9c19a",
+      "tag": "🇩🇰 DK | VLESS | @outlinereleasedkey #1",
+      "type": "vless",
+      "server": "135.136.33.134",
+      "server_port": 8443,
+      "uuid": "9a597d68-6688-4046-bf24-a5a541e115e0",
+      "packet_encoding": "xudp",
       "tls": {
         "enabled": true,
-        "server_name": "explorecareerpathsandunlockprofessionalsuccesstoday.com",
+        "server_name": "",
         "insecure": true,
         "utls": {
           "enabled": true,
           "fingerprint": "chrome"
+        },
+        "reality": {
+          "public_key": "",
+          "short_id": "",
+          "enabled": true
         }
       }
     }
